@@ -1,5 +1,4 @@
 import { NavLink, Outlet } from 'react-router-dom'
-import { useAuth } from '../../context/AuthContext'
 
 const LINKS = [
   { to: '/', label: 'Treino', icon: '🧬' },
@@ -11,8 +10,6 @@ const LINKS = [
 ]
 
 export default function AppShell() {
-  const { user, logout, firebaseReady } = useAuth()
-
   return (
     <div className="wrap">
       <header className="site-header">
@@ -30,12 +27,9 @@ export default function AppShell() {
                 {link.label}
               </NavLink>
             ))}
-            <NavLink to="/conta">Conta</NavLink>
+            <NavLink to="/conta">Prova</NavLink>
           </nav>
-          <div className="pill">{user?.isDemo ? 'modo local' : firebaseReady ? 'sync Firebase' : 'demo'}</div>
-          <button className="ghost" type="button" onClick={logout}>
-            Sair
-          </button>
+          <div className="pill">salvo neste navegador</div>
         </div>
       </header>
       <Outlet />

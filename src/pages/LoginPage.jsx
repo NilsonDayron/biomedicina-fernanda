@@ -2,9 +2,10 @@ import { useState } from 'react'
 import { Navigate } from 'react-router-dom'
 import { useAuth } from '../context/AuthContext'
 import { QUESTIONS } from '../data/questions'
+import { isCloudSyncEnabled } from '../firebase/config'
 
 export default function LoginPage() {
-  const { user, firebaseReady, login, register, enterDemo } = useAuth()
+  const { user, login, register } = useAuth()
   const [mode, setMode] = useState('login')
   const [name, setName] = useState('')
   const [email, setEmail] = useState('')
@@ -12,7 +13,8 @@ export default function LoginPage() {
   const [busy, setBusy] = useState(false)
   const [error, setError] = useState('')
 
-  if (user) return <Navigate to="/" replace />
+  if (!isCloudSyncEnabled()) return <Navigate to="/" replace />
+  if (user && !user.isDemo) return <Navigate to="/" replace />
 
   async function submit(event) {
     event.preventDefault()
@@ -38,57 +40,31 @@ export default function LoginPage() {
             <p className="sub">Treino adaptativo V4 · {QUESTIONS.length} questões</p>
           </div>
         </div>
-        <h2>Estudar fazendo questões.</h2>
-        <p>
-          Filtro por matéria, animação didática, correção escrita depois do erro e +2 do mesmo
-          microtema. O progresso sincroniza quando o Firebase está configurado.
-        </p>
-        {!firebaseReady ? (
-          <div className="banner" style={{ margin: '14px 0' }}>
-            Firebase ainda não está configurado neste ambiente. Você pode estudar agora no <b>modo local</b>.
-          </div>
-        ) : (
-          <div className="banner" style={{ margin: '14px 0' }}>
-            Conta com e-mail e senha: o caderno de erros, o domínio e o tempo de estudo acompanham você em qualquer aparelho.
-          </div>
-        )}
-        {firebaseReady ? (
-          <form className="form" onSubmit={submit}>
-            {mode === 'register' ? (
-              <label>
-                Nome
-                <input value={name} onChange={(e) => setName(e.target.value)} placeholder="Como você quer ser chamado" />
-              </label>
-            ) : null}
+        <h2>Sincronizar entre aparelhos</h2>
+        <p>O treino já funciona neste navegador. Entre só se quiser ligar a conta na nuvem.</p>
+        <form className="form" onSubmit={submit}>
+          {mode === 'register' ? (
             <label>
-              E-mail
-              <input type="email" required value={email} onChange={(e) => setEmail(e.target.value)} />
+              Nome
+              <input value={name} onChange={(e) => setName(e.target.value)} placeholder="Como você quer ser chamado" />
             </label>
-            <label>
-              Senha
-              <input type="password" required minLength={6} value={password} onChange={(e) => setPassword(e.target.value)} />
-            </label>
-            {error ? <div className="error-text">{error}</div> : null}
-            <button className="primary" disabled={busy}>
-              {busy ? 'Aguarde...' : mode === 'login' ? 'Entrar' : 'Criar conta'}
-            </button>
-            <button
-              type="button"
-              className="ghost"
-              onClick={() => setMode(mode === 'login' ? 'register' : 'login')}
-            >
-              {mode === 'login' ? 'Quero criar conta' : 'Já tenho conta'}
-            </button>
-          </form>
-        ) : null}
-        <div className="actions" style={{ marginTop: 14 }}>
-          <button className="ghost" onClick={enterDemo}>
-            Continuar em modo local
+          ) : null}
+          <label>
+            E-mail
+            <input type="email" required value={email} onChange={(e) => setEmail(e.target.value)} />
+          </label>
+          <label>
+            Senha
+            <input type="password" required minLength={6} value={password} onChange={(e) => setPassword(e.target.value)} />
+          </label>
+          {error ? <div className="error-text">{error}</div> : null}
+          <button className="primary" disabled={busy}>
+            {busy ? 'Aguarde...' : mode === 'login' ? 'Entrar' : 'Criar conta'}
           </button>
-        </div>
-        <p className="muted" style={{ marginTop: 14 }}>
-          Modo foco TDAH: uma questão por vez. NADH = 3 ATP · FADH = 2 ATP · 1 volta de Krebs = 12 ATP.
-        </p>
+          <button type="button" className="ghost" onClick={() => setMode(mode === 'login' ? 'register' : 'login')}>
+            {mode === 'login' ? 'Quero criar conta' : 'Já tenho conta'}
+          </button>
+        </form>
       </div>
     </div>
   )

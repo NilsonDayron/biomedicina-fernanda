@@ -18,12 +18,17 @@ export function isFirebaseConfigured() {
   return Boolean(config.apiKey && config.authDomain && config.projectId && config.appId)
 }
 
+/** Sync na nuvem é opt-in. Sem isso, o app usa só localStorage e não inicializa o Firebase. */
+export function isCloudSyncEnabled() {
+  return import.meta.env.VITE_CLOUD_SYNC === 'true' && isFirebaseConfigured()
+}
+
 let app
 let auth
 let db
 
 export function getFirebase() {
-  if (!isFirebaseConfigured()) return { app: null, auth: null, db: null }
+  if (!isCloudSyncEnabled()) return { app: null, auth: null, db: null }
   if (!app) {
     app = initializeApp(readFirebaseWebConfig())
     auth = getAuth(app)

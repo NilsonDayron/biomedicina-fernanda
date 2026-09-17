@@ -1,10 +1,8 @@
 import { useState } from 'react'
 import { DEFAULT_EXAM_DATE, EVALUATION_DATES } from '../data/exam'
-import { useAuth } from '../context/AuthContext'
 import { useProgress } from '../context/ProgressContext'
 
 export default function AccountPage() {
-  const { user, firebaseReady, logout } = useAuth()
   const { state, changeExamDate, loading } = useProgress()
   const [date, setDate] = useState(state?.examDate || DEFAULT_EXAM_DATE)
 
@@ -14,26 +12,22 @@ export default function AccountPage() {
     <div>
       <div className="page-head">
         <div>
-          <h2>Conta e prova</h2>
-          <p>Marque a data da prova para a contagem regressiva do dashboard.</p>
+          <h2>Data da prova</h2>
+          <p>A contagem e o progresso ficam salvos neste navegador (localStorage). Não é preciso login.</p>
         </div>
       </div>
       <div className="grid-2">
         <section className="card">
-          <h3 style={{ marginTop: 0 }}>Sessão</h3>
+          <h3 style={{ marginTop: 0 }}>Armazenamento</h3>
           <p>
-            {user.displayName || user.email}
+            Tudo que você responde — acertos, erros, revisão e tempo de estudo — permanece neste aparelho.
             <br />
-            <span className="muted">{user.isDemo ? 'Modo local neste dispositivo' : user.email}</span>
+            <span className="muted">Se limpar os dados do site no Chrome/Safari, o histórico some.</span>
           </p>
           <div className="banner" style={{ margin: '12px 0' }}>
-            {firebaseReady && !user.isDemo
-              ? 'Seu progresso está no Firestore e acompanha o login em outros aparelhos.'
-              : 'Modo local: os dados ficam neste navegador até o Firebase ser configurado.'}
+            A sincronização na nuvem (Firebase) está desligada de propósito. O código continua no projeto para ser
+            religado no futuro com <code>VITE_CLOUD_SYNC=true</code>.
           </div>
-          <button className="ghost" onClick={logout}>
-            Sair
-          </button>
         </section>
         <section className="card">
           <h3 style={{ marginTop: 0 }}>Data da prova</h3>

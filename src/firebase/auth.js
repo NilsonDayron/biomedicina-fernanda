@@ -5,15 +5,16 @@ import {
   signOut,
   updateProfile,
 } from 'firebase/auth'
-import { getFirebase, isFirebaseConfigured } from './config'
+import { getFirebase, isCloudSyncEnabled } from './config'
 
 export const DEMO_UID = 'local-demo'
 export const DEMO_USER = {
   uid: DEMO_UID,
-  email: 'demo@local',
-  displayName: 'Modo local',
+  email: 'local@navegador',
+  displayName: 'Fernanda',
   isDemo: true,
 }
+export const LOCAL_USER = DEMO_USER
 
 function mapAuthError(error) {
   const code = error?.code || ''
@@ -29,7 +30,7 @@ function mapAuthError(error) {
 }
 
 export function watchAuth(callback) {
-  if (!isFirebaseConfigured()) {
+  if (!isCloudSyncEnabled()) {
     callback(null)
     return () => {}
   }
@@ -38,7 +39,7 @@ export function watchAuth(callback) {
 }
 
 export async function registerWithEmail(email, password, displayName) {
-  if (!isFirebaseConfigured()) throw new Error('Firebase não configurado.')
+  if (!isCloudSyncEnabled()) throw new Error('Sincronização na nuvem desligada.')
   const { auth } = getFirebase()
   try {
     const cred = await createUserWithEmailAndPassword(auth, email.trim(), password)
@@ -50,7 +51,7 @@ export async function registerWithEmail(email, password, displayName) {
 }
 
 export async function loginWithEmail(email, password) {
-  if (!isFirebaseConfigured()) throw new Error('Firebase não configurado.')
+  if (!isCloudSyncEnabled()) throw new Error('Sincronização na nuvem desligada.')
   const { auth } = getFirebase()
   try {
     const cred = await signInWithEmailAndPassword(auth, email.trim(), password)
@@ -61,7 +62,7 @@ export async function loginWithEmail(email, password) {
 }
 
 export async function logoutFirebase() {
-  if (!isFirebaseConfigured()) return
+  if (!isCloudSyncEnabled()) return
   const { auth } = getFirebase()
   await signOut(auth)
 }

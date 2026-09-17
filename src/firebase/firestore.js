@@ -1,5 +1,5 @@
 import { doc, getDoc, onSnapshot, serverTimestamp, setDoc } from 'firebase/firestore'
-import { getFirebase, isFirebaseConfigured } from './config'
+import { getFirebase, isCloudSyncEnabled } from './config'
 
 const ALLOWED_TOP = ['uid', 'examDate', 'createdAt', 'updatedAt', 'progress', 'answers', 'sessions']
 
@@ -53,14 +53,14 @@ export function deserializeState(uid, data, fallback) {
 }
 
 export async function loadRemoteProgress(uid, fallback) {
-  if (!isFirebaseConfigured()) return fallback
+  if (!isCloudSyncEnabled()) return fallback
   const snap = await getDoc(userDocRef(uid))
   if (!snap.exists()) return fallback
   return deserializeState(uid, snap.data(), fallback)
 }
 
 export async function saveRemoteProgress(uid, state) {
-  if (!isFirebaseConfigured()) return
+  if (!isCloudSyncEnabled()) return
   const payload = serializeState(uid, state)
   Object.keys(payload).forEach((key) => {
     if (!ALLOWED_TOP.includes(key)) delete payload[key]
@@ -69,7 +69,7 @@ export async function saveRemoteProgress(uid, state) {
 }
 
 export function subscribeRemoteProgress(uid, fallback, onData) {
-  if (!isFirebaseConfigured()) return () => {}
+  if (!isCloudSyncEnabled()) return () => {}
   return onSnapshot(userDocRef(uid), (snap) => {
     if (!snap.exists()) {
       onData(fallback)

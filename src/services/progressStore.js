@@ -1,5 +1,5 @@
 import { DEMO_UID } from '../firebase/auth'
-import { isFirebaseConfigured } from '../firebase/config'
+import { isCloudSyncEnabled } from '../firebase/config'
 import { loadRemoteProgress, saveRemoteProgress, subscribeRemoteProgress } from '../firebase/firestore'
 import { createEmptyProgress } from '../engine/progress'
 import { DEFAULT_EXAM_DATE } from '../data/exam'
@@ -32,7 +32,7 @@ export async function loadProgress(uid) {
   const fallback = newProgressState(uid)
   const local = readLocal(uid)
   const base = local ? { ...fallback, ...local, uid } : fallback
-  if (uid === DEMO_UID || !isFirebaseConfigured()) return base
+  if (uid === DEMO_UID || !isCloudSyncEnabled()) return base
   try {
     const remote = await loadRemoteProgress(uid, base)
     writeLocal(uid, remote)
@@ -46,7 +46,7 @@ export async function loadProgress(uid) {
 export async function saveProgress(uid, state) {
   const next = { ...state, uid, updatedAt: Date.now() }
   writeLocal(uid, next)
-  if (uid === DEMO_UID || !isFirebaseConfigured()) return next
+  if (uid === DEMO_UID || !isCloudSyncEnabled()) return next
   try {
     await saveRemoteProgress(uid, next)
   } catch (error) {
@@ -56,7 +56,7 @@ export async function saveProgress(uid, state) {
 }
 
 export function subscribeProgress(uid, onData) {
-  if (uid === DEMO_UID || !isFirebaseConfigured()) return () => {}
+  if (uid === DEMO_UID || !isCloudSyncEnabled()) return () => {}
   const fallback = newProgressState(uid)
   return subscribeRemoteProgress(uid, fallback, (state) => {
     writeLocal(uid, state)
