@@ -1,0 +1,103 @@
+// ===============================================================
+// Assumed Data Model
+// ===============================================================
+//
+// Collection: users
+// Document ID: Firebase Auth uid (or unused in demo/local mode)
+// Fields:
+//   - uid: string (required, immutable, must equal auth.uid and document ID)
+//   - examDate: string YYYY-MM-DD (required, 10 chars)
+//   - createdAt: number milliseconds (required, immutable)
+//   - updatedAt: timestamp | number (required)
+//   - progress: map (required)
+//       - totalStudyMs: number >= 0
+//       - lastStudyDate: string | null
+//       - streak: number >= 0
+//       - longestStreak: number >= 0
+//       - studyDates: list<string> size <= 400
+//   - answers: map keyed by questionId (required, size <= 200)
+//       each value is a map with attempt counters and spaced-repetition fields
+//   - sessions: list of maps size <= 40
+//
+// Access: owner-only. No public reads. No roles.
+// Demo/local mode does not write to Firestore.
+//
+// ===============================================================
+
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+
+    function isOwner(userId) {
+      return isAuthenticated() && request.auth.uid == userId;
+    }
+
+    function hasOnlyAllowedFields() {
+      return request.resource.data.keys().hasOnly([
+        'uid', 'examDate', 'createdAt', 'updatedAt', 'progress', 'answers', 'sessions'
+      ]);
+    }
+
+    function validExamDate(value) {
+      return value is string && value.size() == 10;
+    }
+
+    function isValidProgress(progress) {
+      return progress is map
+        && progress.keys().hasOnly(['totalStudyMs', 'lastStudyDate', 'streak', 'longestStreak', 'studyDates'])
+        && progress.totalStudyMs is number
+        && progress.totalStudyMs >= 0
+        && progress.totalStudyMs <= 100000000000
+        && progress.streak is number
+        && progress.streak >= 0
+        && progress.streak <= 20000
+        && progress.longestStreak is number
+        && progress.longestStreak >= 0
+        && progress.longestStreak <= 20000
+        && progress.studyDates is list
+        && progress.studyDates.size() <= 400
+        && (progress.lastStudyDate == null || (progress.lastStudyDate is string && progress.lastStudyDate.size() <= 10));
+    }
+
+    function isValidAnswers(answers) {
+      return answers is map && answers.size() <= 200;
+    }
+
+    function isValidSessions(sessions) {
+      return sessions is list && sessions.size() <= 40;
+    }
+
+    function isValidUser(data) {
+      return hasOnlyAllowedFields()
+        && data.uid is string
+        && data.uid == request.auth.uid
+        && data.uid.size() > 0
+        && data.uid.size() < 128
+        && validExamDate(data.examDate)
+        && data.createdAt is number
+        && isValidProgress(data.progress)
+        && isValidAnswers(data.answers)
+        && isValidSessions(data.sessions)
+        && (data.updatedAt is timestamp || data.updatedAt is number);
+    }
+
+    match /users/{userId} {
+      allow read: if isOwner(userId);
+
+      allow create: if isOwner(userId)
+        && request.resource.data.uid == userId
+        && isValidUser(request.resource.data);
+
+      allow update: if isOwner(userId)
+        && request.resource.data.uid == userId
+        && request.resource.data.uid == resource.data.uid
+        && request.resource.data.createdAt == resource.data.createdAt
+        && isValidUser(request.resource.data);
+
+      allow delete: if false;
+    }
+  }
+}

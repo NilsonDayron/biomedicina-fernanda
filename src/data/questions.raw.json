@@ -1,0 +1,2322 @@
+[
+  {
+    "id": 1,
+    "t": "Bioenergética e Termodinâmica",
+    "micro": "Termodinâmica",
+    "q": "Qual lei afirma que a energia não pode ser criada nem destruída, apenas transformada?",
+    "a": [
+      "1ª lei da Termodinâmica",
+      "2ª lei da Termodinâmica",
+      "Lei de Nernst",
+      "Lei de Gibbs"
+    ],
+    "c": 0,
+    "e": "A 1ª lei trata da conservação da energia.",
+    "s": "Pensa numa conta bancária de energia: você não cria dinheiro do nada nem faz ele desaparecer. Só transfere ou transforma. Na célula, energia química pode virar movimento, calor ou outras formas.",
+    "v": "energy"
+  },
+  {
+    "id": 2,
+    "t": "Bioenergética e Termodinâmica",
+    "micro": "Termodinâmica",
+    "q": "Na 2ª lei da Termodinâmica, qual tendência é destacada na apostila?",
+    "a": [
+      "Redução espontânea da entropia",
+      "Máxima dispersão e desordem",
+      "Criação líquida de energia",
+      "Equilíbrio sempre compatível com a vida"
+    ],
+    "c": 1,
+    "e": "A apostila associa a 2ª lei ao aumento de dispersão/desordem (entropia).",
+    "s": "A tendência natural é a bagunça aumentar. Para manter uma célula organizada, o organismo precisa gastar energia o tempo todo.",
+    "v": "energy"
+  },
+  {
+    "id": 3,
+    "t": "Bioenergética e Termodinâmica",
+    "micro": "Energia livre de Gibbs",
+    "q": "Uma reação com ΔG negativo é classificada como:",
+    "a": [
+      "Endergônica e não espontânea",
+      "Exergônica e espontânea",
+      "Isotérmica e reversível",
+      "Sem troca de energia"
+    ],
+    "c": 1,
+    "e": "ΔG negativo indica reação exergônica, com liberação de energia livre.",
+    "s": "ΔG negativo é como descer uma ladeira: o processo consegue acontecer sozinho no sentido indicado e libera energia disponível.",
+    "v": "energy"
+  },
+  {
+    "id": 4,
+    "t": "Bioenergética e Termodinâmica",
+    "micro": "Energia livre de Gibbs",
+    "q": "Uma reação endergônica apresenta, na apostila:",
+    "a": [
+      "ΔG negativo",
+      "ΔG igual a zero",
+      "ΔG positivo",
+      "Ausência de reagentes"
+    ],
+    "c": 2,
+    "e": "Reações endergônicas têm ΔG positivo e exigem aporte energético.",
+    "s": "ΔG positivo é como subir uma ladeira: precisa de um empurrão energético para acontecer.",
+    "v": "energy"
+  },
+  {
+    "id": 5,
+    "t": "Bioenergética e Termodinâmica",
+    "micro": "Estado estacionário",
+    "q": "Por que a célula é apresentada como um sistema aberto?",
+    "a": [
+      "Porque não troca matéria nem energia",
+      "Porque troca continuamente matéria e energia com o ambiente",
+      "Porque está sempre em equilíbrio termodinâmico",
+      "Porque não dissipa calor"
+    ],
+    "c": 1,
+    "e": "A célula recebe nutrientes/energia e elimina calor/resíduos.",
+    "s": "A célula não vive isolada. Ela recebe nutrientes e energia do ambiente e devolve calor e resíduos. É isso que faz dela um sistema aberto.",
+    "v": "cell"
+  },
+  {
+    "id": 6,
+    "t": "Bioenergética e Termodinâmica",
+    "micro": "Acoplamento energético",
+    "q": "Qual reação aparece como 'engrenagem motriz' capaz de impulsionar trabalho celular?",
+    "a": [
+      "Síntese de ATP",
+      "Hidrólise de ATP",
+      "Formação de H2O2",
+      "Entrada passiva de K+"
+    ],
+    "c": 1,
+    "e": "A hidrólise de ATP libera energia livre e pode ser acoplada a processos com ΔG positivo.",
+    "s": "O ATP funciona como uma bateria carregada. Quando ele é quebrado em ADP + Pi, libera energia que pode ser usada para 'pagar' processos celulares.",
+    "v": "atp"
+  },
+  {
+    "id": 7,
+    "t": "Bioenergética e Termodinâmica",
+    "micro": "Vias energéticas",
+    "q": "Qual via tem velocidade altíssima, dura segundos e independe de O2?",
+    "a": [
+      "Via aeróbia",
+      "Via ATP-PCr",
+      "Fosforilação oxidativa",
+      "Ciclo de Krebs"
+    ],
+    "c": 1,
+    "e": "A matriz da apostila descreve a via ATP-PCr como muito rápida, anaeróbia e de baixíssimo rendimento.",
+    "s": "ATP-PCr é o modo turbo: entrega energia quase imediatamente, mas dura pouco tempo e não precisa de oxigênio.",
+    "v": "compare"
+  },
+  {
+    "id": 8,
+    "t": "Bioenergética e Termodinâmica",
+    "micro": "Vias energéticas",
+    "q": "Qual via é lenta, depende estritamente de O2 e possui rendimento altíssimo?",
+    "a": [
+      "Via ATP-PCr",
+      "Glicólise anaeróbia",
+      "Via aeróbia / fosforilação oxidativa",
+      "Fermentação lática"
+    ],
+    "c": 2,
+    "e": "A via aeróbia é lenta, O2-dependente e de alto rendimento.",
+    "s": "A via aeróbia é mais lenta para entregar energia, mas rende muito mais ATP e depende de oxigênio.",
+    "v": "compare"
+  },
+  {
+    "id": 9,
+    "t": "Bioenergética e Termodinâmica",
+    "micro": "Fosforilação oxidativa",
+    "q": "Na cadeia respiratória, qual é o aceptor final de elétrons mostrado na apostila?",
+    "a": [
+      "ATP",
+      "O2",
+      "Na+",
+      "Lactato"
+    ],
+    "c": 1,
+    "e": "O oxigênio recebe elétrons ao final e participa da formação de H2O.",
+    "s": "Na cadeia respiratória, os elétrons precisam terminar em algum lugar. O oxigênio é o receptor final e, ao recebê-los, participa da formação de água.",
+    "v": "etc"
+  },
+  {
+    "id": 10,
+    "t": "Bioenergética e Termodinâmica",
+    "micro": "Fosforilação oxidativa",
+    "q": "O retorno dos prótons pela ATP sintase serve diretamente para:",
+    "a": [
+      "Formar gradiente de Na+",
+      "Gerar ATP",
+      "Produzir superóxido obrigatoriamente",
+      "Expulsar K+ da célula"
+    ],
+    "c": 1,
+    "e": "O fluxo de H+ pela ATP sintase dirige a síntese de ATP.",
+    "s": "Os prótons ficam acumulados de um lado da membrana como água atrás de uma barragem. Quando voltam pela ATP sintase, essa passagem é usada para fabricar ATP.",
+    "v": "etc"
+  },
+  {
+    "id": 11,
+    "t": "Bioenergética e Termodinâmica",
+    "micro": "Bomba Na+/K+",
+    "q": "Para cada ATP hidrolisado, qual estequiometria é mostrada?",
+    "a": [
+      "2 Na+ saem e 3 K+ entram",
+      "3 Na+ saem e 2 K+ entram",
+      "3 Na+ entram e 2 K+ saem",
+      "1 Na+ sai e 1 K+ entra"
+    ],
+    "c": 1,
+    "e": "A Na+/K+ ATPase ejeta 3 Na+ e internaliza 2 K+ por ATP.",
+    "s": "A bomba Na+/K+ usa 1 ATP para tirar 3 sódios da célula e colocar 2 potássios para dentro.",
+    "v": "cell"
+  },
+  {
+    "id": 12,
+    "t": "Bioenergética e Termodinâmica",
+    "micro": "Bomba Na+/K+",
+    "q": "Segundo a apostila, a manutenção do desequilíbrio iônico em repouso consome aproximadamente:",
+    "a": [
+      "1% a 2% do gasto basal",
+      "5% do gasto basal",
+      "25% a 30% do gasto basal",
+      "70% a 90% do gasto basal"
+    ],
+    "c": 2,
+    "e": "A apostila destaca um custo de cerca de 25% a 30% do gasto energético basal.",
+    "s": "Mesmo parada, a célula gasta muita energia só para manter sódio e potássio em seus lugares corretos. A apostila estima cerca de 25% a 30% do gasto basal.",
+    "v": "cell"
+  },
+  {
+    "id": 13,
+    "t": "Bioenergética e Termodinâmica",
+    "micro": "Equilíbrio de Nernst",
+    "q": "No exemplo do K+, a força química tende a empurrar K+ para:",
+    "a": [
+      "Fora da célula",
+      "Dentro da célula",
+      "A mitocôndria",
+      "O núcleo"
+    ],
+    "c": 0,
+    "e": "O gradiente químico favorece a saída de K+, enquanto a força elétrica o atrai para dentro.",
+    "s": "Como existe muito K+ dentro da célula, ele tende a escapar para fora. Isso é a força química do gradiente.",
+    "v": "energy"
+  },
+  {
+    "id": 14,
+    "t": "Bioenergética e Termodinâmica",
+    "micro": "Equilíbrio de Nernst",
+    "q": "O potencial de equilíbrio ocorre quando:",
+    "a": [
+      "O gradiente químico desaparece",
+      "A força elétrica supera totalmente a química",
+      "Repuxo elétrico e vazamento químico se anulam",
+      "ATP deixa de ser produzido"
+    ],
+    "c": 2,
+    "e": "No potencial de equilíbrio, as forças química e elétrica se compensam.",
+    "s": "No equilíbrio de Nernst, uma força quer empurrar o íon para um lado e a outra para o lado oposto. O equilíbrio acontece quando essas forças se anulam.",
+    "v": "energy"
+  },
+  {
+    "id": 15,
+    "t": "Bioenergética e Termodinâmica",
+    "micro": "Hipercalemia",
+    "q": "Na cascata apresentada, o aumento de K+ extracelular primeiro provoca:",
+    "a": [
+      "Fortalecimento do gradiente de K+",
+      "Anulação/enfraquecimento do gradiente",
+      "Hiperpolarização extrema",
+      "Aumento direto de ATP"
+    ],
+    "c": 1,
+    "e": "A hipercalemia reduz o gradiente químico de K+ e favorece despolarização.",
+    "s": "Quando há K+ demais fora da célula, a diferença entre dentro e fora diminui. Com menos gradiente, a membrana perde parte da sua negatividade e despolariza.",
+    "v": "cell"
+  },
+  {
+    "id": 16,
+    "t": "Bioenergética e Termodinâmica",
+    "micro": "Hipercalemia",
+    "q": "Qual desfecho clínico aparece ao final da cascata de hipercalemia?",
+    "a": [
+      "Taquicardia sinusal sempre reversível",
+      "Parada cardíaca em diástole",
+      "Aumento da excitabilidade indefinido",
+      "Hipertrofia ventricular imediata"
+    ],
+    "c": 1,
+    "e": "A cascata ilustrada termina em parada cardíaca em diástole.",
+    "s": "A apostila mostra uma sequência em que a hipercalemia pode reduzir a excitabilidade cardíaca e, em situação grave, terminar em parada cardíaca em diástole.",
+    "v": "cell"
+  },
+  {
+    "id": 17,
+    "t": "Bioenergética e Termodinâmica",
+    "micro": "Oxigênio e EROs",
+    "q": "Qual é o paradoxo do oxigênio apresentado?",
+    "a": [
+      "Ele reduz ATP, mas impede EROs",
+      "Ele é necessário à alta eficiência aeróbia, mas também pode gerar espécies reativas",
+      "Ele só é tóxico em ausência de mitocôndrias",
+      "Ele não participa da respiração celular"
+    ],
+    "c": 1,
+    "e": "O2 sustenta a respiração aeróbia, mas seu caráter reativo traz custo oxidativo.",
+    "s": "O oxigênio é ótimo porque permite produzir muita energia, mas tem um preço: parte dele pode participar da formação de moléculas reativas que danificam estruturas celulares.",
+    "v": "oxygen"
+  },
+  {
+    "id": 18,
+    "t": "Bioenergética e Termodinâmica",
+    "micro": "Radicais livres",
+    "q": "O que caracteriza um radical livre na apostila?",
+    "a": [
+      "Número par de elétrons na última camada",
+      "Ausência completa de elétrons",
+      "Número ímpar de elétrons na última camada",
+      "Somente carga positiva"
+    ],
+    "c": 2,
+    "e": "A apostila define o radical livre pela presença de elétron não pareado.",
+    "s": "Um radical livre tem um elétron 'sozinho', sem par. Isso o torna muito reativo, porque ele tende a reagir com outras moléculas para tentar estabilizar-se.",
+    "v": "molecule"
+  },
+  {
+    "id": 19,
+    "t": "Bioenergética e Termodinâmica",
+    "micro": "Radicais livres",
+    "q": "Qual espécie é chamada de 'Paciente Zero' na sequência de EROs?",
+    "a": [
+      "H2O",
+      "Superóxido (O2•−)",
+      "Radical hidroxila (OH•)",
+      "O2 molecular"
+    ],
+    "c": 1,
+    "e": "O superóxido é apresentado como a espécie inicial gerada pelo vazamento eletrônico.",
+    "s": "O superóxido é mostrado como o primeiro problema da cadeia: nasce do vazamento de elétrons e pode dar origem a outras espécies reativas.",
+    "v": "molecule"
+  },
+  {
+    "id": 20,
+    "t": "Bioenergética e Termodinâmica",
+    "micro": "Radicais livres",
+    "q": "Qual espécie é descrita como o 'Assassino Final', extremamente reativa?",
+    "a": [
+      "Peróxido de hidrogênio",
+      "Superóxido",
+      "Radical hidroxila",
+      "Oxigênio molecular"
+    ],
+    "c": 2,
+    "e": "O radical hidroxila (OH•) é destacado como altamente destrutivo.",
+    "s": "O radical hidroxila é extremamente agressivo. Ele reage quase imediatamente com o que estiver por perto, por isso é mostrado como o mais perigoso.",
+    "v": "molecule"
+  },
+  {
+    "id": 21,
+    "t": "Bioenergética e Termodinâmica",
+    "micro": "Reação de Fenton",
+    "q": "Na figura, a reação de Fenton envolve H2O2 e qual metal de transição?",
+    "a": [
+      "Na+",
+      "Ca2+",
+      "Fe2+",
+      "K+"
+    ],
+    "c": 2,
+    "e": "A ilustração mostra Fe2+ catalisando a conversão de H2O2 em radical hidroxila.",
+    "s": "A reação de Fenton é como jogar combustível no incêndio oxidativo: ferro livre pode transformar H2O2 em radical hidroxila, que é muito mais agressivo.",
+    "v": "molecule"
+  },
+  {
+    "id": 22,
+    "t": "Bioenergética e Termodinâmica",
+    "micro": "Defesas antioxidantes",
+    "q": "Qual conjunto é apresentado como defesa enzimática inata?",
+    "a": [
+      "Vitamina C, vitamina E e glicose",
+      "SOD, catalase e glutationa peroxidase",
+      "ATP, ADP e Pi",
+      "Na+, K+ e Cl−"
+    ],
+    "c": 1,
+    "e": "SOD, catalase e glutationa peroxidase aparecem como defesas enzimáticas.",
+    "s": "SOD, catalase e glutationa peroxidase funcionam como uma equipe de limpeza química, transformando espécies reativas em produtos menos perigosos.",
+    "v": "cell"
+  },
+  {
+    "id": 23,
+    "t": "Bioenergética e Termodinâmica",
+    "micro": "Defesas antioxidantes",
+    "q": "Quais antioxidantes não enzimáticos da dieta aparecem na apostila?",
+    "a": [
+      "Vitaminas C e E",
+      "Vitaminas B1 e B12",
+      "Vitamina K e ferro",
+      "Vitamina D e cálcio"
+    ],
+    "c": 0,
+    "e": "A figura cita vitaminas C e E como scavengers não enzimáticos.",
+    "s": "Vitaminas C e E ajudam a neutralizar espécies reativas oferecendo elétrons de forma controlada, sem virar moléculas perigosamente instáveis.",
+    "v": "cell"
+  },
+  {
+    "id": 24,
+    "t": "Bioenergética e Termodinâmica",
+    "micro": "UCPs",
+    "q": "Qual é a função das UCPs descrita na apostila?",
+    "a": [
+      "Bloquear completamente o fluxo de H+",
+      "Permitir retorno de H+ sem gerar ATP, dissipando energia como calor",
+      "Transportar Na+ para fora",
+      "Produzir diretamente H2O2"
+    ],
+    "c": 1,
+    "e": "As UCPs desacoplam parte do gradiente, permitindo fluxo de prótons com termogênese.",
+    "s": "A UCP abre uma rota alternativa para os prótons voltarem. Em vez de toda essa energia virar ATP, parte vira calor.",
+    "v": "mitochondria"
+  },
+  {
+    "id": 25,
+    "t": "Bioenergética e Termodinâmica",
+    "micro": "UCPs",
+    "q": "Quando o potencial redox está criticamente alto, as UCPs são apresentadas como:",
+    "a": [
+      "Válvulas de alívio",
+      "Enzimas digestivas",
+      "Receptores de insulina",
+      "Canais de Na+"
+    ],
+    "c": 0,
+    "e": "A analogia da apostila é de uma válvula de alívio contra excesso de pressão redox.",
+    "s": "Se a 'pressão' do gradiente/redox estiver alta demais, as UCPs funcionam como uma válvula que alivia essa pressão e reduz o risco de excesso de espécies reativas.",
+    "v": "mitochondria"
+  },
+  {
+    "id": 26,
+    "t": "Bioenergética e Termodinâmica",
+    "micro": "Síntese final",
+    "q": "A manutenção da vida aeróbia é descrita como um equilíbrio contínuo entre:",
+    "a": [
+      "Somente produção de ATP e glicose",
+      "Geração de energia/lixo oxidativo e defesa/reparo/desacoplamento",
+      "Sódio e cálcio apenas",
+      "Entropia zero e temperatura zero"
+    ],
+    "c": 1,
+    "e": "A síntese final contrapõe produção energética/estresse oxidativo a defesa, reparo e desacoplamento.",
+    "s": "A célula precisa equilibrar duas coisas o tempo todo: produzir energia, o que também gera desgaste oxidativo, e manter sistemas de defesa e reparo para não acumular dano.",
+    "v": "energy"
+  },
+  {
+    "id": 27,
+    "t": "Bioenergética e Termodinâmica",
+    "micro": "Estado estacionário",
+    "q": "Por que o equilíbrio termodinâmico absoluto é incompatível com a vida, segundo a apostila?",
+    "a": [
+      "Porque a célula precisa manter fluxos e gradientes por trabalho contínuo",
+      "Porque equilíbrio produz ATP demais",
+      "Porque impede toda formação de calor",
+      "Porque aumenta oxigênio intracelular"
+    ],
+    "c": 0,
+    "e": "A vida exige estado estacionário com manutenção ativa de gradientes; equilíbrio absoluto é associado à morte.",
+    "s": "Equilíbrio absoluto significaria não haver mais diferença, fluxo ou trabalho acontecendo. Uma célula viva precisa justamente manter diferenças e fluxos usando energia.",
+    "v": "cell"
+  },
+  {
+    "id": 28,
+    "t": "Bioenergética e Termodinâmica",
+    "micro": "Acoplamento energético",
+    "q": "No acoplamento, o objetivo é tornar a variação líquida de energia:",
+    "a": [
+      "Positiva",
+      "Nula obrigatoriamente",
+      "Negativa",
+      "Independente de ATP"
+    ],
+    "c": 2,
+    "e": "A reação favorável é acoplada à desfavorável para que o ΔG líquido fique negativo.",
+    "s": "A célula junta uma reação que libera energia com outra que precisa de energia. Se a soma final ficar favorável, o processo consegue seguir em frente.",
+    "v": "atp"
+  },
+  {
+    "id": 29,
+    "t": "Bioenergética e Termodinâmica",
+    "micro": "Fosforilação oxidativa",
+    "q": "Qual é a 'força motriz' que se acumula entre os lados da membrana interna mitocondrial?",
+    "a": [
+      "Gradiente de prótons (H+)",
+      "Gradiente de glicose",
+      "Gradiente de cálcio apenas",
+      "Gradiente de lactato"
+    ],
+    "c": 0,
+    "e": "A cadeia transportadora usa energia dos elétrons para bombear H+ e formar um gradiente.",
+    "s": "Os prótons acumulados formam uma diferença de concentração e carga. Essa diferença guarda energia, como água represada antes de passar por uma turbina.",
+    "v": "etc"
+  },
+  {
+    "id": 30,
+    "t": "Bioenergética e Termodinâmica",
+    "micro": "Radicais livres",
+    "q": "Segundo a apostila, cerca de que fração do O2 pode 'escapar' prematuramente da cadeia e formar superóxido?",
+    "a": [
+      "0%",
+      "1% a 2%",
+      "10% a 20%",
+      "50%"
+    ],
+    "c": 1,
+    "e": "A figura cita aproximadamente 1% a 2% do oxigênio escapando do fluxo normal.",
+    "s": "A cadeia respiratória não é perfeita. A apostila mostra que uma pequena parte do oxigênio, cerca de 1% a 2%, pode participar de vazamentos eletrônicos e formar superóxido.",
+    "v": "molecule"
+  },
+  {
+    "id": 31,
+    "t": "Fundamentos",
+    "micro": "Bioquímica",
+    "q": "A Bioquímica estuda principalmente:",
+    "a": [
+      "processos químicos que ocorrem nos organismos vivos",
+      "apenas doenças infecciosas",
+      "somente anatomia macroscópica",
+      "somente genética de populações"
+    ],
+    "c": 0,
+    "e": "Os slides definem Bioquímica como a ciência dos processos químicos dos organismos vivos.",
+    "s": "É a química funcionando dentro da vida.",
+    "v": "cell"
+  },
+  {
+    "id": 32,
+    "t": "Fundamentos",
+    "micro": "Metabolismo",
+    "q": "Metabolismo celular corresponde a:",
+    "a": [
+      "absorção intestinal",
+      "conjunto de todas as reações químicas da célula",
+      "divisão do núcleo",
+      "somente produção de ATP"
+    ],
+    "c": 1,
+    "e": "Metabolismo é o conjunto/somatório das transformações químicas celulares.",
+    "s": "Tudo que a célula constrói, quebra e transforma.",
+    "v": "metabolism"
+  },
+  {
+    "id": 33,
+    "t": "Fundamentos",
+    "micro": "Anabolismo",
+    "q": "Anabolismo é caracterizado por reações de:",
+    "a": [
+      "difusão",
+      "síntese",
+      "fermentação apenas",
+      "degradação"
+    ],
+    "c": 1,
+    "e": "Os slides definem anabolismo como reações de síntese.",
+    "s": "Anabolismo é montar.",
+    "v": "anabolism"
+  },
+  {
+    "id": 34,
+    "t": "Fundamentos",
+    "micro": "Catabolismo",
+    "q": "Catabolismo é caracterizado por reações de:",
+    "a": [
+      "osmose",
+      "síntese",
+      "degradação",
+      "transcrição apenas"
+    ],
+    "c": 2,
+    "e": "Os slides definem catabolismo como reações de degradação.",
+    "s": "Catabolismo é desmontar e liberar componentes/energia.",
+    "v": "catabolism"
+  },
+  {
+    "id": 35,
+    "t": "Fundamentos",
+    "micro": "Elementos",
+    "q": "Os principais elementos destacados na matéria viva são:",
+    "a": [
+      "Au, Ag, Pt e Hg",
+      "Na, Cl, Fe e Cu apenas",
+      "C, H, O e N",
+      "He, Ne, Ar e Kr"
+    ],
+    "c": 2,
+    "e": "Carbono, hidrogênio, oxigênio e nitrogênio são destacados como predominantes.",
+    "s": "Lembre de CHON.",
+    "v": "atom"
+  },
+  {
+    "id": 36,
+    "t": "Fundamentos",
+    "micro": "Componentes químicos",
+    "q": "Os componentes inorgânicos destacados são:",
+    "a": [
+      "ácidos nucleicos e vitaminas",
+      "água e sais minerais",
+      "carboidratos e lipídeos",
+      "proteínas e enzimas"
+    ],
+    "c": 1,
+    "e": "Os slides separam água e sais minerais como inorgânicos.",
+    "s": "Água e sais minerais ficam fora das grandes biomoléculas orgânicas.",
+    "v": "molecule"
+  },
+  {
+    "id": 37,
+    "t": "Fundamentos",
+    "micro": "Polímeros",
+    "q": "Monômeros são:",
+    "a": [
+      "hormônios pancreáticos",
+      "unidades estruturais básicas que podem formar polímeros",
+      "membranas celulares",
+      "enzimas digestivas"
+    ],
+    "c": 1,
+    "e": "Monômeros são unidades básicas repetidas nos polímeros.",
+    "s": "Peças de LEGO que formam moléculas maiores.",
+    "v": "polymer"
+  },
+  {
+    "id": 38,
+    "t": "Fundamentos",
+    "micro": "Polimerização",
+    "q": "Polimerização é:",
+    "a": [
+      "entrada de glicose por GLUT4",
+      "remoção de CO2 do piruvato",
+      "quebra de ATP em ADP",
+      "união de monômeros para formar polímeros"
+    ],
+    "c": 3,
+    "e": "Polimerização une pequenas unidades em macromoléculas.",
+    "s": "Juntar peças pequenas para montar uma estrutura grande.",
+    "v": "polymer"
+  },
+  {
+    "id": 39,
+    "t": "Carboidratos",
+    "micro": "Composição",
+    "q": "Carboidratos são formados principalmente por:",
+    "a": [
+      "carbono, nitrogênio e fósforo",
+      "carbono, hidrogênio e oxigênio",
+      "ferro, cálcio e magnésio",
+      "sódio, potássio e cloro"
+    ],
+    "c": 1,
+    "e": "Os slides apresentam carboidratos como moléculas de C, H e O.",
+    "s": "Lembre de C-H-O.",
+    "v": "glucose"
+  },
+  {
+    "id": 40,
+    "t": "Carboidratos",
+    "micro": "Fórmula geral",
+    "q": "A fórmula geral apresentada para monossacarídeos é:",
+    "a": [
+      "NH2-CHR-COOH",
+      "C2H5OH",
+      "C3H8O3",
+      "(CH2O)n"
+    ],
+    "c": 3,
+    "e": "A fórmula geral apresentada é (CH2O)n.",
+    "s": "A proporção lembra um carbono para uma 'água'.",
+    "v": "glucose"
+  },
+  {
+    "id": 41,
+    "t": "Carboidratos",
+    "micro": "Monossacarídeos",
+    "q": "Monossacarídeos são:",
+    "a": [
+      "somente açúcares de reserva",
+      "as unidades mais simples dos carboidratos",
+      "proteínas transportadoras",
+      "polímeros com centenas de unidades"
+    ],
+    "c": 1,
+    "e": "Glicose, frutose e ribose aparecem como exemplos.",
+    "s": "São os tijolos básicos dos carboidratos.",
+    "v": "glucose"
+  },
+  {
+    "id": 42,
+    "t": "Carboidratos",
+    "micro": "Oligossacarídeos",
+    "q": "Oligossacarídeos são:",
+    "a": [
+      "uma única glicose",
+      "proteínas de membrana",
+      "cadeias pequenas de monossacarídeos unidos",
+      "ácidos graxos"
+    ],
+    "c": 2,
+    "e": "São cadeias pequenas unidas por ligações glicosídicas.",
+    "s": "Um pequeno colar de açúcares.",
+    "v": "polymer"
+  },
+  {
+    "id": 43,
+    "t": "Carboidratos",
+    "micro": "Polissacarídeos",
+    "q": "Polissacarídeos são:",
+    "a": [
+      "duas proteínas unidas",
+      "somente três carbonos",
+      "macromoléculas formadas por muitos monossacarídeos",
+      "uma base nitrogenada com fosfato"
+    ],
+    "c": 2,
+    "e": "São polímeros de monossacarídeos.",
+    "s": "Muitos açúcares simples formando uma cadeia grande.",
+    "v": "polymer"
+  },
+  {
+    "id": 44,
+    "t": "Carboidratos",
+    "micro": "Carbonila",
+    "q": "O grupo carbonila é:",
+    "a": [
+      "-NH2",
+      "C=O",
+      "-PO4",
+      "-OH"
+    ],
+    "c": 1,
+    "e": "Carbonila é um carbono em dupla ligação com oxigênio.",
+    "s": "Carbonila = C grudado em O por ligação dupla.",
+    "v": "carbonyl"
+  },
+  {
+    "id": 45,
+    "t": "Carboidratos",
+    "micro": "Aldose",
+    "q": "Em uma aldose, a carbonila fica:",
+    "a": [
+      "na extremidade da cadeia",
+      "sempre no segundo carbono",
+      "ligada a fosfato",
+      "ausente"
+    ],
+    "c": 0,
+    "e": "Aldoses apresentam função aldeído com carbonila terminal.",
+    "s": "Aldose: C=O na ponta.",
+    "v": "aldose"
+  },
+  {
+    "id": 46,
+    "t": "Carboidratos",
+    "micro": "Cetose",
+    "q": "Em uma cetose, a carbonila fica:",
+    "a": [
+      "fora da molécula",
+      "em posição interna da cadeia",
+      "obrigatoriamente na extremidade",
+      "no grupo fosfato"
+    ],
+    "c": 1,
+    "e": "Cetoses têm carbonila em posição interna.",
+    "s": "Cetose: C=O no meio.",
+    "v": "ketose"
+  },
+  {
+    "id": 47,
+    "t": "Carboidratos",
+    "micro": "Aldose exemplo",
+    "q": "Um exemplo de aldose citado é:",
+    "a": [
+      "ribulose",
+      "xilulose",
+      "glicose",
+      "frutose"
+    ],
+    "c": 2,
+    "e": "Glicose, ribose e galactose aparecem como aldoses.",
+    "s": "Glicose é o exemplo mais cobrado.",
+    "v": "aldose"
+  },
+  {
+    "id": 48,
+    "t": "Carboidratos",
+    "micro": "Cetose exemplo",
+    "q": "Um exemplo de cetose citado é:",
+    "a": [
+      "frutose",
+      "ribose",
+      "glicose",
+      "galactose"
+    ],
+    "c": 0,
+    "e": "Frutose, ribulose e xilulose aparecem como cetoses.",
+    "s": "Frutose é o exemplo clássico.",
+    "v": "ketose"
+  },
+  {
+    "id": 49,
+    "t": "Carboidratos",
+    "micro": "Triose",
+    "q": "Monossacarídeo com 3 carbonos é:",
+    "a": [
+      "heptose",
+      "hexose",
+      "pentose",
+      "triose"
+    ],
+    "c": 3,
+    "e": "Triose possui 3 carbonos.",
+    "s": "Tri = três.",
+    "v": "carbonchain"
+  },
+  {
+    "id": 50,
+    "t": "Carboidratos",
+    "micro": "Pentose",
+    "q": "Monossacarídeo com 5 carbonos é:",
+    "a": [
+      "hexose",
+      "octose",
+      "triose",
+      "pentose"
+    ],
+    "c": 3,
+    "e": "Pentose possui 5 carbonos.",
+    "s": "Penta = cinco.",
+    "v": "carbonchain"
+  },
+  {
+    "id": 51,
+    "t": "Carboidratos",
+    "micro": "Hexose",
+    "q": "Monossacarídeo com 6 carbonos é:",
+    "a": [
+      "heptose",
+      "hexose",
+      "tetrose",
+      "pentose"
+    ],
+    "c": 1,
+    "e": "Hexose possui 6 carbonos.",
+    "s": "Hexa = seis.",
+    "v": "carbonchain"
+  },
+  {
+    "id": 52,
+    "t": "Carboidratos",
+    "micro": "Ribose",
+    "q": "A pentose presente no RNA e no ATP é:",
+    "a": [
+      "desoxirribose",
+      "galactose",
+      "frutose",
+      "ribose"
+    ],
+    "c": 3,
+    "e": "Os slides relacionam ribose ao RNA e ao ATP.",
+    "s": "RNA e ATP usam ribose.",
+    "v": "ribose"
+  },
+  {
+    "id": 53,
+    "t": "Carboidratos",
+    "micro": "Desoxirribose",
+    "q": "A pentose presente no DNA é:",
+    "a": [
+      "glicose",
+      "frutose",
+      "ribose",
+      "desoxirribose"
+    ],
+    "c": 3,
+    "e": "Desoxirribose é o açúcar do DNA.",
+    "s": "DNA = desoxirribose.",
+    "v": "ribose"
+  },
+  {
+    "id": 54,
+    "t": "Carboidratos",
+    "micro": "Dissacarídeos",
+    "q": "Dissacarídeos são formados por:",
+    "a": [
+      "dois monossacarídeos",
+      "dois ácidos graxos",
+      "três fosfatos",
+      "duas proteínas"
+    ],
+    "c": 0,
+    "e": "Dissacarídeos resultam da união de dois monossacarídeos.",
+    "s": "Di = dois açúcares simples.",
+    "v": "polymer"
+  },
+  {
+    "id": 55,
+    "t": "Carboidratos",
+    "micro": "Dissacarídeos exemplos",
+    "q": "O par de dissacarídeos marcado como correto nos slides é:",
+    "a": [
+      "celulose e glicogênio",
+      "sacarose e lactose",
+      "amido e celulose",
+      "frutose e glicose"
+    ],
+    "c": 1,
+    "e": "A questão dos slides dá sacarose e lactose como resposta correta.",
+    "s": "Sacarose e lactose são formadas por duas unidades.",
+    "v": "polymer"
+  },
+  {
+    "id": 56,
+    "t": "Carboidratos",
+    "micro": "Amido",
+    "q": "A reserva energética típica das plantas é:",
+    "a": [
+      "amido",
+      "celulose",
+      "quitina",
+      "glicogênio"
+    ],
+    "c": 0,
+    "e": "Amido é reserva de energia das plantas.",
+    "s": "Planta guarda glicose como amido.",
+    "v": "starch"
+  },
+  {
+    "id": 57,
+    "t": "Carboidratos",
+    "micro": "Glicogênio",
+    "q": "A reserva energética típica de animais e fungos é:",
+    "a": [
+      "glicogênio",
+      "amido",
+      "celulose",
+      "quitina"
+    ],
+    "c": 0,
+    "e": "Glicogênio é armazenado principalmente em fígado e músculos.",
+    "s": "Nos animais, o estoque rápido é glicogênio.",
+    "v": "glycogen"
+  },
+  {
+    "id": 58,
+    "t": "Carboidratos",
+    "micro": "Quitina",
+    "q": "O polissacarídeo do exoesqueleto de insetos e crustáceos é:",
+    "a": [
+      "glicogênio",
+      "quitina",
+      "amido",
+      "maltose"
+    ],
+    "c": 1,
+    "e": "Quitina também compõe a parede celular dos fungos.",
+    "s": "Quitina = armadura de insetos e crustáceos.",
+    "v": "chitin"
+  },
+  {
+    "id": 59,
+    "t": "Carboidratos",
+    "micro": "Celulose",
+    "q": "O principal polissacarídeo estrutural da parede vegetal é:",
+    "a": [
+      "glicogênio",
+      "celulose",
+      "amido",
+      "lactose"
+    ],
+    "c": 1,
+    "e": "Celulose é principal componente estrutural das plantas.",
+    "s": "Celulose dá resistência à parede vegetal.",
+    "v": "cellulose"
+  },
+  {
+    "id": 60,
+    "t": "Carboidratos",
+    "micro": "Celulase",
+    "q": "A maioria dos animais não digere celulose diretamente porque:",
+    "a": [
+      "não possui enzimas celulases",
+      "a celulose não tem carbono",
+      "a celulose é proteína",
+      "o intestino não possui água"
+    ],
+    "c": 0,
+    "e": "Os slides destacam ausência de celulases nos animais.",
+    "s": "Sem a enzima certa, a ligação não é quebrada.",
+    "v": "cellulose"
+  },
+  {
+    "id": 61,
+    "t": "Carboidratos",
+    "micro": "Cérebro e glicose",
+    "q": "Segundo os slides, o cérebro depende de:",
+    "a": [
+      "amido intracelular",
+      "quitina",
+      "grandes reservas próprias de glicogênio",
+      "suprimento contínuo de glicose sanguínea"
+    ],
+    "c": 3,
+    "e": "O material afirma que o cérebro não armazena glicose em quantidade relevante.",
+    "s": "Precisa receber glicose continuamente pelo sangue.",
+    "v": "brain"
+  },
+  {
+    "id": 62,
+    "t": "Digestão",
+    "micro": "Início",
+    "q": "A digestão dos carboidratos começa:",
+    "a": [
+      "no fígado",
+      "no intestino grosso",
+      "no estômago",
+      "na boca"
+    ],
+    "c": 3,
+    "e": "Os slides afirmam que o processo começa na boca.",
+    "s": "A digestão começa durante a mastigação.",
+    "v": "digestion"
+  },
+  {
+    "id": 63,
+    "t": "Digestão",
+    "micro": "Ptialina",
+    "q": "Ptialina é outro nome para:",
+    "a": [
+      "lactase",
+      "amilase pancreática",
+      "maltase",
+      "amilase salivar"
+    ],
+    "c": 3,
+    "e": "Ptialina e amilase salivar são sinônimos no material.",
+    "s": "Ptialina = amilase da saliva.",
+    "v": "mouth"
+  },
+  {
+    "id": 64,
+    "t": "Digestão",
+    "micro": "Origem amilase salivar",
+    "q": "A amilase salivar é secretada pelas:",
+    "a": [
+      "hepatócitos",
+      "hemácias",
+      "células beta",
+      "glândulas salivares"
+    ],
+    "c": 3,
+    "e": "A origem indicada são as glândulas salivares.",
+    "s": "Saliva vem das glândulas salivares.",
+    "v": "mouth"
+  },
+  {
+    "id": 65,
+    "t": "Digestão",
+    "micro": "Amido na boca",
+    "q": "A amilase salivar começa a quebrar:",
+    "a": [
+      "triglicerídeos",
+      "proteínas",
+      "amido",
+      "DNA"
+    ],
+    "c": 2,
+    "e": "Ela hidrolisa ligações do amido.",
+    "s": "Na boca, começa o corte do amido.",
+    "v": "mouth"
+  },
+  {
+    "id": 66,
+    "t": "Digestão",
+    "micro": "Estômago",
+    "q": "No estômago, a amilase salivar é:",
+    "a": [
+      "convertida em lactase",
+      "ativada pelo pH ácido",
+      "transformada em insulina",
+      "inibida pelo pH ácido"
+    ],
+    "c": 3,
+    "e": "O pH ácido inibe sua ação.",
+    "s": "O ácido do estômago desliga a amilase salivar.",
+    "v": "stomach"
+  },
+  {
+    "id": 67,
+    "t": "Digestão",
+    "micro": "Amilase pancreática",
+    "q": "A amilase pancreática atua principalmente no:",
+    "a": [
+      "intestino grosso",
+      "esôfago",
+      "intestino delgado",
+      "sangue"
+    ],
+    "c": 2,
+    "e": "Ela é liberada no intestino delgado.",
+    "s": "O pâncreas envia a enzima ao duodeno.",
+    "v": "intestine"
+  },
+  {
+    "id": 68,
+    "t": "Digestão",
+    "micro": "Maior parte",
+    "q": "A maior parte da digestão dos carboidratos ocorre no:",
+    "a": [
+      "intestino delgado/duodeno",
+      "estômago",
+      "esôfago",
+      "intestino grosso"
+    ],
+    "c": 0,
+    "e": "O material destaca o intestino delgado, especialmente o duodeno.",
+    "s": "A boca começa; o intestino delgado termina a maior parte.",
+    "v": "intestine"
+  },
+  {
+    "id": 69,
+    "t": "Digestão",
+    "micro": "Maltase",
+    "q": "Maltase converte maltose em:",
+    "a": [
+      "duas moléculas de glicose",
+      "glicose e galactose",
+      "glicose e frutose",
+      "piruvato e lactato"
+    ],
+    "c": 0,
+    "e": "Maltase quebra maltose em duas glicoses.",
+    "s": "Maltose = glicose + glicose.",
+    "v": "enzyme"
+  },
+  {
+    "id": 70,
+    "t": "Digestão",
+    "micro": "Sacarase",
+    "q": "Sacarase converte sacarose em:",
+    "a": [
+      "piruvato e acetil-CoA",
+      "glicose e frutose",
+      "duas glicoses",
+      "glicose e galactose"
+    ],
+    "c": 1,
+    "e": "Sacarase quebra sacarose em glicose e frutose.",
+    "s": "Sacarose → glicose + frutose.",
+    "v": "enzyme"
+  },
+  {
+    "id": 71,
+    "t": "Digestão",
+    "micro": "Lactase",
+    "q": "Lactase converte lactose em:",
+    "a": [
+      "amido e glicogênio",
+      "glicose e galactose",
+      "duas glicoses",
+      "glicose e frutose"
+    ],
+    "c": 1,
+    "e": "Lactase quebra lactose em glicose e galactose.",
+    "s": "Lactose do leite → glicose + galactose.",
+    "v": "enzyme"
+  },
+  {
+    "id": 72,
+    "t": "Digestão",
+    "micro": "Enterócitos",
+    "q": "Enterócitos são:",
+    "a": [
+      "células beta do pâncreas",
+      "neurônios",
+      "hemácias",
+      "células epiteliais de absorção da mucosa intestinal"
+    ],
+    "c": 3,
+    "e": "São células especializadas na absorção intestinal.",
+    "s": "São as células que revestem e absorvem no intestino.",
+    "v": "brush"
+  },
+  {
+    "id": 73,
+    "t": "Digestão",
+    "micro": "Microvilosidades",
+    "q": "As microvilosidades servem principalmente para:",
+    "a": [
+      "transportar oxigênio",
+      "produzir ácido gástrico",
+      "aumentar a área de absorção",
+      "reduzir contato com nutrientes"
+    ],
+    "c": 2,
+    "e": "Elas ampliam a superfície luminal.",
+    "s": "Mais área = mais absorção.",
+    "v": "brush"
+  },
+  {
+    "id": 74,
+    "t": "Glicemia",
+    "micro": "Insulina",
+    "q": "A insulina é produzida por:",
+    "a": [
+      "neurônios",
+      "hemácias",
+      "células alfa do pâncreas",
+      "células beta do pâncreas"
+    ],
+    "c": 3,
+    "e": "Os slides indicam células beta como produtoras de insulina.",
+    "s": "Beta → insulina.",
+    "v": "pancreas"
+  },
+  {
+    "id": 75,
+    "t": "Glicemia",
+    "micro": "Insulina elevada",
+    "q": "Quando a glicose sanguínea está elevada, aumenta a liberação de:",
+    "a": [
+      "glucagon",
+      "ATPase",
+      "insulina",
+      "lactase"
+    ],
+    "c": 2,
+    "e": "A insulina é liberada quando a glicemia se eleva.",
+    "s": "Glicose alta → insulina.",
+    "v": "insulin"
+  },
+  {
+    "id": 76,
+    "t": "Glicemia",
+    "micro": "GLUT4",
+    "q": "Na célula muscular, a insulina promove translocação de:",
+    "a": [
+      "lactase",
+      "citocromo c",
+      "ATP sintase",
+      "GLUT4"
+    ],
+    "c": 3,
+    "e": "O slide liga insulina à translocação de GLUT4.",
+    "s": "A insulina coloca mais portas de glicose na membrana.",
+    "v": "glut4"
+  },
+  {
+    "id": 77,
+    "t": "Glicemia",
+    "micro": "Glicogênese",
+    "q": "Glicogênese é:",
+    "a": [
+      "síntese de glicogênio a partir de glicose",
+      "quebra de glicogênio",
+      "quebra de glicose em piruvato",
+      "formação de glicose a partir de lactato"
+    ],
+    "c": 0,
+    "e": "O slide define glicogênese como formação de glicogênio.",
+    "s": "É guardar glicose como glicogênio.",
+    "v": "glycogen"
+  },
+  {
+    "id": 78,
+    "t": "Glicemia",
+    "micro": "Glicogenólise",
+    "q": "Glicogenólise é:",
+    "a": [
+      "degradação do glicogênio",
+      "síntese de glicogênio",
+      "digestão de lactose",
+      "produção de ATP mitocondrial"
+    ],
+    "c": 0,
+    "e": "Glicogenólise rompe ligações do glicogênio.",
+    "s": "É abrir o estoque de glicogênio.",
+    "v": "glycogen"
+  },
+  {
+    "id": 79,
+    "t": "Glicemia",
+    "micro": "Gliconeogênese",
+    "q": "Gliconeogênese é:",
+    "a": [
+      "formação de glicogênio",
+      "formação de glicose a partir de outras substâncias",
+      "quebra de glicose em piruvato",
+      "digestão de sacarose"
+    ],
+    "c": 1,
+    "e": "Os slides citam aminoácidos, glicerol, piruvato e lactato como precursores.",
+    "s": "É fabricar glicose usando outros materiais.",
+    "v": "liver"
+  },
+  {
+    "id": 80,
+    "t": "Glicemia",
+    "micro": "Hormônios glicogenólise",
+    "q": "Hormônios citados como estimuladores da glicogenólise incluem:",
+    "a": [
+      "insulina, lactase e amilase",
+      "ADH, ocitocina e prolactina",
+      "T3, T4 e calcitonina",
+      "adrenalina, noradrenalina e glucagon"
+    ],
+    "c": 3,
+    "e": "Esse trio aparece no slide de glicogenólise.",
+    "s": "São sinais de mobilização de combustível.",
+    "v": "glycogen"
+  },
+  {
+    "id": 81,
+    "t": "Glicemia",
+    "micro": "Glicogênio fosforilase",
+    "q": "Na glicogenólise é ativada a enzima:",
+    "a": [
+      "ATP sintase",
+      "citrato sintase",
+      "glicogênio fosforilase",
+      "lactase"
+    ],
+    "c": 2,
+    "e": "O material cita glicogênio fosforilase.",
+    "s": "Ela ajuda a desmontar o glicogênio.",
+    "v": "glycogen"
+  },
+  {
+    "id": 82,
+    "t": "Glicemia",
+    "micro": "Diabetes sintomas",
+    "q": "A tríade clássica listada nos slides é:",
+    "a": [
+      "icterícia, ascite e edema",
+      "anemia, leucopenia e trombocitopenia",
+      "bradicardia, febre e tosse",
+      "poliúria, polidipsia e polifagia"
+    ],
+    "c": 3,
+    "e": "Esses três sintomas aparecem juntos no material.",
+    "s": "Muito xixi, muita sede e muita fome.",
+    "v": "diabetes"
+  },
+  {
+    "id": 83,
+    "t": "Glicemia",
+    "micro": "Glicosúria",
+    "q": "Glicosúria é:",
+    "a": [
+      "falta de água na urina",
+      "excesso de glicogênio muscular",
+      "presença de glicose na urina",
+      "ausência de glicose no sangue"
+    ],
+    "c": 2,
+    "e": "O slide define glicosúria dessa forma.",
+    "s": "Glico = glicose; úria = urina.",
+    "v": "diabetes"
+  },
+  {
+    "id": 84,
+    "t": "Bioenergética",
+    "micro": "Definição",
+    "q": "Bioenergética é:",
+    "a": [
+      "formação de DNA",
+      "digestão exclusiva de proteínas",
+      "processo químico de conversão do alimento em energia",
+      "transporte de oxigênio"
+    ],
+    "c": 2,
+    "e": "Essa é a definição escrita nos slides.",
+    "s": "Como o corpo transforma combustível em energia utilizável.",
+    "v": "energy"
+  },
+  {
+    "id": 85,
+    "t": "Bioenergética",
+    "micro": "ATP",
+    "q": "ATP é:",
+    "a": [
+      "adenosina trifosfato",
+      "adenosina transportadora proteica",
+      "ácido trifosfórico",
+      "adenina trifosforilase"
+    ],
+    "c": 0,
+    "e": "ATP significa adenosina trifosfato.",
+    "s": "Adenosina + três fosfatos.",
+    "v": "atp"
+  },
+  {
+    "id": 86,
+    "t": "Bioenergética",
+    "micro": "Moeda energética",
+    "q": "O ATP é chamado de:",
+    "a": [
+      "principal moeda energética da célula",
+      "hormônio pancreático",
+      "polissacarídeo estrutural",
+      "enzima intestinal"
+    ],
+    "c": 0,
+    "e": "O material chama ATP de moeda/transportador universal de energia.",
+    "s": "É o dinheiro energético da célula.",
+    "v": "atp"
+  },
+  {
+    "id": 87,
+    "t": "Bioenergética",
+    "micro": "Estrutura ATP",
+    "q": "ATP contém:",
+    "a": [
+      "três aminoácidos",
+      "DNA, RNA e proteína",
+      "glicose, frutose e galactose",
+      "adenina, ribose e três grupos fosfato"
+    ],
+    "c": 3,
+    "e": "As figuras mostram adenina, ribose e três fosfatos.",
+    "s": "ATP = adenina + ribose + 3 fosfatos.",
+    "v": "atpstructure"
+  },
+  {
+    "id": 88,
+    "t": "Bioenergética",
+    "micro": "ATP para ADP",
+    "q": "ATP vira ADP por:",
+    "a": [
+      "formação de glicose",
+      "remoção da adenina",
+      "hidrólise do fosfato terminal",
+      "adição de três fosfatos"
+    ],
+    "c": 2,
+    "e": "O slide descreve hidrólise do grupo fosfato terminal.",
+    "s": "Solta um fosfato e libera energia.",
+    "v": "atphydrolysis"
+  },
+  {
+    "id": 89,
+    "t": "Bioenergética",
+    "micro": "ATPase",
+    "q": "A enzima ligada à hidrólise de ATP nos slides é:",
+    "a": [
+      "maltase",
+      "ATPase",
+      "citrato sintase",
+      "lactase"
+    ],
+    "c": 1,
+    "e": "ATPase catalisa ATP → ADP.",
+    "s": "ATPase ajuda a quebrar ATP.",
+    "v": "atphydrolysis"
+  },
+  {
+    "id": 90,
+    "t": "Bioenergética",
+    "micro": "NAD/FAD",
+    "q": "NAD e FAD funcionam principalmente como:",
+    "a": [
+      "transportadores de hidrogênios/elétrons",
+      "enzimas da digestão",
+      "hormônios",
+      "polissacarídeos"
+    ],
+    "c": 0,
+    "e": "O material os descreve como transportadores de hidrogênios.",
+    "s": "São táxis de energia química.",
+    "v": "nadfad"
+  },
+  {
+    "id": 91,
+    "t": "Respiração",
+    "micro": "Mitocôndria",
+    "q": "A mitocôndria tem como função destacada:",
+    "a": [
+      "armazenar glicogênio apenas",
+      "extrair energia dos alimentos e armazená-la em ATP",
+      "produzir amilase salivar",
+      "formar parede celular"
+    ],
+    "c": 1,
+    "e": "É apresentada como centro da respiração celular.",
+    "s": "A usina de energia da célula.",
+    "v": "mitochondria"
+  },
+  {
+    "id": 92,
+    "t": "Respiração",
+    "micro": "Matriz",
+    "q": "A matriz mitocondrial contém enzimas do:",
+    "a": [
+      "metabolismo da lactose",
+      "ciclo de Krebs",
+      "sistema digestivo salivar",
+      "borda em escova"
+    ],
+    "c": 1,
+    "e": "Os slides colocam Krebs na matriz.",
+    "s": "Krebs acontece dentro da mitocôndria.",
+    "v": "mitochondria"
+  },
+  {
+    "id": 93,
+    "t": "Respiração",
+    "micro": "Cristas",
+    "q": "A cadeia respiratória ocorre nas:",
+    "a": [
+      "glândulas salivares",
+      "cristas/membrana interna mitocondrial",
+      "vilosidades intestinais",
+      "membranas do núcleo"
+    ],
+    "c": 1,
+    "e": "O material localiza a cadeia nas cristas.",
+    "s": "A etapa final fica na membrana interna dobrada.",
+    "v": "etc"
+  },
+  {
+    "id": 94,
+    "t": "Respiração",
+    "micro": "Etapas",
+    "q": "A sequência central é:",
+    "a": [
+      "digestão → absorção → excreção",
+      "glicólise → ciclo de Krebs → cadeia respiratória",
+      "DNA → RNA → proteína",
+      "glicogênese → lactase → amilase"
+    ],
+    "c": 1,
+    "e": "Essa sequência aparece repetidamente nos slides.",
+    "s": "Primeiro glicólise, depois Krebs, depois cadeia.",
+    "v": "respiration"
+  },
+  {
+    "id": 95,
+    "t": "Respiração",
+    "micro": "Local glicólise",
+    "q": "A glicólise ocorre no:",
+    "a": [
+      "membrana nuclear",
+      "lúmen intestinal",
+      "núcleo",
+      "citosol/citoplasma"
+    ],
+    "c": 3,
+    "e": "Os slides localizam a glicólise no citosol.",
+    "s": "A primeira etapa acontece fora da mitocôndria.",
+    "v": "glycolysis"
+  },
+  {
+    "id": 96,
+    "t": "Glicólise",
+    "micro": "Definição",
+    "q": "Glicólise converte:",
+    "a": [
+      "uma glicose de 6C em dois piruvatos de 3C",
+      "proteína em aminoácidos",
+      "lactato em amido",
+      "glicogênio em ATP"
+    ],
+    "c": 0,
+    "e": "Essa conversão é repetida em vários slides.",
+    "s": "Uma molécula de 6 carbonos vira duas de 3.",
+    "v": "glycolysis"
+  },
+  {
+    "id": 97,
+    "t": "Glicólise",
+    "micro": "10 reações",
+    "q": "A glicólise possui:",
+    "a": [
+      "2 reações",
+      "10 reações enzimáticas",
+      "20 reações",
+      "3 reações"
+    ],
+    "c": 1,
+    "e": "O material cita 10 reações e 10 enzimas.",
+    "s": "Glicólise = 10 passos.",
+    "v": "glycolysis"
+  },
+  {
+    "id": 98,
+    "t": "Glicólise",
+    "micro": "Fases",
+    "q": "As duas fases destacadas são:",
+    "a": [
+      "preparatória e pagamento",
+      "oral e intestinal",
+      "alfa e beta",
+      "nuclear e ribossomal"
+    ],
+    "c": 0,
+    "e": "Primeiro há gasto/preparação, depois produção.",
+    "s": "Primeiro investe, depois recebe.",
+    "v": "glycolysis"
+  },
+  {
+    "id": 99,
+    "t": "Glicólise",
+    "micro": "ATP gasto",
+    "q": "Na glicólise são gastos inicialmente:",
+    "a": [
+      "4 ATP",
+      "2 ATP",
+      "6 ATP",
+      "1 ATP"
+    ],
+    "c": 1,
+    "e": "Os slides indicam gasto de 2 ATP.",
+    "s": "Paga 2 ATP.",
+    "v": "atp"
+  },
+  {
+    "id": 100,
+    "t": "Glicólise",
+    "micro": "ATP produzido",
+    "q": "A produção bruta direta de ATP na glicólise é:",
+    "a": [
+      "6 ATP",
+      "12 ATP",
+      "4 ATP",
+      "2 ATP"
+    ],
+    "c": 2,
+    "e": "Produz 4 ATP, antes de descontar o investimento.",
+    "s": "Produz 4 e desconta 2.",
+    "v": "atp"
+  },
+  {
+    "id": 101,
+    "t": "Glicólise",
+    "micro": "Saldo",
+    "q": "O saldo líquido da glicólise é:",
+    "a": [
+      "36 ATP",
+      "4 ATP",
+      "12 ATP",
+      "2 ATP"
+    ],
+    "c": 3,
+    "e": "4 produzidos - 2 gastos = 2 líquidos.",
+    "s": "Sobram 2 ATP.",
+    "v": "atp"
+  },
+  {
+    "id": 102,
+    "t": "Glicólise",
+    "micro": "Produtos",
+    "q": "O conjunto de produtos destacado é:",
+    "a": [
+      "2 piruvatos, 2 NADH e 2 ATP líquidos",
+      "2 acetil-CoA e 12 ATP",
+      "1 piruvato, 1 ATP e 1 FADH2",
+      "6 CO2 apenas"
+    ],
+    "c": 0,
+    "e": "Esse resumo aparece explicitamente.",
+    "s": "Decore: 2 piruvatos + 2 NADH + 2 ATP.",
+    "v": "glycolysis"
+  },
+  {
+    "id": 103,
+    "t": "Glicólise",
+    "micro": "Anaeróbica",
+    "q": "Glicólise anaeróbica ocorre:",
+    "a": [
+      "somente com excesso de O2",
+      "apenas no núcleo",
+      "sem participação de O2 na reação",
+      "somente no intestino"
+    ],
+    "c": 2,
+    "e": "É definida como degradação sem participação do oxigênio.",
+    "s": "Anaeróbico = sem O2 na reação.",
+    "v": "glycolysis"
+  },
+  {
+    "id": 104,
+    "t": "Glicólise",
+    "micro": "Velocidade anaeróbica",
+    "q": "A via anaeróbica é descrita como:",
+    "a": [
+      "mais lenta",
+      "mais rápida que a aeróbica",
+      "exclusiva do fígado",
+      "incapaz de formar ATP"
+    ],
+    "c": 1,
+    "e": "O slide afirma que ela é muito mais rápida.",
+    "s": "Pouca energia, mas rápida.",
+    "v": "compare"
+  },
+  {
+    "id": 105,
+    "t": "Piruvato",
+    "micro": "Lactato",
+    "q": "Em condição anaeróbica, piruvato pode virar:",
+    "a": [
+      "ribose",
+      "celulose",
+      "glicogênio exclusivamente",
+      "lactato"
+    ],
+    "c": 3,
+    "e": "O primeiro destino descrito é fermentação lática.",
+    "s": "Sem O2 suficiente, pode virar lactato.",
+    "v": "lactate"
+  },
+  {
+    "id": 106,
+    "t": "Piruvato",
+    "micro": "Regeneração NAD+",
+    "q": "A formação de lactato é importante porque:",
+    "a": [
+      "regenera NAD+ para manter a glicólise",
+      "produz insulina",
+      "gera 39 ATP direto",
+      "forma celulose"
+    ],
+    "c": 0,
+    "e": "Esse é o papel enfatizado no slide.",
+    "s": "Recicla o carregador NAD+ para a esteira continuar.",
+    "v": "lactate"
+  },
+  {
+    "id": 107,
+    "t": "Piruvato",
+    "micro": "LDH",
+    "q": "A enzima piruvato → lactato é:",
+    "a": [
+      "ATP sintase",
+      "citrato sintase",
+      "maltase",
+      "lactato desidrogenase"
+    ],
+    "c": 3,
+    "e": "O material nomeia lactato desidrogenase.",
+    "s": "LDH faz piruvato ↔ lactato.",
+    "v": "lactate"
+  },
+  {
+    "id": 108,
+    "t": "Piruvato",
+    "micro": "Acetil-CoA",
+    "q": "Na via aeróbica, o piruvato é convertido em:",
+    "a": [
+      "celulose",
+      "acetil-CoA",
+      "glicogênio diretamente",
+      "lactose"
+    ],
+    "c": 1,
+    "e": "O piruvato entra na mitocôndria e vira acetil-CoA.",
+    "s": "É a ponte para Krebs.",
+    "v": "acetyl"
+  },
+  {
+    "id": 109,
+    "t": "Piruvato",
+    "micro": "Descarboxilação",
+    "q": "Descarboxilação do piruvato remove:",
+    "a": [
+      "CO2",
+      "glicose",
+      "O2",
+      "ATP"
+    ],
+    "c": 0,
+    "e": "A remoção de CO2 deixa o grupo acetil.",
+    "s": "Tira 1 carbono como CO2.",
+    "v": "acetyl"
+  },
+  {
+    "id": 110,
+    "t": "Piruvato",
+    "micro": "PDH",
+    "q": "O complexo que converte piruvato em acetil-CoA é:",
+    "a": [
+      "piruvato desidrogenase (PDH)",
+      "amilase salivar",
+      "lactase",
+      "glicogênio fosforilase"
+    ],
+    "c": 0,
+    "e": "O slide nomeia o complexo PDH.",
+    "s": "PDH é a ponte para acetil-CoA.",
+    "v": "acetyl"
+  },
+  {
+    "id": 111,
+    "t": "Krebs",
+    "micro": "Primeira etapa",
+    "q": "Acetil-CoA C2 + oxalacetato C4 forma:",
+    "a": [
+      "piruvato C3",
+      "citrato C6",
+      "lactato C3",
+      "glicose C6"
+    ],
+    "c": 1,
+    "e": "A primeira etapa produz citrato.",
+    "s": "2 + 4 = 6 carbonos.",
+    "v": "krebs"
+  },
+  {
+    "id": 112,
+    "t": "Krebs",
+    "micro": "Citrato sintase",
+    "q": "A enzima da formação de citrato é:",
+    "a": [
+      "lactato desidrogenase",
+      "fumarase",
+      "citrato sintase",
+      "aconitase"
+    ],
+    "c": 2,
+    "e": "A primeira etapa usa citrato sintase.",
+    "s": "O nome entrega: sintetiza citrato.",
+    "v": "krebs"
+  },
+  {
+    "id": 113,
+    "t": "Krebs",
+    "micro": "Aconitase",
+    "q": "Citrato → isocitrato é catalisado por:",
+    "a": [
+      "aconitase",
+      "maltase",
+      "ATPase",
+      "citrato sintase"
+    ],
+    "c": 0,
+    "e": "A segunda etapa usa aconitase.",
+    "s": "Aconitase reorganiza o citrato.",
+    "v": "krebs"
+  },
+  {
+    "id": 114,
+    "t": "Krebs",
+    "micro": "Isocitrato",
+    "q": "Isocitrato → alfa-cetoglutarato produz:",
+    "a": [
+      "NADH e CO2",
+      "lactose",
+      "glicose e O2",
+      "GLUT4"
+    ],
+    "c": 0,
+    "e": "O esquema mostra NADH e liberação de CO2.",
+    "s": "Aqui sai carbono e é capturada energia.",
+    "v": "krebs"
+  },
+  {
+    "id": 115,
+    "t": "Krebs",
+    "micro": "Alfa-cetoglutarato",
+    "q": "Alfa-cetoglutarato é convertido em:",
+    "a": [
+      "frutose",
+      "succinil-CoA",
+      "glicose",
+      "lactato"
+    ],
+    "c": 1,
+    "e": "A quarta etapa forma succinil-CoA.",
+    "s": "Depois do alfa-cetoglutarato vem succinil-CoA.",
+    "v": "krebs"
+  },
+  {
+    "id": 116,
+    "t": "Krebs",
+    "micro": "GTP",
+    "q": "Succinil-CoA → succinato forma:",
+    "a": [
+      "NAD+ apenas",
+      "amido",
+      "GTP equivalente a ATP",
+      "lactose"
+    ],
+    "c": 2,
+    "e": "O slide destaca formação de GTP/ATP.",
+    "s": "É a etapa de ATP/GTP direto.",
+    "v": "krebs"
+  },
+  {
+    "id": 117,
+    "t": "Krebs",
+    "micro": "Succinato",
+    "q": "Succinato → fumarato usa:",
+    "a": [
+      "succinato desidrogenase",
+      "maltase",
+      "fumarase",
+      "PDH"
+    ],
+    "c": 0,
+    "e": "A sexta etapa usa succinato desidrogenase.",
+    "s": "Nome da enzima acompanha o substrato.",
+    "v": "krebs"
+  },
+  {
+    "id": 118,
+    "t": "Krebs",
+    "micro": "FADH2",
+    "q": "Succinato → fumarato forma:",
+    "a": [
+      "glicose",
+      "FADH2",
+      "NADPH apenas",
+      "GLUT4"
+    ],
+    "c": 1,
+    "e": "O esquema mostra FAD sendo reduzido.",
+    "s": "É a etapa que gera FADH2.",
+    "v": "krebs"
+  },
+  {
+    "id": 119,
+    "t": "Krebs",
+    "micro": "Fumarase",
+    "q": "Fumarato → malato usa:",
+    "a": [
+      "fumarase",
+      "citrato sintase",
+      "ATPase",
+      "lactase"
+    ],
+    "c": 0,
+    "e": "A sétima etapa usa fumarase e água.",
+    "s": "Fumarase transforma fumarato em malato.",
+    "v": "krebs"
+  },
+  {
+    "id": 120,
+    "t": "Krebs",
+    "micro": "Malato",
+    "q": "Malato → oxalacetato usa:",
+    "a": [
+      "amilase",
+      "malato desidrogenase",
+      "lactato desidrogenase",
+      "sacarase"
+    ],
+    "c": 1,
+    "e": "A oitava etapa regenera oxalacetato.",
+    "s": "Fecha o ciclo e prepara nova volta.",
+    "v": "krebs"
+  },
+  {
+    "id": 121,
+    "t": "Krebs",
+    "micro": "Saldo por volta",
+    "q": "Cada volta do ciclo forma:",
+    "a": [
+      "3 NADH, 1 FADH2 e 1 ATP/GTP",
+      "1 glicose e 1 lactato",
+      "1 NADH, 3 FADH2 e 6 ATP",
+      "2 piruvatos e 2 ATP"
+    ],
+    "c": 0,
+    "e": "Esse saldo é repetido no material.",
+    "s": "Pacote por volta: 3 NADH + 1 FADH2 + 1 ATP.",
+    "v": "krebs"
+  },
+  {
+    "id": 122,
+    "t": "Krebs",
+    "micro": "Duas voltas",
+    "q": "Uma glicose realiza quantas voltas de Krebs nos slides?",
+    "a": [
+      "3",
+      "1",
+      "2",
+      "6"
+    ],
+    "c": 2,
+    "e": "Uma glicose gera dois acetil-CoA.",
+    "s": "Dois acetil-CoA = duas voltas.",
+    "v": "krebs"
+  },
+  {
+    "id": 123,
+    "t": "Krebs",
+    "micro": "Saldo duas voltas",
+    "q": "Duas voltas formam:",
+    "a": [
+      "6 NADH, 2 FADH2 e 2 ATP",
+      "2 NADH e 2 ATP",
+      "12 FADH2",
+      "3 NADH, 1 FADH2 e 1 ATP"
+    ],
+    "c": 0,
+    "e": "É o dobro do saldo por volta.",
+    "s": "Só dobrar o pacote.",
+    "v": "krebs"
+  },
+  {
+    "id": 124,
+    "t": "Krebs",
+    "micro": "NADH rendimento",
+    "q": "Na convenção dos slides, cada NADH rende:",
+    "a": [
+      "6 ATP",
+      "3 ATP",
+      "1 ATP",
+      "2 ATP"
+    ],
+    "c": 1,
+    "e": "O material usa NADH = 3 ATP.",
+    "s": "Para a prova, siga o valor do slide.",
+    "v": "nadfad"
+  },
+  {
+    "id": 125,
+    "t": "Krebs",
+    "micro": "FADH2 rendimento",
+    "q": "Na convenção dos slides, cada FADH2 rende:",
+    "a": [
+      "3 ATP",
+      "1 ATP",
+      "2 ATP",
+      "6 ATP"
+    ],
+    "c": 2,
+    "e": "O material usa FADH2 = 2 ATP.",
+    "s": "Para a prova, siga o valor do slide.",
+    "v": "nadfad"
+  },
+  {
+    "id": 126,
+    "t": "Krebs",
+    "micro": "12 ATP",
+    "q": "Uma volta do ciclo equivale, no cálculo dos slides, a:",
+    "a": [
+      "36 ATP",
+      "6 ATP",
+      "2 ATP",
+      "12 ATP"
+    ],
+    "c": 3,
+    "e": "3×3 + 1×2 + 1 = 12 ATP.",
+    "s": "9 + 2 + 1 = 12.",
+    "v": "krebs"
+  },
+  {
+    "id": 127,
+    "t": "Krebs",
+    "micro": "24 ATP",
+    "q": "Duas voltas equivalem, no cálculo dos slides, a:",
+    "a": [
+      "24 ATP",
+      "12 ATP",
+      "36 ATP",
+      "2 ATP"
+    ],
+    "c": 0,
+    "e": "Duas voltas de 12 resultam em 24.",
+    "s": "2 × 12 = 24.",
+    "v": "krebs"
+  },
+  {
+    "id": 128,
+    "t": "Cadeia respiratória",
+    "micro": "Nome",
+    "q": "Cadeia respiratória também é chamada de:",
+    "a": [
+      "cadeia transportadora de elétrons",
+      "gliconeogênese",
+      "digestão em borda em escova",
+      "glicogenólise"
+    ],
+    "c": 0,
+    "e": "Os slides usam os dois nomes.",
+    "s": "É uma corrente que passa elétrons adiante.",
+    "v": "etc"
+  },
+  {
+    "id": 129,
+    "t": "Cadeia respiratória",
+    "micro": "Fosforilação oxidativa",
+    "q": "A formação de ATP na cadeia é chamada de:",
+    "a": [
+      "glicogênese",
+      "descarboxilação",
+      "fermentação lática",
+      "fosforilação oxidativa"
+    ],
+    "c": 3,
+    "e": "O slide associa ATP da cadeia à fosforilação oxidativa.",
+    "s": "É a grande etapa final de ATP.",
+    "v": "etc"
+  },
+  {
+    "id": 130,
+    "t": "Cadeia respiratória",
+    "micro": "Citocromos",
+    "q": "Citocromos são:",
+    "a": [
+      "proteínas que transportam elétrons",
+      "polissacarídeos",
+      "enzimas digestivas",
+      "hormônios"
+    ],
+    "c": 0,
+    "e": "Os slides descrevem citocromos como transportadores de elétrons.",
+    "s": "Eles passam elétrons pela cadeia.",
+    "v": "etc"
+  },
+  {
+    "id": 131,
+    "t": "Cadeia respiratória",
+    "micro": "ATP sintase",
+    "q": "ATP sintase serve para:",
+    "a": [
+      "produzir insulina",
+      "formar ATP",
+      "quebrar lactose",
+      "degradar glicogênio"
+    ],
+    "c": 1,
+    "e": "A ATP sintase é o complexo de síntese de ATP.",
+    "s": "É a turbina que monta ATP.",
+    "v": "atpsynthase"
+  },
+  {
+    "id": 132,
+    "t": "Cadeia respiratória",
+    "micro": "Lançadeiras",
+    "q": "As lançadeiras são necessárias porque:",
+    "a": [
+      "o núcleo bloqueia NADH",
+      "NADH é polissacarídeo",
+      "NADH só existe no intestino",
+      "NADH citosólico não atravessa diretamente a membrana mitocondrial"
+    ],
+    "c": 3,
+    "e": "Os slides dizem que não há transportador direto de NADH.",
+    "s": "A carga pega uma ponte para chegar à mitocôndria.",
+    "v": "shuttle"
+  },
+  {
+    "id": 133,
+    "t": "Cadeia respiratória",
+    "micro": "Aspartato-malato",
+    "q": "A lançadeira aspartato-malato transfere equivalentes para:",
+    "a": [
+      "glicogênio",
+      "FADH apenas",
+      "lactato",
+      "NADH mitocondrial"
+    ],
+    "c": 3,
+    "e": "O slide relaciona AM a NADH mitocondrial.",
+    "s": "Mantém o nível energético de NADH.",
+    "v": "shuttle"
+  },
+  {
+    "id": 134,
+    "t": "Cadeia respiratória",
+    "micro": "Glicerol-fosfato",
+    "q": "A lançadeira glicerol-fosfato transfere equivalentes para:",
+    "a": [
+      "FADH mitocondrial",
+      "GLUT4",
+      "NADH exclusivamente",
+      "ATP citosólico"
+    ],
+    "c": 0,
+    "e": "O slide relaciona GP a FADH mitocondrial.",
+    "s": "Entra pelo nível de FADH.",
+    "v": "shuttle"
+  },
+  {
+    "id": 135,
+    "t": "Cadeia respiratória",
+    "micro": "AM rendimento",
+    "q": "No cálculo dos slides, 2 NADH via aspartato-malato rendem:",
+    "a": [
+      "6 ATP",
+      "12 ATP",
+      "4 ATP",
+      "2 ATP"
+    ],
+    "c": 0,
+    "e": "2 × 3 = 6 ATP.",
+    "s": "AM = 6 no esquema.",
+    "v": "shuttle"
+  },
+  {
+    "id": 136,
+    "t": "Cadeia respiratória",
+    "micro": "GP rendimento",
+    "q": "No cálculo dos slides, a glicerol-fosfato rende:",
+    "a": [
+      "6 ATP",
+      "2 ATP",
+      "12 ATP",
+      "4 ATP"
+    ],
+    "c": 3,
+    "e": "2 equivalentes via FADH × 2 = 4 ATP.",
+    "s": "GP = 4 no esquema.",
+    "v": "shuttle"
+  },
+  {
+    "id": 137,
+    "t": "Cadeia respiratória",
+    "micro": "GL+AM",
+    "q": "Na tabela dos slides, glicose + aspartato-malato totaliza:",
+    "a": [
+      "39 ATP",
+      "36 ATP",
+      "38 ATP",
+      "37 ATP"
+    ],
+    "c": 2,
+    "e": "O slide apresenta GL + AM = 38 ATP.",
+    "s": "Memorize a tabela da professora.",
+    "v": "energyyield"
+  },
+  {
+    "id": 138,
+    "t": "Cadeia respiratória",
+    "micro": "GL+GP",
+    "q": "Na tabela dos slides, glicose + glicerol-fosfato totaliza:",
+    "a": [
+      "37 ATP",
+      "36 ATP",
+      "38 ATP",
+      "39 ATP"
+    ],
+    "c": 1,
+    "e": "O slide apresenta GL + GP = 36 ATP.",
+    "s": "Glicose + GP = 36.",
+    "v": "energyyield"
+  },
+  {
+    "id": 139,
+    "t": "Cadeia respiratória",
+    "micro": "GG+AM",
+    "q": "Na tabela dos slides, glicogênio + aspartato-malato totaliza:",
+    "a": [
+      "39 ATP",
+      "38 ATP",
+      "37 ATP",
+      "36 ATP"
+    ],
+    "c": 0,
+    "e": "O slide apresenta GG + AM = 39 ATP.",
+    "s": "Glicogênio + AM = 39.",
+    "v": "energyyield"
+  },
+  {
+    "id": 140,
+    "t": "Cadeia respiratória",
+    "micro": "GG+GP",
+    "q": "Na tabela dos slides, glicogênio + glicerol-fosfato totaliza:",
+    "a": [
+      "39 ATP",
+      "37 ATP",
+      "38 ATP",
+      "36 ATP"
+    ],
+    "c": 1,
+    "e": "O slide apresenta GG + GP = 37 ATP.",
+    "s": "Glicogênio + GP = 37.",
+    "v": "energyyield"
+  },
+  {
+    "id": 141,
+    "t": "Revisão Integrada",
+    "micro": "Respiração celular",
+    "q": "Qual associação está correta?",
+    "a": [
+      "Glicólise—citosol; Krebs—matriz; cadeia—cristas",
+      "Glicólise—núcleo; Krebs—boca; cadeia—intestino",
+      "Glicólise—cristas; Krebs—citosol; cadeia—matriz",
+      "Todas ocorrem na boca"
+    ],
+    "c": 0,
+    "e": "As etapas aparecem distribuídas entre citosol, matriz e membrana interna.",
+    "s": "Mapa: fora da mitocôndria → dentro → membrana interna.",
+    "v": "respiration"
+  },
+  {
+    "id": 142,
+    "t": "Revisão Integrada",
+    "micro": "Aeróbico x anaeróbico",
+    "q": "Qual comparação resume melhor os slides?",
+    "a": [
+      "Anaeróbico é rápido e de baixo rendimento; aeróbico rende mais e usa a rota mitocondrial",
+      "Anaeróbico rende mais ATP",
+      "Aeróbico não usa mitocôndria",
+      "Ambos têm os mesmos produtos finais"
+    ],
+    "c": 0,
+    "e": "Os slides contrastam rapidez/baixo rendimento anaeróbico com maior rendimento aeróbico.",
+    "s": "Emergência rápida versus produção eficiente.",
+    "v": "compare"
+  },
+  {
+    "id": 143,
+    "t": "Revisão Integrada",
+    "micro": "Fluxo energético",
+    "q": "Qual sequência representa melhor a oxidação aeróbica estudada?",
+    "a": [
+      "Glicose → glicólise → piruvato → acetil-CoA → Krebs → cadeia respiratória",
+      "Glicose → lactose → celulose → ATP",
+      "ATP → glicose → amido → DNA",
+      "Piruvato → amido → glicose → proteína"
+    ],
+    "c": 0,
+    "e": "Essa sequência integra as etapas centrais dos slides.",
+    "s": "É a estrada principal da glicose até ATP.",
+    "v": "respiration"
+  },
+  {
+    "id": 144,
+    "t": "Revisão Integrada",
+    "micro": "Lactato",
+    "q": "Por que a formação de lactato pode manter a produção de energia sem O2 suficiente?",
+    "a": [
+      "Porque regenera NAD+ e mantém a glicólise",
+      "Porque produz 39 ATP direto",
+      "Porque forma celulose",
+      "Porque produz insulina"
+    ],
+    "c": 0,
+    "e": "A regeneração de NAD+ é enfatizada no material.",
+    "s": "Recicla o NAD+ para a glicólise continuar.",
+    "v": "lactate"
+  },
+  {
+    "id": 145,
+    "t": "Revisão Integrada",
+    "micro": "Krebs e cadeia",
+    "q": "Quais produtos do ciclo de Krebs seguem para a cadeia respiratória?",
+    "a": [
+      "NADH e FADH2",
+      "Celulose e quitina",
+      "Sacarose e lactose",
+      "Amido e glicogênio"
+    ],
+    "c": 0,
+    "e": "NADH e FADH2 transportam energia para a cadeia.",
+    "s": "Krebs carrega as baterias; a cadeia usa a carga.",
+    "v": "nadfad"
+  }
+]
