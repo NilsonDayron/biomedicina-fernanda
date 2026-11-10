@@ -33,9 +33,6 @@ export default function IndependentMaterialsHub({ initialSlideId = null }) {
   const [desiredCount, setDesiredCount] = useState(10)
 
   const [session, setSession] = useState(null)
-  const [selectedOption, setSelectedOption] = useState(null)
-  const [confirmedOption, setConfirmedOption] = useState(null)
-  const [reinforcementInfo, setReinforcementInfo] = useState(null)
 
   useEffect(() => {
     if (initialSlideId && getMaterialBySlideId(initialSlideId)) {
@@ -61,10 +58,15 @@ export default function IndependentMaterialsHub({ initialSlideId = null }) {
     return map
   }, [activeMaterialQuestions])
 
-  const currentQueueItem = useMemo(() => {
-    if (!session || !session.queue || session.currentIndex >= session.queue.length) return null
-    return session.queue[session.currentIndex]
+  const viewIndex = useMemo(() => {
+    if (!session) return 0
+    return typeof session.viewIndex === 'number' ? session.viewIndex : session.currentIndex
   }, [session])
+
+  const currentQueueItem = useMemo(() => {
+    if (!session || !session.queue || viewIndex < 0 || viewIndex >= session.queue.length) return null
+    return session.queue[viewIndex]
+  }, [session, viewIndex])
 
   const currentQuestion = useMemo(() => {
     if (!currentQueueItem) return null
@@ -73,14 +75,26 @@ export default function IndependentMaterialsHub({ initialSlideId = null }) {
     return q
   }, [currentQueueItem, questionsMap, selectedSlideId])
 
+  const viewedSavedResponse = useMemo(() => {
+    if (!session || !currentQueueItem) return null
+    return session.responsesByUid?.[currentQueueItem.uid] || null
+  }, [session, currentQueueItem])
+
+  const selectedOption = useMemo(() => {
+    if (!session || !currentQueueItem) return null
+    if (viewedSavedResponse) return viewedSavedResponse.escolhida
+    return session.draftByUid?.[currentQueueItem.uid] || null
+  }, [session, currentQueueItem, viewedSavedResponse])
+
+  const confirmedOption = viewedSavedResponse ? viewedSavedResponse.escolhida : null
+  const reinforcementInfo = viewedSavedResponse ? viewedSavedResponse.reinforcementInfo || null : null
+  const isReviewingHistory = Boolean(session && viewIndex < session.currentIndex)
+
   function openMaterial(slideId) {
     const material = getMaterialBySlideId(slideId)
     if (!material) return
     setSelectedSlideId(slideId)
     setDesiredCount(material.totalValidas)
-    setSelectedOption(null)
-    setConfirmedOption(null)
-    setReinforcementInfo(null)
     setSession(null)
     setViewMode('config')
     window.scrollTo({ top: 0, behavior: 'smooth' })
@@ -97,9 +111,6 @@ export default function IndependentMaterialsHub({ initialSlideId = null }) {
     }
     setSelectedSlideId(null)
     setSession(null)
-    setSelectedOption(null)
-    setConfirmedOption(null)
-    setReinforcementInfo(null)
     setViewMode('list')
     window.scrollTo({ top: 0, behavior: 'smooth' })
   }
@@ -119,16 +130,16 @@ export default function IndependentMaterialsHub({ initialSlideId = null }) {
       initialCount: clampedCount,
       queue: initialQueue,
       currentIndex: 0,
+      viewIndex: 0,
       history: [],
+      responsesByUid: {},
+      draftByUid: {},
       answeredQuestionIds: [],
       reinforcementsAdded: 0,
       startedAt: Date.now(),
     }
 
     setSession(nextSession)
-    setSelectedOption(null)
-    setConfirmedOption(null)
-    setReinforcementInfo(null)
     setViewMode('session')
     setProgressByMaterial((prev) => saveMaterialActiveSession(prev, selectedSlideId, nextSession))
     window.scrollTo({ top: 0, behavior: 'smooth' })
@@ -140,21 +151,47 @@ export default function IndependentMaterialsHub({ initialSlideId = null }) {
     if (!saved || saved.slide_id !== selectedSlideId || !Array.isArray(saved.queue) || !saved.queue.length) {
       return
     }
-    setSession(saved)
-    setSelectedOption(null)
-    setConfirmedOption(null)
-    setReinforcementInfo(null)
+    const normalized = {
+      ...saved,
+      viewIndex: typeof saved.viewIndex === 'number' ? saved.viewIndex : saved.currentIndex,
+      responsesByUid: saved.responsesByUid || {},
+      draftByUid: saved.draftByUid || {},
+    }
+    setSession(normalized)
     setViewMode('session')
     window.scrollTo({ top: 0, behavior: 'smooth' })
   }
 
+  function handleSelectOption(letra) {
+    if (!session || !currentQueueItem || viewedSavedResponse || isReviewingHistory) return
+    const updatedSession = {
+      ...session,
+      draftByUid: {
+        ...(session.draftByUid || {}),
+        [currentQueueItem.uid]: letra,
+      },
+    }
+    setSession(updatedSession)
+    setProgressByMaterial((prev) =>
+      saveMaterialActiveSession(prev, selectedSlideId, updatedSession),
+    )
+  }
+
   function handleConfirmAnswer() {
-    if (!selectedOption || confirmedOption || !currentQuestion || !currentQueueItem || !session) return
+    if (
+      !selectedOption ||
+      confirmedOption ||
+      isReviewingHistory ||
+      !currentQuestion ||
+      !currentQueueItem ||
+      !session
+    ) {
+      return
+    }
     if (currentQuestion.slide_id !== selectedSlideId) return
 
     const choice = selectedOption
     const acertou = choice === currentQuestion.gabarito
-    setConfirmedOption(choice)
 
     const updatedAnsweredIds = Array.from(
       new Set([...(session.answeredQuestionIds || []), currentQuestion.id]),
@@ -220,16 +257,24 @@ export default function IndependentMaterialsHub({ initialSlideId = null }) {
       }
     }
 
+    const updatedResponsesByUid = {
+      ...(session.responsesByUid || {}),
+      [currentQueueItem.uid]: {
+        ...historyEntry,
+        reinforcementInfo: nextReinforcementInfo,
+      },
+    }
+
     const updatedSession = {
       ...session,
       queue: nextQueue,
       history: [...session.history, historyEntry],
+      responsesByUid: updatedResponsesByUid,
       answeredQuestionIds: updatedAnsweredIds,
       reinforcementsAdded: (session.reinforcementsAdded || 0) + addedCount,
     }
 
     setSession(updatedSession)
-    setReinforcementInfo(nextReinforcementInfo)
 
     setProgressByMaterial((prev) => {
       const afterAnswer = recordMaterialQuestionAnswer(
@@ -243,7 +288,7 @@ export default function IndependentMaterialsHub({ initialSlideId = null }) {
   }
 
   function handleRepeatAnsweredQuestions(mode = 'subtema_single') {
-    if (!reinforcementInfo || !session || !currentQuestion) return
+    if (!reinforcementInfo || !session || !currentQuestion || !currentQueueItem || isReviewingHistory) return
     const faltam = Math.max(0, reinforcementInfo.faltam - (reinforcementInfo.repetidasAdicionadas || 0))
     if (faltam <= 0) return
 
@@ -289,28 +334,67 @@ export default function IndependentMaterialsHub({ initialSlideId = null }) {
     const nextQueue = [...session.queue]
     nextQueue.splice(insertPos, 0, ...repeatedQueueItems)
 
+    const updatedReinforcementInfo = {
+      ...reinforcementInfo,
+      repetidasAdicionadas: (reinforcementInfo.repetidasAdicionadas || 0) + repeatedQueueItems.length,
+    }
+
+    const updatedResponsesByUid = {
+      ...(session.responsesByUid || {}),
+      [currentQueueItem.uid]: {
+        ...(session.responsesByUid?.[currentQueueItem.uid] || {}),
+        reinforcementInfo: updatedReinforcementInfo,
+      },
+    }
+
     const updatedSession = {
       ...session,
       queue: nextQueue,
+      responsesByUid: updatedResponsesByUid,
       reinforcementsAdded: (session.reinforcementsAdded || 0) + repeatedQueueItems.length,
     }
 
     setSession(updatedSession)
-    setReinforcementInfo((prev) =>
-      prev
-        ? {
-            ...prev,
-            repetidasAdicionadas: (prev.repetidasAdicionadas || 0) + repeatedQueueItems.length,
-          }
-        : null,
-    )
     setProgressByMaterial((prev) =>
       saveMaterialActiveSession(prev, selectedSlideId, updatedSession),
     )
   }
 
+  function handlePrevQuestion() {
+    if (!session || viewIndex <= 0) return
+    const prevIdx = viewIndex - 1
+    const updatedSession = {
+      ...session,
+      viewIndex: prevIdx,
+    }
+    setSession(updatedSession)
+    setProgressByMaterial((prev) =>
+      saveMaterialActiveSession(prev, selectedSlideId, updatedSession),
+    )
+    window.scrollTo({ top: 0, behavior: 'smooth' })
+  }
+
   function handleNextQuestion() {
-    if (!session || !confirmedOption) return
+    if (!session) return
+
+    // Se estiver revisando uma questão anterior no histórico, avança pelo histórico até retornar à questão atual
+    if (viewIndex < session.currentIndex) {
+      const nextViewIdx = viewIndex + 1
+      const updatedSession = {
+        ...session,
+        viewIndex: nextViewIdx,
+      }
+      setSession(updatedSession)
+      setProgressByMaterial((prev) =>
+        saveMaterialActiveSession(prev, selectedSlideId, updatedSession),
+      )
+      window.scrollTo({ top: 0, behavior: 'smooth' })
+      return
+    }
+
+    // Se estiver na questão atual da fila, só avança se já estiver confirmada
+    if (!confirmedOption) return
+
     const nextIdx = session.currentIndex + 1
 
     if (nextIdx >= session.queue.length) {
@@ -331,11 +415,9 @@ export default function IndependentMaterialsHub({ initialSlideId = null }) {
     const updatedSession = {
       ...session,
       currentIndex: nextIdx,
+      viewIndex: nextIdx,
     }
     setSession(updatedSession)
-    setSelectedOption(null)
-    setConfirmedOption(null)
-    setReinforcementInfo(null)
     setProgressByMaterial((prev) =>
       saveMaterialActiveSession(prev, selectedSlideId, updatedSession),
     )
@@ -749,6 +831,8 @@ export default function IndependentMaterialsHub({ initialSlideId = null }) {
   const progressPct = totalInQueue ? Math.min(100, Math.round((answeredCount / totalInQueue) * 100)) : 0
   const isAnswered = Boolean(confirmedOption)
   const isCorrect = confirmedOption === currentQuestion.gabarito
+  const isFirstQuestion = viewIndex === 0
+  const canAdvance = isReviewingHistory || isAnswered
 
   return (
     <section className="card main" style={{ padding: 24, marginBottom: 24 }}>
@@ -787,25 +871,25 @@ export default function IndependentMaterialsHub({ initialSlideId = null }) {
       {/* Estatísticas da sessão atual deste material */}
       <div className="stats" style={{ marginBottom: 12 }}>
         <div className="stat">
-          <b>
-            {session.currentIndex + 1}/{totalInQueue}
+          <b data-testid="stat-question-position">
+            {viewIndex + 1}/{totalInQueue}
           </b>
-          <span>questão atual</span>
+          <span>{isReviewingHistory ? 'revisando na fila' : 'questão atual'}</span>
         </div>
         <div className="stat">
-          <b>{answeredCount}</b>
+          <b data-testid="stat-answered">{answeredCount}</b>
           <span>respondidas</span>
         </div>
         <div className="stat">
-          <b>{correctCount}</b>
+          <b data-testid="stat-correct">{correctCount}</b>
           <span>acertos</span>
         </div>
         <div className="stat">
-          <b>{wrongCount}</b>
+          <b data-testid="stat-wrong">{wrongCount}</b>
           <span>erros</span>
         </div>
         <div className="stat">
-          <b>{session.reinforcementsAdded || 0}</b>
+          <b data-testid="stat-reinforcements">{session.reinforcementsAdded || 0}</b>
           <span>reforços na fila</span>
         </div>
       </div>
@@ -813,6 +897,20 @@ export default function IndependentMaterialsHub({ initialSlideId = null }) {
       <div className="progress">
         <div className="bar" style={{ width: `${progressPct}%` }} />
       </div>
+
+      {isReviewingHistory ? (
+        <div
+          data-testid="history-review-banner"
+          className="banner"
+          style={{ marginBottom: 14, display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: 10, flexWrap: 'wrap' }}
+        >
+          <span>
+            🕘 <b>Modo de revisão do histórico:</b> Você está visualizando a questão <b>{viewIndex + 1}</b> de{' '}
+            <b>{totalInQueue}</b> (já respondida e bloqueada para edição). Sua posição ativa está na questão{' '}
+            <b>{session.currentIndex + 1}</b>.
+          </span>
+        </div>
+      ) : null}
 
       {/* Metadados da questão atual */}
       <div className="row" style={{ flexWrap: 'wrap', gap: 8, marginBottom: 8 }}>
@@ -830,6 +928,11 @@ export default function IndependentMaterialsHub({ initialSlideId = null }) {
             Questão inicial
           </span>
         )}
+        {isAnswered ? (
+          <span className="pill" style={{ fontSize: 11, borderColor: '#348c5b', color: '#8af3b1' }}>
+            🔒 Resposta confirmada
+          </span>
+        ) : null}
       </div>
 
       <div className="topic" data-testid="question-tema">
@@ -863,11 +966,10 @@ export default function IndependentMaterialsHub({ initialSlideId = null }) {
               key={letra}
               type="button"
               data-testid={`option-${letra}`}
+              data-selected={isSelected ? 'true' : 'false'}
               className={className}
-              disabled={isAnswered}
-              onClick={() => {
-                if (!isAnswered) setSelectedOption(letra)
-              }}
+              disabled={isAnswered || isReviewingHistory}
+              onClick={() => handleSelectOption(letra)}
               style={{
                 border:
                   !isAnswered && isSelected
@@ -885,8 +987,8 @@ export default function IndependentMaterialsHub({ initialSlideId = null }) {
         })}
       </div>
 
-      {/* Botão para confirmar a resposta */}
-      {!isAnswered ? (
+      {/* Botão para confirmar a resposta (somente quando a questão atual ainda não foi confirmada) */}
+      {!isAnswered && !isReviewingHistory ? (
         <div className="actions" style={{ marginTop: 12 }}>
           <button
             type="button"
@@ -915,11 +1017,13 @@ export default function IndependentMaterialsHub({ initialSlideId = null }) {
             <div style={{ fontSize: 16, marginBottom: 6 }}>
               {isCorrect ? (
                 <>
-                  ✅ <b>Resposta correta!</b> Você respondeu a alternativa <b>{confirmedOption}</b>.
+                  ✅ <b>Resposta correta!</b> Você respondeu a alternativa{' '}
+                  <b data-testid="chosen-option-display">{confirmedOption}</b>.
                 </>
               ) : (
                 <>
-                  ❌ <b>Resposta incorreta.</b> Você marcou a alternativa <b>{confirmedOption}</b>.
+                  ❌ <b>Resposta incorreta.</b> Você marcou a alternativa{' '}
+                  <b data-testid="chosen-option-display">{confirmedOption}</b>.
                 </>
               )}
             </div>
@@ -1050,11 +1154,14 @@ export default function IndependentMaterialsHub({ initialSlideId = null }) {
                     <b>{reinforcementInfo.ineditasAdicionadas.length} de 3</b> questões inéditas disponíveis para o
                     subtema <b>&ldquo;{reinforcementInfo.subtema}&rdquo;</b> neste material (faltam{' '}
                     <b>{Math.max(0, reinforcementInfo.faltam - (reinforcementInfo.repetidasAdicionadas || 0))}</b>{' '}
-                    questões). <b>Nenhuma questão do outro material foi ou será usada para completar.</b> Você pode
-                    optar abaixo por repetir questões já respondidas deste mesmo material:
+                    questões). <b>Nenhuma questão do outro material foi ou será usada para completar.</b>{' '}
+                    {!isReviewingHistory
+                      ? 'Você pode optar abaixo por repetir questões já respondidas deste mesmo material:'
+                      : ''}
                   </p>
 
-                  {Math.max(0, reinforcementInfo.faltam - (reinforcementInfo.repetidasAdicionadas || 0)) > 0 ? (
+                  {!isReviewingHistory &&
+                  Math.max(0, reinforcementInfo.faltam - (reinforcementInfo.repetidasAdicionadas || 0)) > 0 ? (
                     <div className="actions" style={{ gap: 10 }}>
                       <button
                         type="button"
@@ -1089,20 +1196,58 @@ export default function IndependentMaterialsHub({ initialSlideId = null }) {
               ) : null}
             </div>
           ) : null}
-
-          <button
-            type="button"
-            data-testid="btn-proxima-questao"
-            className="next"
-            style={{ padding: '13px 24px', fontSize: 16 }}
-            onClick={handleNextQuestion}
-          >
-            {session.currentIndex + 1 >= session.queue.length
-              ? 'Concluir e ver resumo da sessão →'
-              : 'Próxima questão →'}
-          </button>
         </div>
       ) : null}
+
+      {/* Barra de navegação da sessão: botão “Questão anterior” ao lado do botão de avançar */}
+      <div
+        className="actions"
+        data-testid="session-nav-actions"
+        style={{
+          display: 'flex',
+          alignItems: 'center',
+          gap: 12,
+          marginTop: 18,
+          paddingTop: 14,
+          borderTop: '1px solid #1b404a',
+          flexWrap: 'wrap',
+        }}
+      >
+        <button
+          type="button"
+          data-testid="btn-questao-anterior"
+          className={`explain-btn ${isFirstQuestion ? 'locked' : ''}`}
+          disabled={isFirstQuestion}
+          onClick={handlePrevQuestion}
+          style={{
+            padding: '13px 20px',
+            fontSize: 15,
+            opacity: isFirstQuestion ? 0.45 : 1,
+            cursor: isFirstQuestion ? 'not-allowed' : 'pointer',
+          }}
+        >
+          ← Questão anterior
+        </button>
+
+        <button
+          type="button"
+          data-testid="btn-proxima-questao"
+          className={`next ${!canAdvance ? 'locked' : ''}`}
+          disabled={!canAdvance}
+          onClick={handleNextQuestion}
+          style={{
+            marginTop: 0,
+            padding: '13px 24px',
+            fontSize: 16,
+          }}
+        >
+          {isReviewingHistory
+            ? 'Próxima questão →'
+            : session.currentIndex + 1 >= session.queue.length && isAnswered
+              ? 'Concluir e ver resumo da sessão →'
+              : 'Próxima questão →'}
+        </button>
+      </div>
     </section>
   )
 }
