@@ -1,0 +1,335 @@
+{
+  "questoes": [
+    {
+      "id": "aula_7_deterioracao_q001",
+      "slide_id": "aula_7_deterioracao",
+      "slide_nome": "Aula 7 - Deterioração dos alimentos",
+      "numero": 1,
+      "tema": "Classificação dos alimentos.",
+      "subtema": "Associação entre alimentos e categorias de perecibilidade.",
+      "enunciado": "Um estudante precisa classificar açúcar, batata e leite conforme a apostila. Qual alternativa apresenta, respectivamente, a classificação desses três alimentos?",
+      "alternativas": {
+        "A": "Estável, perecível e semiperecível.",
+        "B": "Estável, semiperecível e perecível.",
+        "C": "Semiperecível, estável e perecível.",
+        "D": "Perecível, semiperecível e estável."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o açúcar está corretamente classificado, mas a batata aparece entre os semiperecíveis e o leite entre os perecíveis.",
+        "B": "Correta: o material apresenta açúcar como estável, batata como semiperecível e leite como perecível.",
+        "C": "Incorreta: inverte as classificações de açúcar e batata. Apenas a classificação do leite está correta.",
+        "D": "Incorreta: a batata está corretamente classificada, mas o açúcar é estável e o leite é perecível."
+      },
+      "referencia": {
+        "paginas": [
+          4
+        ],
+        "fundamentacao": "página 4.",
+        "trechos_apoio": [
+          "Alimentos estáveis ou não perecíveis [...] (açúcar, farinha)",
+          "Alimentos semiperecíveis [...] (batatas, maçãs, nabos, nozes sem casca)"
+        ],
+        "complemento": "a lista de perecíveis inclui “leite”."
+      }
+    },
+    {
+      "id": "aula_7_deterioracao_q002",
+      "slide_id": "aula_7_deterioracao",
+      "slide_nome": "Aula 7 - Deterioração dos alimentos",
+      "numero": 2,
+      "tema": "Classificação dos alimentos.",
+      "subtema": "Significado de alimento estável ou não perecível.",
+      "enunciado": "Ao encontrar a farinha entre os alimentos estáveis, um estudante procura interpretar o significado dessa classificação. Qual conclusão corresponde à definição apresentada?",
+      "alternativas": {
+        "A": "A farinha pertence ao grupo que se altera com facilidade, como as carnes.",
+        "B": "A farinha pertence ao grupo semiperecível, como as batatas.",
+        "C": "A farinha permanece sem alteração em qualquer condição de conservação.",
+        "D": "A farinha pertence ao grupo dos alimentos que não são alterados facilmente."
+      },
+      "gabarito": "D",
+      "explicacoes": {
+        "A": "Incorreta: a facilidade de alteração caracteriza os perecíveis, enquanto a farinha está entre os estáveis.",
+        "B": "Incorreta: as batatas são exemplos de semiperecíveis; a farinha aparece em outra categoria.",
+        "C": "Incorreta: o texto afirma que esses alimentos não são alterados facilmente. Isso não fundamenta uma garantia de conservação em qualquer condição.",
+        "D": "Correta: reproduz o sentido da definição de alimentos estáveis ou não perecíveis."
+      },
+      "referencia": {
+        "paginas": [
+          4
+        ],
+        "fundamentacao": "página 4.",
+        "trechos_apoio": [
+          "Alimentos estáveis ou não perecíveis — não são alterados facilmente (açúcar, farinha)."
+        ]
+      }
+    },
+    {
+      "id": "aula_7_deterioracao_q003",
+      "slide_id": "aula_7_deterioracao",
+      "slide_nome": "Aula 7 - Deterioração dos alimentos",
+      "numero": 3,
+      "tema": "Classificação dos alimentos.",
+      "subtema": "Conservação e manipulação dos semiperecíveis.",
+      "enunciado": "Um lote de batatas foi conservado e manipulado de forma apropriada, permanecendo sem alteração. Qual interpretação relaciona essa situação à classificação apresentada na apostila?",
+      "alternativas": {
+        "A": "É compatível com um alimento semiperecível mantido nas condições descritas.",
+        "B": "Demonstra que a batata pertence à categoria dos estáveis, junto da farinha.",
+        "C": "É compatível com a classificação da batata como perecível, junto do leite.",
+        "D": "Demonstra que a conservação e a manipulação não participam da descrição dos semiperecíveis."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: a apostila inclui batatas entre os semiperecíveis e relaciona sua manutenção sem alteração à conservação e à manipulação apropriadas.",
+        "B": "Incorreta: permanecer sem alteração nas condições descritas não muda a classificação atribuída à batata no material.",
+        "C": "Incorreta: o leite está entre os perecíveis, mas a batata é apresentada entre os semiperecíveis.",
+        "D": "Incorreta: conservação e manipulação apropriadas fazem parte expressamente da descrição dessa categoria."
+      },
+      "referencia": {
+        "paginas": [
+          4
+        ],
+        "fundamentacao": "página 4.",
+        "trechos_apoio": [
+          "Alimentos semiperecíveis — conservando e manipulando de forma apropriada permanecem sem alteração (batatas, maçãs, nabos, nozes sem casca)."
+        ]
+      }
+    },
+    {
+      "id": "aula_7_deterioracao_q004",
+      "slide_id": "aula_7_deterioracao",
+      "slide_nome": "Aula 7 - Deterioração dos alimentos",
+      "numero": 4,
+      "tema": "Classificação dos alimentos.",
+      "subtema": "Exemplos específicos e limites das generalizações.",
+      "enunciado": "Um estudante afirmou: “Como a apostila inclui a maioria das frutas entre os perecíveis, a maçã também deve estar obrigatoriamente nessa categoria”. Como avaliar essa afirmação usando os exemplos do próprio material?",
+      "alternativas": {
+        "A": "Está correta, pois o material coloca maçãs e carnes na mesma categoria.",
+        "B": "Está incorreta, pois o material coloca maçãs e açúcar entre os estáveis.",
+        "C": "Está incorreta, pois o material cita maçãs entre os semiperecíveis e menciona apenas a maioria das frutas entre os perecíveis.",
+        "D": "Está correta, pois o material usa semiperecível e perecível como nomes da mesma categoria."
+      },
+      "gabarito": "C",
+      "explicacoes": {
+        "A": "Incorreta: maçãs aparecem entre os semiperecíveis; carnes, entre os perecíveis.",
+        "B": "Incorreta: a conclusão do estudante precisa ser revista, mas a maçã não é apresentada como estável.",
+        "C": "Correta: respeita tanto o exemplo específico da maçã quanto a expressão “a maioria das frutas”, sem transformá-la em “todas as frutas”.",
+        "D": "Incorreta: o material apresenta semiperecíveis e perecíveis como categorias distintas, com definições e exemplos próprios."
+      },
+      "referencia": {
+        "paginas": [
+          4
+        ],
+        "fundamentacao": "página 4.",
+        "trechos_apoio": [
+          "Alimentos semiperecíveis [...] maçãs",
+          "Alimentos perecíveis [...] a maioria das frutas"
+        ]
+      }
+    },
+    {
+      "id": "aula_7_deterioracao_q005",
+      "slide_id": "aula_7_deterioracao",
+      "slide_nome": "Aula 7 - Deterioração dos alimentos",
+      "numero": 5,
+      "tema": "Deterioração dos alimentos.",
+      "subtema": "Definição de alimento deteriorado.",
+      "enunciado": "Qual situação corresponde à definição de alimento deteriorado apresentada na apostila?",
+      "alternativas": {
+        "A": "Um alimento recebe microrganismos para realizar reações que produzam alterações benéficas.",
+        "B": "Um alimento é classificado como perecível por apresentar facilidade de alteração.",
+        "C": "Um alimento sofre danos por agentes microbiológicos, químicos ou físicos e se torna inaceitável para o consumo humano.",
+        "D": "Um alimento tem suas características modificadas para formar um novo produto de interesse econômico."
+      },
+      "gabarito": "C",
+      "explicacoes": {
+        "A": "Incorreta: a adição intencional de microrganismos também é apresentada como uma forma de produzir alterações benéficas; ela não define deterioração.",
+        "B": "Incorreta: ser perecível indica facilidade de alteração. Essa classificação, por si só, não significa que o alimento já esteja deteriorado.",
+        "C": "Correta: reúne os agentes causadores e a consequência que integram a definição: tornar o alimento inaceitável para o consumo humano.",
+        "D": "Incorreta: o material descreve a formação de produtos de interesse econômico pela atividade fermentativa bem conduzida, sem equipará-la necessariamente à deterioração."
+      },
+      "referencia": {
+        "paginas": [
+          2,
+          4,
+          16,
+          20
+        ],
+        "fundamentacao": "página 2; distinções complementares nas páginas 4, 16 e 20.",
+        "trechos_apoio": [
+          "danificados por agentes microbiológicos, químicos ou físicos de modo que seja inaceitável para o consumo humano"
+        ]
+      }
+    },
+    {
+      "id": "aula_7_deterioracao_q006",
+      "slide_id": "aula_7_deterioracao",
+      "slide_nome": "Aula 7 - Deterioração dos alimentos",
+      "numero": 6,
+      "tema": "Alterações enzimáticas.",
+      "subtema": "Origem das enzimas que alteram os alimentos.",
+      "enunciado": "Uma alteração de cor, sabor ou textura foi atribuída à ação de enzimas. Segundo a apostila, quais origens dessas enzimas devem ser consideradas?",
+      "alternativas": {
+        "A": "O próprio alimento ou os microrganismos que elaboram enzimas.",
+        "B": "Apenas o próprio alimento, excluindo a participação dos microrganismos.",
+        "C": "Apenas os microrganismos, excluindo enzimas do próprio alimento.",
+        "D": "Ácidos e álcalis, apresentados no material como as fontes dessas enzimas."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: a apostila reconhece enzimas procedentes do próprio produto e enzimas elaboradas por microrganismos.",
+        "B": "Incorreta: exclui uma das origens expressamente apresentadas: os microrganismos.",
+        "C": "Incorreta: exclui as enzimas procedentes do próprio alimento.",
+        "D": "Incorreta: ácidos e álcalis são descritos como agentes químicos desnaturantes de proteínas, e não como fontes das enzimas mencionadas."
+      },
+      "referencia": {
+        "paginas": [
+          7,
+          10
+        ],
+        "fundamentacao": "página 7; distinção em relação aos agentes químicos na página 10.",
+        "trechos_apoio": [
+          "Ocorrem por enzimas procedentes do próprio produto ou elaboradas por microrganismos."
+        ]
+      }
+    },
+    {
+      "id": "aula_7_deterioracao_q007",
+      "slide_id": "aula_7_deterioracao",
+      "slide_nome": "Aula 7 - Deterioração dos alimentos",
+      "numero": 7,
+      "tema": "Alterações químicas.",
+      "subtema": "Escurecimento não enzimático e reação de Maillard.",
+      "enunciado": "Qual associação corresponde ao conteúdo apresentado sobre a reação de Maillard?",
+      "alternativas": {
+        "A": "Alteração enzimática — contato de uma enzima com o oxigênio atmosférico.",
+        "B": "Alteração física — precipitação da lactose durante mudanças de temperatura.",
+        "C": "Alteração química — desnaturação de proteínas pela ação de ácidos e álcalis.",
+        "D": "Escurecimento não enzimático — pigmentação associada à reação de Maillard."
+      },
+      "gabarito": "D",
+      "explicacoes": {
+        "A": "Incorreta: o contato de enzima com oxigênio aparece na apresentação das alterações enzimáticas; não é a associação feita para Maillard.",
+        "B": "Incorreta: a precipitação da lactose e a recristalização do sorvete aparecem na página sobre alterações físicas por temperatura.",
+        "C": "Incorreta: a desnaturação por ácidos e álcalis é outro efeito químico descrito no material, sem ser identificado como reação de Maillard.",
+        "D": "Correta: a apostila associa explicitamente Maillard à pigmentação no escurecimento não enzimático."
+      },
+      "referencia": {
+        "paginas": [
+          9,
+          7,
+          10,
+          12
+        ],
+        "fundamentacao": "página 9; alternativas contrastadas com as páginas 7, 10 e 12.",
+        "trechos_apoio": [
+          "Escurecimento não enzimático — pigmentação: reação de Maillard."
+        ]
+      }
+    },
+    {
+      "id": "aula_7_deterioracao_q008",
+      "slide_id": "aula_7_deterioracao",
+      "slide_nome": "Aula 7 - Deterioração dos alimentos",
+      "numero": 8,
+      "tema": "Alterações químicas.",
+      "subtema": "Mecanismo e produtos do ranço oxidativo.",
+      "enunciado": "Qual sequência corresponde à apresentação do ranço oxidativo na apostila?",
+      "alternativas": {
+        "A": "Transformação da lactose → formação de ácido lático e outros ácidos.",
+        "B": "Rompimento de cadeias insaturadas dos ácidos graxos → formação de compostos como peróxidos e aldeídos → odor desagradável.",
+        "C": "Degradação de proteínas → formação de putrescina, cadaverina, H₂S e NH₃.",
+        "D": "Mudanças de temperatura no armazenamento → precipitação da lactose e recristalização do sorvete."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: essa transformação aparece associada ao azedamento e à coagulação do leite.",
+        "B": "Correta: corresponde ao esquema da página 11, que relaciona o rompimento das cadeias à formação de compostos e ao odor desagradável.",
+        "C": "Incorreta: os compostos citados aparecem associados à putrefação de alimentos ricos em proteínas.",
+        "D": "Incorreta: descreve o exemplo de alteração física relacionado à temperatura, não o esquema do ranço oxidativo."
+      },
+      "referencia": {
+        "paginas": [
+          11,
+          12,
+          26
+        ],
+        "fundamentacao": "página 11; distinções nas páginas 12 e 26.",
+        "trechos_apoio": [
+          "Cadeias insaturadas dos ácidos graxos se rompem",
+          "Peróxidos, aldeídos, álcool, cetonas, hidrocarbonetos",
+          "odor desagradável"
+        ]
+      }
+    },
+    {
+      "id": "aula_7_deterioracao_q009",
+      "slide_id": "aula_7_deterioracao",
+      "slide_nome": "Aula 7 - Deterioração dos alimentos",
+      "numero": 9,
+      "tema": "Alterações benéficas dos alimentos.",
+      "subtema": "Formas de utilizar a atividade dos microrganismos.",
+      "enunciado": "Segundo a apostila, quais estratégias podem produzir alterações benéficas por atividade microbiana?",
+      "alternativas": {
+        "A": "Utilizar microrganismos para provocar decomposição, considerando toda decomposição uma alteração benéfica.",
+        "B": "Adicionar microrganismos intencionalmente, sendo essa a única possibilidade apresentada.",
+        "C": "Estimular microrganismos naturalmente presentes, sendo essa a única possibilidade apresentada.",
+        "D": "Adicionar microrganismos intencionalmente ou estimular seletivamente os que já estão presentes."
+      },
+      "gabarito": "D",
+      "explicacoes": {
+        "A": "Incorreta: o material distingue decomposição e alterações benéficas; não classifica toda decomposição como benéfica.",
+        "B": "Incorreta: a adição intencional é uma possibilidade, mas a página 21 apresenta outra.",
+        "C": "Incorreta: o estímulo dos naturalmente presentes é uma possibilidade, mas a página 20 também descreve a adição intencional.",
+        "D": "Correta: reúne as duas formas apresentadas nas páginas dedicadas às alterações benéficas."
+      },
+      "referencia": {
+        "paginas": [
+          20,
+          21,
+          16
+        ],
+        "fundamentacao": "páginas 20–21; distinção complementar na página 16.",
+        "trechos_apoio": [
+          "Micro-organismos intencionalmente adicionados aos alimentos",
+          "Micro-organismos naturalmente presentes no alimento",
+          "Estimula-se seletivamente sua atividade biológica"
+        ]
+      }
+    },
+    {
+      "id": "aula_7_deterioracao_q010",
+      "slide_id": "aula_7_deterioracao",
+      "slide_nome": "Aula 7 - Deterioração dos alimentos",
+      "numero": 10,
+      "tema": "Processos de deterioração.",
+      "subtema": "Putrefação e sua relação com alimento, microrganismos e produtos.",
+      "enunciado": "Qual alternativa associa corretamente a putrefação aos elementos apresentados na apostila?",
+      "alternativas": {
+        "A": "Alimentos ricos em proteínas — bactérias proteolíticas — putrescina, cadaverina, H₂S e NH₃.",
+        "B": "Alimentos ricos em proteínas — bactérias do ácido lático — ácido lático e outros ácidos a partir da lactose.",
+        "C": "Leite — bactérias proteolíticas — putrescina e cadaverina a partir da lactose.",
+        "D": "Alimentos ricos em gordura — microrganismos lipolíticos — ácido lático a partir das proteínas."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: reúne as três associações apresentadas para putrefação: alimentos proteicos, bactérias proteolíticas e os produtos indicados.",
+        "B": "Incorreta: mistura a descrição da putrefação com a do azedamento e da coagulação do leite, associados às bactérias do ácido lático e à lactose.",
+        "C": "Incorreta: a apostila relaciona putrescina e cadaverina à transformação de proteínas, não da lactose.",
+        "D": "Incorreta: alimentos gordurosos e microrganismos lipolíticos aparecem associados ao ranço; o ácido lático é relacionado à transformação da lactose."
+      },
+      "referencia": {
+        "paginas": [
+          26
+        ],
+        "fundamentacao": "página 26.",
+        "trechos_apoio": [
+          "Alimentos ricos em proteínas (p.ex. carnes)",
+          "Bactérias proteolíticas",
+          "Proteínas → Putrescina, cadaverina, H₂S, NH₃"
+        ]
+      }
+    }
+  ]
+}
+

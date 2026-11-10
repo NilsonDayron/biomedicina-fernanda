@@ -1,0 +1,319 @@
+{
+  "questoes": [
+    {
+      "id": "aula_7_conservacao_q001",
+      "slide_id": "aula_7_conservacao",
+      "slide_nome": "Apostila Aula 7 - Princípios de conservação de alimentos",
+      "numero": 1,
+      "tema": "Fundamentos da conservação.",
+      "subtema": "Diferença entre aparência normal e segurança sanitária.",
+      "enunciado": "Um alimento não apresenta cheiro, aparência ou sabor anormais. Segundo a apostila, o que é possível concluir apenas com essas informações?",
+      "alternativas": {
+        "A": "A ausência de alterações sensoriais demonstra que não existem patógenos.",
+        "B": "Uma pequena prova do alimento permite confirmar sua segurança.",
+        "C": "A aparência normal não permite excluir a presença de patógenos ou toxinas.",
+        "D": "A presença de toxinas pode ser descartada, embora ainda possam existir microrganismos."
+      },
+      "gabarito": "C",
+      "explicacoes": {
+        "A": "Incorreta: o texto afirma que patógenos podem estar presentes sem alterações perceptíveis de cheiro, aparência ou sabor.",
+        "B": "Incorreta: a apostila orienta expressamente que não se deve provar um alimento suspeito para decidir se é seguro.",
+        "C": "Correta: o material distingue deterioração e perigo sanitário e informa que patógenos ou toxinas podem existir sem alterações sensoriais.",
+        "D": "Incorreta: essa limitação da avaliação sensorial também se aplica às toxinas, não apenas aos microrganismos."
+      },
+      "referencia": {
+        "paginas": [
+          1
+        ],
+        "fundamentacao": "página 1.",
+        "trechos_apoio": [
+          "Um alimento pode conter patógenos ou toxinas sem apresentar cheiro, aparência ou sabor anormais."
+        ]
+      }
+    },
+    {
+      "id": "aula_7_conservacao_q002",
+      "slide_id": "aula_7_conservacao",
+      "slide_nome": "Apostila Aula 7 - Princípios de conservação de alimentos",
+      "numero": 2,
+      "tema": "Estratégias de conservação.",
+      "subtema": "Combinação e validação de barreiras.",
+      "enunciado": "Uma empresa pretende combinar temperatura baixa, redução da atividade de água e embalagem para conservar um produto. Qual justificativa corresponde ao conceito de tecnologia de barreiras?",
+      "alternativas": {
+        "A": "A combinação pode favorecer a estabilidade sem tornar uma única barreira extrema, mas precisa ser validada.",
+        "B": "A combinação garante segurança mesmo quando as condições escolhidas não foram avaliadas.",
+        "C": "O uso de embalagem permite dispensar o controle das demais barreiras do processo.",
+        "D": "A presença de várias barreiras demonstra que todos os microrganismos foram eliminados."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: a apostila explica que barreiras podem atuar em conjunto e ressalta a necessidade de validar suas combinações.",
+        "B": "Incorreta: alguns microrganismos toleram condições adversas; a simples combinação de fatores não dispensa avaliação.",
+        "C": "Incorreta: a segurança depende da combinação e do controle dos fatores. A embalagem não torna os outros controles dispensáveis.",
+        "D": "Incorreta: muitas barreiras tornam o ambiente menos favorável à multiplicação, sem necessariamente eliminar todos os microrganismos."
+      },
+      "referencia": {
+        "paginas": [
+          2,
+          7
+        ],
+        "fundamentacao": "páginas 2 e 7.",
+        "trechos_apoio": [
+          "A combinação de barreiras pode permitir um produto estável sem exigir que uma única barreira seja extrema; porém, combinações precisam ser validadas"
+        ]
+      }
+    },
+    {
+      "id": "aula_7_conservacao_q003",
+      "slide_id": "aula_7_conservacao",
+      "slide_nome": "Apostila Aula 7 - Princípios de conservação de alimentos",
+      "numero": 3,
+      "tema": "Conservação pelo frio.",
+      "subtema": "Mecanismo de conservação no congelamento.",
+      "enunciado": "Qual explicação descreve corretamente o efeito do congelamento sobre a conservação dos alimentos?",
+      "alternativas": {
+        "A": "A água permanece inteiramente líquida, mas todos os microrganismos são inativados.",
+        "B": "A formação de gelo elimina a necessidade de controlar as condições após o descongelamento.",
+        "C": "A principal finalidade é inativar enzimas por um tratamento térmico breve.",
+        "D": "Parte significativa da água forma cristais de gelo, reduzindo a disponibilidade de água líquida e tornando as reações mais lentas."
+      },
+      "gabarito": "D",
+      "explicacoes": {
+        "A": "Incorreta: o congelamento transforma parte significativa da água em gelo e não garante a destruição dos microrganismos.",
+        "B": "Incorreta: sobreviventes podem voltar a se multiplicar após o descongelamento, quando encontram condições favoráveis.",
+        "C": "Incorreta: a inativação de enzimas por tratamento térmico breve caracteriza o branqueamento, não o mecanismo descrito para o congelamento.",
+        "D": "Correta: corresponde à explicação da apostila para a redução da atividade e da velocidade das reações durante o congelamento."
+      },
+      "referencia": {
+        "paginas": [
+          3,
+          4
+        ],
+        "fundamentacao": "página 3; distinção sobre branqueamento na página 4.",
+        "trechos_apoio": [
+          "No congelamento, parte significativa da água se transforma em cristais de gelo. A disponibilidade de água líquida diminui e as reações ficam mais lentas"
+        ]
+      }
+    },
+    {
+      "id": "aula_7_conservacao_q004",
+      "slide_id": "aula_7_conservacao",
+      "slide_nome": "Apostila Aula 7 - Princípios de conservação de alimentos",
+      "numero": 4,
+      "tema": "Conservação pelo frio.",
+      "subtema": "Velocidade do congelamento e danos estruturais.",
+      "enunciado": "Dois lotes de um mesmo alimento foram congelados: um rapidamente e outro lentamente. Qual tendência é apresentada na apostila?",
+      "alternativas": {
+        "A": "O congelamento rápido tende a formar cristais maiores e aumentar os danos estruturais.",
+        "B": "O congelamento rápido tende a formar cristais menores e reduzir os danos estruturais.",
+        "C": "O congelamento lento tende a formar cristais menores e reduzir a perda de suco após o descongelamento.",
+        "D": "A velocidade do congelamento não participa da formação dos cristais nem da perda de suco."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: inverte a tendência descrita: o congelamento rápido tende a formar cristais menores.",
+        "B": "Correta: o material relaciona cristais menores à redução dos danos estruturais.",
+        "C": "Incorreta: o congelamento lento pode formar cristais maiores e aumentar a perda de suco após o descongelamento.",
+        "D": "Incorreta: a velocidade participa do resultado, embora composição, tamanho e embalagem também o influenciem."
+      },
+      "referencia": {
+        "paginas": [
+          3
+        ],
+        "fundamentacao": "página 3.",
+        "trechos_apoio": [
+          "O congelamento rápido tende a formar cristais menores, reduzindo danos estruturais"
+        ]
+      }
+    },
+    {
+      "id": "aula_7_conservacao_q005",
+      "slide_id": "aula_7_conservacao",
+      "slide_nome": "Apostila Aula 7 - Princípios de conservação de alimentos",
+      "numero": 5,
+      "tema": "Conservação pelo frio.",
+      "subtema": "Condições de descongelamento.",
+      "enunciado": "Qual orientação de descongelamento está de acordo com a apostila?",
+      "alternativas": {
+        "A": "Descongelar sob refrigeração ou por método que permita cocção imediata, conforme as orientações aplicáveis.",
+        "B": "Deixar o alimento à temperatura ambiente por longos períodos, pois o congelamento anterior garante sua segurança.",
+        "C": "Recongelar automaticamente qualquer alimento descongelado, sem avaliar suas condições anteriores.",
+        "D": "Dispensar as instruções do fabricante quando o alimento tiver sido armazenado congelado."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: corresponde aos métodos indicados, respeitando orientação sanitária e do fabricante.",
+        "B": "Incorreta: o material orienta evitar longos períodos à temperatura ambiente e não considera o congelamento uma garantia de segurança posterior.",
+        "C": "Incorreta: a apostila rejeita o recongelamento automático e exige avaliar as instruções e as condições de segurança.",
+        "D": "Incorreta: as instruções do fabricante continuam relevantes para o descongelamento e para a avaliação do produto."
+      },
+      "referencia": {
+        "paginas": [
+          3
+        ],
+        "fundamentacao": "página 3.",
+        "trechos_apoio": [
+          "Descongelar sob refrigeração ou por método que permita cocção imediata [...] não deixar à temperatura ambiente por longos períodos."
+        ]
+      }
+    },
+    {
+      "id": "aula_7_conservacao_q006",
+      "slide_id": "aula_7_conservacao",
+      "slide_nome": "Apostila Aula 7 - Princípios de conservação de alimentos",
+      "numero": 6,
+      "tema": "Conservação pelo frio.",
+      "subtema": "Cuidados durante o armazenamento congelado.",
+      "enunciado": "Após congelar um alimento, qual conjunto de cuidados corresponde às recomendações da apostila?",
+      "alternativas": {
+        "A": "Permitir oscilações térmicas e utilizar embalagens permeáveis ao vapor.",
+        "B": "Manter a embalagem, mas desconsiderar o prazo recomendado enquanto houver gelo.",
+        "C": "Evitar oscilações térmicas, embalagens permeáveis ao vapor e armazenamento além do prazo recomendado.",
+        "D": "Considerar que a temperatura de congelamento corrige automaticamente falhas anteriores de conservação."
+      },
+      "gabarito": "C",
+      "explicacoes": {
+        "A": "Incorreta: oscilações térmicas e embalagens permeáveis ao vapor estão entre as condições que o material orienta evitar.",
+        "B": "Incorreta: a presença de gelo não substitui o respeito ao prazo recomendado.",
+        "C": "Correta: reúne os três cuidados expressamente citados para o armazenamento.",
+        "D": "Incorreta: a apostila orienta não presumir que o congelamento tenha corrigido abusos anteriores."
+      },
+      "referencia": {
+        "paginas": [
+          3
+        ],
+        "fundamentacao": "página 3.",
+        "trechos_apoio": [
+          "Evitar oscilações térmicas, embalagens permeáveis ao vapor e armazenamento além do prazo recomendado."
+        ]
+      }
+    },
+    {
+      "id": "aula_7_conservacao_q007",
+      "slide_id": "aula_7_conservacao",
+      "slide_nome": "Apostila Aula 7 - Princípios de conservação de alimentos",
+      "numero": 7,
+      "tema": "Tratamentos térmicos.",
+      "subtema": "Finalidade e limites do branqueamento.",
+      "enunciado": "Uma indústria aplica um tratamento térmico breve a vegetais antes do congelamento, buscando reduzir alterações de cor, sabor e textura durante o armazenamento. Qual interpretação está correta?",
+      "alternativas": {
+        "A": "Trata-se de pasteurização, que garante a destruição de todos os esporos e toxinas.",
+        "B": "Trata-se de branqueamento, cujo objetivo principal é inativar enzimas, sem constituir isoladamente esterilização.",
+        "C": "Trata-se de esterilização comercial, identificada apenas por atingir temperatura superior a 100 °C.",
+        "D": "Trata-se de branqueamento, que torna desnecessários o congelamento e os demais cuidados de conservação."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a descrição corresponde ao branqueamento. Além disso, o material não atribui à pasteurização a destruição de todos os esporos e toxinas.",
+        "B": "Correta: a apostila apresenta o branqueamento como tratamento breve, frequentemente anterior ao congelamento ou à secagem, voltado principalmente à inativação enzimática.",
+        "C": "Incorreta: a esterilização comercial depende de um processo definido para produto, embalagem e equipamento; não se resume a esse limite de temperatura.",
+        "D": "Incorreta: o branqueamento é apresentado como uma etapa anterior a outros métodos, não como substituto automático deles."
+      },
+      "referencia": {
+        "paginas": [
+          3,
+          4
+        ],
+        "fundamentacao": "páginas 3–4.",
+        "trechos_apoio": [
+          "Tem como objetivo principal inativar enzimas [...] não é, isoladamente, um processo de esterilização."
+        ]
+      }
+    },
+    {
+      "id": "aula_7_conservacao_q008",
+      "slide_id": "aula_7_conservacao",
+      "slide_nome": "Apostila Aula 7 - Princípios de conservação de alimentos",
+      "numero": 8,
+      "tema": "Redução de água nos alimentos.",
+      "subtema": "Princípio da liofilização.",
+      "enunciado": "Qual descrição identifica a liofilização?",
+      "alternativas": {
+        "A": "Remoção de parte da água, geralmente por evaporação, elevando a proporção de sólidos.",
+        "B": "Remoção de água por transferência de calor e massa em secadores de ar quente.",
+        "C": "Incorporação de cloreto de sódio para alterar o equilíbrio osmótico e reduzir a atividade de água.",
+        "D": "Congelamento do alimento seguido da remoção do gelo por sublimação sob pressão reduzida."
+      },
+      "gabarito": "D",
+      "explicacoes": {
+        "A": "Incorreta: corresponde à descrição de concentração.",
+        "B": "Incorreta: apresenta uma forma de secagem descrita no material, sem o mecanismo específico de sublimação do gelo.",
+        "C": "Incorreta: corresponde à salga, que incorpora sal ao alimento.",
+        "D": "Correta: reúne as etapas e condições que caracterizam a liofilização na apostila."
+      },
+      "referencia": {
+        "paginas": [
+          4,
+          5
+        ],
+        "fundamentacao": "página 4; descrição de salga na página 5.",
+        "trechos_apoio": [
+          "A liofilização congela o alimento e remove gelo por sublimação sob pressão reduzida"
+        ]
+      }
+    },
+    {
+      "id": "aula_7_conservacao_q009",
+      "slide_id": "aula_7_conservacao",
+      "slide_nome": "Apostila Aula 7 - Princípios de conservação de alimentos",
+      "numero": 9,
+      "tema": "Salga.",
+      "subtema": "Distribuição do sal e limites da conservação.",
+      "enunciado": "Um produtor afirma que aplicar sal na superfície de um alimento já garante sua segurança, independentemente da distribuição do sal e das demais condições de conservação. Qual avaliação corresponde à apostila?",
+      "alternativas": {
+        "A": "A afirmação está correta, pois a presença superficial de sal garante concentração adequada em todo o alimento.",
+        "B": "A afirmação está incorreta, pois a eficácia depende da concentração final no interior e da combinação com outras barreiras.",
+        "C": "A afirmação está correta, pois a difusão do sal independe da espessura e da estrutura do alimento.",
+        "D": "A afirmação está correta, pois todos os produtos cárneos salgados possuem processamento e conservação equivalentes."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: aplicar sal na superfície não demonstra que a concentração final no interior seja adequada.",
+        "B": "Correta: o texto destaca a concentração interna e a associação com secagem, refrigeração, acidificação, calor ou outras barreiras.",
+        "C": "Incorreta: espessura e estrutura do tecido estão entre os fatores que influenciam a difusão do sal.",
+        "D": "Incorreta: o material informa que produtos tradicionais salgados podem diferir em formulação, umidade, processamento e armazenamento."
+      },
+      "referencia": {
+        "paginas": [
+          5
+        ],
+        "fundamentacao": "página 5.",
+        "trechos_apoio": [
+          "O sal, isoladamente, não garante segurança absoluta. A eficácia depende da concentração final no interior do alimento e da combinação com [...] outras barreiras."
+        ]
+      }
+    },
+    {
+      "id": "aula_7_conservacao_q010",
+      "slide_id": "aula_7_conservacao",
+      "slide_nome": "Apostila Aula 7 - Princípios de conservação de alimentos",
+      "numero": 10,
+      "tema": "Embalagens e conservação.",
+      "subtema": "Diferença entre vácuo e atmosfera modificada.",
+      "enunciado": "Dois processos de embalagem foram descritos:\n\n- Processo I: remoção do ar antes do fechamento.\n- Processo II: substituição do ar por uma mistura gasosa planejada.\n\nQual alternativa identifica corretamente os processos e seus limites?",
+      "alternativas": {
+        "A": "I é vácuo e II é atmosfera modificada; nenhum deles dispensa refrigeração ou outras barreiras quando requeridas.",
+        "B": "I é atmosfera modificada e II é vácuo; ambos exigem os mesmos gases em qualquer alimento.",
+        "C": "I é vácuo e II é atmosfera modificada; ambos tornam desnecessário o controle de temperatura.",
+        "D": "I e II são equivalentes; qualquer redução de oxigênio garante automaticamente a segurança do alimento."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: diferencia os processos conforme a apostila e preserva a necessidade dos demais controles quando aplicáveis.",
+        "B": "Incorreta: inverte as definições. Além disso, a mistura gasosa é selecionada conforme características do alimento e da embalagem.",
+        "C": "Incorreta: identifica os processos corretamente, mas elimina indevidamente o controle de temperatura.",
+        "D": "Incorreta: o texto afirma que os métodos não são equivalentes e que pouco oxigênio não torna o alimento automaticamente seguro."
+      },
+      "referencia": {
+        "paginas": [
+          6
+        ],
+        "fundamentacao": "página 6.",
+        "trechos_apoio": [
+          "No vácuo, o ar é removido da embalagem antes do fechamento. Na atmosfera modificada, o ar é substituído por uma mistura gasosa planejada."
+        ]
+      }
+    }
+  ]
+}
+
