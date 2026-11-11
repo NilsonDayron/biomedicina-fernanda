@@ -87,57 +87,91 @@ export function getQuestionsBySlideId(slideId) {
   return material.questoes.filter((questao) => questao.slide_id === material.slide_id)
 }
 
-export function findReinforcementForError({
-  slideId,
-  failedQuestion,
-  answeredIds = [],
-  queuedIds = [],
-  requiredCount = 3,
-}) {
-  const materialQuestions = getQuestionsBySlideId(slideId)
-  if (!failedQuestion || failedQuestion.slide_id !== slideId) {
-    return {
-      ineditasAdicionadas: [],
-      faltam: requiredCount,
-      limitacaoDetectada: true,
-      repetiveisMesmoSubtema: [],
-      repetiveisMesmoMaterial: [],
+export function shuffleArray(list) {
+  const copy = [...list]
+  for (let i = copy.length - 1; i > 0; i -= 1) {
+    const j = Math.floor(Math.random() * (i + 1))
+    ;[copy[i], copy[j]] = [copy[j], copy[i]]
+  }
+  return copy
+}
+
+export function shuffleQuestionsForSession(questions, count, lastOrderIds = []) {
+  const pool = [...questions]
+  if (pool.length <= 1) return pool.slice(0, count)
+
+  const canonicalKey = pool.map((q) => q.id).join('|')
+  const lastKey = Array.isArray(lastOrderIds) && lastOrderIds.length ? lastOrderIds.join('|') : ''
+
+  let selected = shuffleArray(pool).slice(0, count)
+  for (let attempt = 0; attempt < 12; attempt += 1) {
+    const candidate = shuffleArray(pool)
+    const candidateFullKey = candidate.map((q) => q.id).join('|')
+    const candidateSliceKey = candidate.slice(0, count).map((q) => q.id).join('|')
+    if (
+      candidateFullKey !== canonicalKey &&
+      (!lastKey || candidateSliceKey !== lastKey)
+    ) {
+      selected = candidate.slice(0, count)
+      break
     }
   }
+  return selected
+}
 
-  const answeredSet = new Set(answeredIds)
-  const queuedSet = new Set(queuedIds)
+export function generateShuffledOptionOrder(avoidOrder = null) {
+  const avoidKey = Array.isArray(avoidOrder) ? avoidOrder.join('') : ''
+  for (let attempt = 0; attempt < 15; attempt += 1) {
+    const candidate = shuffleArray(LETTER_KEYS)
+    const key = candidate.join('')
+    if (key !== 'ABCD' && key !== avoidKey) {
+      return candidate
+    }
+  }
+  return ['B', 'D', 'A', 'C']
+}
 
-  const mesmoSubtema = materialQuestions.filter(
-    (q) => q.slide_id === slideId && q.subtema === failedQuestion.subtema,
-  )
+export function generateThreeReinforcementOptionOrders(initialOptionOrder = LETTER_KEYS) {
+  const base =
+    Array.isArray(initialOptionOrder) && initialOptionOrder.length === 4
+      ? initialOptionOrder
+      : LETTER_KEYS
 
-  const ineditasDisponiveis = mesmoSubtema.filter(
-    (q) => q.id !== failedQuestion.id && !answeredSet.has(q.id) && !queuedSet.has(q.id),
-  )
+  // Derangements / Latin-square rows relative to `base`:
+  // Each row places every original alternative (including the gabarito) in a distinct position
+  // from `base` and from the other two rows.
+  const shift1 = [base[1], base[2], base[3], base[0]]
+  const shift2 = [base[2], base[3], base[0], base[1]]
+  const shift3 = [base[3], base[0], base[1], base[2]]
 
-  const ineditasAdicionadas = ineditasDisponiveis.slice(0, requiredCount)
-  const faltam = Math.max(0, requiredCount - ineditasAdicionadas.length)
-  const limitacaoDetectada = faltam > 0
+  return shuffleArray([shift1, shift2, shift3])
+}
 
-  const repetiveisMesmoSubtema = mesmoSubtema.filter(
-    (q) => q.id === failedQuestion.id || answeredSet.has(q.id),
-  )
+export function mapQuestionWithOptionOrder(questao, optionOrder = LETTER_KEYS) {
+  const order =
+    Array.isArray(optionOrder) && optionOrder.length === 4 ? optionOrder : LETTER_KEYS
 
-  const repetiveisMesmoMaterial = materialQuestions
-    .filter((q) => q.id === failedQuestion.id || answeredSet.has(q.id))
-    .sort((a, b) => {
-      const aSub = a.subtema === failedQuestion.subtema ? 0 : a.tema === failedQuestion.tema ? 1 : 2
-      const bSub = b.subtema === failedQuestion.subtema ? 0 : b.tema === failedQuestion.tema ? 1 : 2
-      if (aSub !== bSub) return aSub - bSub
-      return a.numero - b.numero
-    })
+  const alternativasExibidas = {}
+  const explicacoesExibidas = {}
+  const originalKeyByDisplayedLetter = {}
+  let gabaritoExibido = questao.gabarito
+
+  LETTER_KEYS.forEach((displayedLetter, index) => {
+    const originalKey = order[index]
+    originalKeyByDisplayedLetter[displayedLetter] = originalKey
+    alternativasExibidas[displayedLetter] = questao.alternativas[originalKey]
+    explicacoesExibidas[displayedLetter] = questao.explicacoes[originalKey]
+    if (originalKey === questao.gabarito) {
+      gabaritoExibido = displayedLetter
+    }
+  })
 
   return {
-    ineditasAdicionadas,
-    faltam,
-    limitacaoDetectada,
-    repetiveisMesmoSubtema,
-    repetiveisMesmoMaterial,
+    optionOrder: order,
+    alternativasExibidas,
+    explicacoesExibidas,
+    originalKeyByDisplayedLetter,
+    gabaritoExibido,
+    textoGabarito: questao.alternativas[questao.gabarito],
   }
 }
