@@ -1,0 +1,1138 @@
+{
+  "questoes": [
+    {
+      "id": "origem_vida_aula_02_q001",
+      "slide_id": "origem_vida_aula_02",
+      "slide_nome": "Aula 02 - Evolução da célula",
+      "arquivo_origem": "Aula 02 - Evolução da célula_260910_160055 (1).pdf",
+      "numero": 1,
+      "tema": "Evolução Molecular Prebiótica",
+      "subtema": "Hipótese de Oparin-Haldane e Atmosfera Primitiva",
+      "enunciado": "De acordo com a hipótese de Oparin e Haldane apresentada na aula, a atmosfera da Terra primitiva apresentava composição gasosa marcadamente redutora e distinta da atual. Quais eram os quatro gases fundamentais apontados no modelo como precursores da síntese prebiótica?",
+      "alternativas": {
+        "A": "Oxigênio molecular (O₂), gás carbônico (CO₂), nitrogênio gasoso (N₂) e ozônio (O₃).",
+        "B": "Vapor de água (H₂O), metano (CH₄), amônia (NH₃) e gás hidrogênio (H₂).",
+        "C": "Monóxido de carbono (CO), hélio (He), cloro gasoso (Cl₂) e metano (CH₄).",
+        "D": "Oxigênio molecular (O₂), vapor de água (H₂O), amônia (NH₃) e enxofre elementar (S)."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: inclui oxigênio molecular (O₂) e ozônio (O₃); a atmosfera primordial era anóxica (sem O₂ livre) e desprovida de camada de ozônio protetora.",
+        "B": "Correta: na hipótese de Oparin e Haldane, os gases constituintes da atmosfera primitiva eram vapor de água, metano (CH₄), amônia (NH₃) e muito gás hidrogênio (H₂).",
+        "C": "Incorreta: lista hélio e cloro gasoso, que não são citados como componentes da mistura de gases reagentes prebióticos da teoria de Oparin.",
+        "D": "Incorreta: aponta incorretamente o oxigênio molecular (O₂), cuja ausência foi determinante para evitar a oxidação e destruição precoce das moléculas recém-formadas."
+      },
+      "referencia": {
+        "paginas": [
+          1,
+          4,
+          8
+        ],
+        "fundamentacao": "Páginas 1, 4 e 8.",
+        "trechos_apoio": [
+          "Oparin relata que o ambiente da terra primordial era de altas temperaturas, muita radiação ionizante e intensa tempestades de raios, enquanto que a atmosfera primitiva era composta de vapor de água, metano, amônia e muito gás hidrogênio."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_02_q002",
+      "slide_id": "origem_vida_aula_02",
+      "slide_nome": "Aula 02 - Evolução da célula",
+      "arquivo_origem": "Aula 02 - Evolução da célula_260910_160055 (1).pdf",
+      "numero": 2,
+      "tema": "Síntese Prebiótica no Caldo Primordial",
+      "subtema": "Circunstâncias Favoráveis ao Acúmulo de Carbono",
+      "enunciado": "O material didático aponta que o acúmulo gradual de compostos contendo carbono no \"caldo primordial\" foi favorecido por três circunstâncias cruciais na Terra primitiva. Dentre elas, a ausência de oxigênio gasoso livre (O₂) foi determinante porque:",
+      "alternativas": {
+        "A": "Impedia que os compostos orgânicos recém-formados fossem rapidamente destruídos por oxidação.",
+        "B": "Acelerava a condensação da água em geleiras permanentes em escala global.",
+        "C": "Bloqueava integralmente a chegada de qualquer radiação ionizante ou raios UV na superfície.",
+        "D": "Obrigava as moléculas de metano a se ligarem diretamente a núcleos de ferro sólido."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: a terceira circunstância destacada na apostila é justamente a ausência de oxigênio livre, impedindo que as moléculas orgânicas recém-formadas fossem degradadas por reações oxidativas imediatas.",
+        "B": "Incorreta: a Terra primitiva era caracterizada por temperaturas extremamente elevadas e atividade vulcânica, não por glaciação.",
+        "C": "Incorreta: a ausência de oxigênio implicava a inexistência da camada de ozônio protetora (O₃), tornando a incidência de radiação UV solar ainda mais intensa na superfície.",
+        "D": "Incorreta: o metano recombinava-se com amônia e vapor d'água sob descargas elétricas na atmosfera, não se tratando de ligação direta e exclusiva com ferro sólido."
+      },
+      "referencia": {
+        "paginas": [
+          6
+        ],
+        "fundamentacao": "Página 6.",
+        "trechos_apoio": [
+          "O acúmulo gradual de compostos com carbono foi favorecido por 3 circunstâncias: [...] 3. A ausência de oxigênio na Terra, assim as moléculas neoformadas não seriam logo destruídas por oxidação."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_02_q003",
+      "slide_id": "origem_vida_aula_02",
+      "slide_nome": "Aula 02 - Evolução da célula",
+      "arquivo_origem": "Aula 02 - Evolução da célula_260910_160055 (1).pdf",
+      "numero": 3,
+      "tema": "Hipótese da Panspermia Cósmica",
+      "subtema": "Proposta de Arrhenius e Objeção Científica",
+      "enunciado": "No século XIX, o químico Svante Arrhenius propôs a hipótese da panspermia, sugerindo que a vida teria sido transportada para a Terra a partir do espaço em meteoritos. Qual foi a principal contestação científica levantada contra a viabilidade biológica dessa proposta original?",
+      "alternativas": {
+        "A": "A impossibilidade de qualquer forma de vida suportar as altíssimas temperaturas geradas pelo atrito do ar no momento da reentrada atmosférica.",
+        "B": "A comprovação de que meteoritos e cometas são corpos formados exclusivamente por gases nobres inertes.",
+        "C": "A ausência absoluta de gravidade no planeta Terra antes de 2 bilhões de anos.",
+        "D": "A destruição de todas as rochas espaciais pela camada de ozônio estratosférica primordial."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: cientistas refutaram a hipótese pioneira argumentando que nenhuma forma de vida resistiria ao calor extremo produzido pelo atrito com a atmosfera ao ingressar no planeta.",
+        "B": "Incorreta: meteoritos contêm silicatos, metais e cristais de água/carbono, e não apenas gases nobres inertes.",
+        "C": "Incorreta: a gravidade da Terra decorre de sua massa física desde sua formação inicial por acreção (~4,54 Ga), não surgindo tardiamente.",
+        "D": "Incorreta: a Terra primitiva não possuía camada de ozônio (que depende de oxigênio livre fotossintético acumulado posteriormente) e o ozônio não queima rochas."
+      },
+      "referencia": {
+        "paginas": [
+          7
+        ],
+        "fundamentacao": "Página 7.",
+        "trechos_apoio": [
+          "O primeiro a propor esta hipótese foi o químico Arrhenius no Século XIX [...]. Porém, esta hipótese foi refutada por muitos cientistas que alegavam ser impossível que qualquer forma de vida suporte a alta temperatura decorrente do atrito do ar com o meteorito no momento de sua entrada na atmosfera terrestre."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_02_q004",
+      "slide_id": "origem_vida_aula_02",
+      "slide_nome": "Aula 02 - Evolução da célula",
+      "arquivo_origem": "Aula 02 - Evolução da célula_260910_160055 (1).pdf",
+      "numero": 4,
+      "tema": "Validação Experimental",
+      "subtema": "O Experimento de Miller-Urey (1953)",
+      "enunciado": "Em 1953, Stanley Miller, orientado por Harold Urey, construiu um aparelho de vidro fechado contendo água, metano, amônia e hidrogênio, submetendo essa mistura gasosa a descargas elétricas e ciclos de condensação. O resultado obtido nesse experimento comprovou que:",
+      "alternativas": {
+        "A": "Uma célula bacteriana procarionte autotrófica viva pode ser criada instantaneamente em laboratório.",
+        "B": "A fotossíntese aquática depende obrigatoriamente de faíscas elétricas para fixar CO₂.",
+        "C": "Compostos orgânicos essenciais à vida, como aminoácidos, podem se formar espontaneamente a partir de precursores inorgânicos simples sob condições prebióticas.",
+        "D": "O DNA de dupla-fita enrola-se em histonas sem a necessidade de água líquida no sistema."
+      },
+      "gabarito": "C",
+      "explicacoes": {
+        "A": "Incorreta: o experimento não gerou células vivas funcionais nem bactérias, mas sim monômeros químicos orgânicos.",
+        "B": "Incorreta: o teste de Miller-Urey visava simular reações químicas da atmosfera primordial antes de qualquer ser fotossintético existir, sem relação com fotossíntese enzimática.",
+        "C": "Correta: o experimento demonstrou de forma pioneira a formação de aminoácidos e outras biomoléculas a partir de compostos inorgânicos simples sob descargas que simulavam raios.",
+        "D": "Incorreta: histonas e DNA cromossômico são estruturas nucleares de eucariontes complexos, totalmente fora do escopo da síntese abiótica de aminoácidos de 1953."
+      },
+      "referencia": {
+        "paginas": [
+          11
+        ],
+        "fundamentacao": "Página 11.",
+        "trechos_apoio": [
+          "O resultado foi a formação de aminoácidos e outras moléculas orgânicas, mostrando que compostos orgânicos essenciais à vida podem ser formados a partir de compostos inorgânicos simples."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_02_q005",
+      "slide_id": "origem_vida_aula_02",
+      "slide_nome": "Aula 02 - Evolução da célula",
+      "arquivo_origem": "Aula 02 - Evolução da célula_260910_160055 (1).pdf",
+      "numero": 5,
+      "tema": "Bioenergética Evolutiva",
+      "subtema": "Crítica à Hipótese Autotrófica Primordial",
+      "enunciado": "Alguns modelos antigos propunham que o primeiro organismo vivo da Terra primitiva teria sido autotrófico fotossintetizante. Conforme discutido no material, muitos cientistas rejeitam essa ideia porque:",
+      "alternativas": {
+        "A": "A fotossíntese é uma via bioquímica complexa demais para a simplicidade estrutural exigida na primeira célula, além de depender de condições gasosas não condizentes com a Terra primordial.",
+        "B": "A luz solar era totalmente bloqueada pelas camadas de ferro fundido do núcleo da Terra.",
+        "C": "As primeiras células utilizavam exclusivamente oxigênio molecular puro para realizar quimiossíntese.",
+        "D": "Não existia água líquida nos oceanos até o final da era dos dinossauros."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: a fotossíntese exige complexos aparatos enzimáticos e pigmentares incompatíveis com a simplicidade da primeira célula rudimentar; ademais, o modelo clássico de atmosfera de Oparin não possuía dióxido de carbono abundante.",
+        "B": "Incorreta: a luz solar e a radiação UV alcançavam amplamente a superfície da Terra; o ferro fundido estava concentrado no núcleo e manto internos.",
+        "C": "Incorreta: as primeiras células viveram em um planeta anóxico e não usavam oxigênio livre (o qual era inexistente na atmosfera primitiva).",
+        "D": "Incorreta: os oceanos primitivos formaram-se há bilhões de anos (~4,4 Ga), muito antes de qualquer vertebrado ou réptil surgir."
+      },
+      "referencia": {
+        "paginas": [
+          9
+        ],
+        "fundamentacao": "Página 9.",
+        "trechos_apoio": [
+          "Para muitos cientistas, a teoria de que os autotróficos foram os primeiros organismos a 'pisar na Terra' é falsa [...]. Ainda, eles afirmam que a fotossíntese é um processo complexo para a simplicidade da primeira célula, além de que para ela acontecer, a atmosfera deveria conter outros gases, contrariando, desta forma, Oparin."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_02_q006",
+      "slide_id": "origem_vida_aula_02",
+      "slide_nome": "Aula 02 - Evolução da célula",
+      "arquivo_origem": "Aula 02 - Evolução da célula_260910_160055 (1).pdf",
+      "numero": 6,
+      "tema": "Hipótese Heterotrófica",
+      "subtema": "Sequência de Inovações Metabólicas",
+      "enunciado": "De acordo com a hipótese heterotrófica detalhada na aula, os primeiros seres vivos obtinham energia na sopa primordial por um mecanismo específico, desencadeando uma sequência de transformações ecológicas no planeta. Qual foi o primeiro processo metabólico utilizado e sua consequência imediata?",
+      "alternativas": {
+        "A": "Respiração celular oxidativa, que consumiu todo o metano dos mares primitivos.",
+        "B": "Fermentação anaeróbia de açúcares, liberando gás carbônico (CO₂) que possibilitou a posterior evolução dos seres autotróficos.",
+        "C": "Fotofosforilação acíclica com quebra de água e geração imediata de ozônio.",
+        "D": "Fosforilação quimiosmótica dependente de bombas de prótons de mitocôndrias maduras."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: na ausência de oxigênio livre, a respiração celular aeróbia era impossível para as primeiras células.",
+        "B": "Correta: sem oxigênio atmosférico, as células utilizavam fermentação para metabolizar açúcares; esse processo liberava grande quantidade de gás carbônico (CO₂) residual, criando o substrato gasoso necessário para o surgimento dos primeiros organismos autotróficos.",
+        "C": "Incorreta: o oxigênio residual dos autotróficos é que mais tarde originou o ozônio na estratosfera, e não a primeira via anaeróbia.",
+        "D": "Incorreta: mitocôndrias são organelas de células eucarióticas que surgiram muito depois por endossimbiose, ausentes nos primeiros heterótrofos procariontes."
+      },
+      "referencia": {
+        "paginas": [
+          10
+        ],
+        "fundamentacao": "Página 10.",
+        "trechos_apoio": [
+          "Desta forma, o mais provável é que o processo de fermentação tenha sido o primeiro a ser utilizado. Por ele, há a metabolização de açúcares, liberando muito gás carbônico como resíduo, possibilitando o surgimento de organismos autotróficos."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_02_q007",
+      "slide_id": "origem_vida_aula_02",
+      "slide_nome": "Aula 02 - Evolução da célula",
+      "arquivo_origem": "Aula 02 - Evolução da célula_260910_160055 (1).pdf",
+      "numero": 7,
+      "tema": "O Grande Evento de Oxigenação",
+      "subtema": "Camada de Ozônio e Conquista Terrestre",
+      "enunciado": "O surgimento de microrganismos autotróficos modificou profundamente a geoquímica terrestre. Segundo o texto da aula, como a produção de oxigênio residual afetou os oceanos e viabilizou a posterior colonização da superfície continental?",
+      "alternativas": {
+        "A": "O oxigênio acidificou os mares primitivos e esterilizou todas as bactérias aquáticas.",
+        "B": "O oxigênio converteu a amônia diretamente em metano aquoso, extinguindo as tempestades elétricas.",
+        "C": "O oxigênio saturou os mares, passou para a atmosfera e formou a camada de ozônio, que bloqueou o excesso de radiação ultravioleta.",
+        "D": "O oxigênio destruiu as membranas plasmáticas de todos os organismos heterótrofos anaeróbios sem exceção."
+      },
+      "gabarito": "C",
+      "explicacoes": {
+        "A": "Incorreta: o oxigênio gasoso produzido pelos autotróficos não acidificou e destruiu a vida marinha global; ao saturar as águas, ele escapou para a atmosfera.",
+        "B": "Incorreta: a liberação de oxigênio levou à oxidação da atmosfera e formação de ozônio (O₃), não à síntese de metano.",
+        "C": "Correta: o oxigênio liberado pelos autotróficos saturou os oceanos, migrou para a atmosfera e reagiu formando a camada de ozônio (O₃), cuja proteção contra a intensa radiação UV permitiu a colonização de ambientes terrestres secos e o surgimento da respiração aeróbia.",
+        "D": "Incorreta: embora o oxigênio fosse tóxico para muitos anaeróbios obrigatórios, linhagens adaptaram-se e desenvolveram respiração celular oxidativa mais eficaz."
+      },
+      "referencia": {
+        "paginas": [
+          10
+        ],
+        "fundamentacao": "Página 10.",
+        "trechos_apoio": [
+          "O oxigênio residual produzido pelos autotróficos saturaram os oceanos, de forma que este gás pôde sair do mar e subir para a atmosfera para reagir e formar a camada de ozônio. Esta camada foi capaz de proteger o ambiente terrestre da intensa radiação ultravioleta, favorecendo a migração de organismos aquáticos para a superfície terrestre."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_02_q008",
+      "slide_id": "origem_vida_aula_02",
+      "slide_nome": "Aula 02 - Evolução da célula",
+      "arquivo_origem": "Aula 02 - Evolução da célula_260910_160055 (1).pdf",
+      "numero": 8,
+      "tema": "Estruturas Pré-celulares",
+      "subtema": "Caracterização dos Protobiontes",
+      "enunciado": "Os protobiontes são descritos no material como passos intermediários fundamentais na transição da química pré-biótica para a biologia celular. Qual característica estrutural e funcional define corretamente essas entidades pré-celulares?",
+      "alternativas": {
+        "A": "Eram células eucarióticas verdadeiras providas de complexo de Golgi e carioteca madura.",
+        "B": "Consistiam em agregados moleculares auto-organizados, com meio interno diferenciado do externo, porém sem uma membrana celular definida.",
+        "C": "Eram vírus bacteriófagos de DNA de fita dupla que infectavam rochas magmáticas.",
+        "D": "Eram colônias de fungos pluricelulares com divisão meiótica ativa no caldo primordial."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: protobiontes não são células eucarióticas nem possuem organelas membranosas ou carioteca.",
+        "B": "Correta: protobiontes são sistemas pré-celulares formados espontaneamente por lipídios e proteínas que conseguem manter um ambiente interno diferente do externo e realizar reações químicas, mas não têm a estrutura complexa de uma membrana celular verdadeira.",
+        "C": "Incorreta: vírus são entidades acelulares que dependem de hospedeiros celulares vivos para se reproduzir; não existiam nas rochas antes da vida celular.",
+        "D": "Incorreta: fungos são organismos eucarióticos complexos que surgiram muito posteriormente na evolução da vida."
+      },
+      "referencia": {
+        "paginas": [
+          12,
+          13
+        ],
+        "fundamentacao": "Páginas 12 e 13.",
+        "trechos_apoio": [
+          "Protobiontes não são células verdadeiras, mas sim sistemas químicos que exibem algumas características semelhantes às células, como a capacidade de manter um ambiente interno diferente do externo e realizar reações químicas. [...] Embora possam ter uma espécie de limite que separa o interior do exterior, como uma membrana rudimentar, não possuem a complexa estrutura da membrana celular encontrada nas células."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_02_q009",
+      "slide_id": "origem_vida_aula_02",
+      "slide_nome": "Aula 02 - Evolução da célula",
+      "arquivo_origem": "Aula 02 - Evolução da célula_260910_160055 (1).pdf",
+      "numero": 9,
+      "tema": "Modelos Experimentais Pré-celulares",
+      "subtema": "Coacervados, Microsferas e Sulfóbios",
+      "enunciado": "O slide apresenta diferentes modelos laboratoriais formulados por pesquisadores para estudar agregados pré-celulares. A correta associação entre o modelo experimental e o cientista que o investigou é:",
+      "alternativas": {
+        "A": "Coacervados (Oparin); Microsferas (Sidney Fox); Sulfóbios (Alfonso Herrera).",
+        "B": "Coacervados (Louis Pasteur); Microsferas (Miller); Sulfóbios (Oparin).",
+        "C": "Coacervados (Lynn Margulis); Microsferas (Lazzaro Spallanzani); Sulfóbios (Francesco Redi).",
+        "D": "Coacervados (Arrhenius); Microsferas (Haldane); Sulfóbios (Stanley Miller)."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: conforme a lista de exemplos de protobiontes da apostila, coacervados foram estudados por Aleksandr Oparin, microsferas de proteínas por Sidney Fox, e sulfóbios por Alfonso Herrera.",
+        "B": "Incorreta: Pasteur estudou esterilização e biogênese em pescoço de cisne; Miller sintetizou aminoácidos abióticos.",
+        "C": "Incorreta: Margulis propôs a teoria endossimbiótica; Spallanzani e Redi realizaram testes históricos contra a geração espontânea de caldos e carnes.",
+        "D": "Incorreta: Arrhenius formulou a hipótese da panspermia cósmica; Haldane propôs a teoria da atmosfera redutora com Oparin."
+      },
+      "referencia": {
+        "paginas": [
+          13
+        ],
+        "fundamentacao": "Página 13.",
+        "trechos_apoio": [
+          "Exemplos de protobiontes: Coacervados: Gotículas formadas por agregados de proteínas e outras moléculas orgânicas, estudadas por Aleksandr Oparin. Microsferas: Esferas formadas por proteínas que se auto-organizam, estudadas por Sidney Fox. Lipossomas: Vesículas formadas por bicamadas lipídicas [...]. Sulfóbios: Estruturas estudadas por Alfonso Herrera."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_02_q010",
+      "slide_id": "origem_vida_aula_02",
+      "slide_nome": "Aula 02 - Evolução da célula",
+      "arquivo_origem": "Aula 02 - Evolução da célula_260910_160055 (1).pdf",
+      "numero": 10,
+      "tema": "Transição Química para a Vida",
+      "subtema": "O Aparecimento dos Ácidos Nucleicos nos Coacervados",
+      "enunciado": "De acordo com o material da aula, a \"vida propriamente dita\" consolidou-se quando reações químicas no interior dos coacervados permitiram o surgimento de moléculas de ácidos nucleicos. Qual sequência de eventos e funções é destacada na aula para o RNA e o DNA?",
+      "alternativas": {
+        "A": "O DNA surgiu primeiro e necessitava de enzimas proteicas para se replicar, sendo depois substituído pelo RNA.",
+        "B": "O RNA foi a primeira molécula de ácido nucleico, capaz de gerar moléculas mais complexas sem auxílio de enzimas, seguido pelo DNA, essencial para o controle e reprodução do material genético.",
+        "C": "O RNA surgiu exclusivamente para isolar a água ao redor dos agregados de proteínas.",
+        "D": "Ambos os ácidos nucleicos surgiram simultaneamente na fase de diferenciação do núcleo da Terra."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a apostila afirma expressamente que a primeira molécula de ácido nucleico foi o RNA, e não o DNA.",
+        "B": "Correta: as reações nos coacervados originaram o RNA (primeira molécula informativa capaz de atuar sem o auxílio de enzimas) e posteriormente o DNA, essencial para o controle interno e a replicação estável, capacitando a primeira célula a realizar reações autossustentáveis sob evolução darwiniana.",
+        "C": "Incorreta: o RNA atuou no código informacional e na catálise química primordial, e não como impermeabilizante de água nos coacervados.",
+        "D": "Incorreta: a diferenciação do planeta ocorreu na fase geológica primordial da Terra (~4,54 Ga), muito antes da síntese orgânica dos ácidos nucleicos no caldo primordial."
+      },
+      "referencia": {
+        "paginas": [
+          15,
+          16
+        ],
+        "fundamentacao": "Páginas 15 e 16.",
+        "trechos_apoio": [
+          "Com o passar do tempo, as reações químicas que ocorreram no interior dos coacervados permitiram o surgimento do RNA e após o DNA, molécula que foi essencial para o controle das reações internas, bem como no processo de reprodução do material genético. A partir deste ponto, a vida propriamente dita foi concebida [...]. A primeira molécula de ácido nucleico foi RNA este é capaz de gerar moléculas mais complexas sem o auxílio de enzimas."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_02_q011",
+      "slide_id": "origem_vida_aula_02",
+      "slide_nome": "Aula 02 - Evolução da célula",
+      "arquivo_origem": "Aula 02 - Evolução da célula_260910_160055 (1).pdf",
+      "numero": 11,
+      "tema": "Origem dos Eucariontes",
+      "subtema": "Modelo Autogênico de Evolução Celular",
+      "enunciado": "O modelo autogênico postula que os primeiros compartimentos internos das células eucarióticas surgiram a partir de especializações graduais da própria célula ancestral. De acordo com essa hipótese, qual mecanismo e qual primeira estrutura foram responsáveis por essa compartimentalização inicial?",
+      "alternativas": {
+        "A": "A fagocitose de vírus gigantes, originando diretamente os centríolos e o fuso mitótico.",
+        "B": "A invaginação da membrana plasmática, originando primeiramente o invólucro nuclear para individualizar o material genético.",
+        "C": "A fusão simbiótica de duas arqueas extremófilas que compartilhavam um núcleo duplo.",
+        "D": "A precipitação de cristais de gelo do caldo primordial formando a carioteca externa."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o modelo autogênico não se baseia em infecção ou fagocitose de vírus gigantes; ele propõe invaginações da membrana celular do próprio procarionte ancestral.",
+        "B": "Correta: o modelo autogênico defende que organelos endomembranares surgiram por invaginações da membrana plasmática, sendo o invólucro nuclear o primeiro a aparecer, o que permitiu isolar e proteger o DNA no interior do núcleo.",
+        "C": "Incorreta: fusão simbiótica entre organismos distintos refere-se à hipótese endossimbiótica, não ao modelo autogênico.",
+        "D": "Incorreta: cristais de gelo e o caldo primordial relacionam-se à origem da água e dos monômeros na Terra primitiva, não à formação mecânica do invólucro nuclear."
+      },
+      "referencia": {
+        "paginas": [
+          19,
+          20
+        ],
+        "fundamentacao": "Páginas 19 e 20.",
+        "trechos_apoio": [
+          "Este modelo defende que as células eucarióticas apareceram a partir de células procariotas que desenvolveram organelos endomembranares a partir de invaginações existentes na membrana plasmática [...]. Este modelo sugere que o primeiro organelo endomembranar a aparecer dentro da célula foi o invólucro nuclear, o que permitiu a individualização do material genético no interior do núcleo."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_02_q012",
+      "slide_id": "origem_vida_aula_02",
+      "slide_nome": "Aula 02 - Evolução da célula",
+      "arquivo_origem": "Aula 02 - Evolução da célula_260910_160055 (1).pdf",
+      "numero": 12,
+      "tema": "Origem dos Eucariontes",
+      "subtema": "Limitações do Modelo Autogênico",
+      "enunciado": "Embora o modelo autogênico apresente argumentos estruturais a seu favor, ele não obteve ampla aceitação da comunidade científica para explicar a totalidade das organelas celulares. Qual é a principal inconsistência desse modelo apontada no material?",
+      "alternativas": {
+        "A": "A impossibilidade de a membrana plasmática dobrar-se ou formar vesículas no citoplasma.",
+        "B": "A ausência de ribossomos funcionais no citoplasma dos primeiros ancestrais procariontes.",
+        "C": "O fato de não esclarecer a especialização de mitocôndrias e cloroplastos, cujo DNA é distinto do DNA nuclear e semelhante ao de procariontes livres.",
+        "D": "A comprovação de que as células eucarióticas surgiram antes das células procarióticas na escala geológica."
+      },
+      "gabarito": "C",
+      "explicacoes": {
+        "A": "Incorreta: a flexibilidade e a capacidade de invaginação da membrana plasmática são aceitas e explicam a origem do retículo endoplasmático e da carioteca.",
+        "B": "Incorreta: procariontes ancestrais já possuíam ribossomos funcionais e síntese proteica ativa.",
+        "C": "Correta: o modelo autogênico não esclarece por que mitocôndrias e cloroplastos possuem genoma próprio circular, independente e diferente do DNA contido no núcleo, o que contraria uma simples origem por invaginação da membrana celular hospedeira.",
+        "D": "Incorreta: os procariontes são os organismos celulares mais primitivos e antigos da Terra, tendo antecedido os eucariontes em mais de um bilhão de anos."
+      },
+      "referencia": {
+        "paginas": [
+          21
+        ],
+        "fundamentacao": "Página 21.",
+        "trechos_apoio": [
+          "Argumentos contra: Este modelo não teve grande aceitação pela comunidade científica pois não esclarece a especialização das membranas invaginadas, nomeadamente as mitocôndrias e cloroplastos. Era de esperar que as mitocôndrias e os cloroplastos que resultaram da invaginação tivessem o DNA semelhante ao DNA do núcleo e isso não acontece."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_02_q013",
+      "slide_id": "origem_vida_aula_02",
+      "slide_nome": "Aula 02 - Evolução da célula",
+      "arquivo_origem": "Aula 02 - Evolução da célula_260910_160055 (1).pdf",
+      "numero": 13,
+      "tema": "Teoria Endossimbiótica",
+      "subtema": "Proposta de Lynn Margulis e Precursores das Organelas",
+      "enunciado": "A teoria endossimbiótica, proposta pela bióloga Lynn Margulis, postula que organelas bioenergéticas das células eucarióticas originaram-se de associações simbióticas estáveis com organismos procariontes de vida livre. De acordo com essa teoria, as mitocôndrias e os cloroplastos derivam, respectivamente, de:",
+      "alternativas": {
+        "A": "Cianobactérias fotossintéticas e vírus bacteriófagos de RNA.",
+        "B": "Procariontes aeróbios com grande capacidade respiratória e procariontes fotossintéticos (como cianobactérias).",
+        "C": "Protozoários ciliados predadores e arqueas metanogênicas marinhas.",
+        "D": "Fungos filamentosos anaeróbios e bactérias fixadoras de nitrogênio inorgânico."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: inverte as organelas e inclui vírus bacteriófagos; cianobactérias deram origem aos cloroplastos e mitocôndrias não descendem de vírus.",
+        "B": "Correta: conforme a teoria de Margulis, as mitocôndrias derivam da incorporação de procariontes aeróbios (bactérias respiratórias) e os cloroplastos derivam da associação posterior com procariontes fotossintéticos (como as cianobactérias).",
+        "C": "Incorreta: protozoários são organismos eucarióticos complexos já portadores de mitocôndrias, não tendo atuado como os precursores simbióticos bacterianos primordiais.",
+        "D": "Incorreta: fungos são seres eucarióticos que surgiram posteriormente; as organelas derivam diretamente de linhagens procarióticas bacterianas."
+      },
+      "referencia": {
+        "paginas": [
+          22,
+          23
+        ],
+        "fundamentacao": "Páginas 22 e 23.",
+        "trechos_apoio": [
+          "Os seres hospedeiros passaram a ser organelos, tendo o cloroplasto vindo da incorporação de um ser procarionte fotossintético (por exemplo das cianobactérias), e as mitocôndrias de procariontes aeróbios e com grande capacidade respiratória (bactérias)."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_02_q014",
+      "slide_id": "origem_vida_aula_02",
+      "slide_nome": "Aula 02 - Evolução da célula",
+      "arquivo_origem": "Aula 02 - Evolução da célula_260910_160055 (1).pdf",
+      "numero": 14,
+      "tema": "Teoria Endossimbiótica",
+      "subtema": "Cronologia Sequencial das Incorporações",
+      "enunciado": "Ao analisar a história evolutiva dos eucariontes sob a perspectiva endossimbiótica, a apostila ressalta uma ordem temporal cronológica bem definida para a incorporação dessas organelas. Qual organela foi adquirida primeiro e qual evidência filogenética sustenta essa sequência?",
+      "alternativas": {
+        "A": "Os cloroplastos surgiram primeiro, porque todas as células eucarióticas atuais realizam fotossíntese.",
+        "B": "Ambas as organelas foram fagocitadas no mesmo instante dentro de uma vesícula lipídica pré-celular.",
+        "C": "As mitocôndrias evoluíram antes dos cloroplastos, pois praticamente todos os eucariontes (animais, fungos e plantas) possuem mitocôndrias, mas apenas as linhagens vegetais/algas possuem cloroplastos.",
+        "D": "O retículo endoplasmático surgiu após os cloroplastos por degeneração de bactérias gram-positivas."
+      },
+      "gabarito": "C",
+      "explicacoes": {
+        "A": "Incorreta: animais, protozoários e fungos são heterótrofos e não realizam fotossíntese nem possuem cloroplastos.",
+        "B": "Incorreta: a incorporação foi sequencial em épocas evolutivas distintas, e não simultânea.",
+        "C": "Correta: a apostila enfatiza que \"os cloroplastos evoluíram depois das mitocôndrias\"; a célula eucariótica ancestral incorporou primeiro a bactéria respiratória aeróbia (gerando o ancestral heterotrófico) e, posteriormente, uma dessas linhagens incorporou o procarionte fotossintético (gerando o ancestral autotrófico das plantas e algas).",
+        "D": "Incorreta: o sistema endomembranar (retículo e carioteca) antecedeu ou acompanhou as fases iniciais por invaginação de membrana, não surgindo de degeneração de bactérias."
+      },
+      "referencia": {
+        "paginas": [
+          23,
+          24
+        ],
+        "fundamentacao": "Páginas 23 e 24.",
+        "trechos_apoio": [
+          "Os cloroplastos evoluíram depois das mitocôndrias por relações de endossimbiose com procariontes autotróficos."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_02_q015",
+      "slide_id": "origem_vida_aula_02",
+      "slide_nome": "Aula 02 - Evolução da célula",
+      "arquivo_origem": "Aula 02 - Evolução da célula_260910_160055 (1).pdf",
+      "numero": 15,
+      "tema": "Evidências Moleculares da Endossimbiose",
+      "subtema": "Características Próprias de Mitocôndrias e Cloroplastos",
+      "enunciado": "Dentre as múltiplas evidências biológicas que sustentam a origem endossimbiótica de mitocôndrias e cloroplastos, qual das alternativas descreve corretamente uma característica molecular compartilhada exclusivamente entre essas organelas e os organismos procariontes livres?",
+      "alternativas": {
+        "A": "DNA linear associado a abundantes proteínas histonas organizadas em nucleossomos.",
+        "B": "Presença de ribossomos próprios, capacidade de autoduplicação independente do núcleo celular e síntese proteica sensível a substâncias inibitórias de procariontes.",
+        "C": "Incapacidade absoluta de produzir qualquer proteína funcional, dependendo 100% da tradução nuclear.",
+        "D": "Membranas puramente celulósicas com poros impermeáveis a íons de sódio e cálcio."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o DNA mitocondrial e plastidial é circular e não está associado a histonas, exatamente como nos seres procariontes.",
+        "B": "Correta: mitocôndrias e cloroplastos possuem ribossomos próprios com características procarióticas, realizam autoduplicação por fissão independente do núcleo celular e têm a síntese de suas cadeias polipeptídicas inibida por fármacos/substâncias que afetam especificamente bactérias.",
+        "C": "Incorreta: essas organelas possuem aparato próprio de transcrição e tradução, sendo capazes de sintetizar parte de suas próprias proteínas estruturais e enzimáticas.",
+        "D": "Incorreta: mitocôndrias e cloroplastos possuem membranas duplas de natureza lipoproteica (a interna de origem bacteriana), e não de celulose."
+      },
+      "referencia": {
+        "paginas": [
+          26,
+          27
+        ],
+        "fundamentacao": "Páginas 26 e 27.",
+        "trechos_apoio": [
+          "- As mitocôndrias e os cloroplastos possuem ribossomas próprios (semelhantes aos das células procarióticas) e são capazes de sintetizar as suas próprias proteínas e de se dividir de forma independente do núcleo da célula [...], para além de a síntese proteica das mitocôndrias e cloroplastos serem inibidas por substâncias dos procariontes."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_02_q016",
+      "slide_id": "origem_vida_aula_02",
+      "slide_nome": "Aula 02 - Evolução da célula",
+      "arquivo_origem": "Aula 02 - Evolução da célula_260910_160055 (1).pdf",
+      "numero": 16,
+      "tema": "Integração Teórica",
+      "subtema": "A Síntese entre os Modelos Autogênico e Endossimbiótico",
+      "enunciado": "O material didático aponta que a teoria endossimbiótica não explica a formação de todas as estruturas da célula eucariótica, apresentando uma limitação clara. Para solucionar essa lacuna, a biologia celular moderna concilia os dois modelos estabelecendo que:",
+      "alternativas": {
+        "A": "O núcleo e os demais organelos endomembranares (retículo, Golgi) originaram-se por invaginações de membrana (modelo autogênico), enquanto mitocôndrias e cloroplastos surgiram por endossimbiose.",
+        "B": "Todas as organelas celulares, inclusive os lisossomos e os ribossomos livres, foram bactérias englobadas.",
+        "C": "O núcleo da célula foi a última organela a surgir, decorrente da degeneração tardia de um cloroplasto vegetal.",
+        "D": "As células eucarióticas perderam o núcleo quando assimilaram as bactérias aeróbias."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: como a endossimbiose não explica a gênese da carioteca nem do sistema de endomembranas, os modelos são conciliados: o invólucro nuclear e as organelas do sistema endomembranar derivam de invaginações da membrana celular (modelo autogênico), e as organelas bioenergéticas (mitocôndrias/cloroplastos) derivam da incorporação simbiótica bacteriana.",
+        "B": "Incorreta: o modelo endossimbiótico é restrito a mitocôndrias, cloroplastos e possivelmente estruturas locomotoras (flagelos/cílios); não se aplica a retículo, Golgi e lisossomos.",
+        "C": "Incorreta: o núcleo formou-se precocemente por invaginação de membrana, isolando o DNA antes ou durante a aquisição mitocondrial.",
+        "D": "Incorreta: os eucariontes definem-se justamente pela presença estável do núcleo delimitado por membrana, que protege o genoma após a simbiose."
+      },
+      "referencia": {
+        "paginas": [
+          22,
+          23
+        ],
+        "fundamentacao": "Páginas 22 e 23.",
+        "trechos_apoio": [
+          "Este modelo não explica a formação do núcleo e outros organelos intracelulares (com exceção das mitocôndrias e cloroplastos), conciliando os dois modelos, o núcleo e os outros organelos terão sido originados por invaginações da membrana nuclear."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_02_q017",
+      "slide_id": "origem_vida_aula_02",
+      "slide_nome": "Aula 02 - Evolução da célula",
+      "arquivo_origem": "Aula 02 - Evolução da célula_260910_160055 (1).pdf",
+      "numero": 17,
+      "tema": "Organização Celular Comparada",
+      "subtema": "Procariontes vs. Eucariontes",
+      "enunciado": "Ao comparar a morfologia e a dimensão celular entre os domínios da vida, o texto estabelece parâmetros médios de tamanho e complexidade estrutural. Conforme o slide, quais são os diâmetros máximos aproximados observados, respectivamente, em células procariontes e eucariontes?",
+      "alternativas": {
+        "A": "1 nm em procariontes e 10 nm em eucariontes.",
+        "B": "5 μm em procariontes e 100 μm em eucariontes.",
+        "C": "50 μm em procariontes e 5 μm em eucariontes.",
+        "D": "10 mm em procariontes e 1 m em eucariontes."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: dimensões na faixa de nanômetros (1 a 10 nm) correspondem ao tamanho de moléculas como proteínas e lipídios, não de células inteiras.",
+        "B": "Correta: o material aponta explicitamente que as células eucariontes são significativamente maiores, apresentando um diâmetro máximo de até 100 μm, enquanto as procariontes têm diâmetro máximo médio de até 5 μm.",
+        "C": "Incorreta: inverte as proporções relativas; células eucariontes são muito maiores e mais volumosas do que as bactérias e arqueas.",
+        "D": "Incorreta: células na faixa de centímetros a metros correspondem a casos excepcionais como ovos de aves ou neurônios isolados, e não ao padrão comparativo geral celular."
+      },
+      "referencia": {
+        "paginas": [
+          35
+        ],
+        "fundamentacao": "Página 35.",
+        "trechos_apoio": [
+          "Tamanho: Células eucariontes tendem a ser maiores que as células procariontes, geralmente com diâmetro máximo de 100 μm, enquanto as procariontes têm um diâmetro máximo de 5 μm."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_02_q018",
+      "slide_id": "origem_vida_aula_02",
+      "slide_nome": "Aula 02 - Evolução da célula",
+      "arquivo_origem": "Aula 02 - Evolução da célula_260910_160055 (1).pdf",
+      "numero": 18,
+      "tema": "Organização do Material Genético",
+      "subtema": "Cromossomos em Procariontes e Eucariontes",
+      "enunciado": "A arquitetura do material genético constitui um dos critérios diagnósticos fundamentais para diferenciar os tipos celulares. No que concerne à conformação espacial do DNA e à sua localização na célula, é correto afirmar que:",
+      "alternativas": {
+        "A": "Os procariontes possuem genoma linear fragmentado no interior de peroxissomos.",
+        "B": "Os eucariontes possuem um único cromossomo circular suspenso em um nucleoide sem membrana.",
+        "C": "Os procariontes apresentam DNA geralmente na forma de um cromossomo circular disperso no nucleoide, enquanto os eucariontes possuem DNA organizado em cromossomos lineares delimitados por membrana nuclear.",
+        "D": "Tanto os procariontes quanto os eucariontes possuem apenas moléculas de RNA de fita dupla como cromossomo principal permanente."
+      },
+      "gabarito": "C",
+      "explicacoes": {
+        "A": "Incorreta: procariontes não possuem peroxissomos (organela membranosa eucariótica) e seu DNA é circular, não linear.",
+        "B": "Incorreta: a presença de um único cromossomo circular no nucleoide é característica dos procariontes; eucariontes têm genoma linear compartimentado no núcleo verdadeiro.",
+        "C": "Correta: conforme o quadro comparativo da aula, o material genético procarionte consiste tipicamente em um único cromossomo circular situado na região do nucleoide (sem carioteca), ao passo que as células eucariontes organizam seu genoma em múltiplos cromossomos lineares protegidos pela membrana nuclear (carioteca).",
+        "D": "Incorreta: todas as células vivas atuais (procariontes e eucariontes) possuem DNA bicatenário como repositório estável de seu genoma permanente."
+      },
+      "referencia": {
+        "paginas": [
+          36,
+          37
+        ],
+        "fundamentacao": "Páginas 36 e 37.",
+        "trechos_apoio": [
+          "Células Eucariontes: Possuem um núcleo definido [...]. O DNA é organizado em cromossomos lineares. Células Procariontes: Não possuem um núcleo definido; o material genético (DNA) está disperso no citoplasma [...] em uma região chamada nucleoide. O DNA é geralmente um único cromossomo circular."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_02_q019",
+      "slide_id": "origem_vida_aula_02",
+      "slide_nome": "Aula 02 - Evolução da célula",
+      "arquivo_origem": "Aula 02 - Evolução da célula_260910_160055 (1).pdf",
+      "numero": 19,
+      "tema": "Conceito Biológico de Vida",
+      "subtema": "O Debate sobre a Natureza dos Vírus",
+      "enunciado": "Na seção dedicada às propriedades fundamentais dos seres vivos, a aula discute a classificação dos vírus no espectro biológico. Qual é o fundamento teórico apresentado para que alguns cientistas não os considerem organismos vivos autênticos?",
+      "alternativas": {
+        "A": "O fato de serem acelulares, não possuindo a maquinaria metabólica e a estrutura típica de uma célula, comportando-se como partículas infecciosas.",
+        "B": "A ausência de qualquer tipo de ácido nucleico ou proteína em sua constituição estrutural.",
+        "C": "A capacidade de realizarem fotossíntese e respiração aeróbia de forma autônoma fora de células hospedeiras.",
+        "D": "O fato de possuírem dimensões macroscópicas superiores às dos maiores ovos de aves."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: como a célula é considerada a unidade estrutural básica dos seres vivos, os vírus são tratados por muitos biólogos como partículas ou entidades acelulares, formadas basicamente por capsídeo proteico e material genético, incapazes de metabolismo próprio ou reprodução independente de uma célula hospedeira.",
+        "B": "Incorreta: vírus contêm necessariamente material genético (DNA ou RNA) envolto por uma estrutura proteica (capsídeo).",
+        "C": "Incorreta: os vírus são parasitas intracelulares obrigatórios e desprovidos de vias metabólicas bioenergéticas autônomas como respiração celular ou fotossíntese.",
+        "D": "Incorreta: vírus são entidades ultramicroscópicas com ordens de grandeza em nanômetros (ex.: 10 a 100 nm), muito menores que bactérias e células animais."
+      },
+      "referencia": {
+        "paginas": [
+          28
+        ],
+        "fundamentacao": "Página 28.",
+        "trechos_apoio": [
+          "Existem ainda aqueles que são acelulares, como os vírus, pois não possuem estruturas típicas de uma célula. Dessa maneira, não são considerados seres vivos por alguns cientistas, sendo tratados como partículas ou entidades, basicamente proteicas, que podem infectar organismos vivos."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_02_q020",
+      "slide_id": "origem_vida_aula_02",
+      "slide_nome": "Aula 02 - Evolução da célula",
+      "arquivo_origem": "Aula 02 - Evolução da célula_260910_160055 (1).pdf",
+      "numero": 20,
+      "tema": "Bioenergética e Metabolismo Celular",
+      "subtema": "Catabolismo, Anabolismo e Anfibolismo",
+      "enunciado": "O metabolismo celular abrange todo o conjunto integrado de reações químicas indispensáveis para sustentar a vida celular, dividindo-se em vias energéticas e construtivas. Conforme o esquema bioquímico do slide, diferenciam-se corretamente as vias metabólicas do catabolismo e do anabolismo porque:",
+      "alternativas": {
+        "A": "O catabolismo consome ATP para polimerizar biomoléculas, enquanto o anabolismo quebra nutrientes e dissipa calor sem gerar produtos úteis.",
+        "B": "O catabolismo é o metabolismo de degradação de moléculas com liberação de energia livre, ao passo que o anabolismo compreende processos endergônicos de síntese de moléculas complexas com consumo de energia.",
+        "C": "O catabolismo ocorre unicamente nos cloroplastos, enquanto o anabolismo é restrito à matriz nuclear dos procariontes.",
+        "D": "Ambas as vias sintetizam açúcares simultaneamente a partir de gás hidrogênio sem troca energética."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: inverte os conceitos funcionais das vias; a degradação de biomoléculas com liberação energética é o catabolismo, e a síntese com gasto de energia é o anabolismo.",
+        "B": "Correta: na definição bioquímica da aula, o catabolismo corresponde aos processos de quebra e degradação molecular produtores de energia utilizável (ATP, NADH), enquanto o anabolismo reúne os processos endergônicos em que ocorre a síntese de novas biomoléculas e estruturas celulares com gasto energético.",
+        "C": "Incorreta: o catabolismo e o anabolismo ocorrem em todos os tipos celulares vivos, não estando restritos a cloroplastos vegetais ou a núcleos bacterianos (bactérias nem possuem núcleo).",
+        "D": "Incorreta: processos anabólicos e catabólicos são acoplados termodinamicamente por fluxos contínuos de energia (armazenamento e desprendimento de energia livre na forma de ATP/GTP)."
+      },
+      "referencia": {
+        "paginas": [
+          29,
+          30
+        ],
+        "fundamentacao": "Páginas 29 e 30.",
+        "trechos_apoio": [
+          "Catabolismo: Es el metabolismo de degradación de moléculas y produce energia. Anabolismo: Son procesos endergónicos en los que se realiza síntesis de moléculas. Los procesos catabólicos y anfibólicos desprenden energia libre."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_02_q021",
+      "slide_id": "origem_vida_aula_02",
+      "slide_nome": "Aula 02 - Evolução da célula",
+      "arquivo_origem": "Aula 02 - Evolução da célula_260910_160055 (1).pdf",
+      "numero": 21,
+      "tema": "Níveis de Organização Biológica",
+      "subtema": "Da Matéria Inanimada à Biosfera",
+      "enunciado": "O estudo da biologia e da citologia estrutura-se em uma hierarquia de complexidade crescente. Qual é a sequência linear correta que representa os níveis de organização biológica apresentados na aula, partindo da escala atômica até a escala global?",
+      "alternativas": {
+        "A": "Átomo → Molécula → Célula → Tecido → Órgão → Sistema → Organismo → População → Comunidade → Ecossistema → Biosfera.",
+        "B": "Célula → Molécula → Átomo → Tecido → Órgão → Biosfera → População → Ecossistema.",
+        "C": "Átomo → Célula → Tecido → Molécula → População → Sistema → Órgão → Ecossistema.",
+        "D": "Molécula → Átomo → Órgão → Tecido → Célula → Organismo → Comunidade → Biosfera."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: a hierarquia apresentada no slide inicia nos componentes químicos (átomos e moléculas), atinge a unidade estrutural da vida (célula), agrupa-se em tecidos, órgãos, sistemas e organismos individuais, progredindo ecologicamente para populações (mesma espécie), comunidades (várias espécies), ecossistemas (fatores bióticos e abióticos) e culminando na biosfera.",
+        "B": "Incorreta: desorganiza a escala ao posicionar a célula antes de átomos/moléculas e a biosfera antes de populações e ecossistemas.",
+        "C": "Incorreta: insere tecidos antes de moléculas e separa órgãos de tecidos de maneira incorreta na escala biológica.",
+        "D": "Incorreta: coloca moléculas antes de átomos e órgãos antes de tecidos e células, subvertendo a ordem de montagem física dos sistemas vivos."
+      },
+      "referencia": {
+        "paginas": [
+          27
+        ],
+        "fundamentacao": "Página 27.",
+        "trechos_apoio": [
+          "Níveis de organização dos seres vivos: Átomo → Molécula → Célula → Tecido → Órgão → Sistema → Organismo → População → Comunidade → Ecossistema → Biosfera."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_02_q022",
+      "slide_id": "origem_vida_aula_02",
+      "slide_nome": "Aula 02 - Evolução da célula",
+      "arquivo_origem": "Aula 02 - Evolução da célula_260910_160055 (1).pdf",
+      "numero": 22,
+      "tema": "Fisiologia e Homeostase Celular",
+      "subtema": "O Papel da Membrana Plasmática",
+      "enunciado": "A homeostase é definida como a capacidade do organismo de manter o equilíbrio de seu meio interno diante de variações do ambiente externo. No nível celular, qual estrutura é apontada como a responsável primordial por regular esse equilíbrio?",
+      "alternativas": {
+        "A": "O centríolo, por meio da secreção contínua de água pura no citoplasma.",
+        "B": "A membrana plasmática, por meio de transporte seletivo passivo e ativo.",
+        "C": "A parede de celulose dos vírus envelopados.",
+        "D": "O retículo endoplasmático liso, por meio da condensação imediata de ferro e níquel."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: centríolos participam da organização do fuso acromático na divisão celular e da formação de cílios/flagelos, não atuando na osmorregulação aquosa direta.",
+        "B": "Correta: conforme o texto da aula, no nível celular a homeostase é mantida pela membrana plasmática, que controla de maneira estrita a entrada e saída de água, íons e nutrientes por processos de transporte passivo (difusão, osmose) e transporte ativo dependente de bombas químicas.",
+        "C": "Incorreta: vírus são acelulares e não possuem parede de celulose (estrutura típica de plantas e algas).",
+        "D": "Incorreta: metais como ferro e níquel não são sintetizados pelo retículo endoplasmático liso; seu papel envolve síntese lipídica e detoxificação."
+      },
+      "referencia": {
+        "paginas": [
+          31
+        ],
+        "fundamentacao": "Página 31.",
+        "trechos_apoio": [
+          "Homeostase: É a capacidade de um organismo de manter o equilíbrio interno [...]. No nível celular, a homeostase é mantida por meio de processos como o transporte de substâncias através da membrana plasmática (transporte passivo e ativo)."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_02_q023",
+      "slide_id": "origem_vida_aula_02",
+      "slide_nome": "Aula 02 - Evolução da célula",
+      "arquivo_origem": "Aula 02 - Evolução da célula_260910_160055 (1).pdf",
+      "numero": 23,
+      "tema": "Regulação Eletrolítica Celular",
+      "subtema": "Homeostase Iônica e Gradientes de Membrana",
+      "enunciado": "Para a manutenção da estabilidade celular e do potencial de membrana, a célula investe grande quantidade de energia metabólica na regulação iônica. Quais íons fundamentais são listados no material como alvos desse controle homeostático contínuo?",
+      "alternativas": {
+        "A": "Mercúrio (Hg²⁺), chumbo (Pb²⁺) e urânio (U⁴⁺).",
+        "B": "Sódio (Na⁺), potássio (K⁺) e cálcio (Ca²⁺).",
+        "C": "Hélio (He), néon (Ne) e argônio (Ar).",
+        "D": "Alumínio (Al³⁺), bário (Ba²⁺) e lítio metálico (Li)."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: mercúrio, chumbo e urânio são metais pesados altamente tóxicos, que provocam estresse oxidativo e morte celular.",
+        "B": "Correta: o slide descreve explicitamente que a célula regula a concentração de íons essenciais como sódio (Na⁺), potássio (K⁺) e cálcio (Ca²⁺), garantindo osmorregulação, sinalização e excitabilidade celular.",
+        "C": "Incorreta: hélio, néon e argônio são gases nobres quimicamente inertes e não formam gradientes iônicos fisiológicos na membrana plasmática.",
+        "D": "Incorreta: esses elementos metálicos não correspondem à tríade clássica de íons eletrolíticos vitais regulados pelas bombas de transporte ativo citadas no texto."
+      },
+      "referencia": {
+        "paginas": [
+          31
+        ],
+        "fundamentacao": "Página 31.",
+        "trechos_apoio": [
+          "A célula regula a concentração de íons, como sódio (Na⁺), potássio (K⁺) e cálcio (Ca²⁺), tanto no citoplasma quanto nos compartimentos intracelulares."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_02_q024",
+      "slide_id": "origem_vida_aula_02",
+      "slide_nome": "Aula 02 - Evolução da célula",
+      "arquivo_origem": "Aula 02 - Evolução da célula_260910_160055 (1).pdf",
+      "numero": 24,
+      "tema": "Ciclo Celular e Reprodução",
+      "subtema": "Mitose vs. Meiose",
+      "enunciado": "A divisão celular é uma propriedade fundamental para a perpetuação da vida e para a manutenção dos tecidos biológicos. No que diz respeito aos objetivos e aos resultados biológicos da mitose e da meiose descritos no material, é correto afirmar que:",
+      "alternativas": {
+        "A": "A mitose gera quatro células haploides geneticamente diferentes, atuando na formação de gametas.",
+        "B": "A mitose produz duas células geneticamente idênticas à célula-mãe, sendo essencial para crescimento e regeneração, enquanto a meiose gera quatro células com metade do número cromossômico para a reprodução sexuada.",
+        "C": "A meiose ocorre unicamente em bactérias anaeróbias que sofrem brotamento no caldo primordial.",
+        "D": "Ambos os processos de divisão celular duplicam os cromossomos sem nunca segregar o DNA para as células-filhas."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a divisão que produz quatro células haploides geneticamente distintas com metade do genoma para formar gametas é a meiose, não a mitose.",
+        "B": "Correta: a mitose resulta em duas células-filhas diploides com carga genética idêntica à original (usada em desenvolvimento e renovação tecidual); a meiose reduz a ploidia à metade gerando células haploides especializadas na reprodução sexuada.",
+        "C": "Incorreta: bactérias dividem-se por fissão binária simples (cissiparidade); a meiose é um processo exclusivo de organismos eucariontes.",
+        "D": "Incorreta: a segregação correta dos cromossomos duplicados é o mecanismo fundamental de ambas as divisões, garantindo a viabilidade celular."
+      },
+      "referencia": {
+        "paginas": [
+          32
+        ],
+        "fundamentacao": "Página 32.",
+        "trechos_apoio": [
+          "Divisão Celular: A mitose é um tipo de divisão celular em que uma célula-mãe se divide para formar duas células-filhas geneticamente idênticas [...]. A meiose é um processo especial de divisão celular que ocorre em organismos que se reproduzem sexuadamente, resultando em quatro células-filhas, cada uma com metade do número de cromossomos da célula original."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_02_q025",
+      "slide_id": "origem_vida_aula_02",
+      "slide_nome": "Aula 02 - Evolução da célula",
+      "arquivo_origem": "Aula 02 - Evolução da célula_260910_160055 (1).pdf",
+      "numero": 25,
+      "tema": "Patologia e Resposta ao Estresse",
+      "subtema": "Adaptação Celular vs. Evolução Biológica",
+      "enunciado": "Um dos maiores cuidados conceituais estabelecidos na aula de Biomedicina é não confundir a adaptação celular patológica/fisiológica com a evolução biológica. Qual distinção fundamental diferencia esses dois fenômenos?",
+      "alternativas": {
+        "A": "A adaptação celular ocorre em escala individual, é reversível e envolve alterações fisiológicas ou morfológicas rápidas em resposta ao estresse, enquanto a evolução biológica envolve mudanças nas frequências gênicas de uma população ao longo de gerações.",
+        "B": "A adaptação celular altera a sequência primária de nucleotídeos de todas as células somáticas de forma irreversível.",
+        "C": "A evolução biológica ocorre em minutos no interior de um único organismo vivo submetido a calor intenso.",
+        "D": "Ambos os processos dependem unicamente da síntese de aminoácidos abióticos no interior de coacervados artificiais."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: o texto enfatiza que adaptações celulares (hipertrofia, atrofia, metaplasia) são respostas funcionais de um tecido individual para preservar a viabilidade perante sobrecargas ou lesões, tendendo a regredir com a remoção do estímulo; a evolução biológica atua em populações e linhagens através de herança genética, mutação e seleção natural ao longo do tempo.",
+        "B": "Incorreta: respostas adaptativas celulares alteram expressão gênica e tamanho/número celular sem modificar a sequência de bases do DNA herdado.",
+        "C": "Incorreta: indivíduos não evoluem biologicamente; a evolução é uma propriedade de populações ao longo de múltiplas gerações reprodutivas.",
+        "D": "Incorreta: coacervados são sistemas pré-celulares laboratoriais, não tendo relação com os tecidos diferenciados humanos ou com a seleção natural moderna."
+      },
+      "referencia": {
+        "paginas": [
+          33
+        ],
+        "fundamentacao": "Página 33.",
+        "trechos_apoio": [
+          "A adaptação celular refere-se às respostas das células a mudanças no ambiente ou a condições de estresse para manter a homeostase e garantir sua sobrevivência [...], enquanto a evolução biológica se refere às mudanças cumulativas nas populações de organismos ao longo das gerações."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_02_q026",
+      "slide_id": "origem_vida_aula_02",
+      "slide_nome": "Aula 02 - Evolução da célula",
+      "arquivo_origem": "Aula 02 - Evolução da célula_260910_160055 (1).pdf",
+      "numero": 26,
+      "tema": "Adaptações Celulares Clínicas",
+      "subtema": "Hipertrofia e Hiperplasia",
+      "enunciado": "Em situações de aumento da demanda de trabalho ou estímulo hormonal sobre um tecido, as células respondem adaptativamente. O aumento do tamanho e do volume das células individuais sem multiplicação celular define o processo de:",
+      "alternativas": {
+        "A": "Hiperplasia.",
+        "B": "Hipertrofia.",
+        "C": "Metaplasia.",
+        "D": "Atrofia."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o aumento no número total de células por estímulo de divisão mitótica define a hiperplasia.",
+        "B": "Correta: a hipertrofia é caracterizada pelo aumento do volume/tamanho celular em resposta ao aumento da sobrecarga ou demanda metabólica (ex.: aumento das fibras do miocárdio ou músculo esquelético sob esforço).",
+        "C": "Incorreta: a substituição reversível de um tipo celular adulto por outro mais resistente ao estresse crônico define a metaplasia.",
+        "D": "Incorreta: a diminuição do tamanho e da função de uma célula em virtude de desuso ou menor aporte nutricional define a atrofia."
+      },
+      "referencia": {
+        "paginas": [
+          34
+        ],
+        "fundamentacao": "Página 34.",
+        "trechos_apoio": [
+          "Hipertrofia: É o aumento do tamanho das células, resultando em um aumento do tamanho do órgão ou tecido. Hiperplasia: É o aumento do número de células em um tecido ou órgão devido à proliferação celular."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_02_q027",
+      "slide_id": "origem_vida_aula_02",
+      "slide_nome": "Aula 02 - Evolução da célula",
+      "arquivo_origem": "Aula 02 - Evolução da célula_260910_160055 (1).pdf",
+      "numero": 27,
+      "tema": "Adaptações Celulares Clínicas",
+      "subtema": "Metaplasia e Atrofia",
+      "enunciado": "Um fumante crônico apresenta substituição do epitélio respiratório ciliado por um epitélio estratificado pavimentoso, mais resistente à agressão da fumaça, embora com perda da depuração mucociliar. Esse fenômeno celular adaptativo reversível exemplifica a:",
+      "alternativas": {
+        "A": "Atrofia celular por denervação.",
+        "B": "Metaplasia.",
+        "C": "Fissão binária procarionte.",
+        "D": "Hipótese endossimbiótica secundária."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a atrofia consiste na regressão do volume celular, e não na mudança de fenótipo ou linhagem epitelial diferenciada.",
+        "B": "Correta: a metaplasia é a alteração reversível na qual um tipo celular diferenciado adulto é substituído por outro tipo celular mais capacitado a suportar a agressão mecânica ou química do ambiente agressor.",
+        "C": "Incorreta: a fissão binária é a reprodução assexuada de bactérias e arqueas, sem correlação com patologia de epitélios humanos.",
+        "D": "Incorreta: a endossimbiose secundária trata da assimilação de algas eucarióticas por outros eucariontes na evolução dos plastídeos."
+      },
+      "referencia": {
+        "paginas": [
+          34
+        ],
+        "fundamentacao": "Página 34.",
+        "trechos_apoio": [
+          "Metaplasia: É uma alteração reversível na qual um tipo de célula adulta (epitelial ou mesenquimal) é substituído por outro tipo de célula adulta. Atrofia: É a diminuição do tamanho da célula devido à perda de substância celular."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_02_q028",
+      "slide_id": "origem_vida_aula_02",
+      "slide_nome": "Aula 02 - Evolução da célula",
+      "arquivo_origem": "Aula 02 - Evolução da célula_260910_160055 (1).pdf",
+      "numero": 28,
+      "tema": "Evidências Anatômicas e Evolutivas",
+      "subtema": "Estruturas Homólogas e Divergência",
+      "enunciado": "O estudo da morfologia comparada fornece pistas fundamentais sobre as relações de parentesco evolutivo. De acordo com o material da aula, as estruturas homólogas são caracterizadas por:",
+      "alternativas": {
+        "A": "Apresentarem funções idênticas em todos os organismos, mas derivadas de ancestrais sem parentesco genético.",
+        "B": "Terem a mesma origem embriológica e plano estrutural comum herdado de um ancestral compartilhado, podendo ou não desempenhar funções semelhantes (divergência evolutiva).",
+        "C": "Serem exclusivas de vírus acelulares cultivados em caldos nutritivos ricos em metano.",
+        "D": "Desaparecerem totalmente do organismo quando a temperatura do ambiente sobe."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: estruturas com funções semelhantes surgidas de forma independente em linhagens distintas decorrem de convergência evolutiva e são chamadas de estruturas análogas, não homólogas.",
+        "B": "Correta: homologias refletem herança evolutiva direta a partir de um ancestral comum compartilhado (mesma origem ontogenética e arquitetura anatômica basal), mesmo que adaptadas a funções diversas em decorrência de pressões ecológicas divergentes (ex.: braço humano, nadadeira de baleia e asa de morcego).",
+        "C": "Incorreta: estruturas anatômicas homólogas referem-se a tecidos e membros de organismos biológicos celulares e complexos, não a vírus acelulares.",
+        "D": "Incorreta: caracteres homólogos são caracteres genéticos fixados na espécie, não dependendo de oscilação térmica momentânea."
+      },
+      "referencia": {
+        "paginas": [
+          40,
+          41
+        ],
+        "fundamentacao": "Páginas 40 e 41.",
+        "trechos_apoio": [
+          "Homologia: Estruturas homólogas são aquelas que têm uma origem evolutiva comum, indicando uma relação de parentesco entre as espécies que as possuem. Mesmo que essas estruturas possam desempenhar funções diferentes no presente [...], a semelhança em sua anatomia subjacente sugere que derivam de um ancestral comum."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_02_q029",
+      "slide_id": "origem_vida_aula_02",
+      "slide_nome": "Aula 02 - Evolução da célula",
+      "arquivo_origem": "Aula 02 - Evolução da célula_260910_160055 (1).pdf",
+      "numero": 29,
+      "tema": "Anatomia Comparada",
+      "subtema": "Estruturas Análogas e Convergência Evolutiva",
+      "enunciado": "Ao comparar a asa de uma ave com a asa de um inseto, observa-se que ambas servem para o vôo, mas possuem origens embrionárias e arquiteturas anatômicas completamente distintas. O conceito evolutivo que descreve esse fenômeno é:",
+      "alternativas": {
+        "A": "Homologia filogenética direta.",
+        "B": "Analogia (ou convergência evolutiva).",
+        "C": "Deriva genética por efeito fundador.",
+        "D": "Endossimbiose primária autogênica."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a homologia exige origem embrionária comum herdada de um ancestral próximo; as asas de insetos e aves não possuem o mesmo plano esquelético ancestral compartilhado.",
+        "B": "Correta: estruturas análogas são órgãos que desempenham funções parecidas em razão de adaptação a pressões ambientais semelhantes (convergência adaptativa), mas sem ancestralidade anatômica comum para essa característica específica.",
+        "C": "Incorreta: o efeito fundador é uma flutuação aleatória nas frequências alélicas de uma pequena população isolada, sem relação com a morfologia funcional das asas.",
+        "D": "Incorreta: a endossimbiose autogênica é um termo híbrido inadequado; endossimbiose trata da origem de organelas celulares bacterianas englobadas."
+      },
+      "referencia": {
+        "paginas": [
+          41
+        ],
+        "fundamentacao": "Página 41.",
+        "trechos_apoio": [
+          "Analogia: Estruturas análogas têm funções semelhantes, mas origens evolutivas diferentes. Isso ocorre devido à evolução convergente, onde organismos que não são intimamente relacionados desenvolvem características semelhantes em resposta a pressões seletivas semelhantes."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_02_q030",
+      "slide_id": "origem_vida_aula_02",
+      "slide_nome": "Aula 02 - Evolução da célula",
+      "arquivo_origem": "Aula 02 - Evolução da célula_260910_160055 (1).pdf",
+      "numero": 30,
+      "tema": "Complexidade Subcelular Comparada",
+      "subtema": "Presença de Organelas Membranosas",
+      "enunciado": "A compartimentalização interna por organelas membranosas representa o salto de eficiência que permitiu aos eucariontes atingir grandes volumes celulares. Qual conjunto de estruturas celulares é exclusivo de células eucariontes, estando totalmente ausente nas células procariontes?",
+      "alternativas": {
+        "A": "Ribossomos e membrana plasmática.",
+        "B": "Complexo de Golgi, retículo endoplasmático e mitocôndrias.",
+        "C": "Citoplasma aquoso e parede celular com peptideoglicano.",
+        "D": "Moléculas de DNA e grânulos de reserva de glicogênio."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: tanto procariontes quanto eucariontes possuem membrana plasmática e ribossomos funcionais.",
+        "B": "Correta: as organelas membranosas complexas (complexo golgiense, retículo endoplasmático liso e rugoso, mitocôndrias e lisossomos) são exclusivas do citoplasma eucariótico, permitindo a separação física de rotas metabólicas.",
+        "C": "Incorreta: a parede celular constituída de peptideoglicano é uma especialização típica de bactérias (procariontes), e o citoplasma é compartilhado por todos os tipos celulares.",
+        "D": "Incorreta: o DNA é o material genético universal compartilhado por ambos os tipos de células."
+      },
+      "referencia": {
+        "paginas": [
+          37,
+          38
+        ],
+        "fundamentacao": "Páginas 37 e 38.",
+        "trechos_apoio": [
+          "Organelas Celulares: Eucariontes: Possuem várias organelas membranosas, como mitocôndrias, retículo endoplasmático, complexo de Golgi, lisossomos e cloroplastos (em plantas). Procariontes: Não possuem organelas membranosas."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_02_q031",
+      "slide_id": "origem_vida_aula_02",
+      "slide_nome": "Aula 02 - Evolução da célula",
+      "arquivo_origem": "Aula 02 - Evolução da célula_260910_160055 (1).pdf",
+      "numero": 31,
+      "tema": "Condições Ambientais da Terra Primitiva",
+      "subtema": "Fontes de Energia para Síntese Abiótica",
+      "enunciado": "Na reconstituição física e geoquímica da Terra primitiva detalhada no material, a atmosfera e a superfície do planeta estavam submetidas a condições extremas. Quais fatores ambientais são destacados no texto como as forças motrizes energéticas que propiciaram as reações da sopa primordial?",
+      "alternativas": {
+        "A": "Altas temperaturas, intensa radiação ionizante e tempestades com descargas elétricas frequentes.",
+        "B": "Temperaturas permanentemente abaixo de zero e ausência total de qualquer radiação eletromagnética.",
+        "C": "Campos magnéticos artificiais gerados por satélites em órbita estacionária.",
+        "D": "Reações catalisadas unicamente por oxigênio líquido comprimido no fundo dos oceanos."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: conforme o texto descreve a partir do modelo de Oparin, o ambiente da Terra primordial caracterizava-se por temperaturas elevadíssimas, forte incidência de radiação ionizante (como UV solar, na ausência de camada de ozônio) e tempestades intensas com descargas elétricas (raios).",
+        "B": "Incorreta: o ambiente primordial era superaquecido pelo calor residual de formação, decaimento radioativo e vulcanismo, e não congelado.",
+        "C": "Incorreta: satélites artificiais e campos controlados são tecnologias humanas modernas, totalmente incompatíveis com o cenário geológico de 4 bilhões de anos atrás.",
+        "D": "Incorreta: o oxigênio livre era inexistente na atmosfera e nos mares da época, sendo a atmosfera redutora/anóxica."
+      },
+      "referencia": {
+        "paginas": [
+          4
+        ],
+        "fundamentacao": "Página 4.",
+        "trechos_apoio": [
+          "Oparin relata que o ambiente da terra primordial era de altas temperaturas, muita radiação ionizante e intensa tempestades de raios..."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_02_q032",
+      "slide_id": "origem_vida_aula_02",
+      "slide_nome": "Aula 02 - Evolução da célula",
+      "arquivo_origem": "Aula 02 - Evolução da célula_260910_160055 (1).pdf",
+      "numero": 32,
+      "tema": "Caldo Primordial e Síntese de Polímeros",
+      "subtema": "Tempo Geológico e Diversidade de Ambientes",
+      "enunciado": "O material didático aponta três circunstâncias cruciais que favoreceram o acúmulo gradual de compostos de carbono no caldo primordial. Além da ausência de oxigênio livre (que evitava a destruição por oxidação), quais foram as outras duas circunstâncias essenciais citadas?",
+      "alternativas": {
+        "A": "A dessecação total da crosta terrestre e a esterilização por congelamento dos polos.",
+        "B": "A imensa extensão dos oceanos oferecendo múltiplos microambientes e o amplo tempo disponível de quase 2 bilhões de anos para as reações ocorrerem.",
+        "C": "A abundância de enzimas digestivas livres na atmosfera e a presença de tecidos musculares fossilizados.",
+        "D": "A pressão atmosférica nula combinada à ausência permanente de água em estado líquido."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a existência de oceanos líquidos foi o meio onde a sopa primordial se desenvolveu, não havendo dessecação total do planeta.",
+        "B": "Correta: as circunstâncias 1 e 2 listadas na apostila são a imensa extensão dos oceanos terrestres (proporcionando grande variedade de ambientes, profundidades e gradientes químicos) e o extenso intervalo de tempo geológico (aproximadamente dois bilhões de anos) para que as interações químicas fortuitas ocorressem e se acumulassem.",
+        "C": "Incorreta: enzimas digestivas e tecidos musculares são produtos exclusivos de organismos celulares avançados, ausentes no período prebiótico.",
+        "D": "Incorreta: a presença de vapor d'água na atmosfera e água líquida nos oceanos é o pressuposto básico de todo o modelo do caldo primordial de Oparin."
+      },
+      "referencia": {
+        "paginas": [
+          6
+        ],
+        "fundamentacao": "Página 6.",
+        "trechos_apoio": [
+          "O acúmulo gradual de compostos com carbono foi favorecido por 3 circunstâncias: 1. A imensa extensão dos oceanos da Terra, que oferecia grande variedade de ambientes [...]. 2. O tempo disponível para essas interações que foi de quase dois bilhões de anos [...]. 3. A ausência de oxigênio na Terra..."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_02_q033",
+      "slide_id": "origem_vida_aula_02",
+      "slide_nome": "Aula 02 - Evolução da célula",
+      "arquivo_origem": "Aula 02 - Evolução da célula_260910_160055 (1).pdf",
+      "numero": 33,
+      "tema": "Evidências Moleculares da Endossimbiose",
+      "subtema": "O Genoma de Mitocôndrias e Cloroplastos",
+      "enunciado": "Uma das evidências genéticas mais contundentes a favor da Teoria Endossimbiótica de Lynn Margulis reside na estrutura do DNA encontrado no interior de mitocôndrias e cloroplastos. Qual característica desse genoma organelar comprova seu parentesco direto com as bactérias e o diferencia do DNA nuclear eucariótico?",
+      "alternativas": {
+        "A": "É um DNA linear associado a octâmeros de histonas, idêntico aos cromossomos do núcleo.",
+        "B": "É um DNA circular e desprovido de histonas (DNA 'nu'), exatamente como o cromossomo típico dos seres procariontes.",
+        "C": "É composto unicamente por nucleotídeos de uracila e glicose cristalizada.",
+        "D": "Fica localizado exclusivamente do lado de fora da organela, na face externa da membrana celular."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o DNA nuclear eucariótico é linear e empacotado por histonas; o DNA de mitocôndrias e cloroplastos não possui essa conformação nem se liga a histonas.",
+        "B": "Correta: as mitocôndrias e os cloroplastos possuem DNA em forma circular fechada, sem associação com proteínas histonas, padrão típico e universal encontrado nos organismos procariontes livres (bactérias).",
+        "C": "Incorreta: o DNA dessas organelas possui a composição clássica de ácidos desoxirribonucleicos (adenina, timina, citosina e guanina), e uracila é exclusiva de moléculas de RNA.",
+        "D": "Incorreta: o genoma organelar localiza-se no interior do compartimento da própria organela (na matriz mitocondrial e no estroma cloroplastidial)."
+      },
+      "referencia": {
+        "paginas": [
+          25,
+          26
+        ],
+        "fundamentacao": "Páginas 25 e 26.",
+        "trechos_apoio": [
+          "- As mitocôndrias e os cloroplastos contêm o seu próprio DNA, que é circular e não se encontra associado a histonas, tal como acontece na maioria dos procariontes."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_02_q034",
+      "slide_id": "origem_vida_aula_02",
+      "slide_nome": "Aula 02 - Evolução da célula",
+      "arquivo_origem": "Aula 02 - Evolução da célula_260910_160055 (1).pdf",
+      "numero": 34,
+      "tema": "Bioenergética e Termodinâmica Celular",
+      "subtema": "Processos Anfibólicos e Liberação de Energia",
+      "enunciado": "Na categorização das rotas do metabolismo apresentada nos esquemas conceituais da aula, além das vias clássicas de degradação (catabolismo) e síntese (anabolismo), é mencionado o papel dos processos anfibólicos. De acordo com o texto da apostila, o que caracteriza as vias catabólicas e anfibólicas quanto ao balanço energético?",
+      "alternativas": {
+        "A": "Elas consomem 100% da energia solar sem produzir calor ou intermediários.",
+        "B": "Elas desprendem energia livre que pode ser acoplada às necessidades de síntese da célula.",
+        "C": "Elas são exclusivas de vírus acelulares quando cristalizados no vácuo.",
+        "D": "Elas dependem da destruição imediata de todas as membranas lipídicas celulares."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: processos celulares não captam 100% da energia solar diretamente (apenas cloroplastos absorvem frações luminosas) e as vias metabólicas sempre envolvem trocas de calor e formação de intermediários.",
+        "B": "Correta: o esquema metabólico do material explicita que os processos catabólicos e anfibólicos desprendem energia livre (exergônicos), a qual é utilizada para conduzir reações endergônicas do anabolismo (síntese celular).",
+        "C": "Incorreta: vias metabólicas ativas dependem de citoplasma e enzimas funcionais, ausentes em partículas virais isoladas e inertes.",
+        "D": "Incorreta: o metabolismo necessita da integridade das membranas celulares para manter gradientes eletroquímicos e compartimentalização."
+      },
+      "referencia": {
+        "paginas": [
+          30
+        ],
+        "fundamentacao": "Página 30.",
+        "trechos_apoio": [
+          "Los procesos catabólicos y anfibólicos desprenden energia libre."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_02_q035",
+      "slide_id": "origem_vida_aula_02",
+      "slide_nome": "Aula 02 - Evolução da célula",
+      "arquivo_origem": "Aula 02 - Evolução da célula_260910_160055 (1).pdf",
+      "numero": 35,
+      "tema": "Histologia e Patologia Geral",
+      "subtema": "Atrofia Celular e suas Causas",
+      "enunciado": "No estudo das respostas teciduais a estímulos adversos, a atrofia é definida como a redução do volume da célula por perda de seus componentes estruturais. O slide elenca como fatores etiológicos capazes de desencadear esse processo adaptativo:",
+      "alternativas": {
+        "A": "Diminuição da carga de trabalho (desuso), perda de inervação, suprimento sanguíneo diminuído e nutrição inadequada.",
+        "B": "Aumento excessivo de descargas elétricas atmosféricas e excesso de radiação UV.",
+        "C": "Proliferação descontrolada do fuso mitótico induzida por cloroplastos ingeridos.",
+        "D": "Duplicação espontânea do número de cromossomos sexuais nas células somáticas."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: conforme o detalhamento clínico do slide, as causas comuns da atrofia incluem: diminuição da carga de trabalho (ex.: imobilização de um membro), perda de estimulação nervosa (desnervação), redução da irrigação sanguínea (isquemia tecidual), nutrição insuficiente e perda de estímulo hormonal.",
+        "B": "Incorreta: raios e radiação UV são fontes de energia prebióticas abordadas na química primitiva, não sendo as causas clínicas teciduais da atrofia celular descritas na aula.",
+        "C": "Incorreta: proliferação de fuso mitótico e ingestão de cloroplastos não têm qualquer relação com os mecanismos de atrofia tecidual.",
+        "D": "Incorreta: alterações no número de cromossomos definem aneuploidias ou poliploidias genéticas, e não o mecanismo fisiopatológico da atrofia por perda de substância celular."
+      },
+      "referencia": {
+        "paginas": [
+          34
+        ],
+        "fundamentacao": "Página 34.",
+        "trechos_apoio": [
+          "Atrofia: É a diminuição do tamanho da célula devido à perda de substância celular. As causas comuns incluem diminuição da carga de trabalho, perda de inervação, suprimento sanguíneo diminuído, nutrição inadequada e perda de estimulação endócrina."
+        ]
+      }
+    }
+  ]
+}

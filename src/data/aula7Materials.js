@@ -1,6 +1,7 @@
 import rawDeterioracao from '../../aula_7_deterioracao.json' with { type: 'json' }
 import rawConservacao from '../../aula_7_conservacao.json' with { type: 'json' }
 import rawOrigemVidaAula01 from '../../origem_vida_aula_01.json' with { type: 'json' }
+import rawOrigemVidaAula02 from '../../origem_vida_aula_02.json' with { type: 'json' }
 import { QUESTIONS } from './questions'
 import { TOPICS } from './topics'
 
@@ -99,6 +100,17 @@ const JSON_MATERIAL_DEFINITIONS = [
     blurb: 'Big Bang, formação da Terra e da hidrosfera, evolução química vs. evolução biológica, biogênese (Redi, Spallanzani, Pasteur), Mundo de RNA e fontes hidrotermais.',
     rawData: rawOrigemVidaAula01,
     esperado: 25,
+  },
+  {
+    file: 'origem_vida_aula_02.json',
+    arquivoOrigem: 'Aula 02 - Evolução da célula_260910_160055 (1).pdf',
+    slide_id: 'origem_vida_aula_02',
+    nome: 'Aula 02 - Evolução da célula',
+    disciplineId: 'origem-vida',
+    disciplineNome: 'Origem da Vida e Evolução Humana',
+    blurb: 'Hipótese de Oparin-Haldane, experimento de Miller-Urey, protobiontes e coacervados, modelo autogênico e teoria endossimbiótica (Margulis), procariontes vs. eucariontes, adaptações celulares e evolução.',
+    rawData: rawOrigemVidaAula02,
+    esperado: 35,
   },
 ]
 
