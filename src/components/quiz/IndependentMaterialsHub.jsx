@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from 'react'
 import {
+  COURSE_INFO,
   DISCIPLINES,
   LETTER_KEYS,
   generateShuffledOptionOrder,
@@ -16,7 +17,6 @@ import {
   loadAllMaterialsProgress,
   loadSavedUiState,
   recordMaterialQuestionAnswer,
-  resetMaterialProgress,
   saveMaterialActiveSession,
   saveMaterialReflectionDraft,
   saveMaterialReflectionFinal,
@@ -31,7 +31,8 @@ function createInitialQueueItems(questions) {
     optionOrder: generateShuffledOptionOrder(),
     isReforco: false,
     repetida: false,
-    reforcoNumero: null,
+    reforcoNumero: idx + 1,
+    initialPosition: idx + 1,
     origemErroUid: null,
     origemErroId: null,
   }))
@@ -56,15 +57,23 @@ function normalizeSavedSession(saved, slideId) {
   if (!saved || saved.slide_id !== slideId || !Array.isArray(saved.queue) || !saved.queue.length) {
     return null
   }
-  const normalizedQueue = saved.queue.map((item) => ({
-    ...item,
-    optionOrder:
-      Array.isArray(item.optionOrder) && item.optionOrder.length === 4
-        ? item.optionOrder
-        : LETTER_KEYS,
-  }))
+  let initialCounter = 0
+  const normalizedQueue = saved.queue.map((item) => {
+    if (!item.isReforco) {
+      initialCounter += 1
+    }
+    return {
+      ...item,
+      initialPosition: !item.isReforco ? item.initialPosition || initialCounter : null,
+      optionOrder:
+        Array.isArray(item.optionOrder) && item.optionOrder.length === 4
+          ? item.optionOrder
+          : LETTER_KEYS,
+    }
+  })
   return {
     ...saved,
+    initialCount: saved.initialCount || initialCounter || normalizedQueue.length,
     queue: normalizedQueue,
     currentIndex: typeof saved.currentIndex === 'number' ? saved.currentIndex : 0,
     viewIndex: typeof saved.viewIndex === 'number' ? saved.viewIndex : saved.currentIndex || 0,
@@ -72,6 +81,14 @@ function normalizeSavedSession(saved, slideId) {
     draftByUid: saved.draftByUid || {},
     reflectionDraftByUid: saved.reflectionDraftByUid || {},
   }
+}
+
+function buildQuickCounts(total) {
+  if (total <= 10) {
+    return Array.from({ length: total }, (_, i) => i + 1)
+  }
+  const presets = [5, 10, 15, 20, 25, 30].filter((n) => n < total)
+  return [...presets, total]
 }
 
 export default function IndependentMaterialsHub({
@@ -85,7 +102,6 @@ export default function IndependentMaterialsHub({
     const allProg = loadAllMaterialsProgress()
     const savedUi = loadSavedUiState()
 
-    // 1. Se veio um slideId explícito na rota (/materiais/:slideId ou /materias/:topicId)
     if (initialSlideId) {
       const mat = getMaterialBySlideId(initialSlideId)
       if (mat) {
@@ -109,7 +125,6 @@ export default function IndependentMaterialsHub({
       }
     }
 
-    // 2. Se veio uma disciplina explícita na rota (/disciplinas/:disciplineId)
     if (initialDisciplineId) {
       const disc = getDisciplineById(initialDisciplineId)
       if (disc) {
@@ -123,7 +138,6 @@ export default function IndependentMaterialsHub({
       }
     }
 
-    // 3. Restaura estado salvo da UI (após reload da página)
     if (savedUi?.selectedSlideId) {
       const mat = getMaterialBySlideId(savedUi.selectedSlideId)
       if (mat) {
@@ -176,6 +190,8 @@ export default function IndependentMaterialsHub({
   const [viewMode, setViewMode] = useState(initialState.viewMode)
   const [desiredCount, setDesiredCount] = useState(initialState.desiredCount)
   const [session, setSession] = useState(initialState.session)
+  const [confirmingNewSession, setConfirmingNewSession] = useState(false)
+  const [expandedOtherExplanationsUid, setExpandedOtherExplanationsUid] = useState(null)
 
   useEffect(() => {
     saveUiState({
@@ -273,18 +289,17 @@ export default function IndependentMaterialsHub({
     }
   }
 
-  function openDiscipline(disciplineId) {
-    const disc = getDisciplineById(disciplineId)
-    if (!disc) return
+  function openPeriodsRoot() {
     persistActiveSessionBeforeLeaving()
-    setSelectedDisciplineId(disc.id)
+    setSelectedDisciplineId(null)
     setSelectedSlideId(null)
     setSession(null)
-    setViewMode('discipline')
+    setConfirmingNewSession(false)
+    setViewMode('periods')
     saveUiState({
-      selectedDisciplineId: disc.id,
+      selectedDisciplineId: null,
       selectedSlideId: null,
-      viewMode: 'discipline',
+      viewMode: 'periods',
     })
     window.scrollTo({ top: 0, behavior: 'smooth' })
   }
@@ -294,11 +309,29 @@ export default function IndependentMaterialsHub({
     setSelectedDisciplineId(null)
     setSelectedSlideId(null)
     setSession(null)
+    setConfirmingNewSession(false)
     setViewMode('disciplines')
     saveUiState({
       selectedDisciplineId: null,
       selectedSlideId: null,
       viewMode: 'disciplines',
+    })
+    window.scrollTo({ top: 0, behavior: 'smooth' })
+  }
+
+  function openDiscipline(disciplineId) {
+    const disc = getDisciplineById(disciplineId)
+    if (!disc) return
+    persistActiveSessionBeforeLeaving()
+    setSelectedDisciplineId(disc.id)
+    setSelectedSlideId(null)
+    setSession(null)
+    setConfirmingNewSession(false)
+    setViewMode('discipline')
+    saveUiState({
+      selectedDisciplineId: disc.id,
+      selectedSlideId: null,
+      viewMode: 'discipline',
     })
     window.scrollTo({ top: 0, behavior: 'smooth' })
   }
@@ -311,6 +344,7 @@ export default function IndependentMaterialsHub({
     setSelectedSlideId(slideId)
     setDesiredCount(material.totalValidas)
     setSession(null)
+    setConfirmingNewSession(false)
     setViewMode('config')
     saveUiState({
       selectedDisciplineId: material.disciplineId,
@@ -325,6 +359,7 @@ export default function IndependentMaterialsHub({
     const targetDiscId = activeMaterial?.disciplineId || selectedDisciplineId
     setSelectedSlideId(null)
     setSession(null)
+    setConfirmingNewSession(false)
     if (targetDiscId && getDisciplineById(targetDiscId)) {
       setSelectedDisciplineId(targetDiscId)
       setViewMode('discipline')
@@ -343,6 +378,29 @@ export default function IndependentMaterialsHub({
       })
     }
     window.scrollTo({ top: 0, behavior: 'smooth' })
+  }
+
+  function backOneLevel() {
+    if (viewMode === 'session' || viewMode === 'summary') {
+      if (selectedSlideId) {
+        openMaterial(selectedSlideId)
+        return
+      }
+      backToDisciplineMaterials()
+      return
+    }
+    if (viewMode === 'config') {
+      backToDisciplineMaterials()
+      return
+    }
+    if (viewMode === 'discipline') {
+      backToDisciplines()
+      return
+    }
+    if (viewMode === 'disciplines') {
+      openPeriodsRoot()
+      return
+    }
   }
 
   function startNewSession(countToUse, mode = 'estudo') {
@@ -376,6 +434,8 @@ export default function IndependentMaterialsHub({
       startedAt: Date.now(),
     }
 
+    setConfirmingNewSession(false)
+    setExpandedOtherExplanationsUid(null)
     setSession(nextSession)
     setViewMode('session')
     saveUiState({
@@ -398,6 +458,8 @@ export default function IndependentMaterialsHub({
       selectedSlideId,
     )
     if (!saved) return
+    setConfirmingNewSession(false)
+    setExpandedOtherExplanationsUid(null)
     setSession(saved)
     setViewMode('session')
     saveUiState({
@@ -500,6 +562,7 @@ export default function IndependentMaterialsHub({
       reinforcementsAdded: (session.reinforcementsAdded || 0) + addedCount,
     }
 
+    setExpandedOtherExplanationsUid(null)
     setSession(updatedSession)
 
     setProgressByMaterial((prev) => {
@@ -574,6 +637,7 @@ export default function IndependentMaterialsHub({
       viewIndex: hasMore ? nextIdx : viewIndex,
     }
 
+    setExpandedOtherExplanationsUid(null)
     setSession(updatedSession)
 
     if (!hasMore) {
@@ -625,6 +689,7 @@ export default function IndependentMaterialsHub({
       ...session,
       viewIndex: prevIdx,
     }
+    setExpandedOtherExplanationsUid(null)
     setSession(updatedSession)
     setProgressByMaterial((prev) =>
       saveMaterialActiveSession(prev, selectedSlideId, updatedSession),
@@ -641,6 +706,7 @@ export default function IndependentMaterialsHub({
         ...session,
         viewIndex: nextViewIdx,
       }
+      setExpandedOtherExplanationsUid(null)
       setSession(updatedSession)
       setProgressByMaterial((prev) =>
         saveMaterialActiveSession(prev, selectedSlideId, updatedSession),
@@ -678,6 +744,7 @@ export default function IndependentMaterialsHub({
       currentIndex: nextIdx,
       viewIndex: nextIdx,
     }
+    setExpandedOtherExplanationsUid(null)
     setSession(updatedSession)
     setProgressByMaterial((prev) =>
       saveMaterialActiveSession(prev, selectedSlideId, updatedSession),
@@ -685,179 +752,164 @@ export default function IndependentMaterialsHub({
     window.scrollTo({ top: 0, behavior: 'smooth' })
   }
 
-  function handleResetMaterialProgress(slideId) {
-    setProgressByMaterial((prev) => resetMaterialProgress(prev, slideId))
+  // Barra superior com botão "Voltar" + caminho clicável (Biomedicina -> 2º período -> Disciplina -> Apostila -> Estudar)
+  function renderDriveToolbar() {
+    const showBackButton = viewMode !== 'periods'
+    return (
+      <div className="drive-toolbar" data-testid="drive-toolbar">
+        {showBackButton ? (
+          <button
+            type="button"
+            className="drive-back-btn"
+            data-testid="btn-voltar"
+            onClick={backOneLevel}
+          >
+            ← Voltar
+          </button>
+        ) : null}
+
+        <nav className="drive-breadcrumbs" aria-label="Caminho de pastas" data-testid="drive-breadcrumb">
+          <button
+            type="button"
+            className={`drive-crumb ${viewMode === 'periods' ? 'current' : ''}`}
+            data-testid="crumb-biomedicina"
+            onClick={openPeriodsRoot}
+          >
+            {COURSE_INFO.nome}
+          </button>
+
+          {viewMode !== 'periods' ? (
+            <>
+              <span className="drive-sep">›</span>
+              <button
+                type="button"
+                className={`drive-crumb ${viewMode === 'disciplines' ? 'current' : ''}`}
+                data-testid="crumb-periodo"
+                onClick={backToDisciplines}
+              >
+                {COURSE_INFO.periodoNome}
+              </button>
+            </>
+          ) : null}
+
+          {activeDiscipline && viewMode !== 'disciplines' && viewMode !== 'periods' ? (
+            <>
+              <span className="drive-sep">›</span>
+              <button
+                type="button"
+                className={`drive-crumb ${viewMode === 'discipline' ? 'current' : ''}`}
+                data-testid="crumb-disciplina"
+                onClick={() => openDiscipline(activeDiscipline.id)}
+              >
+                {activeDiscipline.nome}
+              </button>
+            </>
+          ) : null}
+
+          {activeMaterial && (viewMode === 'config' || viewMode === 'session' || viewMode === 'summary') ? (
+            <>
+              <span className="drive-sep">›</span>
+              <button
+                type="button"
+                className={`drive-crumb ${viewMode === 'config' ? 'current' : ''}`}
+                data-testid="crumb-apostila"
+                onClick={() => openMaterial(activeMaterial.slide_id)}
+              >
+                {activeMaterial.nome}
+              </button>
+            </>
+          ) : null}
+
+          {viewMode === 'session' || viewMode === 'summary' ? (
+            <>
+              <span className="drive-sep">›</span>
+              <span className="drive-crumb current" data-testid="crumb-estudar">
+                Estudar
+              </span>
+            </>
+          ) : null}
+        </nav>
+      </div>
+    )
   }
 
   // ============================================================================
-  // NÍVEL 1: TELA INICIAL — CENTRAL DE ESTUDOS (CARTÕES POR DISCIPLINA)
+  // NÍVEL 0 (OPCIONAL AO CLICAR EM "BIOMEDICINA"): PASTA DO 2º PERÍODO
+  // ============================================================================
+  if (viewMode === 'periods') {
+    return (
+      <section className="drive-shell" data-testid="periods-view">
+        {renderDriveToolbar()}
+        <div className="drive-list">
+          <button
+            type="button"
+            className="drive-row"
+            data-testid="row-periodo-2"
+            onClick={backToDisciplines}
+          >
+            <div className="drive-row-left">
+              <div className="drive-row-icon" aria-hidden="true">
+                📁
+              </div>
+              <div className="drive-row-main">
+                <div className="drive-row-title">{COURSE_INFO.periodoNome}</div>
+                <div className="drive-row-sub">{DISCIPLINES.length} disciplinas</div>
+              </div>
+            </div>
+            <div className="drive-row-right">
+              <span className="drive-chevron" aria-hidden="true">
+                ›
+              </span>
+            </div>
+          </button>
+        </div>
+      </section>
+    )
+  }
+
+  // ============================================================================
+  // NÍVEL 1 (PADRÃO NA TELA INICIAL): DISCIPLINAS DO 2º PERÍODO
   // ============================================================================
   if (viewMode === 'disciplines' || (!activeDiscipline && !activeMaterial)) {
     return (
-      <section className="card" style={{ padding: 24, marginBottom: 24 }} data-testid="central-estudos-view">
-        <div className="page-head" style={{ marginBottom: 20 }}>
-          <div>
-            <span className="tag ok" style={{ fontSize: 12, padding: '4px 10px', marginBottom: 8 }}>
-              Disciplina → Material / Apostila → Questões
-            </span>
-            <h2 data-testid="central-estudos-title" style={{ fontSize: 28, margin: '4px 0 8px' }}>
-              Central de Estudos
-            </h2>
-            <p style={{ maxWidth: 820, lineHeight: 1.55 }}>
-              Selecione uma disciplina abaixo para acessar exclusivamente suas apostilas e seu banco de questões. O
-              progresso, as reflexões escritas e as sessões em andamento são salvos separadamente por material.
-            </p>
-          </div>
-        </div>
+      <section className="drive-shell" data-testid="central-estudos-view">
+        {renderDriveToolbar()}
 
-        <div
-          className="grid-2"
-          style={{
-            gridTemplateColumns: 'repeat(auto-fit, minmax(310px, 1fr))',
-            gap: 18,
-          }}
-        >
+        <div className="drive-list" role="list" aria-label="Disciplinas do 2º período">
           {DISCIPLINES.map((disc) => {
-            let respondidasUnicas = 0
-            let totalRespostas = 0
-            let totalAcertos = 0
-            let totalReflexoes = 0
-            let sessoesAtivasCount = 0
-
-            for (const mat of disc.materials) {
-              const p = progressByMaterial[mat.slide_id]
-              if (p) {
-                respondidasUnicas += p.respondidasIds?.length || 0
-                totalRespostas += p.totalRespostas || 0
-                totalAcertos += p.acertos || 0
-                totalReflexoes += p.reflexoes?.length || 0
-                if (p.sessaoAtiva) sessoesAtivasCount += 1
-              }
-            }
-
-            const taxaAcerto = totalRespostas ? Math.round((totalAcertos / totalRespostas) * 100) : 0
-            const pctConcluido = disc.totalQuestoes
-              ? Math.round((respondidasUnicas / disc.totalQuestoes) * 100)
-              : 0
+            const countLabel =
+              disc.totalMateriais === 0
+                ? 'Sem apostilas'
+                : `${disc.totalMateriais} ${disc.totalMateriais === 1 ? 'apostila' : 'apostilas'}`
 
             return (
-              <article
+              <button
                 key={disc.id}
+                type="button"
+                className="drive-row"
                 data-testid={`card-disciplina-${disc.id}`}
-                className="subject-card"
-                style={{
-                  display: 'flex',
-                  flexDirection: 'column',
-                  justifyContent: 'space-between',
-                  padding: 22,
-                  border: '1px solid #2e6472',
-                  background: 'linear-gradient(180deg, #0e2d36, #081e25)',
-                }}
+                onClick={() => openDiscipline(disc.id)}
               >
-                <div>
-                  <div className="row" style={{ flexWrap: 'wrap', gap: 8, marginBottom: 10 }}>
-                    <span className="pill" style={{ fontSize: 11 }}>
-                      {disc.codigoCurricular}
-                    </span>
-                    <span className="tag ok" style={{ fontSize: 11 }}>
-                      {disc.totalMateriais} {disc.totalMateriais === 1 ? 'material' : 'materiais'} · {disc.totalQuestoes}{' '}
-                      questões
-                    </span>
+                <div className="drive-row-left">
+                  <div className="drive-row-icon" aria-hidden="true">
+                    📁
                   </div>
-
-                  <h3 style={{ margin: '6px 0 8px', fontSize: 24, lineHeight: 1.25 }}>
-                    <span style={{ marginRight: 8 }}>{disc.icone}</span>
-                    {disc.nome}
-                  </h3>
-
-                  <p className="muted" style={{ fontSize: 13, lineHeight: 1.5, marginBottom: 14 }}>
-                    {disc.descricao}
-                  </p>
-
-                  <div
-                    style={{
-                      background: '#071920',
-                      border: '1px solid #1e4550',
-                      borderRadius: 12,
-                      padding: 12,
-                      marginBottom: 14,
-                    }}
-                  >
-                    <div style={{ fontSize: 12, fontWeight: 700, color: '#9fc8cc', marginBottom: 8 }}>
-                      Materiais disponíveis em {disc.nome}:
+                  <div className="drive-row-main">
+                    <div
+                      className="drive-row-title"
+                      data-testid={`btn-abrir-disciplina-${disc.id}`}
+                    >
+                      {disc.nome}
                     </div>
-                    <div style={{ display: 'flex', flexDirection: 'column', gap: 6 }}>
-                      {disc.materials.slice(0, 4).map((mat) => (
-                        <div
-                          key={mat.slide_id}
-                          className="row"
-                          style={{ fontSize: 12, color: '#dffafa', gap: 8 }}
-                        >
-                          <span style={{ overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
-                            • {mat.nome}
-                          </span>
-                          <b style={{ color: '#8af3b1', flexShrink: 0 }}>{mat.totalValidas} q.</b>
-                        </div>
-                      ))}
-                      {disc.materials.length > 4 ? (
-                        <div className="muted" style={{ fontSize: 11 }}>
-                          + {disc.materials.length - 4} outros materiais de {disc.nome}
-                        </div>
-                      ) : null}
-                    </div>
-                  </div>
-
-                  <div
-                    style={{
-                      background: '#071920',
-                      border: '1px solid #1e4550',
-                      borderRadius: 12,
-                      padding: 12,
-                      marginBottom: 16,
-                    }}
-                  >
-                    <div className="row" style={{ fontSize: 12, marginBottom: 6 }}>
-                      <span>Progresso em {disc.nome}</span>
-                      <b>
-                        {respondidasUnicas}/{disc.totalQuestoes} questões ({pctConcluido}%)
-                      </b>
-                    </div>
-                    <div className="mini-progress" style={{ marginBottom: 8 }}>
-                      <i style={{ width: `${pctConcluido}%` }} />
-                    </div>
-                    <div className="row" style={{ fontSize: 12, color: '#9fc8cc', flexWrap: 'wrap' }}>
-                      <span>
-                        Acertos: <b style={{ color: '#8af3b1' }}>{totalAcertos}</b> · Reflexões:{' '}
-                        <b style={{ color: '#ffd166' }}>{totalReflexoes}</b>
-                      </span>
-                      <span>
-                        Aproveitamento: <b style={{ color: '#fff' }}>{taxaAcerto}%</b>
-                      </span>
-                    </div>
-                    {sessoesAtivasCount > 0 ? (
-                      <div style={{ marginTop: 8, fontSize: 12, color: '#ffd166' }}>
-                        ● {sessoesAtivasCount}{' '}
-                        {sessoesAtivasCount === 1
-                          ? 'sessão em andamento salva nesta disciplina'
-                          : 'sessões em andamento salvas nesta disciplina'}
-                      </div>
-                    ) : null}
                   </div>
                 </div>
-
-                <div className="actions" style={{ marginTop: 4 }}>
-                  <button
-                    type="button"
-                    data-testid={`btn-abrir-disciplina-${disc.id}`}
-                    className="primary"
-                    style={{ width: '100%', padding: '13px 16px', fontSize: 15 }}
-                    onClick={() => openDiscipline(disc.id)}
-                  >
-                    Abrir {disc.nome} ({disc.totalMateriais}{' '}
-                    {disc.totalMateriais === 1 ? 'material' : 'materiais'} · {disc.totalQuestoes} questões)
-                  </button>
+                <div className="drive-row-right">
+                  <span className="drive-row-count">{countLabel}</span>
+                  <span className="drive-chevron" aria-hidden="true">
+                    ›
+                  </span>
                 </div>
-              </article>
+              </button>
             )
           })}
         </div>
@@ -866,404 +918,307 @@ export default function IndependentMaterialsHub({
   }
 
   // ============================================================================
-  // NÍVEL 2: DISCIPLINA SELECIONADA — LISTA DE MATERIAIS / APOSTILAS
+  // NÍVEL 2: APOSTILAS DA DISCIPLINA SELECIONADA
   // ============================================================================
   if (viewMode === 'discipline' || !activeMaterial) {
     return (
-      <section className="card" style={{ padding: 24, marginBottom: 24 }} data-testid="discipline-materials-view">
-        <div
-          className="quiz-actions"
-          style={{
-            marginBottom: 16,
-            paddingBottom: 14,
-            borderBottom: '1px solid #1f4854',
-            flexWrap: 'wrap',
-            gap: 10,
-          }}
-        >
+      <section className="drive-shell" data-testid="discipline-materials-view">
+        {renderDriveToolbar()}
+
+        <div style={{ marginBottom: 14, display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+          <h2
+            data-testid="active-discipline-title"
+            style={{ margin: 0, fontSize: 20, fontWeight: 800 }}
+          >
+            {activeDiscipline.nome}
+          </h2>
           <button
             type="button"
-            data-testid="btn-voltar-disciplinas"
             className="ghost"
+            data-testid="btn-voltar-disciplinas"
             onClick={backToDisciplines}
+            style={{ fontSize: 12 }}
           >
-            ← Voltar para Disciplinas (Central de Estudos)
+            Todas as disciplinas
           </button>
-          <span className="pill" data-testid="breadcrumb-discipline">
-            Central de Estudos → <b>{activeDiscipline.nome}</b>
-          </span>
         </div>
 
-        <div className="page-head" style={{ marginBottom: 18 }}>
-          <div>
-            <span className="tag ok" style={{ fontSize: 12, padding: '4px 10px', marginBottom: 8 }}>
-              Disciplina selecionada · {activeDiscipline.codigoCurricular}
-            </span>
-            <h2 data-testid="active-discipline-title" style={{ fontSize: 28, margin: '4px 0 8px' }}>
-              {activeDiscipline.icone} {activeDiscipline.nome}
-            </h2>
-            <p style={{ maxWidth: 820, lineHeight: 1.55 }}>
-              {activeDiscipline.descricao} Mostrando exclusivamente{' '}
-              <b>
-                {activeDiscipline.totalMateriais}{' '}
-                {activeDiscipline.totalMateriais === 1 ? 'material' : 'materiais'} ({activeDiscipline.totalQuestoes}{' '}
-                questões válidas)
-              </b>{' '}
-              desta disciplina.
-            </p>
+        {activeDiscipline.materials.length === 0 ? (
+          <div
+            style={{
+              padding: 28,
+              textAlign: 'center',
+              border: '1px solid #1d444f',
+              borderRadius: 14,
+              background: '#081c22',
+              color: '#9fc8cc',
+            }}
+            data-testid="empty-discipline-message"
+          >
+            Nenhuma apostila disponível nesta disciplina no momento.
           </div>
-        </div>
+        ) : (
+          <div className="drive-list" role="list" aria-label={`Apostilas de ${activeDiscipline.nome}`}>
+            {activeDiscipline.materials.map((material) => {
+              const prog =
+                progressByMaterial[material.slide_id] || createEmptyMaterialProgress(material.slide_id)
+              const hasActiveSession = Boolean(prog.sessaoAtiva)
 
-        <div
-          className="grid-2"
-          style={{
-            gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))',
-            gap: 18,
-          }}
-        >
-          {activeDiscipline.materials.map((material) => {
-            const prog =
-              progressByMaterial[material.slide_id] || createEmptyMaterialProgress(material.slide_id)
-            const respondidasUnicas = prog.respondidasIds?.length || 0
-            const totalResp = prog.totalRespostas || 0
-            const taxaAcerto = totalResp ? Math.round((prog.acertos / totalResp) * 100) : 0
-            const pctConcluido = material.totalValidas
-              ? Math.round((respondidasUnicas / material.totalValidas) * 100)
-              : 0
-
-            return (
-              <article
-                key={material.slide_id}
-                data-testid={`card-material-${material.slide_id}`}
-                className="subject-card"
-                style={{
-                  display: 'flex',
-                  flexDirection: 'column',
-                  justifyContent: 'space-between',
-                  padding: 20,
-                  border: '1px solid #2e6472',
-                  background: 'linear-gradient(180deg, #0e2d36, #081e25)',
-                }}
-              >
-                <div>
-                  <div className="row" style={{ flexWrap: 'wrap', gap: 8, marginBottom: 10 }}>
-                    <span className="pill" style={{ fontSize: 11 }}>
-                      Disciplina: <b>{material.disciplineNome}</b>
-                    </span>
-                    <span className="pill" style={{ fontSize: 11 }}>
-                      ID: <code>{material.slide_id}</code>
-                    </span>
-                    <span className="tag ok" style={{ fontSize: 11 }}>
-                      ✓ {material.totalValidas} questões válidas
-                    </span>
-                  </div>
-
-                  <h3 style={{ margin: '6px 0 8px', fontSize: 20, lineHeight: 1.3 }}>
-                    {material.nome}
-                  </h3>
-
-                  {material.blurb ? (
-                    <p className="muted" style={{ fontSize: 13, lineHeight: 1.45, marginBottom: 10 }}>
-                      {material.blurb}
-                    </p>
-                  ) : null}
-
-                  <p className="muted" style={{ fontSize: 12, marginBottom: 12 }}>
-                    Fonte/Arquivo: <code>{material.file}</code> · Quantidade disponível:{' '}
-                    <b style={{ color: '#fff' }}>{material.totalValidas} questões</b>.
-                  </p>
-
-                  {material.classificationNote ? (
-                    <div
-                      style={{
-                        background: '#0b2229',
-                        border: '1px solid #2a5b6c',
-                        borderRadius: 10,
-                        padding: 10,
-                        fontSize: 12,
-                        color: '#bfeaf2',
-                        marginBottom: 12,
-                        lineHeight: 1.45,
-                      }}
-                    >
-                      <b>Nota de classificação:</b> {material.classificationNote}
+              return (
+                <button
+                  key={material.slide_id}
+                  type="button"
+                  className="drive-row"
+                  data-testid={`card-material-${material.slide_id}`}
+                  onClick={() => openMaterial(material.slide_id)}
+                >
+                  <div className="drive-row-left">
+                    <div className="drive-row-icon" aria-hidden="true">
+                      📄
                     </div>
-                  ) : null}
-
-                  <div
-                    style={{
-                      background: '#071920',
-                      border: '1px solid #1e4550',
-                      borderRadius: 12,
-                      padding: 12,
-                      marginBottom: 16,
-                    }}
-                  >
-                    <div className="row" style={{ fontSize: 12, marginBottom: 6 }}>
-                      <span>Progresso neste material ({material.slide_id})</span>
-                      <b>
-                        {respondidasUnicas}/{material.totalValidas} questões ({pctConcluido}%)
-                      </b>
-                    </div>
-                    <div className="mini-progress" style={{ marginBottom: 8 }}>
-                      <i style={{ width: `${pctConcluido}%` }} />
-                    </div>
-                    <div className="row" style={{ fontSize: 12, color: '#9fc8cc', flexWrap: 'wrap' }}>
-                      <span>
-                        Acertos: <b style={{ color: '#8af3b1' }}>{prog.acertos || 0}</b> · Erros:{' '}
-                        <b style={{ color: '#ffaaaa' }}>{prog.erros || 0}</b> · Reflexões:{' '}
-                        <b style={{ color: '#ffd166' }}>{prog.reflexoes?.length || 0}</b>
-                      </span>
-                      <span>
-                        Aproveitamento: <b style={{ color: '#fff' }}>{taxaAcerto}%</b>
-                      </span>
-                    </div>
-                    {prog.sessaoAtiva ? (
-                      <div style={{ marginTop: 8, fontSize: 12, color: '#ffd166' }}>
-                        ● Sessão em andamento salva (Questão{' '}
-                        {(prog.sessaoAtiva.viewIndex ?? prog.sessaoAtiva.currentIndex) + 1} de{' '}
-                        {prog.sessaoAtiva.queue.length})
+                    <div className="drive-row-main">
+                      <div className="drive-row-title">{material.nome}</div>
+                      <div className="drive-row-sub">
+                        {material.totalValidas} {material.totalValidas === 1 ? 'questão' : 'questões'}
+                        {hasActiveSession ? (
+                          <span style={{ color: '#ffd166', fontWeight: 700 }}>
+                            {' '}
+                            · Em andamento
+                          </span>
+                        ) : null}
                       </div>
-                    ) : null}
+                    </div>
                   </div>
-                </div>
 
-                <div className="actions" style={{ marginTop: 4 }}>
-                  <button
-                    type="button"
-                    data-testid={`btn-abrir-${material.slide_id}`}
-                    className="primary"
-                    style={{ width: '100%', padding: '13px 16px', fontSize: 15 }}
-                    onClick={() => openMaterial(material.slide_id)}
-                  >
-                    Abrir {material.nome} ({material.totalValidas} questões)
-                  </button>
-                </div>
-              </article>
-            )
-          })}
-        </div>
+                  <div className="drive-row-right">
+                    <span
+                      className="drive-row-action"
+                      data-testid={`btn-abrir-${material.slide_id}`}
+                    >
+                      Estudar
+                    </span>
+                  </div>
+                </button>
+              )
+            })}
+          </div>
+        )}
       </section>
     )
   }
 
   // ============================================================================
-  // NÍVEL 3A: CONFIGURAÇÃO DO MATERIAL / APOSTILA SELECIONADO
+  // NÍVEL 3A: ENTRADA DA APOSTILA (CONFIGURAÇÃO / RETOMADA DE SESSÃO)
   // ============================================================================
   if (viewMode === 'config') {
     const totalDisponivel = activeMaterialQuestions.length
     const prog =
       progressByMaterial[activeMaterial.slide_id] || createEmptyMaterialProgress(activeMaterial.slide_id)
-    const countOptions = Array.from({ length: totalDisponivel }, (_, i) => i + 1)
+    const hasSavedSession = Boolean(prog.sessaoAtiva)
+    const quickCounts = buildQuickCounts(totalDisponivel)
 
     return (
-      <section className="card" style={{ padding: 24, marginBottom: 24 }} data-testid="material-config-view">
+      <section className="drive-shell" data-testid="material-config-view">
+        {renderDriveToolbar()}
+
         <div
-          className="quiz-actions"
           style={{
-            marginBottom: 16,
-            paddingBottom: 14,
-            borderBottom: '1px solid #1f4854',
-            flexWrap: 'wrap',
-            gap: 10,
+            background: '#081c22',
+            border: '1px solid #1d444f',
+            borderRadius: 14,
+            padding: 20,
           }}
         >
-          <div className="row" style={{ gap: 10, flexWrap: 'wrap' }}>
+          <div style={{ marginBottom: 18 }}>
+            <span
+              className="muted"
+              data-testid="active-discipline-badge"
+              style={{ fontSize: 13, marginBottom: 4 }}
+            >
+              {activeMaterial.disciplineNome}
+            </span>
+            <h2
+              style={{ margin: '4px 0 6px', fontSize: 24 }}
+              data-testid="active-material-title"
+            >
+              {activeMaterial.nome}
+            </h2>
+            <div style={{ fontSize: 14, color: '#bfe7ea' }} data-testid="material-available-count">
+              <b>{totalDisponivel} questões</b> disponíveis nesta apostila
+            </div>
+          </div>
+
+          {/* Se houver sessão salva, destaca "Continuar estudo" e deixa "Iniciar nova sessão" como secundária com confirmação */}
+          {hasSavedSession ? (
+            <div
+              style={{
+                background: '#0d2b34',
+                border: '1px solid #2e6978',
+                borderRadius: 14,
+                padding: 18,
+                marginBottom: 16,
+              }}
+              data-testid="saved-session-box"
+            >
+              <div style={{ fontSize: 16, fontWeight: 800, color: '#fff', marginBottom: 4 }}>
+                Você tem um estudo em andamento
+              </div>
+              <div className="muted" style={{ fontSize: 13, marginBottom: 14 }}>
+                Suas respostas e a ordem das questões foram salvas onde você parou.
+              </div>
+
+              <div className="actions" style={{ alignItems: 'center', gap: 12 }}>
+                <button
+                  type="button"
+                  data-testid="btn-retomar-sessao"
+                  className="primary"
+                  style={{ padding: '13px 22px', fontSize: 16 }}
+                  onClick={resumeSavedSession}
+                >
+                  Continuar estudo
+                </button>
+
+                {!confirmingNewSession ? (
+                  <button
+                    type="button"
+                    data-testid="btn-mostrar-nova-sessao"
+                    className="ghost"
+                    style={{ padding: '12px 16px', fontSize: 14 }}
+                    onClick={() => setConfirmingNewSession(true)}
+                  >
+                    Iniciar nova sessão
+                  </button>
+                ) : null}
+              </div>
+            </div>
+          ) : null}
+
+          {/* Seletor de quantidade e botão "Começar estudo" (visível direto se não houver sessão salva, ou após clicar em "Iniciar nova sessão") */}
+          {!hasSavedSession || confirmingNewSession ? (
+            <div
+              style={{
+                background: hasSavedSession ? '#1b1814' : '#0b2229',
+                border: hasSavedSession ? '1px solid #8a6432' : '1px solid #1f4854',
+                borderRadius: 14,
+                padding: 18,
+              }}
+              data-testid="new-session-selector-box"
+            >
+              {hasSavedSession ? (
+                <div
+                  style={{
+                    color: '#ffd166',
+                    fontSize: 14,
+                    fontWeight: 700,
+                    marginBottom: 12,
+                  }}
+                  data-testid="confirm-replace-warning"
+                >
+                  Atenção: iniciar uma nova sessão substituirá a sessão atual em andamento.
+                </div>
+              ) : null}
+
+              <div style={{ fontSize: 15, fontWeight: 700, color: '#fff', marginBottom: 10 }}>
+                Quantas questões você quer responder?
+              </div>
+
+              <div
+                style={{
+                  display: 'flex',
+                  flexWrap: 'wrap',
+                  gap: 8,
+                  marginBottom: 14,
+                }}
+              >
+                {quickCounts.map((num) => {
+                  const active = desiredCount === num
+                  return (
+                    <button
+                      key={num}
+                      type="button"
+                      data-testid={`select-count-${num}`}
+                      onClick={() => setDesiredCount(num)}
+                      style={{
+                        minWidth: 52,
+                        padding: '10px 14px',
+                        borderRadius: 10,
+                        border: active ? '2px solid #38d1bd' : '1px solid #28505b',
+                        background: active ? '#13404a' : '#081c22',
+                        color: '#fff',
+                        fontWeight: 800,
+                        fontSize: 15,
+                        cursor: 'pointer',
+                      }}
+                    >
+                      {num === totalDisponivel && totalDisponivel > 10 ? `Todas (${num})` : num}
+                    </button>
+                  )
+                })}
+              </div>
+
+              <div className="row" style={{ justifyContent: 'flex-start', gap: 10, marginBottom: 16 }}>
+                <label
+                  style={{
+                    display: 'inline-flex',
+                    alignItems: 'center',
+                    gap: 10,
+                    fontSize: 14,
+                    color: '#d8f3f5',
+                  }}
+                >
+                  <span>Quantidade (1 a {totalDisponivel}):</span>
+                  <input
+                    type="number"
+                    data-testid="input-question-count"
+                    min={1}
+                    max={totalDisponivel}
+                    value={desiredCount}
+                    onChange={(e) => {
+                      const val = Number(e.target.value)
+                      if (!Number.isNaN(val)) {
+                        setDesiredCount(Math.max(1, Math.min(val, totalDisponivel)))
+                      }
+                    }}
+                    style={{ width: 84, textAlign: 'center', fontWeight: 700, padding: '8px 10px' }}
+                  />
+                </label>
+              </div>
+
+              <div className="actions" style={{ alignItems: 'center', gap: 10 }}>
+                <button
+                  type="button"
+                  data-testid="btn-iniciar-sessao"
+                  className="primary"
+                  style={{ padding: '13px 22px', fontSize: 16 }}
+                  onClick={() => startNewSession(desiredCount, 'estudo')}
+                >
+                  {hasSavedSession ? 'Confirmar e começar estudo' : 'Começar estudo'}
+                </button>
+
+                {hasSavedSession ? (
+                  <button
+                    type="button"
+                    data-testid="btn-cancelar-nova-sessao"
+                    className="ghost"
+                    style={{ padding: '12px 16px', fontSize: 14 }}
+                    onClick={() => setConfirmingNewSession(false)}
+                  >
+                    Cancelar
+                  </button>
+                ) : null}
+              </div>
+            </div>
+          ) : null}
+
+          <div style={{ marginTop: 16 }}>
             <button
               type="button"
               data-testid="btn-voltar-lista"
               className="ghost"
               onClick={backToDisciplineMaterials}
             >
-              ← Voltar aos materiais de {activeMaterial.disciplineNome}
+              ← Voltar às apostilas de {activeMaterial.disciplineNome}
             </button>
-            <button
-              type="button"
-              data-testid="btn-voltar-disciplinas"
-              className="ghost"
-              onClick={backToDisciplines}
-            >
-              ← Disciplinas
-            </button>
-          </div>
-          <span className="pill" data-testid="breadcrumb-material">
-            <b>{activeMaterial.disciplineNome}</b> → <b>{activeMaterial.nome}</b> (<code>{activeMaterial.slide_id}</code>)
-          </span>
-        </div>
-
-        <div style={{ marginBottom: 20 }}>
-          <div className="row" style={{ flexWrap: 'wrap', gap: 8, marginBottom: 8 }}>
-            <span className="tag ok" data-testid="active-discipline-badge">
-              Disciplina: {activeMaterial.disciplineNome}
-            </span>
-            <span className="pill" style={{ fontSize: 12 }}>
-              Fonte/Arquivo: <code>{activeMaterial.file}</code>
-            </span>
-          </div>
-          <h2 style={{ margin: '6px 0 8px', fontSize: 28 }} data-testid="active-material-title">
-            {activeMaterial.nome}
-          </h2>
-          <p className="muted" style={{ fontSize: 14 }}>
-            Disciplina: <b style={{ color: '#fff' }}>{activeMaterial.disciplineNome}</b> · Identificador:{' '}
-            <code>{activeMaterial.slide_id}</code> · Total carregado exclusivamente deste material:{' '}
-            <b style={{ color: '#fff' }}>{totalDisponivel} questões válidas</b>.
-          </p>
-        </div>
-
-        {prog.sessaoAtiva ? (
-          <div
-            className="banner"
-            style={{
-              marginBottom: 20,
-              padding: 16,
-              display: 'flex',
-              justifyContent: 'space-between',
-              alignItems: 'center',
-              flexWrap: 'wrap',
-              gap: 12,
-            }}
-          >
-            <div>
-              <b style={{ color: '#fff', fontSize: 15 }}>Sessão em andamento disponível neste material</b>
-              <div className="muted" style={{ fontSize: 13, marginTop: 4 }}>
-                Você estava na Questão {(prog.sessaoAtiva.viewIndex ?? prog.sessaoAtiva.currentIndex) + 1} de{' '}
-                {prog.sessaoAtiva.queue.length} em <b>{activeMaterial.nome}</b> ({activeMaterial.disciplineNome}) —
-                ordem das questões, alternativas e respostas preservadas.
-              </div>
-            </div>
-            <button
-              type="button"
-              data-testid="btn-retomar-sessao"
-              className="primary"
-              onClick={resumeSavedSession}
-            >
-              Continuar sessão em andamento →
-            </button>
-          </div>
-        ) : null}
-
-        <div
-          style={{
-            background: '#081f26',
-            border: '1px solid #214b56',
-            borderRadius: 16,
-            padding: 20,
-            marginBottom: 20,
-          }}
-        >
-          <h3 style={{ marginTop: 0, marginBottom: 8 }}>
-            Quantas questões de “{activeMaterial.nome}” você quer responder?
-          </h3>
-          <p className="muted" style={{ fontSize: 13, marginBottom: 14 }}>
-            Escolha de 1 até o total disponível ({totalDisponivel} questões). Ao iniciar uma nova sessão, as questões e
-            as alternativas são embaralhadas automaticamente.
-          </p>
-
-          <div
-            style={{
-              display: 'grid',
-              gridTemplateColumns: 'repeat(auto-fit, minmax(52px, 1fr))',
-              gap: 8,
-              marginBottom: 16,
-            }}
-          >
-            {countOptions.map((num) => {
-              const active = desiredCount === num
-              return (
-                <button
-                  key={num}
-                  type="button"
-                  data-testid={`select-count-${num}`}
-                  onClick={() => setDesiredCount(num)}
-                  style={{
-                    padding: '10px 8px',
-                    borderRadius: 12,
-                    border: active ? '2px solid #38d1bd' : '1px solid #28505b',
-                    background: active ? '#13404a' : '#0b2229',
-                    color: '#fff',
-                    fontWeight: 800,
-                    fontSize: 15,
-                    cursor: 'pointer',
-                  }}
-                >
-                  {num}
-                </button>
-              )
-            })}
-          </div>
-
-          <div className="row" style={{ flexWrap: 'wrap', gap: 12, marginBottom: 16 }}>
-            <label style={{ display: 'flex', alignItems: 'center', gap: 10, fontSize: 14, color: '#edfafa' }}>
-              <span>Quantidade escolhida (1 a {totalDisponivel}):</span>
-              <input
-                type="number"
-                data-testid="input-question-count"
-                min={1}
-                max={totalDisponivel}
-                value={desiredCount}
-                onChange={(e) => {
-                  const val = Number(e.target.value)
-                  if (!Number.isNaN(val)) {
-                    setDesiredCount(Math.max(1, Math.min(val, totalDisponivel)))
-                  }
-                }}
-                style={{ width: 90, textAlign: 'center', fontWeight: 700 }}
-              />
-            </label>
-            <span className="muted" style={{ fontSize: 13 }}>
-              Disponíveis neste material: <b>{totalDisponivel} questões</b>
-            </span>
-          </div>
-
-          <div className="actions">
-            <button
-              type="button"
-              data-testid="btn-iniciar-sessao"
-              className="primary"
-              style={{ padding: '13px 22px', fontSize: 16 }}
-              onClick={() => startNewSession(desiredCount, 'estudo')}
-            >
-              Iniciar sessão com {desiredCount} {desiredCount === 1 ? 'questão' : 'questões'}
-            </button>
-            <button
-              type="button"
-              data-testid="btn-iniciar-revisao"
-              className="ghost"
-              style={{ padding: '13px 18px', fontSize: 14 }}
-              onClick={() => startNewSession(desiredCount, 'revisao')}
-            >
-              Nova sessão de revisão ({desiredCount} {desiredCount === 1 ? 'questão' : 'questões'})
-            </button>
-          </div>
-        </div>
-
-        <div
-          style={{
-            background: '#071a20',
-            border: '1px solid #1c404a',
-            borderRadius: 14,
-            padding: 16,
-          }}
-        >
-          <div className="row" style={{ flexWrap: 'wrap', gap: 10 }}>
-            <div>
-              <b>Histórico salvo para {activeMaterial.nome}</b>
-              <div className="muted" style={{ fontSize: 12, marginTop: 4 }}>
-                Disciplina: {activeMaterial.disciplineNome} · Questões já praticadas:{' '}
-                {prog.respondidasIds?.length || 0}/{totalDisponivel} · Acertos: {prog.acertos || 0} · Erros:{' '}
-                {prog.erros || 0} · Reflexões escritas: {prog.reflexoes?.length || 0} · Sessões concluídas:{' '}
-                {prog.sessoesConcluidas || 0}
-              </div>
-            </div>
-            {(prog.totalRespostas || 0) > 0 ? (
-              <button
-                type="button"
-                className="ghost"
-                onClick={() => handleResetMaterialProgress(activeMaterial.slide_id)}
-              >
-                Zerar progresso deste material
-              </button>
-            ) : null}
           </div>
         </div>
       </section>
@@ -1271,7 +1226,7 @@ export default function IndependentMaterialsHub({
   }
 
   // ============================================================================
-  // NÍVEL 3B: RESUMO DA SESSÃO CONCLUÍDA
+  // NÍVEL 3B: RESUMO AO CONCLUIR O ESTUDO
   // ============================================================================
   if (viewMode === 'summary' && session) {
     const total = session.history.length
@@ -1280,627 +1235,628 @@ export default function IndependentMaterialsHub({
     const pct = total ? Math.round((acertos / total) * 100) : 0
 
     return (
-      <section className="card report" style={{ padding: 24, marginBottom: 24 }}>
-        <div className="quiz-actions" style={{ marginBottom: 14, flexWrap: 'wrap', gap: 10 }}>
-          <div className="row" style={{ gap: 10, flexWrap: 'wrap' }}>
+      <section className="drive-shell" data-testid="study-summary-view">
+        {renderDriveToolbar()}
+
+        <div
+          style={{
+            background: '#081c22',
+            border: '1px solid #1d444f',
+            borderRadius: 14,
+            padding: 20,
+          }}
+        >
+          <span className="muted" style={{ fontSize: 13 }}>
+            {activeMaterial.disciplineNome}
+          </span>
+          <h2 style={{ margin: '4px 0 14px', fontSize: 24 }}>
+            Estudo concluído — {activeMaterial.nome}
+          </h2>
+
+          <div className="report-grid" style={{ marginBottom: 18 }}>
+            <div className="box">
+              <b>{pct}%</b>
+              <div>aproveitamento</div>
+            </div>
+            <div className="box">
+              <b>{acertos}</b>
+              <div>acertos</div>
+            </div>
+            <div className="box">
+              <b>{erros}</b>
+              <div>erros</div>
+            </div>
+            <div className="box">
+              <b>{session.reinforcementsAdded || 0}</b>
+              <div>reforços respondidos</div>
+            </div>
+          </div>
+
+          <div className="actions">
+            <button
+              type="button"
+              data-testid="btn-nova-sessao-resumo"
+              className="primary"
+              onClick={() => startNewSession(session.initialCount || activeMaterial.totalValidas, 'estudo')}
+            >
+              Começar novo estudo
+            </button>
             <button
               type="button"
               data-testid="btn-voltar-lista"
               className="ghost"
               onClick={backToDisciplineMaterials}
             >
-              ← Voltar aos materiais de {activeMaterial.disciplineNome}
-            </button>
-            <button
-              type="button"
-              data-testid="btn-voltar-disciplinas"
-              className="ghost"
-              onClick={backToDisciplines}
-            >
-              ← Disciplinas
+              Voltar às apostilas
             </button>
           </div>
-          <span className="pill">
-            Disciplina: <b>{activeMaterial.disciplineNome}</b> · Material: <b>{activeMaterial.nome}</b> (
-            <code>{activeMaterial.slide_id}</code>)
-          </span>
-        </div>
-
-        <div className="topic">
-          {activeMaterial.disciplineNome} · {activeMaterial.slide_id}
-        </div>
-        <h2 style={{ margin: '6px 0 14px' }}>Sessão concluída — {activeMaterial.nome}</h2>
-
-        <div className="report-grid" style={{ marginBottom: 18 }}>
-          <div className="box">
-            <b>{pct}%</b>
-            <div>aproveitamento</div>
-          </div>
-          <div className="box">
-            <b>{acertos}</b>
-            <div>acertos</div>
-          </div>
-          <div className="box">
-            <b>{erros}</b>
-            <div>erros</div>
-          </div>
-          <div className="box">
-            <b>{session.reinforcementsAdded || 0}</b>
-            <div>questões extras de reforço</div>
-          </div>
-        </div>
-
-        <h3>Resumo das questões respondidas nesta sessão ({session.history.length})</h3>
-        <div className="list" style={{ marginBottom: 20 }}>
-          {session.history.map((item, idx) => (
-            <div className="list-item" key={item.uid || idx}>
-              <div className="row" style={{ flexWrap: 'wrap', gap: 8, marginBottom: 6 }}>
-                <span className={`tag ${item.acertou ? 'ok' : 'bad'}`}>
-                  {item.acertou ? 'ACERTO' : 'ERRO'}
-                </span>
-                {item.isReforco ? (
-                  <span className="tag warn">
-                    REFORÇO {item.reforcoNumero ? `${item.reforcoNumero}/3` : ''}
-                  </span>
-                ) : (
-                  <span className="tag">QUESTÃO INICIAL</span>
-                )}
-                <span className="muted" style={{ fontSize: 12 }}>
-                  Questão {idx + 1} da sessão (<code>{item.questaoId}</code>) · {item.tema} — {item.subtema}
-                </span>
-              </div>
-              <div style={{ fontSize: 14, marginBottom: 6 }}>{item.enunciado}</div>
-              <div style={{ fontSize: 12, color: '#9fc8cc' }}>
-                Sua resposta: <b>{item.escolhida}</b> · Gabarito nesta tentativa:{' '}
-                <b style={{ color: '#8af3b1' }}>{item.gabarito}</b>
-              </div>
-              {item.reflexaoSalva ? (
-                <div style={{ marginTop: 6, fontSize: 12, color: '#ffd166' }}>
-                  <b>O que entendi sobre meu erro:</b> {item.reflexaoSalva}
-                </div>
-              ) : null}
-            </div>
-          ))}
-        </div>
-
-        <div className="actions">
-          <button
-            type="button"
-            data-testid="btn-nova-sessao-resumo"
-            className="primary"
-            onClick={() => startNewSession(session.initialCount || activeMaterial.totalValidas, 'estudo')}
-          >
-            Iniciar nova sessão embaralhada
-          </button>
-          <button
-            type="button"
-            className="ghost"
-            onClick={() => openMaterial(activeMaterial.slide_id)}
-          >
-            Configurar quantidade de questões
-          </button>
-          <button type="button" className="ghost" onClick={backToDisciplineMaterials}>
-            ← Voltar aos materiais de {activeMaterial.disciplineNome}
-          </button>
         </div>
       </section>
     )
   }
 
   // ============================================================================
-  // NÍVEL 3C: SESSÃO DE ESTUDO (QUESTÕES DO MATERIAL SELECIONADO)
+  // NÍVEL 3C: TELA DE ESTUDO (UMA QUESTÃO POR VEZ)
   // ============================================================================
   if (!session || !currentQuestion || !mappedCurrentQuestion) return null
 
-  const answeredCount = session.history.length
-  const correctCount = session.history.filter((h) => h.acertou).length
-  const wrongCount = answeredCount - correctCount
-  const totalInQueue = session.queue.length
-  const progressPct = totalInQueue ? Math.min(100, Math.round((answeredCount / totalInQueue) * 100)) : 0
+  const initialTotal = session.initialCount || session.queue.filter((item) => !item.isReforco).length
+  const initialAnsweredCount = session.queue.filter(
+    (item) => !item.isReforco && Boolean(session.responsesByUid?.[item.uid]),
+  ).length
+  const pendingReinforcementsCount = session.queue.filter(
+    (item) => item.isReforco && !session.responsesByUid?.[item.uid],
+  ).length
+
+  // Posição atual entre as questões iniciais
+  let currentInitialPosition = currentQueueItem.initialPosition
+  if (!currentInitialPosition && !currentQueueItem.isReforco) {
+    currentInitialPosition =
+      session.queue.slice(0, viewIndex + 1).filter((item) => !item.isReforco).length || 1
+  }
+
+  const initialProgressPct = initialTotal
+    ? Math.min(100, Math.round((initialAnsweredCount / initialTotal) * 100))
+    : 0
+
   const isAnswered = Boolean(confirmedOption)
   const gabaritoExibido = mappedCurrentQuestion.gabaritoExibido
   const isCorrect = confirmedOption === gabaritoExibido
   const isFirstQuestion = viewIndex === 0
   const canAdvance = isReviewingHistory || (isAnswered && !requiresReflectionBeforeAdvance)
 
+  // Alternativas principais (marcada e correta; se acertou, apenas uma vez) e demais alternativas
+  const primaryLetters = isAnswered
+    ? isCorrect
+      ? [gabaritoExibido]
+      : [confirmedOption, gabaritoExibido]
+    : []
+  const secondaryLetters = isAnswered
+    ? LETTER_KEYS.filter((l) => !primaryLetters.includes(l))
+    : []
+  const showOtherExplanations = expandedOtherExplanationsUid === currentQueueItem.uid
+
   return (
-    <section className="card main" style={{ padding: 24, marginBottom: 24 }} data-testid="study-session-view">
-      {/* Cabeçalho com Disciplina e Material visíveis e botões para voltar aos materiais e às disciplinas */}
+    <section className="drive-shell" data-testid="study-session-view">
+      {renderDriveToolbar()}
+
       <div
-        className="quiz-actions"
         style={{
-          borderBottom: '1px solid #214b56',
-          paddingBottom: 14,
-          marginBottom: 16,
-          flexWrap: 'wrap',
-          gap: 12,
+          background: '#081c22',
+          border: '1px solid #1d444f',
+          borderRadius: 14,
+          padding: 20,
         }}
       >
-        <div>
-          <div className="row" style={{ flexWrap: 'wrap', gap: 8, marginBottom: 4 }}>
-            <span className="tag ok" data-testid="session-discipline-name" style={{ fontSize: 11 }}>
-              Disciplina: {activeMaterial.disciplineNome}
-            </span>
-            <span className="pill" style={{ fontSize: 11 }}>
-              Material (<code>{activeMaterial.slide_id}</code>)
-            </span>
-          </div>
-          <h2
-            data-testid="session-material-name"
-            style={{ margin: '4px 0 0', fontSize: 'clamp(18px, 3vw, 24px)', color: '#fff' }}
-          >
-            {activeMaterial.nome}
-          </h2>
-        </div>
-
-        <div className="row" style={{ gap: 8, flexWrap: 'wrap' }}>
-          <button
-            type="button"
-            data-testid="btn-voltar-lista"
-            className="exit-btn"
-            onClick={backToDisciplineMaterials}
-          >
-            ← Materiais de {activeMaterial.disciplineNome}
-          </button>
-          <button
-            type="button"
-            data-testid="btn-voltar-disciplinas"
-            className="exit-btn"
-            onClick={backToDisciplines}
-          >
-            ← Disciplinas
-          </button>
-        </div>
-      </div>
-
-      {/* Estatísticas da sessão atual deste material */}
-      <div className="stats" style={{ marginBottom: 12 }}>
-        <div className="stat">
-          <b data-testid="stat-question-position">
-            {viewIndex + 1}/{totalInQueue}
-          </b>
-          <span>{isReviewingHistory ? 'revisando na fila' : 'posição na sessão'}</span>
-        </div>
-        <div className="stat">
-          <b data-testid="stat-answered">{answeredCount}</b>
-          <span>respondidas</span>
-        </div>
-        <div className="stat">
-          <b data-testid="stat-correct">{correctCount}</b>
-          <span>acertos</span>
-        </div>
-        <div className="stat">
-          <b data-testid="stat-wrong">{wrongCount}</b>
-          <span>erros</span>
-        </div>
-        <div className="stat">
-          <b data-testid="stat-reinforcements">{session.reinforcementsAdded || 0}</b>
-          <span>reforços na fila</span>
-        </div>
-      </div>
-
-      <div className="progress">
-        <div className="bar" style={{ width: `${progressPct}%` }} />
-      </div>
-
-      {isReviewingHistory ? (
+        {/* Cabeçalho enxuto da apostila em estudo + progresso separado de questões iniciais e reforços */}
         <div
-          data-testid="history-review-banner"
-          className="banner"
           style={{
-            marginBottom: 14,
             display: 'flex',
             justifyContent: 'space-between',
+            alignItems: 'flex-start',
+            flexWrap: 'wrap',
+            gap: 12,
+            marginBottom: 12,
+          }}
+        >
+          <div>
+            <div
+              className="muted"
+              data-testid="session-discipline-name"
+              style={{ fontSize: 12, marginBottom: 2 }}
+            >
+              {activeMaterial.disciplineNome}
+            </div>
+            <h2
+              data-testid="session-material-name"
+              style={{ margin: 0, fontSize: 'clamp(17px, 2.6vw, 21px)', color: '#fff' }}
+            >
+              {activeMaterial.nome}
+            </h2>
+          </div>
+
+          <div
+            style={{
+              display: 'flex',
+              alignItems: 'center',
+              gap: 8,
+              flexWrap: 'wrap',
+            }}
+          >
+            <span
+              className="pill"
+              data-testid="stat-initial-progress"
+              style={{ fontSize: 12, fontWeight: 700, color: '#edfafa' }}
+            >
+              Questões iniciais: <b>{initialAnsweredCount}/{initialTotal}</b>
+            </span>
+            <span
+              className="pill"
+              data-testid="stat-reinforcements"
+              style={{
+                fontSize: 12,
+                fontWeight: 700,
+                borderColor: pendingReinforcementsCount > 0 ? '#b5853b' : undefined,
+                color: pendingReinforcementsCount > 0 ? '#ffd166' : '#9fc8cc',
+              }}
+            >
+              Reforços pendentes: <b>{pendingReinforcementsCount}</b>
+            </span>
+          </div>
+        </div>
+
+        <div className="progress" style={{ margin: '10px 0 16px' }}>
+          <div className="bar" style={{ width: `${initialProgressPct}%` }} />
+        </div>
+
+        {isReviewingHistory ? (
+          <div
+            data-testid="history-review-banner"
+            className="banner"
+            style={{ marginBottom: 14 }}
+          >
+            Revisando questão já respondida (respostas bloqueadas para edição).
+          </div>
+        ) : null}
+
+        {/* Indicador claro da questão atual (diferenciando questão inicial de repetição de reforço) */}
+        <div className="row" style={{ justifyContent: 'flex-start', flexWrap: 'wrap', gap: 8, marginBottom: 10 }}>
+          {currentQueueItem.isReforco ? (
+            <span
+              className="tag warn"
+              data-testid="session-question-counter"
+              style={{ fontSize: 13, fontWeight: 800, padding: '5px 12px' }}
+            >
+              Reforço {currentQueueItem.reforcoNumero} de 3
+            </span>
+          ) : (
+            <span
+              className="pill"
+              data-testid="session-question-counter"
+              style={{ fontSize: 13, fontWeight: 800, color: '#fff', borderColor: '#38d1bd' }}
+            >
+              Questão {currentInitialPosition} de {initialTotal}
+            </span>
+          )}
+
+          {currentQueueItem.isReforco ? (
+            <span
+              className="muted"
+              data-testid="badge-reforco"
+              style={{ fontSize: 12 }}
+            >
+              Repetição para fixar o conteúdo (alternativas em nova ordem)
+            </span>
+          ) : null}
+        </div>
+
+        <div className="topic" data-testid="question-tema">
+          {currentQuestion.tema}
+        </div>
+        <div className="micro" data-testid="question-subtema" style={{ fontSize: 13, marginTop: 3 }}>
+          {currentQuestion.subtema}
+        </div>
+
+        <div
+          className="question"
+          data-testid="question-enunciado"
+          style={{ whiteSpace: 'pre-line', marginTop: 12, marginBottom: 18, fontSize: 19 }}
+        >
+          {currentQuestion.enunciado}
+        </div>
+
+        {/* Alternativas A, B, C e D */}
+        <div
+          className="answers"
+          data-order={currentQueueItem.optionOrder.join('')}
+          style={{ marginBottom: 16 }}
+        >
+          {LETTER_KEYS.map((letra) => {
+            const textoAlternativa = mappedCurrentQuestion.alternativasExibidas[letra]
+            const originalKey = mappedCurrentQuestion.originalKeyByDisplayedLetter[letra]
+            const isSelected = selectedOption === letra
+            let className = 'answer'
+            if (isAnswered) {
+              if (letra === gabaritoExibido) className += ' correct'
+              else if (letra === confirmedOption && letra !== gabaritoExibido) className += ' wrong'
+            }
+
+            return (
+              <button
+                key={letra}
+                type="button"
+                data-testid={`option-${letra}`}
+                data-original-key={originalKey}
+                data-selected={isSelected ? 'true' : 'false'}
+                className={className}
+                disabled={isAnswered || isReviewingHistory}
+                onClick={() => handleSelectOption(letra)}
+                style={{
+                  border: !isAnswered && isSelected ? '2px solid #38d1bd' : undefined,
+                  background: !isAnswered && isSelected ? '#164552' : undefined,
+                }}
+              >
+                <b>{letra})</b> <span data-testid={`option-text-${letra}`}>{textoAlternativa}</span>
+              </button>
+            )
+          })}
+        </div>
+
+        {/* Botão claro: "Confirmar resposta" */}
+        {!isAnswered && !isReviewingHistory ? (
+          <div className="actions" style={{ marginTop: 12 }}>
+            <button
+              type="button"
+              data-testid="btn-confirmar-resposta"
+              className="primary"
+              disabled={!selectedOption}
+              onClick={handleConfirmAnswer}
+              style={{
+                opacity: selectedOption ? 1 : 0.5,
+                cursor: selectedOption ? 'pointer' : 'not-allowed',
+                padding: '13px 24px',
+                fontSize: 16,
+              }}
+            >
+              Confirmar resposta
+            </button>
+          </div>
+        ) : null}
+
+        {/* Feedback após responder: primeiro alternativa marcada e correta (sem duplicar no acerto), demais recolhidas */}
+        {isAnswered ? (
+          <div data-testid="feedback-section" style={{ marginTop: 18 }}>
+            <div className={`feedback show ${isCorrect ? 'ok' : 'bad'}`} style={{ marginBottom: 14 }}>
+              <div style={{ fontSize: 16, marginBottom: 4 }}>
+                {isCorrect ? (
+                  <>
+                    ✅ <b>Resposta correta!</b> Alternativa{' '}
+                    <b data-testid="chosen-option-display">{confirmedOption}</b>.
+                  </>
+                ) : (
+                  <>
+                    ❌ <b>Resposta incorreta.</b> Você marcou a alternativa{' '}
+                    <b data-testid="chosen-option-display">{confirmedOption}</b> e a correta é a{' '}
+                    <b data-testid="gabarito-letter">{gabaritoExibido}</b>.
+                  </>
+                )}
+              </div>
+              {isCorrect ? (
+                <div data-testid="gabarito-display" style={{ fontSize: 14 }}>
+                  Gabarito: Alternativa <b data-testid="gabarito-letter">{gabaritoExibido}</b> —{' '}
+                  <span data-testid="gabarito-text">{mappedCurrentQuestion.textoGabarito}</span>
+                </div>
+              ) : (
+                <div data-testid="gabarito-display" style={{ fontSize: 14 }}>
+                  <b>Gabarito:</b> Alternativa <b>{gabaritoExibido}</b> —{' '}
+                  <span data-testid="gabarito-text">{mappedCurrentQuestion.textoGabarito}</span>
+                </div>
+              )}
+              {!isCorrect && !currentQueueItem.isReforco ? (
+                <div style={{ marginTop: 8, fontSize: 13, color: '#ffd166' }}>
+                  Foram adicionadas 3 repetições desta questão aos reforços pendentes.
+                </div>
+              ) : null}
+            </div>
+
+            {/* Explicações: primeiro a marcada e a correta (1 card se acertou, 2 cards se errou) */}
+            <div
+              data-testid="explicacoes-abcd"
+              style={{
+                background: '#081d23',
+                border: '1px solid #2b5964',
+                borderRadius: 14,
+                padding: 16,
+                marginBottom: 16,
+              }}
+            >
+              <div className="list" style={{ gap: 10 }}>
+                {primaryLetters.map((letra) => {
+                  const ehGabarito = letra === gabaritoExibido
+                  const foiEscolhida = letra === confirmedOption
+                  const textoAlt = mappedCurrentQuestion.alternativasExibidas[letra]
+                  const textoExp = mappedCurrentQuestion.explicacoesExibidas[letra]
+
+                  return (
+                    <div
+                      key={letra}
+                      data-testid={`explicacao-${letra}`}
+                      style={{
+                        padding: 12,
+                        borderRadius: 12,
+                        border: ehGabarito ? '1px solid #348c5b' : '1px solid #9a4545',
+                        background: ehGabarito ? '#102e26' : '#2b191c',
+                      }}
+                    >
+                      <div className="row" style={{ flexWrap: 'wrap', gap: 8, marginBottom: 6 }}>
+                        <b style={{ fontSize: 14, color: ehGabarito ? '#8af3b1' : '#ffaaaa' }}>
+                          {ehGabarito && foiEscolhida
+                            ? `Sua resposta (Correta) — Alternativa ${letra}`
+                            : ehGabarito
+                              ? `Alternativa correta — ${letra}`
+                              : `Alternativa marcada — ${letra}`}
+                          : <span data-testid={`explicacao-alt-text-${letra}`}>{textoAlt}</span>
+                        </b>
+                      </div>
+                      <div
+                        data-testid={`explicacao-body-${letra}`}
+                        style={{ fontSize: 14, lineHeight: 1.55, color: '#dffafa' }}
+                      >
+                        {textoExp}
+                      </div>
+                    </div>
+                  )
+                })}
+              </div>
+
+              {/* Demais alternativas recolhidas */}
+              {secondaryLetters.length > 0 ? (
+                <div style={{ marginTop: 12 }}>
+                  <button
+                    type="button"
+                    data-testid="btn-toggle-demais-explicacoes"
+                    className="ghost"
+                    onClick={() =>
+                      setExpandedOtherExplanationsUid((prev) =>
+                        prev === currentQueueItem.uid ? null : currentQueueItem.uid,
+                      )
+                    }
+                    style={{ fontSize: 13, padding: '8px 14px' }}
+                  >
+                    {showOtherExplanations
+                      ? 'Ocultar explicação das demais alternativas'
+                      : 'Ver explicação das demais alternativas'}
+                  </button>
+
+                  {showOtherExplanations ? (
+                    <div
+                      className="list"
+                      data-testid="demais-explicacoes-list"
+                      style={{ gap: 10, marginTop: 10 }}
+                    >
+                      {secondaryLetters.map((letra) => {
+                        const textoAlt = mappedCurrentQuestion.alternativasExibidas[letra]
+                        const textoExp = mappedCurrentQuestion.explicacoesExibidas[letra]
+                        return (
+                          <div
+                            key={letra}
+                            data-testid={`explicacao-${letra}`}
+                            style={{
+                              padding: 12,
+                              borderRadius: 12,
+                              border: '1px solid #1f4650',
+                              background: '#0b2229',
+                            }}
+                          >
+                            <div style={{ marginBottom: 6 }}>
+                              <b style={{ fontSize: 14, color: '#edfafa' }}>
+                                Alternativa {letra}:{' '}
+                                <span data-testid={`explicacao-alt-text-${letra}`}>{textoAlt}</span>
+                              </b>
+                            </div>
+                            <div
+                              data-testid={`explicacao-body-${letra}`}
+                              style={{ fontSize: 14, lineHeight: 1.55, color: '#dffafa' }}
+                            >
+                              {textoExp}
+                            </div>
+                          </div>
+                        )
+                      })}
+                    </div>
+                  ) : null}
+                </div>
+              ) : null}
+
+              {/* Referência à apostila acessível */}
+              {currentQuestion.referencia ? (
+                <div
+                  data-testid="question-referencia"
+                  style={{
+                    marginTop: 14,
+                    padding: 12,
+                    borderRadius: 12,
+                    background: '#07181e',
+                    border: '1px solid #1f4b57',
+                    fontSize: 13,
+                    color: '#d4f2f5',
+                    lineHeight: 1.55,
+                  }}
+                >
+                  <div>
+                    <b>Apostila:</b> <span data-testid="ref-apostila">{currentQuestion.slide_nome}</span>
+                    {Array.isArray(currentQuestion.referencia.paginas) &&
+                    currentQuestion.referencia.paginas.length > 0 ? (
+                      <>
+                        {' '}
+                        · <b>Página(s):</b>{' '}
+                        <span data-testid="ref-paginas">
+                          {currentQuestion.referencia.paginas.join(', ')}
+                        </span>
+                      </>
+                    ) : null}
+                  </div>
+                  {Array.isArray(currentQuestion.referencia.trechos_apoio) &&
+                  currentQuestion.referencia.trechos_apoio.length > 0 ? (
+                    <div style={{ marginTop: 6 }} data-testid="ref-trechos">
+                      <b>Trecho de apoio:</b>{' '}
+                      {currentQuestion.referencia.trechos_apoio.map((trecho, i) => (
+                        <span key={i}>
+                          &ldquo;{trecho}&rdquo;
+                          {i < currentQuestion.referencia.trechos_apoio.length - 1 ? ' | ' : ''}
+                        </span>
+                      ))}
+                    </div>
+                  ) : null}
+                </div>
+              ) : null}
+            </div>
+
+            {/* Revisão escrita obrigatória após erro em questão inicial */}
+            {!isCorrect && !currentQueueItem.isReforco ? (
+              <div
+                data-testid="reflection-box"
+                style={{
+                  border: '1px solid #b5853b',
+                  background: '#241d11',
+                  borderRadius: 14,
+                  padding: 18,
+                  marginBottom: 16,
+                }}
+              >
+                <p
+                  data-testid="reflection-instruction"
+                  style={{
+                    margin: '0 0 12px',
+                    fontSize: 14,
+                    lineHeight: 1.55,
+                    color: '#ffd166',
+                    fontWeight: 700,
+                  }}
+                >
+                  Consulte a página indicada na sua apostila. Depois, explique com suas palavras, em uma ou duas frases,
+                  o que você confundiu e qual é a informação correta.
+                </p>
+
+                {!viewedSavedResponse?.reflexaoSalva && !isReviewingHistory ? (
+                  <div>
+                    <label
+                      htmlFor="campo-reflexao-erro"
+                      style={{
+                        display: 'block',
+                        fontSize: 14,
+                        fontWeight: 800,
+                        color: '#fff',
+                        marginBottom: 8,
+                      }}
+                    >
+                      O que entendi sobre meu erro
+                    </label>
+                    <textarea
+                      id="campo-reflexao-erro"
+                      data-testid="input-reflexao"
+                      className="correction-input"
+                      placeholder="Escreva com suas palavras o que você confundiu e qual é a informação correta..."
+                      value={reflectionDraftText}
+                      onChange={(e) => handleReflectionDraftChange(e.target.value)}
+                      style={{
+                        width: '100%',
+                        minHeight: 88,
+                        marginBottom: 12,
+                        background: '#081d23',
+                        color: '#edfafa',
+                        border: '1px solid #598592',
+                      }}
+                    />
+                    <div className="actions" style={{ alignItems: 'center', gap: 12 }}>
+                      <button
+                        type="button"
+                        data-testid="btn-salvar-reflexao"
+                        className="primary"
+                        disabled={!reflectionDraftText.trim()}
+                        onClick={handleSaveReflectionAndContinue}
+                        style={{
+                          padding: '12px 22px',
+                          fontSize: 15,
+                          opacity: reflectionDraftText.trim() ? 1 : 0.45,
+                          cursor: reflectionDraftText.trim() ? 'pointer' : 'not-allowed',
+                        }}
+                      >
+                        Salvar e continuar
+                      </button>
+                    </div>
+                  </div>
+                ) : (
+                  <div
+                    data-testid="saved-reflection-display"
+                    style={{
+                      background: '#0b2229',
+                      border: '1px solid #356674',
+                      borderRadius: 12,
+                      padding: 14,
+                    }}
+                  >
+                    <div style={{ fontSize: 13, fontWeight: 800, color: '#8be9dc', marginBottom: 6 }}>
+                      O que entendi sobre meu erro
+                    </div>
+                    <div
+                      data-testid="saved-reflection-text"
+                      style={{ fontSize: 14, lineHeight: 1.55, color: '#edfafa', whiteSpace: 'pre-line' }}
+                    >
+                      {viewedSavedResponse?.reflexaoSalva}
+                    </div>
+                  </div>
+                )}
+              </div>
+            ) : null}
+          </div>
+        ) : null}
+
+        {/* Barra de navegação: "Questão anterior" e "Próxima questão" */}
+        <div
+          className="actions"
+          data-testid="session-nav-actions"
+          style={{
+            display: 'flex',
             alignItems: 'center',
-            gap: 10,
+            gap: 12,
+            marginTop: 18,
+            paddingTop: 14,
+            borderTop: '1px solid #1b404a',
             flexWrap: 'wrap',
           }}
         >
-          <span>
-            🕘 <b>Modo de revisão do histórico:</b> Você está revisando a{' '}
-            <b>
-              Questão {viewIndex + 1} de {totalInQueue}
-            </b>{' '}
-            (já respondida e bloqueada para edição). Sua posição ativa na sessão está na{' '}
-            <b>
-              Questão {session.currentIndex + 1} de {totalInQueue}
-            </b>
-            .
-          </span>
-        </div>
-      ) : null}
-
-      {/* Numeração acompanhando a posição na sessão + identificador original preservado */}
-      <div className="row" style={{ flexWrap: 'wrap', gap: 8, marginBottom: 8 }}>
-        <span
-          className="pill"
-          data-testid="session-question-counter"
-          style={{ fontSize: 13, fontWeight: 800, color: '#fff', borderColor: '#38d1bd' }}
-        >
-          Questão {viewIndex + 1} de {totalInQueue}
-        </span>
-        <span className="pill" data-testid="question-original-id" style={{ fontSize: 12 }}>
-          ID: <code>{currentQuestion.id}</code>
-        </span>
-        {currentQueueItem.isReforco ? (
-          <span
-            className="tag warn"
-            data-testid="badge-reforco"
-            style={{ fontSize: 12, padding: '4px 10px' }}
-          >
-            🔁 Repetição de reforço {currentQueueItem.reforcoNumero ? `${currentQueueItem.reforcoNumero} de 3` : ''}{' '}
-            (alternativas reembaralhadas)
-          </span>
-        ) : (
-          <span className="tag ok" style={{ fontSize: 12, padding: '4px 10px' }}>
-            Questão inicial
-          </span>
-        )}
-        {isAnswered ? (
-          <span className="pill" style={{ fontSize: 11, borderColor: '#348c5b', color: '#8af3b1' }}>
-            🔒 Resposta confirmada
-          </span>
-        ) : null}
-      </div>
-
-      <div className="topic" data-testid="question-tema">
-        Tema: {currentQuestion.tema}
-      </div>
-      <div className="micro" data-testid="question-subtema" style={{ fontSize: 13, marginTop: 4 }}>
-        Subtema: <b>{currentQuestion.subtema}</b>
-      </div>
-
-      <div
-        className="question"
-        data-testid="question-enunciado"
-        style={{ whiteSpace: 'pre-line', marginTop: 12, marginBottom: 18 }}
-      >
-        {currentQuestion.enunciado}
-      </div>
-
-      {/* Alternativas embaralhadas A, B, C e D */}
-      <div className="answers" data-order={currentQueueItem.optionOrder.join('')} style={{ marginBottom: 16 }}>
-        {LETTER_KEYS.map((letra) => {
-          const textoAlternativa = mappedCurrentQuestion.alternativasExibidas[letra]
-          const originalKey = mappedCurrentQuestion.originalKeyByDisplayedLetter[letra]
-          const isSelected = selectedOption === letra
-          let className = 'answer'
-          if (isAnswered) {
-            if (letra === gabaritoExibido) className += ' correct'
-            else if (letra === confirmedOption && letra !== gabaritoExibido) className += ' wrong'
-          }
-
-          return (
-            <button
-              key={letra}
-              type="button"
-              data-testid={`option-${letra}`}
-              data-original-key={originalKey}
-              data-selected={isSelected ? 'true' : 'false'}
-              className={className}
-              disabled={isAnswered || isReviewingHistory}
-              onClick={() => handleSelectOption(letra)}
-              style={{
-                border: !isAnswered && isSelected ? '2px solid #38d1bd' : undefined,
-                background: !isAnswered && isSelected ? '#164552' : undefined,
-              }}
-            >
-              <b>{letra})</b> <span data-testid={`option-text-${letra}`}>{textoAlternativa}</span>
-            </button>
-          )
-        })}
-      </div>
-
-      {/* Botão para confirmar a resposta */}
-      {!isAnswered && !isReviewingHistory ? (
-        <div className="actions" style={{ marginTop: 12 }}>
           <button
             type="button"
-            data-testid="btn-confirmar-resposta"
-            className="primary"
-            disabled={!selectedOption}
-            onClick={handleConfirmAnswer}
+            data-testid="btn-questao-anterior"
+            className={`explain-btn ${isFirstQuestion ? 'locked' : ''}`}
+            disabled={isFirstQuestion}
+            onClick={handlePrevQuestion}
             style={{
-              opacity: selectedOption ? 1 : 0.5,
-              cursor: selectedOption ? 'pointer' : 'not-allowed',
+              padding: '13px 20px',
+              fontSize: 15,
+              opacity: isFirstQuestion ? 0.45 : 1,
+              cursor: isFirstQuestion ? 'not-allowed' : 'pointer',
+            }}
+          >
+            Questão anterior
+          </button>
+
+          <button
+            type="button"
+            data-testid="btn-proxima-questao"
+            className={`next ${!canAdvance ? 'locked' : ''}`}
+            disabled={!canAdvance}
+            onClick={handleNextQuestion}
+            style={{
+              marginTop: 0,
               padding: '13px 24px',
               fontSize: 16,
             }}
           >
-            {selectedOption
-              ? `Confirmar resposta (Alternativa ${selectedOption})`
-              : 'Selecione uma alternativa (A, B, C ou D) para confirmar'}
+            Próxima questão
           </button>
         </div>
-      ) : null}
-
-      {/* Após confirmar a resposta: gabarito, explicações A-D, referência e (se erro inicial) revisão escrita */}
-      {isAnswered ? (
-        <div data-testid="feedback-section" style={{ marginTop: 18 }}>
-          <div className={`feedback show ${isCorrect ? 'ok' : 'bad'}`} style={{ marginBottom: 16 }}>
-            <div style={{ fontSize: 16, marginBottom: 6 }}>
-              {isCorrect ? (
-                <>
-                  ✅ <b>Resposta correta!</b> Você respondeu a alternativa{' '}
-                  <b data-testid="chosen-option-display">{confirmedOption}</b>.
-                </>
-              ) : (
-                <>
-                  ❌ <b>Resposta incorreta.</b> Você marcou a alternativa{' '}
-                  <b data-testid="chosen-option-display">{confirmedOption}</b>.
-                </>
-              )}
-            </div>
-            <div data-testid="gabarito-display" style={{ fontSize: 15 }}>
-              <b>Gabarito oficial:</b> Alternativa <b data-testid="gabarito-letter">{gabaritoExibido}</b> —{' '}
-              <span data-testid="gabarito-text">{mappedCurrentQuestion.textoGabarito}</span>
-            </div>
-            {!isCorrect && !currentQueueItem.isReforco ? (
-              <div style={{ marginTop: 8, fontSize: 13, color: '#ffd166' }}>
-                <b>Reforço automático:</b> +3 repetições desta questão com alternativas em novas ordens foram
-                acrescentadas à fila e serão apresentadas após salvar sua reflexão abaixo.
-              </div>
-            ) : null}
-          </div>
-
-          {/* Explicações individuais de A, B, C e D correspondentes à ordem exibida nesta tentativa */}
-          <div
-            data-testid="explicacoes-abcd"
-            style={{
-              background: '#081d23',
-              border: '1px solid #2b5964',
-              borderRadius: 16,
-              padding: 16,
-              marginBottom: 16,
-            }}
-          >
-            <h3 style={{ marginTop: 0, marginBottom: 12, fontSize: 16, color: '#38d1bd' }}>
-              Explicações individuais das alternativas (A, B, C e D)
-            </h3>
-            <div className="list" style={{ gap: 10 }}>
-              {LETTER_KEYS.map((letra) => {
-                const ehGabarito = letra === gabaritoExibido
-                const foiEscolhida = letra === confirmedOption
-                const textoAlt = mappedCurrentQuestion.alternativasExibidas[letra]
-                const textoExp = mappedCurrentQuestion.explicacoesExibidas[letra]
-                return (
-                  <div
-                    key={letra}
-                    data-testid={`explicacao-${letra}`}
-                    style={{
-                      padding: 12,
-                      borderRadius: 12,
-                      border: ehGabarito
-                        ? '1px solid #348c5b'
-                        : foiEscolhida
-                          ? '1px solid #9a4545'
-                          : '1px solid #1f4650',
-                      background: ehGabarito
-                        ? '#102e26'
-                        : foiEscolhida
-                          ? '#2b191c'
-                          : '#0b2229',
-                    }}
-                  >
-                    <div className="row" style={{ flexWrap: 'wrap', gap: 8, marginBottom: 6 }}>
-                      <b style={{ fontSize: 14, color: ehGabarito ? '#8af3b1' : '#edfafa' }}>
-                        Alternativa {letra}: <span data-testid={`explicacao-alt-text-${letra}`}>{textoAlt}</span>
-                      </b>
-                      <div>
-                        {ehGabarito ? <span className="tag ok">Gabarito ({letra})</span> : null}
-                        {foiEscolhida ? (
-                          <span className={`tag ${ehGabarito ? 'ok' : 'bad'}`}>Sua escolha</span>
-                        ) : null}
-                      </div>
-                    </div>
-                    <div
-                      data-testid={`explicacao-body-${letra}`}
-                      style={{ fontSize: 14, lineHeight: 1.55, color: '#dffafa' }}
-                    >
-                      {textoExp}
-                    </div>
-                  </div>
-                )
-              })}
-            </div>
-
-            {/* Referência com nome da apostila, página e trechos de apoio */}
-            {currentQuestion.referencia ? (
-              <div
-                data-testid="question-referencia"
-                style={{
-                  marginTop: 14,
-                  padding: 12,
-                  borderRadius: 12,
-                  background: '#07181e',
-                  border: '1px solid #1f4b57',
-                  fontSize: 13,
-                  color: '#d4f2f5',
-                  lineHeight: 1.55,
-                }}
-              >
-                <div>
-                  <b>Disciplina:</b> {activeMaterial.disciplineNome} · <b>Apostila / Material:</b>{' '}
-                  <span data-testid="ref-apostila">{currentQuestion.slide_nome}</span>
-                </div>
-                <div style={{ marginTop: 4 }}>
-                  <b>Página(s) / Fonte indicada(s):</b>{' '}
-                  <span data-testid="ref-paginas">
-                    {Array.isArray(currentQuestion.referencia.paginas)
-                      ? currentQuestion.referencia.paginas.join(', ')
-                      : ''}{' '}
-                    ({currentQuestion.referencia.fundamentacao})
-                  </span>
-                </div>
-                {Array.isArray(currentQuestion.referencia.trechos_apoio) &&
-                currentQuestion.referencia.trechos_apoio.length > 0 ? (
-                  <div style={{ marginTop: 6 }} data-testid="ref-trechos">
-                    <b>Trecho(s) de apoio:</b>{' '}
-                    {currentQuestion.referencia.trechos_apoio.map((trecho, i) => (
-                      <span key={i}>
-                        &ldquo;{trecho}&rdquo;
-                        {i < currentQuestion.referencia.trechos_apoio.length - 1 ? ' | ' : ''}
-                      </span>
-                    ))}
-                  </div>
-                ) : null}
-                {currentQuestion.referencia.complemento ? (
-                  <div style={{ marginTop: 4 }}>
-                    <b>Complemento:</b> {currentQuestion.referencia.complemento}
-                  </div>
-                ) : null}
-              </div>
-            ) : null}
-          </div>
-
-          {/* Revisão escrita após erro em questão inicial */}
-          {!isCorrect && !currentQueueItem.isReforco ? (
-            <div
-              data-testid="reflection-box"
-              style={{
-                border: '1px solid #b5853b',
-                background: '#241d11',
-                borderRadius: 14,
-                padding: 18,
-                marginBottom: 16,
-              }}
-            >
-              <p
-                data-testid="reflection-instruction"
-                style={{
-                  margin: '0 0 12px',
-                  fontSize: 14,
-                  lineHeight: 1.55,
-                  color: '#ffd166',
-                  fontWeight: 700,
-                }}
-              >
-                Consulte a página indicada na sua apostila. Depois, explique com suas palavras, em uma ou duas frases, o
-                que você confundiu e qual é a informação correta.
-              </p>
-
-              {!viewedSavedResponse?.reflexaoSalva && !isReviewingHistory ? (
-                <div>
-                  <label
-                    htmlFor="campo-reflexao-erro"
-                    style={{
-                      display: 'block',
-                      fontSize: 14,
-                      fontWeight: 800,
-                      color: '#fff',
-                      marginBottom: 8,
-                    }}
-                  >
-                    O que entendi sobre meu erro
-                  </label>
-                  <textarea
-                    id="campo-reflexao-erro"
-                    data-testid="input-reflexao"
-                    className="correction-input"
-                    placeholder="Escreva com suas palavras o que você confundiu e qual é a informação correta..."
-                    value={reflectionDraftText}
-                    onChange={(e) => handleReflectionDraftChange(e.target.value)}
-                    style={{
-                      width: '100%',
-                      minHeight: 88,
-                      marginBottom: 12,
-                      background: '#081d23',
-                      color: '#edfafa',
-                      border: '1px solid #598592',
-                    }}
-                  />
-                  <div className="actions" style={{ alignItems: 'center', gap: 12 }}>
-                    <button
-                      type="button"
-                      data-testid="btn-salvar-reflexao"
-                      className="primary"
-                      disabled={!reflectionDraftText.trim()}
-                      onClick={handleSaveReflectionAndContinue}
-                      style={{
-                        padding: '12px 22px',
-                        fontSize: 15,
-                        opacity: reflectionDraftText.trim() ? 1 : 0.45,
-                        cursor: reflectionDraftText.trim() ? 'pointer' : 'not-allowed',
-                      }}
-                    >
-                      Salvar e continuar
-                    </button>
-                  </div>
-                </div>
-              ) : (
-                <div
-                  data-testid="saved-reflection-display"
-                  style={{
-                    background: '#0b2229',
-                    border: '1px solid #356674',
-                    borderRadius: 12,
-                    padding: 14,
-                  }}
-                >
-                  <div style={{ fontSize: 13, fontWeight: 800, color: '#8be9dc', marginBottom: 6 }}>
-                    O que entendi sobre meu erro
-                  </div>
-                  <div
-                    data-testid="saved-reflection-text"
-                    style={{ fontSize: 14, lineHeight: 1.55, color: '#edfafa', whiteSpace: 'pre-line' }}
-                  >
-                    {viewedSavedResponse?.reflexaoSalva}
-                  </div>
-                </div>
-              )}
-            </div>
-          ) : null}
-        </div>
-      ) : null}
-
-      {/* Barra de navegação da sessão: botão “Questão anterior” ao lado do botão de avançar */}
-      <div
-        className="actions"
-        data-testid="session-nav-actions"
-        style={{
-          display: 'flex',
-          alignItems: 'center',
-          gap: 12,
-          marginTop: 18,
-          paddingTop: 14,
-          borderTop: '1px solid #1b404a',
-          flexWrap: 'wrap',
-        }}
-      >
-        <button
-          type="button"
-          data-testid="btn-questao-anterior"
-          className={`explain-btn ${isFirstQuestion ? 'locked' : ''}`}
-          disabled={isFirstQuestion}
-          onClick={handlePrevQuestion}
-          style={{
-            padding: '13px 20px',
-            fontSize: 15,
-            opacity: isFirstQuestion ? 0.45 : 1,
-            cursor: isFirstQuestion ? 'not-allowed' : 'pointer',
-          }}
-        >
-          ← Questão anterior
-        </button>
-
-        <button
-          type="button"
-          data-testid="btn-proxima-questao"
-          className={`next ${!canAdvance ? 'locked' : ''}`}
-          disabled={!canAdvance}
-          onClick={handleNextQuestion}
-          style={{
-            marginTop: 0,
-            padding: '13px 24px',
-            fontSize: 16,
-          }}
-        >
-          {isReviewingHistory
-            ? 'Próxima questão →'
-            : session.currentIndex + 1 >= session.queue.length && canAdvance
-              ? 'Concluir e ver resumo da sessão →'
-              : 'Próxima questão →'}
-        </button>
       </div>
     </section>
   )

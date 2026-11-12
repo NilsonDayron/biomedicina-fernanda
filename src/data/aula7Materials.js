@@ -1,66 +1,104 @@
 import rawDeterioracao from '../../aula_7_deterioracao.json' with { type: 'json' }
 import rawConservacao from '../../aula_7_conservacao.json' with { type: 'json' }
+import rawOrigemVidaAula01 from '../../origem_vida_aula_01.json' with { type: 'json' }
 import { QUESTIONS } from './questions'
 import { TOPICS } from './topics'
 
 export const LETTER_KEYS = ['A', 'B', 'C', 'D']
 
+export const COURSE_INFO = {
+  id: 'biomedicina',
+  nome: 'Biomedicina',
+  periodoId: '2-periodo',
+  periodoNome: '2º período',
+}
+
 export const DISCIPLINE_DEFINITIONS = [
   {
     id: 'bioquimica',
-    nome: 'Bioquímica',
-    codigoCurricular: 'N038 · Fundamentos de Bioquímica',
-    icone: '🧬',
-    corDestaque: '#38d1bd',
-    resumoCabecalho:
-      'Fundamentos · Carboidratos · Digestão · Glicemia · Bioenergética · Respiração · Glicólise · Piruvato · Krebs · Cadeia respiratória',
+    nome: 'Fundamentos de Bioquímica',
+    shortNome: 'Bioquímica',
+    codigoCurricular: 'N038',
+    icone: '📁',
+    resumoCabecalho: '2º período · Fundamentos de Bioquímica',
     descricao:
-      'Apostilas de Fundamentos de Bioquímica, Estrutura e Digestão de Carboidratos, Regulação da Glicemia, ATP/NAD/FAD, Glicólise, Ciclo de Krebs e Cadeia Respiratória.',
-  },
-  {
-    id: 'bromatologia',
-    nome: 'Bromatologia',
-    codigoCurricular: 'N138 · Bromatologia e Tecnologia de Alimentos',
-    icone: '🥗',
-    corDestaque: '#ffd166',
-    resumoCabecalho:
-      'Aula 7 - Deterioração dos alimentos · Apostila Aula 7 - Princípios de conservação de alimentos',
-    descricao:
-      'Materiais independentes de Bromatologia e Tecnologia de Alimentos, preservando a separação entre apostilas de mesmo número de aula.',
+      'Fundamentos de Bioquímica, Estrutura e Digestão de Carboidratos, Regulação da Glicemia, ATP/NAD/FAD, Glicólise, Ciclo de Krebs e Cadeia Respiratória.',
   },
   {
     id: 'biofisica',
     nome: 'Biofísica',
-    codigoCurricular: 'N064 · Biofísica',
-    icone: '⚡',
-    corDestaque: '#7cc6fe',
-    resumoCabecalho:
-      'Leis da Termodinâmica · Energia Livre de Gibbs (ΔG) · Bomba Na⁺/K⁺ · Equilíbrio de Nernst · Hipercalemia · EROs e UCPs',
+    shortNome: 'Biofísica',
+    codigoCurricular: 'N064',
+    icone: '📁',
+    resumoCabecalho: '2º período · Biofísica',
     descricao:
-      'A Biofísica da Vida: Termodinâmica biológica, acoplamento energético, bioeletrogênese de membrana, Equilíbrio de Nernst, efeito físico da hipercalemia e defesa biofísica (UCPs).',
+      'Termodinâmica biológica, Energia Livre de Gibbs (ΔG), acoplamento energético, Bomba Na⁺/K⁺, Equilíbrio de Nernst, hipercalemia, EROs e UCPs.',
+  },
+  {
+    id: 'bromatologia',
+    nome: 'Bromatologia e Tecnologia de Alimentos',
+    shortNome: 'Bromatologia',
+    codigoCurricular: 'N138',
+    icone: '📁',
+    resumoCabecalho: '2º período · Bromatologia e Tecnologia de Alimentos',
+    descricao:
+      'Deterioração dos alimentos e Princípios de conservação de alimentos.',
+  },
+  {
+    id: 'origem-vida',
+    nome: 'Origem da Vida e Evolução Humana',
+    shortNome: 'Origem da Vida',
+    codigoCurricular: 'N109',
+    icone: '📁',
+    resumoCabecalho: '2º período · Origem da Vida e Evolução Humana',
+    descricao:
+      'Cosmologia, formação da Terra primitiva, evolução química prebiótica, biogênese vs. geração espontânea, Mundo de RNA, fontes hidrotermais e conexões biomédicas.',
+  },
+  {
+    id: 'linguagens-pesquisa',
+    nome: 'Linguagens e Pesquisa',
+    shortNome: 'Linguagens e Pesquisa',
+    codigoCurricular: 'N001',
+    icone: '📁',
+    resumoCabecalho: '2º período · Linguagens e Pesquisa',
+    descricao:
+      'Metodologia científica, leitura e produção textual acadêmica em Biomedicina.',
   },
 ]
 
-const BROMATOLOGIA_MATERIAL_DEFINITIONS = [
+const JSON_MATERIAL_DEFINITIONS = [
   {
     file: 'aula_7_deterioracao.json',
+    arquivoOrigem: 'Aula 7 - Deterioração dos alimentos.pdf',
     slide_id: 'aula_7_deterioracao',
     nome: 'Aula 7 - Deterioração dos alimentos',
     disciplineId: 'bromatologia',
-    disciplineNome: 'Bromatologia',
+    disciplineNome: 'Bromatologia e Tecnologia de Alimentos',
     blurb: 'Fatores intrínsecos e extrínsecos, atividade de água (Aa), pH, oxidação lipídica, escurecimento e deterioração microbiana.',
     rawData: rawDeterioracao,
     esperado: 10,
   },
   {
     file: 'aula_7_conservacao.json',
+    arquivoOrigem: 'Apostila Aula 7 - Princípios de conservação de alimentos.pdf',
     slide_id: 'aula_7_conservacao',
     nome: 'Apostila Aula 7 - Princípios de conservação de alimentos',
     disciplineId: 'bromatologia',
-    disciplineNome: 'Bromatologia',
-    blurb: 'Métodos de conservação pelo calor (pasteurização, esterilização, branqueamento), frio (refrigeração, congelamento), controle de umidade, aditivos e barreiras.',
+    disciplineNome: 'Bromatologia e Tecnologia de Alimentos',
+    blurb: 'Métodos de conservação pelo calor, frio, controle de umidade, aditivos e barreiras.',
     rawData: rawConservacao,
     esperado: 10,
+  },
+  {
+    file: 'origem_vida_aula_01.json',
+    arquivoOrigem: 'Aula 01 - Introdução a Origem da Vida_261003_213324 (1).pdf',
+    slide_id: 'origem_vida_aula_01',
+    nome: 'Aula 01 - Introdução à Origem da Vida',
+    disciplineId: 'origem-vida',
+    disciplineNome: 'Origem da Vida e Evolução Humana',
+    blurb: 'Big Bang, formação da Terra e da hidrosfera, evolução química vs. evolução biológica, biogênese (Redi, Spallanzani, Pasteur), Mundo de RNA e fontes hidrotermais.',
+    rawData: rawOrigemVidaAula01,
+    esperado: 25,
   },
 ]
 
@@ -89,21 +127,29 @@ export function isValidMaterialQuestion(questao, expectedSlideId) {
   return true
 }
 
-function importBromatologiaMaterial(definition) {
+function importJsonMaterial(definition) {
   const rawList = Array.isArray(definition.rawData?.questoes) ? definition.rawData.questoes : []
-  const questoesValidas = rawList
-    .filter((questao) => isValidMaterialQuestion(questao, definition.slide_id))
-    .map((questao) => ({
+  const seenIds = new Set()
+  const seenNumbers = new Set()
+  const questoesValidas = []
+
+  for (const questao of rawList) {
+    if (!isValidMaterialQuestion(questao, definition.slide_id)) continue
+    if (seenIds.has(questao.id) || seenNumbers.has(questao.numero)) continue
+    seenIds.add(questao.id)
+    seenNumbers.add(questao.numero)
+    questoesValidas.push({
       ...questao,
       disciplineId: definition.disciplineId,
       disciplineNome: definition.disciplineNome,
       hasIndividualOptionExplanations: true,
-    }))
+    })
+  }
 
-  const esperado = definition.esperado || 10
-  const confirmado10 = rawList.length === esperado && questoesValidas.length === esperado
+  const esperado = definition.esperado || questoesValidas.length
+  const confirmado = rawList.length === esperado && questoesValidas.length === esperado
 
-  if (!confirmado10) {
+  if (!confirmado) {
     console.error(
       `[Importação de Material] O arquivo ${definition.file} (${definition.slide_id}) deveria conter ${esperado} questões válidas, mas foram encontradas ${questoesValidas.length} (bruto: ${rawList.length}).`,
     )
@@ -111,7 +157,7 @@ function importBromatologiaMaterial(definition) {
 
   return {
     file: definition.file,
-    source: definition.file,
+    source: definition.arquivoOrigem || definition.file,
     slide_id: definition.slide_id,
     nome: definition.nome,
     blurb: definition.blurb,
@@ -120,7 +166,7 @@ function importBromatologiaMaterial(definition) {
     totalBruto: rawList.length,
     totalValidas: questoesValidas.length,
     esperado,
-    confirmado10,
+    confirmado10: confirmado,
     questoes: questoesValidas,
   }
 }
@@ -161,7 +207,7 @@ function convertTopicToMaterial(topic) {
       explicacaoTecnica: rawQ.e,
       explicacaoMastigada: rawQ.s,
       visualKey: rawQ.v,
-      hasIndividualOptionExplanations: true,
+      hasIndividualOptionExplanations: false,
       referencia: {
         paginas: [topic.source],
         fundamentacao: rawQ.e,
@@ -189,12 +235,17 @@ function convertTopicToMaterial(topic) {
   }
 }
 
-export const BROMATOLOGIA_MATERIALS = BROMATOLOGIA_MATERIAL_DEFINITIONS.map(importBromatologiaMaterial)
+export const JSON_IMPORTED_MATERIALS = JSON_MATERIAL_DEFINITIONS.map(importJsonMaterial)
+export const BROMATOLOGIA_MATERIALS = JSON_IMPORTED_MATERIALS.filter(
+  (m) => m.disciplineId === 'bromatologia',
+)
+export const ORIGEM_VIDA_MATERIALS = JSON_IMPORTED_MATERIALS.filter(
+  (m) => m.disciplineId === 'origem-vida',
+)
 export const TOPIC_MATERIALS = TOPICS.map(convertTopicToMaterial)
 
-// Mantém INDEPENDENT_MATERIALS com os 2 materiais da Aula 7 (e exporta ALL_MATERIALS com todos os materiais das 3 disciplinas)
-export const INDEPENDENT_MATERIALS = BROMATOLOGIA_MATERIALS
-export const ALL_MATERIALS = [...BROMATOLOGIA_MATERIALS, ...TOPIC_MATERIALS]
+export const INDEPENDENT_MATERIALS = JSON_IMPORTED_MATERIALS
+export const ALL_MATERIALS = [...JSON_IMPORTED_MATERIALS, ...TOPIC_MATERIALS]
 
 export const MATERIALS_BY_SLIDE_ID = Object.fromEntries(
   ALL_MATERIALS.map((material) => [material.slide_id, material]),
@@ -286,9 +337,6 @@ export function generateThreeReinforcementOptionOrders(initialOptionOrder = LETT
       ? initialOptionOrder
       : LETTER_KEYS
 
-  // Derangements / Latin-square rows relative to `base`:
-  // Each row places every original alternative (including the gabarito) in a distinct position
-  // from `base` and from the other two rows.
   const shift1 = [base[1], base[2], base[3], base[0]]
   const shift2 = [base[2], base[3], base[0], base[1]]
   const shift3 = [base[3], base[0], base[1], base[2]]

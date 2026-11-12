@@ -1,0 +1,760 @@
+{
+  "questoes": [
+    {
+      "id": "origem_vida_aula_01_q001",
+      "slide_id": "origem_vida_aula_01",
+      "slide_nome": "Aula 01 - Introdução à Origem da Vida",
+      "arquivo_origem": "Aula 01 - Introdução a Origem da Vida_261003_213324 (1).pdf",
+      "numero": 1,
+      "tema": "Cosmologia e Origem dos Elementos",
+      "subtema": "Teoria do Big Bang e Singularidade",
+      "enunciado": "De acordo com a Teoria do Big Bang descrita na apostila, a fase inicial do Universo é denominada singularidade. Qual característica define corretamente esse estágio primordial?",
+      "alternativas": {
+        "A": "Formação imediata de átomos neutros de hidrogênio e hélio acompanhada da primeira luz.",
+        "B": "Concentração de toda a energia em um único ponto extremamente denso, onde as quatro forças fundamentais estavam juntas.",
+        "C": "Condensação direta de nuvens de gás e poeira que formaram as primeiras estrelas e galáxias.",
+        "D": "Expansão que tornou o Universo instantaneamente frio, possibilitando a síntese de moléculas orgânicas."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a formação dos primeiros átomos neutros e a liberação de fótons (luz) ocorreram na fase de recombinação, cerca de 380 mil anos após o início, e não na singularidade.",
+        "B": "Correta: na singularidade, toda a energia se concentrava em um único ponto extremamente denso e energético, momento no qual as quatro forças fundamentais (gravitacional, elétrica, forte e fraca) estavam unidas e as leis da física atual ainda não estavam formadas.",
+        "C": "Incorreta: a condensação de gás e poeira em estrelas e galáxias corresponde à etapa de formação de estrutura (após 200 a 400 milhões de anos), muito posterior à fase inicial.",
+        "D": "Incorreta: o Universo inicial era extremamente quente e denso; o resfriamento foi gradual com a expansão cósmica, e a síntese de matéria orgânica só se tornou plausível bilhões de anos depois, com a formação da Terra."
+      },
+      "referencia": {
+        "paginas": [9],
+        "fundamentacao": "Página 9.",
+        "trechos_apoio": [
+          "1 - Singularidade: A fase inicial do universo em que toda energia se concentrava em um único ponto, extremamente denso e energético. Neste estado, as próprias leis de física, como conhecemos hoje, ainda não estavam formadas. Cientistas também defendem que neste estágio, as quatro forças fundamentais: gravitacional, elétrica, forte e fraca estavam juntas."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_01_q002",
+      "slide_id": "origem_vida_aula_01",
+      "slide_nome": "Aula 01 - Introdução à Origem da Vida",
+      "arquivo_origem": "Aula 01 - Introdução a Origem da Vida_261003_213324 (1).pdf",
+      "numero": 2,
+      "tema": "Cosmologia e Evolução do Universo",
+      "subtema": "Recombinação e Formação de Estruturas",
+      "enunciado": "O evento cósmico da recombinação, ocorrido aproximadamente 380 mil anos após o início do Universo, representou um marco fundamental na evolução física do cosmos porque proporcionou:",
+      "alternativas": {
+        "A": "O colapso gravitacional que deu origem imediata ao Sistema Solar e aos planetas rochosos.",
+        "B": "A violenta expansão acelerada que dispersou energia em frações minúsculas de segundo.",
+        "C": "O resfriamento necessário para a formação dos primeiros átomos neutros e a liberação de grande quantidade de fótons.",
+        "D": "A síntese dos elementos químicos pesados como carbono e fósforo no interior das primeiras células."
+      },
+      "gabarito": "C",
+      "explicacoes": {
+        "A": "Incorreta: o Sistema Solar e os planetas formaram-se há cerca de 4,54 bilhões de anos (mais de 9 bilhões de anos após a recombinação).",
+        "B": "Incorreta: a expansão violenta em uma fração minúscula de segundo refere-se à fase de inflação, e não à recombinação.",
+        "C": "Correta: aos 380 mil anos, o Universo esfriou o suficiente para que elétrons e núcleos formassem os primeiros átomos neutros, liberando grande quantidade de fótons (luz).",
+        "D": "Incorreta: a recombinação gerou apenas átomos simples (hélio e hidrogênio); elementos mais pesados foram sintetizados no interior das estrelas, muito antes de qualquer célula existir."
+      },
+      "referencia": {
+        "paginas": [10],
+        "fundamentacao": "Página 10.",
+        "trechos_apoio": [
+          "3 - Recombinação: Após 380 mil anos o universo havia se resfriado o suficiente para os primeiros átomos neutros se formarem. A recombinação promoveu a liberação de grande quantidade de fótons. Particula fundamental que produz a luz."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_01_q003",
+      "slide_id": "origem_vida_aula_01",
+      "slide_nome": "Aula 01 - Introdução à Origem da Vida",
+      "arquivo_origem": "Aula 01 - Introdução a Origem da Vida_261003_213324 (1).pdf",
+      "numero": 3,
+      "tema": "Formação do Sistema Solar e da Terra",
+      "subtema": "Hipótese da Nebulosa Solar e Acreção",
+      "enunciado": "A formação da Terra e dos demais planetas do Sistema Solar é explicada no material pela Hipótese da Nebulosa Solar. O processo mecânico responsável pela aglomeração progressiva de matéria sólida nesse disco protoplanetário é denominado:",
+      "alternativas": {
+        "A": "Degaseificação vulcânica.",
+        "B": "Acreção.",
+        "C": "Recombinação atômica.",
+        "D": "Diferenciação geoquímica."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a degaseificação vulcânica refere-se à liberação de gases do interior do planeta que formou a atmosfera primitiva, e não à agregação das partículas sólidas que formaram o corpo planetário.",
+        "B": "Correta: na acreção, partículas e corpos menores (planetesimais) em rotação na nebulosa solar juntaram-se gradualmente pela força da gravidade para formar corpos maiores, incluindo a Terra.",
+        "C": "Incorreta: a recombinação é um evento cosmológico de união de núcleos e elétrons para formar átomos neutros 380 mil anos após o Big Bang.",
+        "D": "Incorreta: a diferenciação é o processo subsequente no qual os materiais já agregados se organizaram em camadas internas (núcleo, manto e crosta)."
+      },
+      "referencia": {
+        "paginas": [13, 14],
+        "fundamentacao": "Páginas 13 e 14.",
+        "trechos_apoio": [
+          "Acreção: As partículas nessa nuvem se juntaram gradualmente devido à gravidade, formando corpos maiores, incluindo a Terra.",
+          "1. Acreção: Partículas e planetesimais se agregam pela gravidade."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_01_q004",
+      "slide_id": "origem_vida_aula_01",
+      "slide_nome": "Aula 01 - Introdução à Origem da Vida",
+      "arquivo_origem": "Aula 01 - Introdução a Origem da Vida_261003_213324 (1).pdf",
+      "numero": 4,
+      "tema": "Geologia Planetária Primitiva",
+      "subtema": "Diferenciação e Resfriamento da Terra",
+      "enunciado": "Em seus primórdios (~4,54 bilhões de anos), a Proto-Terra apresentava elevadíssimas temperaturas decorrentes de impactos cósmicos e vulcanismo intenso. A formação da crosta rochosa superficial ocorreu devido ao fato de que:",
+      "alternativas": {
+        "A": "A condensação do oxigênio atmosférico gerou uma camada sólida isolante de gelo.",
+        "B": "O calor interno do núcleo se extinguiu completamente, congelando o manto e a superfície.",
+        "C": "O contato com as temperaturas negativas do cosmos causou um resfriamento de fora para dentro.",
+        "D": "A radiação ultravioleta catalisou a petrificação instantânea dos gases atmosféricos."
+      },
+      "gabarito": "C",
+      "explicacoes": {
+        "A": "Incorreta: o oxigênio livre não formou camadas de gelo; o esfriamento permitiu a condensação do vapor d'água em chuvas, não havendo oxigênio livre abundante.",
+        "B": "Incorreta: o planeta manteve atividade geológica e núcleo aquecido; a solidificação ocorreu progressivamente na superfície (crosta), sem extinção do calor interno.",
+        "C": "Correta: como o espaço cósmico possui temperaturas negativas, a Terra superaquecida sofreu um resfriamento superficial (\"de fora para dentro\"), iniciando a solidificação das massas rochosas que originaram a crosta terrestre.",
+        "D": "Incorreta: a radiação UV atuou como fonte de energia ambiental para reações químicas, e não como agente de petrificação de gases em rochas."
+      },
+      "referencia": {
+        "paginas": [15],
+        "fundamentacao": "Página 15.",
+        "trechos_apoio": [
+          "Neste momento, após a explosão, a Terra estava superaquecida. No entanto, no cosmos, as temperaturas são negativas, o que provocou um esfriamento de fora para dentro. Com este processo, começa a criação das massas rochosas, que dão origem à crosta terrestre."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_01_q005",
+      "slide_id": "origem_vida_aula_01",
+      "slide_nome": "Aula 01 - Introdução à Origem da Vida",
+      "arquivo_origem": "Aula 01 - Introdução a Origem da Vida_261003_213324 (1).pdf",
+      "numero": 5,
+      "tema": "Origem da Hidrosfera",
+      "subtema": "Mecanismos de Aporte e Formação da Água",
+      "enunciado": "Na reconstituição das condições da Terra primitiva apresentada na aula, a origem da água líquida na superfície do planeta é explicada por duas contribuições principais. Quais são elas?",
+      "alternativas": {
+        "A": "Respiração celular aeróbia intensa e síntese catalisada por protocélulas.",
+        "B": "Degaseificação vulcânica interna e aporte extraterrestre por meteoritos e cometas.",
+        "C": "Fotossíntese oxigênica primordial e sublimação de rochas da crosta continental.",
+        "D": "Recombinação de matéria escura durante o período inflacionário cósmico."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: os oceanos primitivos formaram-se antes do aparecimento dos primeiros seres vivos; não havia respiração celular nem protocélulas para produzir a água do planeta.",
+        "B": "Correta: a água acumulou-se na Terra a partir da degaseificação vulcânica (liberação de vapor d'água do interior do planeta) combinada ao aporte extraterrestre trazido por impactos de meteoritos e cometas que continham cristais de gelo.",
+        "C": "Incorreta: a fotossíntese é um processo biológico muito posterior e não foi a responsável pela formação dos oceanos primitivos.",
+        "D": "Incorreta: a matéria escura e a inflação cósmica são eventos cosmológicos do início do Universo, sem relação com a formação da água na Terra."
+      },
+      "referencia": {
+        "paginas": [16, 17],
+        "fundamentacao": "Páginas 16 e 17.",
+        "trechos_apoio": [
+          "Origem dos voláteis: O arquivo destaca degaseificação e aporte extraterrestre como contribuições possíveis para a água terrestre.",
+          "Outra teoria afirma que a água chegou ao planeta através dos meteoritos que se chocavam com a Terra, pois estes continham cristais de H2O em sua composição."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_01_q006",
+      "slide_id": "origem_vida_aula_01",
+      "slide_nome": "Aula 01 - Introdução à Origem da Vida",
+      "arquivo_origem": "Aula 01 - Introdução a Origem da Vida_261003_213324 (1).pdf",
+      "numero": 6,
+      "tema": "Química Prebiótica",
+      "subtema": "O Papel da Água Líquida",
+      "enunciado": "A apostila destaca que a presença de água líquida é uma \"condição importante, mas não suficiente\" para a emergência da vida. Essa ressalva fundamenta-se no princípio de que:",
+      "alternativas": {
+        "A": "A água decompõe espontaneamente todas as ligações de carbono, impedindo a síntese de polímeros.",
+        "B": "A água atua exclusivamente como barreira física que bloqueia fontes de energia essenciais como o calor geotérmico.",
+        "C": "A simples presença de água e moléculas orgânicas não equivale à vida, pois ainda faltam organização, metabolismo, informação e evolução.",
+        "D": "A vida primitiva só se estabeleceu após a dessecação total dos oceanos primitivos pelas erupções vulcânicas."
+      },
+      "gabarito": "C",
+      "explicacoes": {
+        "A": "Incorreta: a água funciona como solvente facilitador de transporte e reações químicas, e não como destruidora universal de compostos de carbono.",
+        "B": "Incorreta: os ambientes aquosos (oceanos, fontes hidrotermais) foram interfaces ricas em energia geotérmica e gradientes minerais, favoráveis à química prebiótica.",
+        "C": "Correta: conforme o \"cuidado conceitual\" da aula, água somada a moléculas orgânicas simples não configura um sistema vivo, pois a vida exige emergência de compartimentalização, fluxo de energia/metabolismo, código informacional e capacidade evolutiva.",
+        "D": "Incorreta: os oceanos primitivos foram o meio essencial onde as reações prebióticas e os primeiros sistemas celulares se desenvolveram, sem necessidade de dessecação global."
+      },
+      "referencia": {
+        "paginas": [18],
+        "fundamentacao": "Página 18.",
+        "trechos_apoio": [
+          "Cuidado conceitual: Água + moléculas orgânicas não equivalem a vida. Ainda faltam organização, informação, energia e capacidade evolutiva."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_01_q007",
+      "slide_id": "origem_vida_aula_01",
+      "slide_nome": "Aula 01 - Introdução à Origem da Vida",
+      "arquivo_origem": "Aula 01 - Introdução a Origem da Vida_261003_213324 (1).pdf",
+      "numero": 7,
+      "tema": "Conceito Operacional de Vida",
+      "subtema": "Propriedades dos Sistemas Vivos",
+      "enunciado": "Ao definir operacionalmente os sistemas vivos a partir de um conjunto integrado de propriedades, a apostila associa a homeostase a qual capacidade biológica fundamental?",
+      "alternativas": {
+        "A": "Modificação genética da população ao longo de sucessivas gerações.",
+        "B": "Armazenamento e replicação fiel de polímeros de ácidos nucleicos.",
+        "C": "Transformação contínua de matéria e energia capturada do ambiente.",
+        "D": "Regulação e manutenção do equilíbrio do meio interno."
+      },
+      "gabarito": "D",
+      "explicacoes": {
+        "A": "Incorreta: a modificação da população ao longo das gerações define a propriedade da evolução, e não a homeostase.",
+        "B": "Incorreta: o armazenamento e transmissão de instruções hereditárias define a propriedade da informação, e não a homeostase.",
+        "C": "Incorreta: a transformação de matéria e energia define o metabolismo, e não a homeostase.",
+        "D": "Correta: na matriz de propriedades compartilhadas pelos seres vivos, a homeostase é definida especificamente como a capacidade de regulação e estabilização do meio interno diante de variações."
+      },
+      "referencia": {
+        "paginas": [20, 21],
+        "fundamentacao": "Páginas 20 e 21.",
+        "trechos_apoio": [
+          "Homeostase: Regulação do meio interno."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_01_q008",
+      "slide_id": "origem_vida_aula_01",
+      "slide_nome": "Aula 01 - Introdução à Origem da Vida",
+      "arquivo_origem": "Aula 01 - Introdução a Origem da Vida_261003_213324 (1).pdf",
+      "numero": 8,
+      "tema": "Transição Prebiótica",
+      "subtema": "Da Matéria Inanimada aos Sistemas Vivos",
+      "enunciado": "A passagem da química simples para a biologia celular é descrita na aula como um \"problema de organização\". A premissa central dessa abordagem científica estabelece que:",
+      "alternativas": {
+        "A": "A origem da vida dependeu do surgimento súbito de uma única \"molécula mágica\" com poderes vitais extraordinários.",
+        "B": "Os sistemas vivos emergiram progressivamente da integração entre átomos simples, moléculas orgânicas, polímeros, compartimentos e redes funcionais.",
+        "C": "A vida só pôde se formar quando o código genético de DNA nuclear se organizou antes de qualquer compartimento lipídico.",
+        "D": "As forças físicas da matéria inanimada são incapazes de gerar polímeros funcionais sem orientação teleológica."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o texto rejeita explicitamente a ideia de uma \"molécula mágica\", sustentando a emergência de sistemas complexos integrados.",
+        "B": "Correta: a transição do não-vivo ao vivo é uma sequência hierárquica e contínua de organização: átomos (C, H, O, N, P, S) formam moléculas simples, que geram monômeros orgânicos, polímeros, compartimentos (vesículas) e culminam em sistemas com metabolismo, informação e evolução.",
+        "C": "Incorreta: o material enfatiza a coexistência e o desenvolvimento de compartimentos e polímeros rudimentares, apontando que o DNA não surgiu isolado e sem limites membranosos.",
+        "D": "Incorreta: a ciência estuda a origem da vida por processos físico-químicos naturais e testáveis, e não por forças orientadas com propósitos finais ou místicos."
+      },
+      "referencia": {
+        "paginas": [21],
+        "fundamentacao": "Página 21.",
+        "trechos_apoio": [
+          "Do não vivo ao vivo: um problema de organização. Átomos → Moléculas → Orgânicas → Polímeros → Compartimentos → Sistemas vivos. Ideia central: a origem da vida não exige uma 'molécula mágica', mas a emergência progressiva de sistemas capazes de..."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_01_q009",
+      "slide_id": "origem_vida_aula_01",
+      "slide_nome": "Aula 01 - Introdução à Origem da Vida",
+      "arquivo_origem": "Aula 01 - Introdução a Origem da Vida_261003_213324 (1).pdf",
+      "numero": 9,
+      "tema": "Tempo Geológico e Condições Iniciais",
+      "subtema": "Cronologia dos Eventos Terrestres",
+      "enunciado": "A linha do tempo da Terra primitiva organiza cronologicamente eventos geoquímicos e biológicos fundamentais. De acordo com os marcos temporais apresentados na aula, as primeiras evidências de vida no registro geológico datam de aproximadamente:",
+      "alternativas": {
+        "A": "4,54 bilhões de anos (Ga).",
+        "B": "~4,4 bilhões de anos (Ga).",
+        "C": "Mais de 4,0 bilhões de anos (>4,0 Ga).",
+        "D": "~3,7 a 3,5 bilhões de anos (~3,7–3,5 Ga)."
+      },
+      "gabarito": "D",
+      "explicacoes": {
+        "A": "Incorreta: 4,54 Ga corresponde à época da formação astronômica da Terra pela acreção da nebulosa solar.",
+        "B": "Incorreta: ~4,4 Ga é a datação aproximada das evidências de água líquida muito antiga no planeta.",
+        "C": "Incorreta: >4,0 Ga marca o período em que a química prebiótica passou a ser fisicamente possível com a consolidação da crosta e ambientes aquosos.",
+        "D": "Correta: na escala cronológica apresentada, as evidências muito antigas de vida aparecem no intervalo entre ~3,7 e 3,5 bilhões de anos atrás."
+      },
+      "referencia": {
+        "paginas": [22],
+        "fundamentacao": "Página 22.",
+        "trechos_apoio": [
+          "Linha do tempo: Terra primitiva e primeiros registros: 4,54 Ga (Formação da Terra) → ~4,4 Ga (Água líquida muito antiga) → >4,0 Ga (Química prebiótica possível) → ~3,7-3,5 Ga (Evidências muito antigas de vida) → depois (Diversificação celular)."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_01_q010",
+      "slide_id": "origem_vida_aula_01",
+      "slide_nome": "Aula 01 - Introdução à Origem da Vida",
+      "arquivo_origem": "Aula 01 - Introdução a Origem da Vida_261003_213324 (1).pdf",
+      "numero": 10,
+      "tema": "Distinções Conceituais Fundamentais",
+      "subtema": "Matriz Comparativa de Conceitos",
+      "enunciado": "Na matriz de conceitos que não devem ser confundidos, a evolução biológica distingue-se da evolução química porque atua especificamente:",
+      "alternativas": {
+        "A": "Na síntese abiótica de aminoácidos e açúcares a partir de gases atmosféricos.",
+        "B": "Apenas após a existência de sistemas e populações capazes de herança e variação.",
+        "C": "Na comprovação de que seres macroscópicos surgem continuamente de matéria em decomposição.",
+        "D": "Exclusivamente na manutenção de linhagens celulares estáticas sem alterações temporais."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a formação de monômeros orgânicos e a auto-organização molecular antes das primeiras células caracterizam a evolução química, e não a evolução biológica.",
+        "B": "Correta: conforme a matriz conceitual da aula, a evolução biológica atua sobre populações de organismos que mudam ao longo das gerações, pressupondo sistemas preexistentes com capacidade de variação genética e herança reprodutiva.",
+        "C": "Incorreta: a proposição de que organismos vivos surgem de matéria em putrefação refere-se à abiogênese histórica (geração espontânea), um conceito refutado.",
+        "D": "Incorreta: a evolução pressupõe mudança contínua nas linhagens e populações; estabilidade absoluta sem modificações contradiz o conceito biológico de evolução."
+      },
+      "referencia": {
+        "paginas": [24],
+        "fundamentacao": "Página 24.",
+        "trechos_apoio": [
+          "Evolução biológica: Como populações de organismos mudam ao longo das gerações? Uso atual: Atua após a existência de sistemas capazes de herança e variação."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_01_q011",
+      "slide_id": "origem_vida_aula_01",
+      "slide_nome": "Aula 01 - Introdução à Origem da Vida",
+      "arquivo_origem": "Aula 01 - Introdução a Origem da Vida_261003_213324 (1).pdf",
+      "numero": 11,
+      "tema": "Distinções Conceituais Fundamentais",
+      "subtema": "Abiogênese Histórica vs. Biogênese",
+      "enunciado": "O conceito histórico de abiogênese (geração espontânea), amplamente aceito até o século XIX, sustentava que organismos vivos poderiam se formar diretamente a partir de matéria inanimada ou em decomposição. O princípio científico moderno que estabeleceu a refutação desse conceito e determinou que a vida atual procede apenas de vida preexistente é a:",
+      "alternativas": {
+        "A": "Biogênese.",
+        "B": "Evolução química.",
+        "C": "Panspermia dirigida.",
+        "D": "Hipótese do Mundo de RNA."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: a biogênese é o princípio que estabelece que todo organismo vivo atual provém de outro organismo vivo preexistente por meio da reprodução, refutando a ideia de que seres vivos surgem espontaneamente da matéria bruta nas condições ecológicas atuais.",
+        "B": "Incorreta: a evolução química descreve a formação abiótica gradual de moléculas e redes complexas antes do surgimento das primeiras células na Terra primitiva, não se confundindo com a continuidade reprodutiva atual dos organismos.",
+        "C": "Incorreta: a panspermia trata da hipótese de transporte de compostos prebióticos ou microrganismos pelo espaço via meteoritos e cometas, e não do princípio biológico geral que refutou a geração espontânea.",
+        "D": "Incorreta: o Mundo de RNA é uma hipótese prebiótica sobre o papel catalítico e genético do RNA nas primeiras etapas celulares primitivas, e não a lei que estabelece a reprodução entre seres vivos atuais."
+      },
+      "referencia": {
+        "paginas": [24],
+        "fundamentacao": "Página 24.",
+        "trechos_apoio": [
+          "Abiogênese histórica (geração espontânea): Ideia antiga: vida surge 'do nada' / matéria bruta. Contexto: Moscas de carne podre; camundongos de trapos. Status científico atual: Totalmente refutada para as condições atuais da Terra.",
+          "Biogênese: Ideia central: vida vem de vida preexistente. Aplicação: Aplica-se à reprodução e continuidade da vida hoje."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_01_q012",
+      "slide_id": "origem_vida_aula_01",
+      "slide_nome": "Aula 01 - Introdução à Origem da Vida",
+      "arquivo_origem": "Aula 01 - Introdução a Origem da Vida_261003_213324 (1).pdf",
+      "numero": 12,
+      "tema": "Epistemologia e Método Científico",
+      "subtema": "Biogênese e Origem Primordial da Vida",
+      "enunciado": "Um dos maiores cuidados conceituais destacados na aula é não cometer o erro lógico de opor \"biogênese versus evolução química\". O fato de Louis Pasteur ter refutado a geração espontânea em frascos de laboratório não invalida a investigação científica sobre a origem da vida na Terra primitiva porque:",
+      "alternativas": {
+        "A": "Pasteur realizou seus experimentos no vácuo espacial absoluto, onde bactérias não conseguem proliferar.",
+        "B": "A biogênese rege a reprodução nas condições atuais, enquanto a evolução química investiga a transição inicial da matéria sob condições geoquímicas e temporais exclusivas da Terra primitiva.",
+        "C": "A refutação de Pasteur só se aplicava a organismos multicelulares vertebrados, mantendo válida a geração espontânea de microrganismos.",
+        "D": "Os experimentos históricos de esterilização foram desacreditados pelo desenvolvimento posterior dos microscópios ópticos."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: os frascos de pescoço de cisne de Pasteur estavam expostos ao ar atmosférico normal, e não ao vácuo cósmico.",
+        "B": "Correta: a biogênese descreve o funcionamento biológico do planeta moderno, no qual não há geração espontânea de células a partir de caldo nutritivo; já a origem da vida investiga a evolução química prebiótica que ocorreu em um planeta primitivo anóxico, com energia abundante, ausência de predadores biológicos e milhões de anos disponíveis.",
+        "C": "Incorreta: o experimento de Pasteur refutou conclusivamente a geração espontânea justamente para os microrganismos em caldos nutritivos.",
+        "D": "Incorreta: os experimentos de esterilização e assepsia continuam válidos e constituem pilares fundamentais da microbiologia moderna e da medicina."
+      },
+      "referencia": {
+        "paginas": [24],
+        "fundamentacao": "Página 24.",
+        "trechos_apoio": [
+          "Erro comum: Achar que 'se a biogênese é verdadeira, a origem da vida é impossível de ser estudada'. A biogênese descreve o mundo atual; a origem da vida investiga a transição inicial em condições muito diferentes."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_01_q013",
+      "slide_id": "origem_vida_aula_01",
+      "slide_nome": "Aula 01 - Introdução à Origem da Vida",
+      "arquivo_origem": "Aula 01 - Introdução a Origem da Vida_261003_213324 (1).pdf",
+      "numero": 13,
+      "tema": "História do Pensamento Científico",
+      "subtema": "O Experimento de Francesco Redi",
+      "enunciado": "No século XVII, o médico e naturalista Francesco Redi realizou experimentos com recipientes contendo carne, alguns abertos, outros totalmente fechados e outros cobertos com gaze fina. O resultado desse delineamento experimental demonstrou que:",
+      "alternativas": {
+        "A": "O ar entra em putrefação espontânea quando privado do contato com o solo.",
+        "B": "As larvas na carne putrefata resultavam de ovos depositados por moscas adultas, e não de geração espontânea.",
+        "C": "O calor extremo é indispensável para ativar a força vital contida nos tecidos animais.",
+        "D": "Microrganismos anaeróbios conseguem atravessar malhas de gaze e contaminar carnes esterilizadas."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o ar não se decompõe em larvas; o experimento provou que o ar livre não gera vida sem o acesso direto dos insetos reprodutores.",
+        "B": "Correta: Redi observou que as larvas só se desenvolviam nos frascos abertos onde as moscas pousavam e depositavam ovos; nos frascos cobertos com gaze, ovos e larvas apareciam sobre a tela, comprovando a biogênese para organismos macroscópicos.",
+        "C": "Incorreta: Redi não utilizou esterilização térmica; o uso de fervuras intensas foi adotado posteriormente nos experimentos de Needham e Spallanzani.",
+        "D": "Incorreta: o foco de Redi foi macroscópico (larvas de moscas visíveis a olho nu), já que a controvérsia sobre microrganismos ocorreu em séculos posteriores."
+      },
+      "referencia": {
+        "paginas": [26, 27],
+        "fundamentacao": "Páginas 26 e 27.",
+        "trechos_apoio": [
+          "Francesco Redi (1668): Teste com carne em frascos abertos, vedados e cobertos com gaze. Conclusão: Larvas vêm de ovos de moscas, não da carne."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_01_q014",
+      "slide_id": "origem_vida_aula_01",
+      "slide_nome": "Aula 01 - Introdução à Origem da Vida",
+      "arquivo_origem": "Aula 01 - Introdução a Origem da Vida_261003_213324 (1).pdf",
+      "numero": 14,
+      "tema": "História do Pensamento Científico",
+      "subtema": "O Experimento de Lazzaro Spallanzani",
+      "enunciado": "No século XVIII, Lazzaro Spallanzani aprimorou o teste experimental sobre a origem dos micróbios em caldos nutritivos ao ferver infusões por tempo prolongado e vedar hermeticamente os recipientes. O principal argumento levantado pelos defensores da geração espontânea (vitalistas) para contestar os resultados de Spallanzani foi:",
+      "alternativas": {
+        "A": "A vedação e o calor excessivo haviam destruído ou impedido o acesso da \"força vital\" presente no ar.",
+        "B": "Os caldos continham concentrações tóxicas de sal mineral que inibiam mutações genéticas.",
+        "C": "O vidro dos frascos absorvia os polímeros de RNA necessários para a replicação celular.",
+        "D": "A radiação solar direta nos frascos esterilizava as bactérias que nasciam da água."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: os partidários da abiogênese alegavam que a fervura prolongada e o fechamento hermético do gargalo impediam a circulação do ar livre e degradavam a \"força vital\" (princípio ativo) necessária para a geração espontânea de micróbios.",
+        "B": "Incorreta: a discussão científica da época girava em torno do conceito filosófico-vitalista de \"força vital\" e do ar, e não de concentrações salinas ou mutações genéticas (conceito inexistente no século XVIII).",
+        "C": "Incorreta: a estrutura do RNA e ácidos nucleicos era totalmente desconhecida no século XVIII e não fez parte desse debate histórico.",
+        "D": "Incorreta: a objeção clássica não envolvia radiação solar, mas sim a suposta exigência de contato constante com o ar não aquecido."
+      },
+      "referencia": {
+        "paginas": [27],
+        "fundamentacao": "Página 27.",
+        "trechos_apoio": [
+          "Lazzaro Spallanzani (1765): Fervura prolongada e frascos vedados. Objeção dos defensores da geração espontânea: O ar havia sido danificado e a 'força vital' fora impedida."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_01_q015",
+      "slide_id": "origem_vida_aula_01",
+      "slide_nome": "Aula 01 - Introdução à Origem da Vida",
+      "arquivo_origem": "Aula 01 - Introdução a Origem da Vida_261003_213324 (1).pdf",
+      "numero": 15,
+      "tema": "História do Pensamento Científico",
+      "subtema": "O Experimento de Louis Pasteur",
+      "enunciado": "Em 1862, Louis Pasteur resolveu em definitivo o impasse sobre a geração espontânea de microrganismos utilizando frascos de vidro com gargalo recurvado em \"pescoço de cisne\". A inovação crucial dessa vidraria residia no fato de que ela:",
+      "alternativas": {
+        "A": "Bloqueava completamente a entrada de oxigênio e de qualquer gás presente no ar externo.",
+        "B": "Permitia o contato contínuo do caldo com o ar livre, enquanto poeira e microrganismos ficavam retidos na curva do tubo.",
+        "C": "Gerava descargas elétricas estáticas internas que destruíam esporos bacterianos em suspensão.",
+        "D": "Aquecia o caldo continuamente por meio de reflexão de radiação ultravioleta."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o pescoço de cisne permanecia com a extremidade aberta, garantindo livre circulação dos gases atmosféricos e desarmando a objeção de que a \"força vital\" do ar fora bloqueada.",
+        "B": "Correta: a curvatura sinuosa do gargalo permitia a troca gasosa com o ar ambiente, mas fazia com que as partículas sólidas e microrganismos da poeira ficassem retidos nas curvas úmidas do tubo, mantendo o caldo estéril até que o gargalo fosse quebrado.",
+        "C": "Incorreta: o experimento não empregava descargas elétricas; essa metodologia foi usada quase um século depois por Miller e Urey para sintetizar aminoácidos.",
+        "D": "Incorreta: o frasco de Pasteur não produzia calor contínuo nem operava com luz ultravioleta; após a fervura inicial, o líquido resfriava e permanecia estéril em temperatura ambiente."
+      },
+      "referencia": {
+        "paginas": [27, 28],
+        "fundamentacao": "Páginas 27 e 28.",
+        "trechos_apoio": [
+          "Louis Pasteur (1862): Frascos com 'pescoço de cisne'. O ar entra, mas as partículas/microrganismos ficam retidos na curva. Resultado: O caldo permaneceu estéril até que o gargalo fosse quebrado."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_01_q016",
+      "slide_id": "origem_vida_aula_01",
+      "slide_nome": "Aula 01 - Introdução à Origem da Vida",
+      "arquivo_origem": "Aula 01 - Introdução a Origem da Vida_261003_213324 (1).pdf",
+      "numero": 16,
+      "tema": "Requisitos da Química Prebiótica",
+      "subtema": "Fontes de Energia e Condições Ambientais",
+      "enunciado": "Para que ocorresse a evolução química na Terra primitiva, era necessária a atuação contínua de fontes de energia capazes de ativar moléculas simples e romper ligações químicas estáveis. O material didático elenca como principais fontes energéticas prebióticas:",
+      "alternativas": {
+        "A": "Queima de combustíveis fósseis e atividade de usinas geotérmicas antrópicas.",
+        "B": "Radiação ultravioleta solar, descargas elétricas na atmosfera e calor geotérmico.",
+        "C": "Fermentação lática anaeróbia e bioluminescência marinha de peixes abissais.",
+        "D": "Oxidação aeróbia da glicose e calor metabólico liberado por vertebrados."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: combustíveis fósseis e usinas antrópicas são produtos de eras biológicas posteriores e de tecnologia humana, ausentes no início do planeta.",
+        "B": "Correta: na Terra primitiva desprovida de camada de ozônio protetora e com atmosfera instável, as energias disponíveis eram a intensa radiação ultravioleta do Sol, as descargas elétricas de tempestades e o calor emitido pelo vulcanismo e fontes hidrotermais.",
+        "C": "Incorreta: fermentação e bioluminescência são processos biológicos dependentes de enzimas e seres vivos organizados, que ainda não existiam nesse período.",
+        "D": "Incorreta: glicose celular e vertebrados são entidades biológicas complexas originadas bilhões de anos depois da síntese prebiótica inicial."
+      },
+      "referencia": {
+        "paginas": [23],
+        "fundamentacao": "Página 23.",
+        "trechos_apoio": [
+          "Condições da Terra primitiva: Atmosfera diferente da atual; Fontes de energia: radiação UV, descargas elétricas, calor geotérmico; Interfaces minerais e ambientes aquosos; Tempo geológico amplo."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_01_q017",
+      "slide_id": "origem_vida_aula_01",
+      "slide_nome": "Aula 01 - Introdução à Origem da Vida",
+      "arquivo_origem": "Aula 01 - Introdução a Origem da Vida_261003_213324 (1).pdf",
+      "numero": 17,
+      "tema": "Química Prebiótica",
+      "subtema": "O Papel das Superfícies Minerais",
+      "enunciado": "Dentre as condições da Terra primitiva analisadas na aula, as interfaces minerais (superfícies de argilas e rochas nos ambientes aquosos) são consideradas fatores geoquímicos fundamentais porque atuaram:",
+      "alternativas": {
+        "A": "Secretando ativamente membranas plasmáticas ricas em colesterol e proteínas transportadoras.",
+        "B": "Fornecendo superfícies catalíticas para concentrar reagentes diluídos e favorecer reações de polimerização.",
+        "C": "Eliminando toda a água líquida do meio para impedir que as reações orgânicas ocorressem.",
+        "D": "Convertendo radiação gama em oxigênio molecular livre para respiração dos coacervados."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: minerais não possuem secreção celular nem produzem colesterol; eles são matrizes inorgânicas abióticas.",
+        "B": "Correta: em soluções aquosas abertas e diluídas, a polimerização espontânea de monômeros é termodinamicamente desfavorável; as superfícies minerais funcionam como matrizes catalíticas que adsorvem, concentram e alinham moléculas precursoras.",
+        "C": "Incorreta: as interfaces minerais interagiam estreitamente com a água dos oceanos e lagos primitivos, não provocando dessecação global.",
+        "D": "Incorreta: a atmosfera da Terra primitiva era redutora/anóxica, e os minerais não realizavam conversão de radiação em oxigênio para respiração aeróbia."
+      },
+      "referencia": {
+        "paginas": [21, 23],
+        "fundamentacao": "Páginas 21 e 23.",
+        "trechos_apoio": [
+          "Interfaces minerais e ambientes aquosos funcionavam como sítios de concentração e catálise para a transição: Átomos → Moléculas → Orgânicas → Polímeros → Compartimentos."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_01_q018",
+      "slide_id": "origem_vida_aula_01",
+      "slide_nome": "Aula 01 - Introdução à Origem da Vida",
+      "arquivo_origem": "Aula 01 - Introdução a Origem da Vida_261003_213324 (1).pdf",
+      "numero": 18,
+      "tema": "Hipóteses sobre a Origem da Vida",
+      "subtema": "O Paradoxo do Ovo e da Galinha no Mundo Moderno",
+      "enunciado": "Nos sistemas celulares contemporâneos, as proteínas são essenciais para catalisar a replicação do DNA, enquanto o DNA contém as informações que codificam a síntese de proteínas. A hipótese do Mundo de RNA propõe uma solução elegante para esse clássico dilema evolutivo ao defender que o RNA:",
+      "alternativas": {
+        "A": "Foi trazido à Terra já encapsulado no interior de mitocôndrias eucarióticas primitivas.",
+        "B": "Pode acumular simultaneamente as propriedades de armazenamento de informação hereditária e atividade catalítica (ribozimas).",
+        "C": "Era uma molécula totalmente rígida e inerte que servia apenas como suporte estrutural para lipídios.",
+        "D": "Substituiu o DNA apenas nos organismos terrestres após a extinção dos dinossauros."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o RNA prebiótico antecede em bilhões de anos o evento de endossimbiose que deu origem às mitocôndrias nas células eucarióticas.",
+        "B": "Correta: o RNA resolve o paradoxo informacional e funcional porque sua estrutura de fita simples permite dobrar-se em formatos tridimensionais capazes de agir como catalisadores biológicos (ribozimas) e, ao mesmo tempo, estocar código genético em sua sequência de bases.",
+        "C": "Incorreta: o RNA é uma molécula flexível e quimicamente reativa com notável plasticidade catalítica, e não uma armação inerte.",
+        "D": "Incorreta: o Mundo de RNA situa-se na transição prebiótica mais remota (>3,8 Ga), não tendo qualquer relação cronológica com o período dos dinossauros."
+      },
+      "referencia": {
+        "paginas": [29],
+        "fundamentacao": "Página 29.",
+        "trechos_apoio": [
+          "Hipóteses em debate: Mundo de RNA: O RNA teria desempenhado papel informacional e catalítico antes do surgimento do sistema DNA-proteína atual."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_01_q019",
+      "slide_id": "origem_vida_aula_01",
+      "slide_nome": "Aula 01 - Introdução à Origem da Vida",
+      "arquivo_origem": "Aula 01 - Introdução a Origem da Vida_261003_213324 (1).pdf",
+      "numero": 19,
+      "tema": "Modelos Prebióticos Competitivos",
+      "subtema": "Metabolismo Primeiro e Fontes Hidrotermais",
+      "enunciado": "Em contraste com a visão focada exclusivamente nos ácidos nucleicos informacionais, as correntes de investigação conhecidas como \"Metabolismo primeiro\" e a hipótese das \"Fontes hidrotermais\" propõem que a vida teve seus primeiros passos impulsionados por:",
+      "alternativas": {
+        "A": "Gradientes geoquímicos e redes autorreguladas de reações que capturavam energia ambiental antes da replicação genética avançada.",
+        "B": "Síntese exclusiva de clorofila livre flutuando na superfície iluminada dos oceanos primitivos.",
+        "C": "Mutação aleatória gerada pela combustão espontânea de oxigênio acumulado na estratosfera.",
+        "D": "Transporte de animais vertebrados complexos aprisionados no núcleo de cometas gelados."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: os modelos de \"metabolismo primeiro\" e as hipóteses de fontes hidrotermais sustentam que a vida começou como ciclos de reações químicas catalisadas por minerais em chaminés submarinas, aproveitando gradientes térmicos e eletroquímicos para fixar carbono e obter energia antes do surgimento de um código genético complexo.",
+        "B": "Incorreta: clorofila e fotossíntese são especializações metabólicas celulares tardias; fontes hidrotermais são ambientes profundos e afóticos (sem luz solar).",
+        "C": "Incorreta: a Terra primitiva não possuía acúmulo de oxigênio livre nem camada estratosférica oxigenada nessa fase inicial.",
+        "D": "Incorreta: animais vertebrados surgiram centenas de milhões de anos atrás na Terra, sendo absurda sua presença em cometas primitivos."
+      },
+      "referencia": {
+        "paginas": [29],
+        "fundamentacao": "Página 29.",
+        "trechos_apoio": [
+          "Hipóteses em debate: Metabolismo primeiro: Redes de reações e captação de energia teriam antecedido a replicação de polímeros informacionais mais sofisticados.",
+          "Fontes hidrotermais: Ambientes profundos com calor, gradientes químicos e minerais catalíticos como possíveis berços da química prebiótica."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_01_q020",
+      "slide_id": "origem_vida_aula_01",
+      "slide_nome": "Aula 01 - Introdução à Origem da Vida",
+      "arquivo_origem": "Aula 01 - Introdução a Origem da Vida_261003_213324 (1).pdf",
+      "numero": 20,
+      "tema": "Epistemologia e Biomedicina",
+      "subtema": "Método Científico e Evidências Convergentes",
+      "enunciado": "Na conclusão da aula, discute-se o valor formativo do estudo da origem da vida para os futuros profissionais de Biomedicina. O princípio metodológico que sustenta a validade científica das pesquisas nessa área, mesmo sem a possibilidade de observação direta do passado, é:",
+      "alternativas": {
+        "A": "A aceitação dogmática de relatos históricos sem necessidade de confirmação empírica.",
+        "B": "A convergência de múltiplas evidências testáveis vindas da química, geologia, biologia molecular e astrobiologia.",
+        "C": "A renúncia a testes laboratoriais experimentais em prol de modelos estritamente retóricos.",
+        "D": "O consenso de que eventos biológicos passados decorreram de leis físicas que já não existem mais."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a ciência rejeita premissas dogmáticas e exige que afirmações sobre a natureza sejam fundamentadas em evidências empíricas e hipóteses falseáveis.",
+        "B": "Correta: embora não possamos voltar no tempo para observar o evento em tempo real, a ciência constrói modelos sólidos por meio da convergência de evidências independentes de várias disciplinas (geoquímica, síntese orgânica prebiótica, genética molecular comparada e astronomia).",
+        "C": "Incorreta: a área se apoia intensamente em experimentos controlados de laboratório (como reatores prebióticos, sínteses de ribozimas e montagem de protocélulas lipídicas).",
+        "D": "Incorreta: o princípio da uniformidade geológica e física estabelece que as leis fundamentais da física e da química que atuaram na Terra primitiva são exatamente as mesmas observadas hoje."
+      },
+      "referencia": {
+        "paginas": [30, 31],
+        "fundamentacao": "Páginas 30 e 31.",
+        "trechos_apoio": [
+          "Como a ciência investiga esse tema? Formulação de hipóteses testáveis. Experimentos laboratoriais simulando condições antigas. Análise de rochas muito antigas e fósseis microscópicos. Exploração de outros corpos celestes (meteoritos, Marte, luas geladas). Modelos computacionais e físico-químicos.",
+          "Origem da vida como problema científico de fronteira, baseado em evidências convergentes."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_01_q021",
+      "slide_id": "origem_vida_aula_01",
+      "slide_nome": "Aula 01 - Introdução à Origem da Vida",
+      "arquivo_origem": "Aula 01 - Introdução a Origem da Vida_261003_213324 (1).pdf",
+      "numero": 21,
+      "tema": "Cosmologia e Origem dos Elementos",
+      "subtema": "Fase de Inflação Cósmica",
+      "enunciado": "Logo após a singularidade inicial na Teoria do Big Bang, o Universo passou por um evento conhecido como inflação. De acordo com a apostila, o que caracterizou esse momento físico primordial?",
+      "alternativas": {
+        "A": "A condensação imediata de ferro e níquel que deu origem ao núcleo da Terra primitiva.",
+        "B": "A expansão acelerada que dispersou energia em uma fração minúscula de segundo.",
+        "C": "A captura de microrganismos anaeróbios por cometas em rota de colisão com a Lua.",
+        "D": "A síntese exclusiva de cadeias de fosfolipídios e protocélulas microscópicas."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o ferro e o níquel formaram-se bilhões de anos depois no interior de estrelas, e o núcleo terrestre organizou-se há cerca de 4,54 bilhões de anos.",
+        "B": "Correta: conforme a linha temporal do Big Bang na aula, a inflação é definida como o período de expansão acelerada e violenta que dispersou energia em uma fração mínima de segundo logo após a singularidade.",
+        "C": "Incorreta: a inflação ocorreu no início absoluto do Universo (há ~13,8 Ga), momento em que não existiam corpos celestes, água ou microrganismos.",
+        "D": "Incorreta: fosfolipídios e protocélulas são estruturas da química orgânica prebiótica na Terra, e não componentes da física do Big Bang primitivo."
+      },
+      "referencia": {
+        "paginas": [10],
+        "fundamentacao": "Página 10.",
+        "trechos_apoio": [
+          "2 - Inflação: O universo se expandiu aceleradamente em uma fração de segundo, dispersando energia."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_01_q022",
+      "slide_id": "origem_vida_aula_01",
+      "slide_nome": "Aula 01 - Introdução à Origem da Vida",
+      "arquivo_origem": "Aula 01 - Introdução a Origem da Vida_261003_213324 (1).pdf",
+      "numero": 22,
+      "tema": "Geologia Planetária Primitiva",
+      "subtema": "Diferenciação em Camadas da Terra",
+      "enunciado": "O calor inicial da Terra jovem, gerado pela acreção e pelo bombardeamento cósmico contínuo, provocou a fusão de materiais e a consequente diferenciação em camadas. Esse processo geoquímico resultou em:",
+      "alternativas": {
+        "A": "Afundamento dos elementos mais densos para formar o núcleo e retenção dos materiais mais leves na crosta e manto.",
+        "B": "Expulsão de todos os metais pesados para o espaço interplanetário através de ventos solares.",
+        "C": "Congelamento instantâneo do interior do planeta acompanhado pela perda permanente da atmosfera.",
+        "D": "Conversão direta da crosta sólida em vapor de água purificado por fotodissociação."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: com o calor e o estado fundido da Terra primitiva, a gravidade fez com que os materiais mais pesados e densos migrassem para o centro (formando o núcleo), enquanto os compostos e silicatos mais leves permaneceram nas camadas superiores (manto e crosta).",
+        "B": "Incorreta: os elementos metálicos densos não escaparam para o cosmos; eles concentraram-se internamente no planeta pela força da atração gravitacional.",
+        "C": "Incorreta: o interior do planeta reteve imenso calor geotérmico, mantendo núcleo e manto quentes e dinâmicos até os dias atuais.",
+        "D": "Incorreta: a crosta resfriou-se e solidificou-se a partir de massas rochosas, enquanto o vapor d'água provinha de degaseificação e impactos cósmicos."
+      },
+      "referencia": {
+        "paginas": [14, 15],
+        "fundamentacao": "Páginas 14 e 15.",
+        "trechos_apoio": [
+          "2. Diferenciação: Calor inicial permite que materiais densos afundem (núcleo) e leves fiquem na superfície."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_01_q023",
+      "slide_id": "origem_vida_aula_01",
+      "slide_nome": "Aula 01 - Introdução à Origem da Vida",
+      "arquivo_origem": "Aula 01 - Introdução a Origem da Vida_261003_213324 (1).pdf",
+      "numero": 23,
+      "tema": "Conceito Operacional de Vida",
+      "subtema": "Compartimentalização e Protocélulas",
+      "enunciado": "No processo de auto-organização da matéria da química simples até os sistemas celulares, o surgimento de compartimentos (protocélulas) é considerado uma etapa crucial porque permitiu:",
+      "alternativas": {
+        "A": "A substituição permanente de compostos de carbono por minerais puramente metálicos.",
+        "B": "O isolamento físico de um meio interno regulado em relação ao ambiente externo caótico.",
+        "C": "A reprodução imediata de seres pluricelulares com diferenciação de órgãos complexos.",
+        "D": "A interrupção total das trocas energéticas e químicas com os oceanos primitivos."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: os compartimentos primitivos (vesículas lipídicas) apoiavam e concentravam compostos orgânicos de carbono, e não a substituição da base de carbono por metais.",
+        "B": "Correta: a compartimentalização estabelece uma barreira semipermeável que delimita um microambiente interno, permitindo concentrar reagentes metabólicos, proteger polímeros e manter a homeostase frente ao ambiente externo.",
+        "C": "Incorreta: protocélulas eram agregados moleculares microscópicos extremamente simples; tecidos e órgãos pluricelulares surgiram bilhões de anos depois.",
+        "D": "Incorreta: um sistema vivo ou protocelular é termodinamicamente aberto; a impermeabilidade absoluta impediria a captação de energia e matéria necessárias à sobrevivência."
+      },
+      "referencia": {
+        "paginas": [20, 21, 29],
+        "fundamentacao": "Páginas 20, 21 e 29.",
+        "trechos_apoio": [
+          "Organização: Estrutura celular e compartimentalização.",
+          "Protocélulas: Vesículas lipídicas capazes de encapsular reações e manter um meio interno relativamente protegido."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_01_q024",
+      "slide_id": "origem_vida_aula_01",
+      "slide_nome": "Aula 01 - Introdução à Origem da Vida",
+      "arquivo_origem": "Aula 01 - Introdução a Origem da Vida_261003_213324 (1).pdf",
+      "numero": 24,
+      "tema": "Hipóteses sobre a Origem da Vida",
+      "subtema": "Panspermia e Origem dos Precursores",
+      "enunciado": "O material didático apresenta a hipótese da Panspermia como uma das correntes teóricas discutidas na astrobiologia. Em seu sentido científico moderno mais aceito, essa hipótese sugere que:",
+      "alternativas": {
+        "A": "Seres humanos modernos foram transportados de outros sistemas estelares para a Terra há 4,54 bilhões de anos.",
+        "B": "Moléculas orgânicas precursoras ou blocos construtivos da vida teriam chegado à Terra trazidos por meteoritos e cometas.",
+        "C": "A vida surgiu na Terra porque as condições físico-químicas locais eram completamente estéreis e sem energia.",
+        "D": "As bactérias patogênicas atuais são originadas exclusivamente na poeira espacial da Lua."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a linhagem humana surgiu há poucos milhões de anos na Terra; a panspermia científica não defende o transporte de civilizações ou mamíferos espaciais.",
+        "B": "Correta: a versão moderna da panspermia (ou panspermia molecular) propõe que corpos celestes, como meteoritos e cometas com água e compostos de carbono, enriqueceram o inventário de precursores orgânicos na Terra primitiva.",
+        "C": "Incorreta: a Terra primitiva possuía intensa atividade energética (calor geotérmico, descargas elétricas e radiação UV) que sustentava ativamente a química local.",
+        "D": "Incorreta: as bactérias patogênicas evoluíram na própria Terra ao longo de bilhões de anos junto com os seus hospedeiros ecológicos."
+      },
+      "referencia": {
+        "paginas": [29],
+        "fundamentacao": "Página 29.",
+        "trechos_apoio": [
+          "Panspermia: Transporte de moléculas orgânicas prebióticas (ou, em versões mais radicais, de microrganismos) a partir de cometas e meteoritos."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_01_q025",
+      "slide_id": "origem_vida_aula_01",
+      "slide_nome": "Aula 01 - Introdução à Origem da Vida",
+      "arquivo_origem": "Aula 01 - Introdução a Origem da Vida_261003_213324 (1).pdf",
+      "numero": 25,
+      "tema": "Conexão com a Prática Biomédica",
+      "subtema": "Aplicações da Origem da Vida na Saúde",
+      "enunciado": "A compreensão dos mecanismos de química prebiótica, compartimentalização e do Mundo de RNA conecta-se diretamente à prática e pesquisa em Biomedicina porque:",
+      "alternativas": {
+        "A": "Fornece as bases moleculares para compreender a fisiologia celular, terapias gênicas baseadas em RNA e alvos terapêuticos em patógenos.",
+        "B": "Substitui as diretrizes de assepsia e esterilização hospitalar pela crença na geração espontânea de novos vírus.",
+        "C": "Permite isolar o oxigênio atmosférico atual para recriar o clima anóxico nos leitos de internação clínica.",
+        "D": "Desconsidera os mecanismos de regulação enzimática em favor de princípios vitais imutáveis."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: o estudo das origens celulares elucida a universalidade do código genético, o papel regulatório e catalítico de RNAs não codificadores (como em vacinas e fármacos de RNA), e a integridade de membranas lipídicas contra patógenos.",
+        "B": "Incorreta: as rotinas biomédicas de esterilização e controle de infecção apoiam-se rigorosamente na biogênese comprovada por Pasteur, refutando a geração espontânea.",
+        "C": "Incorreta: as terapias respiratórias e o manejo clínico exigem fornecimento adequado de oxigênio aos tecidos, e não a indução de um ambiente asfixiante anóxico.",
+        "D": "Incorreta: a biomedicina apoia-se inteiramente na cinética bioquímica e no metabolismo molecular, rejeitando conceitos vitalistas abstratos."
+      },
+      "referencia": {
+        "paginas": [31],
+        "fundamentacao": "Página 31.",
+        "trechos_apoio": [
+          "Por que isso importa para a Biomedicina? Base molecular comum de toda a vida na Terra. Entendimento da membrana celular como limite funcional e terapêutico. Papel central dos ácidos nucleicos em diagnóstico e terapia. Relação entre química, energia e fisiologia. Visão crítica: ciência não trabalha com verdades absolutas, mas com modelos testáveis."
+        ]
+      }
+    }
+  ]
+}

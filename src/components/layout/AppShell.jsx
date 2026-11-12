@@ -1,139 +1,129 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useState } from 'react'
 import { NavLink, Outlet, useLocation } from 'react-router-dom'
-import { getDisciplineById, getMaterialBySlideId } from '../../data/aula7Materials'
-import { UI_STATE_CHANGE_EVENT, loadSavedUiState } from '../../services/materialProgressStore'
 
-const LINKS = [
-  { to: '/', label: 'Disciplinas', icon: '🏛️' },
-  { to: '/materias', label: 'Materiais', icon: '📚' },
-  { to: '/revisao', label: 'Revisão', icon: '🔁' },
-  { to: '/erros', label: 'Erros', icon: '📝' },
+const PRIMARY_LINKS = [
+  { to: '/', label: 'Materiais', icon: '📁' },
+  { to: '/progresso', label: 'Meu progresso', icon: '📈' },
+]
+
+const SECONDARY_LINKS = [
+  { to: '/revisao', label: 'Revisão espaçada', icon: '🔁' },
+  { to: '/erros', label: 'Caderno de erros', icon: '📝' },
   { to: '/simulado', label: 'Simulado', icon: '📋' },
-  { to: '/progresso', label: 'Progresso', icon: '📈' },
+  { to: '/conta', label: 'Data da prova', icon: '📅' },
 ]
 
 export default function AppShell() {
   const location = useLocation()
-  const [uiState, setUiState] = useState(() => loadSavedUiState())
+  const [moreOpen, setMoreOpen] = useState(false)
 
-  useEffect(() => {
-    function handleUiChange(event) {
-      if (event?.detail) {
-        setUiState(event.detail)
-      } else {
-        setUiState(loadSavedUiState())
-      }
-    }
-    window.addEventListener(UI_STATE_CHANGE_EVENT, handleUiChange)
-    return () => window.removeEventListener(UI_STATE_CHANGE_EVENT, handleUiChange)
-  }, [])
+  const isMaterialsActive =
+    location.pathname === '/' ||
+    location.pathname.startsWith('/disciplinas') ||
+    location.pathname.startsWith('/materiais') ||
+    location.pathname.startsWith('/materias') ||
+    location.pathname.startsWith('/estudar')
 
-  const headerContext = useMemo(() => {
-    const currentUiState = uiState || loadSavedUiState()
-    const path = location.pathname || '/'
-    const matMatch = path.match(/^\/(?:materiais|materias)\/([^/]+)/)
-    const discMatch = path.match(/^\/disciplinas\/([^/]+)/)
-
-    let activeMaterial = null
-    let activeDiscipline = null
-
-    if (matMatch?.[1]) {
-      activeMaterial = getMaterialBySlideId(decodeURIComponent(matMatch[1]))
-      if (activeMaterial) {
-        activeDiscipline = getDisciplineById(activeMaterial.disciplineId)
-      }
-    } else if (discMatch?.[1]) {
-      activeDiscipline = getDisciplineById(decodeURIComponent(discMatch[1]))
-    } else if (path === '/' || path === '/estudar') {
-      if (
-        currentUiState?.selectedSlideId &&
-        currentUiState?.viewMode !== 'disciplines' &&
-        currentUiState?.viewMode !== 'discipline'
-      ) {
-        activeMaterial = getMaterialBySlideId(currentUiState.selectedSlideId)
-        if (activeMaterial) {
-          activeDiscipline = getDisciplineById(activeMaterial.disciplineId)
-        }
-      } else if (
-        currentUiState?.selectedDisciplineId &&
-        currentUiState?.viewMode &&
-        currentUiState.viewMode !== 'disciplines'
-      ) {
-        activeDiscipline = getDisciplineById(currentUiState.selectedDisciplineId)
-      }
-    }
-
-    if (activeMaterial && activeDiscipline) {
-      return {
-        logo: activeDiscipline.icone || '⚕️',
-        title: `Central de Estudos — ${activeDiscipline.nome}`,
-        subtitle: `${activeDiscipline.nome} · ${activeMaterial.nome}`,
-        disciplineName: activeDiscipline.nome,
-        materialName: activeMaterial.nome,
-      }
-    }
-
-    if (activeDiscipline) {
-      return {
-        logo: activeDiscipline.icone || '⚕️',
-        title: `Central de Estudos — ${activeDiscipline.nome}`,
-        subtitle: activeDiscipline.resumoCabecalho,
-        disciplineName: activeDiscipline.nome,
-        materialName: null,
-      }
-    }
-
-    return {
-      logo: '⚕️',
-      title: 'Central de Estudos',
-      subtitle: 'Biomedicina · Bioquímica · Bromatologia · Biofísica',
-      disciplineName: null,
-      materialName: null,
-    }
-  }, [location.pathname, uiState])
-
-  useEffect(() => {
-    if (headerContext.materialName && headerContext.disciplineName) {
-      document.title = `${headerContext.disciplineName} · ${headerContext.materialName} | Central de Estudos`
-    } else if (headerContext.disciplineName) {
-      document.title = `${headerContext.disciplineName} | Central de Estudos`
-    } else {
-      document.title = 'Central de Estudos — Biomedicina'
-    }
-  }, [headerContext])
+  const isSecondaryActive = SECONDARY_LINKS.some((link) =>
+    location.pathname.startsWith(link.to),
+  )
 
   return (
     <div className="wrap">
       <header className="site-header" data-testid="site-header">
-        <div className="brand">
-          <div className="logo">{headerContext.logo}</div>
+        <NavLink to="/" className="brand" style={{ textDecoration: 'none' }}>
+          <div className="logo" aria-hidden="true">
+            ⚕️
+          </div>
           <div>
-            <h1 data-testid="site-header-title">{headerContext.title}</h1>
+            <h1 data-testid="site-header-title">Biomedicina</h1>
             <div className="sub" data-testid="site-header-subtitle">
-              {headerContext.subtitle}
+              2º período · Materiais e apostilas
             </div>
           </div>
-        </div>
+        </NavLink>
+
         <div className="header-tools">
-          <nav className="top-nav">
-            {LINKS.map((link) => (
-              <NavLink key={link.to} to={link.to} end={link.to === '/'}>
-                {link.label}
-              </NavLink>
-            ))}
-            <NavLink to="/conta">Prova</NavLink>
+          <nav className="top-nav" aria-label="Navegação principal">
+            <NavLink
+              to="/"
+              end
+              className={() => (isMaterialsActive ? 'active' : '')}
+              data-testid="nav-materiais"
+            >
+              📁 Materiais
+            </NavLink>
+            <NavLink to="/progresso" data-testid="nav-progresso">
+              📈 Meu progresso
+            </NavLink>
+
+            <div className="secondary-menu-wrap">
+              <button
+                type="button"
+                className={`ghost ${isSecondaryActive || moreOpen ? 'active' : ''}`}
+                data-testid="nav-mais-ferramentas"
+                onClick={() => setMoreOpen((prev) => !prev)}
+              >
+                Mais opções ▾
+              </button>
+              {moreOpen ? (
+                <div className="secondary-dropdown" data-testid="secondary-nav-dropdown">
+                  {SECONDARY_LINKS.map((link) => (
+                    <NavLink
+                      key={link.to}
+                      to={link.to}
+                      className="secondary-dropdown-item"
+                      onClick={() => setMoreOpen(false)}
+                    >
+                      <span>{link.icon}</span>
+                      <span>{link.label}</span>
+                    </NavLink>
+                  ))}
+                </div>
+              ) : null}
+            </div>
           </nav>
-          <div className="pill">salvo neste navegador</div>
         </div>
       </header>
+
       <Outlet />
-      <nav className="mobile-nav">
-        {LINKS.map((link) => (
-          <NavLink key={link.to} to={link.to} end={link.to === '/'}>
-            {link.icon}
+
+      {/* Área secundária discreta no rodapé para acesso rápido às demais ferramentas */}
+      <footer className="secondary-footer" aria-label="Outras ferramentas de estudo">
+        <span className="muted" style={{ fontSize: 12 }}>
+          Outras ferramentas:
+        </span>
+        <div className="secondary-footer-links">
+          {SECONDARY_LINKS.map((link) => (
+            <NavLink key={link.to} to={link.to} className="secondary-footer-link">
+              {link.icon} {link.label}
+            </NavLink>
+          ))}
+        </div>
+      </footer>
+
+      <nav className="mobile-nav" aria-label="Navegação móvel">
+        {PRIMARY_LINKS.map((link) => (
+          <NavLink
+            key={link.to}
+            to={link.to}
+            end={link.to === '/'}
+            className={({ isActive }) =>
+              (link.to === '/' && isMaterialsActive) || isActive ? 'active' : ''
+            }
+          >
+            <span>{link.icon}</span>
             <div>{link.label}</div>
           </NavLink>
         ))}
+        <button
+          type="button"
+          className={`mobile-more-btn ${isSecondaryActive || moreOpen ? 'active' : ''}`}
+          onClick={() => setMoreOpen((prev) => !prev)}
+        >
+          <span>⋯</span>
+          <div>Mais</div>
+        </button>
       </nav>
     </div>
   )
