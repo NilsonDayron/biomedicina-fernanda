@@ -17,6 +17,7 @@ export default function App() {
       <Route path="/login" element={<LoginPage />} />
       <Route element={<PrivateLayout />}>
         <Route path="/" element={<HomePage />} />
+        <Route path="/disciplinas/:disciplineId" element={<HomePage />} />
         <Route path="/materiais/:slideId" element={<HomePage />} />
         <Route path="/estudar" element={<StudyPage />} />
         <Route path="/materias" element={<SubjectsPage />} />

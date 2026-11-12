@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import { Navigate } from 'react-router-dom'
 import { useAuth } from '../context/AuthContext'
-import { QUESTIONS } from '../data/questions'
 import { isCloudSyncEnabled } from '../firebase/config'
 
 export default function LoginPage() {
@@ -36,8 +35,8 @@ export default function LoginPage() {
         <div className="brand" style={{ marginBottom: 8 }}>
           <div className="logo">⚕️</div>
           <div>
-            <h1>Bioquímica</h1>
-            <p className="sub">Treino adaptativo V4 · {QUESTIONS.length} questões</p>
+            <h1>Central de Estudos</h1>
+            <p className="sub">Biomedicina · Bioquímica · Bromatologia · Biofísica</p>
           </div>
         </div>
         <h2>Sincronizar entre aparelhos</h2>

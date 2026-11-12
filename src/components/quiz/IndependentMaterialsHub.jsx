@@ -1,9 +1,10 @@
 import { useEffect, useMemo, useState } from 'react'
 import {
-  INDEPENDENT_MATERIALS,
+  DISCIPLINES,
   LETTER_KEYS,
   generateShuffledOptionOrder,
   generateThreeReinforcementOptionOrders,
+  getDisciplineById,
   getMaterialBySlideId,
   getQuestionsBySlideId,
   mapQuestionWithOptionOrder,
@@ -73,73 +74,127 @@ function normalizeSavedSession(saved, slideId) {
   }
 }
 
-export default function IndependentMaterialsHub({ initialSlideId = null }) {
+export default function IndependentMaterialsHub({
+  initialDisciplineId = null,
+  initialSlideId = null,
+  onLegacyAnswer = null,
+}) {
   const [progressByMaterial, setProgressByMaterial] = useState(() => loadAllMaterialsProgress())
 
   const initialState = useMemo(() => {
     const allProg = loadAllMaterialsProgress()
     const savedUi = loadSavedUiState()
-    const targetSlideId =
-      (initialSlideId && getMaterialBySlideId(initialSlideId) ? initialSlideId : null) ||
-      (savedUi?.selectedSlideId && getMaterialBySlideId(savedUi.selectedSlideId)
-        ? savedUi.selectedSlideId
-        : null)
 
-    if (targetSlideId) {
-      const savedSess = normalizeSavedSession(allProg[targetSlideId]?.sessaoAtiva, targetSlideId)
-      if (savedUi?.viewMode === 'session' && savedSess) {
-        return {
-          slideId: targetSlideId,
-          viewMode: 'session',
-          session: savedSess,
+    // 1. Se veio um slideId explícito na rota (/materiais/:slideId ou /materias/:topicId)
+    if (initialSlideId) {
+      const mat = getMaterialBySlideId(initialSlideId)
+      if (mat) {
+        const savedSess = normalizeSavedSession(allProg[mat.slide_id]?.sessaoAtiva, mat.slide_id)
+        if (savedUi?.selectedSlideId === mat.slide_id && savedUi?.viewMode === 'session' && savedSess) {
+          return {
+            disciplineId: mat.disciplineId,
+            slideId: mat.slide_id,
+            viewMode: 'session',
+            desiredCount: mat.totalValidas,
+            session: savedSess,
+          }
         }
-      }
-      if (initialSlideId) {
         return {
-          slideId: targetSlideId,
+          disciplineId: mat.disciplineId,
+          slideId: mat.slide_id,
           viewMode: 'config',
-          session: null,
-        }
-      }
-      if (savedUi?.viewMode === 'config') {
-        return {
-          slideId: targetSlideId,
-          viewMode: 'config',
+          desiredCount: mat.totalValidas,
           session: null,
         }
       }
     }
+
+    // 2. Se veio uma disciplina explícita na rota (/disciplinas/:disciplineId)
+    if (initialDisciplineId) {
+      const disc = getDisciplineById(initialDisciplineId)
+      if (disc) {
+        return {
+          disciplineId: disc.id,
+          slideId: null,
+          viewMode: 'discipline',
+          desiredCount: 10,
+          session: null,
+        }
+      }
+    }
+
+    // 3. Restaura estado salvo da UI (após reload da página)
+    if (savedUi?.selectedSlideId) {
+      const mat = getMaterialBySlideId(savedUi.selectedSlideId)
+      if (mat) {
+        const savedSess = normalizeSavedSession(allProg[mat.slide_id]?.sessaoAtiva, mat.slide_id)
+        if (savedUi.viewMode === 'session' && savedSess) {
+          return {
+            disciplineId: mat.disciplineId,
+            slideId: mat.slide_id,
+            viewMode: 'session',
+            desiredCount: mat.totalValidas,
+            session: savedSess,
+          }
+        }
+        if (savedUi.viewMode === 'config') {
+          return {
+            disciplineId: mat.disciplineId,
+            slideId: mat.slide_id,
+            viewMode: 'config',
+            desiredCount: mat.totalValidas,
+            session: null,
+          }
+        }
+      }
+    }
+
+    if (savedUi?.selectedDisciplineId && savedUi?.viewMode === 'discipline') {
+      const disc = getDisciplineById(savedUi.selectedDisciplineId)
+      if (disc) {
+        return {
+          disciplineId: disc.id,
+          slideId: null,
+          viewMode: 'discipline',
+          desiredCount: 10,
+          session: null,
+        }
+      }
+    }
+
     return {
+      disciplineId: null,
       slideId: null,
-      viewMode: 'list',
+      viewMode: 'disciplines',
+      desiredCount: 10,
       session: null,
     }
-  }, [initialSlideId])
+  }, [initialDisciplineId, initialSlideId])
 
+  const [selectedDisciplineId, setSelectedDisciplineId] = useState(initialState.disciplineId)
   const [selectedSlideId, setSelectedSlideId] = useState(initialState.slideId)
   const [viewMode, setViewMode] = useState(initialState.viewMode)
-  const [desiredCount, setDesiredCount] = useState(10)
+  const [desiredCount, setDesiredCount] = useState(initialState.desiredCount)
   const [session, setSession] = useState(initialState.session)
 
   useEffect(() => {
-    if (initialSlideId && getMaterialBySlideId(initialSlideId)) {
-      setSelectedSlideId((prev) => {
-        if (prev !== initialSlideId) {
-          setDesiredCount(getMaterialBySlideId(initialSlideId).totalValidas)
-          setSession(null)
-          setViewMode('config')
-          saveUiState({ selectedSlideId: initialSlideId, viewMode: 'config' })
-          window.scrollTo({ top: 0, behavior: 'smooth' })
-        }
-        return initialSlideId
-      })
-    }
-  }, [initialSlideId])
+    saveUiState({
+      selectedDisciplineId: initialState.disciplineId,
+      selectedSlideId: initialState.slideId,
+      viewMode: initialState.viewMode,
+    })
+  }, [initialState.disciplineId, initialState.slideId, initialState.viewMode])
 
   const activeMaterial = useMemo(
     () => (selectedSlideId ? getMaterialBySlideId(selectedSlideId) : null),
     [selectedSlideId],
   )
+
+  const activeDiscipline = useMemo(() => {
+    if (activeMaterial) return getDisciplineById(activeMaterial.disciplineId)
+    if (selectedDisciplineId) return getDisciplineById(selectedDisciplineId)
+    return null
+  }, [activeMaterial, selectedDisciplineId])
 
   const activeMaterialQuestions = useMemo(
     () => (selectedSlideId ? getQuestionsBySlideId(selectedSlideId) : []),
@@ -207,18 +262,7 @@ export default function IndependentMaterialsHub({ initialSlideId = null }) {
       !viewedSavedResponse.reflexaoSalva,
   )
 
-  function openMaterial(slideId) {
-    const material = getMaterialBySlideId(slideId)
-    if (!material) return
-    setSelectedSlideId(slideId)
-    setDesiredCount(material.totalValidas)
-    setSession(null)
-    setViewMode('config')
-    saveUiState({ selectedSlideId: slideId, viewMode: 'config' })
-    window.scrollTo({ top: 0, behavior: 'smooth' })
-  }
-
-  function backToInitialList() {
+  function persistActiveSessionBeforeLeaving() {
     if (selectedSlideId && session && viewMode === 'session') {
       setProgressByMaterial((prev) =>
         saveMaterialActiveSession(prev, selectedSlideId, {
@@ -227,10 +271,77 @@ export default function IndependentMaterialsHub({ initialSlideId = null }) {
         }),
       )
     }
+  }
+
+  function openDiscipline(disciplineId) {
+    const disc = getDisciplineById(disciplineId)
+    if (!disc) return
+    persistActiveSessionBeforeLeaving()
+    setSelectedDisciplineId(disc.id)
     setSelectedSlideId(null)
     setSession(null)
-    setViewMode('list')
-    saveUiState({ selectedSlideId: null, viewMode: 'list' })
+    setViewMode('discipline')
+    saveUiState({
+      selectedDisciplineId: disc.id,
+      selectedSlideId: null,
+      viewMode: 'discipline',
+    })
+    window.scrollTo({ top: 0, behavior: 'smooth' })
+  }
+
+  function backToDisciplines() {
+    persistActiveSessionBeforeLeaving()
+    setSelectedDisciplineId(null)
+    setSelectedSlideId(null)
+    setSession(null)
+    setViewMode('disciplines')
+    saveUiState({
+      selectedDisciplineId: null,
+      selectedSlideId: null,
+      viewMode: 'disciplines',
+    })
+    window.scrollTo({ top: 0, behavior: 'smooth' })
+  }
+
+  function openMaterial(slideId) {
+    const material = getMaterialBySlideId(slideId)
+    if (!material) return
+    persistActiveSessionBeforeLeaving()
+    setSelectedDisciplineId(material.disciplineId)
+    setSelectedSlideId(slideId)
+    setDesiredCount(material.totalValidas)
+    setSession(null)
+    setViewMode('config')
+    saveUiState({
+      selectedDisciplineId: material.disciplineId,
+      selectedSlideId: slideId,
+      viewMode: 'config',
+    })
+    window.scrollTo({ top: 0, behavior: 'smooth' })
+  }
+
+  function backToDisciplineMaterials() {
+    persistActiveSessionBeforeLeaving()
+    const targetDiscId = activeMaterial?.disciplineId || selectedDisciplineId
+    setSelectedSlideId(null)
+    setSession(null)
+    if (targetDiscId && getDisciplineById(targetDiscId)) {
+      setSelectedDisciplineId(targetDiscId)
+      setViewMode('discipline')
+      saveUiState({
+        selectedDisciplineId: targetDiscId,
+        selectedSlideId: null,
+        viewMode: 'discipline',
+      })
+    } else {
+      setSelectedDisciplineId(null)
+      setViewMode('disciplines')
+      saveUiState({
+        selectedDisciplineId: null,
+        selectedSlideId: null,
+        viewMode: 'disciplines',
+      })
+    }
     window.scrollTo({ top: 0, behavior: 'smooth' })
   }
 
@@ -248,6 +359,8 @@ export default function IndependentMaterialsHub({ initialSlideId = null }) {
     const nextSession = {
       sessionId: `sess_${selectedSlideId}_${Date.now()}`,
       modo: mode,
+      disciplineId: activeMaterial.disciplineId,
+      disciplineNome: activeMaterial.disciplineNome,
       slide_id: selectedSlideId,
       slide_nome: activeMaterial.nome,
       initialCount: clampedCount,
@@ -265,7 +378,11 @@ export default function IndependentMaterialsHub({ initialSlideId = null }) {
 
     setSession(nextSession)
     setViewMode('session')
-    saveUiState({ selectedSlideId, viewMode: 'session' })
+    saveUiState({
+      selectedDisciplineId: activeMaterial.disciplineId,
+      selectedSlideId,
+      viewMode: 'session',
+    })
     setProgressByMaterial((prev) =>
       saveMaterialActiveSession(prev, selectedSlideId, nextSession, {
         ultimaOrdemQuestoesIds: newOrderIds,
@@ -283,7 +400,11 @@ export default function IndependentMaterialsHub({ initialSlideId = null }) {
     if (!saved) return
     setSession(saved)
     setViewMode('session')
-    saveUiState({ selectedSlideId, viewMode: 'session' })
+    saveUiState({
+      selectedDisciplineId: activeMaterial?.disciplineId || selectedDisciplineId,
+      selectedSlideId,
+      viewMode: 'session',
+    })
     window.scrollTo({ top: 0, behavior: 'smooth' })
   }
 
@@ -344,6 +465,8 @@ export default function IndependentMaterialsHub({ initialSlideId = null }) {
       questaoId: currentQuestion.id,
       numeroOriginal: currentQuestion.numero,
       posicaoSessao: viewIndex + 1,
+      disciplineId: activeMaterial?.disciplineId || currentQuestion.disciplineId,
+      disciplineNome: activeMaterial?.disciplineNome || currentQuestion.disciplineNome,
       slide_id: currentQuestion.slide_id,
       slide_nome: currentQuestion.slide_nome,
       tema: currentQuestion.tema,
@@ -388,6 +511,10 @@ export default function IndependentMaterialsHub({ initialSlideId = null }) {
       })
       return saveMaterialActiveSession(afterAnswer, selectedSlideId, updatedSession)
     })
+
+    if (onLegacyAnswer && currentQuestion.rawQuestion) {
+      onLegacyAnswer(currentQuestion.rawQuestion, { ok: acertou, explainedBefore: false })
+    }
   }
 
   function handleReflectionDraftChange(text) {
@@ -469,7 +596,11 @@ export default function IndependentMaterialsHub({ initialSlideId = null }) {
         return completeMaterialSession(afterRef, selectedSlideId, resumo)
       })
       setViewMode('summary')
-      saveUiState({ selectedSlideId, viewMode: 'summary' })
+      saveUiState({
+        selectedDisciplineId: activeMaterial?.disciplineId || selectedDisciplineId,
+        selectedSlideId,
+        viewMode: 'summary',
+      })
       window.scrollTo({ top: 0, behavior: 'smooth' })
       return
     }
@@ -504,7 +635,6 @@ export default function IndependentMaterialsHub({ initialSlideId = null }) {
   function handleNextQuestion() {
     if (!session) return
 
-    // Se estiver revisando uma questão anterior no histórico, avança pelo histórico até retornar à questão atual
     if (viewIndex < session.currentIndex) {
       const nextViewIdx = viewIndex + 1
       const updatedSession = {
@@ -519,7 +649,6 @@ export default function IndependentMaterialsHub({ initialSlideId = null }) {
       return
     }
 
-    // Na questão atual: exige resposta confirmada e, se for erro inicial, exige reflexão salva
     if (!confirmedOption || requiresReflectionBeforeAdvance) return
 
     const nextIdx = session.currentIndex + 1
@@ -535,7 +664,11 @@ export default function IndependentMaterialsHub({ initialSlideId = null }) {
       }
       setProgressByMaterial((prev) => completeMaterialSession(prev, selectedSlideId, resumo))
       setViewMode('summary')
-      saveUiState({ selectedSlideId, viewMode: 'summary' })
+      saveUiState({
+        selectedDisciplineId: activeMaterial?.disciplineId || selectedDisciplineId,
+        selectedSlideId,
+        viewMode: 'summary',
+      })
       window.scrollTo({ top: 0, behavior: 'smooth' })
       return
     }
@@ -556,24 +689,239 @@ export default function IndependentMaterialsHub({ initialSlideId = null }) {
     setProgressByMaterial((prev) => resetMaterialProgress(prev, slideId))
   }
 
-  if (viewMode === 'list' || !activeMaterial) {
+  // ============================================================================
+  // NÍVEL 1: TELA INICIAL — CENTRAL DE ESTUDOS (CARTÕES POR DISCIPLINA)
+  // ============================================================================
+  if (viewMode === 'disciplines' || (!activeDiscipline && !activeMaterial)) {
     return (
-      <section className="card" style={{ padding: 24, marginBottom: 24 }}>
-        <div className="page-head" style={{ marginBottom: 16 }}>
+      <section className="card" style={{ padding: 24, marginBottom: 24 }} data-testid="central-estudos-view">
+        <div className="page-head" style={{ marginBottom: 20 }}>
           <div>
             <span className="tag ok" style={{ fontSize: 12, padding: '4px 10px', marginBottom: 8 }}>
-              Materiais Independentes · Aula 7
+              Disciplina → Material / Apostila → Questões
             </span>
-            <h2>Escolha o material de estudo</h2>
-            <p>
-              Cada material abaixo é independente, separado pelo identificador <code>slide_id</code>, com seu próprio
-              banco de questões, embaralhamento de questões e alternativas, revisão escrita e histórico individual.
+            <h2 data-testid="central-estudos-title" style={{ fontSize: 28, margin: '4px 0 8px' }}>
+              Central de Estudos
+            </h2>
+            <p style={{ maxWidth: 820, lineHeight: 1.55 }}>
+              Selecione uma disciplina abaixo para acessar exclusivamente suas apostilas e seu banco de questões. O
+              progresso, as reflexões escritas e as sessões em andamento são salvos separadamente por material.
             </p>
           </div>
         </div>
 
-        <div className="grid-2" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', gap: 18 }}>
-          {INDEPENDENT_MATERIALS.map((material) => {
+        <div
+          className="grid-2"
+          style={{
+            gridTemplateColumns: 'repeat(auto-fit, minmax(310px, 1fr))',
+            gap: 18,
+          }}
+        >
+          {DISCIPLINES.map((disc) => {
+            let respondidasUnicas = 0
+            let totalRespostas = 0
+            let totalAcertos = 0
+            let totalReflexoes = 0
+            let sessoesAtivasCount = 0
+
+            for (const mat of disc.materials) {
+              const p = progressByMaterial[mat.slide_id]
+              if (p) {
+                respondidasUnicas += p.respondidasIds?.length || 0
+                totalRespostas += p.totalRespostas || 0
+                totalAcertos += p.acertos || 0
+                totalReflexoes += p.reflexoes?.length || 0
+                if (p.sessaoAtiva) sessoesAtivasCount += 1
+              }
+            }
+
+            const taxaAcerto = totalRespostas ? Math.round((totalAcertos / totalRespostas) * 100) : 0
+            const pctConcluido = disc.totalQuestoes
+              ? Math.round((respondidasUnicas / disc.totalQuestoes) * 100)
+              : 0
+
+            return (
+              <article
+                key={disc.id}
+                data-testid={`card-disciplina-${disc.id}`}
+                className="subject-card"
+                style={{
+                  display: 'flex',
+                  flexDirection: 'column',
+                  justifyContent: 'space-between',
+                  padding: 22,
+                  border: '1px solid #2e6472',
+                  background: 'linear-gradient(180deg, #0e2d36, #081e25)',
+                }}
+              >
+                <div>
+                  <div className="row" style={{ flexWrap: 'wrap', gap: 8, marginBottom: 10 }}>
+                    <span className="pill" style={{ fontSize: 11 }}>
+                      {disc.codigoCurricular}
+                    </span>
+                    <span className="tag ok" style={{ fontSize: 11 }}>
+                      {disc.totalMateriais} {disc.totalMateriais === 1 ? 'material' : 'materiais'} · {disc.totalQuestoes}{' '}
+                      questões
+                    </span>
+                  </div>
+
+                  <h3 style={{ margin: '6px 0 8px', fontSize: 24, lineHeight: 1.25 }}>
+                    <span style={{ marginRight: 8 }}>{disc.icone}</span>
+                    {disc.nome}
+                  </h3>
+
+                  <p className="muted" style={{ fontSize: 13, lineHeight: 1.5, marginBottom: 14 }}>
+                    {disc.descricao}
+                  </p>
+
+                  <div
+                    style={{
+                      background: '#071920',
+                      border: '1px solid #1e4550',
+                      borderRadius: 12,
+                      padding: 12,
+                      marginBottom: 14,
+                    }}
+                  >
+                    <div style={{ fontSize: 12, fontWeight: 700, color: '#9fc8cc', marginBottom: 8 }}>
+                      Materiais disponíveis em {disc.nome}:
+                    </div>
+                    <div style={{ display: 'flex', flexDirection: 'column', gap: 6 }}>
+                      {disc.materials.slice(0, 4).map((mat) => (
+                        <div
+                          key={mat.slide_id}
+                          className="row"
+                          style={{ fontSize: 12, color: '#dffafa', gap: 8 }}
+                        >
+                          <span style={{ overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
+                            • {mat.nome}
+                          </span>
+                          <b style={{ color: '#8af3b1', flexShrink: 0 }}>{mat.totalValidas} q.</b>
+                        </div>
+                      ))}
+                      {disc.materials.length > 4 ? (
+                        <div className="muted" style={{ fontSize: 11 }}>
+                          + {disc.materials.length - 4} outros materiais de {disc.nome}
+                        </div>
+                      ) : null}
+                    </div>
+                  </div>
+
+                  <div
+                    style={{
+                      background: '#071920',
+                      border: '1px solid #1e4550',
+                      borderRadius: 12,
+                      padding: 12,
+                      marginBottom: 16,
+                    }}
+                  >
+                    <div className="row" style={{ fontSize: 12, marginBottom: 6 }}>
+                      <span>Progresso em {disc.nome}</span>
+                      <b>
+                        {respondidasUnicas}/{disc.totalQuestoes} questões ({pctConcluido}%)
+                      </b>
+                    </div>
+                    <div className="mini-progress" style={{ marginBottom: 8 }}>
+                      <i style={{ width: `${pctConcluido}%` }} />
+                    </div>
+                    <div className="row" style={{ fontSize: 12, color: '#9fc8cc', flexWrap: 'wrap' }}>
+                      <span>
+                        Acertos: <b style={{ color: '#8af3b1' }}>{totalAcertos}</b> · Reflexões:{' '}
+                        <b style={{ color: '#ffd166' }}>{totalReflexoes}</b>
+                      </span>
+                      <span>
+                        Aproveitamento: <b style={{ color: '#fff' }}>{taxaAcerto}%</b>
+                      </span>
+                    </div>
+                    {sessoesAtivasCount > 0 ? (
+                      <div style={{ marginTop: 8, fontSize: 12, color: '#ffd166' }}>
+                        ● {sessoesAtivasCount}{' '}
+                        {sessoesAtivasCount === 1
+                          ? 'sessão em andamento salva nesta disciplina'
+                          : 'sessões em andamento salvas nesta disciplina'}
+                      </div>
+                    ) : null}
+                  </div>
+                </div>
+
+                <div className="actions" style={{ marginTop: 4 }}>
+                  <button
+                    type="button"
+                    data-testid={`btn-abrir-disciplina-${disc.id}`}
+                    className="primary"
+                    style={{ width: '100%', padding: '13px 16px', fontSize: 15 }}
+                    onClick={() => openDiscipline(disc.id)}
+                  >
+                    Abrir {disc.nome} ({disc.totalMateriais}{' '}
+                    {disc.totalMateriais === 1 ? 'material' : 'materiais'} · {disc.totalQuestoes} questões)
+                  </button>
+                </div>
+              </article>
+            )
+          })}
+        </div>
+      </section>
+    )
+  }
+
+  // ============================================================================
+  // NÍVEL 2: DISCIPLINA SELECIONADA — LISTA DE MATERIAIS / APOSTILAS
+  // ============================================================================
+  if (viewMode === 'discipline' || !activeMaterial) {
+    return (
+      <section className="card" style={{ padding: 24, marginBottom: 24 }} data-testid="discipline-materials-view">
+        <div
+          className="quiz-actions"
+          style={{
+            marginBottom: 16,
+            paddingBottom: 14,
+            borderBottom: '1px solid #1f4854',
+            flexWrap: 'wrap',
+            gap: 10,
+          }}
+        >
+          <button
+            type="button"
+            data-testid="btn-voltar-disciplinas"
+            className="ghost"
+            onClick={backToDisciplines}
+          >
+            ← Voltar para Disciplinas (Central de Estudos)
+          </button>
+          <span className="pill" data-testid="breadcrumb-discipline">
+            Central de Estudos → <b>{activeDiscipline.nome}</b>
+          </span>
+        </div>
+
+        <div className="page-head" style={{ marginBottom: 18 }}>
+          <div>
+            <span className="tag ok" style={{ fontSize: 12, padding: '4px 10px', marginBottom: 8 }}>
+              Disciplina selecionada · {activeDiscipline.codigoCurricular}
+            </span>
+            <h2 data-testid="active-discipline-title" style={{ fontSize: 28, margin: '4px 0 8px' }}>
+              {activeDiscipline.icone} {activeDiscipline.nome}
+            </h2>
+            <p style={{ maxWidth: 820, lineHeight: 1.55 }}>
+              {activeDiscipline.descricao} Mostrando exclusivamente{' '}
+              <b>
+                {activeDiscipline.totalMateriais}{' '}
+                {activeDiscipline.totalMateriais === 1 ? 'material' : 'materiais'} ({activeDiscipline.totalQuestoes}{' '}
+                questões válidas)
+              </b>{' '}
+              desta disciplina.
+            </p>
+          </div>
+        </div>
+
+        <div
+          className="grid-2"
+          style={{
+            gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))',
+            gap: 18,
+          }}
+        >
+          {activeDiscipline.materials.map((material) => {
             const prog =
               progressByMaterial[material.slide_id] || createEmptyMaterialProgress(material.slide_id)
             const respondidasUnicas = prog.respondidasIds?.length || 0
@@ -600,26 +948,47 @@ export default function IndependentMaterialsHub({ initialSlideId = null }) {
                 <div>
                   <div className="row" style={{ flexWrap: 'wrap', gap: 8, marginBottom: 10 }}>
                     <span className="pill" style={{ fontSize: 11 }}>
-                      ID: <code>{material.slide_id}</code>
+                      Disciplina: <b>{material.disciplineNome}</b>
                     </span>
                     <span className="pill" style={{ fontSize: 11 }}>
-                      Arquivo: <code>{material.file}</code>
+                      ID: <code>{material.slide_id}</code>
                     </span>
-                    <span className={`tag ${material.confirmado10 ? 'ok' : 'bad'}`} style={{ fontSize: 11 }}>
-                      {material.confirmado10
-                        ? `✓ ${material.totalValidas} questões válidas confirmadas`
-                        : `${material.totalValidas} questões válidas`}
+                    <span className="tag ok" style={{ fontSize: 11 }}>
+                      ✓ {material.totalValidas} questões válidas
                     </span>
                   </div>
 
-                  <h3 style={{ margin: '6px 0 8px', fontSize: 21, lineHeight: 1.3 }}>
+                  <h3 style={{ margin: '6px 0 8px', fontSize: 20, lineHeight: 1.3 }}>
                     {material.nome}
                   </h3>
 
-                  <p className="muted" style={{ fontSize: 13, marginBottom: 14 }}>
-                    Quantidade real de questões válidas: <b style={{ color: '#fff' }}>{material.totalValidas} questões</b>{' '}
-                    (importação verificada: {material.totalValidas}/{material.esperado}).
+                  {material.blurb ? (
+                    <p className="muted" style={{ fontSize: 13, lineHeight: 1.45, marginBottom: 10 }}>
+                      {material.blurb}
+                    </p>
+                  ) : null}
+
+                  <p className="muted" style={{ fontSize: 12, marginBottom: 12 }}>
+                    Fonte/Arquivo: <code>{material.file}</code> · Quantidade disponível:{' '}
+                    <b style={{ color: '#fff' }}>{material.totalValidas} questões</b>.
                   </p>
+
+                  {material.classificationNote ? (
+                    <div
+                      style={{
+                        background: '#0b2229',
+                        border: '1px solid #2a5b6c',
+                        borderRadius: 10,
+                        padding: 10,
+                        fontSize: 12,
+                        color: '#bfeaf2',
+                        marginBottom: 12,
+                        lineHeight: 1.45,
+                      }}
+                    >
+                      <b>Nota de classificação:</b> {material.classificationNote}
+                    </div>
+                  ) : null}
 
                   <div
                     style={{
@@ -651,7 +1020,8 @@ export default function IndependentMaterialsHub({ initialSlideId = null }) {
                     </div>
                     {prog.sessaoAtiva ? (
                       <div style={{ marginTop: 8, fontSize: 12, color: '#ffd166' }}>
-                        ● Sessão em andamento salva (Questão {(prog.sessaoAtiva.viewIndex ?? prog.sessaoAtiva.currentIndex) + 1} de{' '}
+                        ● Sessão em andamento salva (Questão{' '}
+                        {(prog.sessaoAtiva.viewIndex ?? prog.sessaoAtiva.currentIndex) + 1} de{' '}
                         {prog.sessaoAtiva.queue.length})
                       </div>
                     ) : null}
@@ -677,6 +1047,9 @@ export default function IndependentMaterialsHub({ initialSlideId = null }) {
     )
   }
 
+  // ============================================================================
+  // NÍVEL 3A: CONFIGURAÇÃO DO MATERIAL / APOSTILA SELECIONADO
+  // ============================================================================
   if (viewMode === 'config') {
     const totalDisponivel = activeMaterialQuestions.length
     const prog =
@@ -684,28 +1057,55 @@ export default function IndependentMaterialsHub({ initialSlideId = null }) {
     const countOptions = Array.from({ length: totalDisponivel }, (_, i) => i + 1)
 
     return (
-      <section className="card" style={{ padding: 24, marginBottom: 24 }}>
-        <div className="quiz-actions" style={{ marginBottom: 16 }}>
-          <button
-            type="button"
-            data-testid="btn-voltar-lista"
-            className="ghost"
-            onClick={backToInitialList}
-          >
-            ← Voltar à lista inicial
-          </button>
-          <span className="pill">
-            Material separado por <code>slide_id: {activeMaterial.slide_id}</code>
+      <section className="card" style={{ padding: 24, marginBottom: 24 }} data-testid="material-config-view">
+        <div
+          className="quiz-actions"
+          style={{
+            marginBottom: 16,
+            paddingBottom: 14,
+            borderBottom: '1px solid #1f4854',
+            flexWrap: 'wrap',
+            gap: 10,
+          }}
+        >
+          <div className="row" style={{ gap: 10, flexWrap: 'wrap' }}>
+            <button
+              type="button"
+              data-testid="btn-voltar-lista"
+              className="ghost"
+              onClick={backToDisciplineMaterials}
+            >
+              ← Voltar aos materiais de {activeMaterial.disciplineNome}
+            </button>
+            <button
+              type="button"
+              data-testid="btn-voltar-disciplinas"
+              className="ghost"
+              onClick={backToDisciplines}
+            >
+              ← Disciplinas
+            </button>
+          </div>
+          <span className="pill" data-testid="breadcrumb-material">
+            <b>{activeMaterial.disciplineNome}</b> → <b>{activeMaterial.nome}</b> (<code>{activeMaterial.slide_id}</code>)
           </span>
         </div>
 
         <div style={{ marginBottom: 20 }}>
-          <div className="topic">MATERIAL SELECIONADO ({activeMaterial.file})</div>
+          <div className="row" style={{ flexWrap: 'wrap', gap: 8, marginBottom: 8 }}>
+            <span className="tag ok" data-testid="active-discipline-badge">
+              Disciplina: {activeMaterial.disciplineNome}
+            </span>
+            <span className="pill" style={{ fontSize: 12 }}>
+              Fonte/Arquivo: <code>{activeMaterial.file}</code>
+            </span>
+          </div>
           <h2 style={{ margin: '6px 0 8px', fontSize: 28 }} data-testid="active-material-title">
             {activeMaterial.nome}
           </h2>
           <p className="muted" style={{ fontSize: 14 }}>
-            Identificador: <code>{activeMaterial.slide_id}</code> · Total carregado exclusivamente deste arquivo:{' '}
+            Disciplina: <b style={{ color: '#fff' }}>{activeMaterial.disciplineNome}</b> · Identificador:{' '}
+            <code>{activeMaterial.slide_id}</code> · Total carregado exclusivamente deste material:{' '}
             <b style={{ color: '#fff' }}>{totalDisponivel} questões válidas</b>.
           </p>
         </div>
@@ -727,8 +1127,8 @@ export default function IndependentMaterialsHub({ initialSlideId = null }) {
               <b style={{ color: '#fff', fontSize: 15 }}>Sessão em andamento disponível neste material</b>
               <div className="muted" style={{ fontSize: 13, marginTop: 4 }}>
                 Você estava na Questão {(prog.sessaoAtiva.viewIndex ?? prog.sessaoAtiva.currentIndex) + 1} de{' '}
-                {prog.sessaoAtiva.queue.length} em <b>{activeMaterial.nome}</b> (ordem das questões, alternativas e
-                respostas preservadas).
+                {prog.sessaoAtiva.queue.length} em <b>{activeMaterial.nome}</b> ({activeMaterial.disciplineNome}) —
+                ordem das questões, alternativas e respostas preservadas.
               </div>
             </div>
             <button
@@ -762,7 +1162,7 @@ export default function IndependentMaterialsHub({ initialSlideId = null }) {
           <div
             style={{
               display: 'grid',
-              gridTemplateColumns: 'repeat(auto-fit, minmax(56px, 1fr))',
+              gridTemplateColumns: 'repeat(auto-fit, minmax(52px, 1fr))',
               gap: 8,
               marginBottom: 16,
             }}
@@ -776,13 +1176,13 @@ export default function IndependentMaterialsHub({ initialSlideId = null }) {
                   data-testid={`select-count-${num}`}
                   onClick={() => setDesiredCount(num)}
                   style={{
-                    padding: '12px 8px',
+                    padding: '10px 8px',
                     borderRadius: 12,
                     border: active ? '2px solid #38d1bd' : '1px solid #28505b',
                     background: active ? '#13404a' : '#0b2229',
                     color: '#fff',
                     fontWeight: 800,
-                    fontSize: 16,
+                    fontSize: 15,
                     cursor: 'pointer',
                   }}
                 >
@@ -849,9 +1249,10 @@ export default function IndependentMaterialsHub({ initialSlideId = null }) {
             <div>
               <b>Histórico salvo para {activeMaterial.nome}</b>
               <div className="muted" style={{ fontSize: 12, marginTop: 4 }}>
-                Questões já praticadas: {prog.respondidasIds?.length || 0}/{totalDisponivel} · Acertos:{' '}
-                {prog.acertos || 0} · Erros: {prog.erros || 0} · Reflexões escritas: {prog.reflexoes?.length || 0} ·
-                Sessões concluídas: {prog.sessoesConcluidas || 0}
+                Disciplina: {activeMaterial.disciplineNome} · Questões já praticadas:{' '}
+                {prog.respondidasIds?.length || 0}/{totalDisponivel} · Acertos: {prog.acertos || 0} · Erros:{' '}
+                {prog.erros || 0} · Reflexões escritas: {prog.reflexoes?.length || 0} · Sessões concluídas:{' '}
+                {prog.sessoesConcluidas || 0}
               </div>
             </div>
             {(prog.totalRespostas || 0) > 0 ? (
@@ -869,6 +1270,9 @@ export default function IndependentMaterialsHub({ initialSlideId = null }) {
     )
   }
 
+  // ============================================================================
+  // NÍVEL 3B: RESUMO DA SESSÃO CONCLUÍDA
+  // ============================================================================
   if (viewMode === 'summary' && session) {
     const total = session.history.length
     const acertos = session.history.filter((h) => h.acertou).length
@@ -877,21 +1281,34 @@ export default function IndependentMaterialsHub({ initialSlideId = null }) {
 
     return (
       <section className="card report" style={{ padding: 24, marginBottom: 24 }}>
-        <div className="quiz-actions" style={{ marginBottom: 14 }}>
-          <button
-            type="button"
-            data-testid="btn-voltar-lista"
-            className="ghost"
-            onClick={backToInitialList}
-          >
-            ← Voltar à lista inicial
-          </button>
+        <div className="quiz-actions" style={{ marginBottom: 14, flexWrap: 'wrap', gap: 10 }}>
+          <div className="row" style={{ gap: 10, flexWrap: 'wrap' }}>
+            <button
+              type="button"
+              data-testid="btn-voltar-lista"
+              className="ghost"
+              onClick={backToDisciplineMaterials}
+            >
+              ← Voltar aos materiais de {activeMaterial.disciplineNome}
+            </button>
+            <button
+              type="button"
+              data-testid="btn-voltar-disciplinas"
+              className="ghost"
+              onClick={backToDisciplines}
+            >
+              ← Disciplinas
+            </button>
+          </div>
           <span className="pill">
-            Material: <b>{activeMaterial.nome}</b> (<code>{activeMaterial.slide_id}</code>)
+            Disciplina: <b>{activeMaterial.disciplineNome}</b> · Material: <b>{activeMaterial.nome}</b> (
+            <code>{activeMaterial.slide_id}</code>)
           </span>
         </div>
 
-        <div className="topic">{activeMaterial.slide_id}</div>
+        <div className="topic">
+          {activeMaterial.disciplineNome} · {activeMaterial.slide_id}
+        </div>
         <h2 style={{ margin: '6px 0 14px' }}>Sessão concluída — {activeMaterial.nome}</h2>
 
         <div className="report-grid" style={{ marginBottom: 18 }}>
@@ -962,14 +1379,17 @@ export default function IndependentMaterialsHub({ initialSlideId = null }) {
           >
             Configurar quantidade de questões
           </button>
-          <button type="button" className="ghost" onClick={backToInitialList}>
-            ← Voltar à lista inicial de materiais
+          <button type="button" className="ghost" onClick={backToDisciplineMaterials}>
+            ← Voltar aos materiais de {activeMaterial.disciplineNome}
           </button>
         </div>
       </section>
     )
   }
 
+  // ============================================================================
+  // NÍVEL 3C: SESSÃO DE ESTUDO (QUESTÕES DO MATERIAL SELECIONADO)
+  // ============================================================================
   if (!session || !currentQuestion || !mappedCurrentQuestion) return null
 
   const answeredCount = session.history.length
@@ -984,8 +1404,8 @@ export default function IndependentMaterialsHub({ initialSlideId = null }) {
   const canAdvance = isReviewingHistory || (isAnswered && !requiresReflectionBeforeAdvance)
 
   return (
-    <section className="card main" style={{ padding: 24, marginBottom: 24 }}>
-      {/* Cabeçalho com nome do material sempre visível e botão para voltar à lista inicial */}
+    <section className="card main" style={{ padding: 24, marginBottom: 24 }} data-testid="study-session-view">
+      {/* Cabeçalho com Disciplina e Material visíveis e botões para voltar aos materiais e às disciplinas */}
       <div
         className="quiz-actions"
         style={{
@@ -997,8 +1417,13 @@ export default function IndependentMaterialsHub({ initialSlideId = null }) {
         }}
       >
         <div>
-          <div className="topic" style={{ fontSize: 11 }}>
-            MATERIAL EM ESTUDO (SLIDE_ID: {activeMaterial.slide_id})
+          <div className="row" style={{ flexWrap: 'wrap', gap: 8, marginBottom: 4 }}>
+            <span className="tag ok" data-testid="session-discipline-name" style={{ fontSize: 11 }}>
+              Disciplina: {activeMaterial.disciplineNome}
+            </span>
+            <span className="pill" style={{ fontSize: 11 }}>
+              Material (<code>{activeMaterial.slide_id}</code>)
+            </span>
           </div>
           <h2
             data-testid="session-material-name"
@@ -1007,14 +1432,25 @@ export default function IndependentMaterialsHub({ initialSlideId = null }) {
             {activeMaterial.nome}
           </h2>
         </div>
-        <button
-          type="button"
-          data-testid="btn-voltar-lista"
-          className="exit-btn"
-          onClick={backToInitialList}
-        >
-          ← Voltar à lista inicial
-        </button>
+
+        <div className="row" style={{ gap: 8, flexWrap: 'wrap' }}>
+          <button
+            type="button"
+            data-testid="btn-voltar-lista"
+            className="exit-btn"
+            onClick={backToDisciplineMaterials}
+          >
+            ← Materiais de {activeMaterial.disciplineNome}
+          </button>
+          <button
+            type="button"
+            data-testid="btn-voltar-disciplinas"
+            className="exit-btn"
+            onClick={backToDisciplines}
+          >
+            ← Disciplinas
+          </button>
+        </div>
       </div>
 
       {/* Estatísticas da sessão atual deste material */}
@@ -1061,9 +1497,15 @@ export default function IndependentMaterialsHub({ initialSlideId = null }) {
           }}
         >
           <span>
-            🕘 <b>Modo de revisão do histórico:</b> Você está revisando a <b>Questão {viewIndex + 1} de {totalInQueue}</b>{' '}
+            🕘 <b>Modo de revisão do histórico:</b> Você está revisando a{' '}
+            <b>
+              Questão {viewIndex + 1} de {totalInQueue}
+            </b>{' '}
             (já respondida e bloqueada para edição). Sua posição ativa na sessão está na{' '}
-            <b>Questão {session.currentIndex + 1} de {totalInQueue}</b>.
+            <b>
+              Questão {session.currentIndex + 1} de {totalInQueue}
+            </b>
+            .
           </span>
         </div>
       ) : null}
@@ -1149,7 +1591,7 @@ export default function IndependentMaterialsHub({ initialSlideId = null }) {
         })}
       </div>
 
-      {/* Botão para confirmar a resposta (somente quando a questão atual ainda não foi confirmada) */}
+      {/* Botão para confirmar a resposta */}
       {!isAnswered && !isReviewingHistory ? (
         <div className="actions" style={{ marginTop: 12 }}>
           <button
@@ -1278,10 +1720,11 @@ export default function IndependentMaterialsHub({ initialSlideId = null }) {
                 }}
               >
                 <div>
-                  <b>Apostila / Material:</b> <span data-testid="ref-apostila">{currentQuestion.slide_nome}</span>
+                  <b>Disciplina:</b> {activeMaterial.disciplineNome} · <b>Apostila / Material:</b>{' '}
+                  <span data-testid="ref-apostila">{currentQuestion.slide_nome}</span>
                 </div>
                 <div style={{ marginTop: 4 }}>
-                  <b>Página(s) indicada(s):</b>{' '}
+                  <b>Página(s) / Fonte indicada(s):</b>{' '}
                   <span data-testid="ref-paginas">
                     {Array.isArray(currentQuestion.referencia.paginas)
                       ? currentQuestion.referencia.paginas.join(', ')

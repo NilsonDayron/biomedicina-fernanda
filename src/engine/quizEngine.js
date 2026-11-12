@@ -72,8 +72,12 @@ export function matchesStudyTopic(question, mode) {
   return true
 }
 
-export function questionsForMode(mode) {
-  return QUESTIONS.filter((question) => matchesStudyTopic(question, mode))
+export function questionsForMode(mode, disciplineId = 'bioquimica') {
+  return QUESTIONS.filter(
+    (question) =>
+      (!disciplineId || question.disciplineId === disciplineId) &&
+      matchesStudyTopic(question, mode),
+  )
 }
 
 export function selectBalanced(source, n) {
@@ -103,14 +107,20 @@ export function buildQueueFromIds(ids) {
 
 export function addRemediation(queue, usedIds, question, mode = 'ALL') {
   const used = new Set(usedIds)
+  const sameDiscipline = (item) => item.disciplineId === question.disciplineId
   let pool = QUESTIONS.filter(
-    (item) => matchesStudyTopic(item, mode) && item.micro === question.micro && !used.has(item.id),
+    (item) =>
+      sameDiscipline(item) &&
+      matchesStudyTopic(item, mode) &&
+      item.micro === question.micro &&
+      !used.has(item.id),
   )
   if (pool.length < 2) {
     pool = [
       ...pool,
       ...QUESTIONS.filter(
         (item) =>
+          sameDiscipline(item) &&
           matchesStudyTopic(item, mode) &&
           item.t === question.t &&
           !used.has(item.id) &&
@@ -121,7 +131,13 @@ export function addRemediation(queue, usedIds, question, mode = 'ALL') {
   pool = shuffle(pool).slice(0, 2)
   if (pool.length < 2) {
     const fallback = shuffle(
-      QUESTIONS.filter((item) => matchesStudyTopic(item, mode) && item.t === question.t && item.id !== question.id),
+      QUESTIONS.filter(
+        (item) =>
+          sameDiscipline(item) &&
+          matchesStudyTopic(item, mode) &&
+          item.t === question.t &&
+          item.id !== question.id,
+      ),
     ).slice(0, 2 - pool.length)
     pool.push(...fallback)
   }

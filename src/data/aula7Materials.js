@@ -1,20 +1,66 @@
 import rawDeterioracao from '../../aula_7_deterioracao.json' with { type: 'json' }
 import rawConservacao from '../../aula_7_conservacao.json' with { type: 'json' }
+import { QUESTIONS } from './questions'
+import { TOPICS } from './topics'
 
 export const LETTER_KEYS = ['A', 'B', 'C', 'D']
 
-const MATERIAL_DEFINITIONS = [
+export const DISCIPLINE_DEFINITIONS = [
+  {
+    id: 'bioquimica',
+    nome: 'Bioquímica',
+    codigoCurricular: 'N038 · Fundamentos de Bioquímica',
+    icone: '🧬',
+    corDestaque: '#38d1bd',
+    resumoCabecalho:
+      'Fundamentos · Carboidratos · Digestão · Glicemia · Bioenergética · Respiração · Glicólise · Piruvato · Krebs · Cadeia respiratória',
+    descricao:
+      'Apostilas de Fundamentos de Bioquímica, Estrutura e Digestão de Carboidratos, Regulação da Glicemia, ATP/NAD/FAD, Glicólise, Ciclo de Krebs e Cadeia Respiratória.',
+  },
+  {
+    id: 'bromatologia',
+    nome: 'Bromatologia',
+    codigoCurricular: 'N138 · Bromatologia e Tecnologia de Alimentos',
+    icone: '🥗',
+    corDestaque: '#ffd166',
+    resumoCabecalho:
+      'Aula 7 - Deterioração dos alimentos · Apostila Aula 7 - Princípios de conservação de alimentos',
+    descricao:
+      'Materiais independentes de Bromatologia e Tecnologia de Alimentos, preservando a separação entre apostilas de mesmo número de aula.',
+  },
+  {
+    id: 'biofisica',
+    nome: 'Biofísica',
+    codigoCurricular: 'N064 · Biofísica',
+    icone: '⚡',
+    corDestaque: '#7cc6fe',
+    resumoCabecalho:
+      'Leis da Termodinâmica · Energia Livre de Gibbs (ΔG) · Bomba Na⁺/K⁺ · Equilíbrio de Nernst · Hipercalemia · EROs e UCPs',
+    descricao:
+      'A Biofísica da Vida: Termodinâmica biológica, acoplamento energético, bioeletrogênese de membrana, Equilíbrio de Nernst, efeito físico da hipercalemia e defesa biofísica (UCPs).',
+  },
+]
+
+const BROMATOLOGIA_MATERIAL_DEFINITIONS = [
   {
     file: 'aula_7_deterioracao.json',
     slide_id: 'aula_7_deterioracao',
     nome: 'Aula 7 - Deterioração dos alimentos',
+    disciplineId: 'bromatologia',
+    disciplineNome: 'Bromatologia',
+    blurb: 'Fatores intrínsecos e extrínsecos, atividade de água (Aa), pH, oxidação lipídica, escurecimento e deterioração microbiana.',
     rawData: rawDeterioracao,
+    esperado: 10,
   },
   {
     file: 'aula_7_conservacao.json',
     slide_id: 'aula_7_conservacao',
     nome: 'Apostila Aula 7 - Princípios de conservação de alimentos',
+    disciplineId: 'bromatologia',
+    disciplineNome: 'Bromatologia',
+    blurb: 'Métodos de conservação pelo calor (pasteurização, esterilização, branqueamento), frio (refrigeração, congelamento), controle de umidade, aditivos e barreiras.',
     rawData: rawConservacao,
+    esperado: 10,
   },
 ]
 
@@ -43,13 +89,18 @@ export function isValidMaterialQuestion(questao, expectedSlideId) {
   return true
 }
 
-function importMaterial(definition) {
+function importBromatologiaMaterial(definition) {
   const rawList = Array.isArray(definition.rawData?.questoes) ? definition.rawData.questoes : []
-  const questoesValidas = rawList.filter((questao) =>
-    isValidMaterialQuestion(questao, definition.slide_id),
-  )
+  const questoesValidas = rawList
+    .filter((questao) => isValidMaterialQuestion(questao, definition.slide_id))
+    .map((questao) => ({
+      ...questao,
+      disciplineId: definition.disciplineId,
+      disciplineNome: definition.disciplineNome,
+      hasIndividualOptionExplanations: true,
+    }))
 
-  const esperado = 10
+  const esperado = definition.esperado || 10
   const confirmado10 = rawList.length === esperado && questoesValidas.length === esperado
 
   if (!confirmado10) {
@@ -60,8 +111,12 @@ function importMaterial(definition) {
 
   return {
     file: definition.file,
+    source: definition.file,
     slide_id: definition.slide_id,
     nome: definition.nome,
+    blurb: definition.blurb,
+    disciplineId: definition.disciplineId,
+    disciplineNome: definition.disciplineNome,
     totalBruto: rawList.length,
     totalValidas: questoesValidas.length,
     esperado,
@@ -70,11 +125,105 @@ function importMaterial(definition) {
   }
 }
 
-export const INDEPENDENT_MATERIALS = MATERIAL_DEFINITIONS.map(importMaterial)
+function convertTopicToMaterial(topic) {
+  const disciplineDef =
+    DISCIPLINE_DEFINITIONS.find((d) => d.id === topic.disciplineId) || DISCIPLINE_DEFINITIONS[0]
+  const rawTopicQuestions = QUESTIONS.filter((q) => q.topicId === topic.id)
+
+  const questoesValidas = rawTopicQuestions.map((rawQ, idx) => {
+    const gabarito = LETTER_KEYS[rawQ.c] || 'A'
+    const alternativas = {
+      A: rawQ.a[0] || '',
+      B: rawQ.a[1] || '',
+      C: rawQ.a[2] || '',
+      D: rawQ.a[3] || '',
+    }
+    const explicacoes = {
+      A: rawQ.c === 0 ? rawQ.e : `${rawQ.e}${rawQ.s ? ` — ${rawQ.s}` : ''}`,
+      B: rawQ.c === 1 ? rawQ.e : `${rawQ.e}${rawQ.s ? ` — ${rawQ.s}` : ''}`,
+      C: rawQ.c === 2 ? rawQ.e : `${rawQ.e}${rawQ.s ? ` — ${rawQ.s}` : ''}`,
+      D: rawQ.c === 3 ? rawQ.e : `${rawQ.e}${rawQ.s ? ` — ${rawQ.s}` : ''}`,
+    }
+
+    return {
+      id: String(rawQ.id),
+      slide_id: topic.id,
+      slide_nome: topic.fullName || topic.name,
+      disciplineId: disciplineDef.id,
+      disciplineNome: disciplineDef.nome,
+      numero: idx + 1,
+      tema: rawQ.t,
+      subtema: rawQ.micro,
+      enunciado: rawQ.q,
+      alternativas,
+      gabarito,
+      explicacoes,
+      explicacaoTecnica: rawQ.e,
+      explicacaoMastigada: rawQ.s,
+      visualKey: rawQ.v,
+      hasIndividualOptionExplanations: true,
+      referencia: {
+        paginas: [topic.source],
+        fundamentacao: rawQ.e,
+        trechos_apoio: rawQ.s ? [rawQ.s] : [],
+      },
+      rawQuestion: rawQ,
+    }
+  })
+
+  return {
+    file: topic.source,
+    source: topic.source,
+    slide_id: topic.id,
+    nome: topic.fullName || topic.name,
+    shortName: topic.name,
+    blurb: topic.blurb,
+    classificationNote: topic.classificationNote || null,
+    disciplineId: disciplineDef.id,
+    disciplineNome: disciplineDef.nome,
+    totalBruto: questoesValidas.length,
+    totalValidas: questoesValidas.length,
+    esperado: questoesValidas.length,
+    confirmado10: true,
+    questoes: questoesValidas,
+  }
+}
+
+export const BROMATOLOGIA_MATERIALS = BROMATOLOGIA_MATERIAL_DEFINITIONS.map(importBromatologiaMaterial)
+export const TOPIC_MATERIALS = TOPICS.map(convertTopicToMaterial)
+
+// Mantém INDEPENDENT_MATERIALS com os 2 materiais da Aula 7 (e exporta ALL_MATERIALS com todos os materiais das 3 disciplinas)
+export const INDEPENDENT_MATERIALS = BROMATOLOGIA_MATERIALS
+export const ALL_MATERIALS = [...BROMATOLOGIA_MATERIALS, ...TOPIC_MATERIALS]
 
 export const MATERIALS_BY_SLIDE_ID = Object.fromEntries(
-  INDEPENDENT_MATERIALS.map((material) => [material.slide_id, material]),
+  ALL_MATERIALS.map((material) => [material.slide_id, material]),
 )
+
+export const DISCIPLINES = DISCIPLINE_DEFINITIONS.map((disc) => {
+  const materials = ALL_MATERIALS.filter((mat) => mat.disciplineId === disc.id)
+  const totalQuestoes = materials.reduce((acc, mat) => acc + mat.totalValidas, 0)
+  return {
+    ...disc,
+    materials,
+    totalMateriais: materials.length,
+    totalQuestoes,
+  }
+})
+
+export const DISCIPLINES_BY_ID = Object.fromEntries(
+  DISCIPLINES.map((disc) => [disc.id, disc]),
+)
+
+export function getDisciplineById(disciplineId) {
+  if (!disciplineId) return null
+  return DISCIPLINES_BY_ID[String(disciplineId)] || null
+}
+
+export function getMaterialsByDisciplineId(disciplineId) {
+  const disc = getDisciplineById(disciplineId)
+  return disc ? disc.materials : []
+}
 
 export function getMaterialBySlideId(slideId) {
   if (!slideId) return null

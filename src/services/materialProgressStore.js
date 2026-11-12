@@ -1,7 +1,9 @@
-import { INDEPENDENT_MATERIALS } from '../data/aula7Materials'
+import { ALL_MATERIALS } from '../data/aula7Materials'
 
 const STORAGE_KEY = 'biomedicina.materiais_independentes.v1'
 const UI_STATE_KEY = 'biomedicina.materiais_independentes.ui.v1'
+const LEGACY_PROGRESS_KEY = 'biomedicina.progress.v1.local-fernanda'
+export const UI_STATE_CHANGE_EVENT = 'biomedicina:ui-state-change'
 
 export function createEmptyMaterialProgress(slideId) {
   return {
@@ -22,28 +24,39 @@ export function createEmptyMaterialProgress(slideId) {
 
 export function createInitialAllMaterialsProgress() {
   const base = {}
-  for (const material of INDEPENDENT_MATERIALS) {
+  for (const material of ALL_MATERIALS) {
     base[material.slide_id] = createEmptyMaterialProgress(material.slide_id)
   }
   return base
+}
+
+function loadLegacyAnswersMap() {
+  try {
+    const raw = window.localStorage.getItem(LEGACY_PROGRESS_KEY)
+    if (!raw) return {}
+    const parsed = JSON.parse(raw)
+    return parsed && typeof parsed.answers === 'object' ? parsed.answers : {}
+  } catch {
+    return {}
+  }
 }
 
 export function loadAllMaterialsProgress() {
   const base = createInitialAllMaterialsProgress()
   try {
     const raw = window.localStorage.getItem(STORAGE_KEY)
-    if (!raw) return base
-    const parsed = JSON.parse(raw)
-    if (!parsed || typeof parsed !== 'object') return base
+    const parsed = raw ? JSON.parse(raw) : {}
+    const legacyAnswers = loadLegacyAnswersMap()
 
     const merged = { ...base }
-    for (const material of INDEPENDENT_MATERIALS) {
+    for (const material of ALL_MATERIALS) {
       const id = material.slide_id
-      const saved = parsed[id]
+      const saved = parsed && typeof parsed === 'object' ? parsed[id] : null
+      const validIds = new Set(material.questoes.map((q) => q.id))
+
       if (saved && typeof saved === 'object' && saved.slide_id === id) {
-        const validIds = new Set(material.questoes.map((q) => q.id))
         const respondidasIds = Array.isArray(saved.respondidasIds)
-          ? saved.respondidasIds.filter((qId) => validIds.has(qId))
+          ? saved.respondidasIds.filter((qId) => validIds.has(String(qId)))
           : []
         merged[id] = {
           ...createEmptyMaterialProgress(id),
@@ -60,6 +73,37 @@ export function loadAllMaterialsProgress() {
           ultimaOrdemQuestoesIds: Array.isArray(saved.ultimaOrdemQuestoesIds)
             ? saved.ultimaOrdemQuestoesIds
             : [],
+        }
+      } else {
+        // Hidrata com respostas anteriores do progresso legado se existirem para este material
+        const respondidasIds = []
+        let acertos = 0
+        let erros = 0
+        const porQuestao = {}
+        for (const q of material.questoes) {
+          const leg = legacyAnswers[q.id]
+          if (leg && (leg.attempts || leg.correct || leg.wrong)) {
+            respondidasIds.push(q.id)
+            acertos += leg.correct || 0
+            erros += leg.wrong || 0
+            porQuestao[q.id] = {
+              acertos: leg.correct || 0,
+              erros: leg.wrong || 0,
+              reflexoes: [],
+              rascunhoReflexao: '',
+            }
+          }
+        }
+        if (respondidasIds.length > 0) {
+          merged[id] = {
+            ...createEmptyMaterialProgress(id),
+            slide_id: id,
+            respondidasIds,
+            acertos,
+            erros,
+            totalRespostas: acertos + erros,
+            porQuestao,
+          }
         }
       }
     }
@@ -92,6 +136,9 @@ export function loadSavedUiState() {
 export function saveUiState(uiState) {
   try {
     window.localStorage.setItem(UI_STATE_KEY, JSON.stringify(uiState))
+    if (typeof window !== 'undefined' && typeof window.dispatchEvent === 'function') {
+      window.dispatchEvent(new CustomEvent(UI_STATE_CHANGE_EVENT, { detail: uiState }))
+    }
   } catch {
     // ignore storage errors
   }
