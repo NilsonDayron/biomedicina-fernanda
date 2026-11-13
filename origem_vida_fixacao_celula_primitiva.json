@@ -1,0 +1,668 @@
+{
+  "questoes": [
+    {
+      "id": "origem_vida_fixacao_celula_primitiva_q001",
+      "slide_id": "origem_vida_fixacao_celula_primitiva",
+      "slide_nome": "Exercício de Fixação - Evolução e Organização da Célula Primitiva",
+      "arquivo_origem": "Exercício 1 - Evolução e Organização da Célula Pri_260824_101131 (1).pdf",
+      "numero": 1,
+      "tema": "Síntese Abiótica",
+      "subtema": "O Experimento de Miller-Urey (1953)",
+      "enunciado": "O experimento de Stanley Miller e Harold Urey (1953) simulou as condições atmosféricas e energéticas propostas para a Terra primitiva em um sistema fechado de laboratório. Qual é a conclusão científica correta que deve ser extraída desse experimento histórico segundo a Questão 1 do questionário formativo?",
+      "alternativas": {
+        "A": "Demonstrou a geração espontânea imediata de uma célula procariótica funcional dotada de membrana e metabolismo ativo a partir de descargas elétricas sobre metano e amônia.",
+        "B": "Evidenciou a plausibilidade química da produção de moléculas orgânicas simples (monômeros como aminoácidos) em condições abióticas, sem configurar a criação de vida biológica.",
+        "C": "Provou de forma definitiva que a atmosfera primitiva era o único local da Terra onde polímeros biológicos poderiam ter se originado.",
+        "D": "Invalidou a hipótese de que minerais e superfícies rochosas poderiam ter atuado como catalisadores químicos na Terra primitiva."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o experimento sintetizou apenas precursores orgânicos simples (aminoácidos e ácidos orgânicos), sem jamais ter produzido uma célula viva ou organismo funcional.",
+        "B": "Correta: a Questão 1 crava em seu gabarito que o ensaio \"evidenciou a plausibilidade química da produção de moléculas orgânicas simples (monômeros), sem configurar a criação de vida\". O teste demonstrou que a química orgânica fundamental pode emergir de precursores inorgânicos na ausência de seres vivos.",
+        "C": "Incorreta: o experimento não provou exclusividade atmosférica; outras vias geoquímicas (como fontes hidrotermais e superfícies minerais) também são investigadas como cenários prebióticos plausíveis.",
+        "D": "Incorreta: o ensaio de Miller-Urey não investigou nem descartou o papel catalítico de substratos minerais."
+      },
+      "referencia": {
+        "paginas": [
+          1
+        ],
+        "fundamentacao": "Questão 1 do Exercício 1.",
+        "trechos_apoio": [
+          "Sobre esse experimento e a síntese abiótica, é correto afirmar que: c) Evidenciou a plausibilidade química da produção de moléculas orgânicas simples (monômeros), sem configurar a criação de vida."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_fixacao_celula_primitiva_q002",
+      "slide_id": "origem_vida_fixacao_celula_primitiva",
+      "slide_nome": "Exercício de Fixação - Evolução e Organização da Célula Primitiva",
+      "arquivo_origem": "Exercício 1 - Evolução e Organização da Célula Pri_260824_101131 (1).pdf",
+      "numero": 2,
+      "tema": "Compartimentalização Pré-Biótica",
+      "subtema": "Auto-Organização de Vesículas Lipídicas",
+      "enunciado": "A formação de compartimentos fechados é considerada um dos requisitos mais críticos na transição da química pré-biótica para a biologia celular funcional. Por que a auto-organização de moléculas anfipáticas em vesículas fechadas é crucial para os sistemas vivos segundo a Questão 2?",
+      "alternativas": {
+        "A": "Porque garante que o interior celular permaneça sempre em equilíbrio termodinâmico absoluto e estático com a água circundante.",
+        "B": "Porque estabelece uma fronteira dinâmica que permite concentrar reagentes, protegendo redes químicas internas da diluição oceânica e mantendo o sistema fora do equilíbrio termodinâmico.",
+        "C": "Porque impermeabiliza totalmente a célula, impedindo a entrada de qualquer molécula externa ou solvente.",
+        "D": "Porque a bicamada lipídica substitui a necessidade de qualquer catálise enzimática ou metabólica dentro da célula."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o equilíbrio termodinâmico absoluto com o meio externo equivale à morte do sistema biológico; a vida depende de manter-se em estado estacionário fora do equilíbrio.",
+        "B": "Correta: conforme o gabarito da Questão 2, a compartimentalização \"estabelece uma fronteira dinâmica que permite concentrar reagentes, protegendo redes químicas e mantendo o sistema fora do equilíbrio\". O confinamento molecular impede a dispersão de reagentes e facilita colisões e reações autocatalíticas.",
+        "C": "Incorreta: a membrana permite trocas seletivas de matéria e energia com o ambiente externo, não sendo uma barreira selada.",
+        "D": "Incorreta: membranas formam limites de compartimento, mas as reações metabólicas continuam dependendo de catalisadores enzimáticos e intermediários solúveis."
+      },
+      "referencia": {
+        "paginas": [
+          2,
+          1
+        ],
+        "fundamentacao": "Questão 2 do Exercício 1.",
+        "trechos_apoio": [
+          "A auto-organização de moléculas anfipáticas em vesículas lipídicas é considerada uma etapa crucial porque: b) Estabelece uma fronteira dinâmica que permite concentrar reagentes, protegendo redes químicas e mantendo o sistema fora do equilíbrio."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_fixacao_celula_primitiva_q003",
+      "slide_id": "origem_vida_fixacao_celula_primitiva",
+      "slide_nome": "Exercício de Fixação - Evolução e Organização da Célula Primitiva",
+      "arquivo_origem": "Exercício 1 - Evolução e Organização da Célula Pri_260824_101131 (1).pdf",
+      "numero": 3,
+      "tema": "O Mundo de RNA",
+      "subtema": "O Papel Dual das Ribozimas",
+      "enunciado": "A \"Hipótese do Mundo de RNA\" sustenta que o ácido ribonucleico precedeu o DNA e as proteínas como polímero primordial na transição prebiótica. O argumento central para essa hipótese apoia-se na existência das ribozimas, as quais são caracterizadas na Questão 3 como:",
+      "alternativas": {
+        "A": "Proteínas estruturais ancestrais que duplicavam sequências de DNA na ausência de ATP.",
+        "B": "Moléculas de RNA com capacidade de catálise enzimática, reunindo simultaneamente em um mesmo polímero as funções de armazenamento de informação genética e atividade funcional catalítica.",
+        "C": "Fosfolipídios de membrana que transcreviam aminoácidos no interior de coacervados.",
+        "D": "Moléculas de ATP polimerizadas que realizavam fotossíntese anoxigênica em fontes termais."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: ribozimas são ácidos ribonucleicos (RNA catalítico), e não polipeptídios ou proteínas.",
+        "B": "Correta: a Questão 3 define formalmente as ribozimas como \"moléculas de RNA com capacidade de catálise enzimática, unindo as funções de informação e função molecular\". Essa dupla função resolveu o dilema evolutivo clássico de \"quem veio primeiro: o ácido nucleico (informação) ou a enzima proteica (catálise)\".",
+        "C": "Incorreta: fosfolipídios compõem a matriz de bicamada da membrana e não executam transcrição gênica.",
+        "D": "Incorreta: o ATP atua como nucleotídeo carreador de energia metabólica, não constituindo ribozimas."
+      },
+      "referencia": {
+        "paginas": [
+          3,
+          1
+        ],
+        "fundamentacao": "Questão 3 do Exercício 1.",
+        "trechos_apoio": [
+          "O principal argumento para essa hipótese reside na funcionalidade das ribozimas, que são: b) Moléculas de RNA com capacidade de catálise enzimática, unindo as funções de informação e função molecular."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_fixacao_celula_primitiva_q004",
+      "slide_id": "origem_vida_fixacao_celula_primitiva",
+      "slide_nome": "Exercício de Fixação - Evolução e Organização da Célula Primitiva",
+      "arquivo_origem": "Exercício 1 - Evolução e Organização da Célula Pri_260824_101131 (1).pdf",
+      "numero": 4,
+      "tema": "O LUCA",
+      "subtema": "Características Moleculares Universais Consolidadas",
+      "enunciado": "O LUCA (Last Universal Common Ancestor) representa o ancestral comum compartilhado por todos os organismos vivos do planeta. Entre as características moleculares universais que foram consolidadas no LUCA e que são abordadas na Questão 4, destaca-se:",
+      "alternativas": {
+        "A": "A dependência de metabolismo aeróbio obrigatório com consumo maciço de O₂ molecular atmosférico.",
+        "B": "A organização celular eucariótica complexa dotada de envelope nuclear, retículo e mitocôndrias.",
+        "C": "A utilização de DNA como repositório estável de informação genética e o ATP como moeda energética universal.",
+        "D": "A ausência de ribossomos, utilizando RNA solúvel livre para polimerizar carboidratos."
+      },
+      "gabarito": "C",
+      "explicacoes": {
+        "A": "Incorreta: o LUCA era anaeróbio; o oxigênio livre ainda era escasso na atmosfera e nos mares primordiais.",
+        "B": "Incorreta: o LUCA possuía arquitetura celular procariótica simples, sem carioteca ou organelas membranosas compartimentadas.",
+        "C": "Correta: a Questão 4 crava em seu gabarito: \"A utilização de DNA como repositório estável de informação e o ATP como moeda energética universal\". Essas duas propriedades, associadas à tradução em ribossomos com código genético universal, fundamentam todas as células descendentes.",
+        "D": "Incorreta: a presença de ribossomos com código genético em trincas é uma das marcas universais consolidadas no LUCA."
+      },
+      "referencia": {
+        "paginas": [
+          4,
+          1
+        ],
+        "fundamentacao": "Questão 4 do Exercício 1.",
+        "trechos_apoio": [
+          "Entre essas características fundamentais selecionadas para a vida celular, destaca-se: c) A utilização de DNA como repositório estável de informação e o ATP como moeda energética universal."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_fixacao_celula_primitiva_q005",
+      "slide_id": "origem_vida_fixacao_celula_primitiva",
+      "slide_nome": "Exercício de Fixação - Evolução e Organização da Célula Primitiva",
+      "arquivo_origem": "Exercício 1 - Evolução e Organização da Célula Pri_260824_101131 (1).pdf",
+      "numero": 5,
+      "tema": "Bioenergética Primordial",
+      "subtema": "Metabolismo em Condições Anóxicas",
+      "enunciado": "Considerando uma atmosfera primordial redutora e pobre em oxigênio molecular livre (O₂), a Questão 5 indaga como as primeiras linhagens celulares ancestrais provavelmente obtinham energia biofuncional utilizável para suas reações químicas. De acordo com o gabarito oficial, essa captação energética ocorria por meio de:",
+      "alternativas": {
+        "A": "Respiração celular aeróbia utilizando oxigênio como aceptor final de elétrons na cadeia de citocromos.",
+        "B": "Metabolismos anaeróbios, explorando gradientes geoquímicos de pH e potenciais redox em ambientes como fontes hidrotermais.",
+        "C": "Combustão direta de minerais metálicos sem a intervenção de qualquer enzima ou membrana.",
+        "D": "Absorção pura de radiação ultravioleta como a única e exclusiva via energética para gerar ATP."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a respiração aeróbia só emergiu muito tempo depois, após a oxigenação biológica dos oceanos e atmosfera promovida pela fotossíntese de cianobactérias.",
+        "B": "Correta: conforme o gabarito oficial da Questão 5, a bioenergética inicial baseava-se em \"metabolismos anaeróbios, explorando gradientes de pH e potenciais redox em ambientes como fontes hidrotermais\". Esse acoplamento quimiosmótico primordial antecedeu os metabolismos oxidativos complexos.",
+        "C": "Incorreta: reações celulares utilizam catalisadores e transferências de elétrons em soluções aquosas, e não combustões não enzimáticas em chamas secas.",
+        "D": "Incorreta: o UV degrada polímeros biológicos delicados na ausência de ozônio protetor; a energia metabólica celular dependia de doadores químicos de elétrons e potenciais redox."
+      },
+      "referencia": {
+        "paginas": [
+          5,
+          1
+        ],
+        "fundamentacao": "Questão 5 do Exercício 1.",
+        "trechos_apoio": [
+          "As primeiras células provavelmente obtinham energia através de: c) Metabolismos anaeróbios, explorando gradientes de pH e potenciais redox em ambientes como fontes hidrotermais."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_fixacao_celula_primitiva_q006",
+      "slide_id": "origem_vida_fixacao_celula_primitiva",
+      "slide_nome": "Exercício de Fixação - Evolução e Organização da Célula Primitiva",
+      "arquivo_origem": "Exercício 1 - Evolução e Organização da Célula Pri_260824_101131 (1).pdf",
+      "numero": 6,
+      "tema": "Protocélulas vs. Células Funcionais",
+      "subtema": "Organização de Membrana e Permeabilidade",
+      "enunciado": "A Questão 6 discursiva do material estabelece uma matriz de comparação entre uma protocélula (vesícula lipídica modelo) e uma célula biológica funcional. No critério Membrana e Fronteira, qual é a diferença fundamental apontada na resolução oficial?",
+      "alternativas": {
+        "A": "A protocélula possui bombas iônicas ativas de Na⁺/K⁺ e canais proteicos controlados por voltagem; a célula funcional possui apenas uma barreira hidrofóbica impermeável estática.",
+        "B": "A protocélula possui uma frágil barreira mecânica auto-organizada com permeabilidade passiva não seletiva; enquanto a célula funcional possui membrana plasmática seletiva, dotada de bombas iônicas ativas e regulação do transporte transmembrana.",
+        "C": "A protocélula apresenta parede celular rígida de peptidoglicano bacteriano; a célula funcional não possui nenhuma delimitação de membrana.",
+        "D": "Não há qualquer diferença estrutural ou funcional entre uma vesícula lipídica modelo e uma célula funcional viva."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: inverte a complexidade; bombas iônicas e canais de transporte dependem de proteínas integrais altamente sofisticadas presentes em células funcionais.",
+        "B": "Correta: conforme a resolução da Questão 6 e o quadro da apostila, protocélulas sustentam apenas limites físicos mecânicos débeis com permeabilidade passiva rudimentar; as células biológicas funcionais operam uma membrana plasmática dinâmica com transporte ativo regulado, bombas de gradiente iônico e homeostase osmótica.",
+        "C": "Incorreta: peptidoglicano é um polímero sintetizado por vias enzimáticas avançadas em eubactérias.",
+        "D": "Incorreta: a ausência de maquinarias de transporte ativo e de replicação fiel distingue categoricamente protobiontes de células vivas plenas."
+      },
+      "referencia": {
+        "paginas": [
+          6
+        ],
+        "fundamentacao": "Questão 6 e quadro integrador da evolução celular.",
+        "trechos_apoio": [
+          "Protocélulas: Frágil barreira mecânica auto-organizada. Permeabilidade passiva não seletiva. Célula Procarionte Funcional: Membrana plasmática funcional, bombas iônicas ativas e parede celular protetora."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_fixacao_celula_primitiva_q007",
+      "slide_id": "origem_vida_fixacao_celula_primitiva",
+      "slide_nome": "Exercício de Fixação - Evolução e Organização da Célula Primitiva",
+      "arquivo_origem": "Exercício 1 - Evolução e Organização da Célula Pri_260824_101131 (1).pdf",
+      "numero": 7,
+      "tema": "Protocélulas vs. Células Funcionais",
+      "subtema": "O Nível do Metabolismo",
+      "enunciado": "Ainda sob a análise da Questão 6 comparativa, a apostila examina o comportamento do metabolismo em protocélulas quando confrontado com o metabolismo de uma célula viva madura. Como a resposta comentada oficial caracteriza essa distinção metabólica?",
+      "alternativas": {
+        "A": "Protocélulas executavam ciclos de Krebs completos na matriz mitocondrial; células funcionais dependem apenas de catálise por rochas externas.",
+        "B": "Protocélulas apresentavam apenas reações químicas isoladas e limitadas que ocorriam no interior da vesícula sem controle enzimático sofisticado ou ciclo bioenergético integrado; enquanto a célula funcional possui redes metabólicas altamente integradas, autorreguladas e catalisadas por enzimas específicas.",
+        "C": "Células funcionais realizam metabolismo unicamente por fusão nuclear interna a 10.000 °C.",
+        "D": "Ambos os sistemas compartilhavam exatamente o mesmo ciclo metabólico fechado com consumo contínuo de glicose fosforilada."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: protocélulas não possuíam mitocôndrias nem as enzimas do ciclo de Krebs aeróbio.",
+        "B": "Correta: a transcrição literal da resposta oficial da Questão 6 afirma: \"Protocélula: Reações químicas isoladas e limitadas que ocorrem no interior da vesícula sem controle enzimático sofisticado ou ciclo bioenergético integrado. Célula funcional: Redes metabólicas altamente integradas, autorreguladas e catalisadas por enzimas específicas para a produção contínua de energia e biomoléculas\".",
+        "C": "Incorreta: sistemas celulares atuam em regimes térmicos fisiológicos de reações químicas aquosas.",
+        "D": "Incorreta: o metabolismo primitivo não dispunha de redes enzimáticas acopladas ou vias glicolíticas complexas reguladas por retroalimentação alostérica."
+      },
+      "referencia": {
+        "paginas": [
+          6
+        ],
+        "fundamentacao": "Questão 6 (item Metabolismo) do Exercício 1.",
+        "trechos_apoio": [
+          "Protocélula: Reações químicas isoladas e limitadas que ocorrem no interior da vesícula sem controle enzimático sofisticado ou ciclo bioenergético integrado. Célula funcional: Redes metabólicas altamente integradas, autorreguladas e catalisadas por enzimas específicas..."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_fixacao_celula_primitiva_q008",
+      "slide_id": "origem_vida_fixacao_celula_primitiva",
+      "slide_nome": "Exercício de Fixação - Evolução e Organização da Célula Primitiva",
+      "arquivo_origem": "Exercício 1 - Evolução e Organização da Célula Pri_260824_101131 (1).pdf",
+      "numero": 8,
+      "tema": "Protocélulas vs. Células Funcionais",
+      "subtema": "Informação Genética e Hereditariedade",
+      "enunciado": "O terceiro eixo comparativo da Questão 6 aborda a informação e evolução. Qual foi o gargalo informacional que impediu as protocélulas de realizarem evolução biológica darwiniana cumulativa segundo a apostila?",
+      "alternativas": {
+        "A": "A ausência de um sistema de código genético fiel e estável, gerando dependência total de eventos físicos mecânicos externos para divisão ou crescimento estrutural; enquanto a célula funcional possui genoma estável com transcrição, tradução e hereditariedade sob seleção natural.",
+        "B": "A presença de excesso de códons de parada no DNA genômico que bloqueava a meiose das vesículas.",
+        "C": "A destruição obrigatória de todas as moléculas de ribose provocada pela membrana lipídica.",
+        "D": "A inexistência de água líquida no interior da vesícula pré-biótica."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: o texto oficial da Questão 6 descreve: \"Protocélula: Ausência de um sistema de código genético fiel, dependência total de eventos físicos externos para replicação ou crescimento estrutural. Célula funcional: Presença de um genoma estável (DNA/RNA), transcrição, tradução de proteínas e hereditariedade submetida a seleção natural darwiniana\". Sem herança estável, qualquer vantagem química adquirida desaparecia ao se fragmentar.",
+        "B": "Incorreta: protocélulas sequer possuíam DNA genômico ou código genético em trincas codificado.",
+        "C": "Incorreta: a membrana lipídica não degrada carboidratos; ela apenas delimita fisicamente a solução aquosa.",
+        "D": "Incorreta: protocélulas são formadas em meio aquoso, encapsulando água e solutos."
+      },
+      "referencia": {
+        "paginas": [
+          6
+        ],
+        "fundamentacao": "Questão 6 (item Informação e Evolução) do Exercício 1.",
+        "trechos_apoio": [
+          "Protocélula: Ausência de um sistema de código genético fiel, dependência total de eventos físicos externos para replicação ou crescimento estrutural. Célula funcional: Presença de um genoma estável (DNA/RNA), transcrição, tradução de proteínas e hereditariedade submetida a seleção natural darwiniana."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_fixacao_celula_primitiva_q009",
+      "slide_id": "origem_vida_fixacao_celula_primitiva",
+      "slide_nome": "Exercício de Fixação - Evolução e Organização da Célula Primitiva",
+      "arquivo_origem": "Exercício 1 - Evolução e Organização da Célula Pri_260824_101131 (1).pdf",
+      "numero": 9,
+      "tema": "A Transição para o DNA",
+      "subtema": "Estabilidade Molecular e o Carbono 2'",
+      "enunciado": "Na Questão 7 discursiva, solicita-se a justificativa química de por que o DNA substituiu o RNA como o principal repositório da informação genética da biosfera a longo prazo. Qual é a base molecular apresentada na resposta comentada oficial da apostila?",
+      "alternativas": {
+        "A": "O DNA é mais maleável porque contém uracila no lugar de timina e três fitas espiraladas.",
+        "B": "A ausência da hidroxila (-OH) no carbono 2' da desoxirribose confere extrema estabilidade química ao DNA e alta resistência à hidrólise, viabilizando o armazenamento seguro e fiel de genomas maiores a longo prazo.",
+        "C": "O DNA não possui pontes de hidrogênio entre as bases, o que impede qualquer tipo de mutação.",
+        "D": "O DNA dissolve-se completamente em lipídios, permitindo que o genoma atravesse a membrana livremente."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a uracila pertence ao RNA; o DNA contém timina e estrutura em dupla hélice complementar.",
+        "B": "Correta: a resposta oficial da Questão 7 afirma literalmente: \"O DNA substituiu o RNA porque a ausência de uma hidroxila no carbono 2' da desoxirribose torna a molécula muito mais estável quimicamente e resistente à hidrólise, permitindo o armazenamento seguro de genomas maiores a longo prazo\". No RNA, o 2'-OH livre atua como nucleófilo interno que cliva espontaneamente a ligação fosfodiéster.",
+        "C": "Incorreta: o pareamento específico por pontes de hidrogênio (A-T e C-G) entre as duas fitas é fundamental para a redundância e estabilidade da fita dupla.",
+        "D": "Incorreta: ácidos nucleicos são polímeros polares hidrofílicos insolúveis em lipídios neutros."
+      },
+      "referencia": {
+        "paginas": [
+          7,
+          1,
+          3
+        ],
+        "fundamentacao": "Questão 7 do Exercício 1 e Aula 03.",
+        "trechos_apoio": [
+          "Questão 7 (resposta): O DNA substituiu o RNA porque a ausência de uma hidroxila no carbono 2' da desoxirribose torna a molécula muito mais estável quimicamente e resistente à hidrólise, permitindo o armazenamento seguro de genomas maiores a longo prazo."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_fixacao_celula_primitiva_q010",
+      "slide_id": "origem_vida_fixacao_celula_primitiva",
+      "slide_nome": "Exercício de Fixação - Evolução e Organização da Célula Primitiva",
+      "arquivo_origem": "Exercício 1 - Evolução e Organização da Célula Pri_260824_101131 (1).pdf",
+      "numero": 10,
+      "tema": "Superfícies Minerais e Origem da Vida",
+      "subtema": "A Catálise Prebiótica Inicial",
+      "enunciado": "A Questão 10 do exercício relaciona a transição da evolução química para a evolução darwiniana com o papel desempenhado pelas superfícies minerais do planeta primitivo. De acordo com a resposta oficial do material, qual foi a função de minerais como as argilas nas etapas pré-bióticas iniciais?",
+      "alternativas": {
+        "A": "Atuaram concentrando reagentes e catalisando as primeiras reações de polimerização orgânica, permitindo que o mecanismo de \"replicação com variação\" desse início à seleção natural cumulativa que culminou no LUCA.",
+        "B": "Forneceram oxigênio molecular gasoso puro para ativar a cadeia respiratória de protocélulas.",
+        "C": "Destruíram todas as moléculas contendo nitrogênio e fósforo na crosta terrestre.",
+        "D": "Agiram como membranas celulares biológicas definitivas substituindo os lipídios anfipáticos."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: a resposta oficial da Questão 10 crava categoricamente: \"Minerais como argilas concentraram e catalisaram as reações iniciais, permitindo que a 'replicação com variação' desse início à seleção natural cumulativa que consolidou o LUCA\". As cargas elétricas e estruturas laminares dos minerais retêm monômeros, superando a barreira da diluição em água livre.",
+        "B": "Incorreta: argilas minerais não sintetizam O₂ respiratório para células anaeróbias primordiais.",
+        "C": "Incorreta: superfícies minerais adsorvem e concentram grupos fosfatos e bases nitrogenadas essenciais à síntese de nucleotídeos.",
+        "D": "Incorreta: minerais serviram como moldes catalíticos inorgânicos externos, enquanto a compartimentalização celular foi assumida por vesículas lipídicas."
+      },
+      "referencia": {
+        "paginas": [
+          10,
+          1
+        ],
+        "fundamentacao": "Questão 10 do Exercício 1.",
+        "trechos_apoio": [
+          "Questão 10 (resposta): Minerais como argilas concentraram e catalisaram as reações iniciais, permitindo que a 'replicação com variação' desse início à seleção natural cumulativa que consolidou o LUCA."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_fixacao_celula_primitiva_q011",
+      "slide_id": "origem_vida_fixacao_celula_primitiva",
+      "slide_nome": "Exercício de Fixação - Evolução e Organização da Célula Primitiva",
+      "arquivo_origem": "Exercício 1 - Evolução e Organização da Célula Pri_260824_101131 (1).pdf",
+      "numero": 11,
+      "tema": "Complexidade Eucariótica e Bioenergética",
+      "subtema": "A Revolução Mitocondrial",
+      "enunciado": "A Questão 8 discursiva do questionário analisa como a emergência das mitocôndrias via endossimbiose transformou o balanço bioenergético celular. De acordo com a resposta oficial da apostila, como esse excedente de ATP viabilizou a complexidade dos eucariotos?",
+      "alternativas": {
+        "A": "O excedente massivo de ATP fornecido pela fosforilação oxidativa mitocondrial removeu o gargalo energético das células primitivas, permitindo sustentar genomas muito maiores e sistemas de regulação gênica mais complexos.",
+        "B": "A mitocôndria paralisou a síntese proteica citoplasmática, forçando a célula hospedeira a viver exclusivamente de fermentação láctica anaeróbia.",
+        "C": "O ATP mitocondrial degradou o núcleo celular, transformando os primeiros eucariontes em procariontes estéreis.",
+        "D": "A produção de energia gerou a diminuição irreversível do tamanho celular e a perda de todas as membranas internas."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: a resposta comentada oficial da Questão 8 crava que \"a origem das mitocôndrias via endossimbiose forneceu um excedente massivo de ATP por meio da fosforilação oxidativa, removendo o gargalo energético e permitindo genomas maiores e regulações mais complexas\". Procariontes possuem restrição bioenergética de membrana; o acoplamento de centenas de organelas endossimbiontes supriu a alta demanda metabólica exigida por genomas nucleares extensos.",
+        "B": "Incorreta: a fosforilação oxidativa aeróbia mitocondrial é muito mais eficiente do que a fermentação anaeróbia.",
+        "C": "Incorreta: o endossimbionte não degradou o núcleo; pelo contrário, estabeleceu relação mutualística estável com a célula hospedeira.",
+        "D": "Incorreta: o aporte energético possibilitou a expansão de volume celular e o desenvolvimento de extensos sistemas endomembranares."
+      },
+      "referencia": {
+        "paginas": [
+          8,
+          1,
+          3
+        ],
+        "fundamentacao": "Questão 8 do Exercício 1 e Aula 03.",
+        "trechos_apoio": [
+          "Questão 8 (resposta): A origem das mitocôndrias via endossimbiose forneceu um excedente massivo de ATP por meio da fosforilação oxidativa, removendo o gargalo energético e permitindo genomas maiores e regulações mais complexas."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_fixacao_celula_primitiva_q012",
+      "slide_id": "origem_vida_fixacao_celula_primitiva",
+      "slide_nome": "Exercício de Fixação - Evolução e Organização da Célula Primitiva",
+      "arquivo_origem": "Exercício 1 - Evolução e Organização da Célula Pri_260824_101131 (1).pdf",
+      "numero": 12,
+      "tema": "Compartimentalização Nuclear",
+      "subtema": "A Origem e Função da Carioteca",
+      "enunciado": "A presença do envoltório nuclear (carioteca) separa espacialmente o interior do núcleo do citoplasma circundante. De acordo com a resposta oficial da Questão 9 discursiva da apostila, qual é a principal vantagem funcional dessa separação para o controle da expressão gênica?",
+      "alternativas": {
+        "A": "Permite que a transcrição do DNA e a tradução nos ribossomos ocorram exatamente no mesmo compartimento e de forma simultânea sem nenhum tipo de processamento intermediário.",
+        "B": "Viabiliza um controle pós-transcricional sofisticado — como o splicing alternativo — antes que o RNA mensageiro alcance os ribossomos no citoplasma, garantindo maior eficiência celular e regulação fina da homeostase.",
+        "C": "Impede que o RNA mensageiro saia do núcleo, forçando os ribossomos a sintetizarem proteínas sem usar ácidos nucleicos.",
+        "D": "Transforma as fitas de DNA linear em plasmídeos circulares dispersos no citosol."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a tradução quase simultânea e acoplada à transcrição ocorre em células procariontes desprovidas de carioteca.",
+        "B": "Correta: a resposta comentada da Questão 9 explica: \"A separação física entre transcrição (núcleo) e tradução (citoplasma) viabiliza um controle pós-transcricional sofisticado como o splicing alternativo, garantindo maior eficiência celular e homeostase\". A remoção de íntrons e edição prévia do transcrito primário impedem que RNAs imaturos sejam traduzidos erroneamente.",
+        "C": "Incorreta: após a maturação e splicing, o RNA mensageiro funcional é ativamente exportado através dos poros nucleares para ser traduzido no citoplasma.",
+        "D": "Incorreta: os eucariotos mantêm o DNA genômico linear e altamente compactado com proteínas histonas no núcleo protegido."
+      },
+      "referencia": {
+        "paginas": [
+          9,
+          1,
+          3
+        ],
+        "fundamentacao": "Questão 9 do Exercício 1 e Aula 03.",
+        "trechos_apoio": [
+          "Questão 9 (resposta): A separação física entre transcrição (núcleo) e tradução (citoplasma) viabiliza um controle pós-transcricional sofisticado como o splicing alternativo, garantindo maior eficiência celular e homeostase."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_fixacao_celula_primitiva_q013",
+      "slide_id": "origem_vida_fixacao_celula_primitiva",
+      "slide_nome": "Exercício de Fixação - Evolução e Organização da Célula Primitiva",
+      "arquivo_origem": "Exercício 1 - Evolução e Organização da Célula Pri_260824_101131 (1).pdf",
+      "numero": 13,
+      "tema": "Instabilidade Química do RNA",
+      "subtema": "O Papel da Hidroxila 2'-OH",
+      "enunciado": "O texto teórico que acompanha o exercício destaca uma vulnerabilidade físico-química inerente ao RNA que limitou sua permanência como molécula primária para genomas celulares extensos. Qual é essa limitação molecular descrita na fundamentação da apostila?",
+      "alternativas": {
+        "A": "A ribose possui um grupo hidroxila (-OH) ligado ao carbono 2', o que torna a molécula de RNA altamente suscetível à clivagem espontânea por hidrólise, restringindo o tamanho de genomas estáveis.",
+        "B": "O RNA não consegue realizar pareamento complementar de bases sob nenhuma temperatura.",
+        "C": "A presença de adenina no RNA destrói os fosfatos das ligações fosfodiéster.",
+        "D": "O RNA é uma molécula sólida insolúvel em água que precipita e bloqueia os poros celulares."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: o texto destaca que \"a ribose possui uma hidroxila 2'-OH que torna a molécula de RNA altamente suscetível à hidrólise (limitação de estabilidade quimicamente), limitando genomas extensos\". A desoxirribose do DNA não possui esse oxigênio no carbono 2', sendo termodinamicamente muito mais resistente.",
+        "B": "Incorreta: o RNA é perfeitamente capaz de parear bases (A-U e G-C), dobrando-se em estruturas secundárias e terciárias complexas.",
+        "C": "Incorreta: a adenina é uma base nitrogenada purina normal presente tanto no RNA quanto no DNA.",
+        "D": "Incorreta: o RNA é um polímero solúvel em soluções aquosas celulares."
+      },
+      "referencia": {
+        "paginas": [
+          7
+        ],
+        "fundamentacao": "Questão 7 e seção \"O Mundo de RNA\" integrada.",
+        "trechos_apoio": [
+          "A ribose possui uma hidroxila 2'-OH que torna a molécula de RNA altamente suscetível à hidrólise, limitando genomas extensos. [...] A ausência de uma hidroxila no carbono 2' da desoxirribose torna o DNA muito mais estável quimicamente e resistente à hidrólise..."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_fixacao_celula_primitiva_q014",
+      "slide_id": "origem_vida_fixacao_celula_primitiva",
+      "slide_nome": "Exercício de Fixação - Evolução e Organização da Célula Primitiva",
+      "arquivo_origem": "Exercício 1 - Evolução e Organização da Célula Pri_260824_101131 (1).pdf",
+      "numero": 14,
+      "tema": "A Fita Dupla de DNA",
+      "subtema": "Redundância e Fidelidade Genômica",
+      "enunciado": "Ao analisar a transição da molécula de RNA simples-fita para o DNA em fita dupla na consolidação do LUCA, a apostila ressalta uma vantagem estrutural proporcionada pelo pareamento complementar de bases. Qual é essa propriedade biofísica essencial para a hereditariedade estável?",
+      "alternativas": {
+        "A": "O pareamento complementar de fitas atua como um sistema natural de redundância informacional e molde para o reparo de lesões, permitindo expandir o tamanho do genoma com elevada fidelidade de cópia.",
+        "B": "A fita dupla impede a separação das cadeias nucleotídicas, inviabilizando qualquer processo de transcrição.",
+        "C": "As duas fitas de DNA são cópias idênticas e paralelas, desprovidas de polaridade ou extremidades 5' e 3'.",
+        "D": "A fita dupla faz com que o DNA se autodestrua espontaneamente a cada ciclo de mitose."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: conforme a fundamentação da transição química, \"o pareamento complementar de fitas atua como um sistema natural de redundância e reparo de mutações, permitindo expandir o genoma com fidelidade\". Se uma fita sofrer dano, a sequência homóloga complementar intacta serve de gabarito para a recomposição enzimática.",
+        "B": "Incorreta: as pontes de hidrogênio entre as fitas complementares se abrem sob ação de helicases para que a transcrição e a replicação ocorram normalmente.",
+        "C": "Incorreta: as fitas de DNA são antiparalelas e complementares, e não idênticas.",
+        "D": "Incorreta: a dupla hélice é uma estrutura estável que é fielmente duplicada e transmitida entre divisões celulares."
+      },
+      "referencia": {
+        "paginas": [
+          3
+        ],
+        "fundamentacao": "Seção \"Transição Química\" e Aula 03.",
+        "trechos_apoio": [
+          "Fita Dupla Confiável: O pareamento complementar de fitas atua como um sistema natural de redundância e reparo de mutações, permitindo expandir o genoma com fidelidade."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_fixacao_celula_primitiva_q015",
+      "slide_id": "origem_vida_fixacao_celula_primitiva",
+      "slide_nome": "Exercício de Fixação - Evolução e Organização da Célula Primitiva",
+      "arquivo_origem": "Exercício 1 - Evolução e Organização da Célula Pri_260824_101131 (1).pdf",
+      "numero": 15,
+      "tema": "Transição Química para a Biologia",
+      "subtema": "O Conceito de \"Replicação com Variação\"",
+      "enunciado": "A Questão 10 do exercício destaca que a passagem da evolução química pré-biótica para a evolução biológica cumulativa dependeu da emergência da \"replicação com variação\". Por que essa propriedade informacional foi indispensável para o surgimento da seleção natural darwiniana?",
+      "alternativas": {
+        "A": "Porque sem replicação fiel acompanhada de pequenas variações hereditárias (mutações), qualquer novidade química favorável adquirida por um compartimento se perdia nas divisões físicas subsequentes, impedindo o acúmulo de adaptações pelas gerações.",
+        "B": "Porque a replicação com variação garantia que todos os descendentes fossem clones 100% idênticos sem nenhuma mutação possível.",
+        "C": "Porque a replicação molecular só funciona na presença de oxigênio gasoso puro em alta pressão.",
+        "D": "Porque a variação dependia exclusivamente do cruzamento meiótico com espermatozoides de mamíferos."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: os sistemas pré-bióticos rudimentares careciam de replicação fiel de instruções; quando a vesícula se dividia mecanicamente, a informação não era preservada com fidelidade suficiente para ser selecionada. A replicação molecular de ácidos nucleicos capaz de introduzir variações herdáveis viabilizou a seleção natural e a consolidação do LUCA.",
+        "B": "Incorreta: se a cópia fosse 100% idêntica sem variação, não haveria diversidade alélica para a seleção natural atuar.",
+        "C": "Incorreta: as etapas pré-bióticas e a transição para as primeiras células ocorreram em ambiente anaeróbio primordial.",
+        "D": "Incorreta: a meiose surgiu muito tempo depois na evolução celular dos eucariotos."
+      },
+      "referencia": {
+        "paginas": [
+          6,
+          10,
+          1,
+          3
+        ],
+        "fundamentacao": "Questões 6 e 10 do Exercício 1 e Aula 03.",
+        "trechos_apoio": [
+          "Sem herança molecular estável, quaisquer vantagens químicas adquiridas por uma vesícula desapareciam em sua divisão física. [...] Minerais como argilas concentraram e catalisaram as reações iniciais, permitindo que a 'replicação com variação' desse início à seleção natural cumulativa..."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_fixacao_celula_primitiva_q016",
+      "slide_id": "origem_vida_fixacao_celula_primitiva",
+      "slide_nome": "Exercício de Fixação - Evolução e Organização da Célula Primitiva",
+      "arquivo_origem": "Exercício 1 - Evolução e Organização da Célula Pri_260824_101131 (1).pdf",
+      "numero": 16,
+      "tema": "Consolidação do LUCA",
+      "subtema": "O Dogma Central da Biologia Molecular",
+      "enunciado": "O surgimento do LUCA (Last Universal Common Ancestor) é descrito na síntese integradora como o marco zero da hereditariedade e estabilidade celular estável. Qual conjunto de processos moleculares consolidou o chamado dogma central da biologia no LUCA?",
+      "alternativas": {
+        "A": "A tradução direta de proteínas em DNA sem o envolvimento de RNA mensageiro.",
+        "B": "O fluxo informacional estruturado onde o genoma estável de DNA é transcrito em RNA e traduzido em proteínas funcionais por ribossomos, utilizando ATP como carreador bioenergético universal.",
+        "C": "O armazenamento genético exclusivo em moléculas de colesterol cristalizado na membrana.",
+        "D": "A fotossíntese de glicose realizada unicamente por cristais de quartzo em rochas secas."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: proteínas não são retrotraduzidas enzimaticamente em DNA nas células.",
+        "B": "Correta: a apostila resume: \"Características Universais: Consolidação definitiva do dogma central da biologia: genoma de DNA estável, transcrição em RNA e tradução em ribossomos de proteínas utilizando ATP\". Esse padrão é compartilhado universalmente por bactérias, arqueas e eucariotos.",
+        "C": "Incorreta: lipídios esteroides compõem membranas eucarióticas, não armazenando código genético.",
+        "D": "Incorreta: minerais atuaram como catalisadores externos na química prebiótica, não realizando fotossíntese biológica celular."
+      },
+      "referencia": {
+        "paginas": [
+          4,
+          1
+        ],
+        "fundamentacao": "Seção \"Consolidação do LUCA\" e Questão 4 do Exercício 1.",
+        "trechos_apoio": [
+          "O Last Universal Common Ancestor surge como o primeiro sistema celular verdadeiramente estável. Características Universais: Consolidação definitiva do dogma central da biologia: genoma de DNA estável, transcrição em RNA e tradução em ribossomos de proteínas utilizando ATP."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_fixacao_celula_primitiva_q017",
+      "slide_id": "origem_vida_fixacao_celula_primitiva",
+      "slide_nome": "Exercício de Fixação - Evolução e Organização da Célula Primitiva",
+      "arquivo_origem": "Exercício 1 - Evolução e Organização da Célula Pri_260824_101131 (1).pdf",
+      "numero": 17,
+      "tema": "Evolução Bioenergética",
+      "subtema": "Quimiosmose e Fontes Hidrotermais",
+      "enunciado": "A Questão 5 destaca as fontes hidrotermais submarinas primordiais como um dos cenários mais promissores para o surgimento dos primeiros metabolismos. Por que esses ambientes geológicos eram favoráveis para suprir a bioenergética das primeiras células primitivas?",
+      "alternativas": {
+        "A": "Porque as fontes hidrotermais forneciam gradientes contínuos de prótons (diferença de pH) e potenciais de oxirredução (redox) entre os fluidos hidrotermais alcalinos e a água oceânica ácida circundante, alimentando reações exergônicas independentes de oxigênio molecular.",
+        "B": "Porque a temperatura das fontes ultrapassava 5.000 °C, vaporizando o DNA para facilitar mutações.",
+        "C": "Porque esses locais eram banhados por intensa luz solar direta com radiação ultravioleta esterilizante.",
+        "D": "Porque continham concentrações massivas de antibióticos modernos que selecionavam bactérias resistentes."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: os gradientes naturais de prótons (diferenças de pH) e o fluxo contínuo de minerais e elétrons em chaminés hidrotermais funcionaram como uma \"pilha geoquímica\" inorgânica natural, permitindo a síntese de compostos orgânicos e ATP antes mesmo da evolução de bombas de prótons complexas.",
+        "B": "Incorreta: temperaturas extremas acima do ponto de fusão vaporizam e desnaturam qualquer macromolécula orgânica.",
+        "C": "Incorreta: o fundo oceânico profundo é um ambiente afótico (completamente desprovido de luz solar), protegido da radiação UV destrutiva da superfície.",
+        "D": "Incorreta: antibióticos são compostos secundários sintetizados por organismos vivos muito posteriores ou em laboratório farmacêutico."
+      },
+      "referencia": {
+        "paginas": [
+          5,
+          1,
+          3
+        ],
+        "fundamentacao": "Questão 5 do Exercício 1 e Aula 01/03.",
+        "trechos_apoio": [
+          "Metabolismos anaeróbios, explorando gradientes de pH e potenciais redox em ambientes como fontes hidrotermais. [...] Vias metabólicas simples de oxirredução mineral (quimiotrofia) e fermentação orgânica..."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_fixacao_celula_primitiva_q018",
+      "slide_id": "origem_vida_fixacao_celula_primitiva",
+      "slide_nome": "Exercício de Fixação - Evolução e Organização da Célula Primitiva",
+      "arquivo_origem": "Exercício 1 - Evolução e Organização da Célula Pri_260824_101131 (1).pdf",
+      "numero": 18,
+      "tema": "Origem das Células Eucarióticas",
+      "subtema": "Teoria Autogênica vs. Endossimbiótica",
+      "enunciado": "O material didático da disciplina compara o modelo autogênico com o modelo endossimbiótico para a evolução dos compartimentos celulares eucariontes. Conforme detalhado nos esquemas integrados da apostila, como esses dois modelos se complementam na formação da célula eucariótica moderna?",
+      "alternativas": {
+        "A": "O sistema endomembranar (retículo endoplasmático, complexo de Golgi e a carioteca) originou-se por invaginações sucessivas da membrana plasmática (modelo autogênico); enquanto as organelas bioenergéticas (mitocôndrias e cloroplastos) surgiram pela incorporação simbiótica de bactérias de vida livre (modelo endossimbiótico).",
+        "B": "A mitocôndria surgiu por invaginação da parede celular de plantas e o núcleo celular surgiu por infecção viral de prions.",
+        "C": "Todas as estruturas da célula eucariótica surgiram exclusivamente por fissão binária em fontes termais secas.",
+        "D": "O retículo endoplasmático englobou o núcleo para produzir mitocôndrias de RNA."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: a conciliação teórica aceita pela biologia contemporânea e detalhada na apostila estabelece que o sistema de endomembranas e o envoltório nuclear surgiram por dobramentos/invaginações da membrana plasmática ancestral (modelo autogênico), enquanto mitocôndrias (a partir de alfa-proteobactérias aeróbias) e cloroplastos (a partir de cianobactérias fotossintéticas) decorreram de eventos de endossimbiose estável.",
+        "B": "Incorreta: mitocôndrias possuem genoma próprio circular semelhante ao bacteriano, o que refuta a hipótese autogênica para sua origem direta.",
+        "C": "Incorreta: organelas celulares membranosas não se originam por fissão geológica mineral.",
+        "D": "Incorreta: o retículo e o núcleo integram o sistema endomembranar originado por invaginações de membrana, não sintetizando mitocôndrias."
+      },
+      "referencia": {
+        "paginas": [
+          49,
+          54,
+          2,
+          3
+        ],
+        "fundamentacao": "Slides 49 a 54 da Aula 02 e Aula 03 integrada.",
+        "trechos_apoio": [
+          "Este modelo defende que as células eucarióticas desenvolveram organelos endomembranares a partir de invaginações existentes na membrana plasmática [...]. Este modelo que foi proposto por Lynn Margulis diz que mitocôndrias e cloroplastos vieram da incorporação de seres procariontes primitivos (associação simbiótica)."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_fixacao_celula_primitiva_q019",
+      "slide_id": "origem_vida_fixacao_celula_primitiva",
+      "slide_nome": "Exercício de Fixação - Evolução e Organização da Célula Primitiva",
+      "arquivo_origem": "Exercício 1 - Evolução e Organização da Célula Pri_260824_101131 (1).pdf",
+      "numero": 19,
+      "tema": "Evidências Moleculares da Endossimbiose",
+      "subtema": "Ribossomos e Genoma Próprio",
+      "enunciado": "A teoria endossimbiótica mitocondrial é sustentada por robustas evidências biofísicas e moleculares observadas nas mitocôndrias de células humanas e demais eucariontes. Quais características estruturais das mitocôndrias comprovam sua ancestralidade bacteriana livre conforme documentado na apostila?",
+      "alternativas": {
+        "A": "Presença de genoma próprio composto por DNA circular desprovido de histonas, ribossomos próprios semelhantes aos procariontes e capacidade de autoduplicação por divisão binária independente do núcleo.",
+        "B": "Presença de carioteca própria com cromossomos lineares idênticos aos do núcleo do hospedeiro.",
+        "C": "Ausência de qualquer tipo de membrana lipídica ou ácido nucleico interno.",
+        "D": "Dependência total de ribossomos nucleares para traduzir 100% de seus peptídeos em ambientes anóxicos."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: a apostila lista as evidências diretas em favor da endossimbiose: mitocôndrias contêm DNA próprio circular não associado a histonas (idêntico ao padrão procarionte), ribossomos 70S bacterianos com inibição por antibióticos específicos de bactérias e divisão autônoma por fissão binária.",
+        "B": "Incorreta: a mitocôndria não possui carioteca; seu genoma é circular e livre em sua matriz.",
+        "C": "Incorreta: mitocôndrias possuem dupla membrana (a interna com dobras chamadas cristas mitocondriais e a externa do hospedeiro).",
+        "D": "Incorreta: a organela sintetiza parte de suas próprias proteínas por meio de sua própria maquinaria de transcrição e tradução."
+      },
+      "referencia": {
+        "paginas": [
+          57,
+          84,
+          2,
+          3
+        ],
+        "fundamentacao": "Slides 57 e 84 da Aula 02 e Aula 03.",
+        "trechos_apoio": [
+          "Argumentos a favor: O DNA, os ribossomos e as estruturas membranares das mitocôndrias [...] são estruturas muito semelhantes às dos seres procariontes, não está associado às histonas; As mitocôndrias possuem ribossomas próprios e são capazes de se dividir de forma independente do núcleo..."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_fixacao_celula_primitiva_q020",
+      "slide_id": "origem_vida_fixacao_celula_primitiva",
+      "slide_nome": "Exercício de Fixação - Evolução e Organização da Célula Primitiva",
+      "arquivo_origem": "Exercício 1 - Evolução e Organização da Célula Pri_260824_101131 (1).pdf",
+      "numero": 20,
+      "tema": "Síntese Epistemológica",
+      "subtema": "A Transição do Inanimado ao Vivo",
+      "enunciado": "O texto introdutório do Exercício 1 e a síntese da Aula 01 ressaltam que compreender a transição da química pré-biótica para a célula biológica funcional é essencial para a Biomedicina. Qual princípio resume a visão científica moderna sobre o surgimento dos primeiros sistemas celulares vivos?",
+      "alternativas": {
+        "A": "A origem da vida ocorreu em um único instante mágico graças à formação instantânea de uma molécula proteica perfeita e isolada.",
+        "B": "A origem da vida não dependeu de uma \"molécula mágica\", mas sim da emergência e auto-organização progressiva de sistemas químicos dinâmicos capazes de integrar compartimentalização de membrana, metabolismo produtor de energia e informação hereditária estável sob seleção natural cumulativa.",
+        "C": "Os seres vivos surgiram diretamente de matéria orgânica em decomposição nas condições oxigenadas atuais por geração espontânea.",
+        "D": "A transição para a biologia ocorreu sem nenhuma relação com as leis da termodinâmica e da química orgânica fundamental."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a apostila desmistifica a ideia de uma \"molécula mágica\"; a vida é uma propriedade emergente de redes integradas, e não de um polímero isolado.",
+        "B": "Correta: conforme a ideia central enfatizada na apostila: \"a origem da vida não exige uma 'molécula mágica', mas a emergência progressiva de sistemas capazes de integrar metabolismo + informação + evolução\". A transição envolveu compartimentos (vesículas) encapsulando redes químicas catalíticas que ganharam hereditariedade e estabilidade no LUCA.",
+        "C": "Incorreta: a abiogênese histórica (geração espontânea nas condições atuais) foi refutada experimentalmente por Pasteur e Redi.",
+        "D": "Incorreta: a evolução pré-biótica obedece com rigor às leis da termodinâmica de não-equilíbrio, físico-química e catálise mineral."
+      },
+      "referencia": {
+        "paginas": [
+          21,
+          1
+        ],
+        "fundamentacao": "Slide 21 da Aula 01 e Introdução do Exercício 1.",
+        "trechos_apoio": [
+          "Ideia central: a origem da vida não exige uma 'molécula mágica', mas a emergência progressiva de sistemas capazes de integrar metabolismo + informação + evolução. [...] transição da química pré-biótica para a biologia celular funcional..."
+        ]
+      }
+    }
+  ]
+}

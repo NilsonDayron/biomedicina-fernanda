@@ -6,6 +6,10 @@ import rawOrigemVidaAula03 from '../../origem_vida_aula_03.json' with { type: 'j
 import rawOrigemVidaAula04 from '../../origem_vida_aula_04.json' with { type: 'json' }
 import rawOrigemVidaAula05 from '../../origem_vida_aula_05.json' with { type: 'json' }
 import rawOrigemVidaAula06 from '../../origem_vida_aula_06.json' with { type: 'json' }
+import rawOrigemVidaAula07 from '../../origem_vida_aula_07.json' with { type: 'json' }
+import rawOrigemVidaAula08 from '../../origem_vida_aula_08.json' with { type: 'json' }
+import rawOrigemVidaAula09 from '../../origem_vida_aula_09.json' with { type: 'json' }
+import rawOrigemVidaFixacaoCelula from '../../origem_vida_fixacao_celula_primitiva.json' with { type: 'json' }
 import { QUESTIONS } from './questions'
 import { TOPICS } from './topics'
 
@@ -160,6 +164,52 @@ const JSON_MATERIAL_DEFINITIONS = [
     rawData: rawOrigemVidaAula06,
     esperado: 30,
   },
+  {
+    file: 'origem_vida_aula_07.json',
+    arquivoOrigem: 'Aula 7 Mecanismos_Evolutivos_Especie_Especiacao_Ra_260927_171329 (1).pdf',
+    slide_id: 'origem_vida_aula_07',
+    nome: 'Aula 07 - Mecanismos Evolutivos, Espécie e Especiação',
+    disciplineId: 'origem-vida',
+    disciplineNome: 'Origem da Vida e Evolução Humana',
+    blurb: 'Pool gênico, unidade da evolução, tipos de seleção, deriva genética (gargalo e efeito fundador), fluxo gênico, barreiras pré e pós-zigóticas, nicho fundamental vs. efetivo e especiação.',
+    rawData: rawOrigemVidaAula07,
+    esperado: 30,
+    importadasEsperadas: 10,
+  },
+  {
+    file: 'origem_vida_aula_08.json',
+    arquivoOrigem: 'Aula 8 ED_Mutacoes_Geneticas_Evolucao_260928_120109 (1).pdf',
+    slide_id: 'origem_vida_aula_08',
+    nome: 'Aula 08 - Mutações Genéticas e Evolução',
+    disciplineId: 'origem-vida',
+    disciplineNome: 'Origem da Vida e Evolução Humana',
+    blurb: 'Mutações pontuais (silenciosa, missense, nonsense) e frameshift, mutação somática vs. germinativa, relatividade adaptativa, deriva de alelos neutros e resistência antimicrobiana.',
+    rawData: rawOrigemVidaAula08,
+    esperado: 30,
+    importadasEsperadas: 20,
+  },
+  {
+    file: 'origem_vida_aula_09.json',
+    arquivoOrigem: 'Aula 9 Historia_da_Evolucao_Humana_Saude_261019_095906 (1).pdf',
+    slide_id: 'origem_vida_aula_09',
+    nome: 'Aula 09 - História da Evolução Humana e Saúde',
+    disciplineId: 'origem-vida',
+    disciplineNome: 'Origem da Vida e Evolução Humana',
+    blurb: 'Evolução ramificada hominínia, bipedalismo e dilema obstétrico, Australopithecus, Paranthropus, gênero Homo, Neandertais, Denisovanos, introgressão, EPAS1, persistência da lactase e medicina evolutiva.',
+    rawData: rawOrigemVidaAula09,
+    esperado: 30,
+  },
+  {
+    file: 'origem_vida_fixacao_celula_primitiva.json',
+    arquivoOrigem: 'Exercício 1 - Evolução e Organização da Célula Pri_260824_101131 (1).pdf',
+    slide_id: 'origem_vida_fixacao_celula_primitiva',
+    nome: 'Exercício de Fixação - Evolução e Organização da Célula Primitiva',
+    disciplineId: 'origem-vida',
+    disciplineNome: 'Origem da Vida e Evolução Humana',
+    blurb: 'Síntese abiótica (Miller-Urey), compartimentalização em vesículas lipídicas, Mundo de RNA e ribozimas, LUCA, transição para o DNA, superfícies minerais, carioteca e bioenergética mitocondrial.',
+    rawData: rawOrigemVidaFixacaoCelula,
+    esperado: 20,
+  },
 ]
 
 export function isValidMaterialQuestion(questao, expectedSlideId) {
@@ -207,7 +257,9 @@ function importJsonMaterial(definition) {
   }
 
   const esperado = definition.esperado || questoesValidas.length
-  const confirmado = rawList.length === esperado && questoesValidas.length === esperado
+  const importadasEsperadas = definition.importadasEsperadas || esperado
+  const confirmado =
+    rawList.length === importadasEsperadas && questoesValidas.length === importadasEsperadas
 
   if (!confirmado) {
     console.error(

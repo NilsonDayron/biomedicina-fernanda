@@ -1,0 +1,985 @@
+{
+  "questoes": [
+    {
+      "id": "origem_vida_aula_09_q001",
+      "slide_id": "origem_vida_aula_09",
+      "slide_nome": "Aula 09 - História da Evolução Humana e Saúde",
+      "arquivo_origem": "Aula 9 Historia_da_Evolucao_Humana_Saude_261019_095906 (1).pdf",
+      "numero": 1,
+      "tema": "Epistemologia da Evolução Humana",
+      "subtema": "A Refutação da Escada de Progresso Linear",
+      "enunciado": "A clássica ilustração que retrata uma fila indiana de primatas culminando em um ser humano ereto é amplamente criticada pela paleoantropologia moderna. De acordo com os slides 3, 5 e 28 da aula, como a evolução da linhagem humana deve ser cientificamente compreendida?",
+      "alternativas": {
+        "A": "Como uma marcha progressiva unilinear e inevitável, na qual cada espécie existiu estritamente em sequência após a extinção da anterior.",
+        "B": "Como uma árvore ramificada e arbustiva com coexistência temporal de múltiplas linhagens hominínias, especiações e ramos que se extinguiram sem deixar descendentes modernos.",
+        "C": "Como um processo teleológico planejado conscientemente para atingir o cérebro humano como ápice universal biológico.",
+        "D": "Como uma transformação induzida exclusivamente pela transição instantânea de chimpanzés atuais em seres humanos modernos."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o texto enfatiza no slide 5: \"Evolução humana não é uma escada: Árvore de linhagens com ramificações e extinções\", refutando que todos os hominínios tenham vivido em sequência linear.",
+        "B": "Correta: a aula demonstra que a filogenia hominínia é ramificada; diferentes espécies (como Homo habilis, Homo erectus, Paranthropus e linhagens arcaicas) coexistiram no mesmo período geológico, havendo clados inteiros que se extinguiram sem continuidade evolutiva até o presente.",
+        "C": "Incorreta: a evolução não segue desígnio pré-ordenado ou finalidade pré-fixada (\"não existe trajetória inevitável rumo ao humano atual\").",
+        "D": "Incorreta: humanos e chimpanzés compartilham um ancestral comum no passado (~7–6 Ma); os humanos não descendem dos chimpanzés atuais."
+      },
+      "referencia": {
+        "paginas": [
+          5,
+          27,
+          28
+        ],
+        "fundamentacao": "Slides 5, 27 e 28.",
+        "trechos_apoio": [
+          "Evolução humana não é uma escada: Árvore de linhagens com ramificações e extinções. [...] Linhagens coexistiram, ramificaram-se e algumas se extinguiram. [...] Evolução ramificada: não existe trajetória inevitável rumo ao humano atual."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_09_q002",
+      "slide_id": "origem_vida_aula_09",
+      "slide_nome": "Aula 09 - História da Evolução Humana e Saúde",
+      "arquivo_origem": "Aula 9 Historia_da_Evolucao_Humana_Saude_261019_095906 (1).pdf",
+      "numero": 2,
+      "tema": "Evidências Paleoantropológicas",
+      "subtema": "As Linhas Convergentes de Investigação",
+      "enunciado": "No slide 4, a aula detalha como a comunidade científica reconstrói o passado da nossa espécie. Quais são as fontes de dados independentes que convergem para apoiar os modelos de parentesco, dispersão e cronologia da evolução humana?",
+      "alternativas": {
+        "A": "Apenas a análise subjetiva de pinturas rupestres sem datação de carbono.",
+        "B": "A convergência de fósseis (ossos, dentes, pegadas), geocronologia (estratigrafia e métodos radiométricos), anatomia comparada, arqueologia (ferramentas e vestígios), ecologia (paleoclima) e DNA antigo.",
+        "C": "Exclusivamente relatos históricos transmitidos por tradição oral antes do surgimento da escrita.",
+        "D": "Ensaios laboratoriais restritos a bactérias aeróbias cultivadas em placas de Petri."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: pinturas rupestres integram o registro arqueológico tardio, mas não respondem sozinhas pela história profunda de milhões de anos.",
+        "B": "Correta: o slide 4 elenca as evidências convergentes: fósseis anatômicos, geocronologia (estratigrafia e radiometria), anatomia osteológica comparada, indústrias líticas da arqueologia, ecologia paleoclimática e genômica do DNA antigo.",
+        "C": "Incorreta: a reconstrução científica utiliza vestígios biofísicos, químicos e genômicos empíricos testáveis, e não tradições mitológicas orais.",
+        "D": "Incorreta: o foco reside na paleoantropologia, na anatomia primata e nos genomas de hominínios arcaicos e modernos."
+      },
+      "referencia": {
+        "paginas": [
+          4
+        ],
+        "fundamentacao": "Slide 4.",
+        "trechos_apoio": [
+          "Como conhecemos o passado humano? Evidências convergentes: Fósseis (ossos, dentes, pegadas e contexto sedimentar); Geocronologia (estratigrafia e métodos radiométricos); Anatomia; Arqueologia; DNA antigo; Ecologia (paleoclima, ambientes)."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_09_q003",
+      "slide_id": "origem_vida_aula_09",
+      "slide_nome": "Aula 09 - História da Evolução Humana e Saúde",
+      "arquivo_origem": "Aula 9 Historia_da_Evolucao_Humana_Saude_261019_095906 (1).pdf",
+      "numero": 3,
+      "tema": "Biogeografia Hominínia",
+      "subtema": "O Papel Geográfico da África",
+      "enunciado": "O slide 7 ressalta a importância biogeográfica do continente africano como o \"berço da nossa linhagem\". Qual constatação empírica e qual cautela metodológica o material didático apresenta sobre os sítios fósseis africanos?",
+      "alternativas": {
+        "A": "Todos os hominínios viveram exclusivamente na África Ocidental; a cautela é que ossos não fossilizam em climas quentes.",
+        "B": "Os registros mais antigos de hominínios pertencem à África (Rift Oriental, África Central e sítios em cavernas da África Austral); a cautela é que o fóssil mais antigo conhecido não equivale necessariamente ao ancestral direto da linhagem.",
+        "C": "Os primeiros hominínios surgiram na Europa e migraram para a África durante a última Era do Gelo.",
+        "D": "Nenhum fóssil com mais de 100 mil anos foi recuperado no continente africano até o presente."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: os principais sítios documentados na aula localizam-se na África Oriental (Rift), Central e Austral.",
+        "B": "Correta: conforme o slide 7, o registro mais antigo da nossa linhagem é incontestavelmente africano; sob a rubrica Cautela, o autor adverte que encontrar o espécime fóssil mais antigo conhecido de um estrato sedimentar não autoriza a conclusão automática de que ele seja o ancestral direto direto da humanidade, mas sim um representante próximo de uma radiação mais ampla.",
+        "C": "Incorreta: as formas basais mais arcaicas (~7–4 Ma) são estritamente africanas.",
+        "D": "Incorreta: existem registros de hominínios fósseis africanos datados de milhões de anos (ex.: Sahelanthropus a ~7–6 Ma, Australopithecus a ~4 Ma)."
+      },
+      "referencia": {
+        "paginas": [
+          7
+        ],
+        "fundamentacao": "Slide 7.",
+        "trechos_apoio": [
+          "África: berço da nossa linhagem. O registro mais antigo de hominínios é africano [...]. Cautela: fóssil mais antigo conhecido não equivale necessariamente ao ancestral direto."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_09_q004",
+      "slide_id": "origem_vida_aula_09",
+      "slide_nome": "Aula 09 - História da Evolução Humana e Saúde",
+      "arquivo_origem": "Aula 9 Historia_da_Evolucao_Humana_Saude_261019_095906 (1).pdf",
+      "numero": 4,
+      "tema": "Primeiros Hominínios",
+      "subtema": "Sahelanthropus, Orrorin e Ardipithecus",
+      "enunciado": "Entre aproximadamente 7 e 4 milhões de anos atrás (Ma), o registro fóssil documenta as primeiras formas de hominínios basais. Qual padrão biológico caracteriza esse período inicial conforme conceituado no slide 8 da aula?",
+      "alternativas": {
+        "A": "A emergência imediata de seres com linguagem articulada e crânios de 1500 cm³.",
+        "B": "A evolução gradual e em mosaico da locomoção bípede, evidente em fósseis como Sahelanthropus (~7–6 Ma), Orrorin (~6 Ma, fêmur adaptado) e Ardipithecus (~4,4 Ma, combinando bipedalismo com vida arborícola).",
+        "C": "O domínio avançado de indústrias líticas do período Neolítico.",
+        "D": "A perda completa dos quatro membros e locomoção reptiliana por rastejamento."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a expansão encefálica e a linguagem são aquisições muito posteriores no tempo geológico.",
+        "B": "Correta: o slide 8 sintetiza a ideia-chave: \"a origem do bipedalismo foi gradual e em mosaico\", exemplificando com Sahelanthropus, Orrorin (indícios de marcha no fêmur) e Ardipithecus ramidus, que retinha adaptações para escalar árvores ao lado da capacidade de locomoção bípede no solo.",
+        "C": "Incorreta: o Paleolítico e o Neolítico situam-se em escalas de milhares de anos (ka), e não em milhões de anos basais.",
+        "D": "Incorreta: hominínios são primatas tetrápodes com postura ortógrada ereta."
+      },
+      "referencia": {
+        "paginas": [
+          8
+        ],
+        "fundamentacao": "Slide 8.",
+        "trechos_apoio": [
+          "Primeiros hominínios: Diversidade de formas entre cerca de 7 e 4 milhões de anos. Sahelanthropus (~7-6 Ma); Orrorin (~6 Ma; fêmur com indícios discutidos de locomoção bípede); Ardipithecus (~4,4 Ma; combina locomoção terrestre e arborícola). Ideia-chave: a origem do bipedalismo foi gradual e em mosaico."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_09_q005",
+      "slide_id": "origem_vida_aula_09",
+      "slide_nome": "Aula 09 - História da Evolução Humana e Saúde",
+      "arquivo_origem": "Aula 9 Historia_da_Evolucao_Humana_Saude_261019_095906 (1).pdf",
+      "numero": 5,
+      "tema": "Anatomia Funcional do Bipedalismo",
+      "subtema": "Remodelações Esqueléticas",
+      "enunciado": "A transição para a postura ereta e a locomoção bípede permanente exigiu profundas modificações na arquitetura óssea dos hominínios. Qual conjunto de alterações anatômicas está corretamente associado ao bipedalismo no slide 9?",
+      "alternativas": {
+        "A": "Posição anterior do forame magno na base do crânio; coluna vertebral com curvaturas funcionais para postura ereta; pelve mais curta e larga; ângulo valgo no fêmur; arcos plantares e hálux alinhado no pé.",
+        "B": "Forame magno deslocado para a região occipital posterior; coluna vertebral reta em forma de bastão de ferro rígido sem curvas.",
+        "C": "Pelve extremamente estreita e cilíndrica; hálux opositor com ângulo de 90° em relação aos outros dedos.",
+        "D": "Joelhos voltados estritamente para fora em rotação externa impedindo o apoio sob o centro de gravidade do corpo."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: o slide 9 detalha a biomecânica bípede: o forame magno posiciona-se inferiormente para sustentar a cabeça sobre a coluna ereta; a coluna desenvolve curvaturas (lordoses e cifoses) para amortecimento de cargas; a pelve encurta-se e expande-se lateralmente para estabilização de glúteos na marcha; o fêmur converge medialmente (ângulo valgo) mantendo os pés sob o centro de massa; e o pé forma arcos elásticos com o hálux alinhado aos demais dedos.",
+        "B": "Incorreta: forame magno posterior é característico de quadrúpedes com cabeça projetada à frente.",
+        "C": "Incorreta: o hálux alinhado substitui o hálux opositor arborícola para propulsionar o passo na marcha bípede.",
+        "D": "Incorreta: o ângulo valgo femoral direciona o joelho para dentro, garantindo apoio centralizado eficiente."
+      },
+      "referencia": {
+        "paginas": [
+          9
+        ],
+        "fundamentacao": "Slide 9.",
+        "trechos_apoio": [
+          "Bipedalismo: transformações anatômicas. Forame magno: posição mais inferior no crânio. Coluna: curvaturas relacionadas à postura ereta. Pelve: mais curta e larga, estabilização durante marcha. Fêmur: ângulo valgo favorece apoio sob o corpo. Pé: arcos plantares e hálux alinhado."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_09_q006",
+      "slide_id": "origem_vida_aula_09",
+      "slide_nome": "Aula 09 - História da Evolução Humana e Saúde",
+      "arquivo_origem": "Aula 9 Historia_da_Evolucao_Humana_Saude_261019_095906 (1).pdf",
+      "numero": 6,
+      "tema": "Medicina Evolutiva e Anatomia",
+      "subtema": "O Dilema Obstétrico e os Trade-offs",
+      "enunciado": "O material didático destaca que as adaptações evolutivas envolvem compromissos biomecânicos denominados trade-offs. No contexto da locomoção bípede e da reprodução humana, qual é o principal trade-off ressaltado no slide 9 e aplicado à obstetrícia?",
+      "alternativas": {
+        "A": "A necessidade de respirar exclusivamente por brânquias durante o terceiro trimestre gestacional.",
+        "B": "O conflito biomecânico entre uma pelve mais curta e larga (que otimiza a eficiência da marcha ereta estável) e a manutenção de um canal de parto suficientemente amplo para a passagem do feto (dilema obstétrico).",
+        "C": "A perda irreversível de cálcio nos dentes caninos que impossibilita o aleitamento materno.",
+        "D": "O alongamento excessivo das falanges da mão que impede o parto natural."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: primatas hominínios são mamíferos pulmonados com respiração aérea contínua.",
+        "B": "Correta: o slide 9 aponta expressamente: \"Trade-offs: locomoção, gestação e biomecânica do parto\"; a pelve encurtada favorece a biomecânica da bipedia mas restringe o diâmetro do canal de parto, o que, somado à posterior encefalização dos recém-nascidos, tornou o parto humano um processo de alta complexidade mecânica e dependente de assistência social.",
+        "C": "Incorreta: a redução dos caninos decorre de mudanças dietéticas e comportamentais, sem vínculo com perda de cálcio para lactação.",
+        "D": "Incorreta: o canal ósseo do parto é delimitado pelo cíngulo do membro inferior (pelve), e não pelas mãos."
+      },
+      "referencia": {
+        "paginas": [
+          9,
+          22
+        ],
+        "fundamentacao": "Slides 9 e 22.",
+        "trechos_apoio": [
+          "Trade-offs: locomoção, gestação e biomecânica do parto. [...] Parto: interação entre pelve, desenvolvimento e assistência."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_09_q007",
+      "slide_id": "origem_vida_aula_09",
+      "slide_nome": "Aula 09 - História da Evolução Humana e Saúde",
+      "arquivo_origem": "Aula 9 Historia_da_Evolucao_Humana_Saude_261019_095906 (1).pdf",
+      "numero": 7,
+      "tema": "Gênero Australopithecus",
+      "subtema": "O Fóssil \"Lucy\" e as Pegadas de Laetoli",
+      "enunciado": "O táxon Australopithecus afarensis (~3,9–2,9 Ma) ocupa posição destacada no ensino da evolução humana. Quais evidências empíricas atestam que esses indivíduos já eram bípedes, desmistificando a ideia de que a grande expansão encefálica antecedeu o bipedalismo?",
+      "alternativas": {
+        "A": "O fóssil de \"Lucy\" (esqueleto com pelve e fêmur bípedes) e as famosas Pegadas fósseis de Laetoli (~3,66 Ma), que comprovam marcha bípede ereta em hominínios que ainda possuíam volume cerebral relativamente pequeno.",
+        "B": "A presença de motores a combustão interna associados aos fósseis na Tanzânia.",
+        "C": "A existência de crânios de 1600 cm³ associados a esqueletos quadrúpedes que não conseguiam andar em pé.",
+        "D": "O registro de escrituras em cerâmica descrevendo a técnica de corrida de longa distância."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: os slides 10, 20 e 27 documentam que o bipedalismo precedeu o crescimento cerebral; A. afarensis (\"Lucy\") e as Pegadas de Laetoli (~3,66 Ma impressas em cinzas vulcânicas na Tanzânia) provam que esses hominínios caminhavam sobre dois pés com arcos plantares funcionais quando seus cérebros ainda apresentavam dimensões semelhantes às de grandes símios antropoides (~400–500 cm³).",
+        "B": "Incorreta: tecnologias modernas surgiram na era industrial contemporânea.",
+        "C": "Incorreta: inverte a evidência paleontológica; o cérebro era pequeno e o bipedalismo já estava consolidado.",
+        "D": "Incorreta: Australopithecus não desenvolveu linguagem escrita ou cerâmica."
+      },
+      "referencia": {
+        "paginas": [
+          10,
+          20,
+          27
+        ],
+        "fundamentacao": "Slides 10, 20 e 27.",
+        "trechos_apoio": [
+          "Australopithecus: bípedes, não humanos modernos. A. afarensis (~3,9-2,9 Ma; exemplo clássico: 'Lucy'). Pegadas de Laetoli (~3,66 Ma; evidência de marcha bípede). Cérebro: volume ainda relativamente pequeno. [...] Bipedalismo: anterior à grande expansão encefálica."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_09_q008",
+      "slide_id": "origem_vida_aula_09",
+      "slide_nome": "Aula 09 - História da Evolução Humana e Saúde",
+      "arquivo_origem": "Aula 9 Historia_da_Evolucao_Humana_Saude_261019_095906 (1).pdf",
+      "numero": 8,
+      "tema": "Hominínios Arcaicos",
+      "subtema": "A Especialização Mastigatória de Paranthropus",
+      "enunciado": "Contemporâneos aos primeiros membros do gênero Homo, os hominínios do gênero Paranthropus (~2,7–1,2 Ma) representam um caso emblemático de especialização ecológica no registro fóssil africano. Qual característica anatômica definia esse gênero e qual foi seu destino evolutivo conforme o slide 11?",
+      "alternativas": {
+        "A": "Redução total dos dentes molares com alimentação líquida exclusiva de néctar floral.",
+        "B": "Molares hipertrofiados e acentuada robustez mastigatória para triturar alimentos vegetais duros e fibrosos, integrando uma linhagem divergente que se extinguiu sem deixar descendentes modernos.",
+        "C": "Capacidade craniana de 2000 cm³ associada à invenção da metalurgia do bronze.",
+        "D": "Transformação direta e imediata em seres humanos da espécie Homo sapiens."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: Paranthropus possuía dentes pós-caninos (molares e pré-molares) de proporções maciças chamados \"megadontia\".",
+        "B": "Correta: conforme o slide 11: \"Paranthropus: molares grandes e robustez mastigatória. Coexistência: linhagens diferentes viveram no mesmo período. Extinção: diversidade evolutiva inclui ramos sem descendentes atuais\"; ilustra perfeitamente que nem todas as linhagens hominínias conduziram ao homem moderno.",
+        "C": "Incorreta: Paranthropus retinha encéfalo de tamanho modesto e pertencia ao Paleolítico arcaico.",
+        "D": "Incorreta: constituiu uma ramificação lateral paralela que foi extinta por volta de 1,2 Ma."
+      },
+      "referencia": {
+        "paginas": [
+          11,
+          21
+        ],
+        "fundamentacao": "Slides 11 e 21.",
+        "trechos_apoio": [
+          "Paranthropus e a diversidade de hominínios: Nem toda linhagem levou ao gênero Homo. Paranthropus: molares grandes e robustez mastigatória. Coexistência: linhagens diferentes viveram no mesmo período. Extinção: diversidade evolutiva inclui ramos sem descendentes atuais."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_09_q009",
+      "slide_id": "origem_vida_aula_09",
+      "slide_nome": "Aula 09 - História da Evolução Humana e Saúde",
+      "arquivo_origem": "Aula 9 Historia_da_Evolucao_Humana_Saude_261019_095906 (1).pdf",
+      "numero": 9,
+      "tema": "Arqueologia e Cognição",
+      "subtema": "A Cronologia das Indústrias Líticas",
+      "enunciado": "O desenvolvimento de ferramentas de pedra lascada reflete a evolução cognitiva e a coordenação motora dos hominínios. De acordo com os slides 12 e 13 da aula, qual descoberta arqueológica demonstrou que a fabricação de artefatos líticos não começou exclusivamente com o gênero Homo?",
+      "alternativas": {
+        "A": "A tecnologia de microchips de silício encontrada em cavernas egípcias de 10.000 anos.",
+        "B": "A indústria lítica do Lomekwiano (~3,3 Ma), anterior aos registros fósseis clássicos do gênero Homo (~2,8 Ma), seguida pelo Olduvaiense (~2,6 Ma, lascas e núcleos) e pelo Acheulense (~1,76 Ma, bifaces).",
+        "C": "O surgimento de espadas de ferro fundido nas cinzas da proto-Terra a 4,5 bilhões de anos.",
+        "D": "A ausência de qualquer artefato cortante anterior a 50 mil anos atrás."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: microchips são ferramentas da eletrônica do século XX.",
+        "B": "Correta: os slides 12 e 13 destacam: \"Ferramentas não começaram necessariamente com Homo\"; artefatos do Lomekwiano datados de ~3,3 Ma antecedem os primeiros fósseis seguros atribuídos a Homo (~2,8 Ma), sendo sucedidos pelas indústrias Olduvaiense (~2,6 Ma) e Acheulense (~1,76 Ma, bifaces associadas a Homo erectus).",
+        "C": "Incorreta: o planeta Terra primitivo a 4,5 Ga era abiótico e inabitável para primatas.",
+        "D": "Incorreta: artefatos de pedra lascada possuem registro contínuo desde mais de 3 milhões de anos."
+      },
+      "referencia": {
+        "paginas": [
+          12,
+          13
+        ],
+        "fundamentacao": "Slides 12 e 13.",
+        "trechos_apoio": [
+          "Tecnologia lítica: ferramentas e cognição. Ferramentas não começaram necessariamente com Homo. Lomekwiano: artefatos de ~3,3 Ma atribuídos a hominínios. Olduvaiense: lascas e núcleos a partir de ~2,6 Ma. Acheulense: bifaces e outras tecnologias desde ~1,76 Ma."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_09_q010",
+      "slide_id": "origem_vida_aula_09",
+      "slide_nome": "Aula 09 - História da Evolução Humana e Saúde",
+      "arquivo_origem": "Aula 9 Historia_da_Evolucao_Humana_Saude_261019_095906 (1).pdf",
+      "numero": 10,
+      "tema": "Homo erectus / ergaster",
+      "subtema": "Proporções Corporais, Fogo e Primeira Saída da África",
+      "enunciado": "O surgimento de Homo erectus / ergaster (~1,9 Ma a ~100 ka) marca uma etapa de grande plasticidade ecológica e transformações na história humana. Quais marcos comportamentais, anatômicos e biogeográficos caracterizam essa espécie conforme o slide 14?",
+      "alternativas": {
+        "A": "Proporções corporais pós-cranianas semelhantes às humanas atuais, uso e controle gradual do fogo e a primeira grande expansão geográfica de hominínios para fora da África (com fósseis na Eurásia/Dmanisi a partir de ~1,8 Ma).",
+        "B": "Retorno obrigatório à vida exclusivamente nas copas de árvores com perda total da marcha bípede no solo.",
+        "C": "Vida estritamente aquática em recifes de corais da Antártica sem produção de ferramentas.",
+        "D": "Impossibilidade total de sobreviver em qualquer ecossistema fora do deserto do Saara."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: o slide 14 sintetiza os atributos de H. erectus / ergaster: proporções corporais esguias e alongadas adaptadas à corrida de resistência e termorregulação no calor; associação com tecnologias Acheulenses e evidências de controle inicial do fogo; e o pioneirismo nas expansões biogeográficas fora da África (registros fósseis em Dmanisi, Geórgia, a ~1,8 Ma).",
+        "B": "Incorreta: H. erectus apresentava adaptação plena para a locomoção terrestre eficiente em savanas e bosques abertos.",
+        "C": "Incorreta: hominínios são primatas terrestres placentários.",
+        "D": "Incorreta: a espécie expandiu-se com êxito pelo continente asiático (ex.: homem de Java e homem de Pequim) e Geórgia eurasiática."
+      },
+      "referencia": {
+        "paginas": [
+          14,
+          15
+        ],
+        "fundamentacao": "Slides 14 e 15.",
+        "trechos_apoio": [
+          "Homo erectus / ergaster: Dispersão, corpo e flexibilidade ecológica. Cronologia: a partir de ~1,9 Ma [...]. Corpo: proporções mais próximas das humanas atuais. Dispersão: registros fora da África desde ~1,8 Ma (Dmanisi e primeiros Homo na Eurásia). Fogo: uso e controle surgiram de modo gradual..."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_09_q011",
+      "slide_id": "origem_vida_aula_09",
+      "slide_nome": "Aula 09 - História da Evolução Humana e Saúde",
+      "arquivo_origem": "Aula 9 Historia_da_Evolucao_Humana_Saude_261019_095906 (1).pdf",
+      "numero": 11,
+      "tema": "Origem Africana de Homo sapiens",
+      "subtema": "Cronologia e Sítios Fósseis Chave",
+      "enunciado": "O registro fóssil e as datações radiométricas modernas situam o surgimento da nossa espécie (Homo sapiens) em território africano por volta de 300 mil anos atrás (~300 ka). Quais são os dois sítios paleontológicos africanos destacados no slide 17 como registros primordiais da emergência de Homo sapiens inicial?",
+      "alternativas": {
+        "A": "Cavernas de Lascaux (França) e Neandertal (Alemanha).",
+        "B": "Jebel Irhoud (Marrocos, ~315 ka) e Omo Kibish (Etiópia).",
+        "C": "Sítio fóssil de Dmanisi (Geórgia eurasiática, ~1,8 Ma).",
+        "D": "Sítio arqueológico de Stonehenge (Inglaterra, ~5 ka)."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: Lascaux e o vale do Neander localizam-se na Europa ocidental, associados a Neandertais ou arte rupestre tardia de sapiens europeus, e não aos primeiros fósseis africanos basais de nossa espécie.",
+        "B": "Correta: o slide 17 documenta os fósseis mais antigos atribuídos à nossa espécie: Jebel Irhoud, no Marrocos (~315 ka, apresentando traços de sapiens inicial), e Omo Kibish, na Etiópia; o texto pontua uma \"origem estruturada\" pan-africana conectada em mosaico, e não um único ponto isolado.",
+        "C": "Incorreta: Dmanisi é o sítio chave para a dispersão inicial de Homo erectus para fora da África a ~1,8 Ma.",
+        "D": "Incorreta: Stonehenge data do Holoceno recente (período Neolítico/Idade do Bronze), sem relação com a emergência biológica de Homo sapiens."
+      },
+      "referencia": {
+        "paginas": [
+          17
+        ],
+        "fundamentacao": "Slide 17.",
+        "trechos_apoio": [
+          "Homo sapiens: origem africana. Os fósseis mais antigos atribuídos à nossa espécie têm cerca de 300 mil anos. Jebel Irhoud: Marrocos, ~315 ka; traços de sapiens inicial. Omo Kibish: Etiópia; fósseis antigos de sapiens. Origem estruturada: populações africanas conectadas e diferenciadas."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_09_q012",
+      "slide_id": "origem_vida_aula_09",
+      "slide_nome": "Aula 09 - História da Evolução Humana e Saúde",
+      "arquivo_origem": "Aula 9 Historia_da_Evolucao_Humana_Saude_261019_095906 (1).pdf",
+      "numero": 12,
+      "tema": "Hominínios Arcaicos Contemporâneos",
+      "subtema": "Neandertais e Denisovanos",
+      "enunciado": "Durante o Pleistoceno superior, a linhagem de Homo sapiens não estava sozinha no planeta. De acordo com os slides 18 e 21, quais eram as duas linhagens irmãs próximas que habitavam a Eurásia e compartilhavam ancestrais comuns com os humanos anatomicamente modernos?",
+      "alternativas": {
+        "A": "Neandertais (Eurásia ocidental, ~400–40 ka) e Denisovanos (Ásia/Oceania, identificados sobretudo por paleogenômica/DNA antigo).",
+        "B": "Dinossauros terópodes bípedes e mamutes carnívoros voadores.",
+        "C": "Australopithecus afarensis e Sahelanthropus tchadensis da Patagônia.",
+        "D": "Chimpanzés pigmeus urbanos clonados em laboratórios medievais."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: os slides 18 e 21 apresentam os Neandertais (que ocuparam a Eurásia ocidental entre ~400 ka e 40 ka, apresentando cultura material e adaptações ao clima frio) e os Denisovanos (linhagem identificada primordialmente a partir de DNA fóssil extraído de ossos diminutos na caverna de Denisova na Sibéria).",
+        "B": "Incorreta: dinossauros não-avianos foram extintos há cerca de 66 milhões de anos, muito antes do surgimento dos hominínios.",
+        "C": "Incorreta: Australopithecus e Sahelanthropus são hominínios basais arcaicos africanos de 7 a 3 milhões de anos atrás, e não espécies eurasiáticas do Pleistoceno tardio.",
+        "D": "Incorreta: chimpanzés são antropoides não-hominínios de habitat africano equatorial que não viveram em centros urbanos medievais."
+      },
+      "referencia": {
+        "paginas": [
+          18,
+          21
+        ],
+        "fundamentacao": "Slides 18 e 21.",
+        "trechos_apoio": [
+          "Neandertais e denisovanos: Linhagens próximas de Homo sapiens. Neandertais: Eurásia ocidental; adaptações e cultura material. Contato: houve cruzamentos com ancestrais de humanos atuais. Denisovanos: identificados sobretudo por DNA antigo e poucos fósseis. Ancestralidade: linhagens compartilharam ancestrais mais antigos."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_09_q013",
+      "slide_id": "origem_vida_aula_09",
+      "slide_nome": "Aula 09 - História da Evolução Humana e Saúde",
+      "arquivo_origem": "Aula 9 Historia_da_Evolucao_Humana_Saude_261019_095906 (1).pdf",
+      "numero": 13,
+      "tema": "Paleogenômica",
+      "subtema": "A Revelação da Introgressão e Hibridação Arcaica",
+      "enunciado": "O desenvolvimento do sequenciamento de DNA antigo (ancient DNA) revolucionou a compreensão sobre as dispersões e contatos entre linhagens humanas no passado. Qual foi a grande descoberta genética descrita no slide 19 sobre as populações humanas atuais?",
+      "alternativas": {
+        "A": "A comprovação de que Homo sapiens nunca cruzou com nenhuma outra linhagem e que Neandertais não possuíam ácidos nucleicos.",
+        "B": "A evidência de introgressão gênica, demonstrando que populações humanas atuais fora da África carregam variantes genéticas neandertais em proporções variáveis, enquanto algumas populações da Ásia e Oceania carregam também herança genética de denisovanos.",
+        "C": "A descoberta de que todas as mutações humanas foram inseridas por vírus alienígenas há 50 anos.",
+        "D": "A prova de que todos os fósseis catalogados eram falsificações de resina sintética."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o DNA antigo refutou o isolamento genético absoluto, provando que houve cruzamentos férteis com introgressão de alelos arcaicos no pool de Homo sapiens.",
+        "B": "Correta: o slide 19 destaca: \"Introgressão: populações humanas atuais carregam variantes neandertais em proporções variáveis. Denisovanos: contribuição genética mais elevada em algumas populações da Oceania e Ásia\"; essa miscigenação ocorreu quando sapiens dispersou-se da África e encontrou essas linhagens na Eurásia.",
+        "C": "Incorreta: não há base científica para intervenção extraterrestre; a variação é explicada por processos biológicos naturais.",
+        "D": "Incorreta: o registro fóssil e as sequências genômicas fósseis são autenticados por múltiplos métodos físico-químicos e estratigráficos independentes."
+      },
+      "referencia": {
+        "paginas": [
+          19,
+          27
+        ],
+        "fundamentacao": "Slides 19 e 27.",
+        "trechos_apoio": [
+          "DNA antigo: o que revelou? Genética complementa fósseis e arqueologia. Introgressão: populações humanas atuais carregam variantes neandertais em proporções variáveis. Denisovanos: contribuição genética mais elevada em algumas populações da Oceania e Ásia."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_09_q014",
+      "slide_id": "origem_vida_aula_09",
+      "slide_nome": "Aula 09 - História da Evolução Humana e Saúde",
+      "arquivo_origem": "Aula 9 Historia_da_Evolucao_Humana_Saude_261019_095906 (1).pdf",
+      "numero": 14,
+      "tema": "Medicina Evolutiva e Genômica",
+      "subtema": "Adaptação à Altitude e o Gene EPAS1",
+      "enunciado": "O estudo de caso 1 (slide 24) explora a adaptação biológica de populações humanas que residem em elevadas altitudes (como no Platô Tibetano), sob condições de hipóxia crônica. Qual fator genético e evolutivo explica a tolerância hipóxica adaptativa dos tibetanos apresentada na aula?",
+      "alternativas": {
+        "A": "A duplicação artificial do número de hemácias através de transfusões sanguíneas regulares.",
+        "B": "A seleção natural atuando sobre variantes do gene EPAS1, as quais foram introduzidas no pool gênico ancestral por introgressão genética a partir de cruzamentos arcaicos com denisovanos.",
+        "C": "A perda total do gene da hemoglobina no sangue periférico.",
+        "D": "Uma mutação idêntica que surgiu espontaneamente em todos os moradores no ano de 1950."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: transfusão é procedimento médico hospitalar contemporâneo, não adaptação genética hereditária populacional.",
+        "B": "Correta: o slide 24 documenta formalmente: \"variantes introgressadas de denisovanos foram associadas à adaptação tibetana em EPAS1\"; esse gene regula a resposta à hipóxia (evitando poliglobulia excessiva e viscosidade sanguínea patológica em grandes altitudes), ilustrando o valor biomédico e adaptativo da herança arcaica.",
+        "C": "Incorreta: a hemoglobina continua sendo a proteína carreadora de gases respiratórios indispensável no sangue humano.",
+        "D": "Incorreta: trata-se de alelos antigos herdados por introgressão e selecionados positivamente por milênios de vida no platô hipóxico."
+      },
+      "referencia": {
+        "paginas": [
+          24
+        ],
+        "fundamentacao": "Slide 24.",
+        "trechos_apoio": [
+          "Estudo de caso: adaptação à altitude. Genética, fisiologia e história populacional. Cenário: duas populações vivem em grandes altitudes. [...] Discussão: variantes introgressadas de denisovanos foram associadas à adaptação tibetana em EPAS1."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_09_q015",
+      "slide_id": "origem_vida_aula_09",
+      "slide_nome": "Aula 09 - História da Evolução Humana e Saúde",
+      "arquivo_origem": "Aula 9 Historia_da_Evolucao_Humana_Saude_261019_095906 (1).pdf",
+      "numero": 15,
+      "tema": "Coevolução Gene-Cultura",
+      "subtema": "A Persistência da Lactase em Adultos",
+      "enunciado": "Na maioria dos mamíferos e na maioria das populações humanas ancestrais, a produção da enzima lactase é interrompida após o desmame. O estudo de caso 2 (slide 25) aborda a persistência da lactase na idade adulta como um exemplo clássico de:",
+      "alternativas": {
+        "A": "Seleção artificial conduzida por veterinários para produzir queijos em laboratório.",
+        "B": "Coevolução gene-cultura, na qual a prática cultural do pastoreio e da criação de gado leiteiro criou uma nova pressão seletiva que favoreceu alelos regulatórios permitindo a digestão de leite por adultos em contextos ecológicos específicos.",
+        "C": "Uma anomalia patológica transmissível por contato com água contaminada.",
+        "D": "Degeneração muscular induzida pelo consumo crônico de carne de caça."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a seleção atuou sobre o genoma humano que consumia os laticínios, e não sobre a manipulação zootécnica pura de queijos.",
+        "B": "Correta: o slide 25 detalha: \"Estudo de caso: lactase e cultura. Coevolução gene-cultura. Situação: criação de animais e consumo de leite. [...] Variação: persistência de lactase na idade adulta em certas populações. Mecanismo: seleção em contextos culturais e ecológicos específicos\"; ilustra que a cultura (pastoreio) moldou a seleção de variantes no DNA humano.",
+        "C": "Incorreta: a persistência da lactase é uma adaptação fisiológica e nutricional vantajosa em populações pastoris.",
+        "D": "Incorreta: não há associação com distrofia muscular; a enzima atua na hidrólise intestinal do dissacarídeo lactose em glicose e galactose."
+      },
+      "referencia": {
+        "paginas": [
+          25
+        ],
+        "fundamentacao": "Slide 25.",
+        "trechos_apoio": [
+          "Estudo de caso: lactase e cultura. Coevolução gene-cultura. Situação: criação de animais e consumo de leite. [...] Variação: persistência de lactase na idade adulta em certas populações. Mecanismo: seleção em contextos culturais e ecológicos específicos."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_09_q016",
+      "slide_id": "origem_vida_aula_09",
+      "slide_nome": "Aula 09 - História da Evolução Humana e Saúde",
+      "arquivo_origem": "Aula 9 Historia_da_Evolucao_Humana_Saude_261019_095906 (1).pdf",
+      "numero": 16,
+      "tema": "Mosaico de Traços Humanos",
+      "subtema": "A Ordem Temporal das Aquisições",
+      "enunciado": "O slide 20 enfatiza que as características anatômicas e comportamentais da nossa espécie não surgiram simultaneamente em um único bloco temporal (\"evolução em mosaico\"). Qual relação de precedência temporal entre o bipedalismo e a expansão encefálica é atestada pelo registro fóssil hominínio?",
+      "alternativas": {
+        "A": "O aumento massivo do cérebro ocorreu primeiro em quadrúpedes que viviam em florestas tropicais; milhões de anos depois, esses seres desceram ao chão e tornaram-se bípedes.",
+        "B": "O bipedalismo surgiu milhões de anos antes da grande expansão encefálica, sendo observado em australopitecos com cérebros pequenos e consolidado antes da forte encefalização vista no gênero Homo.",
+        "C": "A linguagem escrita surgiu antes da formação da coluna vertebral nos vertebrados.",
+        "D": "O volume encefálico e o bipedalismo atingiram o tamanho atual exatamente no mesmo instante há 1 bilhão de anos."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: inverte o registro paleontológico factual; formas bípedes como Australopithecus afarensis (~3,6 Ma) retêm volumes cerebrais modestos (~400 cm³).",
+        "B": "Correta: o slide 20 sintetiza categoricamente: \"Bipedalismo: anterior à grande expansão encefálica. Encéfalo: aumento variável em diferentes linhagens\"; e a resposta comentada do slide 27 reitera que pegadas e membros de australopitecos provam a bipedia muito antes dos grandes cérebros.",
+        "C": "Incorreta: a escrita humana surgiu no Holoceno recente (~5.000 anos atrás), enquanto a coluna vertebral surgiu há centenas de milhões de anos.",
+        "D": "Incorreta: a Terra não continha hominínios há 1 Ga (era pré-cambriana de organismos unicelulares simples)."
+      },
+      "referencia": {
+        "paginas": [
+          20,
+          27
+        ],
+        "fundamentacao": "Slides 20 e 27.",
+        "trechos_apoio": [
+          "Evolução de características humanas: Traços não surgiram todos juntos. Bipedalismo: anterior à grande expansão encefálica. Encéfalo: aumento variável em diferentes linhagens. [...] Gabarito comentado: 2. Pegadas, pelve e membros de australopitecos sustentam bipedalismo antes do grande cérebro."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_09_q017",
+      "slide_id": "origem_vida_aula_09",
+      "slide_nome": "Aula 09 - História da Evolução Humana e Saúde",
+      "arquivo_origem": "Aula 9 Historia_da_Evolucao_Humana_Saude_261019_095906 (1).pdf",
+      "numero": 17,
+      "tema": "Medicina Evolutiva",
+      "subtema": "Compromissos Biomecânicos e Doenças Contemporâneas",
+      "enunciado": "O estudo da evolução humana fornece ferramentas teóricas para formular hipóteses clínicas sobre afecções comuns na prática médica moderna. No slide 22, quais áreas da saúde humana são correlacionadas diretamente à história evolutiva da postura e da dieta?",
+      "alternativas": {
+        "A": "Dores lombares e patologias na coluna vertebral decorrentes dos compromissos biomecânicos do bipedalismo, além de apinhamento dentário e cáries decorrentes da redução da mandíbula e transições alimentares com alimentos processados.",
+        "B": "Exclusivamente a transmissão de doenças genéticas por picadas de mosquitos estéreis.",
+        "C": "A perda da audição provocada pela ausência de pelos nos dedos das mãos.",
+        "D": "A calcificação obrigatória da aorta abdominal em todas as crianças recém-nascidas."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: o slide 22 detalha as pontes entre evolução e clínica: na coluna vertebral, a compressão axial vertical e as curvaturas bípedes geram vulnerabilidade para hérnias discais e lombalgias; na dentição, a redução do arco mandibular não acompanhou a redução do tamanho de dentes (como terceiros molares inclusos), associada a mudanças drásticas na dieta moderna de alimentos moles e açúcares fermentáveis.",
+        "B": "Incorreta: mosquitos transmitem patógenos infecciosos (arboviroses, malária), e não mutações monogênicas hereditárias.",
+        "C": "Incorreta: a audição relaciona-se ao aparelho vestíbulo-coclear, sem dependência mecânica de pelos digitais.",
+        "D": "Incorreta: aterosclerose e calcificações vasculares são processos patológicos do adulto e idoso, não condições normais obrigatórias de recém-nascidos."
+      },
+      "referencia": {
+        "paginas": [
+          22
+        ],
+        "fundamentacao": "Slide 22.",
+        "trechos_apoio": [
+          "Anatomia e saúde: por que estudar evolução? Coluna vertebral: compromissos biomecânicos do bipedalismo. Parto: interação entre pelve, desenvolvimento e assistência. Dentição: mudanças na dieta, mandíbula e saúde oral. Metabolismo: respostas fisiológicas em ambientes modernos."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_09_q018",
+      "slide_id": "origem_vida_aula_09",
+      "slide_nome": "Aula 09 - História da Evolução Humana e Saúde",
+      "arquivo_origem": "Aula 9 Historia_da_Evolucao_Humana_Saude_261019_095906 (1).pdf",
+      "numero": 18,
+      "tema": "Genética Populacional Humana",
+      "subtema": "Diversidade em Uma Única Espécie",
+      "enunciado": "Ao articular a paleoantropologia com a genética e a saúde pública, o slide 23 apresenta as diretrizes fundamentais sobre a diversidade genética da nossa espécie (Homo sapiens). Qual é a conclusão biológica apresentada para orientar a conduta do profissional de saúde?",
+      "alternativas": {
+        "A": "A espécie humana deve ser separada em cinco raças discretas em laudos médicos para padronizar doses de medicamentos.",
+        "B": "Todas as populações atuais pertencem a uma única espécie (Homo sapiens); a variabilidade genética é contínua e compartilhada, de modo que categorias raciais sociais não correspondem a subdivisões biológicas discretas, importando mais os dados clínicos e genômicos individuais do que essencialismos raciais.",
+        "C": "Populações de continentes diferentes possuem tipos celulares e tecidos conjuntivos totalmente incomparáveis.",
+        "D": "Não existe qualquer variação genética ou fenotípica entre seres humanos vivos hoje."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a aula rejeita categoricamente o uso de rótulos raciais sociais como substitutos biológicos do diagnóstico individual.",
+        "B": "Correta: os slides 23 e 27 sintetizam: \"Diversidade humana: uma única espécie. Origem compartilhada: todas as populações atuais pertencem a Homo sapiens [...]. Categorias raciais: não correspondem a raças biológicas humanas discretas. Prática clínica: dados individuais importam mais que essencialismos raciais\"; a variação é estruturada por clina, ancestralidade e fluxo gênico.",
+        "C": "Incorreta: a histologia, anatomia e biologia celular de todos os seres humanos são idênticas em seus tecidos e órgãos fundamentais.",
+        "D": "Incorreta: há polimorfismos e diferenças de frequências alélicas decorrentes de migração e seleção local, porém organizadas de forma contínua."
+      },
+      "referencia": {
+        "paginas": [
+          23,
+          27
+        ],
+        "fundamentacao": "Slides 23 e 27.",
+        "trechos_apoio": [
+          "Diversidade humana: uma única espécie. Origem compartilhada: todas as populações atuais pertencem a Homo sapiens. Variabilidade: diferenças alélicas refletem história e ambiente. Categorias raciais: não correspondem a raças biológicas humanas discretas. Prática clínica: dados individuais importam mais que essencialismos raciais."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_09_q019",
+      "slide_id": "origem_vida_aula_09",
+      "slide_nome": "Aula 09 - História da Evolução Humana e Saúde",
+      "arquivo_origem": "Aula 9 Historia_da_Evolucao_Humana_Saude_261019_095906 (1).pdf",
+      "numero": 19,
+      "tema": "Cronologia Comparativa dos Hominínios",
+      "subtema": "A Tabela Síntese da Aula",
+      "enunciado": "O slide 21 organiza os principais grupos hominínios em uma tabela comparativa com seus respectivos intervalos cronológicos aproximados e traços marcantes. Qual correlação entre táxon fóssil, cronologia e traço anatômico está rigorosamente de acordo com o material?",
+      "alternativas": {
+        "A": "Australopithecus (~4,2–2 Ma; bipedalismo + traços arborícolas); Homo habilis (~2,4–1,4 Ma; diversidade do Homo inicial); Homo erectus (~1,9 Ma a ~100 ka; ampla dispersão fora da África).",
+        "B": "Homo sapiens (~7 bilhões de anos atrás; carapaça óssea calcificada dorsal).",
+        "C": "Neandertais (~10 dias atrás; respiração exclusivamente anaeróbia por fermentação láctica).",
+        "D": "Paranthropus (~200 anos atrás; ausência completa de crânio e dentes)."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: a tabela do slide 21 correlaciona exatamente esses dados: Australopithecus (4,2–2 Ma, bipedia combinada com membros arborícolas); Paranthropus (2,7–1,2 Ma, especialização mastigatória); H. habilis (2,4–1,4 Ma, formas do Homo inicial); H. erectus (1,9 Ma–~100 ka, corpo moderno e dispersão eurasiática); Neandertais (~400–40 ka, Eurásia e introgressão); e H. sapiens (~300 ka–presente).",
+        "B": "Incorreta: o universo tem 13,8 Ga e a Terra 4,54 Ga; hominínios surgiram há cerca de 7 Ma.",
+        "C": "Incorreta: Neandertais foram extintos há cerca de 40 mil anos (~40 ka).",
+        "D": "Incorreta: Paranthropus viveu entre 2,7 e 1,2 Ma, famoso justamente por seus crânios robustos e megadontia."
+      },
+      "referencia": {
+        "paginas": [
+          21
+        ],
+        "fundamentacao": "Slide 21.",
+        "trechos_apoio": [
+          "Tabela comparativa de hominínios: Australopithecus (4,2-2 Ma; bipedalismo + traços arborícolas); Paranthropus (2,7-1,2 Ma; especialização mastigatória); H. habilis (2,4-1,4 Ma; diversidade do Homo inicial); H. erectus (1,9 Ma-~100 ka; ampla dispersão); Neandertais (~400-40 ka; Eurásia e introgressão); H. sapiens (~300 ka-presente; linhagem humana atual)."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_09_q020",
+      "slide_id": "origem_vida_aula_09",
+      "slide_nome": "Aula 09 - História da Evolução Humana e Saúde",
+      "arquivo_origem": "Aula 9 Historia_da_Evolucao_Humana_Saude_261019_095906 (1).pdf",
+      "numero": 20,
+      "tema": "Síntese Epistemológica",
+      "subtema": "Os Três Grandes Pilares da Aula 9",
+      "enunciado": "No fechamento da disciplina (slide 28), o material sintetiza as \"três ideias para levar da aula\" como lição conceitual integradora para os futuros profissionais da Saúde. Quais são essas três ideias estruturantes?",
+      "alternativas": {
+        "A": "A marcha forçada para a perfeição anatômica; a superioridade das linhagens europeias; e a inutilidade do registro fóssil.",
+        "B": "A evolução ramificada (não existe trajetória inevitável rumo ao humano atual); as evidências integradas (fósseis, datação, arqueologia e genômica se complementam); e a saúde e diversidade (história evolutiva informa hipóteses biomédicas, sem determinismo biológico).",
+        "C": "A criação espontânea de hominínios a partir de poeira cósmica há 500 anos; a imutabilidade do genoma humano; e a proibição da paleogenômica.",
+        "D": "A certeza de que o ser humano moderno parou de evoluir e perdeu todo o DNA herdado de ancestrais arcaicos."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: ideias fixistas, lineares e racistas foram superadas pela síntese evolutiva e genômica contemporânea.",
+        "B": "Correta: o slide 28 encerra a aula destacando literalmente essas três sínteses: Evolução ramificada (arbustiva, com extinções e contingência histórica); Evidências integradas (convergência de paleontologia, geocronologia, arqueologia e DNA antigo); e Saúde e diversidade (a medicina evolutiva elucida vulnerabilidades do corpo humano e desmistifica categorias raciais biológicas).",
+        "C": "Incorreta: contraria as bases científicas empíricas apresentadas ao longo de todo o curso.",
+        "D": "Incorreta: populações humanas continuam sob ação de mecanismos microevolutivos e carregam frações demonstráveis de genomas neandertais e denisovanos."
+      },
+      "referencia": {
+        "paginas": [
+          28
+        ],
+        "fundamentacao": "Slide 28.",
+        "trechos_apoio": [
+          "Síntese final: Três ideias para levar da aula. Evolução ramificada: não existe trajetória inevitável rumo ao humano atual. Evidências integradas: fósseis, datação, arqueologia e genômica se complementam. Saúde e diversidade: história evolutiva informa hipóteses, sem determinismo biológico."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_09_q021",
+      "slide_id": "origem_vida_aula_09",
+      "slide_nome": "Aula 09 - História da Evolução Humana e Saúde",
+      "arquivo_origem": "Aula 9 Historia_da_Evolucao_Humana_Saude_261019_095906 (1).pdf",
+      "numero": 21,
+      "tema": "Hominização e Encefalização",
+      "subtema": "O Tecido Cerebral e Mudanças Dietéticas",
+      "enunciado": "A grande expansão do volume encefálico no gênero Homo é considerada um dos marcos anatômicos e metabólicos da evolução humana. Conforme os slides 14, 20 e 22, qual fator ecológico e comportamental esteve intimamente associado ao suporte bioenergético desse encéfalo metabolicamente dispendioso?",
+      "alternativas": {
+        "A": "A adoção de uma dieta exclusivamente folívora baseada em gramíneas secas de difícil digestão.",
+        "B": "A flexibilidade alimentar aliada ao processamento e cozimento de alimentos facilitado pelo uso e controle do fogo e pela confecção de indústrias líticas, ampliando o aporte calórico disponível.",
+        "C": "A redução completa da ingestão de proteínas e a eliminação do tecido adiposo corporal.",
+        "D": "A fotossíntese cutânea facultativa desenvolvida por Homo erectus em ambientes áridos."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: dietas folívoras com fibras duras exigem trato gastrointestinal longo e volumoso (como em Paranthropus), sendo incompatíveis com o suporte de um encéfalo metabolicamente caro.",
+        "B": "Correta: os slides 14, 20 e 22 destacam que o aumento do encéfalo exigiu flexibilidade alimentar, tecnologias líticas para processamento e o uso/controle do fogo; o cozimento amolece os alimentos, reduz o gasto de energia na digestão e aumenta a absorção calórica rápida necessária para nutrir o tecido cerebral.",
+        "C": "Incorreta: o consumo de carne e gorduras animais foi fundamental para fornecer ácidos graxos essenciais e alta densidade calórica à linhagem.",
+        "D": "Incorreta: hominínios são mamíferos heterótrofos estritos dependentes de ingestão alimentar orgânica."
+      },
+      "referencia": {
+        "paginas": [
+          14,
+          20,
+          22
+        ],
+        "fundamentacao": "Slides 14, 20 e 22.",
+        "trechos_apoio": [
+          "Homo erectus / ergaster: Dispersão, corpo e flexibilidade ecológica [...]. Fogo: uso e controle surgiram de modo gradual. [...] Evolução de características humanas: Encéfalo: aumento variável em diferentes linhagens. Dieta: flexibilidade alimentar e tecnologias de processamento. [...] Dentição: mudanças na dieta, mandíbula e saúde oral. Metabolismo: respostas fisiológicas em ambientes modernos."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_09_q022",
+      "slide_id": "origem_vida_aula_09",
+      "slide_nome": "Aula 09 - História da Evolução Humana e Saúde",
+      "arquivo_origem": "Aula 9 Historia_da_Evolucao_Humana_Saude_261019_095906 (1).pdf",
+      "numero": 22,
+      "tema": "Paleoclimatologia e Evolução Humana",
+      "subtema": "O Impacto das Mudanças Ambientais",
+      "enunciado": "O continente africano e a Eurásia passaram por profundas oscilações climáticas durante o Plioceno e o Pleistoceno. Conforme o slide 16 da aula, como as oscilações climáticas atuaram como forças seletivas sobre as populações de hominínios?",
+      "alternativas": {
+        "A": "O clima permaneceu 100% estável e imutável por 7 milhões de anos, impedindo qualquer alteração de nicho ecológico.",
+        "B": "As alterações de temperatura e umidade criaram mosaicos ecológicos com distribuição variável de recursos, favorecendo a mobilidade, dispersões geográficas, plasticidade dietética e comportamental.",
+        "C": "O frio extremo congelou todo o continente africano, obrigando todos os hominínios a hibernarem em cavernas por eras completas.",
+        "D": "As secas fizeram com que os hominínios decidissem mutar conscientemente seu código genético."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o texto destaca que ocorreram intensas oscilações climáticas (períodos glaciais e interglaciais, alternância de umidade e aridez).",
+        "B": "Correta: o slide 16 aponta textualmente: \"Clima e evolução humana: Mudanças ambientais alteraram pressões seletivas. Oscilações climáticas (temperatura e umidade), Mosaicos ecológicos (recursos variáveis), Mobilidade (dispersões, isolamento e reencontros) e Plasticidade (dieta, tecnologia e comportamento)\".",
+        "C": "Incorreta: a África tropical manteve temperaturas habitáveis, intercalando fases úmidas com expansão de savanas e bosques.",
+        "D": "Incorreta: mutações são estocásticas e não surgem por planejamento volitivo."
+      },
+      "referencia": {
+        "paginas": [
+          16
+        ],
+        "fundamentacao": "Slide 16.",
+        "trechos_apoio": [
+          "Clima e evolução humana: Mudanças ambientais alteraram pressões seletivas. Oscilações climáticas: alterações de temperatura e umidade. Mosaicos ecológicos: distribuição variável de recursos. Mobilidade: dispersões, isolamento e reencontros. Plasticidade: dieta, tecnologia e comportamento."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_09_q023",
+      "slide_id": "origem_vida_aula_09",
+      "slide_nome": "Aula 09 - História da Evolução Humana e Saúde",
+      "arquivo_origem": "Aula 9 Historia_da_Evolucao_Humana_Saude_261019_095906 (1).pdf",
+      "numero": 23,
+      "tema": "Paleoantropologia e Morfologia",
+      "subtema": "Traços Derivados de Homo sapiens",
+      "enunciado": "Em comparação com os hominínios arcaicos (como Homo erectus e Neandertais), o esqueleto craniofacial de Homo sapiens apresenta uma combinação singular de traços anatômicos derivados. Quais características esqueléticas cranianas tipificam a nossa espécie conforme os slides 17 e 20?",
+      "alternativas": {
+        "A": "Presença de queixo ósseo proeminente (protuberância mentoniana) na mandíbula e calota craniana globularizada com face retraída verticalmente sob o neurocrânio.",
+        "B": "Presença de enorme crista sagital óssea no topo da cabeça para fixação de músculos temporais maciços.",
+        "C": "Torus supraorbital maciço e contínuo projetado como uma barra óssea sobre as órbitas oculares com fronte achatada e fugidia.",
+        "D": "Prognatismo facial extremo e ausência completa de cavidade nasal."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: os fósseis atribuídos a Homo sapiens (como em Jebel Irhoud e Omo Kibish) ilustram a emergência da calota craniana globular e alta, acompanhada da redução do esqueleto facial e da presença de mento (queixo) na sínfise mandibular.",
+        "B": "Incorreta: cristas sagitais hipertrofiadas são marcas anatômicas de Paranthropus e primatas não humanos com mastigação pesada.",
+        "C": "Incorreta: o toro supraorbital contínuo espesso e a fronte deprimida são típicos de Homo erectus e Neandertais, sendo reduzidos em Homo sapiens.",
+        "D": "Incorreta: a face de Homo sapiens é ortógnata (plana e recuada) e o nariz apresenta projeção óssea bem delimitada."
+      },
+      "referencia": {
+        "paginas": [
+          17,
+          20
+        ],
+        "fundamentacao": "Slides 17 e 20.",
+        "trechos_apoio": [
+          "Homo sapiens: origem africana. Jebel Irhoud (Marrocos, ~315 ka; traços de sapiens inicial). Omo Kibish (Etiópia; fósseis antigos de sapiens). [...] Características anatômicas surgiram em mosaico. [...] Evolução de características humanas: Encéfalo, face e bipedalismo."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_09_q024",
+      "slide_id": "origem_vida_aula_09",
+      "slide_nome": "Aula 09 - História da Evolução Humana e Saúde",
+      "arquivo_origem": "Aula 9 Historia_da_Evolucao_Humana_Saude_261019_095906 (1).pdf",
+      "numero": 24,
+      "tema": "Paleoantropologia e Cultura Material",
+      "subtema": "Neandertais na Eurásia Ocidental",
+      "enunciado": "Fósseis e vestígios arqueológicos de Neandertais (~400–40 ka) desmistificaram a antiga visão pejorativa de que eram seres desprovidos de complexidade cultural. De acordo com os slides 18 e 21 da aula, quais evidências confirmam a sofisticação adaptativa dessa linhagem?",
+      "alternativas": {
+        "A": "Sobrevivência em climas rigorosos com cultura material especializada, sepultamento intencional, uso de adornos e cruzamentos com ancestrais de humanos atuais.",
+        "B": "Construção de pirâmides monumentais de calcário no deserto do Saara há 500 mil anos.",
+        "C": "Invenção da internet por fibra óptica nas estepes siberianas.",
+        "D": "Total incapacidade de caçar grandes mamíferos ou utilizar peles de animais para proteção térmica."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: os slides 18 e 21 destacam que os Neandertais possuíam cultura material elaborada (indústria Musteriense), adaptações morfológicas ao frio da Eurásia ocidental e estabeleceram contato reprodutivo com ancestrais de Homo sapiens.",
+        "B": "Incorreta: pirâmides são construções da civilização egípcia do Holoceno tardio (~4,5 ka).",
+        "C": "Incorreta: telecomunicações digitais são invenções contemporâneas do século XX.",
+        "D": "Incorreta: Neandertais eram exímios caçadores de grandes herbívoros da megafauna pleistocênica com domínio pleno de ferramentas líticas e fogo."
+      },
+      "referencia": {
+        "paginas": [
+          18,
+          21
+        ],
+        "fundamentacao": "Slides 18 e 21.",
+        "trechos_apoio": [
+          "Neandertais: Eurásia ocidental; adaptações e cultura material. Contato: houve cruzamentos com ancestrais de humanos atuais. [...] Neandertais (~400-40 ka; Eurásia e introgressão)."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_09_q025",
+      "slide_id": "origem_vida_aula_09",
+      "slide_nome": "Aula 09 - História da Evolução Humana e Saúde",
+      "arquivo_origem": "Aula 9 Historia_da_Evolucao_Humana_Saude_261019_095906 (1).pdf",
+      "numero": 25,
+      "tema": "Paleogenômica",
+      "subtema": "Denisovanos e a Herança na Oceania e Ásia",
+      "enunciado": "Diferente de outras linhagens hominínias que foram identificadas primariamente por esqueletos completos, os Denisovanos constituem um caso emblemático de identificação pela genética. Como esse grupo foi caracterizado no material e em quais populações humanas sua herança genética é mais expressiva?",
+      "alternativas": {
+        "A": "Identificados exclusivamente por ossos gigantes de 4 metros na Antártica; sua herança existe apenas em aves marinhas.",
+        "B": "Identificados sobretudo por sequenciamento de DNA antigo a partir de poucos fragmentos fósseis, apresentando contribuição genética (introgressão) mais elevada em populações autóctones da Oceania (como melanésios) e partes da Ásia.",
+        "C": "Espécie extinta sem qualquer homologia genética com os mamíferos placentários.",
+        "D": "População mitológica que nunca teve existência biológica real comprovada em laboratório."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: não existem fósseis de hominínios gigantes; a caracterização foi molecular a partir de falange e dentes diminutos.",
+        "B": "Correta: o slide 18 e o slide 19 afirmam textualmente: \"Denisovanos: identificados sobretudo por DNA antigo e poucos fósseis\", e \"Denisovanos: contribuição genética mais elevada em algumas populações da Oceania e Ásia\".",
+        "C": "Incorreta: Denisovanos são hominínios aparentados filogeneticamente aos Neandertais e Homo sapiens.",
+        "D": "Incorreta: o genoma denisovano foi sequenciado em alta cobertura, permitindo identificar genes específicos (como EPAS1) funcionais em humanos modernos."
+      },
+      "referencia": {
+        "paginas": [
+          18,
+          19
+        ],
+        "fundamentacao": "Slides 18 e 19.",
+        "trechos_apoio": [
+          "Denisovanos: identificados sobretudo por DNA antigo e poucos fósseis. [...] Denisovanos: contribuição genética mais elevada em algumas populações da Oceania e Ásia."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_09_q026",
+      "slide_id": "origem_vida_aula_09",
+      "slide_nome": "Aula 09 - História da Evolução Humana e Saúde",
+      "arquivo_origem": "Aula 9 Historia_da_Evolucao_Humana_Saude_261019_095906 (1).pdf",
+      "numero": 26,
+      "tema": "Expansões Geográficas de Homo sapiens",
+      "subtema": "As Rotas Globais",
+      "enunciado": "O infográfico da linha do tempo no slide 15 resume as grandes saídas da África e dispersões dos hominínios pelo globo. Em qual intervalo temporal aproximado ocorreram as grandes ondas de dispersão de Homo sapiens para fora do continente africano que povoaram a Eurásia, Oceania e Américas?",
+      "alternativas": {
+        "A": "Há cerca de 4,5 bilhões de anos, durante a formação da crosta terrestre primitória.",
+        "B": "Entre aproximadamente 70 mil e 50 mil anos atrás (~70–50 ka).",
+        "C": "Exclusivamente no ano de 1859 após a publicação do livro de Charles Darwin.",
+        "D": "Apenas após a invenção da roda há 2 mil anos."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a Terra primitiva a 4,5 Ga era um planeta estéril e superaquecido.",
+        "B": "Correta: a cronologia comparativa dos slides 15 e 5 indica que, após o surgimento na África a ~300 ka, as principais dispersões globais bem-sucedidas de Homo sapiens para fora do continente ocorreram por volta de ~70–50 ka (atingindo a Ásia, Austrália/Oceania e posteriormente a Europa e as Américas no final do Pleistoceno e Holoceno).",
+        "C": "Incorreta: 1859 é a data histórica moderna da publicação de A Origem das Espécies.",
+        "D": "Incorreta: a colonização da Austrália (~50 ka) e das Américas (>15 ka) ocorreu por grupos paleolíticos caçadores-coletores muito antes da agricultura e da metalurgia."
+      },
+      "referencia": {
+        "paginas": [
+          15
+        ],
+        "fundamentacao": "Slide 15.",
+        "trechos_apoio": [
+          "Expansões para fora da África: Não ocorreu uma única saída simples. ~1,8 Ma (Dmanisi e primeiros Homo na Eurásia); ~800 ka; ~300 ka (H. sapiens na África); ~70-50 ka (grandes dispersões de sapiens); Holoceno (ocupação e transformações culturais)."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_09_q027",
+      "slide_id": "origem_vida_aula_09",
+      "slide_nome": "Aula 09 - História da Evolução Humana e Saúde",
+      "arquivo_origem": "Aula 9 Historia_da_Evolucao_Humana_Saude_261019_095906 (1).pdf",
+      "numero": 27,
+      "tema": "Medicina Evolutiva e Imunologia",
+      "subtema": "Coevolução Hospedeiro-Patógeno",
+      "enunciado": "O material de apoio destaca a importância de compreender as infecções e a imunidade sob o prisma da coevolução patógeno-hospedeiro. Como o raciocínio evolutivo auxilia o biomédico e o médico a interpretar epidemias e resistência imunológica na história humana?",
+      "alternativas": {
+        "A": "Compreendendo que os patógenos são formas imutáveis criadas em equilíbrio perfeito com o organismo humano.",
+        "B": "Reconhecendo que patógenos e o sistema imune humano exercem pressões seletivas recíprocas contínuas ao longo do tempo, onde variantes genéticas de defesa do hospedeiro são selecionadas enquanto os patógenos evoluem mecanismos de escape e virulência.",
+        "C": "Assumindo que nenhuma bactéria ou vírus pode sofrer mutações quando em contato com anticorpos.",
+        "D": "Declarando que todas as doenças infecciosas foram erradicadas permanentemente antes do surgimento da agricultura."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: vírus e bactérias possuem alta variabilidade genética e evoluem com grande velocidade.",
+        "B": "Correta: os slides 22 e 24 da Aula 9 (integrados aos princípios da Aula 4 e 7) articulam que as doenças infecciosas resultam de uma corrida armamentista coevolutiva: patógenos evoluem estratégias de invasão e escape, enquanto o pool gênico humano acumula polimorfismos protetores sob seleção natural (como as variantes associadas à resistência à malária ou pestes).",
+        "C": "Incorreta: a pressão imune seleciona ativamente variantes virais e bacterianas com mutações de escape.",
+        "D": "Incorreta: o aumento da densidade populacional e o convívio com rebanhos a partir do Neolítico ampliou zoonoses e epidemias infecciosas."
+      },
+      "referencia": {
+        "paginas": [
+          22,
+          24
+        ],
+        "fundamentacao": "Slides 22 e 24.",
+        "trechos_apoio": [
+          "Anatomia e saúde: por que estudar evolução? Infecções: coevolução hospedeiro-patógeno. Genética: variação humana e interpretação de risco. [...] A evolução não é apenas um tema histórico: é um processo observável com consequências clínicas, epidemiológicas e de saúde pública."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_09_q028",
+      "slide_id": "origem_vida_aula_09",
+      "slide_nome": "Aula 09 - História da Evolução Humana e Saúde",
+      "arquivo_origem": "Aula 9 Historia_da_Evolucao_Humana_Saude_261019_095906 (1).pdf",
+      "numero": 28,
+      "tema": "Paleoantropologia e Comportamento",
+      "subtema": "A Emergência da Linguagem Articulada",
+      "enunciado": "A comunicação simbólica e a linguagem articulada foram fundamentais para a transmissão cumulativa da cultura humana. Conforme pontuado no slide 20 da aula, qual é a posição científica atual sobre a cronologia e a origem da linguagem na linhagem humana?",
+      "alternativas": {
+        "A": "A linguagem surgiu instantaneamente com o primeiro primata fóssil há 50 milhões de anos.",
+        "B": "A linguagem teve origem gradual e complexa, envolvendo bases anatômicas, neurológicas e genéticas em mosaico, sem que exista um marco fóssil único e seguro no tempo geológico.",
+        "C": "A linguagem depende estritamente do tamanho dos membros inferiores e não tem relação com o encéfalo.",
+        "D": "Todos os fósseis do gênero Homo preservaram fitas sonoras gravadas em seus maxilares."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: não há indício de linguagem articulada simbólica em primatas basais do Eoceno.",
+        "B": "Correta: o slide 20 define com rigor: \"Linguagem: origem gradual, sem marco fóssil único e seguro\"; o desenvolvimento da fala articulada e do simbolismo envolveu modificações no aparelho fonador (descida da laringe e osso hioide), circuitos neurais (áreas de Broca e Wernicke), genes regulatórios (como FOXP2) e aprendizagem social ao longo de centenas de milhares de anos.",
+        "C": "Incorreta: a fala depende da coordenação neuromuscular laringo-faríngea e de áreas corticais do encéfalo.",
+        "D": "Incorreta: sons acústicos não fossilizam; cientistas inferem a capacidade de fala por dados osteológicos indiretos, endocrânios e DNA antigo."
+      },
+      "referencia": {
+        "paginas": [
+          20
+        ],
+        "fundamentacao": "Slide 20.",
+        "trechos_apoio": [
+          "Evolução de características humanas: Cultura: aprendizagem social e transmissão cumulativa. Linguagem: origem gradual, sem marco fóssil único e seguro."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_09_q029",
+      "slide_id": "origem_vida_aula_09",
+      "slide_nome": "Aula 09 - História da Evolução Humana e Saúde",
+      "arquivo_origem": "Aula 9 Historia_da_Evolucao_Humana_Saude_261019_095906 (1).pdf",
+      "numero": 29,
+      "tema": "Desconstrução de Tipologias Raciais",
+      "subtema": "A Variação Genética Clinal",
+      "enunciado": "O questionário de fixação nos slides 26 e 27 indaga: \"O que significa dizer que humanos atuais não formam raças biológicas discretas?\". Qual é a resposta conceitual sintetizada no gabarito oficial do professor para balizar a atuação em saúde?",
+      "alternativas": {
+        "A": "Significa que a variação genética humana é amplamente compartilhada e contínua (clinal), sem fronteiras biológicas naturais rígidas, sendo estruturada por ancestralidade, migrações sucessivas e distância geográfica.",
+        "B": "Significa que seres humanos são clones laboratoriais e não possuem variação no DNA.",
+        "C": "Significa que os continentes foram povoados por cinco espécies diferentes que nunca trocaram genes.",
+        "D": "Significa que a genética não deve ser utilizada em nenhuma pesquisa de saúde pública."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: no gabarito comentado do professor (slide 27, item 4): \"Há variação compartilhada e contínua sem fronteiras naturais rígidas\"; as frequências alélicas variam gradativamente pelo globo conforme as rotas de migração e o isolamento por distância geográfica (variação clinal), demonstrando a inexistência de blocos raciais biológicos estanques.",
+        "B": "Incorreta: a variabilidade genética individual é abundante e única em cada ser humano (exceto gêmeos monozigóticos).",
+        "C": "Incorreta: todos os seres humanos pertencem à mesma espécie biológica e mantêm fluxo gênico interpopulacional.",
+        "D": "Incorreta: a genética populacional é essencial para a epidemiologia e farmacogenômica, desde que desprovida de essencialismos raciais falsos."
+      },
+      "referencia": {
+        "paginas": [
+          26,
+          27
+        ],
+        "fundamentacao": "Slides 26 e 27.",
+        "trechos_apoio": [
+          "Fixação: O que significa dizer que humanos atuais não formam raças biológicas discretas? Gabarito comentado — professor: 4. Há variação compartilhada e contínua sem fronteiras naturais rígidas."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_09_q030",
+      "slide_id": "origem_vida_aula_09",
+      "slide_nome": "Aula 09 - História da Evolução Humana e Saúde",
+      "arquivo_origem": "Aula 9 Historia_da_Evolucao_Humana_Saude_261019_095906 (1).pdf",
+      "numero": 30,
+      "tema": "Revisão Integrativa da Disciplina",
+      "subtema": "A Importância da Evolução para a Prática Biomédica",
+      "enunciado": "A Questão 5 de discussão em grupo no slide 26 solicita que o estudante cite uma aplicação concreta do raciocínio evolutivo para a área da Saúde. De acordo com os exemplos listados no gabarito comentado do slide 27, quais áreas clínicas e sanitárias integram diretamente os conceitos da evolução?",
+      "alternativas": {
+        "A": "Exclusivamente a confecção de próteses dentárias de madeira sem base fisiológica.",
+        "B": "O controle da resistência antimicrobiana hospitalar, a compreensão da biomecânica articular e obstétrica da postura ereta e a farmacogenética baseada em variantes de ancestralidade populacional.",
+        "C": "A proibição de exames de biologia molecular em hospitais gerais.",
+        "D": "A substituição de vacinas preventivas por isolamento geográfico perpétuo de pacientes doentes."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: próteses modernas usam cerâmicas e titânio osteointegrados fundamentados na anatomia clínica e biofísica.",
+        "B": "Correta: no gabarito comentado oficial do slide 27, o professor lista os exemplos-chave: \"Ex.: resistência antimicrobiana, biomecânica, farmacogenética\"; e o slide 22 expande para a coluna vertebral, o parto humano, a saúde oral e as doenças metabólicas contemporâneas.",
+        "C": "Incorreta: o diagnóstico molecular (PCR, sequenciamento, painéis genéticos) é a ferramenta diagnóstica primordial da Biomedicina moderna.",
+        "D": "Incorreta: vacinas são pilares da saúde pública que estimulam a imunidade adaptativa frente a patógenos biológicos."
+      },
+      "referencia": {
+        "paginas": [
+          22,
+          26,
+          27
+        ],
+        "fundamentacao": "Slides 22, 26 e 27.",
+        "trechos_apoio": [
+          "Fixação: 5. Cite uma aplicação para saúde de uma perspectiva evolutiva. Gabarito comentado — professor: 5. Ex.: resistência antimicrobiana, biomecânica, farmacogenética. Anatomia e saúde: Coluna vertebral, parto, dentição, metabolismo, infecções e genética."
+        ]
+      }
+    }
+  ]
+}

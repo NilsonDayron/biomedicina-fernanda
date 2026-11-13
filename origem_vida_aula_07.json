@@ -1,0 +1,327 @@
+{
+  "questoes": [
+    {
+      "id": "origem_vida_aula_07_q001",
+      "slide_id": "origem_vida_aula_07",
+      "slide_nome": "Aula 07 - Mecanismos Evolutivos, Espécie e Especiação",
+      "arquivo_origem": "Aula 7 Mecanismos_Evolutivos_Especie_Especiacao_Ra_260927_171329 (1).pdf",
+      "numero": 1,
+      "tema": "Fundamentos Populacionais",
+      "subtema": "A Unidade da Evolução e o Pool Gênico",
+      "enunciado": "Ao introduzir os fundamentos da genética de populações, o material didático esclarece sobre qual nível biológico a evolução atua diretamente. Conforme conceituado na aula, o que define a unidade de evolução e como esse processo é mensurado?",
+      "alternativas": {
+        "A": "A unidade de evolução é o indivíduo isolado, sendo a evolução mensurada pelo ganho muscular somático adquirido ao longo de sua vida adulta.",
+        "B": "A unidade de evolução é a população biológica, sendo a evolução mensurada pela mudança nas características hereditárias e nas frequências alélicas do pool gênico ao longo das gerações.",
+        "C": "A unidade de evolução é a molécula de ATP mitocondrial, mensurada pelo consumo diário de glicose tecidual.",
+        "D": "A unidade de evolução é o ecossistema abiótico estático, mensurado pela quantidade de rochas magmáticas sedimentadas."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o texto enfatiza que \"Indivíduos têm fenótipos; populações mudam geneticamente ao longo das gerações\"; modificações somáticas individuais não constituem evolução biológica.",
+        "B": "Correta: a aula define expressamente a população como a unidade evolutiva, onde o conjunto total de alelos forma o pool gênico e a evolução corresponde à alteração das frequências alélicas nessa população ao longo do tempo.",
+        "C": "Incorreta: o ATP é um nucleotídeo carreador de energia metabólica intracelular, não a unidade em que ocorrem alterações de frequências gênicas hereditárias.",
+        "D": "Incorreta: o ambiente abiótico compõe o cenário geológico de pressões seletivas, mas a evolução atua sobre populações de organismos vivos."
+      },
+      "referencia": {
+        "paginas": [
+          4,
+          28
+        ],
+        "fundamentacao": "Slides 4 e 28.",
+        "trechos_apoio": [
+          "Unidade da evolução: a população. Indivíduos têm fenótipos; populações mudam geneticamente ao longo das gerações. POOL GÊNICO: Conjunto de alelos presentes na população. EVOLUÇÃO: Mudança nas características hereditárias / frequências alélicas da população ao longo das gerações."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_07_q002",
+      "slide_id": "origem_vida_aula_07",
+      "slide_nome": "Aula 07 - Mecanismos Evolutivos, Espécie e Especiação",
+      "arquivo_origem": "Aula 7 Mecanismos_Evolutivos_Especie_Especiacao_Ra_260927_171329 (1).pdf",
+      "numero": 2,
+      "tema": "Origem da Variação Genética",
+      "subtema": "Mutação vs. Recombinação",
+      "enunciado": "A variabilidade genética constitui o substrato indispensável para a atuação dos mecanismos evolutivos. De acordo com a distinção estabelecida no slide 5, qual é o papel exclusivo da mutação em contraste com a recombinação gênica?",
+      "alternativas": {
+        "A": "A mutação é a fonte última de novidade genética que cria alelos novos, enquanto a recombinação apenas produz novas combinações de alelos já existentes por meio da meiose e da reprodução sexuada.",
+        "B": "A mutação apenas reorganiza os alelos herdados dos pais, enquanto a recombinação é o único processo capaz de alterar a sequência de bases do DNA.",
+        "C": "A mutação direciona deliberadamente os genes conforme a vontade consciente do organismo, enquanto a recombinação ocorre ao acaso em bactérias clonais.",
+        "D": "Ambos os processos são idênticos e atuam exclusivamente eliminando variantes deletérias sem criar diversidade."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: o slide 5 pontua categoricamente que a mutação é a geradora de \"novos alelos\" e a \"fonte última de novidade\", ao passo que a recombinação gênica gera \"novas combinações\" de alelos preexistentes via meiose e fertilização sexuada.",
+        "B": "Incorreta: inverte os conceitos; a recombinação rearranja alelos existentes, enquanto a mutação é quem altera fisicamente os nucleotídeos criando variantes inéditas.",
+        "C": "Incorreta: as mutações não são direcionadas pela necessidade adaptativa do organismo, ocorrendo de forma aleatória em relação à adaptação.",
+        "D": "Incorreta: tanto a mutação quanto a recombinação são as fontes fundamentais geradoras de diversidade genética na biosfera."
+      },
+      "referencia": {
+        "paginas": [
+          5
+        ],
+        "fundamentacao": "Slide 5.",
+        "trechos_apoio": [
+          "De onde vem a variação genética? A seleção não inventa a variação: ela atua sobre diferenças herdáveis existentes. Mutação: novos alelos, fonte última de novidade. Recombinação: novas combinações, meiose + reprodução sexuada."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_07_q003",
+      "slide_id": "origem_vida_aula_07",
+      "slide_nome": "Aula 07 - Mecanismos Evolutivos, Espécie e Especiação",
+      "arquivo_origem": "Aula 7 Mecanismos_Evolutivos_Especie_Especiacao_Ra_260927_171329 (1).pdf",
+      "numero": 3,
+      "tema": "Seleção Natural",
+      "subtema": "Tipos de Seleção sobre Variáveis Fenotípicas Contínuas",
+      "enunciado": "O slide 8 apresenta como as pressões seletivas podem remodelar ou deslocar a curva de distribuição fenotípica de uma população. Quando a seleção natural atua desfavorecendo as formas intermediárias e beneficiando simultaneamente os indivíduos de ambos os extremos fenotípicos da curva, ocorre a seleção:",
+      "alternativas": {
+        "A": "Estabilizadora.",
+        "B": "Direcional.",
+        "C": "Disruptiva.",
+        "D": "Artificial reversa."
+      },
+      "gabarito": "C",
+      "explicacoes": {
+        "A": "Incorreta: a seleção estabilizadora atua favorecendo os fenótipos médios/intermediários e selecionando contra os extremos da distribuição.",
+        "B": "Incorreta: a seleção direcional beneficia indivíduos de apenas um dos extremos da curva fenotípica, deslocando a média da população para essa direção.",
+        "C": "Correta: conforme o slide 8, a seleção disruptiva (ou diversificadora) \"favorece extremos\", dividindo a população em dois picos fenotípicos distintos, sendo um potente motor para especiação e polimorfismo ecológico.",
+        "D": "Incorreta: seleção artificial depende de manejo e cruzamento direcionado pelo ser humano, não sendo a classificação ecológica de curvas contínuas descrita."
+      },
+      "referencia": {
+        "paginas": [
+          8
+        ],
+        "fundamentacao": "Slide 8.",
+        "trechos_apoio": [
+          "Seleção pode deslocar ou remodelar a distribuição: Direcional: favorece um extremo; Estabilizadora: favorece valores intermediários; Disruptiva: favorece extremos."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_07_q004",
+      "slide_id": "origem_vida_aula_07",
+      "slide_nome": "Aula 07 - Mecanismos Evolutivos, Espécie e Especiação",
+      "arquivo_origem": "Aula 7 Mecanismos_Evolutivos_Especie_Especiacao_Ra_260927_171329 (1).pdf",
+      "numero": 4,
+      "tema": "Deriva Genética",
+      "subtema": "Mecanismo de Amostragem ao Acaso e Tamanho Populacional",
+      "enunciado": "A deriva genética é apresentada no material didático como um processo evolutivo estocástico. De acordo com a aula, qual é a principal característica da deriva genética e em que tipo de população seus efeitos biológicos são mais expressivos?",
+      "alternativas": {
+        "A": "É um mecanismo direcionado que sempre fixa o alelo mais vantajoso, atuando com maior força em populações com milhões de indivíduos.",
+        "B": "É uma alteração aleatória nas frequências alélicas devida a erros de amostragem na reprodução, que não escolhe o melhor alelo e possui impacto muito mais devastador em populações pequenas, onde a perda fortuita de poucos indivíduos pode eliminar variantes genéticas.",
+        "C": "É o processo pelo qual bactérias doam plasmídeos a mamíferos marinhos em ecossistemas polares.",
+        "D": "É uma força estritamente previsível que impede a extinção de espécies raras em reservas ambientais."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a deriva atua por puro acaso e não seleciona o alelo adaptativo, podendo inclusive fixar alelos prejudiciais ou eliminar alelos benéficos.",
+        "B": "Correta: os slides 9 e 27 detalham que a deriva genética opera por amostragem ao acaso; em populações pequenas, cada indivíduo representa fração substancial do patrimônio gênico total, de modo que eventos fortuitos causam flutuações drásticas, perda de variabilidade ou fixação aleatória.",
+        "C": "Incorreta: transferência de plasmídeos é transferência horizontal de genes entre procariontes, sem relação com o conceito populacional de deriva.",
+        "D": "Incorreta: por ser estocástica, a deriva é imprevisível em sua direção e frequentemente agrava o risco de extinção em populações ameaçadas."
+      },
+      "referencia": {
+        "paginas": [
+          9,
+          27
+        ],
+        "fundamentacao": "Slides 9 e 27.",
+        "trechos_apoio": [
+          "Deriva genética: evolução por amostragem ao acaso. Mais intensa quando o tamanho populacional é pequeno. [...] o fenômeno tem um impacto muito maior em populações pequenas, onde a perda acidental de poucos indivíduos pode eliminar completamente uma variante genética daquela população. Deriva não 'escolhe' o melhor alelo. Pode fixar ou perder variantes independentemente de sua vantagem."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_07_q005",
+      "slide_id": "origem_vida_aula_07",
+      "slide_nome": "Aula 07 - Mecanismos Evolutivos, Espécie e Especiação",
+      "arquivo_origem": "Aula 7 Mecanismos_Evolutivos_Especie_Especiacao_Ra_260927_171329 (1).pdf",
+      "numero": 5,
+      "tema": "Modalidades da Deriva Genética",
+      "subtema": "Gargalo Populacional vs. Efeito Fundador",
+      "enunciado": "O slide 10 detalha os dois principais mecanismos demográficos associados à intensificação da deriva genética: o gargalo populacional e o efeito fundador. Como esses dois processos se diferenciam em sua causa desencadeadora?",
+      "alternativas": {
+        "A": "O gargalo ocorre quando um pequeno grupo coloniza uma nova área isolada; o efeito fundador ocorre quando uma epidemia dizima a maior parte da população original.",
+        "B": "O gargalo populacional resulta de uma queda brusca e drástica no tamanho da população causada por catástrofes, epidemias ou ação humana (onde os sobreviventes são definidos pela sorte); o efeito fundador ocorre quando poucos indivíduos se separam da população matriz e fundam uma nova colônia carregando apenas uma fração parcial dos alelos originais.",
+        "C": "Ambos os fenômenos decorrem exclusivamente da introdução de vacinas modernas de RNA mensageiro em ambiente hospitalar.",
+        "D": "O gargalo duplica a diversidade genética da linhagem, enquanto o efeito fundador torna a espécie imune à seleção natural."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: inverte totalmente as definições dos dois fenômenos demográficos.",
+        "B": "Correta: o slide 10 define com clareza: o gargalo é a redução repentina do contingente por desastres onde a sobrevivência é fortuita e a diversidade resultante é menor; o efeito fundador é a colonização de uma nova área (como uma ilha) por uma pequena amostra migratória pioneira.",
+        "C": "Incorreta: são conceitos de demografia genética populacional aplicáveis a qualquer grupo de seres vivos na natureza.",
+        "D": "Incorreta: ambos os eventos acarretam redução e empobrecimento da variabilidade genética do grupo resultante."
+      },
+      "referencia": {
+        "paginas": [
+          10
+        ],
+        "fundamentacao": "Slide 10.",
+        "trechos_apoio": [
+          "GARGALO: queda brusca do tamanho → sobreviventes não representam toda a diversidade. Ocorre quando um desastre natural, epidemia ou ação humana reduz drasticamente o tamanho de uma população. Os sobreviventes são definidos pela sorte. EFEITO FUNDADOR: pequeno grupo coloniza nova área → nova população começa com amostra genética parcial."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_07_q006",
+      "slide_id": "origem_vida_aula_07",
+      "slide_nome": "Aula 07 - Mecanismos Evolutivos, Espécie e Especiação",
+      "arquivo_origem": "Aula 7 Mecanismos_Evolutivos_Especie_Especiacao_Ra_260927_171329 (1).pdf",
+      "numero": 6,
+      "tema": "Dinâmica do Fluxo Gênico",
+      "subtema": "Homogeneização e Resistência à Especiação",
+      "enunciado": "O fluxo gênico consiste na transferência de alelos de uma população para outra por meio de migração seguida de reprodução. Conforme destacado no material didático, qual é a principal consequência evolutiva do fluxo gênico contínuo entre duas populações geográficas?",
+      "alternativas": {
+        "A": "Acelera o acúmulo de diferenças exclusivas e provoca a separação imediata em duas espécies novas.",
+        "B": "Aumenta a divergência genética entre os grupos e força a inviabilidade dos zigotos.",
+        "C": "Diminui as diferenças genéticas entre as populações, promovendo sua homogeneização e funcionando como um freio que impede a especiação divergente.",
+        "D": "Elimina permanentemente a capacidade meiótica de todos os descendentes migrantes."
+      },
+      "gabarito": "C",
+      "explicacoes": {
+        "A": "Incorreta: o fluxo gênico atua no sentido contrário ao da especiação; ele mistura o pool gênico, impedindo que as populações se diferenciem de forma independente.",
+        "B": "Incorreta: o fluxo gênico reduz a divergência entre as populações ao compartilhar variantes entre elas.",
+        "C": "Correta: conforme a síntese do slide 11: \"Homogeneização: Diminui as diferenças genéticas entre populações distintas, tornando-as mais parecidas\"; e \"Especiação: Ajuda a evitar que uma mesma espécie se divida em duas espécies diferentes\".",
+        "D": "Incorreta: os indivíduos migrantes são férteis e reproduzem-se normalmente na nova população hospedeira."
+      },
+      "referencia": {
+        "paginas": [
+          11
+        ],
+        "fundamentacao": "Slide 11.",
+        "trechos_apoio": [
+          "Fluxo gênico: populações trocam alelos. ↑ fluxo gênico → ↑ compartilhamento de alelos → ↓ divergência genética. Homogeneização: Diminui as diferenças genéticas entre populações distintas, tornando-as mais parecidas. Especiação: Ajuda a evitar que uma mesma espécie se divida em duas espécies diferentes."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_07_q007",
+      "slide_id": "origem_vida_aula_07",
+      "slide_nome": "Aula 07 - Mecanismos Evolutivos, Espécie e Especiação",
+      "arquivo_origem": "Aula 7 Mecanismos_Evolutivos_Especie_Especiacao_Ra_260927_171329 (1).pdf",
+      "numero": 7,
+      "tema": "Interação entre Forças Evolutivas",
+      "subtema": "Fluxo Gênico vs. Seleção Natural",
+      "enunciado": "O slide 12 analisa o conflito entre \"misturar\" e \"adaptar\", explorando o efeito antagônico que pode ocorrer entre o fluxo gênico e a seleção natural local. Como o fluxo gênico excessivo pode se contrapor à adaptação local promovida pela seleção?",
+      "alternativas": {
+        "A": "O fluxo gênico intenso pode diluir e neutralizar alelos adaptativos locais ao introduzir constantemente variantes desfavoráveis vindas de ambientes externos vizinhos.",
+        "B": "O fluxo gênico queima os fosfatos do DNA dos indivíduos nativos através de reações térmicas.",
+        "C": "O fluxo gênico impede que os animais se alimentem durante o período diurno na floresta.",
+        "D": "O fluxo gênico transforma a população inteira em bactérias anaeróbias fotossintetizantes."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: o texto explica que, se o fluxo gênico for muito intenso, ele age de forma antagônica à seleção natural local: \"traz constantemente genes de fora que não são adaptados ao ambiente local. Isso pode 'diluir' as características boas que a seleção natural estava fixando\" (como no exemplo dos insetos claros de praia que migram para uma floresta escura).",
+        "B": "Incorreta: o fluxo gênico é a migração de organismos férteis, não envolvendo desestabilização química espontânea de fosfatos.",
+        "C": "Incorreta: trata-se de um fenômeno de genética populacional e sucesso reprodutivo, sem bloqueio de forrageamento mecânico.",
+        "D": "Incorreta: o fluxo gênico opera entre populações da mesma espécie eucariótica ou procariótica."
+      },
+      "referencia": {
+        "paginas": [
+          12
+        ],
+        "fundamentacao": "Slide 12.",
+        "trechos_apoio": [
+          "Oposição à adaptação (Efeito Antagônico): Se o fluxo gênico for muito intenso, ele traz constantemente genes de fora que não são adaptados ao ambiente local. Isso pode 'diluir' as características boas que a seleção natural estava fixando. Exemplo: Uma população de insetos vive em uma floresta escura e está evoluindo para ser escura [...]. Se chegam muitos insetos claros vindos de uma praia vizinha (fluxo gênico), a cor clara continua surgindo..."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_07_q008",
+      "slide_id": "origem_vida_aula_07",
+      "slide_nome": "Aula 07 - Mecanismos Evolutivos, Espécie e Especiação",
+      "arquivo_origem": "Aula 7 Mecanismos_Evolutivos_Especie_Especiacao_Ra_260927_171329 (1).pdf",
+      "numero": 8,
+      "tema": "Isolamento Reprodutivo",
+      "subtema": "Mecanismos de Barreira Pré-Zigótica",
+      "enunciado": "Na consolidação de novas espécies, as barreiras reprodutivas são divididas cronologicamente em relação ao momento da fertilização. Conforme conceituado na aula, o que caracteriza as barreiras pré-zigóticas e quais modalidades foram destacadas?",
+      "alternativas": {
+        "A": "Atuam após o nascimento, causando a morte precoce dos filhotes híbridos na fase adulta.",
+        "B": "Impedem a formação do zigoto (união dos gametas), abrangendo isolamento ecológico/habitat, temporal, comportamental, mecânico e gamético.",
+        "C": "Exigem a indução artificial de abortos cirúrgicos conduzidos por biólogos de campo.",
+        "D": "Restringem-se unicamente à incompatibilidade imunológica placentária entre mamíferos e répteis."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: barreiras que reduzem a viabilidade ou fertilidade do híbrido após a fertilização são barreiras pós-zigóticas.",
+        "B": "Correta: o slide 14 e as respostas comentadas do slide 27 estabelecem que as barreiras pré-zigóticas atuam antes da fertilização, impedindo a união do óvulo com o espermatozoide; incluem diferenças de habitat (ecológica), de época reprodutiva (temporal), de rituais de acasalamento (comportamental), anatômicas (mecânica) ou de reconhecimento bioquímico (gamética).",
+        "C": "Incorreta: são barreiras biológicas naturais evoluídas na natureza, sem manejo artificial humano.",
+        "D": "Incorreta: o isolamento pré-zigótico atua em todos os grupos taxonômicos (animais, plantas, fungos)."
+      },
+      "referencia": {
+        "paginas": [
+          14,
+          27
+        ],
+        "fundamentacao": "Slides 14 e 27.",
+        "trechos_apoio": [
+          "Isolamento reprodutivo: a ponte para a especiação. PRÉ-ZIGÓTICAS: ecológica/habitat, temporal, comportamental, mecânica, gamética. [...] Pré-zigóticas impedem fecundação (ex.: isolamento temporal); pós-zigóticas reduzem viabilidade/fertilidade do híbrido."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_07_q009",
+      "slide_id": "origem_vida_aula_07",
+      "slide_nome": "Aula 07 - Mecanismos Evolutivos, Espécie e Especiação",
+      "arquivo_origem": "Aula 7 Mecanismos_Evolutivos_Especie_Especiacao_Ra_260927_171329 (1).pdf",
+      "numero": 9,
+      "tema": "Isolamento Reprodutivo",
+      "subtema": "Mecanismos de Barreira Pós-Zigótica",
+      "enunciado": "Quando as barreiras pré-zigóticas falham e ocorre a cópula e fecundação entre indivíduos de linhagens divergentes, as barreiras pós-zigóticas entram em ação. Quais são as consequências pós-zigóticas apontadas no slide 14?",
+      "alternativas": {
+        "A": "Inviabilidade do híbrido, esterilidade do híbrido e menor aptidão em gerações posteriores (colapso do híbrido).",
+        "B": "Aumento da taxa metabólica basal e imunidade contra todos os vírus respiratórios.",
+        "C": "Transformação do híbrido em organismo assexuado imortal.",
+        "D": "Duplicação instantânea de todas as sequências de RNA mensageiro nuclear."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: o slide 14 lista expressamente as barreiras pós-zigóticas: inviabilidade do embrião híbrido (morre antes de nascer ou na juventude), esterilidade do híbrido adulto (incapaz de formar gametas viáveis por incompatibilidade cromossômica, como o zebroide/mulo) e menor aptidão biológica nas gerações seguintes.",
+        "B": "Incorreta: incompatibilidades genômicas e cromossômicas desestabilizam o desenvolvimento e reduzem a aptidão do híbrido.",
+        "C": "Incorreta: híbridos continuam sujeitos à senescência celular e mortalidade natural.",
+        "D": "Incorreta: não ocorre replicação anômala incontrolada de RNA mensageiro como resposta mecânica padrão à hibridação."
+      },
+      "referencia": {
+        "paginas": [
+          14
+        ],
+        "fundamentacao": "Slide 14.",
+        "trechos_apoio": [
+          "PÓS-ZIGÓTICAS: inviabilidade do híbrido, esterilidade do híbrido, menor aptidão em gerações posteriores."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_07_q010",
+      "slide_id": "origem_vida_aula_07",
+      "slide_nome": "Aula 07 - Mecanismos Evolutivos, Espécie e Especiação",
+      "arquivo_origem": "Aula 7 Mecanismos_Evolutivos_Especie_Especiacao_Ra_260927_171329 (1).pdf",
+      "numero": 10,
+      "tema": "Ecologia e Especiação",
+      "subtema": "Habitat vs. Nicho Ecológico e Nicho Efetivo",
+      "enunciado": "Para compreender a especiação ecológica e a coexistência de espécies, a aula explora as definições conceituais de habitat e nicho ecológico. De acordo com a apostila, qual é a distinção correta entre o nicho fundamental e o nicho efetivo (ou realizado)?",
+      "alternativas": {
+        "A": "O nicho fundamental é o habitat físico onde a espécie dorme; o nicho efetivo é a quantidade de oxigênio que ela consome ao correr.",
+        "B": "O nicho fundamental representa o conjunto total de condições ideais para a sobrevivência e reprodução da espécie sem a presença de competição; o nicho efetivo é a porção real do nicho que a espécie ocupa no ambiente considerando as restrições e competições impostas por outras espécies.",
+        "C": "O nicho fundamental aplica-se apenas a dinossauros fósseis extintos; o nicho efetivo é exclusivo de animais domesticados pelo homem.",
+        "D": "O nicho fundamental exige temperaturas acima de 100 °C em fontes termais submarinas."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o local onde a espécie vive é o habitat (\"endereço\"), enquanto o nicho é o seu papel funcional ecológico (\"profissão\").",
+        "B": "Correta: o slide 13 detalha a partição ecológica: o nicho fundamental compreende a gama completa teórica e ideal de recursos e fatores que a espécie pode usar na ausência de competidores; o nicho efetivo (ou realizado) é o espectro real e mais restrito ocupado sob a pressão de competidores, predadores e barreiras ecológicas.",
+        "C": "Incorreta: a teoria de nicho aplica-se a todas as espécies biológicas do planeta.",
+        "D": "Incorreta: temperaturas extremas limitam o nicho térmico de arqueas termófilas, não constituindo a definição geral de nicho fundamental."
+      },
+      "referencia": {
+        "paginas": [
+          13
+        ],
+        "fundamentacao": "Slide 13.",
+        "trechos_apoio": [
+          "Nicho fundamental vs. nicho efetivo: Nicho fundamental: o conjunto de condições ideais para a sobrevivência da espécie, sem considerar a competição com outras. Nicho efetivo (ou realizado): nicho que a espécie realmente ocupa no ambiente, considerando as restrições e competições impostas por outras espécies."
+        ]
+      }
+    }
+  ]
+}

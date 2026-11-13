@@ -1,0 +1,659 @@
+{
+  "questoes": [
+    {
+      "id": "origem_vida_aula_08_q001",
+      "slide_id": "origem_vida_aula_08",
+      "slide_nome": "Aula 08 - Mutações Genéticas e Evolução",
+      "arquivo_origem": "Aula 8 ED_Mutacoes_Geneticas_Evolucao_260928_120109 (1).pdf",
+      "numero": 1,
+      "tema": "Fundamentos da Mutação",
+      "subtema": "A Cadeia Causal da Evolução Biológica",
+      "enunciado": "O texto explicativo inicial da aula estabelece a relação central entre mutações e dinâmica populacional. Conforme pontuado no material didático, qual é o papel exclusivo da mutação no processo evolutivo?",
+      "alternativas": {
+        "A": "A mutação seleciona ativamente quais organismos devem sobreviver em função de sua força muscular.",
+        "B": "A mutação é a fonte geradora de novos alelos e de variabilidade genética primária, sobre a qual os mecanismos evolutivos atuam alterando as frequências alélicas da população ao longo das gerações.",
+        "C": "A mutação atua exclusivamente eliminando genótipos recessivos que causam doenças metabólicas congênitas.",
+        "D": "A mutação reorganiza os alelos herdados dos pais na meiose sem alterar a sequência de nucleotídeos do DNA."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o filtro adaptativo que atua sobre sobrevivência e reprodução é a seleção natural, e não a mutação.",
+        "B": "Correta: a apostila define explicitamente a cadeia conceitual central: \"Mutação → novos alelos → variabilidade genética → ação dos mecanismos evolutivos → alteração das frequências alélicas da população\". A mutação é a fonte fundamental e primária que gera variantes inéditas no material genético.",
+        "C": "Incorreta: a mutação introduz alterações ao acaso, podendo gerar alelos recessivos ou dominantes, sem a função de expurgar variantes do pool gênico.",
+        "D": "Incorreta: o rearranjo de alelos na meiose sem criar novas sequências é a definição de recombinação gênica, enquanto a mutação altera diretamente o DNA."
+      },
+      "referencia": {
+        "paginas": [
+          1,
+          14
+        ],
+        "fundamentacao": "Seções 1 e 14.",
+        "trechos_apoio": [
+          "Relação central: Mutação → novos alelos → variabilidade genética → ação dos mecanismos evolutivos → alteração das frequências alélicas da população. [...] A mutação produz novas variantes genéticas; a seleção natural pode favorecer ou desfavorecer determinadas variantes..."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_08_q002",
+      "slide_id": "origem_vida_aula_08",
+      "slide_nome": "Aula 08 - Mutações Genéticas e Evolução",
+      "arquivo_origem": "Aula 8 ED_Mutacoes_Geneticas_Evolucao_260928_120109 (1).pdf",
+      "numero": 2,
+      "tema": "Epistemologia da Evolução",
+      "subtema": "O Erro da Mutação por Necessidade Adaptativa",
+      "enunciado": "Um dos equívocos conceituais mais recorrentes é supor que as mutações surgem \"porque o organismo precisa delas\" para se adaptar a uma nova condição do ambiente. Como o texto da aula desfaz esse erro utilizando o exemplo da resistência bacteriana a antibióticos?",
+      "alternativas": {
+        "A": "O antibiótico entra no núcleo bacteriano e direciona a DNA polimerase a sintetizar códons de resistência específicos.",
+        "B": "As mutações são aleatórias em relação à adaptação; o antibiótico não ensina nem induz a bactéria a sofrer mutações, mas atua como agente seletivo que reduz a sobrevivência das sensíveis e poupa as variantes resistentes preexistentes.",
+        "C": "As bactérias produzem mutações deliberadas apenas quando o paciente interrompe o tratamento antes do prazo médico.",
+        "D": "O fármaco funde-se quimicamente aos ribossomos, forçando a transcrição reversa de novos plasmídeos."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o antibiótico não orienta nem direciona mutações no DNA para fins adaptativos.",
+        "B": "Correta: a resposta da Questão 1 e a Seção 2 enfatizam que as mutações são estocásticas e não surgem por teleologia ou necessidade; variantes resistentes já existiam previamente por processos mutacionais espontâneos, e o fármaco atua apenas como pressão seletiva sobre as diferenças hereditárias da população.",
+        "C": "Incorreta: a interrupção prematura seleciona bactérias que já tinham maior tolerância, mas o microrganismo não decide mutar intencionalmente.",
+        "D": "Incorreta: antibióticos exercem atividade inibitória ou bactericida bioquímica, sem induzir fusões orientadas de transcrição reversa no genoma bacteriano."
+      },
+      "referencia": {
+        "paginas": [
+          2,
+          1
+        ],
+        "fundamentacao": "Seção 2 e Questão 1 do Estudo Dirigido.",
+        "trechos_apoio": [
+          "As mutações não surgem porque o organismo necessita se adaptar a determinada condição ambiental. [...] O antibiótico atua como pressão seletiva: bactérias sensíveis apresentam menor sobrevivência ou reprodução, enquanto variantes resistentes podem deixar proporcionalmente mais descendentes. Portanto, o antibiótico não direciona a bactéria a produzir a mutação necessária..."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_08_q003",
+      "slide_id": "origem_vida_aula_08",
+      "slide_nome": "Aula 08 - Mutações Genéticas e Evolução",
+      "arquivo_origem": "Aula 8 ED_Mutacoes_Geneticas_Evolucao_260928_120109 (1).pdf",
+      "numero": 3,
+      "tema": "Genética Molecular",
+      "subtema": "Classificação e Efeitos das Mutações de Ponto",
+      "enunciado": "As mutações gênicas de substituição pontual de bases nitrogenadas podem provocar diferentes desfechos moleculares na cadeia polipeptídica codificada. Qual classificação correlaciona corretamente o tipo de substituição à sua consequência na tradução proteica?",
+      "alternativas": {
+        "A": "Silenciosa: troca o aminoácido sintetizado; Missense: não altera a proteína; Nonsense: duplica a cadeia polipeptídica.",
+        "B": "Silenciosa: não modifica o aminoácido (devido à redundância do código); Missense: provoca a troca de um aminoácido por outro; Nonsense: origina um códon de parada prematuro.",
+        "C": "Nonsense: converte a desoxirribose em ribose; Missense: destrói os telômeros; Silenciosa: inativa a membrana celular.",
+        "D": "Silenciosa: insere três bases nitrogenadas; Missense: deleta todo o éxon; Nonsense: impede o splicing do RNA mensageiro."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: inverte totalmente as definições de silenciosa e missense.",
+        "B": "Correta: conforme detalhado na Seção 3: a mutação silenciosa substitui uma base sem alterar o aminoácido codificado; a mutação missense acarreta a substituição de um aminoácido na cadeia polipeptídica; e a mutação nonsense introduz um códon de terminação/parada (stop codon) precoce.",
+        "C": "Incorreta: mutações de ponto não transformam a estrutura química de pentoses e não atacam telômeros diretamente.",
+        "D": "Incorreta: alterações de inserções ou deleções de éxons inteiros pertencem a outras categorias mutacionais, não sendo a definição das substituições pontuais."
+      },
+      "referencia": {
+        "paginas": [
+          3
+        ],
+        "fundamentacao": "Seção 3.",
+        "trechos_apoio": [
+          "Uma substituição pode ser silenciosa, quando não modifica o aminoácido; missense, quando provoca troca de aminoácido; ou nonsense, quando origina um códon de parada."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_08_q004",
+      "slide_id": "origem_vida_aula_08",
+      "slide_nome": "Aula 08 - Mutações Genéticas e Evolução",
+      "arquivo_origem": "Aula 8 ED_Mutacoes_Geneticas_Evolucao_260928_120109 (1).pdf",
+      "numero": 4,
+      "tema": "Mutações Gênicas",
+      "subtema": "Inserções, Deleções e o Deslocamento do Quadro de Leitura",
+      "enunciado": "O material didático ressalta que certas inserções ou deleções de nucleotídeos em regiões codificantes causam um fenômeno grave denominado frameshift. Em qual circunstância molecular o frameshift ocorre e qual é a sua repercussão sobre a proteína?",
+      "alternativas": {
+        "A": "Ocorre quando o número de bases inseridas ou deletadas não corresponde a múltiplos de três, deslocando o quadro de leitura dos códons subsequentes e alterando drasticamente a sequência de aminoácidos traduzida a partir daquele ponto.",
+        "B": "Ocorre exclusivamente quando exatamente três nucleotídeos são retirados em bloco sem alterar os demais códons a jusante.",
+        "C": "Ocorre quando uma mutação converte o DNA nuclear em RNA transportador mitocondrial.",
+        "D": "Ocorre apenas em bactérias que realizam fotossíntese anoxigênica em fontes termais."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: como os ribossomos leem o RNA mensageiro estritamente em trincas consecutivas (códons), a perda ou ganho de nucleotídeos em número não múltiplo de três altera o enquadramento de todas as trincas posteriores, desconfigurando a proteína e frequentemente gerando códons de parada prematuros.",
+        "B": "Incorreta: inserções ou deleções de múltiplos exatos de três nucleotídeos adicionam ou subtraem aminoácidos pontuais sem deslocar o quadro de leitura global da fita.",
+        "C": "Incorreta: o frameshift refere-se à tradução do RNA mensageiro nos ribossomos, não envolvendo transmutação de ácidos nucleicos em tRNA mitocondrial.",
+        "D": "Incorreta: o mecanismo do código genético em trincas e o frameshift são propriedades universais compartilhadas por procariontes e eucariontes."
+      },
+      "referencia": {
+        "paginas": [
+          3
+        ],
+        "fundamentacao": "Seção 3.",
+        "trechos_apoio": [
+          "Inserções e deleções que não correspondem a múltiplos de três nucleotídeos podem deslocar o quadro de leitura, produzindo frameshift."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_08_q005",
+      "slide_id": "origem_vida_aula_08",
+      "slide_nome": "Aula 08 - Mutações Genéticas e Evolução",
+      "arquivo_origem": "Aula 8 ED_Mutacoes_Geneticas_Evolucao_260928_120109 (1).pdf",
+      "numero": 5,
+      "tema": "Linhagem Celular e Evolução",
+      "subtema": "Mutação Somática vs. Mutação Germinativa",
+      "enunciado": "A Questão 3 do Estudo Dirigido propõe a comparação entre uma mutação que surge em uma célula da pele de um adulto e outra que ocorre em uma célula precursora de gametas. Por que essas duas mutações possuem importâncias evolutivas completamente diferentes?",
+      "alternativas": {
+        "A": "A mutação na célula da pele é a única capaz de ser transmitida à prole por meio do suor e do contato físico.",
+        "B": "A mutação somática (pele) afeta apenas o tecido daquele indivíduo, tendo relevância clínica/oncológica, mas não é transmitida aos descendentes; já a mutação germinativa (gametas) pode ser passada à prole, integrando o pool gênico da população e servindo de matéria-prima para a evolução.",
+        "C": "A mutação germinativa é sempre eliminada pela meiose, sendo inútil para a genética de populações.",
+        "D": "Ambas alteram o genoma de todos os descendentes com a mesma intensidade e taxa estatística."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: células da pele são somáticas e não participam da formação dos gametas envolvidos na reprodução sexuada.",
+        "B": "Correta: no gabarito oficial da Questão 3: a mutação na pele é restrita ao organismo individual (podendo gerar tumores ou clones somáticos), desaparecendo com sua morte; já a mutação na linhagem germinativa é herdável, entra no pool genético da população e fica sujeita à seleção e deriva entre gerações.",
+        "C": "Incorreta: mutações germinativas persistem nos gametas viáveis e constituem a via primária de introdução de novidades no pool hereditário.",
+        "D": "Incorreta: mutações somáticas não são transmitidas à descendência em organismos com reprodução sexuada."
+      },
+      "referencia": {
+        "paginas": [
+          4,
+          3
+        ],
+        "fundamentacao": "Seção 4 e Questão 3 comentada.",
+        "trechos_apoio": [
+          "Célula da pele (mutação somática): Não tem relevância evolutiva. A alteração afeta apenas o tecido do próprio indivíduo e desaparece com a morte dele [...]. Célula precursora de gametas: Apresenta total relevância evolutiva. Essa alteração pode ser transmitida aos descendentes por meio dos espermatozoides ou óvulos, passando a integrar o patrimônio genético da espécie..."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_08_q006",
+      "slide_id": "origem_vida_aula_08",
+      "slide_nome": "Aula 08 - Mutações Genéticas e Evolução",
+      "arquivo_origem": "Aula 8 ED_Mutacoes_Geneticas_Evolucao_260928_120109 (1).pdf",
+      "numero": 6,
+      "tema": "Efeitos Fenotípicos da Mutação",
+      "subtema": "A Relatividade do Valor Adaptativo",
+      "enunciado": "O material didático adverte que \"mutação não é sinônimo de doença\" e que não existe \"vantagem evolutiva absoluta\". Conforme analisado na Questão 8 do Estudo Dirigido (uma variante que confere tolerância ao frio intenso, mas reduz o desempenho em calor extremo), por que nenhuma mutação pode ser considerada absolutamente vantajosa?",
+      "alternativas": {
+        "A": "Porque o valor adaptativo de qualquer alelo é estritamente circunstancial e relativo, dependendo do contexto ambiental e das pressões seletivas vigentes.",
+        "B": "Porque a seleção natural sempre destrói todas as mutações benéficas ao término de cinco gerações.",
+        "C": "Porque os seres vivos conseguem alterar o próprio DNA à vontade quando a temperatura sobe.",
+        "D": "Porque todos os alelos tornam-se letais quando entram em homozigose dominante."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: a resposta da Questão 8 crava que vantagens genéticas são sempre contextuais: se o clima aquecer ou a população migrar para um habitat quente, a variante que favorecia no frio torna-se prejudicial, passando a ser selecionada negativamente.",
+        "B": "Incorreta: alelos benéficos tendem a aumentar de frequência e podem se fixar na população sob seleção direcional.",
+        "C": "Incorreta: adaptação não ocorre por alteração volitiva ou consciente da sequência de nucleotídeos.",
+        "D": "Incorreta: inúmeros alelos são perfeitamente viáveis e funcionais tanto em heterozigose quanto em homozigose."
+      },
+      "referencia": {
+        "paginas": [
+          5,
+          8
+        ],
+        "fundamentacao": "Seção 5 e Questão 8 comentada.",
+        "trechos_apoio": [
+          "Na biologia evolutiva, nenhuma característica pode ser classificada como 'absolutamente vantajosa', pois o valor adaptativo é sempre relativo e dependente do contexto ambiental. Se o clima da região esquentar ou a população migrar para um ambiente quente, a seleção natural passará a atuar contra essa mesma variante."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_08_q007",
+      "slide_id": "origem_vida_aula_08",
+      "slide_nome": "Aula 08 - Mutações Genéticas e Evolução",
+      "arquivo_origem": "Aula 8 ED_Mutacoes_Geneticas_Evolucao_260928_120109 (1).pdf",
+      "numero": 7,
+      "tema": "Variabilidade Genética",
+      "subtema": "Mutação vs. Recombinação Gênica",
+      "enunciado": "Ao comparar as fontes de variabilidade genética na Questão 6 do Estudo Dirigido, a apostila estabelece uma clara distinção hierárquica entre mutação e recombinação gênica. Qual é a diferença fundamental entre esses dois processos?",
+      "alternativas": {
+        "A": "A recombinação é a fonte primária que cria genes inéditos; a mutação apenas mistura cromossomos na fecundação.",
+        "B": "A mutação é a fonte primária, sendo o único mecanismo capaz de criar novos alelos e sequências de DNA inéditas; a recombinação meiótica atua como fonte secundária, redistribuindo os alelos preexistentes em combinações novas sem criar novos alelos.",
+        "C": "A mutação ocorre somente em células eucariontes com núcleo cariotecado, enquanto a recombinação é exclusiva de vírus bacteriófagos.",
+        "D": "Ambos os processos atuam duplicando o genoma inteiro sem alterar a ordem das bases."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: inverte totalmente os papéis; a recombinação reorganiza o que já existe, enquanto a mutação cria sequências novas.",
+        "B": "Correta: conforme o texto oficial: \"Mutação: É a fonte primária de variabilidade genética. É o único mecanismo capaz de criar novos alelos [...]. Recombinação: É uma fonte secundária, não cria genes novos; apenas rearranja e redistribui os alelos preexistentes em combinações inéditas nos descendentes\".",
+        "C": "Incorreta: mutações acontecem em todos os seres vivos e vírus; a recombinação meiótica ocorre em eucariotos com reprodução sexuada.",
+        "D": "Incorreta: duplicação genômica integral é poliploidia, não sendo a definição geral de mutação de ponto ou recombinação meiótica."
+      },
+      "referencia": {
+        "paginas": [
+          6
+        ],
+        "fundamentacao": "Seção 6 e Questão 6 comentada.",
+        "trechos_apoio": [
+          "Mutação: Produz novos alelos e constitui fonte fundamental de novidade genética. Recombinação: Produz novas combinações de alelos já existentes. [...] Mutação: É a fonte primária de variabilidade genética. É o único mecanismo capaz de criar novos alelos... Recombinação: É uma fonte secundária, não cria genes novos; apenas rearranja..."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_08_q008",
+      "slide_id": "origem_vida_aula_08",
+      "slide_nome": "Aula 08 - Mutações Genéticas e Evolução",
+      "arquivo_origem": "Aula 8 ED_Mutacoes_Geneticas_Evolucao_260928_120109 (1).pdf",
+      "numero": 8,
+      "tema": "Dinâmica da Deriva Genética",
+      "subtema": "Mutações Neutras e o Papel do Acaso",
+      "enunciado": "Na Questão 4 do Estudo Dirigido, relata-se que uma nova mutação neutra surgiu em uma população pequena e, após poucas gerações, o alelo desapareceu completamente, mesmo sem causar qualquer prejuízo biológico aos seus portadores. Qual força evolutiva explica esse resultado?",
+      "alternativas": {
+        "A": "Seleção natural disruptiva que puniu a mutação por falta de adaptação.",
+        "B": "Deriva genética, na qual a flutuação estatística e os erros de amostragem ao acaso na reprodução eliminam ou fixam alelos independentemente de seu valor adaptativo, efeito que se manifesta com grande intensidade em populações reduzidas.",
+        "C": "Fluxo gênico massivo que esterilizou todos os indivíduos homozigotos.",
+        "D": "Especiação instantânea que converteu os portadores da mutação em uma nova espécie fóssil."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: como a mutação era neutra, a seleção natural não atuou nem a favor nem contra ela.",
+        "B": "Correta: a resposta oficial destaca que, por se tratar de mutação neutra, o alelo flutuou por puro acaso amostral; em populações pequenas, o sorteio gamético fortuito pode facilmente levar à perda ou fixação de variantes genéticas por deriva genética.",
+        "C": "Incorreta: fluxo gênico consiste na imigração ou emigração de indivíduos férteis, não na esterilização seletiva.",
+        "D": "Incorreta: o desaparecimento de um alelo dentro da população não constitui especiação."
+      },
+      "referencia": {
+        "paginas": [
+          8,
+          4
+        ],
+        "fundamentacao": "Seção 8 e Questão 4 comentada.",
+        "trechos_apoio": [
+          "Por ser uma mutação neutra, a seleção natural não atuou. O alelo foi eliminado por puro acaso (sorteio genético/erro de amostragem na reprodução), um efeito comum e acentuado em populações pequenas."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_08_q009",
+      "slide_id": "origem_vida_aula_08",
+      "slide_nome": "Aula 08 - Mutações Genéticas e Evolução",
+      "arquivo_origem": "Aula 8 ED_Mutacoes_Geneticas_Evolucao_260928_120109 (1).pdf",
+      "numero": 9,
+      "tema": "Mecanismos de Mudança Alélica",
+      "subtema": "Nem Todo Aumento de Frequência é Seleção Natural",
+      "enunciado": "Na Questão 7 do Estudo Dirigido, um estudante observa que uma nova variante genética aumentou rapidamente de frequência em uma comunidade e conclui de forma precipitada que ela é obrigatoriamente vantajosa. Por que essa conclusão do estudante não é necessariamente correta?",
+      "alternativas": {
+        "A": "Porque uma variante genética pode aumentar de frequência por deriva genética (efeito fundador ou oscilações ao acaso em populações pequenas) ou por carona genética, mesmo sendo neutra ou ligeiramente desfavorável.",
+        "B": "Porque nenhum alelo novo tem autorização biológica para ultrapassar 1% de frequência na população.",
+        "C": "Porque a seleção natural é a única força existente no universo capaz de alterar frequências alélicas.",
+        "D": "Porque mutações vantajosas sempre diminuem de frequência até desaparecerem por completo."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: o texto enfatiza que nem toda mudança de frequência é fruto de seleção natural; processos estocásticos como a deriva genética (incluindo o efeito fundador e gargalos) podem elevar rapidamente a frequência de um alelo neutro ou mesmo deletério por mero acaso.",
+        "B": "Incorreta: alelos podem atingir qualquer frequência, inclusive a fixação (100%), dependendo da dinâmica populacional.",
+        "C": "Incorreta: além da seleção, a deriva genética, o fluxo gênico e a própria taxa mutacional alteram frequências de alelos.",
+        "D": "Incorreta: variantes vantajosas tendem a aumentar de frequência sob pressão seletiva positiva, e não a desaparecer compulsoriamente."
+      },
+      "referencia": {
+        "paginas": [
+          8,
+          14,
+          7
+        ],
+        "fundamentacao": "Seções 8 e 14; Questão 7 comentada.",
+        "trechos_apoio": [
+          "A conclusão não é necessariamente correta porque o aumento de frequência de um alelo pode ocorrer por mecanismos evolutivos independentes da seleção natural positiva. [...] Por deriva, variantes neutras ou até ligeiramente desfavoráveis podem se fixar ou desaparecer sem qualquer relação com adaptação."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_08_q010",
+      "slide_id": "origem_vida_aula_08",
+      "slide_nome": "Aula 08 - Mutações Genéticas e Evolução",
+      "arquivo_origem": "Aula 8 ED_Mutacoes_Geneticas_Evolucao_260928_120109 (1).pdf",
+      "numero": 10,
+      "tema": "Integração entre Forças Evolutivas",
+      "subtema": "O Papel do Fluxo Gênico na Disseminação de Mutações",
+      "enunciado": "O texto da Seção 9 e a Questão 9 do Estudo Dirigido abordam uma situação em que uma mutação inédita surge na população A e, posteriormente, indivíduos portadores migram para a população B, onde se reproduzem ativamente. Qual é o impacto do fluxo gênico sobre a variabilidade da população receptora B?",
+      "alternativas": {
+        "A": "O fluxo gênico destrói todas as mutações pré-existentes na população B por incompatibilidade de pH.",
+        "B": "O fluxo gênico transfere a novidade evolutiva de A para B, introduzindo novos alelos, ampliando a variabilidade genética da população receptora e fornecendo matéria-prima inédita para a seleção natural local atuar.",
+        "C": "O fluxo gênico força as duas populações a se separarem imediatamente em duas classes taxonômicas distintas.",
+        "D": "A migração impede a tradução do RNA mensageiro em ribossomos de todos os descendentes."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o fluxo gênico é a migração e reprodução biológica normal de organismos da mesma espécie, sem alterações químicas no pH intracelular.",
+        "B": "Correta: conforme o gabarito oficial da Questão 9: \"O fluxo gênico transfere a novidade evolutiva de A para B, ampliando a variabilidade genética de B e fornecendo uma nova matéria-prima para a seleção natural atuar naquele ambiente\", além de atuar como força integradora e homogeneizadora entre populações.",
+        "C": "Incorreta: o fluxo gênico atua no sentido contrário ao da especiação; ele compartilha alelos e evita a divergência extrema.",
+        "D": "Incorreta: a fisiologia reprodutiva e a síntese proteica dos híbridos intraespecíficos permanecem perfeitamente ativas."
+      },
+      "referencia": {
+        "paginas": [
+          9
+        ],
+        "fundamentacao": "Seção 9 e Questão 9 comentada.",
+        "trechos_apoio": [
+          "Depois que uma variante surge em uma população, ela pode alcançar outra por fluxo gênico. Se indivíduos portadores migram e se reproduzem na população receptora, seus alelos podem ser incorporados ao novo pool gênico. [...] O fluxo gênico transfere a novidade evolutiva de A para B, ampliando a variabilidade genética de B..."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_08_q011",
+      "slide_id": "origem_vida_aula_08",
+      "slide_nome": "Aula 08 - Mutações Genéticas e Evolução",
+      "arquivo_origem": "Aula 8 ED_Mutacoes_Geneticas_Evolucao_260928_120109 (1).pdf",
+      "numero": 11,
+      "tema": "Genética Molecular",
+      "subtema": "Mutação Silenciosa e Degeneração do Código Genético",
+      "enunciado": "A Questão 11 do Estudo Dirigido analisa uma mutação de ponto que altera um nucleotídeo no DNA, mas o novo códon transcrito continua codificando o mesmo aminoácido. Por que essa variante genética pode permanecer e flutuar na população sem que haja modificação detectável na estrutura da proteína traduzida?",
+      "alternativas": {
+        "A": "Porque a mutação quebrou as ligações fosfodiéster de todos os ribossomos da célula hospedeira.",
+        "B": "Porque se trata de uma mutação silenciosa, viabilizada pelo fato de o código genético ser degenerado (redundante), mantendo a sequência de aminoácidos, o fenótipo e a função proteica intactos, ficando livre da pressão seletiva direta e flutuando por deriva genética.",
+        "C": "Porque o RNA mensageiro impede a transcrição de qualquer base nitrogenada pirimídica.",
+        "D": "Porque a alteração converteu a célula bacteriana em um vírus envelopado diploide."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: mutações de ponto silenciosas não destroem a integridade mecânica ou molecular dos ribossomos.",
+        "B": "Correta: conforme a resposta comentada oficial da Questão 11, o código genético é degenerado (múltiplos códons codificam o mesmo aminoácido); com isso, a substituição da base não altera a cadeia polipeptídica nem a função biológica da proteína, resultando em variante fenotipicamente neutra que flutua por deriva genética sem ser alvo direto de seleção purificadora ou positiva.",
+        "C": "Incorreta: bases pirimídicas (citosina, timina e uracila) são transcritas e traduzidas normalmente.",
+        "D": "Incorreta: uma substituição pontual de nucleotídeo no genoma celular não transforma bactérias em partículas virais."
+      },
+      "referencia": {
+        "paginas": [
+          3,
+          11
+        ],
+        "fundamentacao": "Seção 3 e Questão 11 comentada.",
+        "trechos_apoio": [
+          "Trata-se de uma mutação silenciosa, viabilizada pelo fato de o código genético ser degenerado (redundante) — diferentes códons especificam o mesmo aminoácido. Como a sequência de aminoácidos não muda, a proteína mantém sua forma e função intactas. Sem alterar o fenótipo nem o valor adaptativo do indivíduo, a variante é neutra e permanece na população livre da pressão da seleção natural, flutuando por deriva genética."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_08_q012",
+      "slide_id": "origem_vida_aula_08",
+      "slide_nome": "Aula 08 - Mutações Genéticas e Evolução",
+      "arquivo_origem": "Aula 8 ED_Mutacoes_Geneticas_Evolucao_260928_120109 (1).pdf",
+      "numero": 12,
+      "tema": "Integração entre Genética e Evolução",
+      "subtema": "A Cadeia Causal da Adaptação",
+      "enunciado": "A Questão 12 do Estudo Dirigido explora a cadeia causal clássica da biologia evolutiva contemporânea: Mutação → Novo alelo → Fenótipo → Ambiente → Reprodução → Frequência alélica Qual alternativa descreve corretamente a etapa Ambiente → Reprodução dessa sequência?",
+      "alternativas": {
+        "A": "O ambiente induz mutações químicas direcionadas para que o indivíduo produza gametas triploides.",
+        "B": "O indivíduo portador do fenótipo vantajoso interage com os desafios e recursos do meio, obtendo maior sobrevivência e gerando proporcionalmente mais descendentes viáveis e férteis (seleção natural).",
+        "C": "A reprodução sexuada elimina compulsoriamente todas as fitas duplas de DNA em ambientes áridos.",
+        "D": "O ambiente seleciona exclusivamente os indivíduos que não possuem material genético hereditário."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o ambiente não produz mutações adaptativas intencionais; ele apenas atua como filtro ecológico externo.",
+        "B": "Correta: a resposta comentada da Questão 12 detalha essa etapa com exatidão: as pressões do meio (clima, predadores, recursos) testam a utilidade da característica fenotípica; os indivíduos portadores de variações que aumentam a aptidão sobrevivem melhor e deixam mais filhotes por reprodução diferencial (seleção natural).",
+        "C": "Incorreta: a reprodução sexuada transmite o DNA em fita dupla aos descendentes por meio dos gametas.",
+        "D": "Incorreta: a seleção natural só opera quando há transmissão de informação genética hereditária."
+      },
+      "referencia": {
+        "paginas": [
+          10,
+          12
+        ],
+        "fundamentacao": "Seção 10 e Questão 12 comentada.",
+        "trechos_apoio": [
+          "Ambiente → Reprodução: O indivíduo com característica vantajosa sobrevive melhor e deixa mais filhotes (seleção natural). Reprodução → Frequência alélica: Por ter gerado mais descendentes, o alelo vantajoso passa a ser mais comum na população ao longo das gerações (evolução)."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_08_q013",
+      "slide_id": "origem_vida_aula_08",
+      "slide_nome": "Aula 08 - Mutações Genéticas e Evolução",
+      "arquivo_origem": "Aula 8 ED_Mutacoes_Geneticas_Evolucao_260928_120109 (1).pdf",
+      "numero": 13,
+      "tema": "Especiação e Isolamento Reprodutivo",
+      "subtema": "Por que Mutações Isoladas não Geram Nova Espécie",
+      "enunciado": "Na Questão 5 do Estudo Dirigido, duas populações da mesma espécie permanecem separadas geograficamente por muitas gerações e acumulam diferentes mutações exclusivas. Por que o simples acúmulo de mutações e a separação física, isoladamente, não permitem afirmar que ocorreu especiação?",
+      "alternativas": {
+        "A": "Porque a especiação biológica só se confirma quando se estabelece o isolamento reprodutivo completo; se reunidas as populações ainda forem capazes de cruzar e gerar descendentes férteis, o fluxo gênico se restabelece e elas continuam pertencendo à mesma espécie.",
+        "B": "Porque novas espécies só surgem quando o número de cromossomos diminui exatamente para zero.",
+        "C": "Porque a especiação exige que todos os indivíduos fósseis da linhagem ancestral voltem à vida.",
+        "D": "Porque populações separadas geograficamente tornam-se automaticamente clones assexuados em duas gerações."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: o gabarito oficial da Questão 5 enfatiza que a diferenciação genética isolada não basta; sob o conceito biológico, a especiação exige barreiras reprodutivas intrínsecas (isolamento reprodutivo). Se ao se reencontrarem as populações cruzarem e produzirem prole fértil, elas continuam sendo subpopulações/raças da mesma entidade biológica.",
+        "B": "Incorreta: organismos celulares eucariontes possuem conjuntos cromossômicos funcionais e viáveis no cariótipo.",
+        "C": "Incorreta: espécies ancestrais extintas não retornam; a evolução é histórica e irreversível.",
+        "D": "Incorreta: o isolamento geográfico preserva os modos normais de reprodução sexuada da espécie."
+      },
+      "referencia": {
+        "paginas": [
+          13,
+          5
+        ],
+        "fundamentacao": "Seção 13 e Questão 5 comentada.",
+        "trechos_apoio": [
+          "Porque a especiação só é confirmada com o estabelecimento do isolamento reprodutivo. O acúmulo de mutações apenas gera diferenciação genética; se as duas populações forem reunidas e ainda forem capazes de cruzar e gerar descendentes férteis, o fluxo gênico se restabelece e elas continuam pertencendo à mesma espécie."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_08_q014",
+      "slide_id": "origem_vida_aula_08",
+      "slide_nome": "Aula 08 - Mutações Genéticas e Evolução",
+      "arquivo_origem": "Aula 8 ED_Mutacoes_Geneticas_Evolucao_260928_120109 (1).pdf",
+      "numero": 14,
+      "tema": "Medicina Evolutiva e Resistência Antimicrobiana",
+      "subtema": "O Erro da Decisão de Adaptação",
+      "enunciado": "Diante de um aumento progressivo de bactérias multirresistentes em uma enfermaria hospitalar que faz uso intensivo de antibióticos (Questão 10 do Estudo Dirigido), por que a afirmação de que \"os microrganismos decidiram se adaptar\" é cientificamente incorreta?",
+      "alternativas": {
+        "A": "Porque bactérias não possuem vontade, consciência ou capacidade de direcionar mutações adaptativas; as variantes resistentes surgem previamente por mutações espontâneas ou transferência horizontal, e o fármaco atua como filtro seletivo eliminando os clones sensíveis e permitindo a proliferação dos resistentes.",
+        "B": "Porque os antibióticos foram desenhados em laboratório exclusivamente para acelerar a reprodução bacteriana.",
+        "C": "Porque bactérias são organismos imutáveis que mantêm exatamente a mesma sequência de DNA desde o período pré-cambriano.",
+        "D": "Porque a resistência resulta unicamente de mutações na membrana plasmática dos leucócitos do sangue humano."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: conforme a resposta comentada da Questão 10 e a Seção 11, adaptação biológica não envolve volição ou teleologia; a variação resistente já estava presente ou surgiu ao acaso, sendo filtrada e selecionada positivamente pelo ambiente hospitalar impregnado de antimicrobiano.",
+        "B": "Incorreta: antimicrobianos são fármacos que visam inibir o crescimento ou promover a lise de patógenos bacterianos.",
+        "C": "Incorreta: populações bacterianas acumulam mutações e evoluem com grande dinamismo devido ao tempo de geração curto e populações gigantescas.",
+        "D": "Incorreta: a resistência é uma propriedade bioquímica do patógeno bacteriano (enzimas inativadoras, bombas de efluxo, alteração de sítio-alvo), e não dos glóbulos brancos do paciente."
+      },
+      "referencia": {
+        "paginas": [
+          2,
+          11,
+          10
+        ],
+        "fundamentacao": "Seções 2 e 11; Questão 10 comentada.",
+        "trechos_apoio": [
+          "Explicação evolutiva: Havia bactérias resistentes por mutações prévias e aleatórias. O antimicrobiano eliminou apenas as sensíveis, e as resistentes sobreviveram e multiplicaram-se (seleção natural). Não houve decisão adaptativa: microrganismos não têm intenção nem produzem mutações orientadas para a sobrevivência."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_08_q015",
+      "slide_id": "origem_vida_aula_08",
+      "slide_nome": "Aula 08 - Mutações Genéticas e Evolução",
+      "arquivo_origem": "Aula 8 ED_Mutacoes_Geneticas_Evolucao_260928_120109 (1).pdf",
+      "numero": 15,
+      "tema": "Genética Humana e Biomedicina",
+      "subtema": "Desconstrução de Raças Biológicas Discretas",
+      "enunciado": "Na Questão 13 do Estudo Dirigido, discute-se como as diferenças de frequências alélicas entre grupos humanos devem ser interpretadas biologicamente. Qual é a justificativa científica que comprova que essas variações não sustentam a classificação de Homo sapiens em \"raças biológicas discretas\"?",
+      "alternativas": {
+        "A": "Porque todos os seres humanos foram clonados a partir de um único indivíduo artificial no ano 2000.",
+        "B": "Porque a estrutura genética da espécie humana é contínua, amplamente compartilhada entre populações e desprovida de fronteiras rígidas, com a maior parte da diversidade existindo dentro dos próprios grupos locais devido à ancestralidade compartilhada recente e ao fluxo gênico constante.",
+        "C": "Porque o sequenciamento genômico revelou que populações de continentes diferentes não possuem nenhuma enzima metabólica comum.",
+        "D": "Porque a espécie humana é composta biologicamente por cinco subespécies estéreis entre si."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a espécie humana possui história evolutiva profunda de mais de 300 mil anos com reprodução sexuada biparental e migrações globais.",
+        "B": "Correta: o gabarito oficial da Questão 13 e a Seção 12 atestam que as variações genéticas em humanos são clinais (graduais e contínuas); a grande maioria das variantes alélicas é compartilhada globalmente e não há quebras abruptas no DNA que justifiquem demarcações raciais tipológicas ou discretas.",
+        "C": "Incorreta: o genoma humano é compartilhado em mais de 99,9% entre quaisquer dois indivíduos do planeta, com as mesmas vias metabólicas fundamentais.",
+        "D": "Incorreta: todos os seres humanos férteis pertencem a uma única subespécie biológica viável (Homo sapiens)."
+      },
+      "referencia": {
+        "paginas": [
+          12,
+          13
+        ],
+        "fundamentacao": "Seção 12 e Questão 13 comentada.",
+        "trechos_apoio": [
+          "As diferenças nas frequências alélicas entre grupos humanos não sustentam o conceito de raças biológicas discretas porque a estrutura genética da espécie humana é contínua, amplamente compartilhada e carece de fronteiras nítidas. A maior parte da variação genética total existe dentro de qualquer população local, sendo estruturada por ancestralidade, migrações e fluxo gênico."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_08_q016",
+      "slide_id": "origem_vida_aula_08",
+      "slide_nome": "Aula 08 - Mutações Genéticas e Evolução",
+      "arquivo_origem": "Aula 8 ED_Mutacoes_Geneticas_Evolucao_260928_120109 (1).pdf",
+      "numero": 16,
+      "tema": "Síntese Evolutiva Completa",
+      "subtema": "O Modelo de Especiação em Três Etapas da Questão 14",
+      "enunciado": "A Questão 14 do Estudo Dirigido constrói uma integração ampla entre mutação, seleção natural, deriva genética, fluxo gênico e especiação. Na descrição da via mais comum (especiação alopátrica), quais são as três etapas sucessivas detalhadas na apostila?",
+      "alternativas": {
+        "A": "1. Duplicação artificial de DNA; 2. Terapia gênica viral; 3. Clonagem laboratorial contínua.",
+        "B": "1. Interrupção do fluxo gênico por barreira geográfica; 2. Divergência independente (mutações exclusivas, seleção natural local e deriva genética em cada lado); 3. Consolidação do isolamento reprodutivo ao longo de muitas gerações.",
+        "C": "1. Eliminação total de predadores; 2. Troca maciça de gametas entre espécies; 3. Desaparecimento de todos os códons de parada.",
+        "D": "1. Seleção artificial zootécnica; 2. Criação de pedigree; 3. Manutenção da fertilidade irrestrita entre raças."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: são técnicas de biotecnologia molecular contemporânea, não as etapas ecológicas e populacionais da especiação natural.",
+        "B": "Correta: a resposta oficial da Questão 14 estrutura a especiação alopátrica exatamente nesses três passos sequenciais: interrupção do fluxo gênico por barreira física, divergência genética e ecológica independente em cada subpopulação e estabelecimento definitivo de barreiras reprodutivas intrínsecas.",
+        "C": "Incorreta: o modelo pressupõe bloqueio da troca de genes, e não fluxo maciço descontrolado.",
+        "D": "Incorreta: seleção artificial com preservação de fertilidade entre linhagens caracteriza a raciação em animais domésticos, e não a especiação biológica."
+      },
+      "referencia": {
+        "paginas": [
+          14
+        ],
+        "fundamentacao": "Seção 14 e Questão 14 comentada.",
+        "trechos_apoio": [
+          "1. Interrupção do fluxo gênico: Uma barreira geográfica [...] isola duas subpopulações [...]. 2. Divergência independente: Em cada lado da barreira surgem mutações exclusivas, diferentes pressões de seleção natural e a deriva genética fixa ou elimina alelos por puro acaso [...]. 3. Consolidação do Isolamento Reprodutivo: Com o passar de muitas gerações, a divergência genética, comportamental ou morfológica acumulada torna-se tão profunda que os dois grupos perdem a capacidade de cruzar entre si ou de gerar descendentes férteis."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_08_q017",
+      "slide_id": "origem_vida_aula_08",
+      "slide_nome": "Aula 08 - Mutações Genéticas e Evolução",
+      "arquivo_origem": "Aula 8 ED_Mutacoes_Geneticas_Evolucao_260928_120109 (1).pdf",
+      "numero": 17,
+      "tema": "Genética de Populações",
+      "subtema": "Os Moduladores de Frequência Alélica",
+      "enunciado": "O texto da síntese conceitual (Seção 14) distingue a força geradora de variação das forças moduladoras de frequências. Quais mecanismos atuam como os moduladores centrais que alteram as frequências das variantes no pool gênico ao longo das gerações?",
+      "alternativas": {
+        "A": "Apenas a mitose celular em tecidos epiteliais somáticos.",
+        "B": "A seleção natural (sucesso reprodutivo diferencial) e a deriva genética (flutuações estatísticas por puro acaso amostral), complementadas pelo fluxo gênico (migração).",
+        "C": "Exclusivamente a fagocitose de glóbulos vermelhos senescentes pelo baço.",
+        "D": "A fosforilação oxidativa de prótons na crista mitocondrial."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a mitose somática promove a proliferação celular no mesmo indivíduo sem modular frequências alélicas populacionais entre gerações.",
+        "B": "Correta: a Seção 14 e o quadro comparativo da Seção 6 estabelecem com clareza: a mutação gera o novo alelo; quem modula e altera sua frequência percentual na população são a seleção natural (direcionada pela adaptação), a deriva genética (flutuações ao acaso) e o fluxo gênico (entrada/saída de migrantes).",
+        "C": "Incorreta: eritrofagocitose esplênica é uma função fisiológica de reciclagem de ferro e hemoglobina, sem impacto nas frequências alélicas da espécie.",
+        "D": "Incorreta: fosforilação oxidativa é a via de síntese bioenergética de ATP, não uma força microevolutiva populacional."
+      },
+      "referencia": {
+        "paginas": [
+          6,
+          14
+        ],
+        "fundamentacao": "Seções 6 e 14.",
+        "trechos_apoio": [
+          "Seleção Natural e Deriva Genética: os moduladores de frequência. Uma vez geradas as variantes genéticas, dois mecanismos principais alteram suas frequências na população ao longo das gerações: Seleção Natural (reprodução diferencial) e Deriva Genética (flutuações estatísticas devidas ao mero acaso na transmissão de gametas)..."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_08_q018",
+      "slide_id": "origem_vida_aula_08",
+      "slide_nome": "Aula 08 - Mutações Genéticas e Evolução",
+      "arquivo_origem": "Aula 8 ED_Mutacoes_Geneticas_Evolucao_260928_120109 (1).pdf",
+      "numero": 18,
+      "tema": "Genética Molecular",
+      "subtema": "Consequência Molecular da Mutação Nonsense",
+      "enunciado": "Na classificação molecular detalhada na Seção 3 da apostila, uma substituição nucleotídica pontual é classificada como nonsense quando acarreta qual alteração direta na matriz de leitura do RNA mensageiro?",
+      "alternativas": {
+        "A": "A substituição converte um códon que codificava um aminoácido em um códon de parada prematuro (stop códon: UAA, UAG ou UGA), interrompendo a tradução e gerando uma proteína truncada.",
+        "B": "A substituição adiciona exatamente 100 aminoácidos hidrofílicos na extremidade amino-terminal.",
+        "C": "A mutação transforma a pentose desoxirribose em uma molécula de colesterol livre.",
+        "D": "A substituição impede que o DNA se replique durante toda a fase S da interfase."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: conforme definido na Seção 3 do texto e detalhado no apoio de Biofísica, a mutação nonsense ocorre quando a troca de base nitrogenada origina precocemente um códon de terminação/parada da tradução, resultando em uma cadeia polipeptídica encurtada (truncada) e frequentemente não funcional.",
+        "B": "Incorreta: códons de parada sinalizam a interrupção da tradução pelo ribossomo, e não o alongamento da cadeia.",
+        "C": "Incorreta: mutações envolvem sequências de bases nitrogenadas em ácidos nucleicos, sem transmutação química para lipídios esteroides.",
+        "D": "Incorreta: mutações de ponto de sentido errado ou perda de sentido não bloqueiam mecanicamente a forquilha de replicação celular na fase S."
+      },
+      "referencia": {
+        "paginas": [
+          3,
+          8
+        ],
+        "fundamentacao": "Seção 3 da Aula 8 e apoio de Biofísica.",
+        "trechos_apoio": [
+          "Uma substituição pode ser silenciosa, quando não modifica o aminoácido; missense, quando provoca troca de aminoácido; ou nonsense, quando origina um códon de parada."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_08_q019",
+      "slide_id": "origem_vida_aula_08",
+      "slide_nome": "Aula 08 - Mutações Genéticas e Evolução",
+      "arquivo_origem": "Aula 8 ED_Mutacoes_Geneticas_Evolucao_260928_120109 (1).pdf",
+      "numero": 19,
+      "tema": "Medicina Evolutiva",
+      "subtema": "Transferência Horizontal de Genes e Resistência em Bactérias",
+      "enunciado": "Ao analisar a epidemiologia hospitalar e a rápida disseminação de resistência bacteriana a múltiplos fármacos (Seção 11), a apostila destaca que as bactérias não dependem unicamente de mutações cromossômicas espontâneas verticais para adquirir resistência. Qual outro mecanismo genético primordial é apontado no texto?",
+      "alternativas": {
+        "A": "A transferência horizontal de genes entre linhagens bacterianas (como por plasmídeos de resistência).",
+        "B": "A recombinação meiótica com crossing-over nos ovários de mamíferos carnívoros.",
+        "C": "A incorporação passiva de anticorpos sintéticos na parede de peptidoglicano.",
+        "D": "A transformação de bactérias em células eucarióticas pluricelulares."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: o texto da Seção 11 ressalta expressamente: \"Além das mutações, bactérias podem adquirir genes de resistência por transferência horizontal\"; esse mecanismo (conjugação, transformação, transdução) permite a troca direta de elementos genéticos móveis e plasmídeos entre bactérias de cepas ou espécies distintas, acelerando a resistência.",
+        "B": "Incorreta: bactérias não realizam meiose nem possuem órgãos reprodutores eucarióticos.",
+        "C": "Incorreta: anticorpos atuam neutralizando ou opsonizando antígenos, não transmitindo genes de resistência ao genoma bacteriano.",
+        "D": "Incorreta: bactérias pertencem ao domínio procarionte (Bacteria) e mantêm sua organização unicelular."
+      },
+      "referencia": {
+        "paginas": [
+          11
+        ],
+        "fundamentacao": "Seção 11.",
+        "trechos_apoio": [
+          "Além das mutações, bactérias podem adquirir genes de resistência por transferência horizontal. A resistência antimicrobiana é, portanto, um exemplo biomédico importante de processos evolutivos observáveis em populações."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_08_q020",
+      "slide_id": "origem_vida_aula_08",
+      "slide_nome": "Aula 08 - Mutações Genéticas e Evolução",
+      "arquivo_origem": "Aula 8 ED_Mutacoes_Geneticas_Evolucao_260928_120109 (1).pdf",
+      "numero": 20,
+      "tema": "Revisão Conceitual Final",
+      "subtema": "Os Pontos Essenciais do Estudo Dirigido",
+      "enunciado": "Na seção final de fechamento da Aula 8 (\"Pontos essenciais para revisão\"), o material elenca proposições fundamentais que organizam o raciocínio do estudante de Biomedicina. Qual afirmativa sintetiza com precisão esses princípios?",
+      "alternativas": {
+        "A": "Mutações somáticas são a fonte primária de alelos herdáveis na reprodução sexuada.",
+        "B": "A mutação produz novidade genética, mas não é dirigida pela necessidade adaptativa do organismo; somente alterações herdáveis (germinativas) participam diretamente da evolução entre gerações; nem toda mutação é prejudicial; e a especiação é um processo populacional de divergência e isolamento, não o resultado automático de uma única mutação isolada.",
+        "C": "Qualquer aumento rápido na frequência de um alelo comprova matematicamente que ele confere vantagem adaptativa absoluta.",
+        "D": "O antibiótico induz transcrições ativas de novos genes sempre que o paciente esquece uma tomada do medicamento."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: mutações somáticas não são transmitidas aos descendentes em organismos sexuados, sendo as mutações germinativas as herdáveis.",
+        "B": "Correta: reúne com rigor literal os pontos essenciais do fechamento da apostila: caráter estocástico e não direcionado da mutação, exigência de transmissão germinativa para relevância evolutiva, relatividade contextual dos efeitos (neutros, benéficos, deletérios) e natureza gradual e populacional da especiação com isolamento reprodutivo.",
+        "C": "Incorreta: o aumento de frequência pode decorrer de deriva genética (efeito fundador, gargalo, flutuações amostrais) em alelos neutros ou ligeiramente desfavoráveis.",
+        "D": "Incorreta: o antibiótico não programa mutações intencionais na célula bacteriana."
+      },
+      "referencia": {
+        "paginas": [
+          8
+        ],
+        "fundamentacao": "Seção \"Pontos essenciais para revisão\" da Aula 8.",
+        "trechos_apoio": [
+          "• Mutação produz novidade genética, mas não é dirigida pela necessidade do organismo. • Somente alterações herdáveis podem participar diretamente da evolução entre gerações. • Seleção natural, deriva genética e fluxo gênico podem modificar o destino de uma variante. • Nem toda mutação é prejudicial e nem todo aumento de frequência representa adaptação. • Especiação é um processo populacional de divergência e isolamento, não o resultado automático de uma única mutação."
+        ]
+      }
+    }
+  ]
+}

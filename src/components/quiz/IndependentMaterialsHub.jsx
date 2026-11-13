@@ -1685,8 +1685,18 @@ export default function IndependentMaterialsHub({
                 >
                   <div>
                     <b>Apostila:</b> <span data-testid="ref-apostila">{currentQuestion.slide_nome}</span>
-                    {Array.isArray(currentQuestion.referencia.paginas) &&
-                    currentQuestion.referencia.paginas.length > 0 ? (
+                    {currentQuestion.hasIndividualOptionExplanations &&
+                    currentQuestion.referencia.fundamentacao &&
+                    !/^Páginas?\b/i.test(currentQuestion.referencia.fundamentacao) ? (
+                      <>
+                        {' '}
+                        · <b>Referência:</b>{' '}
+                        <span data-testid="ref-paginas">
+                          {currentQuestion.referencia.fundamentacao}
+                        </span>
+                      </>
+                    ) : Array.isArray(currentQuestion.referencia.paginas) &&
+                      currentQuestion.referencia.paginas.length > 0 ? (
                       <>
                         {' '}
                         · <b>Página(s):</b>{' '}
