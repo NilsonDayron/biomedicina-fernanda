@@ -1,0 +1,977 @@
+{
+  "questoes": [
+    {
+      "id": "origem_vida_aula_06_q001",
+      "slide_id": "origem_vida_aula_06",
+      "slide_nome": "Aula 06 - Fatores da Evolução",
+      "arquivo_origem": "Aula 6 Fatores_Evolucao_260917_190742 (1).pdf",
+      "numero": 1,
+      "tema": "Forças Microevolutivas",
+      "subtema": "A Natureza da Mutação Genética",
+      "enunciado": "No estudo dos fatores microevolutivos que alteram a composição genética das populações ao longo das gerações, a mutação ocupa uma posição biológica singular. Segundo o material didático, qual é o papel exclusivo da mutação no processo evolutivo?",
+      "alternativas": {
+        "A": "É o processo que atua filtrando apenas os fenótipos mais aptos por meio da reprodução diferencial.",
+        "B": "É a fonte primária e a \"matéria-prima\" da evolução, sendo o único mecanismo capaz de criar novos alelos e características genéticas inéditas na população.",
+        "C": "É o processo puramente demográfico que elimina a variação gênica por catástrofes físicas ambientais.",
+        "D": "É o movimento migratório direcionado que homogeneíza as frequências alélicas entre duas populações distintas."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o filtro adaptativo não aleatório sobre fenótipos pré-existentes é a definição da seleção natural.",
+        "B": "Correta: a apostila define expressamente que a mutação é a \"matéria-prima da evolução\" e a \"origem da variabilidade\", pois constitui o único processo biológico capaz de criar novos alelos (formas alternativas de um gene) a partir de alterações no DNA.",
+        "C": "Incorreta: a eliminação aleatória de variantes por catástrofes corresponde ao efeito gargalo na deriva genética.",
+        "D": "Incorreta: o transporte e homogeneização de alelos entre grupos populacionais define o fluxo gênico (migração)."
+      },
+      "referencia": {
+        "paginas": [
+          4,
+          9
+        ],
+        "fundamentacao": "Slides 4 e 9.",
+        "trechos_apoio": [
+          "Mutações: São alterações no DNA que introduzem novas variações genéticas numa população, sendo a 'matéria-prima' da evolução, pois criam novas características. [...] É o processo fundamental que cria novos alelos (formas alternativas de um gene) e, portanto, é a matéria-prima da evolução."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_06_q002",
+      "slide_id": "origem_vida_aula_06",
+      "slide_nome": "Aula 06 - Fatores da Evolução",
+      "arquivo_origem": "Aula 6 Fatores_Evolucao_260917_190742 (1).pdf",
+      "numero": 2,
+      "tema": "Forças Microevolutivas",
+      "subtema": "Recombinação Gênica vs. Mutação",
+      "enunciado": "Durante a reprodução sexuada, a meiose e a fecundação proporcionam ampla diversidade fenotípica por meio da recombinação gênica. O texto da aula ressalta uma distinção funcional crucial entre a recombinação e a mutação. Qual é essa diferença?",
+      "alternativas": {
+        "A": "A recombinação gênica cria novos alelos que não existiam no planeta, enquanto a mutação apenas mistura genes parentais.",
+        "B": "A recombinação gênica mistura e rearranja os alelos pré-existentes gerando novas combinações na prole, aumentando a diversidade sem criar novos alelos.",
+        "C": "A recombinação ocorre exclusivamente em organismos procariontes desprovidos de carioteca nuclear.",
+        "D": "A recombinação é um mecanismo não aleatório direcionado pela vontade adaptativa do animal."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: inverte totalmente as definições; quem cria alelos inéditos é a mutação.",
+        "B": "Correta: conforme o slide 9, a recombinação genética é a criação de novos arranjos: \"Durante a reprodução sexuada, os genes dos pais são misturados e rearranjados, gerando descendentes com novas combinações de alelos. Esse processo aumenta a diversidade genética dentro de uma população, mesmo sem a criação de novos alelos\".",
+        "C": "Incorreta: procariontes reproduzem-se principalmente por fissão binária assexuada; a recombinação meiótica típica ocorre em organismos eucariotos com reprodução sexuada.",
+        "D": "Incorreta: a segregação independente dos cromossomos e o crossing-over meióticos são eventos estocásticos e biológicos, sem teleologia ou volição."
+      },
+      "referencia": {
+        "paginas": [
+          4,
+          9
+        ],
+        "fundamentacao": "Slides 4 e 9.",
+        "trechos_apoio": [
+          "Recombinação Genética: Criação de novos arranjos: Durante a reprodução sexuada, os genes dos pais são misturados e rearranjados, gerando descendentes com novas combinações de alelos. Aumento da diversidade: Esse processo aumenta a diversidade genética dentro de uma população, mesmo sem a criação de novos alelos."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_06_q003",
+      "slide_id": "origem_vida_aula_06",
+      "slide_nome": "Aula 06 - Fatores da Evolução",
+      "arquivo_origem": "Aula 6 Fatores_Evolucao_260917_190742 (1).pdf",
+      "numero": 3,
+      "tema": "Dinâmica da Deriva Genética",
+      "subtema": "Flutuação Aleatória e Tamanho Populacional",
+      "enunciado": "A deriva genética é descrita no material como uma força microevolutiva que atua segundo princípios estocásticos. De acordo com a apostila, em qual situação ecológica e populacional a deriva genética exerce seu impacto mais pronunciado e evidente?",
+      "alternativas": {
+        "A": "Em populações imensas e panmíticas que habitam ambientes estáveis sem predadores.",
+        "B": "Em populações pequenas e isoladas, onde a perda ou flutuação fortuita de poucos indivíduos altera substancialmente as frequências alélicas do pool gênico.",
+        "C": "Exclusivamente em comunidades multiespecíficas de plantas autotróficas da Amazônia.",
+        "D": "Em qualquer população onde a seleção natural atue com força máxima absoluta."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: em populações infinitamente grandes ou muito amplas, a amostragem estatística dilui o impacto do acaso, tornando a oscilação por deriva pouco perceptível.",
+        "B": "Correta: o texto enfatiza que \"A deriva genética é mais facilmente observada em populações pequenas porque a flutuação dos alelos nessas populações é mais evidente. Em populações reduzidas, cada geração representa uma fração maior do pool genético total, tornando as mudanças na frequência alélica mais perceptíveis\".",
+        "C": "Incorreta: a deriva genética é um mecanismo microevolutivo universal aplicável a qualquer grupo de organismos diploides ou haploides com populações finitas.",
+        "D": "Incorreta: a deriva atua pelo acaso puro e independe de vantagem adaptativa, podendo até se contrapor à seleção natural."
+      },
+      "referencia": {
+        "paginas": [
+          5,
+          10,
+          12
+        ],
+        "fundamentacao": "Slides 5, 10 e 12.",
+        "trechos_apoio": [
+          "Deriva Genética: É uma mudança aleatória na frequência de alelos numa população. É mais significativa em populações pequenas e pode levar à perda de variações genéticas. [...] Em populações reduzidas, cada geração representa uma fração maior do pool genético total, tornando as mudanças na frequência alélica mais perceptíveis"
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_06_q004",
+      "slide_id": "origem_vida_aula_06",
+      "slide_nome": "Aula 06 - Fatores da Evolução",
+      "arquivo_origem": "Aula 6 Fatores_Evolucao_260917_190742 (1).pdf",
+      "numero": 4,
+      "tema": "Efeitos Demográficos da Deriva",
+      "subtema": "O Efeito Gargalo (Bottleneck Effect)",
+      "enunciado": "O efeito gargalo representa uma modalidade extrema de deriva genética decorrente de reduções demográficas abruptas. Qual consequência genética direta o efeito gargalo acarreta na população sobrevivente, segundo o material didático?",
+      "alternativas": {
+        "A": "Duplicação imediata do número de cromossomos em todos os indivíduos sobreviventes.",
+        "B": "Redução acentuada da diversidade genética global, uma vez que a nova geração é formada a partir de um subconjunto limitado de alelos que restou por sorte na população sobrevivente.",
+        "C": "Criação de novas enzimas digestivas por indução térmica direta das catástrofes.",
+        "D": "Aumento instantâneo do fluxo gênico entre a população afetada e populações de outros continentes."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o efeito gargalo é um evento demográfico de amostragem populacional, e não uma mutação cromossômica numérica (poliploidia).",
+        "B": "Correta: conforme a aula, durante o gargalo ecológico (desastres naturais, epidemias, caça intensiva), a maioria dos indivíduos morre; os sobreviventes representam apenas uma amostra restrita do pool gênico original, levando à perda de alelos e à diminuição drástica da variabilidade genética da linhagem.",
+        "C": "Incorreta: catástrofes ambientais não induzem deliberadamente novas vias enzimáticas adaptativas direcionadas.",
+        "D": "Incorreta: o gargalo populacional reduz os números internos e geralmente isola ainda mais o grupo, sem promover fluxo gênico automático."
+      },
+      "referencia": {
+        "paginas": [
+          13
+        ],
+        "fundamentacao": "Slide 13.",
+        "trechos_apoio": [
+          "Efeito gargalo acontece quando uma população passa por uma redução significativa e abrupta em seu tamanho. [...] Durante um efeito gargalo, apenas um pequeno número de indivíduos sobrevive e contribui para a próxima geração. Como resultado, a diversidade genética da população é reduzida, pois apenas um subconjunto limitado dos alelos presentes na população original é transmitido aos descendentes."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_06_q005",
+      "slide_id": "origem_vida_aula_06",
+      "slide_nome": "Aula 06 - Fatores da Evolução",
+      "arquivo_origem": "Aula 6 Fatores_Evolucao_260917_190742 (1).pdf",
+      "numero": 5,
+      "tema": "Efeitos Demográficos da Deriva",
+      "subtema": "O Efeito Fundador e a Doença de Huntington",
+      "enunciado": "O efeito fundador ocorre quando um pequeno número de indivíduos coloniza um novo território geográfico isolado da população principal. A apostila ilustra esse mecanismo evolutivo com uma situação biomédica clássica observada no continente africano. Qual é esse exemplo documentado no slide?",
+      "alternativas": {
+        "A": "O aparecimento de malária falciforme em tribos nômades do Saara.",
+        "B": "A alta frequência do gene causador da doença de Huntington na população de descendentes de colonos holandeses na África do Sul, transmitido a partir de fundadores que carregavam essa variante rara.",
+        "C": "A imunidade congênita universal de macacos babuínos contra o vírus da febre amarela.",
+        "D": "A fixação de alelos para nanismo em elefantes da savana por seleção sexual."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a anemia falciforme na África é o exemplo clássico de seleção balanceadora (vantagem do heterozigoto frente à malária), e não de efeito fundador.",
+        "B": "Correta: a apostila cita textualmente o caso da população descendente de colonos holandeses na África do Sul (Afrikaners), que descende de um grupo inicial muito reduzido no qual, por puro acaso, alguns colonos originais portavam o alelo raro para a doença de Huntington, elevando expressivamente sua frequência na população atual.",
+        "C": "Incorreta: o exemplo clínico abordado na apostila envolve seres humanos colonizadores e a doença de Huntington.",
+        "D": "Incorreta: não há registro desse exemplo no slide, sendo a doença neurodegenerativa humana o estudo de caso oficial."
+      },
+      "referencia": {
+        "paginas": [
+          14
+        ],
+        "fundamentacao": "Slide 14.",
+        "trechos_apoio": [
+          "Um exemplo do efeito fundador é o que ocorre na população africana de descendentes de colonos holandeses no sul da África. [...] Atualmente, essa população apresenta uma alta frequência do gene associado à doença de Huntington, pois os colonos holandeses originais coincidentemente carregavam genes com uma frequência notavelmente elevada para essa condição."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_06_q006",
+      "slide_id": "origem_vida_aula_06",
+      "slide_nome": "Aula 06 - Fatores da Evolução",
+      "arquivo_origem": "Aula 6 Fatores_Evolucao_260917_190742 (1).pdf",
+      "numero": 6,
+      "tema": "Consequências Genéticas da Deriva",
+      "subtema": "Fixação e Perda de Alelos",
+      "enunciado": "Ao analisar os desdobramentos de longo prazo da deriva genética em populações finitas, o material didático aponta fenômenos que afetam diretamente o pool gênico. Quando a frequência de um alelo específico atinge 100% na população devido a flutuações amostrais ao acaso, diz-se que ocorreu a:",
+      "alternativas": {
+        "A": "Deleção cromossômica balanceada.",
+        "B": "Fixação de alelos.",
+        "C": "Especiação simpátrica instantânea.",
+        "D": "Metaplasia gênica celular."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: deleção cromossômica é uma mutação estrutural de perda de segmentos físicos de DNA.",
+        "B": "Correta: o slide 15 conceitua: \"Fixação de alelos: um alelo específico se torna presente em 100% da população. Isso ocorre por acaso, e alelos fixados podem não necessariamente conferir vantagens adaptativas\".",
+        "C": "Incorreta: fixação de alelos é um processo de genética de populações que pode ocorrer dentro de uma espécie existente sem originar nova espécie isolada.",
+        "D": "Incorreta: metaplasia é uma resposta tecidual de adaptação celular patológica reversível (ex.: epitélio respiratório de fumantes), não um conceito populacional."
+      },
+      "referencia": {
+        "paginas": [
+          15
+        ],
+        "fundamentacao": "Slide 15.",
+        "trechos_apoio": [
+          "Fixação de alelos: um alelo específico se torna presente em 100% da população. Isso ocorre por acaso, e alelos fixados podem não necessariamente conferir vantagens adaptativas. Perda de alelos: o oposto ocorre em relação à fixação, isto é, um alelo específico é eliminado de uma população ao longo do tempo..."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_06_q007",
+      "slide_id": "origem_vida_aula_06",
+      "slide_nome": "Aula 06 - Fatores da Evolução",
+      "arquivo_origem": "Aula 6 Fatores_Evolucao_260917_190742 (1).pdf",
+      "numero": 7,
+      "tema": "Dinâmica do Fluxo Gênico",
+      "subtema": "Migração e Homogeneização Populacional",
+      "enunciado": "O fluxo gênico corresponde à transferência de genes entre populações provocada pelo movimento de indivíduos reprodutores ou de seus gametas. Qual é o impacto evolutivo do fluxo gênico contínuo entre duas populações geográficas da mesma espécie?",
+      "alternativas": {
+        "A": "Acelera o isolamento reprodutivo e força a separação imediata em duas espécies distintas.",
+        "B": "Introduz novos alelos na população receptora e diminui as diferenças genéticas entre as populações, atuando como uma força que homogeneíza os grupos.",
+        "C": "Provoca a eliminação de todos os ribossomos funcionais dos gametas masculinos.",
+        "D": "Transforma as duas populações em clones assexuados por perda de variabilidade."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o fluxo gênico atua justamente em sentido oposto à especiação; ao misturar o pool gênico, ele impede que as populações acumulem divergências suficientes para se isolarem reprodutivamente.",
+        "B": "Correta: o texto destaca nos slides 5 e 9 que o fluxo gênico pode introduzir alelos novos na população que recebe os migrantes e, simultaneamente, reduz a diferenciação genética entre as duas populações, tornando-as geneticamente mais semelhantes entre si (efeito homogeneizador).",
+        "C": "Incorreta: a migração gênica preserva as funções celulares básicas e meióticas normais dos indivíduos férteis.",
+        "D": "Incorreta: o fluxo gênico eleva a variabilidade interna da população receptora ao trazer novas variantes de fora."
+      },
+      "referencia": {
+        "paginas": [
+          5,
+          9
+        ],
+        "fundamentacao": "Slides 5 e 9.",
+        "trechos_apoio": [
+          "Migração (Fluxo Gênico): O movimento de indivíduos (ou de seus gametas) entre populações pode introduzir ou remover alelos, afetando a diversidade genética de ambas as populações. [...] Redução de diferenças: Isso também pode diminuir as diferenças genéticas entre as populações, tornando-as mais semelhantes geneticamente."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_06_q008",
+      "slide_id": "origem_vida_aula_06",
+      "slide_nome": "Aula 06 - Fatores da Evolução",
+      "arquivo_origem": "Aula 6 Fatores_Evolucao_260917_190742 (1).pdf",
+      "numero": 8,
+      "tema": "Conceito Biológico de Espécie",
+      "subtema": "Ernst Mayr e a Barreira Reprodutiva",
+      "enunciado": "O Conceito Biológico de Espécie é um dos pilares mais utilizados na biologia evolutiva clássica. De acordo com a definição apresentada na apostila, como uma espécie é delimitada biologicamente e qual é a sua principal limitação teórica?",
+      "alternativas": {
+        "A": "É delimitada exclusivamente pelo peso corporal do macho adulto; a limitação é a impossibilidade de pesar animais aquáticos.",
+        "B": "É definida como um grupo de populações naturais cujos indivíduos são capazes de se cruzar na natureza e produzir descendentes férteis e viáveis, estando reprodutivamente isolados de outros grupos; a limitação é não se aplicar a fósseis e a organismos assexuados.",
+        "C": "É definida pela semelhança da pelagem externa sob luz ultravioleta; a limitação é a ausência de microscópio eletrônico na Antiguidade.",
+        "D": "É definida como o grupo de seres vivos que utilizam uracila no DNA genômico nuclear; a limitação é que todas as bactérias violam essa regra."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o conceito biológico fundamenta-se em fluxo gênico e isolamento reprodutivo, e não em medidas corporais isoladas como o peso.",
+        "B": "Correta: o slide 19 traz a definição clássica: \"Espécies são grupos de populações naturais potencialmente capazes de se cruzar e que estão reprodutivamente isoladas de outros grupos semelhantes. Uma espécie é um grupo de organismos que podem acasalar-se para produzir descendentes férteis e viáveis\"; e pontua expressamente sob limitações: \"Não se aplica a organismos assexuados ou a fósseis\".",
+        "C": "Incorreta: a análise de aspectos físicos externos pertence ao conceito morfológico de espécie, e não ao biológico.",
+        "D": "Incorreta: a presença de uracila é exclusiva de moléculas de RNA, contendo o DNA genômico timina."
+      },
+      "referencia": {
+        "paginas": [
+          19
+        ],
+        "fundamentacao": "Slide 19.",
+        "trechos_apoio": [
+          "Conceito biológico de espécie: Espécies são grupos de populações naturais potencialmente capazes de se cruzar e que estão reprodutivamente isoladas de outros grupos semelhantes. Uma espécie é um grupo de organismos que podem acasalar-se para produzir descendentes férteis e viáveis. Limitações: Não se aplica a organismos assexuados ou a fósseis."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_06_q009",
+      "slide_id": "origem_vida_aula_06",
+      "slide_nome": "Aula 06 - Fatores da Evolução",
+      "arquivo_origem": "Aula 6 Fatores_Evolucao_260917_190742 (1).pdf",
+      "numero": 9,
+      "tema": "Isolamento Reprodutivo",
+      "subtema": "O Exemplo do Zebroide e a Esterilidade Híbrida",
+      "enunciado": "Para ilustrar o conceito biológico de espécie e as barreiras reprodutivas que mantêm linhagens separadas, a aula analisa o cruzamento entre um cavalo e uma zebra. Por que cavalos e zebras continuam sendo classificados como espécies biológicas distintas, mesmo quando conseguem acasalar e gerar um filhote (o zebroide)?",
+      "alternativas": {
+        "A": "Porque o zebroide gerado é estéril, já que a incompatibilidade cromossômica entre os pais impede a meiose normal e a formação de gametas viáveis.",
+        "B": "Porque a zebra é um réptil ovíparo e o cavalo é um mamífero placentário.",
+        "C": "Porque o zebroide morre imediatamente no instante da fertilização do óvulo.",
+        "D": "Porque a pelagem do filhote não possui nenhuma listra escura observável."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: o slide 20 esclarece que cavalos e zebras são de espécies diferentes porque o descendente híbrido (zebroide) é invariavelmente infértil: \"Isso ocorre porque suas combinações de cromossomos parentais são incompatíveis de uma maneira que impede a formação normal de gametas (óvulos e espermatozoides)\", configurando isolamento reprodutivo pós-zigótico por esterilidade do híbrido.",
+        "B": "Incorreta: tanto cavalos quanto zebras são mamíferos ungulados da mesma família (Equidae).",
+        "C": "Incorreta: o zebroide sobrevive, nasce e atinge a fase adulta, mas não possui fertilidade reprodutiva para gerar descendência contínua.",
+        "D": "Incorreta: o zebroide exibe fenótipo com listras herdadas da zebra combinadas à morfologia do cavalo."
+      },
+      "referencia": {
+        "paginas": [
+          20
+        ],
+        "fundamentacao": "Slide 20.",
+        "trechos_apoio": [
+          "Embora possam parecer semelhantes, eles são de espécies diferentes porque, mesmo que possam acasalar e ter um filhote, este filhote, chamado de zebroide, geralmente é infértil. Isso ocorre porque suas combinações de cromossomos parentais são incompatíveis de uma maneira que impede a formação normal de gametas (óvulos e espermatozoides)."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_06_q010",
+      "slide_id": "origem_vida_aula_06",
+      "slide_nome": "Aula 06 - Fatores da Evolução",
+      "arquivo_origem": "Aula 6 Fatores_Evolucao_260917_190742 (1).pdf",
+      "numero": 10,
+      "tema": "Especiação Alopátrica",
+      "subtema": "A Sequência Clássica por Barreira Geográfica",
+      "enunciado": "A especiação alopátrica é destacada na apostila como o modelo mais frequente e comum de formação de novas espécies biológicas a partir de um ancestral comum. Qual é a ordem cronológica correta dos acontecimentos que levam à cladogênese alopátrica?",
+      "alternativas": {
+        "A": "Isolamento reprodutivo imediato → Desaparecimento de todas as mutações → Fusão de habitats em uma única caverna.",
+        "B": "Surgimento de uma barreira geográfica física (rio, montanha) → Interrupção do fluxo gênico → Divergência genética independente sob diferentes pressões de seleção e deriva → Estabelecimento de isolamento reprodutivo definitivo.",
+        "C": "Acasalamento seletivo dentro da mesma floresta contínua → Poliploidia induzida por insetos → Unificação de fenótipos.",
+        "D": "Migração massiva diária de toda a população que destrói a barreira reprodutiva natural."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o isolamento reprodutivo é o resultado final acumulado ao longo de muitas gerações, e não o evento inicial.",
+        "B": "Correta: a sequência do slide 25 descreve com clareza o modelo alopátrico: inicia-se com a fragmentação da população por uma barreira física que bloqueia a troca de genes; isoladas, as populações acumulam mutações aleatórias e são moldadas por pressões seletivas e deriva independentes; quando a divergência atinge nível suficiente para impedir descendentes férteis no reencontro, o isolamento reprodutivo consolida duas espécies novas.",
+        "C": "Incorreta: acasalamento seletivo e divergência dentro da mesma área geográfica sem barreira física caracterizam a especiação simpátrica.",
+        "D": "Incorreta: migrações ativas contínuas mantêm o fluxo gênico e impedem a especiação alopátrica."
+      },
+      "referencia": {
+        "paginas": [
+          23,
+          24,
+          25
+        ],
+        "fundamentacao": "Slides 23, 24 e 25.",
+        "trechos_apoio": [
+          "Especiação Alopátrica: É o tipo mais comum, que se inicia com um isolamento geográfico de uma população, como a formação de uma barreira física (um rio, uma cadeia de montanhas). As populações isoladas evoluem de forma independente, adaptando-se a diferentes pressões seletivas, o que pode levar ao isolamento reprodutivo."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_06_q011",
+      "slide_id": "origem_vida_aula_06",
+      "slide_nome": "Aula 06 - Fatores da Evolução",
+      "arquivo_origem": "Aula 6 Fatores_Evolucao_260917_190742 (1).pdf",
+      "numero": 11,
+      "tema": "Especiação Simpátrica",
+      "subtema": "Divergência sem Isolamento Geográfico Físico",
+      "enunciado": "Diferente do modelo alopátrico, a especiação simpátrica ocorre sem que haja separação geográfica prévia entre as populações. Conforme conceituado na aula, quais fatores biológicos ou ecológicos podem promover o isolamento reprodutivo e a cladogênese simpátrica dentro de uma mesma área geográfica contínua?",
+      "alternativas": {
+        "A": "A abertura súbita de uma fenda oceânica intransponível que separa os indivíduos em continentes diferentes.",
+        "B": "A especialização em micro-habitats ecológicos distintos, preferências seletivas de acasalamento (seleção sexual) e alterações cromossômicas como poliploidia ou mutações.",
+        "C": "A perda total da capacidade de realizar respiração celular aeróbia por todos os adultos.",
+        "D": "A homogeneização completa do pool gênico provocada por migrações panmíticas diárias."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o surgimento de barreiras físicas (fendas oceânicas, rios, montanhas) caracteriza a especiação alopátrica, não a simpátrica.",
+        "B": "Correta: no modelo simpátrico (slides 24 e 27), duas ou mais linhagens divergem habitando a mesma região através de mecanismos intrínsecos: ocupação de nichos ecológicos alternativos no mesmo ambiente, seleção sexual com escolha assertiva de parceiros ou mutações cromossômicas/poliploidia que estabelecem barreiras reprodutivas imediatas.",
+        "C": "Incorreta: mutações metabólicas gerais não conduzem tipicamente ao isolamento reprodutivo simpátrico de populações viáveis.",
+        "D": "Incorreta: a homogeneização genética por migrações impede a divergência e a especiação."
+      },
+      "referencia": {
+        "paginas": [
+          24,
+          27
+        ],
+        "fundamentacao": "Slides 24 e 27.",
+        "trechos_apoio": [
+          "Especiação Simpátrica: Duas ou mais espécies evoluem a partir de uma única espécie ancestral na mesma área geográfica, sem a presença de uma barreira física. Isso pode ocorrer por meio de isolamento reprodutivo resultante de mutações, preferências de acasalamento, ou ocupação de nichos ecológicos diferentes."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_06_q012",
+      "slide_id": "origem_vida_aula_06",
+      "slide_nome": "Aula 06 - Fatores da Evolução",
+      "arquivo_origem": "Aula 6 Fatores_Evolucao_260917_190742 (1).pdf",
+      "numero": 12,
+      "tema": "Especiação Peripátrica",
+      "subtema": "O Papel dos Pequenos Grupos Periféricos",
+      "enunciado": "O modelo de especiação peripátrica é considerado uma variante específica do processo de isolamento geográfico. Qual aspecto ecológico e genético distingue a especiação peripátrica da especiação alopátrica clássica?",
+      "alternativas": {
+        "A": "A especiação peripátrica inicia-se quando uma pequena subpopulação isola-se na borda ou periferia da distribuição da população original, ficando fortemente sujeita à deriva genética e ao efeito fundador.",
+        "B": "A especiação peripátrica exige que a nova espécie seja composta unicamente por plantas aquáticas poliploides.",
+        "C": "Na especiação peripátrica, o isolamento reprodutivo ocorre sem nenhuma alteração nas frequências alélicas.",
+        "D": "A especiação peripátrica ocorre exclusivamente através de intervenção humana em animais de laboratório."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: o slide 28 especifica que a especiação peripátrica ocorre quando uma pequena fração populacional isola-se geograficamente na borda periférica do território da espécie ancestral; por ser um grupo pequeno, a nova população passa por intenso efeito fundador e rápida oscilação por deriva genética, acelerando a divergência em relação à população matriz.",
+        "B": "Incorreta: o modelo peripátrico é aplicável a animais, fungos e plantas, não se restringindo a poliploides aquáticas.",
+        "C": "Incorreta: a alteração das frequências alélicas pela deriva e novas pressões seletivas é o cerne da divergência peripátrica.",
+        "D": "Incorreta: trata-se de um modo de especiação natural em ecologia de populações."
+      },
+      "referencia": {
+        "paginas": [
+          28
+        ],
+        "fundamentacao": "Slide 28.",
+        "trechos_apoio": [
+          "Especiação Peripátrica: Ocorre quando uma pequena subpopulação se isola geograficamente da população original, geralmente na borda da sua distribuição. A nova população, devido ao seu tamanho reduzido, pode passar por uma rápida evolução devido a efeitos de deriva genética e seleção natural acelerada."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_06_q013",
+      "slide_id": "origem_vida_aula_06",
+      "slide_nome": "Aula 06 - Fatores da Evolução",
+      "arquivo_origem": "Aula 6 Fatores_Evolucao_260917_190742 (1).pdf",
+      "numero": 13,
+      "tema": "Especiação Parapátrica",
+      "subtema": "Gradientes Ecológicos e Zonas de Contato",
+      "enunciado": "Na especiação parapátrica, a separação de linhagens ocorre sem que exista uma barreira geográfica física estrita dividindo o território. De acordo com o material didático, qual condição ambiental e geográfica viabiliza a divergência nesse modelo?",
+      "alternativas": {
+        "A": "O transporte de ovos fossilizados por correntes oceânicas de milhares de quilômetros.",
+        "B": "A distribuição contínua da população ao longo de um gradiente ambiental de pressões seletivas distintas, onde populações adjacentes interagem em uma zona de contato (híbridos), mas divergem fenotipicamente em virtude de forte seleção local.",
+        "C": "A eliminação instantânea de todos os machos da população por toxinas bacterianas.",
+        "D": "O confinamento de uma população exclusivamente no interior do tubo digestivo de mamíferos carnívoros."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: fósseis não originam populações reprodutivas vivas contemporâneas.",
+        "B": "Correta: conforme o slide 29, a especiação parapátrica ocorre em territórios geograficamente contínuos expostos a variações ambientais graduais (gradientes); embora as populações vizinhas mantenham contato físico em uma zona híbrida estreita, a força da seleção natural diferencial nas extremidades do gradiente sobrepõe-se ao fluxo gênico limitado, consolidando a especiação.",
+        "C": "Incorreta: a especiação parapátrica envolve populações completas com reprodução biparental normal.",
+        "D": "Incorreta: parasitas intestinais podem ilustrar isolamento ecológico simpátrico, mas a definição geográfica clássica de parapátrica baseia-se em gradientes ambientais contíguos."
+      },
+      "referencia": {
+        "paginas": [
+          29
+        ],
+        "fundamentacao": "Slide 29.",
+        "trechos_apoio": [
+          "Especiação Parapátrica: Ocorre quando populações estão em áreas geograficamente adjacentes, mas não separadas por barreiras físicas. Há um gradiente ecológico que seleciona características diferentes em cada área, levando ao isolamento reprodutivo, embora possa haver contato entre as populações."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_06_q014",
+      "slide_id": "origem_vida_aula_06",
+      "slide_nome": "Aula 06 - Fatores da Evolução",
+      "arquivo_origem": "Aula 6 Fatores_Evolucao_260917_190742 (1).pdf",
+      "numero": 14,
+      "tema": "Estudo de Caso de Especiação Parapátrica",
+      "subtema": "A Grama Anthoxanthum odoratum",
+      "enunciado": "O slide 30 da aula apresenta um exemplo botânico clássico de especiação parapátrica envolvendo a espécie de grama Anthoxanthum odoratum. Nesse estudo de caso, como o gradiente ecológico induziu o isolamento reprodutivo entre subpopulações contíguas?",
+      "alternativas": {
+        "A": "Um grupo de plantas cresceu em solo contaminado por resíduos de mineração com metais pesados desenvolvendo tolerância e alterando sua época de floração, isolando-se reprodutivamente das plantas do solo não contaminado vizinho.",
+        "B": "As sementes foram levadas por aves marinhas para uma ilha vulcânica a 5.000 km de distância.",
+        "C": "As plantas do solo contaminado perderam totalmente as raízes e passaram a flutuar no ar atmosférico.",
+        "D": "As gramas do solo limpo tornaram-se insetos carnívoros para predar as gramas do solo poluído."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: o exemplo de Anthoxanthum odoratum documenta a divergência parapátrica em escala real: plantas adjacentes a minas desenvolveram tolerância fisiológica a metais pesados; associada a essa adaptação, ocorreu uma alteração na época de floração (assincronia fenológica), impedindo a polinização cruzada com as plantas vizinhas de solos limpos, estabelecendo barreira reprodutiva temporal/ecológica.",
+        "B": "Incorreta: dispersão a longa distância para ilhas remotas exemplifica especiação peripátrica ou alopátrica por efeito fundador.",
+        "C": "Incorreta: as plantas mantiveram sua estrutura radicular e adaptação vascular no solo.",
+        "D": "Incorreta: plantas vasculares não se transformam taxonomicamente em insetos artrópodes."
+      },
+      "referencia": {
+        "paginas": [
+          30
+        ],
+        "fundamentacao": "Slide 30.",
+        "trechos_apoio": [
+          "Exemplo de Especiação Parapátrica: Grama Anthoxanthum odoratum: Populações adjacentes em solos contaminados por metais pesados desenvolveram tolerância a esses metais e também mudaram a época de floração, reduzindo o fluxo gênico com as populações em solos não contaminados vizinhos."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_06_q015",
+      "slide_id": "origem_vida_aula_06",
+      "slide_nome": "Aula 06 - Fatores da Evolução",
+      "arquivo_origem": "Aula 6 Fatores_Evolucao_260917_190742 (1).pdf",
+      "numero": 15,
+      "tema": "Conceito Morfológico de Espécie",
+      "subtema": "Vantagens e Limitações",
+      "enunciado": "Além do conceito biológico, a taxonomia e a paleontologia utilizam amplamente o Conceito Morfológico de Espécie. De acordo com a aula, qual é o critério de classificação adotado por esse conceito e qual é sua fragilidade intrínseca?",
+      "alternativas": {
+        "A": "Classifica as espécies com base exclusivamente na análise do RNA ribossômico; a fragilidade é o custo elevado das enzimas de PCR.",
+        "B": "Classifica as espécies com base em semelhanças e diferenças físicas observáveis; a fragilidade decorre da subjetividade dos critérios anatômicos e da existência de variações fenotípicas intraespecíficas (dimorfismo sexual, plasticidade).",
+        "C": "Classifica as espécies unicamente pela velocidade de corrida dos indivíduos; a fragilidade é que plantas não correm.",
+        "D": "Exige que todos os membros de uma espécie tenham sido clonados em laboratório sem erros."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o uso de sequências moleculares pertence aos métodos de filogenia molecular e conceito filogenético, e não ao conceito morfológico clássico.",
+        "B": "Correta: o slide 21 pontua que o conceito morfológico agrupa organismos com base em traços anatômicos e morfológicos estruturais; sua principal limitação reside no fato de que critérios visuais são subjetivos e podem falhar diante de plasticidade fenotípica induzida pelo ambiente, dimorfismo sexual evidente ou espécies crípticas (morfologicamente idênticas, mas reprodutivamente isoladas).",
+        "C": "Incorreta: características fisiológicas ou comportamentais isoladas não definem o conceito morfológico geral.",
+        "D": "Incorreta: a taxonomia morfológica aplica-se a espécimes naturais e fósseis coletados em campo."
+      },
+      "referencia": {
+        "paginas": [
+          21
+        ],
+        "fundamentacao": "Slide 21.",
+        "trechos_apoio": [
+          "Conceito Morfológico de Espécie: Espécies são definidas com base em suas características físicas e anatômicas compartilhadas. Vantagens: Aplicável a fósseis e organismos assexuados. Limitações: Pode ser subjetivo; variações intraespecíficas (como dimorfismo sexual ou plasticidade fenotípica) podem levar a erros de classificação."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_06_q016",
+      "slide_id": "origem_vida_aula_06",
+      "slide_nome": "Aula 06 - Fatores da Evolução",
+      "arquivo_origem": "Aula 6 Fatores_Evolucao_260917_190742 (1).pdf",
+      "numero": 16,
+      "tema": "Conceito Filogenético de Espécie",
+      "subtema": "Monofiletismo e Cladística",
+      "enunciado": "O Conceito Filogenético de Espécie baseia-se na história evolutiva e em árvores filogenéticas. Qual é a definição formal adotada por esse conceito conforme descrita na apostila?",
+      "alternativas": {
+        "A": "Uma espécie é qualquer colônia de bactérias que viva dentro de um mesmo tubo de ensaio fechado.",
+        "B": "Uma espécie é o menor grupo monofilético de organismos que compartilham um ancestral comum exclusivo e que pode ser distinguido de outros grupos semelhantes.",
+        "C": "Uma espécie é o conjunto de animais que produzem híbridos estéreis quando acasalados em cativeiro.",
+        "D": "Uma espécie é um agrupamento fixo estabelecido pelo Conde de Buffon no século XVIII."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: colônias artificiais de cultura laboratorial não delimitam linhagens filogenéticas naturais.",
+        "B": "Correta: conforme o slide 22, no conceito filogenético a espécie é delimitada como o menor agrupamento diagnosticável monofilético que descende de um nó de ancestralidade comum compartilhada e apresenta padrão compartilhado de ancestralidade e descendência; possui como vantagem ser aplicável tanto a organismos fósseis quanto a linhagens assexuadas e sexuadas contemporâneas.",
+        "C": "Incorreta: a produção de descendência estéril é o critério de barreira pós-zigótica do conceito biológico, não a definição filogenética.",
+        "D": "Incorreta: a sistemática filogenética moderna desenvolveu-se com Willi Hennig no século XX, superando o fixismo do século XVIII."
+      },
+      "referencia": {
+        "paginas": [
+          22
+        ],
+        "fundamentacao": "Slide 22.",
+        "trechos_apoio": [
+          "Conceito Filogenético de Espécie: Uma espécie é o menor grupo monofilético de organismos que compartilham um ancestral comum e que pode ser distinguido de outros grupos semelhantes por características derivadas compartilhadas. Vantagens: Aplicável a fósseis e assexuados; reflete a história evolutiva."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_06_q017",
+      "slide_id": "origem_vida_aula_06",
+      "slide_nome": "Aula 06 - Fatores da Evolução",
+      "arquivo_origem": "Aula 6 Fatores_Evolucao_260917_190742 (1).pdf",
+      "numero": 17,
+      "tema": "Subespécies Biológicas",
+      "subtema": "O Exemplo dos Tigres (Panthera tigris)",
+      "enunciado": "Na biologia evolutiva de populações, uma subespécie (ou raça geográfica natural) representa uma etapa intermediária de diferenciação intraespecífica. O slide 32 analisa o caso clássico das subespécies de tigres pelo mundo. Por que o tigre-de-bengala, o tigre-siberiano e o tigre-de-sumatra são classificados como subespécies de uma mesma espécie (Panthera tigris)?",
+      "alternativas": {
+        "A": "Porque eles pertencem a reinos biológicos diferentes e não possuem DNA celular.",
+        "B": "Porque, apesar de viverem em áreas geográficas separadas e apresentarem adaptações morfológicas locais distintas (tamanho corporal, pelagem), continuam pertencendo à mesma espécie biológica e mantêm potencial de produzir descendentes férteis caso se cruzem.",
+        "C": "Porque todos os filhotes nascidos do cruzamento entre eles são invariavelmente estéreis como os mulos.",
+        "D": "Porque foram criados exclusivamente por seleção artificial em haras humanos no século XX."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: todos os tigres são mamíferos carnívoros eucariontes com o mesmo genoma básico da espécie Panthera tigris.",
+        "B": "Correta: as subespécies geográficas de tigres (Panthera tigris tigris, P. t. altaica, etc.) exibem diferenciações fenotípicas ecológicas moldadas pelo clima de suas regiões (ex.: tamanho e espessura da pelagem para suportar o frio siberiano); no entanto, não atingiram isolamento reprodutivo intrínseco, mantendo a capacidade genética de intercruzamento fértil.",
+        "C": "Incorreta: descendentes do cruzamento entre diferentes subespécies da mesma espécie são perfeitamente férteis e viáveis.",
+        "D": "Incorreta: trata-se de populações selvagens que divergiram na natureza através de processos ecológicos e geográficos naturais."
+      },
+      "referencia": {
+        "paginas": [
+          31,
+          32
+        ],
+        "fundamentacao": "Slides 31 e 32.",
+        "trechos_apoio": [
+          "Subespécie: Populações geograficamente distintas de uma mesma espécie que exibem diferenças morfológicas ou genéticas consistentes, mas ainda são capazes de intercruzar e produzir descendentes férteis se colocadas em contato. Exemplo: Subespécies de Tigres (Panthera tigris) — Tigre-de-bengala, Tigre-siberiano, Tigre-de-sumatra..."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_06_q018",
+      "slide_id": "origem_vida_aula_06",
+      "slide_nome": "Aula 06 - Fatores da Evolução",
+      "arquivo_origem": "Aula 6 Fatores_Evolucao_260917_190742 (1).pdf",
+      "numero": 18,
+      "tema": "Raças em Animais Domésticos",
+      "subtema": "A Ação da Seleção Artificial",
+      "enunciado": "O termo \"raça\" é comumente empregado na zootécnica e na medicina veterinária para descrever variedades de animais domésticos (cães, gatos, bovinos). Segundo o material didático, qual mecanismo originou essas raças e qual característica reprodutiva elas mantêm?",
+      "alternativas": {
+        "A": "Foram geradas por especiação alopátrica natural de milhões de anos e não conseguem mais cruzar entre si.",
+        "B": "Foram estabelecidas por seleção artificial conduzida pelo ser humano para fixar características de interesse morfológico ou funcional, mantendo todas o potencial reprodutivo e a mesma espécie biológica (Canis familiaris, no caso dos cães).",
+        "C": "Resultaram de mutações radioativas induzidas em cavernas vulcânicas pré-históricas.",
+        "D": "São espécies biológicas totalmente distintas pertencentes a famílias zoológicas diferentes."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: raças domésticas foram desenvolvidas em escala de tempo recente (milhares de anos) por intervenção humana, não por isolamento geográfico paleozoico.",
+        "B": "Correta: conforme o slide 33, raças de animais domésticos (como as raças de cães) representam linhagens diferenciadas artificialmente pelo manejo humano para traços específicos (pastoreio, guarda, estética); não houve isolamento reprodutivo biológico, de modo que todas continuam pertencendo à mesma espécie biológica (Canis lupus familiaris) e podem cruzar com sucesso.",
+        "C": "Incorreta: não há base científica para indução radioativa vulcânica em animais domésticos.",
+        "D": "Incorreta: todos os cães domésticos pertencem à mesma família (Canidae), mesmo gênero (Canis) e mesma espécie."
+      },
+      "referencia": {
+        "paginas": [
+          33
+        ],
+        "fundamentacao": "Slide 33.",
+        "trechos_apoio": [
+          "Raças em Animais Domésticos: Seleção artificial: Raças de cães, gatos e animais de criação foram desenvolvidas pelo ser humano por meio de reprodução seletiva para características desejadas. Mesma espécie: Todos os cães pertencem à mesma espécie (Canis lupus familiaris) e são capazes de cruzar entre si e produzir descendentes férteis."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_06_q019",
+      "slide_id": "origem_vida_aula_06",
+      "slide_nome": "Aula 06 - Fatores da Evolução",
+      "arquivo_origem": "Aula 6 Fatores_Evolucao_260917_190742 (1).pdf",
+      "numero": 19,
+      "tema": "Especiação vs. Raciação",
+      "subtema": "Conceitos e Desfechos Evolutivos",
+      "enunciado": "Ao confrontar os processos macroevolutivos e microevolutivos, a apostila estabelece a distinção conceitual entre especiação e raciação. Como esses dois fenômenos biológicos diferem em relação ao isolamento reprodutivo?",
+      "alternativas": {
+        "A": "A especiação produz linhagens que continuam cruzando livremente; a raciação culmina em esterilidade permanente.",
+        "B": "A especiação é o processo evolutivo que culmina na formação de novas espécies isoladas reprodutivamente; a raciação consiste na diferenciação intraespecífica em populações ou subespécies que mantêm a capacidade reprodutiva entre si.",
+        "C": "Ambos os termos são sinônimos exatos de clonagem bacteriana laboratorial.",
+        "D": "A raciação só ocorre em organismos assexuados fósseis que não possuem DNA cromossômico."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: inverte totalmente os desfechos; a especiação estabelece barreira reprodutiva irreversível, enquanto a raciação preserva o intercruzamento potencial.",
+        "B": "Correta: o slide 34 sistematiza a diferença: a especiação é a cladogênese propriamente dita, onde o isolamento reprodutivo consolida novas entidades biológicas independentes; a raciação corresponde à divergência morfológica ou geográfica interna de uma espécie existente (subespécies/raças), sem que ocorra a quebra definitiva do isolamento reprodutivo.",
+        "C": "Incorreta: são conceitos de evolução e sistemática populacional, e não processos de clonagem.",
+        "D": "Incorreta: a raciação ocorre em populações biológicas naturais de organismos sexuados e animais domésticos."
+      },
+      "referencia": {
+        "paginas": [
+          34
+        ],
+        "fundamentacao": "Slide 34.",
+        "trechos_apoio": [
+          "Especiação vs. Raciação: Especiação: Processo evolutivo que leva à formação de novas espécies biológicas, caracterizado pelo estabelecimento de barreiras reprodutivas que impedem o intercruzamento. Raciação: Diferenciação de populações dentro de uma mesma espécie em subespécies ou raças, com diferenças morfológicas ou genéticas, mas sem isolamento reprodutivo completo."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_06_q020",
+      "slide_id": "origem_vida_aula_06",
+      "slide_nome": "Aula 06 - Fatores da Evolução",
+      "arquivo_origem": "Aula 6 Fatores_Evolucao_260917_190742 (1).pdf",
+      "numero": 20,
+      "tema": "Genética Humana e Medicina",
+      "subtema": "A Variação Contínua na Espécie Humana",
+      "enunciado": "O encerramento da Aula 6 aborda a questão da diversidade biológica da espécie humana sob o olhar da genética de populações contemporânea. Qual é a conclusão científica apresentada sobre a aplicação do conceito de \"raças biológicas discretas\" à espécie humana (Homo sapiens)?",
+      "alternativas": {
+        "A": "A espécie humana divide-se rigorosamente em cinco subespécies zoológicas isoladas reprodutivamente em cada continente.",
+        "B": "A variação genética humana é predominantemente contínua e compartilhada (clinal), com a maior parte da diversidade existindo dentro das próprias populações locais, de modo que subdivisões raciais discretas não possuem validade taxonômica ou biológica.",
+        "C": "Não existe qualquer tipo de polimorfismo ou variação genética entre os seres humanos vivos hoje.",
+        "D": "Os seres humanos reproduzem-se exclusivamente por partenogênese mitocondrial desde o período Neolítico."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a tese de subespécies humanas isoladas foi completamente refutada pela genética de populações; todos os seres humanos pertencem à mesma subespécie (Homo sapiens sapiens).",
+        "B": "Correta: os slides finais da aula e o contexto biomédico evidenciam que a variação genética humana se distribui em gradientes contínuos (clinas) pelo globo, resultado de migrações e fluxo gênico constante; cerca de 85% a 90% da variabilidade total da espécie é encontrada dentro de qualquer população local, demonstrando que as categorias de \"raças discretas\" são construções sociais e históricas, sem respaldo taxonômico biológico.",
+        "C": "Incorreta: há ampla variabilidade genética individual (SNPs, grupos sanguíneos, suscetibilidade a fármacos), porém distribuída de forma contínua.",
+        "D": "Incorreta: a espécie humana possui reprodução sexuada biparental obrigatória."
+      },
+      "referencia": {
+        "paginas": [
+          35,
+          36
+        ],
+        "fundamentacao": "Slides 35 e 36.",
+        "trechos_apoio": [
+          "A diversidade na espécie humana: A variação genética entre os seres humanos é contínua e clínica, não discreta. A maior parte da variação genética total da nossa espécie ocorre dentro das populações locais, e não entre populações de continentes diferentes. Categorias de raça não correspondem a subdivisões biológicas válidas em Homo sapiens."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_06_q021",
+      "slide_id": "origem_vida_aula_06",
+      "slide_nome": "Aula 06 - Fatores da Evolução",
+      "arquivo_origem": "Aula 6 Fatores_Evolucao_260917_190742 (1).pdf",
+      "numero": 21,
+      "tema": "Mecanismos da Evolução",
+      "subtema": "Alvo Direto da Seleção Natural",
+      "enunciado": "O quiz formativo presente na apostila indaga sobre a entidade sobre a qual a seleção natural exerce sua ação direta no ecossistema. Segundo os conceitos trabalhados na aula, a seleção natural atua diretamente sobre:",
+      "alternativas": {
+        "A": "O RNA mensageiro transcrito no núcleo.",
+        "B": "Os fenótipos dos indivíduos.",
+        "C": "O fuso acromático durante a anáfase meiótica.",
+        "D": "As ligações fosfodiéster do DNA dos gametas."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o RNA mensageiro é um intermediário molecular intracelular; a seleção ecológica filtra as características observáveis e funcionais do organismo inteiro no meio.",
+        "B": "Correta: conforme registrado no quiz oficial da aula (Questão 3: \"A seleção natural atua diretamente sobre: b) Os fenótipos\"), o ambiente físico e biológico interage com a morfologia, fisiologia e comportamento expressos (fenótipo), determinando a sobrevivência diferencial e o sucesso reprodutivo que, por consequência indireta, alteram as frequências dos genótipos associados.",
+        "C": "Incorreta: o fuso acromático atua na segregação mecânica dos cromossomos, e não como alvo ecológico da seleção natural.",
+        "D": "Incorreta: a integridade das ligações fosfodiéster relaciona-se à estabilidade físico-química da molécula de DNA, não sendo o alvo direto da pressão seletiva sobre o organismo."
+      },
+      "referencia": {
+        "paginas": [
+          37,
+          41
+        ],
+        "fundamentacao": "Slides 37 e 41 (Questão 3 do Quiz).",
+        "trechos_apoio": [
+          "3. A seleção natural atua diretamente sobre: a) O DNA; b) Os fenótipos; c) O RNA mensageiro; d) Os gametas; e) A meiose. Gabarito 3.b) Os fenótipos"
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_06_q022",
+      "slide_id": "origem_vida_aula_06",
+      "slide_nome": "Aula 06 - Fatores da Evolução",
+      "arquivo_origem": "Aula 6 Fatores_Evolucao_260917_190742 (1).pdf",
+      "numero": 22,
+      "tema": "Seleção Sexual",
+      "subtema": "O Caso da Cauda do Pavão",
+      "enunciado": "No slide do quiz da aula, aborda-se uma modalidade particular de seleção que pode favorecer características extravagantes que não aumentam a sobrevivência perante predadores. Qual alternativa exemplifica a seleção sexual conforme destacado no material?",
+      "alternativas": {
+        "A": "A camuflagem de uma mariposa clara em troncos cobertos de liquens.",
+        "B": "Machos de pavão exibindo caudas compridas e chamativas para atrair fêmeas na época reprodutiva.",
+        "C": "O desenvolvimento de raízes profundas por plantas em solos áridos.",
+        "D": "A perda de folhas por árvores caducifólias durante o outono."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: camuflagem contra predadores é o exemplo clássico de seleção natural ecológica para sobrevivência.",
+        "B": "Correta: a Questão 5 do quiz da aula apresenta expressamente a exibição das caudas chamativas do pavão como seleção sexual, com o seguinte comentário: \"A seleção sexual está relacionada a características que aumentam a chance de sucesso reprodutivo, mesmo que não tragam vantagens adaptativas contra predadores\".",
+        "C": "Incorreta: raízes profundas são adaptações fisiológicas de sobrevivência ao estresse hídrico vegetal.",
+        "D": "Incorreta: a abscisão foliar no outono é uma resposta fenológica regulada por fitormônios para economia de água no inverno."
+      },
+      "referencia": {
+        "paginas": [
+          38,
+          41
+        ],
+        "fundamentacao": "Slides 38 e 41 (Questão 5 do Quiz).",
+        "trechos_apoio": [
+          "5. Qual alternativa representa um exemplo de seleção sexual? c) Machos de pavão exibindo caudas chamativas para atrair fêmeas. Comentário: A seleção sexual está relacionada a características que aumentam a chance de sucesso reprodutivo, mesmo que não tragam vantagens adaptativas contra predadores"
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_06_q023",
+      "slide_id": "origem_vida_aula_06",
+      "slide_nome": "Aula 06 - Fatores da Evolução",
+      "arquivo_origem": "Aula 6 Fatores_Evolucao_260917_190742 (1).pdf",
+      "numero": 23,
+      "tema": "Caracterização de Espécie",
+      "subtema": "As Três Unidades Integradas",
+      "enunciado": "No slide 20, a aula sintetiza a caracterização de uma espécie biológica sob três dimensões conceituais interdependentes: unidade reprodutiva, unidade ecológica e unidade gênica. A definição de unidade gênica consiste em:",
+      "alternativas": {
+        "A": "A capacidade de acasalar exclusivamente com indivíduos de outros filos taxonômicos.",
+        "B": "O compartilhamento de um patrimônio gênico característico e exclusivo, que não se mistura com o de outras espécies e evolui de maneira independente.",
+        "C": "O compartilhamento do mesmo endereço físico geográfico com predadores de topo.",
+        "D": "A obrigatoriedade de apresentar mutações letais em todos os cromossomos homólogos."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: indivíduos de espécies diferentes estão reprodutivamente isolados e não trocam genes entre filos distintos.",
+        "B": "Correta: o slide 20 define textualmente: \"UNIDADE GÊNICA – possui um patrimônio gênico característico, que não se mistura com o de outras espécies e evolui independentemente\".",
+        "C": "Incorreta: compartilhar endereço ecológico e relações tróficas com outras espécies refere-se à \"UNIDADE ECOLÓGICA\".",
+        "D": "Incorreta: mutações letais generalizadas inviabilizariam a sobrevivência da linhagem."
+      },
+      "referencia": {
+        "paginas": [
+          20
+        ],
+        "fundamentacao": "Slide 20.",
+        "trechos_apoio": [
+          "UNIDADE REPRODUTIVA – seus membros se cruzam entre si, mas não com os de outras espécies. UNIDADE ECOLÓGICA – apresentam características próprias e que mantêm relações bem definidas com o ambiente e com outras espécies. UNIDADE GÊNICA – possui um patrimônio gênico característico, que não se mistura com o de outras espécies e evolui independentemente"
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_06_q024",
+      "slide_id": "origem_vida_aula_06",
+      "slide_nome": "Aula 06 - Fatores da Evolução",
+      "arquivo_origem": "Aula 6 Fatores_Evolucao_260917_190742 (1).pdf",
+      "numero": 24,
+      "tema": "Especiação e Cladogênese",
+      "subtema": "A Natureza do Processo de Divisão de Linhagens",
+      "enunciado": "O material didático esclarece que a especiação é um fenômeno evolutivo dinâmico que normalmente ocorre por cladogênese. Como a especiação é conceituada em sua essência no slide 23?",
+      "alternativas": {
+        "A": "É o processo pelo qual uma espécie ancestral se divide para formar uma ou mais novas espécies, as quais se tornam reprodutivamente isoladas da espécie ancestral e entre si, cessando o fluxo gênico e acumulando diferenças genéticas.",
+        "B": "É o desaparecimento instantâneo de todos os indivíduos idosos de uma população após uma chuva ácida.",
+        "C": "É o processo exclusivo de domesticação de animais conduzido em haras por seleção artificial humana.",
+        "D": "É a transformação imediata de bactérias procarióticas em algas fotossintetizantes quando expostas à luz solar."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: o slide 23 conceitua que a especiação \"é o processo evolutivo que leva à formação de novas espécies a partir de espécies ancestrais, resultando na diversidade da vida na Terra. Esse processo ocorre quando populações se tornam reprodutivamente isoladas [...] impedindo o fluxo de genes [...] e evoluindo em linhagens distintas\".",
+        "B": "Incorreta: isso descreve um evento de mortalidade catastrófica ou gargalo, não a divisão e isolamento de novas espécies.",
+        "C": "Incorreta: domesticação seletiva cria raças em animais domésticos por seleção artificial, sem gerar isolamento reprodutivo completo.",
+        "D": "Incorreta: transições celulares profundas exigiram bilhões de anos de evolução endossimbiótica, não ocorrendo por exposição rápida à luz."
+      },
+      "referencia": {
+        "paginas": [
+          23
+        ],
+        "fundamentacao": "Slide 23.",
+        "trechos_apoio": [
+          "Especiação é o processo evolutivo que leva à formação de novas espécies a partir de espécies ancestrais, resultando na diversidade da vida na Terra. Esse processo ocorre quando populações se tornam reprodutivamente isoladas, ou seja, deixam de conseguir cruzar e gerar descendentes férteis entre si. O isolamento reprodutivo impede o fluxo de genes..."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_06_q025",
+      "slide_id": "origem_vida_aula_06",
+      "slide_nome": "Aula 06 - Fatores da Evolução",
+      "arquivo_origem": "Aula 6 Fatores_Evolucao_260917_190742 (1).pdf",
+      "numero": 25,
+      "tema": "Especiação",
+      "subtema": "Comparação dos Quatro Modos no Diagrama da Aula",
+      "enunciado": "O infográfico clássico do slide 24 compara o passo inicial e o desfecho geográfico dos quatro modos de especiação. Qual alternativa associa corretamente o modo de especiação ao seu passo inicial descrito no infográfico?",
+      "alternativas": {
+        "A": "Alopátrica: ocorre por formação de barreira física geográfica; Peripátrica: entrada de pequeno grupo em novo habitat isolado na periferia; Parapátrica: diferenciação em habitat adjacente contíguo ao longo de gradiente; Simpátrica: polimorfismo genético dentro da própria população original na mesma área.",
+        "B": "Simpátrica: separação por oceanos abertos; Alopátrica: acasalamento preferencial na mesma árvore.",
+        "C": "Parapátrica: clonagem assexuada em tubos de ensaio; Peripátrica: fissão binária espontânea.",
+        "D": "Alopátrica: ausência de qualquer barreira geográfica; Simpátrica: derivação exclusiva por catástrofes cósmicas."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: o quadro comparativo do slide 24 sintetiza exatamente essas correlações: Alopátrica (passo inicial: forma-se barreira); Peripátrica (passo inicial: pequena população entra em novo habitat isolado); Parapátrica (passo inicial: população entra em novo habitat adjacente contíguo); Simpátrica (passo inicial: mudança genética/polimorfismo dentro da população na mesma área).",
+        "B": "Incorreta: inverte totalmente as definições de alopátrica (com barreira) e simpátrica (sem barreira física).",
+        "C": "Incorreta: clonagem e fissão binária são processos de divisão assexuada, não os passos ecológicos do diagrama de especiação.",
+        "D": "Incorreta: a especiação alopátrica exige barreira física e a simpátrica não depende de impactos cósmicos."
+      },
+      "referencia": {
+        "paginas": [
+          24
+        ],
+        "fundamentacao": "Slide 24.",
+        "trechos_apoio": [
+          "Processos de especiação: Alopátrica (Forma-se barreira); Peripátrica (Entrada em novo habitat isolado); Parapátrica (Entrada em novo habitat adjacente); Simpátrica (Mudança genética dentro da população)"
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_06_q026",
+      "slide_id": "origem_vida_aula_06",
+      "slide_nome": "Aula 06 - Fatores da Evolução",
+      "arquivo_origem": "Aula 6 Fatores_Evolucao_260917_190742 (1).pdf",
+      "numero": 26,
+      "tema": "Especiação Alopátrica",
+      "subtema": "A Remoção da Barreira e o Teste de Espécie",
+      "enunciado": "Na descrição das etapas da especiação alopátrica (slide 26), aponta-se o momento crítico em que duas populações que divergiram durante o isolamento geográfico voltam a entrar em contato (simpatria secundária). O que confirma definitivamente que a especiação ocorreu e se completou?",
+      "alternativas": {
+        "A": "O restabelecimento imediato de cruzamento fértil total entre todos os indivíduos.",
+        "B": "A constatação de que, mesmo após a remoção da barreira física, os indivíduos das duas populações não conseguem mais cruzar entre si ou não geram descendentes férteis e viáveis.",
+        "C": "A perda instantânea da coloração da pele de ambas as populações.",
+        "D": "O retorno das frequências alélicas aos valores exatos da população de 10 milhões de anos atrás."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: se as populações cruzarem e gerarem descendentes férteis sem restrições, o fluxo gênico se restabelece, demonstrando que a especiação não ocorreu (eram apenas raças/subespécies).",
+        "B": "Correta: conforme a etapa 4 do slide 26: \"Ao longo de muitas gerações, essas diferenças podem se tornar tão grandes que os indivíduos das duas populações não conseguem mais se reproduzir e gerar descendência viável, mesmo que a barreira geográfica seja removida. Neste ponto, elas são consideradas espécies distintas\".",
+        "C": "Incorreta: a cor do tegumento é um traço fenotípico sujeito a variabilidade, não sendo indicador exclusivo do sucesso de isolamento.",
+        "D": "Incorreta: a evolução é irreversível e o pool gênico não retrocede aos valores ancestrais prévios."
+      },
+      "referencia": {
+        "paginas": [
+          26
+        ],
+        "fundamentacao": "Slide 26.",
+        "trechos_apoio": [
+          "4. Formação de Novas Espécies: Ao longo de muitas gerações, essas diferenças podem se tornar tão grandes que os indivíduos das duas populações não conseguem mais se reproduzir e gerar descendência viável, mesmo que a barreira geográfica seja removida. Neste ponto, elas são consideradas espécies distintas"
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_06_q027",
+      "slide_id": "origem_vida_aula_06",
+      "slide_nome": "Aula 06 - Fatores da Evolução",
+      "arquivo_origem": "Aula 6 Fatores_Evolucao_260917_190742 (1).pdf",
+      "numero": 27,
+      "tema": "Especiação Simpátrica",
+      "subtema": "Barreiras Ecológicas e Sexuais sem Barreira Física",
+      "enunciado": "O slide 27 detalha como subpopulações que compartilham a mesma área geográfica podem se isolar reprodutivamente e sofrer especiação simpátrica. Quais são os dois mecanismos citados textualmente na aula que impedem a reprodução entre indivíduos simpátricos?",
+      "alternativas": {
+        "A": "Isolamento por placas tectônicas e deriva continental.",
+        "B": "Isolamento ecológico (exploração de diferentes recursos/nichos) e isolamento sexual (preferências específicas de acasalamento).",
+        "C": "Extinção vulcânica e glaciação global permanente.",
+        "D": "Fusão nuclear dos gametas e congelamento de espermatozoides em fontes termais."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: barreiras tectônicas e continentais são barreiras físicas típicas do modelo alopátrico.",
+        "B": "Correta: o slide 27 afirma textualmente que a especiação simpátrica \"ocorre em uma mesma área geográfica, sem isolamento geográfico. Populações podem se tornar reprodutivamente isoladas devido a fatores como isolamento ecológico (exploração de diferentes recursos) ou isolamento sexual (preferências de acasalamento), impedindo a reprodução entre elas\".",
+        "C": "Incorreta: eventos climáticos catastróficos globais não constituem mecanismos intrínsecos de divergência simpátrica descritos no slide.",
+        "D": "Incorreta: fusão celular anômala ou congelamento térmico não são mecanismos de especiação simpátrica biológica."
+      },
+      "referencia": {
+        "paginas": [
+          27
+        ],
+        "fundamentacao": "Slide 27.",
+        "trechos_apoio": [
+          "Especiação Simpátrica: Ocorre em uma mesma área geográfica, sem isolamento geográfico. Populações podem se tornar reprodutivamente isoladas devido a fatores como isolamento ecológico (exploração de diferentes recursos) ou isolamento sexual (preferências de acasalamento), impedindo a reprodução entre elas"
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_06_q028",
+      "slide_id": "origem_vida_aula_06",
+      "slide_nome": "Aula 06 - Fatores da Evolução",
+      "arquivo_origem": "Aula 6 Fatores_Evolucao_260917_190742 (1).pdf",
+      "numero": 28,
+      "tema": "Conceitos de Espécie",
+      "subtema": "Complementaridade entre os Modelos",
+      "enunciado": "No slide 22, a apostila apresenta um quadro comparando as bases dos conceitos Biológico, Morfológico e Filogenético de espécie. Qual é a conclusão metodológica defendida pelo autor quanto ao uso desses conceitos na ciência moderna?",
+      "alternativas": {
+        "A": "O conceito morfológico deve ser completamente banido por ser antiquado, utilizando-se apenas o conceito biológico para todas as formas de vida, inclusive bactérias e fósseis.",
+        "B": "Esses conceitos não são mutuamente exclusivos e podem ser usados em conjunto de forma complementar para uma melhor compreensão dos limites das espécies, variando conforme a evidência empírica disponível e o grupo biológico estudado.",
+        "C": "As espécies biológicas só podem ser definidas a partir do ano de 2026, sendo inválidas as classificações anteriores.",
+        "D": "O conceito filogenético só tem utilidade para classificar raças de cães em exposições agropecuárias."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o próprio slide 22 enfatiza que o conceito biológico não se aplica a fósseis e organismos assexuados, situações em que o conceito morfológico e o filogenético são necessários.",
+        "B": "Correta: o slide 22 destaca literalmente sob o item Complementaridade: \"Esses conceitos não são mutuamente exclusivos e podem ser usados em conjunto para uma melhor compreensão dos limites das espécies, pois a definição de uma espécie pode variar dependendo do grupo de organismos e da evidência disponível\".",
+        "C": "Incorreta: a taxonomia e a sistemática filogenética operam com validade histórica acumulada desde Lineu, Darwin e Mayr.",
+        "D": "Incorreta: o conceito filogenético investiga clados evolutivos monofiléticos de espécies na árvore da vida, enquanto raças domésticas são mantidas artificialmente por registro genealógico zootécnico."
+      },
+      "referencia": {
+        "paginas": [
+          22
+        ],
+        "fundamentacao": "Slide 22.",
+        "trechos_apoio": [
+          "Complementaridade: Esses conceitos não são mutuamente exclusivos e podem ser usados em conjunto para uma melhor compreensão dos limites das espécies, pois a definição de uma espécie pode variar dependendo do grupo de organismos e da evidência disponível"
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_06_q029",
+      "slide_id": "origem_vida_aula_06",
+      "slide_nome": "Aula 06 - Fatores da Evolução",
+      "arquivo_origem": "Aula 6 Fatores_Evolucao_260917_190742 (1).pdf",
+      "numero": 29,
+      "tema": "Subespécies Naturais",
+      "subtema": "As Seis Subespécies de Tigres (Panthera tigris)",
+      "enunciado": "O slide 31 reúne as seis subespécies vivas ou documentadas de tigres no mundo (Panthera tigris sumatrae, P. t. tigris, P. t. jacksoni, P. t. altaica, P. t. amoyensis e P. t. corbetti). O que essas subespécies de tigres representam do ponto de vista biogeográfico e evolutivo?",
+      "alternativas": {
+        "A": "Representam seis espécies biológicas totalmente isoladas reprodutivamente que nunca compartilharam um ancestral comum.",
+        "B": "Representam populações geograficamente separadas de uma mesma espécie que desenvolveram características ligeiramente diferentes adaptadas aos seus habitats locais, mas que mantêm compatibilidade reprodutiva potencial.",
+        "C": "São animais híbridos estéreis gerados pelo cruzamento de leões com leopardos em zoológicos.",
+        "D": "São variedades clonais idênticas sem qualquer variação morfológica ou geográfica."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: elas pertencem todas à mesma espécie biológica (Panthera tigris); se colocadas em contato, podem cruzar e gerar descendentes férteis.",
+        "B": "Correta: o slide 31 conceitua subespécies como populações que \"representam populações de uma espécie que têm características ligeiramente diferentes e estão geograficamente separadas\", ilustrando com as variedades asiáticas de tigres que se adaptaram a diferentes biomas (da taiga siberiana às selvas de Sumatra) sem consolidar isolamento reprodutivo completo.",
+        "C": "Incorreta: são populações selvagens naturais de tigres, não híbridos artificiais intergêneros como ligres.",
+        "D": "Incorreta: exibem diferenças nítidas de tamanho, espessura da pelagem e tonalidade de listras."
+      },
+      "referencia": {
+        "paginas": [
+          31
+        ],
+        "fundamentacao": "Slide 31.",
+        "trechos_apoio": [
+          "Conceito de raça ou subespécie: Elas representam populações de uma espécie que têm características ligeiramente diferentes e estão geograficamente separadas. Por exemplo, tigres: Subespécies de Tigres do mundo — Tigre-de-sumatra, Tigre-de-bengala, Tigre-malaio, Tigre-siberiano, Tigre-do-sul-da-china, Tigre-da-indochina"
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_06_q030",
+      "slide_id": "origem_vida_aula_06",
+      "slide_nome": "Aula 06 - Fatores da Evolução",
+      "arquivo_origem": "Aula 6 Fatores_Evolucao_260917_190742 (1).pdf",
+      "numero": 30,
+      "tema": "Revisão Integrativa da Aula",
+      "subtema": "A Relação Correta entre Adaptação e Seleção",
+      "enunciado": "O quiz de encerramento da aula testa a compreensão final sobre o funcionamento da seleção natural em populações biológicas. Qual afirmação está estritamente correta acerca da seleção natural segundo o gabarito oficial da apostila?",
+      "alternativas": {
+        "A": "Atua de forma planejada para melhorar conscientemente os organismos vivos.",
+        "B": "Favorece indivíduos mais aptos em determinado ambiente, aumentando a probabilidade de transmitirem suas características às gerações futuras.",
+        "C": "Elimina todas as mutações prejudiciais imediatamente em uma única geração.",
+        "D": "Garante invariavelmente o aumento da complexidade anatômica e impede a extinção de qualquer espécie."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a seleção natural é um processo estritamente mecânico e não teleológico; não há planejamento prévio ou intenção na natureza.",
+        "B": "Correta: a Questão 10 do quiz da aula estabelece textualmente no gabarito oficial que a seleção natural \"Favorece indivíduos mais aptos em determinado ambiente\", atuando de forma não aleatória sobre as variações existentes para promover a adaptação ecológica relativa.",
+        "C": "Incorreta: mutações deletérias recessivas persistem ocultas em heterozigose no pool gênico e não são eliminadas instantaneamente em sua totalidade.",
+        "D": "Incorreta: a evolução não implica aumento obrigatório de complexidade (linhagens podem simplificar-se, como parasitas) e mais de 99% das espécies que já existiram na Terra foram extintas."
+      },
+      "referencia": {
+        "paginas": [
+          40,
+          41
+        ],
+        "fundamentacao": "Slides 40 e 41 (Questão 10 do Quiz).",
+        "trechos_apoio": [
+          "10. Qual afirmação está correta sobre a seleção natural? a) Atua de forma planejada para melhorar os organismos; b) Elimina todas as mutações prejudiciais imediatamente; c) Favorece indivíduos mais aptos em determinado ambiente; d) Garante sempre o aumento da complexidade das espécies; e) Impede a extinção de espécies. Gabarito 10.c) Favorece indivíduos mais aptos em determinado ambiente"
+        ]
+      }
+    }
+  ]
+}

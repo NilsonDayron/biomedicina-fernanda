@@ -1,0 +1,973 @@
+{
+  "questoes": [
+    {
+      "id": "origem_vida_aula_05_q001",
+      "slide_id": "origem_vida_aula_05",
+      "slide_nome": "Aula 05 - Evidências da Evolução",
+      "arquivo_origem": "Aula 5 Evidencias_da_Evolucao_260917_190804 (1).pdf",
+      "numero": 1,
+      "tema": "Epistemologia da Evidência Científica",
+      "subtema": "Parâmetros e Natureza da Evidência",
+      "enunciado": "Ao introduzir como a ciência estabelece conclusões robustas sobre a história da vida, o material didático esclarece o verdadeiro significado de uma \"evidência científica\" em biologia evolutiva. Conforme a aula, qual premissa epistemológica define corretamente uma evidência evolutiva?",
+      "alternativas": {
+        "A": "Uma evidência é uma prova isolada e irrefutável que independe de confrontação com outros dados empíricos.",
+        "B": "Uma evidência é um dado relevante cuja interpretação gera expectativas testáveis e cuja robustez decorre da coerência e convergência com outras observações independentes.",
+        "C": "Uma evidência científica só tem validade se comprovar que uma espécie fóssil é o ancestral direto e linear do ser humano moderno.",
+        "D": "Uma evidência consiste em deduções puramente filosóficas que dispensam observações em genes, fósseis ou populações reais."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o texto enfatiza literalmente que \"Evidência não é 'prova isolada': é um dado relevante cuja interpretação é testável e coerente com outras observações\".",
+        "B": "Correta: uma evidência em evolução reúne observação, predição, comparação, convergência e possibilidade de revisão; seu valor reside na capacidade de gerar expectativas testáveis compatíveis com múltiplos conjuntos independentes de dados.",
+        "C": "Incorreta: a paleontologia esclarece que um fóssil não precisa ser o ancestral direto de uma linhagem moderna para ser informativo sobre transições evolutivas.",
+        "D": "Incorreta: evidências evolutivas fundamentam-se em dados empíricos observáveis e mensuráveis obtidos de fósseis, anatomia, embriologia, biogeografia e genética molecular."
+      },
+      "referencia": {
+        "paginas": [
+          5,
+          6
+        ],
+        "fundamentacao": "Slides 5 e 6.",
+        "trechos_apoio": [
+          "Evidência não é 'prova isolada': é um dado relevante cuja interpretação é testável e coerente com outras observações. Uma conclusão científica robusta não depende de um único achado."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_05_q002",
+      "slide_id": "origem_vida_aula_05",
+      "slide_nome": "Aula 05 - Evidências da Evolução",
+      "arquivo_origem": "Aula 5 Evidencias_da_Evolucao_260917_190804 (1).pdf",
+      "numero": 2,
+      "tema": "Registro Fóssil e Estratigrafia",
+      "subtema": "Natureza e Interpretação do Registro Fóssil",
+      "enunciado": "O registro fóssil é uma das principais linhas de evidência da mudança biológica ao longo do tempo geológico. Em relação às características e limitações desse registro documentadas nas rochas, é correto afirmar que:",
+      "alternativas": {
+        "A": "O registro fóssil é absolutamente completo e preservou todas as espécies de animais e plantas que já habitaram a Terra.",
+        "B": "Apesar de ser incompleto por exigir condições físico-químicas específicas de fossilização, seu padrão temporal estratigráfico é altamente informativo, revelando grupos em sequências compatíveis com relações evolutivas.",
+        "C": "A posição dos fósseis nas camadas sedimentares é aleatória e desordenada, contradizendo as datas geológicas.",
+        "D": "Os fósseis revelam apenas espécies com exoesqueleto de ferro que viveram antes do surgimento da água líquida."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o registro fóssil é inerentemente incompleto, pois o processo de fossilização é raro e exige condições ambientais muito específicas de soterramento e mineralização.",
+        "B": "Correta: conforme a apostila, \"Mesmo incompleto, o padrão temporal é informativo: grupos aparecem em sequências compatíveis com relações evolutivas\", permitindo datar eventos e reconhecer aparecimentos, modificações e extinções de linhagens ao longo do tempo geológico.",
+        "C": "Incorreta: a sucessão faunística nos estratos rochosos segue um padrão temporal ordenado e correlacionável por métodos de datação radiométrica e estratigráfica.",
+        "D": "Incorreta: fósseis abrangem os mais diversos organismos (invertebrados, vertebrados, plantas, algas) e formaram-se amplamente em bacias sedimentares aquosas."
+      },
+      "referencia": {
+        "paginas": [
+          8
+        ],
+        "fundamentacao": "Slide 8.",
+        "trechos_apoio": [
+          "O registro é incompleto: fossilização exige condições específicas e nem todo organismo deixa vestígios. Mesmo incompleto, o padrão temporal é informativo: grupos aparecem em sequências compatíveis com relações evolutivas."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_05_q003",
+      "slide_id": "origem_vida_aula_05",
+      "slide_nome": "Aula 05 - Evidências da Evolução",
+      "arquivo_origem": "Aula 5 Evidencias_da_Evolucao_260917_190804 (1).pdf",
+      "numero": 3,
+      "tema": "Registro Fóssil",
+      "subtema": "Conceito de Fóssil Transicional e o Caso do Tiktaalik",
+      "enunciado": "Na paleontologia evolutiva, o conceito de \"fóssil transicional\" é frequentemente mal interpretado pelo público leigo. De acordo com a definição científica e o estudo de caso do Tiktaalik roseae (~375 Ma) apresentados no slide, um fóssil transicional caracteriza-se por:",
+      "alternativas": {
+        "A": "Ser uma quimera anatômica grosseira composta por metade exata de uma espécie moderna e metade exata de outra.",
+        "B": "Apresentar um mosaico de caracteres anatômicos primitivos e derivados, preenchendo previsões morfológicas sobre grandes transições entre linhagens (como peixes sarcopterígios e tetrápodes iniciais).",
+        "C": "Ser um organismo vivo atual que não acumulou nenhuma mutação em seu genoma há 375 milhões de anos.",
+        "D": "Ser o ancestral direto, linear e exclusivo de todas as aves terrestres modernas."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o texto destaca textualmente: \"Transição não significa 'metade de uma espécie e metade de outra'\".",
+        "B": "Correta: o Tiktaalik roseae exibe um mosaico de caracteres (combinação de traços de peixes sarcopterígios e tetrápodes primitivos, como nadadeiras com punho articulado sustentando o peso e respiração aérea associada), ilustrando como fósseis preenchem previsões filogenéticas de transição morfológica.",
+        "C": "Incorreta: o Tiktaalik é uma espécie extinta preservada em rochas do período Devoniano (~375 Ma), e não um animal vivo atual.",
+        "D": "Incorreta: o Tiktaalik exemplifica a transição da vida aquática para o ambiente terrestre em tetrápodes primitivos basais, e não a origem específica das aves."
+      },
+      "referencia": {
+        "paginas": [
+          9
+        ],
+        "fundamentacao": "Slide 9.",
+        "trechos_apoio": [
+          "Fósseis transicionais: mosaicos de características. Transição não significa 'metade de uma espécie e metade de outra'. Tiktaalik roseae (≈ 375 milhões de anos): Combinação de caracteres de peixes sarcopterígios e tetrápodes iniciais."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_05_q004",
+      "slide_id": "origem_vida_aula_05",
+      "slide_nome": "Aula 05 - Evidências da Evolução",
+      "arquivo_origem": "Aula 5 Evidencias_da_Evolucao_260917_190804 (1).pdf",
+      "numero": 4,
+      "tema": "Anatomia Comparada",
+      "subtema": "O Conceito de Homologia",
+      "enunciado": "A análise do esqueleto do membro anterior em diferentes mamíferos (humano, morcego, baleia e cavalo) revela o mesmo plano de organização óssea básica (úmero, rádio, ulna, carpos, metacarpos e falanges), adaptados a funções tão diversas quanto preensão, voo, natação e corrida. Essa semelhança arquitetural constitui um exemplo clássico de:",
+      "alternativas": {
+        "A": "Analogia.",
+        "B": "Homologia.",
+        "C": "Deriva genética balanceada.",
+        "D": "Poliploidia induzida."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: analogia refere-se a estruturas que exercem a mesma função em virtude de pressões ecológicas semelhantes (convergência adaptativa), mas que não possuem origem evolutiva compartilhada.",
+        "B": "Correta: estruturas homólogas compartilham a mesma origem embriológica e plano estrutural herdado de um ancestral comum, mesmo que tenham sofrido divergência adaptativa para executar diferentes funções nos adultos.",
+        "C": "Incorreta: deriva genética é um mecanismo populacional estocástico de flutuação de frequências alélicas, não um conceito de anatomia comparada.",
+        "D": "Incorreta: poliploidia é a duplicação de conjuntos cromossômicos completos comum em plantas, sem relação com a morfologia óssea de tetrápodes."
+      },
+      "referencia": {
+        "paginas": [
+          10,
+          12
+        ],
+        "fundamentacao": "Slides 10 e 12.",
+        "trechos_apoio": [
+          "Estruturas homólogas compartilham origem evolutiva, ainda que tenham sido modificadas para funções distintas. Ex.: membro anterior de humanos (preensão), morcegos (voo), baleias (natação) e cavalos (corrida)."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_05_q005",
+      "slide_id": "origem_vida_aula_05",
+      "slide_nome": "Aula 05 - Evidências da Evolução",
+      "arquivo_origem": "Aula 5 Evidencias_da_Evolucao_260917_190804 (1).pdf",
+      "numero": 5,
+      "tema": "Anatomia Comparada",
+      "subtema": "Analogia e o Perigo da Falsa Ancestralidade",
+      "enunciado": "O texto da aula adverte contra um erro comum na interpretação de relações evolutivas: associar parentesco genealógico unicamente pelo fato de duas estruturas exercerem a mesma função. A que processo biológico se deve a semelhança funcional entre as asas de aves e as asas de insetos?",
+      "alternativas": {
+        "A": "À herança de um ancestral alado exclusivo compartilhado diretamente entre aves e insetos.",
+        "B": "À evolução convergente (analogia), onde linhagens não aparentadas desenvolvem adaptações funcionais semelhantes em resposta a desafios mecânicos e ecológicos parecidos.",
+        "C": "À transmissão do DNA mitocondrial de insetos para os ovos de répteis fósseis.",
+        "D": "Ao uso e desuso contínuo que forçou ambos os grupos a criarem as mesmas proteínas musculares."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: insetos (artrópodes) e aves (vertebrados) divergiram em ancestrais desprovidos de asas; o voo surgiu de forma totalmente independente em cada linhagem.",
+        "B": "Correta: conforme a definição oficial da aula, estruturas análogas surgem de modo independente em linhagens distintas devido à evolução convergente; a função semelhante (o voo) atende a uma mesma demanda física, sem que as asas derivem da mesma estrutura anatômica ancestral.",
+        "C": "Incorreta: não ocorre transferência horizontal de organelas ou genomas mitocondriais inteiros entre classes de artrópodes e vertebrados para formação de asas.",
+        "D": "Incorreta: o uso e desuso foi uma hipótese formulada por Lamarck e refutada pela genética moderna, não sendo a explicação aceita pela biologia contemporânea."
+      },
+      "referencia": {
+        "paginas": [
+          12
+        ],
+        "fundamentacao": "Slide 12.",
+        "trechos_apoio": [
+          "Analogia: Função semelhante pode surgir independentemente em linhagens diferentes. Ex.: asas de aves e insetos como estruturas de voo não derivam da mesma asa ancestral. Erro comum: concluir parentesco apenas porque duas estruturas realizam a mesma função."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_05_q006",
+      "slide_id": "origem_vida_aula_05",
+      "slide_nome": "Aula 05 - Evidências da Evolução",
+      "arquivo_origem": "Aula 5 Evidencias_da_Evolucao_260917_190804 (1).pdf",
+      "numero": 6,
+      "tema": "Anatomia Comparada",
+      "subtema": "Estruturas Vestigiais e seus Significados",
+      "enunciado": "A presença de estruturas vestigiais em diferentes organismos constitui uma evidência anatômica marcante da evolução. Em relação a essas estruturas corporais herdadas, a apostila destaca que:",
+      "alternativas": {
+        "A": "Vestigial é sinônimo obrigatório de órgão 100% inútil e sem nenhuma função fisiológica residual ou secundária.",
+        "B": "Trata-se de uma estrutura herdada cuja função original foi significativamente reduzida ou modificada em relação àquela apresentada no ancestral da linhagem.",
+        "C": "São órgãos artificiais inseridos nas espécies exclusivamente por meio de biotecnologia humana moderna.",
+        "D": "São estruturas que se desintegram do corpo espontaneamente sempre que o indivíduo atinge a fase adulta."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o material didático alerta expressamente para o fato de que \"'Vestigial' não significa necessariamente inútil\"; uma estrutura pode reter papéis secundários imunológicos, mecânicos ou glandulares reduzidos.",
+        "B": "Correta: estruturas vestigiais são remanescentes anatômicos herdados de antepassados nos quais desempenhavam papéis mais proeminentes ou vitais, tendo sofrido regressão ou especialização funcional ao longo da divergência da linhagem.",
+        "C": "Incorreta: estruturas vestigiais são características anatômicas naturais desenvolvidas ao longo de milhões de anos de evolução biológica.",
+        "D": "Incorreta: estruturas vestigiais mantêm-se formadas e integradas ao plano anatômico do animal ao longo de toda a vida."
+      },
+      "referencia": {
+        "paginas": [
+          12
+        ],
+        "fundamentacao": "Slide 12.",
+        "trechos_apoio": [
+          "Vestigialidade: Estrutura herdada cuja função foi reduzida ou modificada em relação ao ancestral. 'Vestigial' não significa necessariamente inútil."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_05_q007",
+      "slide_id": "origem_vida_aula_05",
+      "slide_nome": "Aula 05 - Evidências da Evolução",
+      "arquivo_origem": "Aula 5 Evidencias_da_Evolucao_260917_190804 (1).pdf",
+      "numero": 7,
+      "tema": "Embriologia Comparada",
+      "subtema": "Desenvolvimento Ontogenético e Evo-Devo",
+      "enunciado": "O desenvolvimento embrionário comparado revela homologias morfológicas transitórias compartilhadas por diversos vertebrados (como os arcos faríngeos). Conforme pontuado na aula, como a embriologia moderna (Evo-Devo) analisa esses padrões sem recair no erro histórico do século XIX?",
+      "alternativas": {
+        "A": "Reafirma que a ontogenia recapitula estritamente a filogenia adulta passo a passo, como defendiam os desenhos antigos simplificados.",
+        "B": "Mostra que as semelhanças embrionárias decorrem do compartilhamento de genes e redes regulatórias conservadas herdadas de ancestrais comuns, abandonando a ideia simplista de que o embrião passa pela forma adulta de seus antepassados.",
+        "C": "Comprova que embriões humanos desenvolvem guelras de peixe adultas funcionais para respirar água no útero.",
+        "D": "Descarta a embriologia como evidência evolutiva por considerá-la incompatível com o sequenciamento de DNA."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a teoria da recapitulação estrita de Haeckel (\"a ontogenia recapitula a filogenia\") é considerada simplista e superada pela biologia contemporânea.",
+        "B": "Correta: a embriologia atual investiga genes regulatórios compartilhados (como os genes homeobox) e processos ontogenéticos reais; as estruturas embrionárias comuns (ex.: arcos faríngeos) revelam a ancestralidade compartilhada antes de assumirem destinos morfológicos distintos nos adultos de peixes, aves ou mamíferos.",
+        "C": "Incorreta: os arcos faríngeos em embriões humanos não formam fendas branquiais respiratórias adultas; diferenciam-se em estruturas da mandíbula, orelha média e glândulas cervicais.",
+        "D": "Incorreta: a genética do desenvolvimento (Evo-Devo) é perfeitamente integrada aos dados moleculares e ao registro fóssil."
+      },
+      "referencia": {
+        "paginas": [
+          13
+        ],
+        "fundamentacao": "Slide 13.",
+        "trechos_apoio": [
+          "A embriologia moderna compara processos, genes regulatórios e desenvolvimento real — não depende da ideia simplista de que 'a ontogenia recapitula a filogenia'. Desenhos clássicos de embriões foram frequentemente simplificados. A evidência atual vem de observação direta, imagem, genética do desenvolvimento e comparação entre espécies."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_05_q008",
+      "slide_id": "origem_vida_aula_05",
+      "slide_nome": "Aula 05 - Evidências da Evolução",
+      "arquivo_origem": "Aula 5 Evidencias_da_Evolucao_260917_190804 (1).pdf",
+      "numero": 8,
+      "tema": "Biogeografia Histórica",
+      "subtema": "Fósseis Gondwânicos e Tectônica de Placas",
+      "enunciado": "A biogeografia analisa a distribuição geográfica dos organismos no espaço. A presença de fósseis idênticos do réptil dulçaquícola Mesosaurus e da samambaia fóssil Glossopteris em estratos rochosos da América do Sul e da África é explicada cientificamente por:",
+      "alternativas": {
+        "A": "Natação ativa de répteis de água doce através do Oceano Atlântico aberto de milhares de quilômetros.",
+        "B": "Ancestralidade comum e continuidade geográfica pretérita, comprovando que esses continentes estavam unidos no supercontinente Gondwana antes da fragmentação pela tectônica de placas.",
+        "C": "Criação independente e simultânea das mesmas espécies em ecossistemas isolados por milhares de léguas de água salgada.",
+        "D": "Transporte exclusivo de sementes fósseis por cometas extraterrestres no período Triássico."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o Mesosaurus era um réptil costeiro/dulçaquícola de pequeno porte, fisiologicamente incapaz de cruzar a nado o oceano aberto salgado atual.",
+        "B": "Correta: a distribuição descontínua desses fósseis demonstra que a América do Sul e a África formavam uma massa continental contígua (Gondwana) no passado geológico; a separação posterior pela tectônica de placas explica por que encontramos as mesmas linhagens em continentes hoje distantes.",
+        "C": "Incorreta: a convergência biogeográfica de múltiplos grupos fósseis terrestres e dulçaquícolas refuta a hipótese de criações espontâneas idênticas isoladas.",
+        "D": "Incorreta: sementes de Glossopteris espalharam-se por via terrestre e eólica no clima permo-triássico dos continentes austrais conectados, e não por cometas."
+      },
+      "referencia": {
+        "paginas": [
+          14
+        ],
+        "fundamentacao": "Slide 14.",
+        "trechos_apoio": [
+          "Fósseis do réptil dulçaquícola Mesosaurus e fósseis de Glossopteris existentes em todos os continentes austrais. Barreiras geográficas e história tectônica ajudam a explicar endemismo e distribuição descontínua."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_05_q009",
+      "slide_id": "origem_vida_aula_05",
+      "slide_nome": "Aula 05 - Evidências da Evolução",
+      "arquivo_origem": "Aula 5 Evidencias_da_Evolucao_260917_190804 (1).pdf",
+      "numero": 9,
+      "tema": "Biogeografia e Radiação Adaptativa",
+      "subtema": "O Estudo dos Tentilhões de Galápagos",
+      "enunciado": "O estudo clássico dos tentilhões do arquipélago de Galápagos combina dados biogeográficos, anatômicos, ecológicos e genéticos. O padrão observado entre essas aves insulares é interpretado como:",
+      "alternativas": {
+        "A": "Uma única espécie continental que colonizou o arquipélago e, submetida a isolamento entre as diferentes ilhas e especialização ecológica alimentar (bicos para sementes duras, insetos, cactos), passou por radiação adaptativa originando múltiplas espécies aparentadas.",
+        "B": "Catorze espécies de aves totalmente distintas que migraram de continentes diferentes e convergiram milagrosamente para a mesma morfologia corporal básica.",
+        "C": "Aves aquáticas que se transformaram em morcegos voadores em resposta à temperatura das ilhas.",
+        "D": "Uma prova definitiva de que as espécies insulares não guardam relação filogenética com formas continentais vizinhas."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: os dados convergem para uma hipótese de ancestralidade comum compartilhada recente: uma população fundadora colonizou o arquipélago a partir da América do Sul continental; o isolamento geográfico entre ilhas e a seleção natural sobre diferentes nichos e recursos alimentares moldaram a morfologia dos bicos em um evento clássico de radiação adaptativa.",
+        "B": "Incorreta: análises moleculares e anatômicas mostram que todos os tentilhões de Galápagos formam um grupo monofilético aparentado que descende de um ancestral comum sul-americano recente.",
+        "C": "Incorreta: tentilhões são aves passeriformes e não deram origem a mamíferos quirópteros.",
+        "D": "Incorreta: a biogeografia de ilhas mostra justamente que a fauna de ilhas oceânicas é intimamente relacionada às formas do continente mais próximo."
+      },
+      "referencia": {
+        "paginas": [
+          14,
+          15
+        ],
+        "fundamentacao": "Slides 14 e 15.",
+        "trechos_apoio": [
+          "Padrão interpretativo: espécies próximas + isolamento entre ilhas + diferenças ecológicas + dados moleculares → hipótese de ancestralidade comum seguida de diversificação (bico robusto para sementes duras, bico fino para insetos, bico alongado para recursos específicos)."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_05_q010",
+      "slide_id": "origem_vida_aula_05",
+      "slide_nome": "Aula 05 - Evidências da Evolução",
+      "arquivo_origem": "Aula 5 Evidencias_da_Evolucao_260917_190804 (1).pdf",
+      "numero": 10,
+      "tema": "Evidências Moleculares",
+      "subtema": "Alinhamento de Sequências de DNA e Parentesco",
+      "enunciado": "Na biologia molecular comparada, o grau de parentesco evolutivo entre linhagens é aferido pelo alinhamento de sequências homólogas de DNA ou proteínas. Se duas espécies (A e B) compartilham um ancestral comum mais recente entre si do que com uma terceira espécie (C), o que é esperado encontrar no sequenciamento molecular?",
+      "alternativas": {
+        "A": "A e B devem apresentar maior número de diferenças e mutações divergentes em suas sequências de nucleotídeos em relação a C.",
+        "B": "A e B devem apresentar maior similaridade de sequência (menor número de posições divergentes) em genes e proteínas homólogas comparadas a C.",
+        "C": "A espécie C deve possuir código genético formado por bases inorgânicas sem adenina ou timina.",
+        "D": "As três espécies terão sequências 100% idênticas, uma vez que a seleção natural elimina todas as mutações no DNA."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: quanto mais tempo decorre desde a separação de um ancestral comum, mais mutações se acumulam; logo, espécies mais próximas têm menos divergências moleculares entre si.",
+        "B": "Correta: conforme o exemplo prático de alinhamento do slide 17 da aula, linhagens que compartilham ancestralidade recente tiveram menos tempo para acumular alterações neutras ou selecionadas, exibindo maior identidade e percentual de similaridade de nucleotídeos e aminoácidos.",
+        "C": "Incorreta: o código genético baseado nas bases púricas e pirimídicas universais (A, T, C, G) é compartilhado por todos os seres vivos na Terra.",
+        "D": "Incorreta: mutações ocorrem constantemente e acumulam-se em taxas mensuráveis ao longo do tempo geológico, gerando a variabilidade observável."
+      },
+      "referencia": {
+        "paginas": [
+          17
+        ],
+        "fundamentacao": "Slide 17.",
+        "trechos_apoio": [
+          "Evidências moleculares: DNA e proteínas. Se duas espécies compartilham ancestralidade recente, esperamos maior semelhança em sequências homólogas. Espécies que diferem em menos posições seriam consideradas mais próximas."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_05_q011",
+      "slide_id": "origem_vida_aula_05",
+      "slide_nome": "Aula 05 - Evidências da Evolução",
+      "arquivo_origem": "Aula 5 Evidencias_da_Evolucao_260917_190804 (1).pdf",
+      "numero": 11,
+      "tema": "Epistemologia da Evidência Científica",
+      "subtema": "Os Cinco Parâmetros Relevantes da Evidência",
+      "enunciado": "O material didático estrutura a investigação científica da evolução em torno de cinco parâmetros fundamentais para que uma conclusão seja robusta. Qual parâmetro é definido como a convergência de diferentes linhas de dados independentes apontando para a mesma história genealógica, aumentando o grau de confiança da comunidade científica?",
+      "alternativas": {
+        "A": "Predição.",
+        "B": "Convergência.",
+        "C": "Revisão.",
+        "D": "Observação."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o parâmetro da predição consiste no teste de expectativas geradas por hipóteses evolutivas confrontadas com dados empíricos.",
+        "B": "Correta: conforme o slide 5 da aula, a convergência ocorre quando \"linhas diferentes apontando para a mesma história aumentam a confiança\", demonstrando que a conclusão não se apoia em uma anomalia isolada.",
+        "C": "Incorreta: o parâmetro da revisão refere-se à propriedade de novos dados refinarem árvores filogenéticas, datas e hipóteses prévias.",
+        "D": "Incorreta: a observação corresponde à obtenção direta de dados brutos a partir de fósseis, anatomia, genes e ambientes."
+      },
+      "referencia": {
+        "paginas": [
+          5
+        ],
+        "fundamentacao": "Slide 5.",
+        "trechos_apoio": [
+          "4. Convergência: Linhas diferentes apontando para a mesma história aumentam a confiança. Evidência não é 'prova isolada': é um dado relevante cuja interpretação é testável e coerente com outras observações."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_05_q012",
+      "slide_id": "origem_vida_aula_05",
+      "slide_nome": "Aula 05 - Evidências da Evolução",
+      "arquivo_origem": "Aula 5 Evidencias_da_Evolucao_260917_190804 (1).pdf",
+      "numero": 12,
+      "tema": "Registro Fóssil",
+      "subtema": "A Interpretação Correta de Fósseis Transicionais",
+      "enunciado": "Ao analisar formas fósseis extintas sob a ótica da biologia evolutiva contemporânea, o texto apresenta uma orientação metodológica crucial para a interpretação correta de um fóssil transicional. Qual é essa diretriz?",
+      "alternativas": {
+        "A": "Um fóssil só possui relevância evolutiva se for comprovadamente o ancestral direto em linha reta da espécie humana.",
+        "B": "Um fóssil não precisa representar o ancestral direto de uma linhagem moderna; ele pode pertencer a uma linhagem colateral próxima e revelar uma combinação diagnóstica de caracteres em mosaico que elucida a transição morfológica.",
+        "C": "Fósseis que não contêm DNA viável intacto para clonagem devem ser totalmente descartados da filogenia.",
+        "D": "O fóssil transicional deve obrigatoriamente apresentar metade exata dos órgãos de peixe e metade exata dos órgãos de anfíbio adulto."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a paleontologia raramente postula que um exemplar específico seja o ancestral linear estrito; ele é posicionado filogeneticamente como ramo irmão ou colateral próximo.",
+        "B": "Correta: o slide 8 destaca explicitamente sob o tópico Leitura correta: \"Um fóssil não precisa ser 'o ancestral direto'. Ele pode representar uma linhagem próxima e revelar uma combinação de caracteres relevante para reconstruir transições\".",
+        "C": "Incorreta: a grande maioria dos fósseis do Paleozoico e Mesozoico está mineralizada e sem DNA, sendo perfeitamente estudada por anatomia comparada e estratigrafia.",
+        "D": "Incorreta: o texto rejeita enfaticamente a ideia simplista de que transição signifique \"metade de uma espécie e metade de outra\"."
+      },
+      "referencia": {
+        "paginas": [
+          8
+        ],
+        "fundamentacao": "Slide 8.",
+        "trechos_apoio": [
+          "Leitura correta: Um fóssil não precisa ser 'o ancestral direto'. Ele pode representar uma linhagem próxima e revelar uma combinação de caracteres relevante para reconstruir transições."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_05_q013",
+      "slide_id": "origem_vida_aula_05",
+      "slide_nome": "Aula 05 - Evidências da Evolução",
+      "arquivo_origem": "Aula 5 Evidencias_da_Evolucao_260917_190804 (1).pdf",
+      "numero": 13,
+      "tema": "Anatomia Comparada",
+      "subtema": "Divergência Morfológica do Membro Anterior de Tetrápodes",
+      "enunciado": "Na análise comparativa do membro anterior de vertebrados tetrápodes, observa-se que o mesmo conjunto esquelético primordial foi remodelado ao longo da história para finalidades locomotoras completamente distintas. Quais funções biomecânicas específicas são associadas, respectivamente, aos membros de humanos, morcegos, baleias e cavalos no material?",
+      "alternativas": {
+        "A": "Preensão, voo, natação e corrida.",
+        "B": "Escavação subterrânea, salto em altura, planar passivo e respiração cutânea.",
+        "C": "Natação, sucção de néctar, fixação séssil e preensão.",
+        "D": "Voo, mastigação trituradora, termorregulação e audição subaquática."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: o esquema do slide 10 correlaciona diretamente cada membro modificado à sua função: humano (preensão), morcego (voo), baleia (natação) e cavalo (corrida), todos compartilhando o mesmo plano osteológico homólogo básico.",
+        "B": "Incorreta: essas funções não correspondem à tetralogia de exemplos clássicos esquematizada na aula.",
+        "C": "Incorreta: membros anteriores de tetrápodes não desempenham funções sésseis ou de sucção alimentar direta.",
+        "D": "Incorreta: mastigação e audição dependem de ossos mandibulares e da orelha média/arcos faríngeos, e não do membro locomotor anterior."
+      },
+      "referencia": {
+        "paginas": [
+          10
+        ],
+        "fundamentacao": "Slide 10.",
+        "trechos_apoio": [
+          "Mesmo plano estrutural, funções diferentes: Humano (preensão), Morcego (voo), Baleia (natação), Cavalo (corrida). Estruturas homólogas compartilham origem evolutiva, ainda que tenham sido modificadas para funções distintas."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_05_q014",
+      "slide_id": "origem_vida_aula_05",
+      "slide_nome": "Aula 05 - Evidências da Evolução",
+      "arquivo_origem": "Aula 5 Evidencias_da_Evolucao_260917_190804 (1).pdf",
+      "numero": 14,
+      "tema": "Anatomia Comparada",
+      "subtema": "A Falácia da Semelhança Superficial",
+      "enunciado": "O material didático adverte que classificar o grau de parentesco biológico baseando-se unicamente na função ou aparência externa compartilhada induz a erros sistemáticos de interpretação. Qual fenômeno evolutivo é o principal responsável por produzir órgãos de funções semelhantes em linhagens sem parentesco recente direto?",
+      "alternativas": {
+        "A": "Homologia filogenética estrita.",
+        "B": "Evolução convergente (geradora de analogias).",
+        "C": "Deriva genética fixadora de pseudogenes.",
+        "D": "Simbiogênese autogênica de organelas nucleares."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a homologia reflete parentesco evolutivo por ancestralidade compartilhada, gerando estruturas do mesmo plano básico, e não analogias superficiais independentes.",
+        "B": "Correta: conforme o slide 12, \"A evolução convergente pode produzir semelhanças funcionais sem origem comum recente\"; ambientes ou pressões seletivas similares favorecem soluções morfológicas equivalentes (como o formato hidrodinâmico de tubarões e golfinhos ou asas de insetos e aves).",
+        "C": "Incorreta: a deriva genética atua sobre frequências alélicas ao acaso, não moldando convergências anatômicas complexas adaptadas ao meio.",
+        "D": "Incorreta: simbiogênese refere-se à origem endossimbiótica de mitocôndrias e cloroplastos."
+      },
+      "referencia": {
+        "paginas": [
+          12
+        ],
+        "fundamentacao": "Slide 12.",
+        "trechos_apoio": [
+          "Erro comum: concluir parentesco apenas porque duas estruturas realizam a mesma função. A evolução convergente pode produzir semelhanças funcionais sem origem comum recente."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_05_q015",
+      "slide_id": "origem_vida_aula_05",
+      "slide_nome": "Aula 05 - Evidências da Evolução",
+      "arquivo_origem": "Aula 5 Evidencias_da_Evolucao_260917_190804 (1).pdf",
+      "numero": 15,
+      "tema": "Embriologia Comparada",
+      "subtema": "O Destino Diferencial dos Arcos Faríngeos",
+      "enunciado": "Na embriologia comparada de vertebrados, diversas espécies exibem estruturas transitórias muito parecidas durante os estágios iniciais de desenvolvimento, a exemplo dos arcos faríngeos. Por que a persistência dessas estruturas no embrião é uma forte evidência evolutiva?",
+      "alternativas": {
+        "A": "Porque comprova que mamíferos adultos respiram por guelras no ar atmosférico.",
+        "B": "Porque evidencia a herança de programas genéticos de desenvolvimento herdados de um ancestral comum, os quais são posteriormente remodelados para dar origem a diferentes órgãos em peixes, anfíbios e mamíferos adultos.",
+        "C": "Porque demonstra que todos os embriões de vertebrados são gerados por clonagem assexuada.",
+        "D": "Porque impede a transcrição do DNA mitocondrial durante toda a gestação."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: mamíferos adultos utilizam pulmões alveolares para a respiração e não possuem brânquias funcionais.",
+        "B": "Correta: os arcos faríngeos surgem em todos os embriões de vertebrados como herança compartilhada de um ancestral comum; durante a organogênese, eles assumem destinos distintos: em peixes formam brânquias, enquanto em mamíferos originam estruturas da mandíbula, orelha média e glândulas cervicais (ex.: timo e paratireoides).",
+        "C": "Incorreta: vertebrados reproduzem-se sexuadamente com recombinação meiótica de gametas.",
+        "D": "Incorreta: a respiração celular mitocondrial e a transcrição ocorrem ativamente no desenvolvimento embrionário."
+      },
+      "referencia": {
+        "paginas": [
+          13
+        ],
+        "fundamentacao": "Slide 13.",
+        "trechos_apoio": [
+          "Semelhanças em etapas e estruturas embrionárias podem revelar homologias que ficam menos evidentes no adulto. Exemplo: arcos faríngeos e padrões iniciais de desenvolvimento aparecem em diferentes vertebrados, mas assumem destinos distintos."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_05_q016",
+      "slide_id": "origem_vida_aula_05",
+      "slide_nome": "Aula 05 - Evidências da Evolução",
+      "arquivo_origem": "Aula 5 Evidencias_da_Evolucao_260917_190804 (1).pdf",
+      "numero": 16,
+      "tema": "Biogeografia de Ilhas",
+      "subtema": "O Padrão Faunístico de Ilhas Oceânicas",
+      "enunciado": "Ao estudar a distribuição espacial da biodiversidade em ilhas oceânicas remotas, a biogeografia documenta um padrão sistemático que refuta a hipótese de criações estáticas e independentes. Esse padrão caracteriza-se pelo fato de que:",
+      "alternativas": {
+        "A": "As espécies insulares nativas são sempre idênticas às que habitam os polos e não guardam parentesco com terras vizinhas.",
+        "B": "As ilhas oceânicas tendem a apresentar espécies intimamente relacionadas às formas do continente mais próximo, exibindo modificações e endemismos resultantes de dispersão, isolamento e adaptação local.",
+        "C": "As ilhas oceânicas nunca possuem animais vertebrados ou plantas vasculares.",
+        "D": "A fauna das ilhas oceânicas resulta exclusivamente de gerações espontâneas anuais induzidas pela salinidade marítima."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a distribuição não é randômica ou polar; a fauna insular assemelha-se morfologicamente e geneticamente às formas da massa continental geograficamente adjacente.",
+        "B": "Correta: conforme detalhado no slide 14, espécies de ilhas oceânicas derivam de colonizadores vindos do continente mais próximo que, ao encontrarem novos nichos sob isolamento geográfico e ausência de fluxo gênico contínuo, diversificaram-se acumulando adaptações locais (endemismo).",
+        "C": "Incorreta: ilhas oceânicas abrigam rica biodiversidade de aves, répteis, insetos e flora adaptada.",
+        "D": "Incorreta: a geração espontânea é um mito refutado pela biogênese e pela biogeografia histórica."
+      },
+      "referencia": {
+        "paginas": [
+          14
+        ],
+        "fundamentacao": "Slide 14.",
+        "trechos_apoio": [
+          "Ilhas oceânicas tendem a apresentar espécies relacionadas às formas do continente mais próximo, porém modificadas. Barreiras geográficas e história tectônica ajudam a explicar endemismo e distribuição descontínua."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_05_q017",
+      "slide_id": "origem_vida_aula_05",
+      "slide_nome": "Aula 05 - Evidências da Evolução",
+      "arquivo_origem": "Aula 5 Evidencias_da_Evolucao_260917_190804 (1).pdf",
+      "numero": 17,
+      "tema": "Evidências Moleculares",
+      "subtema": "Definição e Papel dos Pseudogenes",
+      "enunciado": "Dentre os elementos que podem ser analisados molecularmente para investigar a história filogenética das espécies, o material destaca a relevância dos pseudogenes. O que caracteriza essas sequências genômicas e por que elas são úteis na determinação do parentesco?",
+      "alternativas": {
+        "A": "São genes artificiais sintetizados em laboratórios de clonagem terapêutica.",
+        "B": "São cópias defeituosas e inativas de genes que acumularam mutações incapacitantes, funcionando como marcas moleculares fósseis compartilhadas por linhagens que descendem do mesmo ancestral.",
+        "C": "São os únicos genes capazes de codificar a totalidade do ATP mitocondrial em bactérias.",
+        "D": "São fragmentos de RNA mensageiro que destroem os ribossomos da célula hospedeira."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: pseudogenes são elementos genômicos naturais resultantes de duplicações imperfeitas ou acúmulo de mutações ao longo da evolução.",
+        "B": "Correta: no slide 18, o texto conceitua pseudogenes como \"Marcas herdadas que podem revelar história compartilhada\"; por não estarem sob forte pressão seletiva direta para manter função proteica, mutações idênticas compartilhadas na mesma posição genômica em espécies distintas constituem evidência inequívoca de ancestralidade comum recente.",
+        "C": "Incorreta: pseudogenes não produzem proteínas funcionais e bactérias não possuem mitocôndrias.",
+        "D": "Incorreta: pseudogenes são sequências integradas ao DNA cromossômico, não sendo partículas líticas de RNA."
+      },
+      "referencia": {
+        "paginas": [
+          18
+        ],
+        "fundamentacao": "Slide 18.",
+        "trechos_apoio": [
+          "Pseudogenes: Marcas herdadas que podem revelar história compartilhada. O que pode ser comparado molecularmente? Sequências de DNA, Proteínas, Pseudogenes e Elementos genômicos."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_05_q018",
+      "slide_id": "origem_vida_aula_05",
+      "slide_nome": "Aula 05 - Evidências da Evolução",
+      "arquivo_origem": "Aula 5 Evidencias_da_Evolucao_260917_190804 (1).pdf",
+      "numero": 18,
+      "tema": "Genômica Comparada",
+      "subtema": "Definições de Gene e Genoma na Apostila",
+      "enunciado": "Para fundamentar as comparações moleculares, a aula define com clareza os conceitos de gene e de genoma. Segundo o texto didático, a distinção correta entre esses dois níveis de organização do material genético reside no fato de que:",
+      "alternativas": {
+        "A": "O gene compreende todo o DNA de um organismo (núcleo e mitocôndria), enquanto o genoma é apenas uma única trinca de nucleotídeos de RNA.",
+        "B": "O gene é a unidade básica e funcional da hereditariedade com ordem específica de nucleotídeos para produzir proteínas ou RNA regulador; o genoma é a soma de todas as instruções genéticas de um ser vivo, incluindo regiões reguladoras e DNA mitocondrial.",
+        "C": "O gene é exclusivo de bactérias procarióticas, ao passo que o genoma é encontrado unicamente em vertebrados tetrápodes.",
+        "D": "Genes contêm exclusivamente aminoácidos, enquanto o genoma é formado apenas por lipídios de membrana."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: inverte a escala; o genoma é o conjunto total e o gene é uma subdivisão funcional específica.",
+        "B": "Correta: as definições dos slides 18 e 19 especificam que o gene é a unidade funcional que orienta a fabricação de compostos essenciais (proteínas ou RNAs reguladores) alinhada nos cromossomos; o genoma é a totalidade das instruções codificadas, compreendendo genes, regiões reguladoras não codificantes e o DNA de organelas (como a mitocôndria).",
+        "C": "Incorreta: todos os seres celulares vivos possuem genes organizados em seus respectivos genomas.",
+        "D": "Incorreta: tanto genes quanto o genoma são constituídos quimicamente por ácidos nucleicos (cadeias de nucleotídeos de DNA), e não por proteínas ou lipídios puros."
+      },
+      "referencia": {
+        "paginas": [
+          18,
+          19
+        ],
+        "fundamentacao": "Slides 18 e 19.",
+        "trechos_apoio": [
+          "O Gene: É a unidade básica e funcional da hereditariedade. Possui ordem específica de nucleotídeos que orienta a fabricação de compostos essenciais [...]. Genoma: É a soma de todas as instruções hereditárias codificadas no material genético de um ser vivo. Vai muito além dos genes, incluindo porções de DNA que regulam quando e como esses genes devem funcionar."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_05_q019",
+      "slide_id": "origem_vida_aula_05",
+      "slide_nome": "Aula 05 - Evidências da Evolução",
+      "arquivo_origem": "Aula 5 Evidencias_da_Evolucao_260917_190804 (1).pdf",
+      "numero": 19,
+      "tema": "Evolução Observável",
+      "subtema": "A Dinâmica Populacional da Resistência Antimicrobiana",
+      "enunciado": "No estudo da evolução em tempo real aplicada à Saúde, a aula desconstrói o erro comum de pensar que o antibiótico ensina ou induz a bactéria a sofrer mutações de resistência. Qual é o mecanismo de ação biológico correto descrito no esquema de 5 etapas da aula?",
+      "alternativas": {
+        "A": "População bacteriana homogênea → Antibiótico induz transcrição de novos genes → Bactérias transformam-se em vírus.",
+        "B": "População prévia com variação → Aplicação do antibiótico → Sobrevivência diferencial (sensíveis morrem; resistentes persistem) → Reprodução das linhagens sobreviventes → Aumento da frequência de resistentes na população ao longo do tempo.",
+        "C": "O antibiótico altera quimicamente a parede celular de todas as bactérias, forçando-as a realizar meiose.",
+        "D": "As bactérias doam voluntariamente seu DNA para os leucócitos do sangue humano."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: antibióticos não direcionam mutações adaptativas e bactérias não se convertem em vírus.",
+        "B": "Correta: o esquema do slide 20 explicita as 5 etapas da seleção natural: 1. População com variação pré-existente; 2. Aplicação do agente seletivo (antibiótico); 3. Sobrevivência diferencial dos clones portadores da mutação; 4. Reprodução dos sobreviventes; 5. Aumento da frequência do alelo de resistência nas gerações seguintes.",
+        "C": "Incorreta: bactérias dividem-se assexuadamente por fissão binária simples e não realizam meiose.",
+        "D": "Incorreta: a transferência horizontal bacteriana ocorre entre bactérias (conjugação, transformação, transdução), não havendo doação aos leucócitos."
+      },
+      "referencia": {
+        "paginas": [
+          19,
+          20
+        ],
+        "fundamentacao": "Slides 19 e 20.",
+        "trechos_apoio": [
+          "Aplicação à Saúde: resistência bacteriana como evidência evolutiva. 1. População com variação → 2. Antibiótico → 3. Sobrevivência diferencial → 4. Reprodução → 5. Resistência mais frequente. O antibiótico não 'ensina' a bactéria a resistir."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_05_q020",
+      "slide_id": "origem_vida_aula_05",
+      "slide_nome": "Aula 05 - Evidências da Evolução",
+      "arquivo_origem": "Aula 5 Evidencias_da_Evolucao_260917_190804 (1).pdf",
+      "numero": 20,
+      "tema": "Reconstrução Filogenética",
+      "subtema": "O Significado dos Nós nas Árvores Evolutivas",
+      "enunciado": "As árvores filogenéticas são modelos gráficos que representam hipóteses sobre as relações de parentesco e ancestralidade das espécies. Ao interpretar o diagrama filogenético do slide 22, o que representam formalmente os nós (pontos de bifurcação) e qual critério define o grau de parentesco evolutivo?",
+      "alternativas": {
+        "A": "Os nós representam as espécies que estão no topo da perfeição evolutiva linear.",
+        "B": "Os nós representam ancestrais comuns hipotéticos compartilhados; o grau de parentesco é determinado pela proximidade temporal do ancestral compartilhado mais recente, e não pela simples proximidade visual das espécies nas pontas da árvore.",
+        "C": "Os nós representam momentos em que todas as espécies da Terra sofreram extinção simultânea sem deixar fósseis.",
+        "D": "A proximidade visual das pontas na horizontal é a única regra válida para afirmar quem descende de quem."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: filogenias não expressam escalas lineares de perfeição aristotélica, mas sim cladogênese e diversificação.",
+        "B": "Correta: a apostila reforça literalmente: \"Nós representam ancestrais comuns hipotéticos; proximidade visual na ponta não basta — o que importa é o ancestral compartilhado mais recente\".",
+        "C": "Incorreta: os nós marcam eventos de divergência evolutiva (especiação/cladogênese) de uma linhagem ancestral em ramos descendentes.",
+        "D": "Incorreta: a ordenação visual das pontas pode ser rotacionada nos eixos dos nós sem alterar as relações genealógicas reais do clado."
+      },
+      "referencia": {
+        "paginas": [
+          22
+        ],
+        "fundamentacao": "Slide 22.",
+        "trechos_apoio": [
+          "Das evidências à filogenia: Árvores são hipóteses sobre relações de parentesco. Nós representam ancestrais comuns hipotéticos; proximidade visual na ponta não basta — o que importa é o ancestral compartilhado mais recente."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_05_q021",
+      "slide_id": "origem_vida_aula_05",
+      "slide_nome": "Aula 05 - Evidências da Evolução",
+      "arquivo_origem": "Aula 5 Evidencias_da_Evolucao_260917_190804 (1).pdf",
+      "numero": 21,
+      "tema": "Epistemologia e Filosofia da Ciência",
+      "subtema": "A Força Probatória da Convergência de Evidências",
+      "enunciado": "O fechamento da aula destaca o esquema integrador no qual o modelo de evolução e ancestralidade comum não se apoia em um único dado isolado, mas na congruência mútua de diferentes áreas científicas. Quais são as grandes dimensões de análise destacadas na síntese final da apostila como linhas convergentes de sustentação da evolução?",
+      "alternativas": {
+        "A": "Alquimia medieval, teologia bíblica e astrologia estelar.",
+        "B": "Tempo (fósseis), Corpo (anatomia + embriologia), Espaço (biogeografia), Genoma (DNA + proteínas) e Presente (evolução observável em populações).",
+        "C": "Negação da física atômica, ausência de métodos estatísticos e fixismo estrito.",
+        "D": "Análise exclusiva de pegadas fósseis sem dados de anatomia comparada ou genética."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: astrologia, alquimia e teologia não constituem campos científicos de investigação empírica.",
+        "B": "Correta: no slide de síntese da aula (\"Síntese da aula: Evidências diferentes respondem a partes diferentes da mesma história\"), a robustez do modelo científico é esquematizada em 5 eixos convergentes: Tempo (fósseis), Corpo (anatomia e embriologia), Espaço (biogeografia), Genoma (DNA e proteínas) e Presente (mudança observável em populações).",
+        "C": "Incorreta: a biologia evolutiva integra princípios de física, geocronologia e modelos matemáticos de genética de populações.",
+        "D": "Incorreta: o princípio da convergência exige justamente a integração de múltiplas disciplinas independentes."
+      },
+      "referencia": {
+        "paginas": [
+          21,
+          26
+        ],
+        "fundamentacao": "Slides 21 e 26.",
+        "trechos_apoio": [
+          "TEMPO (Fósseis: O que mudou e quando?); CORPO (Anatomia + embriologia: Quais estruturas e processos são herdados?); ESPAÇO (Biogeografia: Como isolamento e distribuição revelam história?); GENOMA (DNA + proteínas: Quão próximas são as linhagens?); PRESENTE (Evolução observável: As frequências hereditárias mudam hoje?)"
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_05_q022",
+      "slide_id": "origem_vida_aula_05",
+      "slide_nome": "Aula 05 - Evidências da Evolução",
+      "arquivo_origem": "Aula 5 Evidencias_da_Evolucao_260917_190804 (1).pdf",
+      "numero": 22,
+      "tema": "Registro Fóssil",
+      "subtema": "Escala de Tempo e Sucessão Faunística",
+      "enunciado": "O diagrama cronológico da história da vida na Terra apresentado na aula ilustra o surgimento progressivo dos grandes grupos de organismos nos estratos geológicos. Qual sequência temporal de aparecimento nas rochas está em conformidade com as datas aproximadas documentadas na apostila?",
+      "alternativas": {
+        "A": "Mamíferos com placenta → Dinossauros gigantes → Primeiras bactérias fotossintetizantes → Origem da Terra.",
+        "B": "Origem da vida unicelular (~3,6 Ga) → Seres fotossintetizantes (~3,3 Ga) → Invertebrados com exoesqueleto (~570 Ma) → Anfíbios e répteis (~365 Ma) → Dinossauros (~230 Ma) → Extinção dos dinossauros (~65 Ma) e irradiação de mamíferos/flores.",
+        "C": "Aves modernas → Plantas com flores → Bactérias anaeróbias → Formação da Lua.",
+        "D": "Todos os grupos biológicos surgiram simultaneamente na mesma camada de rocha há 570 milhões de anos."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: inverte totalmente o tempo geológico, posicionando mamíferos antes de dinossauros e microrganismos.",
+        "B": "Correta: a linha do tempo do slide 7 detalha os marcos: Terra/Lua (~4,6 Ga), origem da vida unicelular (~3,6 Ga), fotossíntese (~3,3 Ga), invertebrados com exoesqueleto (~570 Ma), anfíbios e répteis (~365 Ma), dinossauros (~230 Ma), e extinção dos dinossauros com flores e aves (~65 Ma).",
+        "C": "Incorreta: plantas com flores e aves surgiram centenas de milhões de anos após os primeiros procariontes.",
+        "D": "Incorreta: o aparecimento das formas de vida no registro estratigráfico é sequencial e compatível com as árvores filogenéticas, e não súbito e unificado."
+      },
+      "referencia": {
+        "paginas": [
+          7
+        ],
+        "fundamentacao": "Slide 7.",
+        "trechos_apoio": [
+          "4.6 Bilhões de anos atrás (Terra e Lua); 3.6 Bilhões (Origem da vida/unicelulares); 3.3 Bilhões (fotossíntese); 570 Milhões (Invertebrados com exoesqueleto); 365 Milhões (Anfíbios/Répteis); 230 Milhões (Dinossauros); 65 Milhões (Extinção dos dinossauros, Aves, Mamíferos, Flores)"
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_05_q023",
+      "slide_id": "origem_vida_aula_05",
+      "slide_nome": "Aula 05 - Evidências da Evolução",
+      "arquivo_origem": "Aula 5 Evidencias_da_Evolucao_260917_190804 (1).pdf",
+      "numero": 23,
+      "tema": "Paleontologia Evolutiva",
+      "subtema": "Critérios de Validação de Fósseis Transicionais",
+      "enunciado": "Ao trabalhar com fósseis que documentam transições morfológicas (como o tetrápode basal Tiktaalik), os paleontólogos utilizam critérios rigorosos de análise filogenética. De acordo com a aula, como esses caracteres e a posição temporal do fóssil devem ser avaliados?",
+      "alternativas": {
+        "A": "Devem ser avaliados apenas pela aparência externa geral do esqueleto, dispensando a posição estratigráfica da rocha.",
+        "B": "Os caracteres transicionais devem ser avaliados em conjunto, e a idade geológica bem como a posição filogenética precisam ser compatíveis com a hipótese de transição.",
+        "C": "Exige-se que o fóssil esteja vivo em cativeiro para validação comportamental.",
+        "D": "O fóssil precisa comprovar que os tetrápodes surgiram antes dos primeiros organismos unicelulares procariontes."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a análise superficial é enganosa (pode refletir convergência); exige-se estudo anatômico detalhado em conjunto com o contexto geocronológico.",
+        "B": "Correta: conforme as diretrizes do slide 9: \"Caracteres transicionais são avaliados em conjunto, não por aparência superficial\"; além disso, \"A idade e a posição filogenética precisam ser compatíveis com a hipótese\".",
+        "C": "Incorreta: fósseis são vestígios e restos mineralizados de espécies extintas há milhões de anos.",
+        "D": "Incorreta: a transição para tetrápodes ocorreu no Devoniano (~375 Ma), muito tempo após a consolidação dos unicelulares (~3,6 Ga)."
+      },
+      "referencia": {
+        "paginas": [
+          9
+        ],
+        "fundamentacao": "Slide 9.",
+        "trechos_apoio": [
+          "Caracteres transicionais são avaliados em conjunto, não por aparência superficial. A idade e a posição filogenética precisam ser compatíveis com a hipótese. Novos fósseis podem alterar detalhes da árvore sem eliminar a ancestralidade comum."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_05_q024",
+      "slide_id": "origem_vida_aula_05",
+      "slide_nome": "Aula 05 - Evidências da Evolução",
+      "arquivo_origem": "Aula 5 Evidencias_da_Evolucao_260917_190804 (1).pdf",
+      "numero": 24,
+      "tema": "Anatomia Comparada",
+      "subtema": "O Conceito de Homologia Profunda e a Filogenia Universal",
+      "enunciado": "O material didático apresenta uma árvore filogenética universal demonstrando que as homologias anatômicas entre tetrápodes são desdobramentos de uma linhagem celular que remonta ao próprio LUCA (Last Universal Common Ancestor). Essa ancestralidade comum universal é comprovada molecularmente porque:",
+      "alternativas": {
+        "A": "Todos os domínios da vida (Bacteria, Archaea e Eukarya) utilizam exatamente o mesmo código genético fundamental e a mesma maquinaria de tradução proteica.",
+        "B": "Todos os organismos vivos apresentam esqueleto ósseo composto por cálcio e fósforo.",
+        "C": "As arqueas extremófilas possuem penas de aves adaptadas ao calor vulcânico.",
+        "D": "Os protozoários ciliados são idênticos em tamanho e fisiologia aos cavalos modernos."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: a conexão filogenética do LUCA com Bacteria, Archaea e Eukarya (esquematizada no slide 11) reflete a homologia molecular profunda mais fundamental: o compartilhamento universal do DNA, RNA, ATP e ribossomos homólogos em todos os seres vivos.",
+        "B": "Incorreta: esqueleto ósseo é uma inovação restrita aos vertebrados e ausente em plantas, fungos e bactérias.",
+        "C": "Incorreta: penas são especializações tegumentares de dinossauros terópodes e aves, não existindo em arqueas procarióticas.",
+        "D": "Incorreta: ciliados são organismos eucariontes unicelulares microscópicos, morfologicamente e ecologicamente distintos de mamíferos ungulados."
+      },
+      "referencia": {
+        "paginas": [
+          10,
+          11
+        ],
+        "fundamentacao": "Slides 10 e 11.",
+        "trechos_apoio": [
+          "Presumed common progenitor of all extant organisms (LUCA) / Presumed common progenitor of archaebacteria and eukaryotes. Estruturas homólogas compartilham origem evolutiva..."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_05_q025",
+      "slide_id": "origem_vida_aula_05",
+      "slide_nome": "Aula 05 - Evidências da Evolução",
+      "arquivo_origem": "Aula 5 Evidencias_da_Evolucao_260917_190804 (1).pdf",
+      "numero": 25,
+      "tema": "Anatomia Comparada",
+      "subtema": "Critérios Rigorosos para Diagnóstico de Vestigialidade",
+      "enunciado": "Ao abordar as estruturas vestigiais humanas (como o apêndice cecal ou o cóccix), o material desfaz equívocos populares sobre o termo. Segundo a definição formal da aula, qual é o critério que define uma estrutura anatômica como vestigial?",
+      "alternativas": {
+        "A": "A comprovação laboratorial de que o órgão causa toxicidade química imediata ao organismo hospedeiro.",
+        "B": "A constatação de que a estrutura foi herdada de um ancestral em que desempenhava uma função mais ampla, tendo sofrido redução ou modificação em sua magnitude funcional na linhagem atual.",
+        "C": "A ausência completa de vasos sanguíneos ou células vivas em seu interior.",
+        "D": "O desaparecimento da estrutura em todos os recém-nascidos do sexo masculino."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: estruturas vestigiais são componentes corporais normais e saudáveis, não sendo toxinas.",
+        "B": "Correta: o slide 12 define vestigialidade como \"Estrutura herdada cuja função foi reduzida ou modificada em relação ao ancestral\", enfatizando que \"Vestigial não significa necessariamente inútil\".",
+        "C": "Incorreta: estruturas vestigiais são vascularizadas e inervadas normalmente, mantendo viabilidade biológica tecidual.",
+        "D": "Incorreta: estruturas vestigiais mantêm-se em ambos os sexos ao longo do desenvolvimento."
+      },
+      "referencia": {
+        "paginas": [
+          12
+        ],
+        "fundamentacao": "Slide 12.",
+        "trechos_apoio": [
+          "Vestigialidade: Estrutura herdada cuja função foi reduzida ou modificada em relação ao ancestral. 'Vestigial' não significa necessariamente inútil."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_05_q026",
+      "slide_id": "origem_vida_aula_05",
+      "slide_nome": "Aula 05 - Evidências da Evolução",
+      "arquivo_origem": "Aula 5 Evidencias_da_Evolucao_260917_190804 (1).pdf",
+      "numero": 26,
+      "tema": "Embriologia Comparada",
+      "subtema": "O Cuidado Histórico com Desenhos Clássicos",
+      "enunciado": "O slide 13 adverte expressamente para um \"cuidado histórico\" no ensino da embriologia comparada ao mostrar os diagramas clássicos de embriões de vertebrados (como os desenhos de Ernst Haeckel). Qual é essa advertência epistemológica destacada pelo professor?",
+      "alternativas": {
+        "A": "Os desenhos clássicos foram frequentemente simplificados e idealizados para forçar a ideia de que o embrião passa pela fase adulta ancestral; a evidência moderna vem de observação direta, técnicas de imagem, genética do desenvolvimento e comparação molecular de processos reais.",
+        "B": "As imagens antigas comprovam que os embriões de mamíferos são peixes verdadeiros até o nono mês de gravidez.",
+        "C": "A embriologia foi banida da biologia contemporânea por não se apoiar em nenhum fóssil.",
+        "D": "O desenvolvimento dos vertebrados ocorre sem nenhuma intervenção de genes de regulação celular."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: a apostila reforça literalmente sob a seção Cuidado histórico: \"Desenhos clássicos de embriões foram frequentemente simplificados. A evidência atual vem de observação direta, imagem, genética do desenvolvimento e comparação entre espécies\", ressaltando que a ciência moderna não depende da recapitulação estrita do século XIX.",
+        "B": "Incorreta: embriões de mamíferos não se transformam em peixes adultos; eles compartilham apenas padrões de clivagem e arcos faríngeos transitórios.",
+        "C": "Incorreta: a embriologia e a genética do desenvolvimento (Evo-Devo) são pilares fundamentais da síntese evolutiva contemporânea.",
+        "D": "Incorreta: a morfogênese embrionária é estritamente orquestrada por cascatas de genes regulatórios e vias de sinalização conservadas."
+      },
+      "referencia": {
+        "paginas": [
+          13
+        ],
+        "fundamentacao": "Slide 13.",
+        "trechos_apoio": [
+          "Cuidado histórico: Desenhos clássicos de embriões foram frequentemente simplificados. A evidência atual vem de observação direta, imagem, genética do desenvolvimento e comparação entre espécies."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_05_q027",
+      "slide_id": "origem_vida_aula_05",
+      "slide_nome": "Aula 05 - Evidências da Evolução",
+      "arquivo_origem": "Aula 5 Evidencias_da_Evolucao_260917_190804 (1).pdf",
+      "numero": 27,
+      "tema": "Biogeografia Histórica",
+      "subtema": "Répteis Terrestres Gondwânicos e a Barreira dos Oceanos",
+      "enunciado": "O mapa paleogeográfico do slide 14 reúne evidências fósseis dos répteis terrestres Cynognathus e Lystrosaurus, encontrados na América do Sul, África, Índia e Antártica. Por que a presença desses répteis terrestres específicos é uma evidência mais contundente de conexão continental do que a presença de peixes marinhos pelágicos?",
+      "alternativas": {
+        "A": "Porque animais marinhos pelágicos podem nadar livremente pelos oceanos abertos do globo, enquanto répteis exclusivamente terrestres não tinham capacidade fisiológica de atravessar milhares de quilômetros de oceano salgado.",
+        "B": "Porque répteis terrestres fossilizam-se unicamente no vácuo espacial.",
+        "C": "Porque peixes marinhos não possuem ossos no esqueleto interno.",
+        "D": "Porque répteis terrestres foram domesticados por hominínios no período Triássico."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: peixes marinhos e mamíferos aquáticos pelágicos possuem dispersão oceânica facilitada; já répteis terrestres estritos (Cynognathus e Lystrosaurus) necessitavam de continuidade de terra firme para se deslocarem, tornando seus fósseis em massas continentais hoje separadas prova cabal de que esses blocos estavam unidos (continente Gondwana).",
+        "B": "Incorreta: processos tafonômicos de fossilização exigem sedimentação mineral aquosa ou terrestre na crosta da Terra.",
+        "C": "Incorreta: a vasta maioria dos peixes marinhos possui esqueleto ósseo calcificado ou cartilaginoso denso.",
+        "D": "Incorreta: hominínios surgiram há cerca de 7 milhões de anos, enquanto os répteis do Triássico viveram há mais de 200 milhões de anos."
+      },
+      "referencia": {
+        "paginas": [
+          14
+        ],
+        "fundamentacao": "Slide 14.",
+        "trechos_apoio": [
+          "Fósseis triássicos do réptil terrestre Lystrosaurus / Fósseis do réptil terrestre Cynognatus / Fósseis do réptil dulçaquícola Mesosaurus. Barreiras geográficas e história tectônica ajudam a explicar endemismo e distribuição descontínua."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_05_q028",
+      "slide_id": "origem_vida_aula_05",
+      "slide_nome": "Aula 05 - Evidências da Evolução",
+      "arquivo_origem": "Aula 5 Evidencias_da_Evolucao_260917_190804 (1).pdf",
+      "numero": 28,
+      "tema": "Evidências Moleculares",
+      "subtema": "Congruência e Elementos Genômicos Compartilhados",
+      "enunciado": "No slide 18, ao explorar o que pode ser comparado molecularmente entre espécies, o texto destaca sequências de DNA, proteínas, pseudogenes e elementos genômicos (como inserções compartilhadas). Qual é o argumento científico central que valida o uso desses marcadores para apoiar a filogenia?",
+      "alternativas": {
+        "A": "A força reside na congruência: árvores evolutivas obtidas de conjuntos de dados genômicos independentes recuperam padrões semelhantes de parentesco, corroborando as mesmas linhagens.",
+        "B": "Todos os elementos genômicos produzem hormônios sexuais no sangue do animal.",
+        "C": "Os pseudogenes eliminam a necessidade de cariótipo em diagnósticos laboratoriais de rotina.",
+        "D": "As inserções genômicas ocorrem unicamente por infecções ativas da bactéria E. coli."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: o texto enfatiza literalmente: \"A força está na congruência: árvores obtidas de diferentes conjuntos de dados frequentemente recuperam relações semelhantes, embora detalhes possam variar e ser revisados\"; marcas genômicas complexas (ex.: retrotransposons ou pseudogenes) compartilhadas no mesmo local de cromossomos homólogos são evidências fortes de ancestralidade comum compartilhada.",
+        "B": "Incorreta: elementos genômicos regulatórios e pseudogenes não sintetizam hormônios diretamente.",
+        "C": "Incorreta: o cariótipo continua sendo indispensável para avaliar alterações cromossômicas numéricas e grandes rearranjos estruturais.",
+        "D": "Incorreta: inserções genômicas podem derivar de duplicações, transposons endógenos e retrovírus ancestrais fixados ao longo de eras, não se limitando a E. coli."
+      },
+      "referencia": {
+        "paginas": [
+          18
+        ],
+        "fundamentacao": "Slide 18.",
+        "trechos_apoio": [
+          "A força está na congruência: árvores obtidas de diferentes conjuntos de dados frequentemente recuperam relações semelhantes, embora detalhes possam variar e ser revisados."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_05_q029",
+      "slide_id": "origem_vida_aula_05",
+      "slide_nome": "Aula 05 - Evidências da Evolução",
+      "arquivo_origem": "Aula 5 Evidencias_da_Evolucao_260917_190804 (1).pdf",
+      "numero": 29,
+      "tema": "Evolução Observável e Medicina",
+      "subtema": "A Escala Temporal da Evolução Populacional",
+      "enunciado": "Ao conceituar a evolução observável em populações contemporâneas (como resistência antimicrobiana e escape viral), o slide 19 enfatiza um cuidado conceitual para evitar erros lamarckistas. Qual é a premissa populacional destacada no texto?",
+      "alternativas": {
+        "A": "A evolução observável consiste na transformação anatômica ou fisiológica voluntária que um organismo individual desenvolve durante a sua própria vida.",
+        "B": "Evolução observável não significa que um indivíduo 'evolui' durante a sua vida; o foco é a mudança na frequência de variantes hereditárias na população ao longo das gerações.",
+        "C": "A evolução em tempo real só ocorre quando todos os membros da população morrem simultaneamente.",
+        "D": "A resistência bacteriana surge porque o antibiótico ensina a bactéria a duplicar sua membrana."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: mudanças somáticas durante a vida de um indivíduo são adaptações celulares ou aclimatizações, não evolução biológica.",
+        "B": "Correta: o texto destaca textualmente: \"Evolução observável não significa que um indivíduo 'evolui' durante a vida: o foco é a mudança hereditária na população ao longo das gerações\".",
+        "C": "Incorreta: a evolução exige sobrevivência diferencial e reprodução com transmissão de genes, e não extinção total sem descendentes.",
+        "D": "Incorreta: o antibiótico não ensina nem instrui a célula; atua como filtro de seleção sobre variantes preexistentes."
+      },
+      "referencia": {
+        "paginas": [
+          19,
+          20
+        ],
+        "fundamentacao": "Slides 19 e 20.",
+        "trechos_apoio": [
+          "Evolução observável não significa que um indivíduo 'evolui' durante a vida: o foco é a mudança hereditária na população ao longo das gerações. O antibiótico não 'ensina' a bactéria a resistir."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_05_q030",
+      "slide_id": "origem_vida_aula_05",
+      "slide_nome": "Aula 05 - Evidências da Evolução",
+      "arquivo_origem": "Aula 5 Evidencias_da_Evolucao_260917_190804 (1).pdf",
+      "numero": 30,
+      "tema": "Análise de Estudo de Caso da Aula",
+      "subtema": "As Três Espécies e a Força da Convergência",
+      "enunciado": "No estudo de caso do slide 23, analisam-se três espécies com dados integrados:",
+      "alternativas": {
+        "A": "A espécie A compartilha um ancestral comum mais recente com a espécie C, porque a distância geográfica é irrelevante para a evolução.",
+        "B": "As espécies A e B compartilham um ancestral comum mais recente entre si do que com C, conclusão sustentada de forma coerente e convergente pelas quatro linhas independentes (DNA, anatomia, biogeografia e estratigrafia fóssil).",
+        "C": "A similaridade de 98% de DNA entre A e B é uma coincidência matemática que deve ser descartada perante a biogeografia.",
+        "D": "As três espécies são idênticas e pertencem à mesma raça de bactérias."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a espécie C apresenta menor similaridade genética (91%), padrão ósseo divergente e estratos fósseis mais antigos, indicando separação temporal muito anterior.",
+        "B": "Correta: todas as quatro linhas apontam com congruência para a mesma hipótese genealógica: A e B têm parentesco mais próximo (maior identidade de DNA, anatomia correlata, vizinhança biogeográfica e fósseis recentes no tempo geológico).",
+        "C": "Incorreta: a biologia molecular é reforçada justamente pela concordância com os dados de campo e rochas.",
+        "D": "Incorreta: tratam-se de linhagens biológicas distintas comparadas no exercício prático de cladogênese da aula."
+      },
+      "referencia": {
+        "paginas": [
+          23,
+          24
+        ],
+        "fundamentacao": "Slides 23 e 24.",
+        "trechos_apoio": [
+          "Estudo de caso: três espécies e quatro linhas de evidência [...]. Qual par parece compartilhar ancestral comum mais recente? A e B. Por que a convergência entre os dados aumenta a confiança? Linhas independentes sustentando a mesma hipótese."
+        ]
+      }
+    }
+  ]
+}

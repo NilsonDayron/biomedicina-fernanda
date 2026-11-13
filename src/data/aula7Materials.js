@@ -4,6 +4,8 @@ import rawOrigemVidaAula01 from '../../origem_vida_aula_01.json' with { type: 'j
 import rawOrigemVidaAula02 from '../../origem_vida_aula_02.json' with { type: 'json' }
 import rawOrigemVidaAula03 from '../../origem_vida_aula_03.json' with { type: 'json' }
 import rawOrigemVidaAula04 from '../../origem_vida_aula_04.json' with { type: 'json' }
+import rawOrigemVidaAula05 from '../../origem_vida_aula_05.json' with { type: 'json' }
+import rawOrigemVidaAula06 from '../../origem_vida_aula_06.json' with { type: 'json' }
 import { QUESTIONS } from './questions'
 import { TOPICS } from './topics'
 
@@ -134,6 +136,28 @@ const JSON_MATERIAL_DEFINITIONS = [
     disciplineNome: 'Origem da Vida e Evolução Humana',
     blurb: 'Epistemologia científica, fixismo, transformismo de Lamarck, seleção natural (Darwin e Wallace), Síntese Moderna, evolução viral, resistência antimicrobiana e medicina evolutiva.',
     rawData: rawOrigemVidaAula04,
+    esperado: 30,
+  },
+  {
+    file: 'origem_vida_aula_05.json',
+    arquivoOrigem: 'Aula 5 Evidencias_da_Evolucao_260917_190804 (1).pdf',
+    slide_id: 'origem_vida_aula_05',
+    nome: 'Aula 05 - Evidências da Evolução',
+    disciplineId: 'origem-vida',
+    disciplineNome: 'Origem da Vida e Evolução Humana',
+    blurb: 'Registro fóssil e formas transicionais, anatomia comparada (homologia, analogia e estruturas vestigiais), embriologia e Evo-Devo, biogeografia e evidências moleculares.',
+    rawData: rawOrigemVidaAula05,
+    esperado: 30,
+  },
+  {
+    file: 'origem_vida_aula_06.json',
+    arquivoOrigem: 'Aula 6 Fatores_Evolucao_260917_190742 (1).pdf',
+    slide_id: 'origem_vida_aula_06',
+    nome: 'Aula 06 - Fatores da Evolução',
+    disciplineId: 'origem-vida',
+    disciplineNome: 'Origem da Vida e Evolução Humana',
+    blurb: 'Mutação e recombinação gênica, deriva genética (efeito gargalo e efeito fundador), fluxo gênico, seleção natural (direcional, estabilizadora e disruptiva), adaptação e especiação.',
+    rawData: rawOrigemVidaAula06,
     esperado: 30,
   },
 ]
