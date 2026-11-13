@@ -2,6 +2,8 @@ import rawDeterioracao from '../../aula_7_deterioracao.json' with { type: 'json'
 import rawConservacao from '../../aula_7_conservacao.json' with { type: 'json' }
 import rawOrigemVidaAula01 from '../../origem_vida_aula_01.json' with { type: 'json' }
 import rawOrigemVidaAula02 from '../../origem_vida_aula_02.json' with { type: 'json' }
+import rawOrigemVidaAula03 from '../../origem_vida_aula_03.json' with { type: 'json' }
+import rawOrigemVidaAula04 from '../../origem_vida_aula_04.json' with { type: 'json' }
 import { QUESTIONS } from './questions'
 import { TOPICS } from './topics'
 
@@ -111,6 +113,28 @@ const JSON_MATERIAL_DEFINITIONS = [
     blurb: 'Hipótese de Oparin-Haldane, experimento de Miller-Urey, protobiontes e coacervados, modelo autogênico e teoria endossimbiótica (Margulis), procariontes vs. eucariontes, adaptações celulares e evolução.',
     rawData: rawOrigemVidaAula02,
     esperado: 35,
+  },
+  {
+    file: 'origem_vida_aula_03.json',
+    arquivoOrigem: 'Aula 03 - Evolução da Célula 2_260910_160102 (1).pdf',
+    slide_id: 'origem_vida_aula_03',
+    nome: 'Aula 03 - Evolução da Célula 2',
+    disciplineId: 'origem-vida',
+    disciplineNome: 'Origem da Vida e Evolução Humana',
+    blurb: 'Protocélulas e confinamento molecular, Mundo de RNA e ribozimas, transição para o DNA, consolidação do LUCA, bifurcação Bacteria/Archaea e transição eucarionte.',
+    rawData: rawOrigemVidaAula03,
+    esperado: 30,
+  },
+  {
+    file: 'origem_vida_aula_04.json',
+    arquivoOrigem: 'Aula 04 - Teorias da Evolução _260910_160011 (1).pdf',
+    slide_id: 'origem_vida_aula_04',
+    nome: 'Aula 04 - Teorias da Evolução',
+    disciplineId: 'origem-vida',
+    disciplineNome: 'Origem da Vida e Evolução Humana',
+    blurb: 'Epistemologia científica, fixismo, transformismo de Lamarck, seleção natural (Darwin e Wallace), Síntese Moderna, evolução viral, resistência antimicrobiana e medicina evolutiva.',
+    rawData: rawOrigemVidaAula04,
+    esperado: 30,
   },
 ]
 

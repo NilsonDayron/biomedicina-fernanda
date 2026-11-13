@@ -1,0 +1,980 @@
+{
+  "questoes": [
+    {
+      "id": "origem_vida_aula_04_q001",
+      "slide_id": "origem_vida_aula_04",
+      "slide_nome": "Aula 04 - Teorias da Evolução",
+      "arquivo_origem": "Aula 04 - Teorias da Evolução _260910_160011 (1).pdf",
+      "numero": 1,
+      "tema": "Epistemologia e História da Ciência",
+      "subtema": "Fixismo e Concepções Pré-Evolutivas",
+      "enunciado": "Antes da consolidação das teorias evolutivas modernas no século XIX, o pensamento ocidental sobre a diversidade biológica era amplamente dominado pelo Fixismo. Qual premissa definia essa concepção sobre os seres vivos?",
+      "alternativas": {
+        "A": "As espécies biológicas foram criadas de forma perfeita e imutável, permanecendo inalteradas desde a sua origem.",
+        "B": "Os organismos vivos modificam suas estruturas somáticas ao longo da vida e transmitem essas alterações aos descendentes.",
+        "C": "As populações acumulam mutações aleatórias no DNA que são moldadas pela seleção natural ao longo de milênios.",
+        "D": "A vida originou-se a partir de microrganismos transportados à Terra no interior de meteoritos cósmicos."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: o Fixismo sustentava que cada espécie de ser vivo havia sido criada de maneira perfeita, estática e imutável, rejeitando a possibilidade de linhagens sofrerem transformações, especiações ou extinções ao longo do tempo.",
+        "B": "Incorreta: a modificação corporal pelo uso/desuso com transmissão aos descendentes é a base do Lamarckismo, que se contrapõe ao Fixismo.",
+        "C": "Incorreta: o acúmulo de mutações e a ação da seleção natural correspondem à Teoria Sintética da Evolução (Neodarwinismo).",
+        "D": "Incorreta: a hipótese de transporte de vida ou blocos orgânicos por meteoritos refere-se à Panspermia, não ao Fixismo."
+      },
+      "referencia": {
+        "paginas": [
+          3,
+          4
+        ],
+        "fundamentacao": "Páginas 3 e 4.",
+        "trechos_apoio": [
+          "Antes da evolução: O Fixismo defendia que as espécies eram imutáveis, perfeitas e criadas de forma independente, sem relações de parentesco ou transformação ao longo do tempo."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_04_q002",
+      "slide_id": "origem_vida_aula_04",
+      "slide_nome": "Aula 04 - Teorias da Evolução",
+      "arquivo_origem": "Aula 04 - Teorias da Evolução _260910_160011 (1).pdf",
+      "numero": 2,
+      "tema": "Epistemologia Científica",
+      "subtema": "Ciência, Hipóteses e Dogmas",
+      "enunciado": "O material didático destaca a importância de compreender a natureza do método científico ao estudar a evolução. Qual característica diferencia fundamentalmente uma teoria científica de uma crença ou dogma religioso?",
+      "alternativas": {
+        "A": "Uma teoria científica é imutável e não pode ser revisada ou confrontada com novos dados empíricos.",
+        "B": "Uma teoria científica baseia-se em hipóteses testáveis, falseáveis e sustentadas pela convergência de evidências observáveis na natureza.",
+        "C": "Uma teoria científica depende exclusivamente de autoridade hierárquica e revelações subjetivas de pesquisadores pioneiros.",
+        "D": "Uma teoria científica só é válida quando obtém unanimidade entre filósofos metafísicos."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a ciência é dinâmica e autorcorretiva; teorias podem ser refinadas, modificadas ou superadas à luz de novos fatos empíricos.",
+        "B": "Correta: na epistemologia descrita na aula, o conhecimento científico constrói-se mediante formulação de hipóteses que possam ser testadas, falseadas e corroboradas por múltiplas linhas independentes de evidências concretas.",
+        "C": "Incorreta: a ciência rejeita argumentos de pura autoridade dogmática, exigindo validação empírica e replicação metodológica.",
+        "D": "Incorreta: a validade científica advém do rigor experimental e da coerência das evidências com o mundo natural, e não de consensos metafísicos."
+      },
+      "referencia": {
+        "paginas": [
+          2,
+          5
+        ],
+        "fundamentacao": "Páginas 2 e 5.",
+        "trechos_apoio": [
+          "Ciência não trabalha com dogmas ou verdades absolutas: teorias científicas são estruturas explicativas fundamentadas em evidências convergentes, hipóteses testáveis e abertas a refutação empírica."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_04_q003",
+      "slide_id": "origem_vida_aula_04",
+      "slide_nome": "Aula 04 - Teorias da Evolução",
+      "arquivo_origem": "Aula 04 - Teorias da Evolução _260910_160011 (1).pdf",
+      "numero": 3,
+      "tema": "Lamarckismo",
+      "subtema": "A Lei do Uso e Desuso",
+      "enunciado": "Jean-Baptiste de Lamarck foi um dos primeiros naturalistas a propor uma teoria abrangente de evolução biológica. O postulado lamarckista conhecido como \"Lei do Uso e Desuso\" propunha que:",
+      "alternativas": {
+        "A": "As mutações genéticas ocorrem espontaneamente no núcleo antes do nascimento do animal.",
+        "B": "Órgãos e membros frequentemente utilizados e estimulados pelo organismo desenvolvem-se e hipertrofiam-se, enquanto aqueles que caem em desuso atrofiam-se gradualmente.",
+        "C": "O meio ambiente seleciona aleatoriamente os indivíduos mais aptos por meio de competição e predação.",
+        "D": "Todas as características anatômicas são herdadas na proporção matemática de três dominantes para um recessivo."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: Lamarck não conhecia mutações genéticas nem a estrutura do DNA, situando sua teoria no nível fisiológico individual.",
+        "B": "Correta: a primeira lei de Lamarck defendia que o uso constante de um determinado órgão ou parte corporal provocava seu desenvolvimento e aumento de tamanho, ao passo que a falta de uso prolongada acarretava sua redução ou desaparecimento.",
+        "C": "Incorreta: a atuação do ambiente selecionando indivíduos com variações favoráveis pré-existentes é o núcleo da seleção natural de Darwin, e não do Lamarckismo.",
+        "D": "Incorreta: as proporções de 3:1 de dominância e recessividade pertencem às Leis de Herança de Gregor Mendel, formuladas posteriormente."
+      },
+      "referencia": {
+        "paginas": [
+          7
+        ],
+        "fundamentacao": "Página 7.",
+        "trechos_apoio": [
+          "Lamarckismo: 1ª Lei - Uso e Desuso: O uso frequente e sustentado de um órgão fortalece-o, desenvolve-o e aumenta-o, enquanto o desuso constante enfraquece-o, deteriora-o e o faz desaparecer."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_04_q004",
+      "slide_id": "origem_vida_aula_04",
+      "slide_nome": "Aula 04 - Teorias da Evolução",
+      "arquivo_origem": "Aula 04 - Teorias da Evolução _260910_160011 (1).pdf",
+      "numero": 4,
+      "tema": "Lamarckismo",
+      "subtema": "A Lei da Herança dos Caracteres Adquiridos e sua Refutação",
+      "enunciado": "A segunda lei proposta por Lamarck estabelecia que as modificações anatômicas obtidas durante a vida pelo uso ou desuso eram transmitidas à prole. A genética e a biologia moderna refutaram esse postulado porque comprovaram que:",
+      "alternativas": {
+        "A": "Modificações fenotípicas adquiridas em tecidos somáticos não alteram a sequência de bases do DNA das células germinativas (óvulos e espermatozoides).",
+        "B": "Os animais não utilizam seus membros corporais para buscar alimentos na natureza.",
+        "C": "As mitocôndrias consomem todo o RNA mensageiro antes que ele chegue aos gametas.",
+        "D": "O ambiente exerce sempre um papel teleológico direcionando a vontade consciente do animal."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: a biologia molecular demonstrou a separação entre linhagem somática e linhagem germinativa; alterações morfológicas sofridas pelo corpo durante a vida (ex.: aumento muscular ou perda acidental de membro) não se incorporam ao genoma dos gametas, sendo portanto não transmissíveis à descendência.",
+        "B": "Incorreta: animais utilizam ativamente seus membros na busca de sobrevivência; o erro está em achar que o esforço somático modifica os genes herdáveis.",
+        "C": "Incorreta: a não transmissão de caracteres adquiridos independe de consumo de RNA por mitocôndrias.",
+        "D": "Incorreta: a seleção natural e a genética mostram que a evolução não é teleológica (não possui propósito final) nem orientada pela \"vontade\" consciente da espécie."
+      },
+      "referencia": {
+        "paginas": [
+          8
+        ],
+        "fundamentacao": "Página 8.",
+        "trechos_apoio": [
+          "Refutação da Herança de Caracteres Adquiridos: A biologia moderna mostrou que alterações somáticas não alteram o código genético das células germinativas, não sendo herdadas pela prole."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_04_q005",
+      "slide_id": "origem_vida_aula_04",
+      "slide_nome": "Aula 04 - Teorias da Evolução",
+      "arquivo_origem": "Aula 04 - Teorias da Evolução _260910_160011 (1).pdf",
+      "numero": 5,
+      "tema": "Fundamentos do Darwinismo",
+      "subtema": "A Influência de Thomas Malthus",
+      "enunciado": "Durante a elaboração de sua teoria evolutiva, Charles Darwin foi fortemente influenciado pela leitura do ensaio demográfico de Thomas Malthus. Qual ideia central de Malthus inspirou a dedução da \"luta pela sobrevivência\" em populações naturais?",
+      "alternativas": {
+        "A": "As espécies biológicas mantêm sempre sua população constante através de controle reprodutivo consciente.",
+        "B": "A capacidade de reprodução e crescimento populacional supera em muito a disponibilidade de recursos alimentares no meio, gerando competição necessária pela sobrevivência.",
+        "C": "As plantas produzem oxigênio ilimitado, extinguindo qualquer escassez de recursos na biosfera.",
+        "D": "Os predadores alimentam-se unicamente de animais velhos e estéreis para preservar o equilíbrio cósmico."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: populações naturais não praticam controle reprodutivo consciente; o potencial reprodutivo biológico é geometricamente expansivo.",
+        "B": "Correta: Malthus apontava que as populações tendem a crescer em progressão geométrica, enquanto a produção de alimentos cresce em progressão aritmética; Darwin aplicou essa lógica à natureza, concluindo que o nascimento de mais indivíduos do que o ambiente pode sustentar acarreta competição inevitável por alimento, abrigo e parceiros reprodutivos.",
+        "C": "Incorreta: recursos materiais e energéticos são finitos e limitam a capacidade de suporte dos ecossistemas.",
+        "D": "Incorreta: predação é uma interação ecológica natural que afeta indivíduos em função de sua vulnerabilidade física ou comportamental, sem finalidade harmônica pré-concebida."
+      },
+      "referencia": {
+        "paginas": [
+          10
+        ],
+        "fundamentacao": "Página 10.",
+        "trechos_apoio": [
+          "Influência de Malthus: O crescimento exponencial de uma população versus o crescimento limitado de recursos impõe uma luta constante pela existência entre os indivíduos."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_04_q006",
+      "slide_id": "origem_vida_aula_04",
+      "slide_nome": "Aula 04 - Teorias da Evolução",
+      "arquivo_origem": "Aula 04 - Teorias da Evolução _260910_160011 (1).pdf",
+      "numero": 6,
+      "tema": "O Mecanismo da Seleção Natural",
+      "subtema": "Variação Pré-Existente e Sucesso Reprodutivo",
+      "enunciado": "O cerne da teoria de Charles Darwin e Alfred Russel Wallace reside na Seleção Natural. Segundo essa teoria, como ocorre a adaptação de uma espécie a um determinado ambiente ao longo das gerações?",
+      "alternativas": {
+        "A": "O meio ambiente induz ativamente os indivíduos a desenvolverem órgãos específicos para atender às suas necessidades imediatas.",
+        "B": "Em uma população existem variações individuais pré-existentes; indivíduos com características mais favoráveis ao ambiente sobrevivem e deixam mais descendentes, aumentando a frequência desses traços na população ao longo do tempo.",
+        "C": "Todos os indivíduos de uma espécie são clonais e idênticos, não havendo diferenças morfológicas ou fisiológicas entre eles.",
+        "D": "A seleção natural atua eliminando todos os indivíduos jovens para favorecer apenas os mais velhos."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o ambiente não induz ativamente a modificação dirigida do indivíduo (essa é a visão de Lamarck); na visão darwiniana, o ambiente atua como um filtro seletivo sobre a variação já existente.",
+        "B": "Correta: o mecanismo darwinista pressupõe a existência de diversidade fenotípica prévia na população; aqueles portadores de variações vantajosas para as condições ambientais prevalentes têm maior taxa de sobrevivência e reprodução diferencial (maior aptidão evolutiva), transmitindo seus traços com mais frequência às próximas gerações.",
+        "C": "Incorreta: a variabilidade intraespecífica é a matéria-prima básica sem a qual a seleção natural não pode operar.",
+        "D": "Incorreta: a seleção atua sobre a sobrevivência e reprodução em qualquer estágio do ciclo de vida, favorecendo aqueles mais aptos ecologicamente."
+      },
+      "referencia": {
+        "paginas": [
+          11,
+          12
+        ],
+        "fundamentacao": "Páginas 11 e 12.",
+        "trechos_apoio": [
+          "Seleção Natural (Darwin e Wallace): 1. Variabilidade intraespecífica existe na população; 2. O ambiente atua selecionando os indivíduos portadores de variações mais vantajosas; 3. Esses indivíduos deixam maior número de descendentes (reprodução diferencial)."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_04_q007",
+      "slide_id": "origem_vida_aula_04",
+      "slide_nome": "Aula 04 - Teorias da Evolução",
+      "arquivo_origem": "Aula 04 - Teorias da Evolução _260910_160011 (1).pdf",
+      "numero": 7,
+      "tema": "Comparação entre Teorias",
+      "subtema": "O Caso do Pescoço das Girafas: Lamarck vs. Darwin",
+      "enunciado": "O exemplo clássico da evolução do pescoço comprido das girafas ilustra com clareza o contraste entre as propostas de Lamarck e de Darwin. De acordo com o modelo de Darwin, as girafas atuais têm pescoço longo porque:",
+      "alternativas": {
+        "A": "Girafas ancestrais esticavam continuamente o pescoço para alcançar folhas altas e passaram o pescoço esticado aos filhos.",
+        "B": "Já existiam girafas ancestrais com pescoços de diferentes comprimentos na população; em épocas de escassez alimentar baixa, as de pescoço mais longo conseguiam se alimentar melhor no alto das árvores, sobreviveram e reproduziram-se com maior sucesso.",
+        "C": "O solo africano continha toxinas químicas que alongavam as vértebras cervicais de todas as fêmeas gestantes.",
+        "D": "As girafas decidiram coletivamente alterar seu padrão anatômico para se diferenciar dos antílopes."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a explicação baseada no esforço contínuo e esticamento do órgão que é herdado pelos filhotes reflete a lógica de Lamarck.",
+        "B": "Correta: Darwin explica o fenômeno por variação pré-existente e seleção natural: havia heterogeneidade populacional no tamanho do pescoço; quando os recursos alimentares rasteiros escasseavam, indivíduos com pescoço ligeiramente mais longo tinham vantagem competitiva para forragear nas copas, deixando mais descendentes férteis portadores dessa característica.",
+        "C": "Incorreta: a hipótese de modificação anatômica universal induzida diretamente por toxinas do solo não tem respaldo biológico nem reflete o modelo darwinista.",
+        "D": "Incorreta: a evolução não decorre de decisões voluntárias conscientes das espécies animais."
+      },
+      "referencia": {
+        "paginas": [
+          13
+        ],
+        "fundamentacao": "Página 13.",
+        "trechos_apoio": [
+          "O pescoço das girafas: Para Lamarck, o esforço contínuo de esticar o pescoço causou seu alongamento e transmissão à prole. Para Darwin, havia variabilidade no comprimento do pescoço; as mais altas tinham vantagem alimentar na escassez, sobrevivendo e gerando mais descendentes."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_04_q008",
+      "slide_id": "origem_vida_aula_04",
+      "slide_nome": "Aula 04 - Teorias da Evolução",
+      "arquivo_origem": "Aula 04 - Teorias da Evolução _260910_160011 (1).pdf",
+      "numero": 8,
+      "tema": "Limitações do Darwinismo Clássico",
+      "subtema": "A Lacuna Teórica de 1859",
+      "enunciado": "Embora tenha revolucionado as ciências biológicas com a publicação de A Origem das Espécies em 1859, Charles Darwin admitiu que sua teoria original deixava uma lacuna crucial sem explicação definitiva. Qual era essa principal dúvida não respondida por Darwin na época?",
+      "alternativas": {
+        "A": "A comprovação de que as espécies realmente mudavam ao longo do tempo.",
+        "B": "A comprovação de que a Terra era antiga o suficiente para a evolução ter ocorrido.",
+        "C": "A explicação dos mecanismos moleculares e genéticos que originavam a variação entre os indivíduos e de como essas variações eram herdadas.",
+        "D": "A existência de fósseis de animais marinhos incrustados em rochas continentais."
+      },
+      "gabarito": "C",
+      "explicacoes": {
+        "A": "Incorreta: Darwin apresentou vasto corpo de evidências biogeográficas, anatômicas e ecológicas comprovando que as linhagens se transformavam.",
+        "B": "Incorreta: os princípios da geologia moderna de Charles Lyell já demonstravam que a Terra possuía milhões de anos de idade, tempo suficiente para a seleção atuar.",
+        "C": "Correta: como os trabalhos genéticos de Mendel ainda eram desconhecidos pela comunidade científica e a estrutura do DNA só seria desvendada no século XX, Darwin não conseguiu explicar como surgiam originariamente as novas variações individuais nem o mecanismo físico exato de sua transmissão hereditária.",
+        "D": "Incorreta: a presença de fósseis marinhos em montanhas era um fato empírico amplamente observado por Darwin e usado a favor do dinamismo da Terra."
+      },
+      "referencia": {
+        "paginas": [
+          14
+        ],
+        "fundamentacao": "Página 14.",
+        "trechos_apoio": [
+          "O que Darwin não conseguiu explicar: A origem da variabilidade e o mecanismo de herança. Darwin sabia que existiam variações entre os indivíduos, mas não conhecia a genética, os genes e as mutações."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_04_q009",
+      "slide_id": "origem_vida_aula_04",
+      "slide_nome": "Aula 04 - Teorias da Evolução",
+      "arquivo_origem": "Aula 04 - Teorias da Evolução _260910_160011 (1).pdf",
+      "numero": 9,
+      "tema": "A Teoria Sintética da Evolução",
+      "subtema": "O Neodarwinismo e a Fusão com a Genética",
+      "enunciado": "Em meados do século XX, cientistas integraram a teoria da seleção natural de Darwin com as leis da hereditariedade de Mendel e a genética de populações, formulando a Teoria Sintética da Evolução (Neodarwinismo). De acordo com essa síntese moderna, a fonte primária geradora de nova variabilidade genética em uma população é a:",
+      "alternativas": {
+        "A": "Seleção natural direcional.",
+        "B": "Deriva genética por efeito gargalo.",
+        "C": "Mutação gênica.",
+        "D": "Migração e fluxo gênico."
+      },
+      "gabarito": "C",
+      "explicacoes": {
+        "A": "Incorreta: a seleção natural atua filtrando e moldando as frequências dos alelos já existentes, não criando alelos inéditos diretamente.",
+        "B": "Incorreta: a deriva genética altera aleatoriamente as frequências alélicas por acaso, especialmente em populações pequenas, mas não gera novos genes.",
+        "C": "Correta: na Teoria Sintética, a mutação gênica é a única força evolutiva primária capaz de criar novos alelos e sequências de DNA inéditas; os demais fatores (recombinação, seleção, deriva e migração) atuam organizando, distribuindo ou selecionando a variação originada pela mutação.",
+        "D": "Incorreta: o fluxo gênico introduz alelos existentes de uma população em outra através de imigrantes, mas não cria novos alelos a partir do zero."
+      },
+      "referencia": {
+        "paginas": [
+          15,
+          16
+        ],
+        "fundamentacao": "Páginas 15 e 16.",
+        "trechos_apoio": [
+          "Teoria Sintética da Evolução (Neodarwinismo): A mutação gênica é a fonte primária de variabilidade genética, gerando novos alelos que serão combinados pela meiose e selecionados pelo ambiente."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_04_q010",
+      "slide_id": "origem_vida_aula_04",
+      "slide_nome": "Aula 04 - Teorias da Evolução",
+      "arquivo_origem": "Aula 04 - Teorias da Evolução _260910_160011 (1).pdf",
+      "numero": 10,
+      "tema": "Aplicação Biomédica da Evolução",
+      "subtema": "A Resistência Bacteriana a Antibióticos",
+      "enunciado": "O surgimento de linhagens de bactérias multirresistentes a antibióticos em ambiente hospitalar constitui um dos exemplos mais contundentes de seleção natural atuando em tempo real. Sob a ótica neodarwinista, como se explica o aparecimento dessas \"superbactérias\"?",
+      "alternativas": {
+        "A": "O antibiótico induz diretamente nas bactérias a necessidade de mutar seus ribossomos para sobreviver.",
+        "B": "As bactérias aprendem a reconhecer a droga e decidem coletivamente parar de se reproduzir na presença do remédio.",
+        "C": "Mutações espontâneas e pré-existentes na população bacteriana já conferiam resistência a alguns raros indivíduos; o uso indiscriminado do antibiótico elimina as cepas sensíveis e seleciona as linhagens resistentes, que sobrevivem e proliferam.",
+        "D": "O antibiótico transforma bactérias gram-positivas em células eucarióticas providas de carioteca protetora."
+      },
+      "gabarito": "C",
+      "explicacoes": {
+        "A": "Incorreta: antibióticos não induzem mutações vantajosas direcionadas; as mutações ocorrem espontaneamente e ao acaso antes do contato com a droga.",
+        "B": "Incorreta: bactérias não possuem sistema nervoso, volição ou processos cognitivos de aprendizagem coletiva.",
+        "C": "Correta: em uma colônia bacteriana de bilhões de indivíduos, mutações aleatórias podem gerar alelos de resistência (ex.: alteração do sítio de ligação do fármaco); o antibiótico funciona como potente agente de seleção direcional, destruindo as bactérias vulneráveis e permitindo que as portadoras da mutação resistente se multipliquem sem concorrentes.",
+        "D": "Incorreta: antibióticos exercem toxicidade seletiva sobre alvos moleculares bacterianos, não transformando bactérias em eucariontes com núcleo."
+      },
+      "referencia": {
+        "paginas": [
+          18,
+          19
+        ],
+        "fundamentacao": "Páginas 18 e 19.",
+        "trechos_apoio": [
+          "Evolução e Biomedicina: A resistência a antibióticos é um caso clássico de seleção natural. O medicamento não cria a mutação; ele atua como agente seletivo que elimina os indivíduos sensíveis e seleciona aqueles portadores de mutações pré-existentes de resistência."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_04_q011",
+      "slide_id": "origem_vida_aula_04",
+      "slide_nome": "Aula 04 - Teorias da Evolução",
+      "arquivo_origem": "Aula 04 - Teorias da Evolução _260910_160011 (1).pdf",
+      "numero": 11,
+      "tema": "História do Pensamento Evolutivo",
+      "subtema": "Aristóteles e a Scala Naturae",
+      "enunciado": "Na Antiguidade grega, Aristóteles organizou os seres vivos em uma ordenação hierárquica que ficou conhecida na Idade Média como a Scala Naturae (Escala da Natureza). De acordo com a apostila, por que essa concepção aristotélica não corresponde a uma árvore filogenética evolutiva?",
+      "alternativas": {
+        "A": "Porque postulava que as espécies eram mutáveis e originadas por seleção natural a partir de bactérias marinhas.",
+        "B": "Porque concebia as espécies como tipos fixos com essência estável dispostos em uma escala linear, sem pressupor ancestralidade comum nem transformação populacional ao longo do tempo.",
+        "C": "Porque defendia que as plantas possuíam alma racional superior à dos seres humanos.",
+        "D": "Porque se baseava exclusivamente na análise do DNA mitocondrial fóssil."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: Aristóteles não propôs seleção natural nem mutações; sua visão era estática e hierárquica, pré-evolutiva.",
+        "B": "Correta: a Scala Naturae organizava a matéria e os seres vivos linearmente do mais simples ao mais complexo, considerando as espécies fixas em sua essência, sem conexão genealógica de parentesco ou transformação de linhagens.",
+        "C": "Incorreta: na classificação aristotélica apresentada na aula, as plantas possuíam apenas \"alma vegetativa\", enquanto a \"alma racional\" era exclusiva dos seres humanos.",
+        "D": "Incorreta: o conceito de DNA e genética molecular só foi estabelecido no século XX, não existindo na Grécia Antiga."
+      },
+      "referencia": {
+        "paginas": [
+          6,
+          7
+        ],
+        "fundamentacao": "Páginas 6 e 7 (slides 6 e 7).",
+        "trechos_apoio": [
+          "Essa visão não corresponde a uma árvore evolutiva: não pressupõe ancestralidade comum nem transformação de populações."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_04_q012",
+      "slide_id": "origem_vida_aula_04",
+      "slide_nome": "Aula 04 - Teorias da Evolução",
+      "arquivo_origem": "Aula 04 - Teorias da Evolução _260910_160011 (1).pdf",
+      "numero": 12,
+      "tema": "Sistemática e Classificação",
+      "subtema": "O Paradoxo do Sistema Binomial de Lineu",
+      "enunciado": "No século XVIII, Carl von Linné (Lineu) estabeleceu a nomenclatura binomial padronizada e agrupou os seres vivos em categorias taxonômicas hierárquicas. O material didático aponta um \"paradoxo histórico\" na obra de Lineu, o qual consistiu no fato de que:",
+      "alternativas": {
+        "A": "Embora fosse partidário do criacionismo fixista, seu sistema rigoroso de classificação baseado em semelhanças ajudou naturalistas posteriores a reconhecerem padrões reais de parentesco evolutivo.",
+        "B": "Ele descobriu a estrutura da dupla-hélice do DNA antes de formular o conceito de espécie.",
+        "C": "Sua classificação baseava-se na suposição de que todos os animais descendiam de vírus cultivados em laboratório.",
+        "D": "Ele propôs a seleção natural ao mesmo tempo que Charles Darwin e Alfred Russel Wallace."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: Lineu trabalhava sob uma premissa fixista, acreditando que classificava espécies imutáveis da criação; contudo, a coerência de sua hierarquia morfológica evidenciou agrupamentos naturais que mais tarde serviram de base para demonstrar a ancestralidade compartilhada.",
+        "B": "Incorreta: a estrutura do DNA foi descrita no século XX por Watson e Crick, cerca de dois séculos após Lineu.",
+        "C": "Incorreta: Lineu não conhecia vírus e organizou a taxonomia clássica a partir de características anatômicas observáveis de plantas e animais.",
+        "D": "Incorreta: a seleção natural foi proposta por Darwin e Wallace em 1858, muito tempo após a publicação dos trabalhos de Lineu no século XVIII."
+      },
+      "referencia": {
+        "paginas": [
+          8
+        ],
+        "fundamentacao": "Página 8 (slide 8).",
+        "trechos_apoio": [
+          "Lineu trabalhava inicialmente dentro de uma visão fixista. Paradoxalmente, a classificação ajudou naturalistas posteriores a reconhecer semelhanças e padrões de parentesco."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_04_q013",
+      "slide_id": "origem_vida_aula_04",
+      "slide_nome": "Aula 04 - Teorias da Evolução",
+      "arquivo_origem": "Aula 04 - Teorias da Evolução _260910_160011 (1).pdf",
+      "numero": 13,
+      "tema": "Geologia e Paleontologia",
+      "subtema": "O Conceito de Tempo Profundo",
+      "enunciado": "No final do século XVIII e início do século XIX, os geólogos James Hutton e Charles Lyell enfatizaram que as feições da Terra eram moldadas por processos geológicos lentos e contínuos. A assimilação do conceito de \"tempo profundo\" foi decisiva para a biologia evolutiva porque:",
+      "alternativas": {
+        "A": "Comprovou que a Terra surgiu há apenas seis mil anos, invalidando a seleção natural.",
+        "B": "Tornou biologicamente plausível a acumulação de pequenas mudanças herdáveis ao longo de muitas gerações sucessivas.",
+        "C": "Demonstrou que os fósseis marinhos em montanhas haviam sido depositados no mesmo instante por uma catástrofe global súbita.",
+        "D": "Provocou o congelamento instantâneo de todas as espécies continentais nos polos."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o tempo profundo demonstrou que a Terra é imensamente antiga (milhões e bilhões de anos), rompendo justamente com a visão cronológica restrita de poucos milhares de anos.",
+        "B": "Correta: a seleção natural opera por modificações pequenas e graduais em frequências alélicas populacionais; a comprovação de uma Terra muito antiga forneceu a escala temporal ampla necessária para que linhagens divergissem e acumulassem adaptações complexas.",
+        "C": "Incorreta: Hutton e Lyell defenderam o gradualismo e o uniformitarismo, refutando a ideia de catástrofes pontuais imediatas como causa exclusiva das camadas rochosas e fósseis.",
+        "D": "Incorreta: o tempo profundo refere-se à magnitude da idade cronológica do planeta, e não a um evento de glaciação instantânea global."
+      },
+      "referencia": {
+        "paginas": [
+          9
+        ],
+        "fundamentacao": "Página 9 (slide 9).",
+        "trechos_apoio": [
+          "Tempo profundo tornou biologicamente plausível a acumulação de pequenas mudanças ao longo de muitas gerações."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_04_q014",
+      "slide_id": "origem_vida_aula_04",
+      "slide_nome": "Aula 04 - Teorias da Evolução",
+      "arquivo_origem": "Aula 04 - Teorias da Evolução _260910_160011 (1).pdf",
+      "numero": 14,
+      "tema": "Ideias Pré-Evolutivas",
+      "subtema": "As Propostas do Conde de Buffon",
+      "enunciado": "Georges-Louis Leclerc, o Conde de Buffon (1707–1788), destacou-se na história do pensamento evolutivo como um pioneiro que questionou a rigidez do fixismo estrito. Qual conceito Buffon utilizou para descrever a modificação e adaptação de uma espécie original ao migrar para novas áreas geográficas?",
+      "alternativas": {
+        "A": "Seleção sexual estabilizadora.",
+        "B": "Degeneração das espécies.",
+        "C": "Teoria do Mundo de RNA.",
+        "D": "Deriva genética por efeito fundador."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: seleção sexual é um conceito introduzido por Charles Darwin no século XIX.",
+        "B": "Correta: Buffon utilizava o termo \"degeneração\" não em sentido pejorativo, mas para explicar como uma forma ou espécie original se alterava e divergia fenotipicamente ao ocupar novos climas e regiões geográficas.",
+        "C": "Incorreta: a hipótese do Mundo de RNA é uma teoria prebiótica moderna sobre a origem da primeira vida celular.",
+        "D": "Incorreta: efeito fundador e deriva genética foram formalizados matematicamente pela genética de populações no século XX."
+      },
+      "referencia": {
+        "paginas": [
+          10
+        ],
+        "fundamentacao": "Página 10 (slide 10).",
+        "trechos_apoio": [
+          "Degeneração das espécies: Usava o termo 'degeneração' para descrever como uma espécie original podia se modificar e se adaptar ao chegar a novas regiões geográficas."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_04_q015",
+      "slide_id": "origem_vida_aula_04",
+      "slide_nome": "Aula 04 - Teorias da Evolução",
+      "arquivo_origem": "Aula 04 - Teorias da Evolução _260910_160011 (1).pdf",
+      "numero": 15,
+      "tema": "Formulação Histórica da Seleção Natural",
+      "subtema": "A Apresentação Conjunta de Darwin e Wallace (1858)",
+      "enunciado": "Em 1858, Charles Darwin e Alfred Russel Wallace apresentaram conjuntamente seus manuscritos perante a Linnean Society de Londres. Essa convergência histórica ocorreu porque:",
+      "alternativas": {
+        "A": "Ambos viajaram juntos no navio HMS Beagle realizando as mesmas anotações em Galápagos.",
+        "B": "Wallace, após pesquisar de forma independente na Amazônia e no arquipélago Malaio/Indonésia, chegou exatamente à mesma conclusão sobre a seleção natural e enviou suas ideias a Darwin.",
+        "C": "Ambos buscavam reviver o fixismo aristotélico para refutar a geologia moderna.",
+        "D": "Ambos descobriram simultaneamente os experimentos de genética mendeliana com ervilhas."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: apenas Darwin viajou no HMS Beagle (1831–1836); Wallace trabalhou de forma independente anos mais tarde na Amazônia e na Indonésia.",
+        "B": "Correta: Darwin reuniu evidências durante duas décadas e Wallace chegou de forma autônoma e brilhante ao princípio da seleção natural em seus estudos de campo, comunicando-se com Darwin e motivando a apresentação conjunta dos trabalhos em 1858.",
+        "C": "Incorreta: o trabalho de Darwin e Wallace consolidou o evolucionismo e destruiu a tese da imutabilidade das espécies do fixismo.",
+        "D": "Incorreta: as leis de herança de Mendel foram publicadas em 1866 e permaneceram desconhecidas de Darwin e Wallace durante a formulação original da teoria."
+      },
+      "referencia": {
+        "paginas": [
+          11,
+          13
+        ],
+        "fundamentacao": "Páginas 11 e 13 (slides 11 e 13).",
+        "trechos_apoio": [
+          "Alfred Russel Wallace: Naturalista que chegou exatamente à mesma conclusão de forma independente ao pesquisar na Amazônia e na Indonésia. Eles apresentaram os trabalhos juntos em 1858."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_04_q016",
+      "slide_id": "origem_vida_aula_04",
+      "slide_nome": "Aula 04 - Teorias da Evolução",
+      "arquivo_origem": "Aula 04 - Teorias da Evolução _260910_160011 (1).pdf",
+      "numero": 16,
+      "tema": "Fundamentos do Pensamento Darwiniano",
+      "subtema": "A Metáfora da Árvore da Vida vs. Escada",
+      "enunciado": "Ao representar a evolução biológica, Charles Darwin substituiu a metáfora clássica da \"escada de progresso\" linear pelo diagrama de uma árvore ramificada. Essa mudança conceitual estabelece que:",
+      "alternativas": {
+        "A": "As espécies atuais não são \"mais evoluídas\" que as outras, mas sim linhagens distintas que descendem de ancestrais compartilhados e divergiram em diferentes direções ecológicas.",
+        "B": "Os mamíferos ocupam o topo absoluto da perfeição, enquanto bactérias e protozoários são formas degeneradas destinadas ao desaparecimento.",
+        "C": "Todas as espécies vivas evoluem rumo a um objetivo predeterminado e consciente de complexidade máxima.",
+        "D": "Linhagens extintas nunca tiveram nenhum grau de parentesco com as espécies modernas."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: na representação em árvore ramificada, a evolução não é uma marcha teleológica em direção a um ser superior, mas um processo de cladogênese contínua em que cada ramo atual compartilha ancestrais comuns e adaptou-se a diferentes pressões do meio.",
+        "B": "Incorreta: a visão de escala com mamíferos no topo reflete a velha Scala Naturae aristotélica, e não o modelo filogenético darwiniano.",
+        "C": "Incorreta: a seleção natural não possui propósito final, objetivo teleológico ou plano predestinado.",
+        "D": "Incorreta: fósseis de linhagens extintas situam-se nos nós ou em ramos colaterais da mesma árvore da vida, atestando ancestralidade e transição."
+      },
+      "referencia": {
+        "paginas": [
+          16
+        ],
+        "fundamentacao": "Página 16 (slide 16).",
+        "trechos_apoio": [
+          "Ancestralidade comum: a árvore da vida. Darwin propôs que espécies diferentes podem descender de ancestrais compartilhados. Árvore ≠ escada de progresso. Espécies atuais não são 'mais evoluídas'."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_04_q017",
+      "slide_id": "origem_vida_aula_04",
+      "slide_nome": "Aula 04 - Teorias da Evolução",
+      "arquivo_origem": "Aula 04 - Teorias da Evolução _260910_160011 (1).pdf",
+      "numero": 17,
+      "tema": "Genética Mendeliana e Evolução",
+      "subtema": "A Superação da Herança por Mistura",
+      "enunciado": "Um dos maiores obstáculos teóricos enfrentados por Darwin foi a ideia prevalecente em sua época de que a herança genética ocorria por \"mistura fluida\" de sangues, o que diluiria qualquer variação nova favorável em poucas gerações. Os experimentos de Gregor Mendel (redescobertos em 1900) resolveram esse dilema demonstrando que:",
+      "alternativas": {
+        "A": "Os fatores hereditários (genes) têm natureza particulada e se segregam sem se diluir ou fundir, preservando a variação na população.",
+        "B": "As modificações do corpo adquiridas em vida são transmitidas intactas pelo sangue materno.",
+        "C": "A reprodução sexuada elimina permanentemente qualquer mutação recessiva.",
+        "D": "A herança depende de partículas de poeira cósmica absorvidas na respiração."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: a genética mendeliana demonstrou que a herança é particulada (discreta); os alelos se mantêm íntegros geração após geração, permitindo que variantes genéticas recessivas ou raras persistam no pool gênico sem se perderem por diluição.",
+        "B": "Incorreta: a transmissão de características corporais pelo uso refere-se à hipótese lamarckista de caracteres adquiridos, refutada pela genética.",
+        "C": "Incorreta: alelos recessivos permanecem protegidos em heterozigose na população e podem reaparecer em homozigose em gerações seguintes.",
+        "D": "Incorreta: fatores hereditários são entidades biológicas nucleares (genes em cromossomos), e não poeira espacial."
+      },
+      "referencia": {
+        "paginas": [
+          18
+        ],
+        "fundamentacao": "Página 18 (slide 18).",
+        "trechos_apoio": [
+          "A herança particulada mostrou que fatores hereditários não precisam 'diluir-se' a cada geração. A genética mendeliana e a teoria cromossômica permitiram conectar variação hereditária e evolução."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_04_q018",
+      "slide_id": "origem_vida_aula_04",
+      "slide_nome": "Aula 04 - Teorias da Evolução",
+      "arquivo_origem": "Aula 04 - Teorias da Evolução _260910_160011 (1).pdf",
+      "numero": 18,
+      "tema": "Genética de Populações e Síntese Moderna",
+      "subtema": "A Definição Populacional de Evolução",
+      "enunciado": "Com o desenvolvimento da genética de populações por cientistas como Fisher, Haldane e Wright na formulação da Síntese Moderna (décadas de 1930–1950), a evolução biológica passou a ser formalmente conceituada como:",
+      "alternativas": {
+        "A": "O desenvolvimento de hipertrofia muscular durante a vida adulta de um atleta.",
+        "B": "A alteração na frequência das características hereditárias (frequências gênicas e alélicas) de uma população ao longo das gerações.",
+        "C": "A extinção deliberada de todos os parasitas por decisão consciente dos hospedeiros.",
+        "D": "A síntese direta de aminoácidos em tubos de ensaio fechados sem células vivas."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: hipertrofia muscular individual é uma adaptação fisiológica somática reversível, e não evolução biológica.",
+        "B": "Correta: a Síntese Moderna unificou a sistemática, a paleontologia e a genética, definindo a evolução matematicamente como qualquer mudança cumulativa nas frequências de alelos em uma população ao longo das gerações.",
+        "C": "Incorreta: processos evolutivos não ocorrem por deliberação voluntária ou intenções conscientes.",
+        "D": "Incorreta: síntese abiótica de aminoácidos é o escopo da evolução química prebiótica (ex.: Miller-Urey), e não a definição de evolução de linhagens biológicas populacionais."
+      },
+      "referencia": {
+        "paginas": [
+          19,
+          20
+        ],
+        "fundamentacao": "Páginas 19 e 20 (slides 19 e 20).",
+        "trechos_apoio": [
+          "Genética de populações: A evolução passa a ser expressa em termos de frequências gênicas e alélicas. Síntese Moderna: Evolução = mudança nas características hereditárias das populações ao longo das gerações."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_04_q019",
+      "slide_id": "origem_vida_aula_04",
+      "slide_nome": "Aula 04 - Teorias da Evolução",
+      "arquivo_origem": "Aula 04 - Teorias da Evolução _260910_160011 (1).pdf",
+      "numero": 19,
+      "tema": "Medicina Evolutiva e Oncologia",
+      "subtema": "O Câncer como Processo de Evolução Somática",
+      "enunciado": "Na transposição dos princípios da biologia evolutiva para a prática médica, a progressão tumoral e as neoplasias malignas são atualmente compreendidas sob a ótica da evolução somática clonal. Como essa abordagem explica a perda de eficácia de certas quimioterapias e a recidiva tumoral?",
+      "alternativas": {
+        "A": "A quimioterapia converte células normais saudáveis em bactérias resistentes a antibióticos.",
+        "B": "Os tumores são compostos por populações celulares heterogêneas; a quimioterapia altera o microambiente eliminando os clones sensíveis e seleciona clones celulares mutantes pré-existentes que são resistentes ao fármaco, levando à sua expansão.",
+        "C": "O câncer ocorre porque as células tumorais decidem migrar para evitar a oxigenação celular.",
+        "D": "As células cancerígenas perdem permanentemente todo o seu DNA e passam a se reproduzir sem material genético."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: quimioterápicos antineoplásicos atuam em células somáticas eucarióticas humanas em proliferação, não as transformando em bactérias.",
+        "B": "Correta: a heterogeneidade intratumoral gera diversidade por mutações somáticas sucessivas; quando o paciente é tratado, o agente terapêutico impõe forte pressão seletiva, destruindo os clones tumorais vulneráveis, mas permitindo que variantes com mutações de resistência proliferem e provoquem a recaída.",
+        "C": "Incorreta: mutação somática e seleção clonal são processos celulares mecanísticos, não fruto de decisões conscientes das células.",
+        "D": "Incorreta: células neoplásicas mantêm genoma de DNA, frequentemente exibindo instabilidade genômica e taxas mutacionais elevadas."
+      },
+      "referencia": {
+        "paginas": [
+          27
+        ],
+        "fundamentacao": "Página 27 (slide 27).",
+        "trechos_apoio": [
+          "Câncer sob uma perspectiva evolutiva: Tumores podem ser entendidos como populações celulares que acumulam variação e sofrem seleção. A terapia altera o ambiente tumoral e pode selecionar clones resistentes. A heterogeneidade intratumoral ajuda a explicar recaída e resistência terapêutica."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_04_q020",
+      "slide_id": "origem_vida_aula_04",
+      "slide_nome": "Aula 04 - Teorias da Evolução",
+      "arquivo_origem": "Aula 04 - Teorias da Evolução _260910_160011 (1).pdf",
+      "numero": 20,
+      "tema": "Aplicações Biomédicas",
+      "subtema": "Dinâmica e Vigilância da Evolução Viral",
+      "enunciado": "As epidemias e o surgimento de novas variantes virais (como observado no vírus influenza e nos coronavírus) constituem um desafio direto à saúde pública. Segundo o material didático, por que os vírus apresentam taxas de evolução e adaptação extraordinariamente rápidas?",
+      "alternativas": {
+        "A": "Porque eles utilizam mitocôndrias gigantes para sintetizar novos nucleotídeos no ambiente extracelular.",
+        "B": "Porque combinam populações numéricas imensas, ciclos rápidos de replicação, taxas elevadas de mutação/recombinação e intensas pressões seletivas imunes e farmacológicas.",
+        "C": "Porque os vírus são imunes a qualquer pressão seletiva imposta por vacinas ou anticorpos.",
+        "D": "Porque todas as mutações que ocorrem no genoma viral são invariavelmente benéficas e aumentam a patogenicidade."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: vírus são entidades acelulares que dependem da maquinaria da célula hospedeira para replicação, não possuindo mitocôndrias próprias.",
+        "B": "Correta: a combinação de trilhões de partículas virais geradas em curto espaço de tempo, aliada a mecanismos de mutação frequentes e recombinação genética, gera ampla diversidade fenotípica; a pressão do sistema imune e de antivirais seleciona rapidamente variantes com maior transmissibilidade ou escape imunológico.",
+        "C": "Incorreta: anticorpos e vacinas atuam como pressões seletivas contundentes sobre as populações virais.",
+        "D": "Incorreta: a grande maioria das mutações virais é neutra ou deletéria para a própria partícula viral; apenas uma fração minoritária confere vantagem adaptativa."
+      },
+      "referencia": {
+        "paginas": [
+          26
+        ],
+        "fundamentacao": "Página 26 (slide 26).",
+        "trechos_apoio": [
+          "Evolução viral e saúde pública: Vírus evoluem rapidamente porque combinam grandes populações, replicação e variação (mutação/recombinação). A evolução viral influencia transmissibilidade, escape imune e resistência a antivirais."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_04_q021",
+      "slide_id": "origem_vida_aula_04",
+      "slide_nome": "Aula 04 - Teorias da Evolução",
+      "arquivo_origem": "Aula 04 - Teorias da Evolução _260910_160011 (1).pdf",
+      "numero": 21,
+      "tema": "Epistemologia e Filosofia da Ciência",
+      "subtema": "O Conceito de Teoria Científica",
+      "enunciado": "No ambiente acadêmico e na divulgação científica, frequentemente ocorre o equívoco de tratar \"teoria\" como mera suposição ou palpite informal. Conforme conceituado na aula, o que define verdadeiramente uma teoria científica?",
+      "alternativas": {
+        "A": "Uma hipótese preliminar sem qualquer comprovação empírica formulada por um único cientista.",
+        "B": "Uma estrutura explicativa ampla, robusta e coerente, fundamentada e sustentada por múltiplas linhas convergentes de evidência testáveis.",
+        "C": "Uma regra dogmática permanente que se transforma automaticamente em lei física após dez anos de publicação.",
+        "D": "Uma especulação filosófica metafísica desvinculada de observações do mundo natural."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: uma proposição específica ainda não testada extensivamente é uma hipótese, e não uma teoria científica.",
+        "B": "Correta: na epistemologia científica apresentada na aula, teoria é o nível mais abrangente e sólido de explicação, congregando modelos, leis e hipóteses testáveis que são sustentadas pela convergência de dados independentes (como fósseis, genética, biogeografia e anatomia).",
+        "C": "Incorreta: o texto da aula pontua explicitamente que uma lei científica descreve uma regularidade ou relação natural, não sendo \"uma teoria que virou lei\".",
+        "D": "Incorreta: teorias científicas investigam fenômenos exclusivamente naturais por meio do método empírico, observacional e experimental."
+      },
+      "referencia": {
+        "paginas": [
+          4
+        ],
+        "fundamentacao": "Página 4 (slide 4).",
+        "trechos_apoio": [
+          "Teoria científica: estrutura explicativa ampla sustentada por múltiplas linhas de evidência. Lei científica: descreve uma regularidade ou relação; não é uma 'teoria que virou lei'."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_04_q022",
+      "slide_id": "origem_vida_aula_04",
+      "slide_nome": "Aula 04 - Teorias da Evolução",
+      "arquivo_origem": "Aula 04 - Teorias da Evolução _260910_160011 (1).pdf",
+      "numero": 22,
+      "tema": "Demarcação Científica",
+      "subtema": "Campos de Perguntas entre Ciência e Religião",
+      "enunciado": "O material didático inicia estabelecendo a distinção epistemológica entre a investigação científica e as abordagens religiosas/filosóficas sobre a origem e diversidade da vida. Essa demarcação estabelece que a ciência:",
+      "alternativas": {
+        "A": "Busca sentidos metafísicos e propósitos morais últimos para a existência do cosmos através da fé incondicional.",
+        "B": "Investiga fenômenos naturais por meio de métodos empíricos e modelos testáveis, produzindo explicações provisórias passíveis de revisão perante novas evidências.",
+        "C": "Rejeita o uso de experimentos laboratoriais por considerá-los inferiores à tradição textual antiga.",
+        "D": "Afirma que todas as teorias científicas são imutáveis e eternas, livres de qualquer revisão futura."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: questões de sentido, valores éticos, propósito teleológico e transcendência pertencem ao campo da filosofia e da teologia, e não da ciência natural.",
+        "B": "Correta: conforme a matriz comparativa da aula, a ciência investiga processos naturais com métodos observacionais e experimentais, onde hipóteses e teorias permanecem sempre abertas a testes, revisões e aprimoramentos diante de novas evidências empíricas.",
+        "C": "Incorreta: a ciência apoia-se justamente no rigor empírico, nos dados de campo e em testes experimentais laboratoriais.",
+        "D": "Incorreta: o conhecimento científico é intrinsecamente dinâmico e autorcorretivo, distinguindo-se de dogmas imutáveis."
+      },
+      "referencia": {
+        "paginas": [
+          3
+        ],
+        "fundamentacao": "Página 3 (slide 3).",
+        "trechos_apoio": [
+          "Ciência: Investiga fenômenos naturais com métodos observacionais e experimentais. Hipóteses e modelos devem ser testáveis e passíveis de revisão. Explicações são provisórias e modificáveis diante de novas evidências."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_04_q023",
+      "slide_id": "origem_vida_aula_04",
+      "slide_nome": "Aula 04 - Teorias da Evolução",
+      "arquivo_origem": "Aula 04 - Teorias da Evolução _260910_160011 (1).pdf",
+      "numero": 23,
+      "tema": "História do Pensamento Evolutivo",
+      "subtema": "O Transformismo de Lamarck",
+      "enunciado": "Jean-Baptiste Lamarck foi pioneiro ao publicar em 1809 a primeira teoria sistemática contra a fixidez das espécies, sendo classificado historicamente como um pensador transformista. O aspecto que define o transformismo lamarckista e o diferencia do fixismo é:",
+      "alternativas": {
+        "A": "A aceitação explícita de que as espécies sofrem mudanças e adaptações ao longo do tempo, em vez de permanecerem imutáveis desde a criação.",
+        "B": "A comprovação matemática das frequências alélicas descritas no equilíbrio de Hardy-Weinberg.",
+        "C": "A afirmação de que todos os seres vivos surgiram no mesmo dia a partir de minerais cristalizados.",
+        "D": "A descoberta de que o código genético é universal e compartilhado por bactérias e humanos."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: a importância histórica de Lamarck consistiu em romper com o dogma do fixismo ao propor que os seres vivos se modificavam e se adaptavam ao longo do tempo em resposta ao meio ambiente, inaugurando as bases do pensamento transformista.",
+        "B": "Incorreta: modelos matemáticos de genética de populações surgiram no século XX com a Síntese Moderna, mais de cem anos após Lamarck.",
+        "C": "Incorreta: a criação simultânea e inalterada de todos os seres vivos é o postulado básico do fixismo criacionista, que Lamarck combateu.",
+        "D": "Incorreta: a estrutura dos ácidos nucleicos e a universalidade do código genético foram desvendadas no século XX pela biologia molecular."
+      },
+      "referencia": {
+        "paginas": [
+          11,
+          22
+        ],
+        "fundamentacao": "Páginas 11 e 22 (slides 11 e 22).",
+        "trechos_apoio": [
+          "Sua importância histórica está em defender explicitamente que as espécies não são fixas.",
+          "Transformismo: Espécies podem transformar-se. Ex.: uso/desuso em Lamarck."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_04_q024",
+      "slide_id": "origem_vida_aula_04",
+      "slide_nome": "Aula 04 - Teorias da Evolução",
+      "arquivo_origem": "Aula 04 - Teorias da Evolução _260910_160011 (1).pdf",
+      "numero": 24,
+      "tema": "Lamarckismo vs. Darwinismo",
+      "subtema": "A Unidade Conceitual e a Direção da Mudança",
+      "enunciado": "O quadro comparativo entre as teorias evolutivas apresentado no material confronta diretamente a lógica de Lamarck com a de Darwin e Wallace. Em relação à unidade conceitual onde ocorre a mudança e à direção dessa modificação, é correto afirmar que:",
+      "alternativas": {
+        "A": "Para Lamarck, a mudança ocorre na população por mutação aleatória; para Darwin, o indivíduo se modifica por vontade própria.",
+        "B": "Para Lamarck, o indivíduo modifica-se em resposta a necessidades impostas pelo ambiente; para Darwin, a população muda ao longo das gerações por seleção natural sobre variações que já existiam previamente.",
+        "C": "Em ambas as teorias, a evolução é guiada pela necessidade consciente do organismo em direção à perfeição absoluta.",
+        "D": "Para Darwin, o ambiente induz diretamente o aparecimento de novas características úteis nos indivíduos."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: inverte a lógica das duas teorias; Lamarck focava na transformação do indivíduo, enquanto Darwin focava na mudança estatística da população.",
+        "B": "Correta: no modelo lamarckista, o próprio indivíduo altera seu corpo durante a vida em resposta às exigências do meio; no modelo de Darwin e Wallace, a unidade de evolução é a população, onde variantes pré-existentes são selecionadas pelo ambiente através de sucesso reprodutivo diferencial.",
+        "C": "Incorreta: o darwinismo demonstrou que a evolução não é teleológica nem impulsionada por propósitos conscientes ou busca de perfeição.",
+        "D": "Incorreta: para Darwin, a variação não surge porque o organismo precisa dela; o ambiente apenas atua como filtro seletivo sobre a diversidade preexistente."
+      },
+      "referencia": {
+        "paginas": [
+          12
+        ],
+        "fundamentacao": "Página 12 (slide 12).",
+        "trechos_apoio": [
+          "Lamarck: Transformação individual; mudança tende a ocorrer em resposta à necessidade. Darwin/Wallace: Populações mudam ao longo das gerações; variações já existem entre indivíduos e não surgem porque o organismo 'precisa'."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_04_q025",
+      "slide_id": "origem_vida_aula_04",
+      "slide_nome": "Aula 04 - Teorias da Evolução",
+      "arquivo_origem": "Aula 04 - Teorias da Evolução _260910_160011 (1).pdf",
+      "numero": 25,
+      "tema": "Fundamentos da Seleção Natural",
+      "subtema": "A Seleção Artificial como Modelo Analógico",
+      "enunciado": "Antes de formalizar o mecanismo da seleção natural em seu livro A Origem das Espécies, Charles Darwin dedicou anos ao estudo minucioso de criadores de pombos, cães e plantas cultivadas (seleção artificial). Esse estudo serviu como analogia crucial porque demonstrou que:",
+      "alternativas": {
+        "A": "As características hereditárias podem ser selecionadas e acumuladas ao longo de gerações, alterando profundamente o fenótipo das linhagens a partir de variações pré-existentes.",
+        "B": "A natureza possui consciência humana e escolhe os animais mais dóceis para sobreviverem nas florestas.",
+        "C": "O cruzamento entre raças diferentes de cães produz descendentes inviáveis e estéreis.",
+        "D": "A intervenção humana é obrigatória para que ocorra qualquer tipo de evolução biológica no planeta."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: Darwin percebeu que criadores humanos modificavam raças domesticadas escolhendo reprodutores com traços desejáveis (seleção artificial); ele transpôs esse raciocínio para a natureza, onde as pressões ecológicas do ambiente exercem o papel seletivo (seleção natural), acumulando traços vantajosos.",
+        "B": "Incorreta: a seleção natural é um processo impessoal e não consciente, diferindo da intencionalidade do criador humano.",
+        "C": "Incorreta: raças de cães pertencem à mesma espécie (Canis familiaris) e cruzam livremente gerando descendentes férteis.",
+        "D": "Incorreta: a seleção natural atuou autonomamente na biosfera durante bilhões de anos antes do surgimento da espécie humana."
+      },
+      "referencia": {
+        "paginas": [
+          13,
+          14
+        ],
+        "fundamentacao": "Páginas 13 e 14 (slides 13 e 14).",
+        "trechos_apoio": [
+          "A comparação entre seleção artificial e natureza ajudou a formular a seleção natural."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_04_q026",
+      "slide_id": "origem_vida_aula_04",
+      "slide_nome": "Aula 04 - Teorias da Evolução",
+      "arquivo_origem": "Aula 04 - Teorias da Evolução _260910_160011 (1).pdf",
+      "numero": 26,
+      "tema": "Filosofia e Desenho Filogenético",
+      "subtema": "A Crítica à Escada de Progresso Linear",
+      "enunciado": "O texto da aula adverte enfaticamente que a representação da evolução biológica como uma \"árvore ramificada\" invalida a ideia popular da evolução como uma \"escada de progresso linear\". Sob essa ótica evolutiva moderna, qual conclusão é biologicamente correta?",
+      "alternativas": {
+        "A": "Os seres humanos representam o ápice terminal de toda a criação para o qual todas as outras espécies convergem.",
+        "B": "As espécies vivas atuais não são \"mais evoluídas\" que as outras; cada espécie atual descende de ancestrais compartilhados e adaptou-se a seus respectivos nichos ecológicos.",
+        "C": "As bactérias deixaram de evoluir há bilhões de anos e são formas inferiores degeneradas.",
+        "D": "Todos os ramos laterais de uma árvore filogenética são erros de mutação que tendem à extinção imediata."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a visão antropocêntrica de que a evolução caminha rumo ao homem é uma herança da velha escala aristotélica, e não da filogenia biológica.",
+        "B": "Correta: a apostila reforça literalmente que \"Árvore ≠ escada de progresso; espécies atuais não são 'mais evoluídas'\"; todas as espécies contemporâneas possuem a mesma quantidade de tempo de história evolutiva a partir do LUCA, cada qual com adaptações moldadas pelo seu contexto seletivo.",
+        "C": "Incorreta: bactérias continuam evoluindo com enorme velocidade e adaptabilidade, como demonstrado na resistência antimicrobiana.",
+        "D": "Incorreta: a cladogênese (ramificação) é a geradora natural da biodiversidade, e não uma coleção de falhas."
+      },
+      "referencia": {
+        "paginas": [
+          16
+        ],
+        "fundamentacao": "Página 16 (slide 16).",
+        "trechos_apoio": [
+          "Ancestralidade comum: a árvore da vida. Árvore ≠ escada de progresso. Espécies atuais não são 'mais evoluídas'."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_04_q027",
+      "slide_id": "origem_vida_aula_04",
+      "slide_nome": "Aula 04 - Teorias da Evolução",
+      "arquivo_origem": "Aula 04 - Teorias da Evolução _260910_160011 (1).pdf",
+      "numero": 27,
+      "tema": "Evidências da Evolução",
+      "subtema": "A Força da Convergência Independente",
+      "enunciado": "Na epistemologia das ciências biológicas, a teoria da evolução não repousa em uma prova isolada, mas sim na convergência de múltiplas linhas independentes de investigação. Quais áreas são destacadas na aula como pilares comprobatórios dessa convergência?",
+      "alternativas": {
+        "A": "Astrologia, alquimia medieval e revelações teleológicas.",
+        "B": "Registro fóssil, biogeografia, anatomia comparada, embriologia, biologia molecular (DNA/proteínas) e seleção observável em populações.",
+        "C": "Negação do tempo profundo e defesa da geração espontânea moderna.",
+        "D": "Classificação exclusiva baseada na cor externa de animais domesticados."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: astrologia e alquimia são pseudociências desprovidas de suporte empírico e método científico testável.",
+        "B": "Correta: a robustez da teoria evolutiva decorre do fato de que disciplinas totalmente distintas (como o registro estratigráfico de fósseis, a distribuição geográfica de espécies, os padrões ósseos homólogos, os genes de desenvolvimento embrionário e as sequências de nucleotídeos do DNA) contam a mesma história filogenética coerente.",
+        "C": "Incorreta: o tempo profundo e a biogênese constituem pré-requisitos científicos fundamentais do evolucionismo.",
+        "D": "Incorreta: a análise filogenética contemporânea apoia-se em caracteres morfológicos profundos, biogeografia e genética molecular."
+      },
+      "referencia": {
+        "paginas": [
+          17
+        ],
+        "fundamentacao": "Página 17 (slide 17).",
+        "trechos_apoio": [
+          "Evidências da evolução: Registro fóssil, biogeografia, anatomia comparada, embriologia, DNA e proteínas, e seleção observável. Quanto mais independentes são as evidências e mais convergem para a mesma explicação, maior a robustez do modelo científico."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_04_q028",
+      "slide_id": "origem_vida_aula_04",
+      "slide_nome": "Aula 04 - Teorias da Evolução",
+      "arquivo_origem": "Aula 04 - Teorias da Evolução _260910_160011 (1).pdf",
+      "numero": 28,
+      "tema": "A Síntese Moderna da Evolução",
+      "subtema": "Integração de Disciplinas e Forças Evolutivas",
+      "enunciado": "Consolidada entre as décadas de 1930 e 1950, a Síntese Moderna unificou a teoria da seleção natural com a genética e outras áreas biológicas. Quais são os quatro fatores evolutivos centrais que interagem para alterar as frequências alélicas das populações segundo esse modelo?",
+      "alternativas": {
+        "A": "Geração espontânea, tempo profundo, fixismo e teleologia.",
+        "B": "Mutação, seleção natural, deriva genética e fluxo gênico.",
+        "C": "Uso e desuso, panspermia, hibridação artificial e fotossíntese.",
+        "D": "Mitose, replicação viral, simbiose autogênica e sedimentação rochosa."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: geração espontânea e fixismo são conceitos pré-evolutivos refutados.",
+        "B": "Correta: na genética de populações da Síntese Moderna, as quatro forças fundamentais que modulam as frequências de alelos em uma população são: a mutação (fonte de novidade), a seleção natural (filtro adaptativo não aleatório), a deriva genética (flutuação ao acaso) e o fluxo gênico (migração de genes entre grupos).",
+        "C": "Incorreta: uso e desuso refere-se ao mecanismo lamarckista superado pela genética de populações.",
+        "D": "Incorreta: mitose é divisão celular somática individual e sedimentação é processo geológico, não as forças populacionais descritas na Síntese Moderna."
+      },
+      "referencia": {
+        "paginas": [
+          19,
+          20
+        ],
+        "fundamentacao": "Páginas 19 e 20 (slides 19 e 20).",
+        "trechos_apoio": [
+          "Genética de populações: Mutação, Seleção natural, Deriva genética e Fluxo gênico. Frequências alélicas na população → Evolução populacional. Síntese Moderna: Décadas de 1930-1950: integração entre Darwin, Mendel e genética de populações."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_04_q029",
+      "slide_id": "origem_vida_aula_04",
+      "slide_nome": "Aula 04 - Teorias da Evolução",
+      "arquivo_origem": "Aula 04 - Teorias da Evolução _260910_160011 (1).pdf",
+      "numero": 29,
+      "tema": "Diversidade Genética Humana e Biomedicina",
+      "subtema": "A Inexistência de \"Raças Biológicas\"",
+      "enunciado": "Ao abordar a diversidade genética da espécie humana (Homo sapiens) aplicada à prática biomédica e de saúde, a aula enfatiza que o conceito de \"raças biológicas discretas\" não tem sustentação genética. Qual é o fundamento científico apresentado para essa conclusão?",
+      "alternativas": {
+        "A": "A espécie humana apresenta variação genética contínua e amplamente compartilhada entre populações, com diferenças graduais moldadas por história demográfica, migração, deriva e seleção local, sem fronteiras biológicas nítidas.",
+        "B": "Todos os seres humanos são clones geneticamente idênticos, sem qualquer mutação de DNA entre os indivíduos.",
+        "C": "As populações humanas formaram-se por eventos de especiação que resultaram em três espécies de hominínios diferentes nos continentes.",
+        "D": "O genoma humano é composto exclusivamente por DNA mitocondrial de origem neandertal."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: a genética de populações contemporânea demonstrou que a diversidade humana é clínica e contínua; a grande maioria da variação genética existe dentro das populações locais, e as frequências de variantes distribuem-se gradualmente no espaço geográfico (fluxo gênico constante e ancestralidade comum compartilhada recente), desmantelando a tese de divisões biológicas rígidas ou categorias raciais discretas.",
+        "B": "Incorreta: existe ampla variabilidade genética individual entre os seres humanos, mas essa variação não se organiza em fronteiras discretas.",
+        "C": "Incorreta: todos os seres humanos vivos pertencem a uma única e mesma espécie (Homo sapiens).",
+        "D": "Incorreta: o genoma humano é predominantemente nuclear com herança ancestral africana, apresentando apenas pequenas frações de introgressão arcaica."
+      },
+      "referencia": {
+        "paginas": [
+          28
+        ],
+        "fundamentacao": "Página 28 (slide 28).",
+        "trechos_apoio": [
+          "A espécie humana apresenta variação genética contínua e compartilhada entre populações. Frequências de variantes podem diferir por história demográfica, migração, deriva, seleção e fluxo gênico. Categorias sociais de raça têm importância histórica e social, mas não correspondem a subdivisões biológicas discretas da espécie."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_04_q030",
+      "slide_id": "origem_vida_aula_04",
+      "slide_nome": "Aula 04 - Teorias da Evolução",
+      "arquivo_origem": "Aula 04 - Teorias da Evolução _260910_160011 (1).pdf",
+      "numero": 30,
+      "tema": "Medicina Evolutiva e Saúde Pública",
+      "subtema": "A Relevância Clínica do Pensamento Evolutivo",
+      "enunciado": "A citação clássica do geneticista Theodosius Dobzhansky reproduzida no encerramento da aula — \"Nada em Biologia faz sentido exceto à luz da evolução\" — ganha aplicação direta na formação dos profissionais de Saúde e Biomedicina. Essa relevância clínica manifesta-se porque:",
+      "alternativas": {
+        "A": "A evolução biológica é um fenômeno puramente histórico e fóssil que não interfere nos processos patológicos e terapêuticos contemporâneos.",
+        "B": "A dinâmica evolutiva é observável em tempo real na prática clínica diária, explicando a seleção de resistência aos antimicrobianos, o escape imunológico de linhagens virais, a resistência de clones tumorais em quimioterapias e a resposta farmacogenômica das populações.",
+        "C": "Os antibióticos e quimioterápicos tornam-se ineficazes porque as células dos pacientes aprendem a metabolizá-los espontaneamente sem base genética.",
+        "D": "As doenças genéticas hereditárias resultam da vontade individual do paciente em desenvolver adaptações ao estilo de vida moderno."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a evolução é um processo ativo e dinâmico com impacto diário e direto nos leitos hospitalares e nos laboratórios clínicos.",
+        "B": "Correta: a medicina evolutiva integra a genética de populações e a seleção natural para elucidar por que bactérias tornam-se resistentes a fármacos, como variantes virais escapam de vacinas, por que clones de câncer recidivam após quimioterapia e como o histórico evolutivo humano modula riscos epidemiológicos e tratamentos.",
+        "C": "Incorreta: a resistência aos tratamentos decorre de seleção de clones com mutações genéticas preexistentes, e não de aprendizado somático voluntário.",
+        "D": "Incorreta: mutações patológicas surgem por mecanismos moleculares aleatórios e sua transmissão segue regras de herança biológica, independentemente de vontades conscientes."
+      },
+      "referencia": {
+        "paginas": [
+          24,
+          25,
+          27,
+          32
+        ],
+        "fundamentacao": "Páginas 24, 25, 27 e 32 (slides 24, 25, 27 e 32).",
+        "trechos_apoio": [
+          "A evolução não é apenas um tema histórico: é um processo observável com consequências clínicas, epidemiológicas e de saúde pública: resistência antimicrobiana, evolução viral, câncer como evolução somática e diversidade genética humana.",
+          "Nada em Biologia faz sentido exceto à luz da evolução. - Theodosius Dobzhansky."
+        ]
+      }
+    }
+  ]
+}

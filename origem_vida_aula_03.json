@@ -1,0 +1,968 @@
+{
+  "questoes": [
+    {
+      "id": "origem_vida_aula_03_q001",
+      "slide_id": "origem_vida_aula_03",
+      "slide_nome": "Aula 03 - Evolução da Célula 2",
+      "arquivo_origem": "Aula 03 - Evolução da Célula 2_260910_160102 (1).pdf",
+      "numero": 1,
+      "tema": "Sistemas Pré-Bióticos e Protocélulas",
+      "subtema": "Auto-organização e Propriedades da Membrana Primitiva",
+      "enunciado": "Na transição da química pré-biótica para a organização celular, a formação de vesículas lipídicas espontâneas representou um avanço essencial. De acordo com a apostila, qual papel fundamental o confinamento molecular desempenhou nos oceanos primitivos?",
+      "alternativas": {
+        "A": "Impediu a dispersão dos reagentes na vastidão aquosa, promovendo maior frequência de colisões químicas e catálise.",
+        "B": "Bloqueou de forma impermeável e definitiva a entrada de qualquer molécula externa ou solvente.",
+        "C": "Converteu instantaneamente a energia térmica do ambiente em DNA cromossômico linear.",
+        "D": "Eliminou a necessidade de água para a ocorrência das reações orgânicas prebióticas."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: o confinamento molecular dentro de vesículas ou coacervados impediu que os reagentes químicos ficassem infinitamente diluídos no oceano primitivo, viabilizando o aumento da concentração local e acelerando as colisões necessárias para as reações químicas.",
+        "B": "Incorreta: as membranas primitivas possuíam permeabilidade passiva não seletiva e incorporavam lipídios do ambiente, não sendo barreiras absolutamente impermeáveis.",
+        "C": "Incorreta: o DNA linear e cromossômico é uma especialização genética tardia de eucariontes complexos, não surgindo nas primeiras vesículas lipídicas.",
+        "D": "Incorreta: os sistemas pré-bióticos dependiam diretamente do ambiente aquoso para a auto-organização de moléculas anfipáticas em bicamadas."
+      },
+      "referencia": {
+        "paginas": [
+          2
+        ],
+        "fundamentacao": "Página 2.",
+        "trechos_apoio": [
+          "Concentração e Catálise: O confinamento molecular impede que os reagentes se dispersem na vastidão do oceano primitivo, facilitando colisões químicas."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_03_q002",
+      "slide_id": "origem_vida_aula_03",
+      "slide_nome": "Aula 03 - Evolução da Célula 2",
+      "arquivo_origem": "Aula 03 - Evolução da Célula 2_260910_160102 (1).pdf",
+      "numero": 2,
+      "tema": "Sistemas Pré-Bióticos e Protocélulas",
+      "subtema": "Dinâmica Mecânica das Vesículas Primitivas",
+      "enunciado": "O texto descreve que as protocélulas eram capazes de apresentar comportamentos que se assemelhavam superficialmente ao crescimento e à divisão celular. Essa dinâmica física primordial ocorria por meio de:",
+      "alternativas": {
+        "A": "Formação de fuso mitótico baseado em microtúbulos de tubulina eucariótica.",
+        "B": "Incorporação espontânea de lipídios ambientais seguida de fragmentação por tensões mecânicas.",
+        "C": "Replicação enzimática semiconservativa coordenada por telomerases.",
+        "D": "Fissão binária estrita guiada por anéis proteicos de transcrição nuclear."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: microtúbulos e mitose são componentes do citoesqueleto eucariótico inexistentes em agregados pré-bióticos rudimentares.",
+        "B": "Correta: as vesículas cresciam pela incorporação passiva de moléculas lipídicas do meio e, ao atingirem instabilidade física ou sofrerem forças de cisalhamento mecânico da água, fragmentavam-se em unidades menores.",
+        "C": "Incorreta: protocélulas não possuíam enzimas sofisticadas nem maquinarias moleculares de replicação como telomerases.",
+        "D": "Incorreta: a divisão dessas estruturas era puramente física e mecânica, sem controle genético de anéis proteicos ou comandos nucleares."
+      },
+      "referencia": {
+        "paginas": [
+          2
+        ],
+        "fundamentacao": "Página 2.",
+        "trechos_apoio": [
+          "Crescimento e Divisão Física: Vesículas, como as presentes nos coacervados permitem incorporar lipídios ambientais e se fragmentar por tensões mecânicas, assemelhando-se a uma divisão celular primitiva."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_03_q003",
+      "slide_id": "origem_vida_aula_03",
+      "slide_nome": "Aula 03 - Evolução da Célula 2",
+      "arquivo_origem": "Aula 03 - Evolução da Célula 2_260910_160102 (1).pdf",
+      "numero": 3,
+      "tema": "Limitações das Protocélulas",
+      "subtema": "O Obstáculo à Evolução Cumulativa",
+      "enunciado": "Apesar de delimitarem microambientes e realizarem reações químicas simples, as protocélulas enfrentavam um gargalo evolutivo intransponível para se tornarem sistemas vivos plenos. Qual era a causa direta da impossibilidade de evolução cumulativa nesses sistemas?",
+      "alternativas": {
+        "A": "A ausência de uma herança molecular estável, fazendo com que vantagens químicas adquiridas fossem perdidas após a fragmentação física.",
+        "B": "A presença de excesso de histonas nucleares que silenciavam todos os polímeros.",
+        "C": "A toxicidade letal causada pela fotossíntese aeróbia acelerada no interior das vesículas.",
+        "D": "O consumo excessivo de glicose por enzimas mitocondriais de membrana."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: sem um sistema informacional confiável de replicação molecular, quaisquer combinações favoráveis ou propriedades químicas eficientes surgidas em uma vesícula dissipavam-se e não eram herdadas pelas vesículas geradas na fragmentação.",
+        "B": "Incorreta: histonas são proteínas empacotadoras do DNA eucariótico, inexistentes em protocélulas pré-bióticas.",
+        "C": "Incorreta: protocélulas não realizavam fotossíntese aeróbia; a atmosfera e o ambiente inicial eram anaeróbios.",
+        "D": "Incorreta: mitocôndrias surgiram bilhões de anos depois por endossimbiose na linhagem eucariótica, não existindo em sistemas pré-bióticos."
+      },
+      "referencia": {
+        "paginas": [
+          2
+        ],
+        "fundamentacao": "Página 2.",
+        "trechos_apoio": [
+          "Sem Evolução Cumulativa: Sem herança molecular estável, quaisquer vantagens químicas adquiridas por uma vesícula desapareciam em sua divisão física."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_03_q004",
+      "slide_id": "origem_vida_aula_03",
+      "slide_nome": "Aula 03 - Evolução da Célula 2",
+      "arquivo_origem": "Aula 03 - Evolução da Célula 2_260910_160102 (1).pdf",
+      "numero": 4,
+      "tema": "Limitações das Protocélulas",
+      "subtema": "Ausência de Integração Funcional",
+      "enunciado": "O material didático aponta que as protocélulas sofriam de uma \"falta de integração funcional\". Essa deficiência metabólica e homeostática consistia especificamente em:",
+      "alternativas": {
+        "A": "Incompatibilidade entre os flagelos bacterianos e a parede celular de celulose.",
+        "B": "Ausência de um acoplamento maduro entre a obtenção de energia (metabolismo) e a informação para a síntese química de macromoléculas.",
+        "C": "Excesso de bombas iônicas ativas de sódio e potássio que consumiam todo o ATP livre.",
+        "D": "Produção descontrolada de oxigênio gasoso por ribozimas estruturais."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: flagelos e paredes celulares pertencem a organismos procarióticos já formados, não tendo relação com a falha funcional das protocélulas.",
+        "B": "Correta: os sistemas pré-bióticos não possuíam mecanismos de homeostase ativa nem regulação coordenada que vinculasse a geração contínua de energia com o código informacional de síntese macromolecular.",
+        "C": "Incorreta: bombas iônicas ativas integradas a membranas são traços de células funcionais estáveis (como o LUCA), enquanto as protocélulas tinham permeabilidade passiva não seletiva.",
+        "D": "Incorreta: ribozimas primitivas não geravam oxigênio atmosférico, e o meio da Terra primordial era anóxico."
+      },
+      "referencia": {
+        "paginas": [
+          2
+        ],
+        "fundamentacao": "Página 2.",
+        "trechos_apoio": [
+          "Falta de Integração Funcional: não possuem sistema integrado capaz de regular homeostase ativa. Assim Não havia acoplamento maduro entre o metabolismo (obtenção de energia) e a informação de síntese química de macromoléculas."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_03_q005",
+      "slide_id": "origem_vida_aula_03",
+      "slide_nome": "Aula 03 - Evolução da Célula 2",
+      "arquivo_origem": "Aula 03 - Evolução da Célula 2_260910_160102 (1).pdf",
+      "numero": 5,
+      "tema": "O Mundo de RNA",
+      "subtema": "Propriedades Funcionais das Ribozimas",
+      "enunciado": "Na hipótese do \"Mundo de RNA\", essa molécula é apontada como a precursora ideal para a biologia molecular primordial. Qual dupla propriedade biológica sustentava a centralidade do RNA nessa fase evolutiva?",
+      "alternativas": {
+        "A": "A rigidez esquelética da desoxirribose e a condução de impulsos elétricos nervosos.",
+        "B": "A capacidade simultânea de codificar sequências genéticas e atuar como catalisador químico (ribozimas).",
+        "C": "O empacotamento em nucleossomos e a resistência total contra hidrólise aquosa.",
+        "D": "A síntese direta de fosfolipídios de membrana a partir de gás hidrogênio inorgânico."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a desoxirribose é o açúcar componente do DNA, e impulsos nervosos dependem de tecidos animais complexos.",
+        "B": "Correta: o RNA desempenhava uma dupla função pioneira: guardava sequências informacionais de bases nitrogenadas e dobrava-se tridimensionalmente para atuar cataliticamente como enzima de RNA (ribozima).",
+        "C": "Incorreta: o RNA primordial era quimicamente instável e suscetível à hidrólise, não formando nucleossomos (estrutura exclusiva do DNA eucariótico com histonas).",
+        "D": "Incorreta: a formação de vesículas lipídicas decorria de propriedades físicas de auto-organização de moléculas anfipáticas, e não de catálise exclusiva do RNA sobre gás hidrogênio."
+      },
+      "referencia": {
+        "paginas": [
+          3
+        ],
+        "fundamentacao": "Página 3.",
+        "trechos_apoio": [
+          "1. O Mundo de RNA • Dupla Função: O RNA conseguia tanto codificar sequências genéticas quanto atuar como catalisador (ribozimas)."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_03_q006",
+      "slide_id": "origem_vida_aula_03",
+      "slide_nome": "Aula 03 - Evolução da Célula 2",
+      "arquivo_origem": "Aula 03 - Evolução da Célula 2_260910_160102 (1).pdf",
+      "numero": 6,
+      "tema": "Bioquímica dos Ácidos Nucleicos",
+      "subtema": "Limitações Estruturais do RNA",
+      "enunciado": "Apesar de sua versatilidade funcional, o RNA apresentava uma limitação físico-química severa que impedia o surgimento de genomas grandes e complexos. De acordo com a aula, qual aspecto molecular era responsável por essa fragilidade?",
+      "alternativas": {
+        "A": "A presença da hidroxila no carbono 2' da ribose (2'-OH), tornando a fita altamente suscetível à hidrólise.",
+        "B": "A ausência de pontes de hidrogênio entre as bases púricas e pirimídicas.",
+        "C": "A ligação irreversível com cátions de chumbo que desintegravam a molécula.",
+        "D": "A impossibilidade de a molécula se dissolver em solventes aquosos."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: a pentose do RNA (ribose) possui um grupamento hidroxila reativo na posição 2' (2'-OH), o que facilita ataques nucleofílicos internos e degradação por hidrólise espontânea em meio aquoso, inviabilizando o armazenamento fiel de genomas longos.",
+        "B": "Incorreta: o RNA é perfeitamente capaz de estabelecer pontes de hidrogênio intramoleculares e intermoleculares complementares.",
+        "C": "Incorreta: a limitação química descrita no texto reside na labilidade intrínseca do grupo 2'-OH da ribose, e não em contaminação externa específica por chumbo.",
+        "D": "Incorreta: o RNA é uma molécula polar polianiônica altamente solúvel em água."
+      },
+      "referencia": {
+        "paginas": [
+          3
+        ],
+        "fundamentacao": "Página 3.",
+        "trechos_apoio": [
+          "Instabilidade Química: A ribose possui uma hidroxila 2'-OH que torna a molécula de RNA altamente suscetível à hidrólise (Limitação de Estabilidade: Quimicamente), limitando genomas extensos."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_03_q007",
+      "slide_id": "origem_vida_aula_03",
+      "slide_nome": "Aula 03 - Evolução da Célula 2",
+      "arquivo_origem": "Aula 03 - Evolução da Célula 2_260910_160102 (1).pdf",
+      "numero": 7,
+      "tema": "Transição Química para o DNA",
+      "subtema": "A Vantagem da Desoxirribose",
+      "enunciado": "A substituição evolutiva do RNA pelo DNA como guardião principal da informação genética celular representou um salto de estabilidade molecular. Qual modificação química na pentose conferiu maior resistência ao esqueleto do DNA?",
+      "alternativas": {
+        "A": "A adição de uma terceira fita de hidrocarbonetos hidrofóbicos.",
+        "B": "A ausência do átomo de oxigênio no carbono 2' (gerando a desoxirribose).",
+        "C": "A remoção de todas as pontes fosfodiéster do esqueleto polimérico.",
+        "D": "A substituição permanente da timina por uracila metilada."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o DNA consolidou-se estruturalmente como uma fita dupla helicoidal, e não em conformação de fita tripla.",
+        "B": "Correta: a perda do oxigênio na posição 2' da pentose transforma a ribose em 2'-desoxirribose, eliminando a hidroxila reativa e concedendo enorme estabilidade química contra clivagens hidrolíticas.",
+        "C": "Incorreta: as ligações fosfodiéster são indispensáveis para manter unidos os nucleotídeos ao longo da cadeia polimérica.",
+        "D": "Incorreta: o DNA utiliza timina em vez de uracila; a uracila é característica do RNA."
+      },
+      "referencia": {
+        "paginas": [
+          3
+        ],
+        "fundamentacao": "Página 3.",
+        "trechos_apoio": [
+          "Desoxirribose: A ausência do oxigênio 2'-OH na desoxirribose confere extrema estabilidade química ao esqueleto do DNA."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_03_q008",
+      "slide_id": "origem_vida_aula_03",
+      "slide_nome": "Aula 03 - Evolução da Célula 2",
+      "arquivo_origem": "Aula 03 - Evolução da Célula 2_260910_160102 (1).pdf",
+      "numero": 8,
+      "tema": "Biofísica do DNA",
+      "subtema": "O Pareamento de Fita Dupla como Sistema de Redundância",
+      "enunciado": "Além da substituição da ribose pela desoxirribose, a arquitetura em fita dupla complementar do DNA foi decisiva para o sucesso evolutivo das primeiras linhagens celulares. Esse modelo estrutural trouxe a seguinte vantagem biológica:",
+      "alternativas": {
+        "A": "Atuou como um sistema natural de redundância e molde para reparo de mutações, permitindo expandir o tamanho do genoma com fidelidade.",
+        "B": "Permitiu a transcrição reversa instantânea de proteínas sem passar pelo RNA mensageiro.",
+        "C": "Impediu que o DNA pudesse ser desnaturado ou aberto durante a divisão celular.",
+        "D": "Tornou o genoma vulnerável a clivagens térmicas aleatórias no citoplasma."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: por conter duas fitas pareadas por complementaridade de bases, qualquer dano ou mutação em uma das fitas pode ser corrigido com base na informação conservada na fita oposta, fornecendo fidelidade de cópia e viabilizando genomas muito mais extensos.",
+        "B": "Incorreta: proteínas são sintetizadas por ribossomos a partir da tradução do RNA, respeitando o dogma central da biologia, e não por transcrição reversa de proteínas a partir de DNA.",
+        "C": "Incorreta: a dupla fita do DNA precisa abrir-se de maneira coordenada durante os processos de replicação e transcrição gênica.",
+        "D": "Incorreta: a fita dupla confere estabilidade e resistência, evitando a degradação e desorganização aleatória do código informacional."
+      },
+      "referencia": {
+        "paginas": [
+          3
+        ],
+        "fundamentacao": "Página 3.",
+        "trechos_apoio": [
+          "Fita Dupla Confiável: O pareamento complementar de fitas atua como um sistema natural de redundância e reparo de mutações, permitindo expandir o genoma com fidelidade."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_03_q009",
+      "slide_id": "origem_vida_aula_03",
+      "slide_nome": "Aula 03 - Evolução da Célula 2",
+      "arquivo_origem": "Aula 03 - Evolução da Célula 2_260910_160102 (1).pdf",
+      "numero": 9,
+      "tema": "Consolidação do LUCA",
+      "subtema": "O Estabelecimento do Dogma Central",
+      "enunciado": "O surgimento do LUCA (Last Universal Common Ancestor) é descrito na aula como o marco zero da estabilidade e hereditariedade celular. O conjunto de características universais consolidadas nesse ancestral comum engloba:",
+      "alternativas": {
+        "A": "Carioteca nuclear isolante, síntese de clorofila livre e mitocôndrias endossimbióticas.",
+        "B": "Genoma estável de DNA, transcrição em RNA, tradução proteica por ribossomos e utilização de ATP como moeda de energia.",
+        "C": "Exclusividade de ácidos nucleicos de fita tripla sem tradução ribossomal.",
+        "D": "Membranas puramente inorgânicas à base de sílica e ausência total de código genético."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: carioteca e organelas endossimbióticas (mitocôndrias e cloroplastos) são especializações exclusivas de células eucarióticas, surgidas muito depois do LUCA procarionte.",
+        "B": "Correta: o LUCA consolidou definitivamente o maquinário universal compartilhado por todos os seres vivos modernos: DNA genômico estável, transcrição gênica em RNA mensageiro, tradução proteica mediada por ribossomos e acoplamento energético universal via ATP.",
+        "C": "Incorreta: o genoma universal opera sob o formato de fita dupla de DNA e tradução ativa por ribossomos.",
+        "D": "Incorreta: a fronteira celular era formada por bicamadas lipídicas orgânicas funcionais dotadas de proteínas de membrana."
+      },
+      "referencia": {
+        "paginas": [
+          3
+        ],
+        "fundamentacao": "Página 3.",
+        "trechos_apoio": [
+          "Características Universais: Consolidação definitiva do dogma central da biologia: genoma de DNA estável, transcrição em RNA e tradução em ribossomos de proteínas utilizando ATP."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_03_q010",
+      "slide_id": "origem_vida_aula_03",
+      "slide_nome": "Aula 03 - Evolução da Célula 2",
+      "arquivo_origem": "Aula 03 - Evolução da Célula 2_260910_160102 (1).pdf",
+      "numero": 10,
+      "tema": "A Era Procarionte",
+      "subtema": "Organização do Material Genético e Síntese Proteica",
+      "enunciado": "Nos primeiros organismos celulares procariontes, a ausência de envelope nuclear (carioteca) determinou uma dinâmica de funcionamento celular característica. Qual aspecto operacional diferenciava a síntese proteica procarionte primitiva?",
+      "alternativas": {
+        "A": "O RNA mensageiro devia ser exportado através dos poros da membrana mitocondrial para ser lido.",
+        "B": "A tradução proteica por ribossomos livres ocorria de forma quase simultânea à transcrição do DNA no nucleoide.",
+        "C": "Os ribossomos dependiam de retículo endoplasmático rugoso para se ancorarem e iniciarem a tradução.",
+        "D": "A síntese de proteínas era completamente bloqueada na ausência de oxigênio livre no citoplasma."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: procariontes não possuem mitocôndrias nem envelope nuclear; seu DNA e seus ribossomos compartilham o mesmo espaço citoplasmático.",
+        "B": "Correta: sem uma membrana nuclear separando o genoma do citoplasma, os ribossomos ligam-se ao RNA mensageiro e iniciam a síntese polipeptídica enquanto a fita de RNA ainda está sendo sintetizada a partir do DNA genômico (acoplamento transcrição-tradução).",
+        "C": "Incorreta: procariontes não possuem retículo endoplasmático rugoso ou organelas membranosas; seus ribossomos atuam dispersos no citosol.",
+        "D": "Incorreta: a maquinaria celular dos procariontes primordiais era perfeitamente adaptada a condições anaeróbias, operando sem oxigênio."
+      },
+      "referencia": {
+        "paginas": [
+          4
+        ],
+        "fundamentacao": "Página 4.",
+        "trechos_apoio": [
+          "A síntese proteica é feita por ribossomos livres que traduzem o RNA quase simultaneamente à transcrição do DNA (genômica)."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_03_q011",
+      "slide_id": "origem_vida_aula_03",
+      "slide_nome": "Aula 03 - Evolução da Célula 2",
+      "arquivo_origem": "Aula 03 - Evolução da Célula 2_260910_160102 (1).pdf",
+      "numero": 11,
+      "tema": "A Era Procarionte",
+      "subtema": "Atmosfera Primordial e Vias Metabólicas Anaeróbias",
+      "enunciado": "O material didático aponta que a atmosfera da Terra primitiva era predominantemente anaeróbia (pobre em O₂). Em decorrência dessa condição ambiental geoquímica, quais foram as vias metabólicas pioneiras utilizadas pelos primeiros procariontes para a obtenção de energia?",
+      "alternativas": {
+        "A": "Respiração celular oxidativa aeróbia com fosforilação mitocondrial.",
+        "B": "Fotossíntese oxigênica dependente de cloroplastos maduros.",
+        "C": "Oxirredução mineral (quimiotrofia) e fermentação orgânica a partir de compostos gerados abioticamente.",
+        "D": "Ciclo de Krebs dependente exclusivamente de gás oxigênio dissolvido."
+      },
+      "gabarito": "C",
+      "explicacoes": {
+        "A": "Incorreta: na ausência de oxigênio livre, a respiração celular aeróbia era termodinamicamente inviável; ademais, mitocôndrias só surgiram bilhões de anos depois em eucariontes.",
+        "B": "Incorreta: cloroplastos são organelas eucarióticas endossimbióticas tardias, e a fotossíntese oxigênica não foi a primeira via metabólica da Terra primordial anóxica.",
+        "C": "Correta: na atmosfera redutora/anóxica primitiva, os primeiros procariontes dependiam de vias metabólicas simples de oxirredução de minerais (quimiotrofia) e de fermentação de moléculas orgânicas originadas da síntese abiótica.",
+        "D": "Incorreta: o ciclo de Krebs aeróbio acoplado à cadeia respiratória requer oxigênio como aceptor final de elétrons, gás ausente na época."
+      },
+      "referencia": {
+        "paginas": [
+          4
+        ],
+        "fundamentacao": "Página 4.",
+        "trechos_apoio": [
+          "A atmosfera terrestre inicial era anaeróbia (pobre em O₂). Os primeiros procariontes dependiam de vias metabólicas simples de oxirredução mineral (quimiotrofia) e fermentação orgânica a partir de compostos gerados abiotiamente."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_03_q012",
+      "slide_id": "origem_vida_aula_03",
+      "slide_nome": "Aula 03 - Evolução da Célula 2",
+      "arquivo_origem": "Aula 03 - Evolução da Célula 2_260910_160102 (1).pdf",
+      "numero": 12,
+      "tema": "A Grande Bifurcação Evolutiva",
+      "subtema": "A Radiação do LUCA em Bacteria e Archaea",
+      "enunciado": "Após a consolidação do LUCA, a vida celular primitiva passou por um evento macroevolutivo denominado na aula como \"A Grande Bifurcação Evolutiva\". Esse marco caracterizou-se pela:",
+      "alternativas": {
+        "A": "Separação do LUCA em duas linhagens celulares estruturalmente semelhantes, mas bioquimicamente distintas: Bacteria e Archaea.",
+        "B": "Extinção completa de todos os organismos unicelulares em favor de animais pluricelulares.",
+        "C": "Fusão de vírus gigantes com fungos filamentosos anaeróbios no interior de vulcões.",
+        "D": "Substituição total do DNA por proteínas na transmissão da hereditariedade celular."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: a grande bifurcação evolutiva inicial consistiu na divergência do LUCA nos dois grandes domínios procariontes primordiais (Bacteria e Archaea), que compartilhavam plano corporal simples sem núcleo, mas divergiam profundamente em rotas bioquímicas, lipídios de membrana e transcrição.",
+        "B": "Incorreta: organismos unicelulares persistiram, diversificaram-se e continuam sendo dominantes na biosfera; pluricelulares surgiram muito tempo depois.",
+        "C": "Incorreta: vírus não fundiram fungos na bifurcação basal; fungos são eucariontes originados posteriormente.",
+        "D": "Incorreta: o dogma central (DNA → RNA → proteína) foi consolidado pelo LUCA e jamais foi revertido para hereditariedade puramente proteica."
+      },
+      "referencia": {
+        "paginas": [
+          4
+        ],
+        "fundamentacao": "Página 4.",
+        "trechos_apoio": [
+          "A Grande Bifurcação Evolutiva: Bacteria e Archaea. O LUCA rapidamente se diversificou em duas linhagens estruturalmente semelhantes, mas bioquimicamente distintas: as bactérias clássicas e as arqueas extremófilas, que estabeleceram as bases ecológicas primordiais do nosso planeta."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_03_q013",
+      "slide_id": "origem_vida_aula_03",
+      "slide_nome": "Aula 03 - Evolução da Célula 2",
+      "arquivo_origem": "Aula 03 - Evolução da Célula 2_260910_160102 (1).pdf",
+      "numero": 13,
+      "tema": "A Transição Eucarionte",
+      "subtema": "A Linhagem Hospedeira e o Sistema de Endomembranas",
+      "enunciado": "De acordo com o modelo de transição eucarionte apresentado na apostila, a célula hospedeira ancestral pertencia à linhagem das Archaea. Qual inovação estrutural permitiu a essa célula hospedeira formar compartimentos fechados, como o envelope nuclear (carioteca) e o retículo endoplasmático?",
+      "alternativas": {
+        "A": "A cristalização de sílica mineral vinda de meteoritos sobre os ribossomos.",
+        "B": "A invaginação e dobragem para dentro da membrana plasmática ancestral.",
+        "C": "A perda total do citoesqueleto, tornando a célula rígida e impermeável.",
+        "D": "A incorporação simbiótica de algas verdes unicelulares já dotadas de carioteca."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: compartimentos celulares internos são formados por bicamadas lipoproteicas biológicas, e não por carapaças de sílica extraterrestre.",
+        "B": "Correta: conforme detalhado na seção da linhagem hospedeira (Archaea), o mecanismo motor para a criação do sistema de endomembranas (retículo, Golgi) e do envoltório nuclear (carioteca) foi a invaginação e dobramento interno da membrana plasmática ancestral.",
+        "C": "Incorreta: a célula hospedeira desenvolveu um citoesqueleto flexível e dinâmico, o que permitiu maleabilidade mecânica e capacidade de fagocitose, e não rigidez estática.",
+        "D": "Incorreta: a carioteca e o sistema endomembranar derivam de processos autogênicos internos da hospedeira arqueana, antes da assimilação de algas ou cloroplastos."
+      },
+      "referencia": {
+        "paginas": [
+          5
+        ],
+        "fundamentacao": "Página 5.",
+        "trechos_apoio": [
+          "Linhagem Hospedeira (Archaea) • Invaginação da Membrana: Dobragem para dentro da membrana plasmática ancestral cria compartimentos internos fechados, dando origem ao sistema de endomembranas (retículo, complexo de Golgi) e, crucialmente, ao envelope nuclear (carioteca)."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_03_q014",
+      "slide_id": "origem_vida_aula_03",
+      "slide_nome": "Aula 03 - Evolução da Célula 2",
+      "arquivo_origem": "Aula 03 - Evolução da Célula 2_260910_160102 (1).pdf",
+      "numero": 14,
+      "tema": "A Transição Eucarionte",
+      "subtema": "O Papel do Citoesqueleto na Célula Hospedeira",
+      "enunciado": "O surgimento de um citoesqueleto dinâmico e flexível na linhagem hospedeira arqueana foi uma pré-condição indispensável para viabilizar a teoria endossimbiótica. Essa flexibilidade estrutural conferiu diretamente à célula a capacidade de:",
+      "alternativas": {
+        "A": "Realizar fotossíntese anoxigênica em profundidades marinhas afóticas.",
+        "B": "Praticar englobamento físico (fagocitose) e apresentar maleabilidade mecânica.",
+        "C": "Eliminar de vez o DNA cromossômico e sobreviver apenas com lipídios.",
+        "D": "Impedir a síntese de ATP pela cadeia transportadora de elétrons."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o citoesqueleto atua na mecânica, transporte vesicular e motilidade, não sendo responsável por reações de fixação fotossintética.",
+        "B": "Correta: a presença de filamentos proteicos e a flexibilidade do citoesqueleto permitiram que a célula hospedeira emitisse projeções de membrana para englobar partículas e outros microrganismos vivos (fagocitose), etapa mecânica sem a qual a entrada do simbionte bacteriano seria impossível.",
+        "C": "Incorreta: nenhuma linhagem celular funcional sobrevive sem seu material genético informativo.",
+        "D": "Incorreta: o citoesqueleto não bloqueia a síntese energética; ao contrário, ele posiciona as organelas bioenergéticas eficientemente no citoplasma."
+      },
+      "referencia": {
+        "paginas": [
+          5
+        ],
+        "fundamentacao": "Página 5.",
+        "trechos_apoio": [
+          "Flexibilidade do Citoesqueleto: Permitiu fagocitose celular rápida e maleabilidade física."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_03_q015",
+      "slide_id": "origem_vida_aula_03",
+      "slide_nome": "Aula 03 - Evolução da Célula 2",
+      "arquivo_origem": "Aula 03 - Evolução da Célula 2_260910_160102 (1).pdf",
+      "numero": 15,
+      "tema": "Teoria Endossimbiótica na Aula 03",
+      "subtema": "A Identidade do Parceiro Simbionte",
+      "enunciado": "No processo endossimbiótico que originou a linhagem eucariótica heterotrófica, qual tipo específico de microrganismo procarionte livre foi englobado pela célula hospedeira arqueana para se transformar na futura mitocôndria?",
+      "alternativas": {
+        "A": "Uma arquea metanogênica estrita de fontes vulcânicas.",
+        "B": "Uma alfa-proteobactéria aeróbia capaz de metabolizar oxigênio por respiração celular.",
+        "C": "Uma cianobactéria produtora de pigmentos carotenoides e glicose.",
+        "D": "Uma espiroqueta de água doce causadora de lise membranar."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a célula hospedeira é que possuía afinidade filogenética com Archaea; o parceiro endossimbionte bioenergético era uma bactéria.",
+        "B": "Correta: o texto especifica que o endossimbionte mitocondrial primitivo era uma bactéria do grupo das alfa-proteobactérias, cuja capacidade aeróbia permitia metabolizar oxigênio molecular e produzir grandes volumes de ATP via fosforilação oxidativa.",
+        "C": "Incorreta: cianobactérias são bactérias fotossintéticas associadas à origem posterior dos cloroplastos em algas e plantas, não das mitocôndrias.",
+        "D": "Incorreta: a relação estabelecida com a alfa-proteobactéria não foi lítica ou destrutiva, mas sim uma cooperação mutualística estável de longo prazo."
+      },
+      "referencia": {
+        "paginas": [
+          5
+        ],
+        "fundamentacao": "Página 5.",
+        "trechos_apoio": [
+          "Parceiro Simbionte (Bacteria) • Procarionte Aeróbio: Bactéria alfa-proteobactéria capaz de metabolizar oxigênio (respiração celular) para gerar ATP de forma extremamente eficiente."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_03_q016",
+      "slide_id": "origem_vida_aula_03",
+      "slide_nome": "Aula 03 - Evolução da Célula 2",
+      "arquivo_origem": "Aula 03 - Evolução da Célula 2_260910_160102 (1).pdf",
+      "numero": 16,
+      "tema": "O Salto Eucarionte",
+      "subtema": "A Relação Mutualística e a Origem da Mitocôndria",
+      "enunciado": "Na descrição da simbiose intracelular apresentada no material didático, a interação biológica entre a célula hospedeira e a bactéria aeróbica evitou a digestão intracelular clássica. O estabelecimento dessa associação mutualística estável resultou em:",
+      "alternativas": {
+        "A": "Destruição imediata da carioteca nuclear da hospedeira por enzimas bacterianas.",
+        "B": "Conversão da bactéria livre em uma organela especializada integrada (mitocôndria), com progressiva simplificação de seu genoma ao longo das eras.",
+        "C": "Reversão da célula hospedeira ao estado de protocélula sem ácidos nucleicos.",
+        "D": "Liberação maciça de metano que tornou o citoplasma eucariótico estéril."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a carioteca nuclear permaneceu íntegra e desempenhou papel crucial na separação e proteção do genoma nuclear hospedeiro.",
+        "B": "Correta: em vez de ser destruída nos vacúolos digestivos, a bactéria englobada alinhou-se mutualisticamente à hospedeira; com o passar do tempo evolutivo, parte de seus genes transferiu-se para o núcleo e seu genoma simplificou-se, tornando-se a mitocôndria moderna.",
+        "C": "Incorreta: o evento endossimbiótico aumentou drasticamente a complexidade celular, distanciando ainda mais a célula das antigas protocélulas.",
+        "D": "Incorreta: a mitocôndria realiza oxidação aeróbia consumindo oxigênio e produzindo ATP e água, e não esterilização por gás metano."
+      },
+      "referencia": {
+        "paginas": [
+          5
+        ],
+        "fundamentacao": "Página 5.",
+        "trechos_apoio": [
+          "O Alinhamento Mutualístico: Uma célula hospedeira arqueana engloba procariontes aeróbios de vida livre (proteobactérias). Em vez de digeri-los, estabelece uma relação mutualística de longo prazo: as futuras mitocôndrias. A Célula Eucarionte • Organelas Estáveis: A bactéria fagocitada simplificou seu genoma ao longo de eras, tornando-se a mitocôndria moderna."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_03_q017",
+      "slide_id": "origem_vida_aula_03",
+      "slide_nome": "Aula 03 - Evolução da Célula 2",
+      "arquivo_origem": "Aula 03 - Evolução da Célula 2_260910_160102 (1).pdf",
+      "numero": 17,
+      "tema": "Bioenergética e Complexidade",
+      "subtema": "O Papel da Mitocôndria na Expansão Genômica",
+      "enunciado": "A aquisição da mitocôndria representou um verdadeiro divisor de águas bioenergético na história da vida. De acordo com a apostila, de que maneira a abundante produção energética mitocondrial influenciou o genoma da célula eucariótica?",
+      "alternativas": {
+        "A": "Forçou a diminuição drástica do DNA nuclear para conter os custos de energia da célula.",
+        "B": "Forneceu o excedente maciço de ATP necessário para viabilizar um genoma nuclear muito maior e sustentar redes complexas de regulação gênica fina.",
+        "C": "Impediu que o DNA eucariótico pudesse sofrer qualquer tipo de transcrição em RNA mensageiro.",
+        "D": "Desintegrou as proteínas histonas, tornando os cromossomos eucarióticos circulares como os de bactérias."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a mitocôndria permitiu a expansão — e não o encolhimento — do genoma nuclear; células eucarióticas têm genomas milhares de vezes maiores que os de procariontes.",
+        "B": "Correta: a geração massiva e eficiente de ATP pela fosforilação oxidativa mitocondrial removeu o gargalo bioenergético que limitava os procariontes, possibilitando à célula eucariótica manter, replicar, transcrever e regular genomas extensos, densos e multifuncionais.",
+        "C": "Incorreta: o excedente de energia impulsionou ativamente a transcrição e a tradução celular em múltiplos níveis regulatórios.",
+        "D": "Incorreta: o DNA nuclear manteve conformação linear e empacotamento denso associado a histonas, padrão exclusivo eucariótico."
+      },
+      "referencia": {
+        "paginas": [
+          5
+        ],
+        "fundamentacao": "Página 5.",
+        "trechos_apoio": [
+          "Expansão Genômica: A energia mitocondrial de alta eficiência habilitou o genoma nuclear a crescer enormemente e codificar a regulação fina eucariótica."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_03_q018",
+      "slide_id": "origem_vida_aula_03",
+      "slide_nome": "Aula 03 - Evolução da Célula 2",
+      "arquivo_origem": "Aula 03 - Evolução da Célula 2_260910_160102 (1).pdf",
+      "numero": 18,
+      "tema": "Quadro Comparativo Evolutivo",
+      "subtema": "A Organização de Fronteira nos Três Estágios",
+      "enunciado": "Analisando a tabela síntese comparativa das estruturas celulares da aula, como é caracterizada a organização de fronteira (membrana) nas protocélulas pré-bióticas em comparação com os procariontes do clado do LUCA?",
+      "alternativas": {
+        "A": "Protocélulas possuíam parede celular rígida de peptideoglicano, enquanto o LUCA possuía apenas carioteca nuclear.",
+        "B": "Protocélulas possuíam frágil barreira mecânica auto-organizada com permeabilidade passiva não seletiva, enquanto o LUCA já apresentava membrana plasmática funcional com bombas iônicas ativas e parede celular protetora.",
+        "C": "Ambos possuíam exatamente a mesma estrutura de membrana plasmática repleta de bombas ativas de sódio e potássio.",
+        "D": "As protocélulas possuíam endomembranas extensas de retículo endoplasmático rugoso, ausentes no LUCA."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: peptideoglicano e parede protetora pertencem aos procariontes verdadeiros; protocélulas não possuíam parede celular e o LUCA não tinha carioteca.",
+        "B": "Correta: a tabela comparativa oficial pontua que os sistemas pré-bióticos apresentavam apenas uma frágil barreira mecânica lipídica com permeabilidade passiva não seletiva; já o LUCA procarionte contava com membrana plasmática funcional, regulação iônica ativa por bombas e parede celular física protetora.",
+        "C": "Incorreta: protocélulas não possuíam bombas ativas nem controle bioenergético de gradientes, dependendo de trocas passivas com a água.",
+        "D": "Incorreta: endomembranas são traços diagnósticos exclusivos de células eucarióticas complexas modernas."
+      },
+      "referencia": {
+        "paginas": [
+          6
+        ],
+        "fundamentacao": "Página 6.",
+        "trechos_apoio": [
+          "Tabela comparativa: Coacervados e Protocélulas: Frágil barreira mecânica auto-organizada. Permeabilidade passiva não seletiva. Célula Procarionte (LUCA e Linhagens): Membrana plasmática funcional, bombas iônicas ativas e parede celular protetora."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_03_q019",
+      "slide_id": "origem_vida_aula_03",
+      "slide_nome": "Aula 03 - Evolução da Célula 2",
+      "arquivo_origem": "Aula 03 - Evolução da Célula 2_260910_160102 (1).pdf",
+      "numero": 19,
+      "tema": "Quadro Comparativo Evolutivo",
+      "subtema": "Metabolismo e Catálise ao Longo da Evolução",
+      "enunciado": "No comparativo evolutivo dos processos de obtenção de energia e catálise, a transição entre sistemas pré-bióticos, procariontes primordiais e eucariontes modernos seguiu qual progressão funcional?",
+      "alternativas": {
+        "A": "Reações redox isoladas estimuladas pela geologia (sem enzimas) → Vias anaeróbias diversificadas (fermentação/quimiotrofia) com síntese ribossomal → Respiração aeróbia ultraeficiente acoplada via mitocôndrias.",
+        "B": "Respiração aeróbia mitocondrial → Fermentação anaeróbia por leveduras → Reações puramente abióticas sem solvente.",
+        "C": "Fotossíntese oxigênica obrigatória em coacervados → Fixação de nitrogênio em vírus → Degeneração mitocondrial.",
+        "D": "Catálise exclusiva por DNA nuclear → Digestão lisossomal em bactérias → Síntese de ATP por microtúbulos."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: a linha evolutiva de catálise descrita na tabela demonstra que as protocélulas dependiam de reações inorgânicas fortuitas induzidas pela geologia sem catálise enzimática; os procariontes desenvolveram síntese ribossômica e vias metabólicas anaeróbias autônomas (quimiotrofia/fermentação); os eucariontes atingiram a bioenergética aeróbia de altíssimo rendimento via mitocôndrias endossimbióticas.",
+        "B": "Incorreta: inverte a flecha cronológica; a respiração celular mitocondrial é a rota mais recente e avançada dos três estágios.",
+        "C": "Incorreta: coacervados não realizavam fotossíntese e vírus não possuem metabolismo autônomo de fixação de nitrogênio.",
+        "D": "Incorreta: o DNA não atua como catalisador metabólico primário e microtúbulos não produzem ATP."
+      },
+      "referencia": {
+        "paginas": [
+          6
+        ],
+        "fundamentacao": "Página 6.",
+        "trechos_apoio": [
+          "Tabela comparativa — Metabolismo / Catálise: Coacervados e Protocélulas: Reações redox isoladas estimuladas pela geologia circundante. Sem enzimas. Célula Procarionte: Vias anaeróbias diversificadas (fermentação/quimiotrofia) e síntese por ribossomos. Célula Eucarionte: Respiração aeróbia ultraeficiente acoplada via mitocôndrias endossimbióticas."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_03_q020",
+      "slide_id": "origem_vida_aula_03",
+      "slide_nome": "Aula 03 - Evolução da Célula 2",
+      "arquivo_origem": "Aula 03 - Evolução da Célula 2_260910_160102 (1).pdf",
+      "numero": 20,
+      "tema": "Quadro Comparativo Evolutivo",
+      "subtema": "Arquitetura do Material Genético nos Três Estágios",
+      "enunciado": "Ao confrontar a estabilidade e conformação do material genético descritos na síntese evolutiva da aula, qual alternativa descreve com precisão a estrutura informacional da célula eucarionte em relação aos estágios que a antecederam?",
+      "alternativas": {
+        "A": "Fragmentos de RNA instáveis e soltos em solução sem empacotamento.",
+        "B": "Um cromossomo único e circular disperso no nucleoide sem carioteca.",
+        "C": "DNA linear nucleossômico de alta densidade e complexidade, contido e protegido por uma carioteca nuclear.",
+        "D": "Plasmídeos livres contidos dentro de vacúolos de gás hidrogênio."
+      },
+      "gabarito": "C",
+      "explicacoes": {
+        "A": "Incorreta: RNA instável e fragmentado corresponde ao modelo de sistemas pré-bióticos do Mundo de RNA primitivo.",
+        "B": "Incorreta: DNA circular desprovido de carioteca e de histonas é a configuração típica dos organismos procariontes (como o LUCA e as bactérias).",
+        "C": "Correta: conforme a linha de hereditariedade da tabela comparativa, a célula eucariótica moderna possui DNA estruturado em múltiplos cromossomos lineares densamente associados a histonas (formando nucleossomos), individualizados e protegidos pelo envelope nuclear (carioteca).",
+        "D": "Incorreta: plasmídeos são moléculas acessórias de DNA circular comuns em bactérias e arqueas, não caracterizando o padrão eucariótico genômico central."
+      },
+      "referencia": {
+        "paginas": [
+          6
+        ],
+        "fundamentacao": "Página 6.",
+        "trechos_apoio": [
+          "Tabela comparativa — Material Genético (Hereditariedade): Célula Eucarionte (Complexidade Moderna): DNA linear nucleossômico de alta complexidade e densidade, contido por carioteca nuclear."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_03_q021",
+      "slide_id": "origem_vida_aula_03",
+      "slide_nome": "Aula 03 - Evolução da Célula 2",
+      "arquivo_origem": "Aula 03 - Evolução da Célula 2_260910_160102 (1).pdf",
+      "numero": 21,
+      "tema": "Transição Prebiótica",
+      "subtema": "Confinamento e Concentração Molecular",
+      "enunciado": "O confinamento físico proporcionado pelas vesículas pré-celulares e coacervados é descrito na aula como um pré-requisito cinético indispensável para a emergência das primeiras rotas metabólicas. Esse isolamento foi crucial porque:",
+      "alternativas": {
+        "A": "Impedia que os reagentes químicos e catalisadores ficassem infinitamente dispersos e diluídos no oceano primitivo, viabilizando o aumento da taxa de colisões moleculares.",
+        "B": "Eliminava a necessidade de água líquida para as reações celulares, permitindo que a síntese de polímeros ocorresse no estado sólido.",
+        "C": "Bloqueava de modo irreversível a entrada de lipídios ambientais para evitar o crescimento das vesículas.",
+        "D": "Convertia a energia geotérmica de fontes hidrotermais diretamente em ATP sem a necessidade de gradientes iônicos."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: em uma solução aberta e homogênea como o oceano primitivo, moléculas orgânicas recém-sintetizadas dissipam-se por difusão; o confinamento dentro de compartimentos aumentou a concentração local de precursores, catalisando as interações químicas essenciais.",
+        "B": "Incorreta: os sistemas pré-bióticos dependiam diretamente do meio aquoso como solvente e suporte físico para a auto-organização de membranas e transporte de solutos.",
+        "C": "Incorreta: as protocélulas continuavam incorporando lipídios do ambiente externo para expandir sua área de superfície antes de se fragmentarem.",
+        "D": "Incorreta: o aproveitamento de energia por gradientes eletroquímicos e ATP sintase foi uma conquista consolidada mais tarde na evolução celular (como no LUCA), não existindo em agregados pré-bióticos primitivos."
+      },
+      "referencia": {
+        "paginas": [
+          2
+        ],
+        "fundamentacao": "Página 2.",
+        "trechos_apoio": [
+          "Concentração e Catálise: O confinamento molecular impede que os reagentes se dispersem na vastidão do oceano primitivo, facilitando colisões químicas."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_03_q022",
+      "slide_id": "origem_vida_aula_03",
+      "slide_nome": "Aula 03 - Evolução da Célula 2",
+      "arquivo_origem": "Aula 03 - Evolução da Célula 2_260910_160102 (1).pdf",
+      "numero": 22,
+      "tema": "Limitações das Protocélulas",
+      "subtema": "A Ausência de Informação e o Desaparecimento de Vantagens",
+      "enunciado": "Um dos conceitos fundamentais apresentados na apostila para explicar a fragilidade dos sistemas pré-bióticos é a ausência de evolução cumulativa. Por que uma vesícula pré-celular que desenvolvesse uma rede química eficiente não conseguia perpetuá-la?",
+      "alternativas": {
+        "A": "Porque as altas concentrações de oxigênio da atmosfera primitiva oxidavam instantaneamente os lipídios de membrana.",
+        "B": "Porque, ao sofrer fragmentação por tensão mecânica, a ausência de um código genético estável de replicação fazia com que os novos compartimentos não herdassem a composição química bem-sucedida.",
+        "C": "Porque a presença de ribozimas impedia que novas vesículas fossem geradas no caldo primordial.",
+        "D": "Porque a parede celular de celulose impedia que a vesícula interagisse com nutrientes externos."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a atmosfera primitiva era redutora/anóxica (desprovida de oxigênio livre); a falha era informacional, não por oxidação atmosférica.",
+        "B": "Correta: sem uma molécula informacional com replicação semiconservativa confiável (como o DNA posterior), qualquer conformação química favorável obtida por uma vesícula dissipava-se aleatoriamente no momento de sua fragmentação mecânica, impedindo a seleção natural cumulativa.",
+        "C": "Incorreta: ribozimas atuavam na catálise e polimerização rudimentar, não inibindo a fragmentação mecânica das vesículas.",
+        "D": "Incorreta: protocélulas não possuíam parede celular rígida de celulose (estrutura típica de plantas muito posteriores), mas sim membranas lipídicas flexíveis."
+      },
+      "referencia": {
+        "paginas": [
+          2
+        ],
+        "fundamentacao": "Página 2.",
+        "trechos_apoio": [
+          "Sem Evolução Cumulativa: Sem herança molecular estável, quaisquer vantagens químicas adquiridas por uma vesícula desapareciam em sua divisão física."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_03_q023",
+      "slide_id": "origem_vida_aula_03",
+      "slide_nome": "Aula 03 - Evolução da Célula 2",
+      "arquivo_origem": "Aula 03 - Evolução da Célula 2_260910_160102 (1).pdf",
+      "numero": 23,
+      "tema": "O Mundo de RNA",
+      "subtema": "As Ribozimas como Moléculas Catalíticas",
+      "enunciado": "A demonstração de que moléculas de RNA podem atuar como catalisadores biológicos (ribozimas) forneceu a base empírica para a hipótese do Mundo de RNA. Na biologia pré-biótica descrita no material, as ribozimas desempenharam papel revolucionário porque:",
+      "alternativas": {
+        "A": "Comprovaram que as reações químicas vitais podiam ser catalisadas e direcionadas por ácidos nucleicos antes do surgimento das enzimas proteicas codificadas.",
+        "B": "Eram imunes a qualquer tipo de degradação térmica ou hidrólise aquosa.",
+        "C": "Substituíram o ATP na fosforilação oxidativa mitocondrial.",
+        "D": "Formavam invólucros nucleares rígidos que isolavam o citoplasma da água circundante."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: a descoberta de que o RNA acumula capacidade informacional e atividade catalítica resolveu o paradoxo do \"ovo e da galinha\" (proteínas exigem código genético e o DNA exige enzimas proteicas para replicar), demonstrando que um único tipo de polímero podia realizar ambas as funções no início.",
+        "B": "Incorreta: o RNA é quimicamente instável e sofre hidrólise espontânea devido à presença da hidroxila 2'-OH na ribose.",
+        "C": "Incorreta: mitocôndrias e fosforilação oxidativa pertencem à evolução eucariótica tardia, não havendo substituição do ATP por ribozimas.",
+        "D": "Incorreta: o invólucro nuclear é composto por bicamada lipídica com proteínas transmembrana originada por invaginação de membrana, e não por ribozimas estruturais."
+      },
+      "referencia": {
+        "paginas": [
+          3
+        ],
+        "fundamentacao": "Página 3.",
+        "trechos_apoio": [
+          "Dupla Função: O RNA conseguia tanto codificar sequências genéticas quanto atuar como catalisador (ribozimas)."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_03_q024",
+      "slide_id": "origem_vida_aula_03",
+      "slide_nome": "Aula 03 - Evolução da Célula 2",
+      "arquivo_origem": "Aula 03 - Evolução da Célula 2_260910_160102 (1).pdf",
+      "numero": 24,
+      "tema": "Bioquímica Comparada",
+      "subtema": "A Instabilidade Hidrolítica da Ribose no RNA",
+      "enunciado": "O texto da aula enfatiza que o RNA sofre de \"limitação de estabilidade\" em virtude da composição química de sua pentose. Qual é a consequência direta dessa instabilidade intrínseca para a evolução dos primeiros organismos vivos?",
+      "alternativas": {
+        "A": "A impossibilidade de manter genomas muito extensos com alta fidelidade de cópia ao longo de muitas gerações.",
+        "B": "A incapacidade absoluta de formar pontes de hidrogênio entre bases nitrogenadas.",
+        "C": "A perda imediata da capacidade de se dissolver em solventes polares como a água.",
+        "D": "A conversão obrigatória de todos os nucleotídeos de adenina em glicose."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: devido à hidroxila reativa no carbono 2' (2'-OH), o esqueleto fosfodiéster do RNA é quimicamente frágil e sujeito à quebra espontânea por hidrólise, o que impõe um limite máximo ao tamanho dos genomas baseados puramente em RNA sem que ocorra um acúmulo insustentável de mutações letais e quebras.",
+        "B": "Incorreta: o RNA pareia normalmente suas bases por pontes de hidrogênio (A-U e G-C), tanto em dobras internas quanto em complexos de tradução.",
+        "C": "Incorreta: a estrutura polianiônica do RNA com fosfatos ionizados garante excelente solubilidade em água.",
+        "D": "Incorreta: adenina é uma base nitrogenada purina e não sofre conversão enzimática espontânea em monossacarídeos como a glicose."
+      },
+      "referencia": {
+        "paginas": [
+          3
+        ],
+        "fundamentacao": "Página 3.",
+        "trechos_apoio": [
+          "A ribose possui uma hidroxila 2'-OH que torna a molécula de RNA altamente suscetível à hidrólise [...], limitando genomas extensos."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_03_q025",
+      "slide_id": "origem_vida_aula_03",
+      "slide_nome": "Aula 03 - Evolução da Célula 2",
+      "arquivo_origem": "Aula 03 - Evolução da Célula 2_260910_160102 (1).pdf",
+      "numero": 25,
+      "tema": "Transição Química para o DNA",
+      "subtema": "A Vantagem Mecânica do Reparo por Fita Dupla",
+      "enunciado": "A transição do RNA para o DNA representou a conquista da estabilidade e fidelidade genômica. Qual propriedade estrutural do DNA atua como mecanismo intrínseco de redundância para a preservação e correção da informação hereditária?",
+      "alternativas": {
+        "A": "A flexibilidade da sua cadeia simples desprovida de pontes de hidrogênio.",
+        "B": "O pareamento de bases complementares em fita dupla antiparalela, que serve como molde de verificação e reparo molecular.",
+        "C": "A incorporação de lipídios anfipáticos no esqueleto de açúcar-fosfato.",
+        "D": "A presença de poros de membrana permeáveis a íons de cálcio no interior da hélice."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o DNA opera como fita dupla estável unida por pontes de hidrogênio, e não como cadeia simples instável.",
+        "B": "Correta: como cada fita possui a sequência complementar exata da fita oposta, eventuais danos ou alterações químicas em uma fita podem ser identificados e corrigidos enzimaticamente utilizando a fita intacta como gabarito fiel.",
+        "C": "Incorreta: o esqueleto do DNA é estritamente formado por unidades alternadas de fosfato e 2'-desoxirribose, sem lipídios.",
+        "D": "Incorreta: poros e transporte iônico são propriedades de membranas plasmáticas e da carioteca, não do polímero de DNA."
+      },
+      "referencia": {
+        "paginas": [
+          3
+        ],
+        "fundamentacao": "Página 3.",
+        "trechos_apoio": [
+          "Fita Dupla Confiável: O pareamento complementar de fitas atua como um sistema natural de redundância e reparo de mutações, permitindo expandir o genoma com fidelidade."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_03_q026",
+      "slide_id": "origem_vida_aula_03",
+      "slide_nome": "Aula 03 - Evolução da Célula 2",
+      "arquivo_origem": "Aula 03 - Evolução da Célula 2_260910_160102 (1).pdf",
+      "numero": 26,
+      "tema": "A Era Procarionte",
+      "subtema": "Acoplamento Transcrição-Tradução no Nucleoide",
+      "enunciado": "Nos organismos procariontes primitivos, o material genético está disperso no citoplasma na região do nucleoide. Uma consequência funcional direta dessa ausência de compartimentação nuclear é:",
+      "alternativas": {
+        "A": "A ocorrência de tradução por ribossomos livres de forma quase simultânea à transcrição do RNA mensageiro a partir do DNA.",
+        "B": "A necessidade obrigatória de empacotar o DNA em histonas antes de qualquer leitura gênica.",
+        "C": "O bloqueio total da síntese proteica na ausência de oxigênio molecular no citosol.",
+        "D": "O transporte ativo de vesículas contendo RNA mensageiro através do complexo de Golgi."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: sem uma carioteca física interposta entre o genoma e os ribossomos citoplasmáticos, os ribossomos associam-se à molécula de RNA mensageiro antes mesmo de o processo de transcrição estar concluído, viabilizando uma resposta rápida de síntese proteica.",
+        "B": "Incorreta: o DNA procarionte típico é circular e desprovido de histonas (não forma nucleossomos).",
+        "C": "Incorreta: os primeiros procariontes eram anaeróbios e operavam sua síntese proteica perfeitamente sem oxigênio.",
+        "D": "Incorreta: complexo de Golgi é uma organela endomembranar eucariótica inexistente em procariontes."
+      },
+      "referencia": {
+        "paginas": [
+          4
+        ],
+        "fundamentacao": "Página 4.",
+        "trechos_apoio": [
+          "A síntese proteica é feita por ribossomos livres que traduzem o RNA quase simultaneamente à transcrição do DNA (genômica)."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_03_q027",
+      "slide_id": "origem_vida_aula_03",
+      "slide_nome": "Aula 03 - Evolução da Célula 2",
+      "arquivo_origem": "Aula 03 - Evolução da Célula 2_260910_160102 (1).pdf",
+      "numero": 27,
+      "tema": "A Transição Eucarionte",
+      "subtema": "A Origem Autogênica do Sistema de Endomembranas",
+      "enunciado": "O surgimento da carioteca nuclear e do retículo endoplasmático na linhagem que deu origem aos eucariontes é explicado no material por um mecanismo físico-químico endógeno. Esse mecanismo consistiu na:",
+      "alternativas": {
+        "A": "Digestão de bactérias fotosintetizantes que deixaram seus tilacoides no citoplasma.",
+        "B": "Invaginação e dobragem para dentro da membrana plasmática da célula hospedeira ancestral (Archaea).",
+        "C": "Precipitação de proteínas plasmáticas do sangue sobre a parede bacteriana.",
+        "D": "Invasão viral com lise da membrana externa e geração de vacúolos de gás metano."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: tilacoides e fotossíntese relacionam-se aos cloroplastos (endossimbiose posterior), e não à gênese do envelope nuclear e do retículo.",
+        "B": "Correta: a hipótese autogênica detalhada no slide pontua que invaginações da membrana plasmática da hospedeira arqueana dobraram-se para o interior celular, originando compartimentos fechados como o retículo, o complexo de Golgi e a carioteca que individualizou o material genético.",
+        "C": "Incorreta: proteínas sanguíneas pertencem à fisiologia animal avançada de vertebrados, milhões de anos após a origem celular.",
+        "D": "Incorreta: a compartimentalização interna não resultou de lise viral destrutiva, mas de especializações estruturais da membrana hospedeira."
+      },
+      "referencia": {
+        "paginas": [
+          5
+        ],
+        "fundamentacao": "Página 5.",
+        "trechos_apoio": [
+          "Invaginação da Membrana: Dobragem para dentro da membrana plasmática ancestral cria compartimentos internos fechados, dando origem ao sistema de endomembranas (retículo, complexo de Golgi) e, crucialmente, ao envelope nuclear (carioteca)."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_03_q028",
+      "slide_id": "origem_vida_aula_03",
+      "slide_nome": "Aula 03 - Evolução da Célula 2",
+      "arquivo_origem": "Aula 03 - Evolução da Célula 2_260910_160102 (1).pdf",
+      "numero": 28,
+      "tema": "A Transição Eucarionte",
+      "subtema": "O Citoesqueleto Dinâmico e a Fagocitose",
+      "enunciado": "Para que a célula hospedeira ancestral pudesse internalizar o simbionte bacteriano sem destruí-lo mecanicamente, foi indispensável o desenvolvimento prévio de um citoesqueleto flexível. Essa inovação conferiu à linhagem hospedeira a capacidade de:",
+      "alternativas": {
+        "A": "Realizar fagocitose rápida e emitir projeções de membrana com maleabilidade física.",
+        "B": "Substituir permanentemente as bombas de prótons por minerais de ferro magnético.",
+        "C": "Eliminar todas as proteínas de membrana para facilitar trocas osmóticas passivas.",
+        "D": "Sintetizar glicose diretamente a partir de nitrogênio gasoso atmosférico."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: filamentos proteicos dinâmicos do citoesqueleto permitiram à célula mudar de formato, emitir pseudópodes e fagocitar partículas e outros microrganismos inteiros, passo mecânico obrigatório para a endocitose do precursor mitocondrial.",
+        "B": "Incorreta: gradientes eletroquímicos e bombas iônicas foram preservados e aprimorados, sendo cruciais para a bioenergética celular.",
+        "C": "Incorreta: proteínas de membrana são indispensáveis para a recepção de sinais, transporte e ancoragem do próprio citoesqueleto.",
+        "D": "Incorreta: o citoesqueleto atua na arquitetura e motilidade celular, não na fixação química de nitrogênio ou síntese de carboidratos."
+      },
+      "referencia": {
+        "paginas": [
+          5
+        ],
+        "fundamentacao": "Página 5.",
+        "trechos_apoio": [
+          "Flexibilidade do Citoesqueleto: Permitiu fagocitose celular rápida e maleabilidade física."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_03_q029",
+      "slide_id": "origem_vida_aula_03",
+      "slide_nome": "Aula 03 - Evolução da Célula 2",
+      "arquivo_origem": "Aula 03 - Evolução da Célula 2_260910_160102 (1).pdf",
+      "numero": 29,
+      "tema": "O Salto Eucarionte",
+      "subtema": "A Aquisição Mitocondrial e a Eficiência Bioenergética",
+      "enunciado": "Na descrição evolutiva da aula, o englobamento mutualístico da alfa-proteobactéria aeróbia (futura mitocôndria) desencadeou uma verdadeira \"revolução bioenergética\" na célula eucariótica nascente. Qual foi o impacto metabólico direto dessa associação?",
+      "alternativas": {
+        "A": "A substituição das vias aeróbias por fermentação láctica exclusiva em todos os tecidos.",
+        "B": "A produção massiva de ATP via fosforilação oxidativa respiratória, superando o rendimento limitado das vias anaeróbias ancestrais.",
+        "C": "A destruição irreversível do DNA contido no núcleo da célula hospedeira.",
+        "D": "A perda da capacidade de sintetizar lipídios e proteínas estruturais."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a mitocôndria permitiu a respiração oxidativa aeróbia com alto rendimento energético, superando a fermentação menos eficiente.",
+        "B": "Correta: a alfa-proteobactéria aeróbia utilizava o oxigênio acumulado no planeta para oxidar nutrientes e gerar grandes quantidades de ATP por molécula de glicose, viabilizando demandas bioenergéticas incompatíveis com a fermentação procarionte simples.",
+        "C": "Incorreta: o DNA nuclear manteve-se protegido pela carioteca e pôde expandir-se enormemente graças ao excedente energético mitocondrial.",
+        "D": "Incorreta: a abundância de ATP forneceu energia para impulsionar a síntese de proteínas complexas, novos lipídios e organelas especializadas."
+      },
+      "referencia": {
+        "paginas": [
+          5
+        ],
+        "fundamentacao": "Página 5.",
+        "trechos_apoio": [
+          "Bactéria alfa-proteobactéria capaz de metabolizar oxigênio (respiração celular) para gerar ATP de forma extremamente eficiente.",
+          "A bactéria fagocitada simplificou seu genoma ao longo de eras, tornando-se a mitocôndria moderna."
+        ]
+      }
+    },
+    {
+      "id": "origem_vida_aula_03_q030",
+      "slide_id": "origem_vida_aula_03",
+      "slide_nome": "Aula 03 - Evolução da Célula 2",
+      "arquivo_origem": "Aula 03 - Evolução da Célula 2_260910_160102 (1).pdf",
+      "numero": 30,
+      "tema": "Quadro Comparativo Evolutivo",
+      "subtema": "A Evolução da Divisão e Hereditariedade",
+      "enunciado": "Analisando a tabela síntese comparativa das três etapas evolutivas (Protocélulas, Procariontes e Eucariontes), qual alternativa resume corretamente a evolução do mecanismo de divisão e propagação ao longo desses estágios?",
+      "alternativas": {
+        "A": "Fragmentação física não regulada sem replicação genética estável → Fissão binária procarionte rápida sem fuso acromático → Mitose e meiose reguladas com segregação cromossômica por fuso acromático.",
+        "B": "Mitose mediada por centríolos → Fissão binária anaeróbia → Fusão nuclear de colônias de vírus.",
+        "C": "Meiose haploide em coacervados → Brotamento celular em algas → Fissão binária exclusiva em humanos.",
+        "D": "Fragmentação espontânea de histonas → Síntese direta de clones bacterianos sem divisão celular."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: a tabela comparativa destaca que as protocélulas passavam por fragmentação mecânica fortuita; os procariontes estabeleceram a fissão binária simples e rápida guiada por replicação do cromossomo circular único; e os eucariontes desenvolveram processos sofisticados de mitose e meiose com controle de ciclo celular e fuso baseado em microtúbulos.",
+        "B": "Incorreta: inverte a ordem evolutiva, atribuindo mitose sofisticada aos sistemas pré-bióticos iniciais.",
+        "C": "Incorreta: meiose pressupõe células diploides com reprodução sexuada e carioteca, ausente em coacervados; humanos utilizam mitose e meiose.",
+        "D": "Incorreta: a divisão celular requer separação física real de citoplasma e membrana (citocinese) e preservação do material genético."
+      },
+      "referencia": {
+        "paginas": [
+          2,
+          4,
+          5,
+          6
+        ],
+        "fundamentacao": "Páginas 2, 4, 5 e 6.",
+        "trechos_apoio": [
+          "Vesículas [...] se fragmentam por tensões mecânicas\" / \"Fissão binária e alta velocidade de reprodução\" / \"Divisão e Ciclo Celular: Mitose e meiose altamente coordenadas com fuso acromático."
+        ]
+      }
+    }
+  ]
+}
