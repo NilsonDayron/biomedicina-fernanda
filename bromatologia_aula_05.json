@@ -1,0 +1,1288 @@
+{
+  "questoes": [
+    {
+      "id": "bromatologia_aula_05_q001",
+      "slide_id": "bromatologia_aula_05",
+      "slide_nome": "Aula 05 - Proteínas",
+      "arquivo_origem": "Aula 5 - Proteinas_261006_203142.pdf",
+      "numero": 1,
+      "tema": "Proteínas",
+      "subtema": "Conceito Estrutural das Proteínas",
+      "enunciado": "As proteínas são macronutrientes fundamentais para a estrutura e o metabolismo dos organismos vivos. De acordo com a caracterização inicial apresentada na aula, as proteínas são quimicamente definidas como:",
+      "alternativas": {
+        "A": "Monômeros de glicose anidra unidos exclusivamente por pontes de hidrogênio fracas.",
+        "B": "Macromoléculas complexas compostas por 20 aminoácidos diferentes.",
+        "C": "Triésteres de glicerol condensados com três moléculas de ácidos graxos insaturados.",
+        "D": "Cadeias inorgânicas de polifosfatos solúveis precipitadas em meio ácido."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: polímeros de glicose correspondem a polissacarídeos (como amido e celulose), e não a proteínas.",
+        "B": "Correta: a apostila define expressamente que as proteínas são macromoléculas complexas compostas por 20 aminoácidos diferentes.",
+        "C": "Incorreta: triésteres de glicerol com ácidos graxos correspondem à estrutura química dos triglicerídeos (lipídeos).",
+        "D": "Incorreta: proteínas são compostos orgânicos formados por aminoácidos, e não polifosfatos inorgânicos."
+      },
+      "referencia": {
+        "paginas": [
+          2
+        ],
+        "fundamentacao": "Slide 2 da apostila.",
+        "trechos_apoio": [
+          "As proteínas são macromoléculas complexas composta por 20 aminoácidos diferentes."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_05_q002",
+      "slide_id": "bromatologia_aula_05",
+      "slide_nome": "Aula 05 - Proteínas",
+      "arquivo_origem": "Aula 5 - Proteinas_261006_203142.pdf",
+      "numero": 2,
+      "tema": "Composição Centesimal",
+      "subtema": "Teor de Proteínas em Alimentos",
+      "enunciado": "Na tabela comparativa de alimentos apresentada no slide 2, são destacados os teores de proteína total (%) em matrizes de consumo cotidiano. De acordo com essa tabela, o alimento que apresenta o maior percentual de proteína total é:",
+      "alternativas": {
+        "A": "Batata frita (5,6%).",
+        "B": "Pão branco (8,4%).",
+        "C": "Carne (20,3%).",
+        "D": "Lentilha (24,3%)."
+      },
+      "gabarito": "D",
+      "explicacoes": {
+        "A": "Incorreta: a batata frita apresenta apenas 5,6% de proteína total na tabela.",
+        "B": "Incorreta: o pão branco apresenta 8,4% de proteína total.",
+        "C": "Incorreta: a carne apresenta 20,3%, sendo superada pela lentilha na tabela do slide.",
+        "D": "Correta: a lentilha apresenta 24,3% de proteína total, sendo o maior valor registrado na tabela do slide 2."
+      },
+      "referencia": {
+        "paginas": [
+          2
+        ],
+        "fundamentacao": "Slide 2 da apostila.",
+        "trechos_apoio": [
+          "| Alimento | Proteína total (%) | Lentilha | 24,3 | Carne | 20,3 | Ovo | 12,5 | Pão branco | 8,4 | Batata frita | 5,6 | Chocolate puro | 4,7 | Massa | 3,6 | Arroz | 2,6 |"
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_05_q003",
+      "slide_id": "bromatologia_aula_05",
+      "slide_nome": "Aula 05 - Proteínas",
+      "arquivo_origem": "Aula 5 - Proteinas_261006_203142.pdf",
+      "numero": 3,
+      "tema": "Fontes Alimentares",
+      "subtema": "Proteínas Animais versus Proteínas Vegetais",
+      "enunciado": "Em relação ao valor nutricional das fontes alimentares proteicas abordadas na aula, assinale a afirmativa correta:",
+      "alternativas": {
+        "A": "As proteínas vegetais (cereais e leguminosas) possuem alto valor biológico completo, sem qualquer aminoácido limitante.",
+        "B": "As proteínas animais (leite, carnes, peixes, aves e ovos) possuem alto valor biológico.",
+        "C": "As proteínas animais são consideradas parcialmente completas por apresentarem carência estrita de aminoácidos sulfurados.",
+        "D": "Cereais e leguminosas fornecem proteínas de valor biológico idêntico ao do ovo de galinha integral."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o texto destaca que as proteínas vegetais são \"parcialmente completas, com aminoácidos limitantes\".",
+        "B": "Correta: a apostila classifica diretamente as proteínas animais (leite, carnes, peixes, aves e ovos) como fontes de \"alto valor biológico\".",
+        "C": "Incorreta: são as proteínas vegetais que contêm aminoácidos limitantes; as animais contêm todos os essenciais em proporções adequadas.",
+        "D": "Incorreta: cereais e leguminosas apresentam aminoácidos limitantes e não se igualam isoladamente ao perfil de alto valor biológico de fontes animais como ovos e carnes."
+      },
+      "referencia": {
+        "paginas": [
+          3
+        ],
+        "fundamentacao": "Slide 3 da apostila.",
+        "trechos_apoio": [
+          "Proteínas Animais: Leite, carnes, peixes, aves e ovos. Alto valor biológico. / Proteínas Vegetais: Cereais e leguminosas. Parcialmente completas, com aminoácidos limitantes."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_05_q004",
+      "slide_id": "bromatologia_aula_05",
+      "slide_nome": "Aula 05 - Proteínas",
+      "arquivo_origem": "Aula 5 - Proteinas_261006_203142.pdf",
+      "numero": 4,
+      "tema": "Recomendações Nutricionais",
+      "subtema": "Diretrizes da OMS",
+      "enunciado": "O material didático apresenta as recomendações da Organização Mundial da Saúde (OMS) para a ingestão proteica diária. Conforme o slide 3, a recomendação diária de proteína para adultos saudáveis e a faixa percentual preconizada em relação ao Valor Energético Total (VET) da dieta são, respectivamente:",
+      "alternativas": {
+        "A": "2,0 g/kg de peso corpóreo; 30% a 40% do VET.",
+        "B": "0,8 g/kg de peso corpóreo; 10% a 15% do VET.",
+        "C": "0,2 g/kg de peso corpóreo; 5% do VET.",
+        "D": "5,0 g/kg de peso corpóreo; 50% do VET."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: valores excessivos, recomendados em algumas diretrizes específicas de atletas de força, mas incompatíveis com os números gerais da OMS citados na aula.",
+        "B": "Correta: a apostila pontua formalmente: \"OMS: Recomendação Diária: 0,8 g/kg de peso corpóreo para adultos saudáveis / OMS: Percentual do VET: 10% a 15% do valor energético total da dieta seja de proteína\".",
+        "C": "Incorreta: 0,2 g/kg e 5% do VET configuram valores muito abaixo do necessário, gerando desnutrição proteico-calórica.",
+        "D": "Incorreta: ingestão de 5,0 g/kg é extremamente alta e foge completamente aos parâmetros da OMS."
+      },
+      "referencia": {
+        "paginas": [
+          3
+        ],
+        "fundamentacao": "Slide 3 da apostila.",
+        "trechos_apoio": [
+          "OMS: Recomendação Diária: 0,8g/kg de peso corpóreo para adultos saudáveis. / OMS: Percentual do VET: 10% a 15% do valor energético total da dieta seja de proteína."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_05_q005",
+      "slide_id": "bromatologia_aula_05",
+      "slide_nome": "Aula 05 - Proteínas",
+      "arquivo_origem": "Aula 5 - Proteinas_261006_203142.pdf",
+      "numero": 5,
+      "tema": "Proteínas",
+      "subtema": "Mecanismo Químico da Ligação Peptídica",
+      "enunciado": "A união entre os aminoácidos para a formação das cadeias polipeptídicas ocorre mediante a formação da ligação peptídica. Segundo a nota explicativa contida no slide 4, a ligação peptídica consiste em:",
+      "alternativas": {
+        "A": "Uma reação de hidrólise irreversível com absorção forçada de duas moléculas de água do meio.",
+        "B": "Uma reação de condensação, em que o grupamento α-carboxílico de um aminoácido se liga ao grupamento α-amino de outro aminoácido, ocorrendo a remoção de uma molécula de água.",
+        "C": "Uma ligação iônica fraca estabelecida entre os carbonos terminais sem perda de átomos.",
+        "D": "Uma oxidação catalisada por íons de ferro que libera gás carbônico e amônia livre."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: na ligação peptídica há condensação com saída de água, e não consumo de água por hidrólise.",
+        "B": "Correta: o slide estabelece com precisão: \"Ligação peptídica é uma reação de condensação, em que o grupamento a-carboxílico de um aminoácido se liga ao grupamento a-amino de outro aminoácido, ocorrendo a remoção de uma molécula de água\".",
+        "C": "Incorreta: a ligação peptídica é uma ligação covalente forte do tipo amida, e não uma atração iônica fraca.",
+        "D": "Incorreta: a condensação peptídica não é uma oxidação com desprendimento de CO₂ ou NH₃."
+      },
+      "referencia": {
+        "paginas": [
+          4
+        ],
+        "fundamentacao": "Slide 4 da apostila.",
+        "trechos_apoio": [
+          "OBS: Ligação peptídica é uma reação de condensação, em que o grupamento a-carboxílico de um aminoácido se liga ao grupamento a-amino de outro aminoácido, ocorrendo a remoção de uma molécula de água."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_05_q006",
+      "slide_id": "bromatologia_aula_05",
+      "slide_nome": "Aula 05 - Proteínas",
+      "arquivo_origem": "Aula 5 - Proteinas_261006_203142.pdf",
+      "numero": 6,
+      "tema": "Estrutura Molecular dos Aminoácidos",
+      "subtema": "O Carbono Alfa",
+      "enunciado": "Os aminoácidos compartilham uma arquitetura molecular comum com quatro ligantes unidos a um centro esterequímico central. Conforme a aula, todos os aminoácidos possuem um carbono assimétrico chamado de carbono alfa, o qual detém quatro ligantes distintos, a saber:",
+      "alternativas": {
+        "A": "Dois grupos metila, um átomo de cloro e uma molécula de glicerol.",
+        "B": "Grupo amino, grupo carboxila, átomo de hidrogênio e um grupo variável (representado por R).",
+        "C": "Quatro cadeias laterais aromáticas idênticas.",
+        "D": "Um grupo fosfato, um grupo aldeído, um radical álcool e uma molécula de água ligada."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: os aminoácidos não possuem cloro ou esqueleto fixo de glicerol em sua estrutura padrão.",
+        "B": "Correta: o texto indica textualmente: \"Todos eles possuem um carbono assimétrico chamado de carbono alfa, o qual detém quatro ligantes distintos: grupo amino; grupo carboxila; átomo de hidrogênio; e um grupo variável (representado por R)\".",
+        "C": "Incorreta: para que o carbono seja assimétrico, os quatro ligantes devem ser diferentes entre si.",
+        "D": "Incorreta: os grupos funcionais essenciais do carbono alfa são amino e carboxila, e não fosfato e aldeído."
+      },
+      "referencia": {
+        "paginas": [
+          5
+        ],
+        "fundamentacao": "Slide 5 da apostila.",
+        "trechos_apoio": [
+          "Todos eles possuem um carbono assimétrico chamado de carbono alfa, o qual detém quatro ligantes distintos: • grupo amino; • grupo carboxila; • átomo de hidrogênio; e • um grupo variável (representado por R)."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_05_q007",
+      "slide_id": "bromatologia_aula_05",
+      "slide_nome": "Aula 05 - Proteínas",
+      "arquivo_origem": "Aula 5 - Proteinas_261006_203142.pdf",
+      "numero": 7,
+      "tema": "Estrutura dos Aminoácidos",
+      "subtema": "O Grupo Variável R",
+      "enunciado": "Embora todos os aminoácidos apresentem os grupos amino e carboxila no carbono alfa, eles exibem propriedades físico-químicas e funcionais bastante diversas. De acordo com o slide 5, o componente responsável por promover a variabilidade química dos aminoácidos é:",
+      "alternativas": {
+        "A": "O átomo de hidrogênio fixo ligado ao carbono alfa.",
+        "B": "O grupamento carboxila comum a todos os ácidos orgânicos.",
+        "C": "O grupo variável (representado por R), também denominado cadeia lateral.",
+        "D": "A ligação fosfodiéster estabelecida com a membrana lipídica."
+      },
+      "gabarito": "C",
+      "explicacoes": {
+        "A": "Incorreta: o átomo de hidrogênio é idêntico e constante em todos os aminoácidos.",
+        "B": "Incorreta: o grupo carboxila (-COOH) é uma porção invariável da estrutura básica.",
+        "C": "Correta: a apostila expressa diretamente: \"Esse grupo variável, também denominado cadeia lateral, promove a variabilidade química dos aminoácidos\".",
+        "D": "Incorreta: ligações fosfodiéster ocorrem em ácidos nucleicos e fosfolipídeos, não compondo a estrutura padrão dos aminoácidos."
+      },
+      "referencia": {
+        "paginas": [
+          5
+        ],
+        "fundamentacao": "Slide 5 da apostila.",
+        "trechos_apoio": [
+          "Esse grupo variável, também denominado cadeia lateral, promove a variabilidade química dos aminoácidos."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_05_q008",
+      "slide_id": "bromatologia_aula_05",
+      "slide_nome": "Aula 05 - Proteínas",
+      "arquivo_origem": "Aula 5 - Proteinas_261006_203142.pdf",
+      "numero": 8,
+      "tema": "Classificação dos Aminoácidos",
+      "subtema": "Essenciais versus Não Essenciais",
+      "enunciado": "A diferenciação nutricional entre aminoácidos essenciais e não essenciais é determinante para estabelecer o valor biológico das proteínas na dieta. Segundo a definição constante no slide 6, a distinção correta entre eles estabelece que:",
+      "alternativas": {
+        "A": "Os aminoácidos essenciais são sintetizados pelo corpo, enquanto os não essenciais devem obrigatoriamente ser obtidos através da dieta.",
+        "B": "Os aminoácidos essenciais devem ser obtidos através da dieta, enquanto os não essenciais podem ser sintetizados pelo corpo.",
+        "C": "Os aminoácidos essenciais não participam da formação de proteínas, atuando apenas como lipídeos de membrana.",
+        "D": "Ambos são sintetizados espontaneamente em quantidades ilimitadas pelo fígado humano adulto."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: inverte o conceito biológico de essencialidade nutricional.",
+        "B": "Correta: a regra expressa no texto estipula: \"Aminoácidos essenciais devem ser obtidos através da dieta, enquanto os não essenciais podem ser sintetizados pelo corpo. Esta classificação é fundamental para determinar o valor biológico das proteínas na alimentação\".",
+        "C": "Incorreta: todos os aminoácidos (essenciais e não essenciais) são as unidades monoméricas formadoras das proteínas.",
+        "D": "Incorreta: os aminoácidos essenciais não podem ser sintetizados pelo organismo humano, sendo indispensável seu aporte pela alimentação."
+      },
+      "referencia": {
+        "paginas": [
+          6
+        ],
+        "fundamentacao": "Slide 6 da apostila.",
+        "trechos_apoio": [
+          "Aminoácidos essenciais devem ser obtidos através da dieta, enquanto os não essenciais podem ser sintetizados pelo corpo. Esta classificação é fundamental para determinar o valor biológico das proteínas na alimentação."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_05_q009",
+      "slide_id": "bromatologia_aula_05",
+      "slide_nome": "Aula 05 - Proteínas",
+      "arquivo_origem": "Aula 5 - Proteinas_261006_203142.pdf",
+      "numero": 9,
+      "tema": "Classificação Específica",
+      "subtema": "Tabela de Aminoácidos Essenciais",
+      "enunciado": "A Tabela 2.1 da aula agrupa os 20 aminoácidos em essenciais e não essenciais. Com base estrita nessa tabela, assinale a opção que contém exclusivamente aminoácidos essenciais:",
+      "alternativas": {
+        "A": "Alanina, Asparagina e Glicina.",
+        "B": "Leucina, Lisina, Metionina e Triptofano.",
+        "C": "Glutamato, Prolina, Serina e Tirosina.",
+        "D": "Cisteína, Aspartato e Glutamina."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: alanina, asparagina e glicina estão classificadas como aminoácidos não essenciais na tabela.",
+        "B": "Correta: a coluna de \"Aminoácidos Essenciais\" lista expressamente: Arginina, Histidina, Isoleucina, Leucina, Lisina, Metionina, Fenilalanina, Treonina, Triptofano e Valina.",
+        "C": "Incorreta: glutamato, prolina, serina e tirosina são aminoácidos não essenciais.",
+        "D": "Incorreta: cisteína, aspartato e glutamina são todos classificados como não essenciais na tabela da aula."
+      },
+      "referencia": {
+        "paginas": [
+          6,
+          2,
+          1
+        ],
+        "fundamentacao": "Slide 6 (Tabela 2.1) da apostila.",
+        "trechos_apoio": [
+          "AMINOÁCIDOS ESSENCIAIS: Arginina, Histidina, Isoleucina, Leucina, Lisina, Metionina, Fenilalanina, Treonina, Triptofano, Valina."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_05_q010",
+      "slide_id": "bromatologia_aula_05",
+      "slide_nome": "Aula 05 - Proteínas",
+      "arquivo_origem": "Aula 5 - Proteinas_261006_203142.pdf",
+      "numero": 10,
+      "tema": "Níveis de Conformação Proteica",
+      "subtema": "Estrutura Primária e Secundária",
+      "enunciado": "A conformação espacial das proteínas é organizada hierarquicamente em quatro níveis estruturais. De acordo com as definições apresentadas no slide 7, a estrutura primária e a estrutura secundária caracterizam-se, respectivamente, como:",
+      "alternativas": {
+        "A": "Dobramento tridimensional da cadeia; agregação de múltiplas cadeias polipeptídicas.",
+        "B": "Sequência básica de aminoácidos unidos por ligações peptídicas; arranjo espacial formando estruturas helicoidais (α-hélice) ou folha-β.",
+        "C": "Agregação de micelas de caseína; perda irreversível de pontes dissulfeto.",
+        "D": "Ruptura das ligações peptídicas por aquecimento; formação de cristais graxos."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o dobramento tridimensional descreve a estrutura terciária, e a agregação de múltiplas cadeias refere-se à estrutura quaternária.",
+        "B": "Correta: o slide define textualmente: \"1. Estrutura Primária: Sequência básica de aminoácidos unidos por ligações peptídicas; 2. Estrutura Secundária: Arranjo espacial formando estruturas helicoidais (a-hélice) ou folha [beta]\".",
+        "C": "Incorreta: estruturas micelares são arranjos coloidais específicos de certas proteínas, e não a definição geral dos níveis primário e secundário.",
+        "D": "Incorreta: os níveis estruturais referem-se à organização conformacional da proteína nativa, e não à sua quebra térmica."
+      },
+      "referencia": {
+        "paginas": [
+          7
+        ],
+        "fundamentacao": "Slide 7 da apostila.",
+        "trechos_apoio": [
+          "1. Estrutura Primária: Sequência básica de aminoácidos unidos por ligações peptídicas. / 2. Estrutura Secundária: Arranjo espacial formando estruturas helicoidais (a-hélice) ou folha [beta]."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_05_q011",
+      "slide_id": "bromatologia_aula_05",
+      "slide_nome": "Aula 05 - Proteínas",
+      "arquivo_origem": "Aula 5 - Proteinas_261006_203142.pdf",
+      "numero": 11,
+      "tema": "Níveis de Conformação Proteica",
+      "subtema": "Estrutura Terciária e Quaternária",
+      "enunciado": "A conformação funcional das proteínas depende de arranjos tridimensionais complexos no espaço. Conforme as definições do slide 7, a estrutura terciária e a estrutura quaternária caracterizam-se, respectivamente, como:",
+      "alternativas": {
+        "A": "A sequência linear de aminoácidos; o arranjo em hélice alfa.",
+        "B": "O dobramento tridimensional da cadeia polipeptídica; a agregação de múltiplas cadeias polipeptídicas.",
+        "C": "A ruptura forçada de pontes de hidrogênio; a insolubilização das micelas de caseína.",
+        "D": "A hidrólise ácida das ligações amídicas; a separação física de peptídeos."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: sequência linear corresponde à estrutura primária, e hélice alfa corresponde à estrutura secundária.",
+        "B": "Correta: a apostila define explicitamente: \"3. Estrutura Terciária: Dobramento tridimensional da cadeia polipeptídica. 4. Estrutura Quaternária: Agregação de múltiplas cadeias polipeptídicas\".",
+        "C": "Incorreta: o texto trata dos níveis estruturais nativos da macromolécula, e não de processos de insolubilização coloidal.",
+        "D": "Incorreta: os níveis conformacionais terciário e quaternário não envolvem a hidrólise de ligações amídicas."
+      },
+      "referencia": {
+        "paginas": [
+          7
+        ],
+        "fundamentacao": "Slide 7 da apostila.",
+        "trechos_apoio": [
+          "3 Estrutura Terciária: Dobramento tridimensional da cadeia polipeptídica. / 4 Estrutura Quaternária: Agregação de múltiplas cadeias polipeptídicas."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_05_q012",
+      "slide_id": "bromatologia_aula_05",
+      "slide_nome": "Aula 05 - Proteínas",
+      "arquivo_origem": "Aula 5 - Proteinas_261006_203142.pdf",
+      "numero": 12,
+      "tema": "Proteínas",
+      "subtema": "Conceito de Desnaturação Proteica",
+      "enunciado": "No processamento e na conservação de alimentos, a desnaturação é uma das modificações mais frequentes das proteínas. De acordo com o conceito apresentado no slide 8, a desnaturação proteica consiste na:",
+      "alternativas": {
+        "A": "Quebra irreversível das ligações peptídicas que unem os aminoácidos individuais.",
+        "B": "Alteração da conformação tridimensional da proteína.",
+        "C": "Transformação de aminoácidos essenciais em glicose por fermentação.",
+        "D": "Ligação de ácidos graxos livres ao carbono alfa gerando sabões solúveis."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a desnaturação altera o arranjo espacial (conformação), mas preserva intacta a sequência primária e as ligações peptídicas.",
+        "B": "Correta: o slide estabelece categoricamente: \"Desnaturação proteica: Alteração da conformação (tridimensional)\".",
+        "C": "Incorreta: a desnaturação é um rearranjo conformacional da molécula, sem conversão bioquímica de aminoácidos em glicose.",
+        "D": "Incorreta: formação de sabões refere-se à saponificação de lipídeos com bases inorgânicas."
+      },
+      "referencia": {
+        "paginas": [
+          8
+        ],
+        "fundamentacao": "Slide 8 da apostila.",
+        "trechos_apoio": [
+          "Desnaturação proteica: Alteração da conformação (tridimensional)"
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_05_q013",
+      "slide_id": "bromatologia_aula_05",
+      "slide_nome": "Aula 05 - Proteínas",
+      "arquivo_origem": "Aula 5 - Proteinas_261006_203142.pdf",
+      "numero": 13,
+      "tema": "Proteínas",
+      "subtema": "Agentes Físicos e Químicos da Desnaturação Proteica",
+      "enunciado": "Diversos fatores operacionais provocam o desenovelamento da estrutura proteica. Conforme o slide 9, constituem fatores que provocam a desnaturação proteica:",
+      "alternativas": {
+        "A": "Exclusivamente o resfriamento suave sob atmosfera modificada com nitrogênio.",
+        "B": "Calor, alteração de superfície, alteração de pH, concentrações salinas e desidratação.",
+        "C": "Presença de açúcares redutores em pH estritamente neutro sem aquecimento.",
+        "D": "Moagem a seco e quarteamento manual de pós em papel de filtro."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o frio moderado e o nitrogênio gasoso tendem a estabilizar e proteger as estruturas proteicas nativas.",
+        "B": "Correta: o slide lista textualmente: \"Desnaturação proteica: Fatores provocam: calor, alteração superfície, alteração pH e concentrações salinas, desidratação...\".",
+        "C": "Incorreta: açúcares e aminoácidos participam de Maillard quando há condições específicas de calor, mas não representam o rol de fatores de desnaturação citados no slide.",
+        "D": "Incorreta: quarteamento é uma técnica mecânica de homogeneização e redução amostral em laboratório."
+      },
+      "referencia": {
+        "paginas": [
+          9
+        ],
+        "fundamentacao": "Slide 9 da apostila.",
+        "trechos_apoio": [
+          "Desnaturação proteica: Fatores provocam: calor, alteração superfície, alteração pH e concentrações salinas, desidratação..."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_05_q014",
+      "slide_id": "bromatologia_aula_05",
+      "slide_nome": "Aula 05 - Proteínas",
+      "arquivo_origem": "Aula 5 - Proteinas_261006_203142.pdf",
+      "numero": 14,
+      "tema": "Proteínas",
+      "subtema": "Consequências Físico-Químicas e Nutricionais da Desnaturação",
+      "enunciado": "Uma vez desnaturada, a proteína apresenta profundas modificações em seu comportamento reológico e fisiológico. De acordo com o slide 10, a proteína desnaturada:",
+      "alternativas": {
+        "A": "Torna-se mais solúvel em água, diminui a viscosidade do alimento e reduz sua digestibilidade.",
+        "B": "É menos solúvel (insolúvel), aumenta a viscosidade do alimento e aumenta a digestibilidade (em muitos casos).",
+        "C": "Perde completamente todos os seus aminoácidos essenciais por volatilização.",
+        "D": "Cristaliza-se instantaneamente impedindo a retenção de água livre."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: inverte todas as propriedades descritas no material (a solubilidade diminui e a viscosidade aumenta).",
+        "B": "Correta: o slide resume: \"A proteína desnaturada: • menos solúvel (insolúvel), • aumenta viscosidade do alimento, • aumenta digestibilidade (em muitos casos)\".",
+        "C": "Incorreta: os aminoácidos continuam integrando a cadeia peptídica primária, não havendo perda por volatilização.",
+        "D": "Incorreta: proteínas desnaturadas formam agregados amorfos ou redes tridimensionais, não cristais anidros."
+      },
+      "referencia": {
+        "paginas": [
+          10
+        ],
+        "fundamentacao": "Slide 10 da apostila.",
+        "trechos_apoio": [
+          "Desnaturação proteica: A proteína desnaturada: menos solúvel (insolúvel), aumenta viscosidade do alimento, aumenta digestibilidade (em muitos casos)."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_05_q015",
+      "slide_id": "bromatologia_aula_05",
+      "slide_nome": "Aula 05 - Proteínas",
+      "arquivo_origem": "Aula 5 - Proteinas_261006_203142.pdf",
+      "numero": 15,
+      "tema": "Propriedades Funcionais",
+      "subtema": "Glúten em Panificação",
+      "enunciado": "Na indústria de panificação, as proteínas do trigo exercem papel tecnológico insubstituível. Conforme abordado no slide 11, as características sensoriais dos pães relacionam-se diretamente às propriedades:",
+      "alternativas": {
+        "A": "Emulsificantes exclusivas de micelas graxas.",
+        "B": "Viscoelásticas e formadoras da massa do glúten.",
+        "C": "Espumantes derivadas da ovalbumina desidratada.",
+        "D": "Anticoagulantes induzidas por adição maciça de cloreto de cálcio."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a estrutura do miolo e da crosta do pão decorre da rede proteica viscoelástica, não de propriedades emulsificantes de gorduras.",
+        "B": "Correta: o slide destaca expressamente: \"Propriedades funcionais proteínas: Características sensoriais pães = viscoelásticas e formadoras da massa glúten\".",
+        "C": "Incorreta: espumas de albumina são aplicadas em confeitarias, coberturas e suspiros, e não na estrutura primária de pães.",
+        "D": "Incorreta: coagulação e formação da massa panificável dependem do glúten hidratado sob trabalho mecânico, e não de anticoagulantes."
+      },
+      "referencia": {
+        "paginas": [
+          11
+        ],
+        "fundamentacao": "Slide 11 da apostila.",
+        "trechos_apoio": [
+          "Propriedades funcionais proteínas: Características sensoriais pães = viscoelásticas e formadoras da massa glúten"
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_05_q016",
+      "slide_id": "bromatologia_aula_05",
+      "slide_nome": "Aula 05 - Proteínas",
+      "arquivo_origem": "Aula 5 - Proteinas_261006_203142.pdf",
+      "numero": 16,
+      "tema": "Propriedades Funcionais",
+      "subtema": "Proteínas Musculares e Suculência",
+      "enunciado": "As características de textura e retenção de líquidos em produtos cárneos dependem da integridade do complexo proteico muscular. Segundo o slide 12, as propriedades texturais e suculentas das carnes são conferidas pelas:",
+      "alternativas": {
+        "A": "Proteínas sarcoplasmáticas globulares solúveis em ácido acético.",
+        "B": "Proteínas musculares (actina, miosina, actomiosina...).",
+        "C": "Enzimas lipoxigenases presentes na gordura subcutânea.",
+        "D": "Frações nitrogenadas não proteicas como ureia e creatina."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a retenção de água e a consistência textural no tecido muscular decorrem das proteínas miofibrilares contráteis.",
+        "B": "Correta: o texto ressalta diretamente: \"Propriedades funcionais proteínas: Texturais e suculentas: proteínas musculares (actina, miosina, actomiosina...)\".",
+        "C": "Incorreta: lipoxigenases catalisam a oxidação de lipídeos, não determinando a textura fibrosa ou suculência do músculo.",
+        "D": "Incorreta: ureia e compostos nitrogenados menores não formam a estrutura textural da carne."
+      },
+      "referencia": {
+        "paginas": [
+          12
+        ],
+        "fundamentacao": "Slide 12 da apostila.",
+        "trechos_apoio": [
+          "Propriedades funcionais proteínas: Texturais e suculentas: proteínas musculares (actina, miosina, actimiosina...)"
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_05_q017",
+      "slide_id": "bromatologia_aula_05",
+      "slide_nome": "Aula 05 - Proteínas",
+      "arquivo_origem": "Aula 5 - Proteinas_261006_203142.pdf",
+      "numero": 17,
+      "tema": "Propriedades Funcionais",
+      "subtema": "Aplicações em Produtos Alimentícios",
+      "enunciado": "O slide 13 correlaciona diversas propriedades funcionais das proteínas a matrizes alimentícias específicas. Assinale a alternativa que apresenta a correta associação entre a propriedade funcional e seu exemplo de alimento:",
+      "alternativas": {
+        "A": "Geleificação: soro de leite; Solubilidade: maionese.",
+        "B": "Emulsificação: salsichas, creme de leite, maionese; Espuma: coberturas, bolos, sorvetes.",
+        "C": "Hidratação: sobremesas com xarope límpido; Viscosidade: queijos secos ralados.",
+        "D": "Espuma: sopas desidratadas; Geleificação: pães brancos fermentados."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: geleificação é exemplificada com queijo e salsicha, e solubilidade com soro de leite.",
+        "B": "Correta: o slide detalha: Emulsificação (salsichas, creme de leite, maionese); Hidratação (salsicha, massa de pão e bolo); Viscosidade (sopas, molhos, sobremesa); Geleificação (queijo, salsicha); Espuma (coberturas, bolos, sorvetes); Solubilidade (soro de leite).",
+        "C": "Incorreta: hidratação aplica-se a massas de panificação e salsichas, enquanto viscosidade associa-se a molhos e sopas.",
+        "D": "Incorreta: espumas relacionam-se a coberturas, bolos e sorvetes, e geleificação a queijos e salsichas."
+      },
+      "referencia": {
+        "paginas": [
+          13
+        ],
+        "fundamentacao": "Slide 13 da apostila.",
+        "trechos_apoio": [
+          "Propriedades funcionais: • Emulsificação: salsichas, creme de leite, maionese; • Hidratação: salsicha, massa de pão e bolo; • Viscosidade: sopas, molhos, sobremesa; • Geleificação: queijo, salsicha; • Espuma: coberturas, bolos, sorvetes; • Solubilidade: soro de leite."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_05_q018",
+      "slide_id": "bromatologia_aula_05",
+      "slide_nome": "Aula 05 - Proteínas",
+      "arquivo_origem": "Aula 5 - Proteinas_261006_203142.pdf",
+      "numero": 18,
+      "tema": "Propriedades Funcionais",
+      "subtema": "Agentes Emulsificantes",
+      "enunciado": "Emulsões são sistemas dispersos termodinamicamente instáveis formados por líquidos imiscíveis. Conforme explicado no slide 14, as proteínas atuam como excelentes agentes emulsificantes porque:",
+      "alternativas": {
+        "A": "Apresentam solubilidade nula absoluta em qualquer faixa de pH.",
+        "B": "Possuem simultaneamente regiões hidrofílicas e hidrofóbicas em sua estrutura molecular.",
+        "C": "Cristalizam a água líquida formando barreiras mecânicas sólidas.",
+        "D": "Consomem todo o oxigênio atmosférico impedindo reações de oxidação."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: agentes emulsificantes eficientes exigem boa solubilidade e flexibilidade para migrar à interface óleo/água.",
+        "B": "Correta: o texto indica claramente: \"Sistemas dispersos de 2 líquidos poucos solúveis ou insolúveis entre si; Proteínas são bons agentes emulsificantes (regiões hidrofílicas e hidrofóbicas)\".",
+        "C": "Incorreta: a ação emulsificante ocorre na interface líquida sem exigir congelamento ou cristalização da água.",
+        "D": "Incorreta: o papel emulsificante é físico-químico interfacial, e não de captura metabólica de oxigênio gasoso."
+      },
+      "referencia": {
+        "paginas": [
+          14
+        ],
+        "fundamentacao": "Slide 14 da apostila.",
+        "trechos_apoio": [
+          "Emulsificantes: Sistemas dispersos de 2 líquidos poucos solúveis ou insolúveis entre si; Proteínas são bons agentes emulsificantes (regiões hidrofílicas e hidrofóbicas)"
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_05_q019",
+      "slide_id": "bromatologia_aula_05",
+      "slide_nome": "Aula 05 - Proteínas",
+      "arquivo_origem": "Aula 5 - Proteinas_261006_203142.pdf",
+      "numero": 19,
+      "tema": "Propriedades Funcionais",
+      "subtema": "Capacidade de Hidratação",
+      "enunciado": "A capacidade de retenção e fixação de água pelas proteínas é regida pela composição de seus resíduos de aminoácidos e pela força iônica do meio. De acordo com as diretrizes do slide 14, sobre a hidratação proteica:",
+      "alternativas": {
+        "A": "Quanto maior o teor de aminoácidos com cadeias hidrofóbicas, maior será a capacidade de hidratação da proteína.",
+        "B": "Cadeias laterais hidrofílicas estabelecem mais facilmente pontes de hidrogênio com a água, e em baixas concentrações de sais, os sais aumentam a capacidade de fixação de água das proteínas.",
+        "C": "A adição de sais minerais sempre desidrata irreversivelmente qualquer proteína alimentar.",
+        "D": "As proteínas musculares são incapazes de reter moléculas de água em sua matriz conformacional."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: quanto maior o número de aminoácidos com cadeias hidrofóbicas, menor é a capacidade de hidratação.",
+        "B": "Correta: a apostila dita: \"Cadeias laterais hidrofílicas, que podem estabelecer mais facilmente pontes de hidrogênio com a água; Em baixas concentrações de sais, os sais aumentam capacidade de fixação da água das proteínas\".",
+        "C": "Incorreta: baixas concentrações de sais exercem o efeito de salting-in, aumentando a interação da proteína com a água.",
+        "D": "Incorreta: as proteínas musculares possuem alta capacidade de hidratação, conferindo a suculência típica das carnes."
+      },
+      "referencia": {
+        "paginas": [
+          14
+        ],
+        "fundamentacao": "Slide 14 da apostila.",
+        "trechos_apoio": [
+          "Hidratação: Dependem da sua composição de aa e conformação; > aa com cadeias hidrofóbicas, menor capacidade hidratação; Cadeias laterais hidrofílicas, que podem estabelecer mais facilmente pontes de hidrogênio com a água; Em baixas concentrações de sais, os sais aumentam capacidade de fixação da água das proteínas."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_05_q020",
+      "slide_id": "bromatologia_aula_05",
+      "slide_nome": "Aula 05 - Proteínas",
+      "arquivo_origem": "Aula 5 - Proteinas_261006_203142.pdf",
+      "numero": 20,
+      "tema": "Propriedades Funcionais",
+      "subtema": "Viscosidade das Soluções Proteicas",
+      "enunciado": "A viscosidade é uma propriedade reológica decisiva para a textura de molhos, sopas e sobremesas. Conforme o conceito e as variáveis apontadas no slide 15, a viscosidade é definida e influenciada pelo seguinte conjunto de fatores:",
+      "alternativas": {
+        "A": "Medida do teor de cinzas minerais fixas; independe da temperatura do sistema.",
+        "B": "Medida de sua resistência a fluir ou a romper-se; depende do diâmetro das moléculas e é afetada pela temperatura, pH, concentração proteica e salina.",
+        "C": "Capacidade de volatilizar vapores orgânicos sob pressão atmosférica normal.",
+        "D": "Quantidade de bolhas de ar aprisionadas na fase lipídica contínua."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: cinzas correspondem à fração inorgânica da amostra após calcinação, sem relação com medidas de escoamento reológico.",
+        "B": "Correta: o slide expressa textualmente: \"Viscosidade: Medida de sua resistência a fluir ou a romper-se. Depende do diâmetro das moléculas; Afetada pela temperatura, pH, concentração proteica e salina\".",
+        "C": "Incorreta: volatilização é propriedade de compostos voláteis, não caracterizando a viscosidade fluídica.",
+        "D": "Incorreta: aprisionamento de ar em lamelas contínuas define espumas, e não a viscosidade intrínseca da solução."
+      },
+      "referencia": {
+        "paginas": [
+          15
+        ],
+        "fundamentacao": "Slide 15 da apostila.",
+        "trechos_apoio": [
+          "Viscosidade: Medida de sua resistência a fluir ou a romper-se. Depende do diâmetro das moléculas; Afetada pela temperatura, pH, concentração proteica e salina."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_05_q021",
+      "slide_id": "bromatologia_aula_05",
+      "slide_nome": "Aula 05 - Proteínas",
+      "arquivo_origem": "Aula 5 - Proteinas_261006_203142.pdf",
+      "numero": 21,
+      "tema": "Propriedades Funcionais",
+      "subtema": "Geleificação Proteica",
+      "enunciado": "A geleificação é uma propriedade tecnológica amplamente explorada na produção de embutidos cárneos e queijos. Segundo o slide 15, a geleificação proteica consiste na:",
+      "alternativas": {
+        "A": "Formação de uma rede proteica ordenada a partir de proteínas previamente desnaturadas, constituindo uma fase intermediária entre sólido e líquido.",
+        "B": "Destruição total das ligações peptídicas por centrifugação a alta velocidade.",
+        "C": "Cristalização de aminoácidos livres em meio puramente oleoso.",
+        "D": "Evaporação instantânea da água estrutural gerando pó seco solúvel."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: o slide define expressamente: \"Geleificação: Fase intermediária sólido e líquido; Geleificação proteica consiste na formação de uma rede proteica ordenada a partir de proteínas previamente desnaturadas; Maioria dos géis são preparados aquecendo-se uma solução proteica\".",
+        "B": "Incorreta: o gel depende da integridade das cadeias polipeptídicas organizadas em malha tridimensional; quebrar as ligações peptídicas impediria a formação do gel.",
+        "C": "Incorreta: géis alimentares são sistemas hidrofílicos que retêm água em sua matriz, e não cristais em meio lipídico.",
+        "D": "Incorreta: evaporação total de água descreve secagem ou desidratação, e não a formação de um gel viscoelástico."
+      },
+      "referencia": {
+        "paginas": [
+          15
+        ],
+        "fundamentacao": "Slide 15 da apostila.",
+        "trechos_apoio": [
+          "Geleificação: Fase intermediária sólido e líquido; Geleificação proteica consiste na formação de uma rede proteica ordenada a partir de proteínas previamente desnaturadas; Maioria dos géis são preparados aquecendo-se uma solução proteica\"*."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_05_q022",
+      "slide_id": "bromatologia_aula_05",
+      "slide_nome": "Aula 05 - Proteínas",
+      "arquivo_origem": "Aula 5 - Proteinas_261006_203142.pdf",
+      "numero": 22,
+      "tema": "Propriedades Funcionais",
+      "subtema": "Formação de Espumas Proteicas",
+      "enunciado": "As propriedades espumantes das proteínas são essenciais na elaboração de bolos, sorvetes e coberturas de confeitaria. De acordo com a caracterização apresentada no slide 16, as espumas a base de proteínas caracterizam-se por:",
+      "alternativas": {
+        "A": "Serem sistemas termodinamicamente perfeitos e perfeitamente estáveis por tempo indeterminado.",
+        "B": "Serem sistemas onde os gases estão dispersos numa fase líquida, formando bolhas de ar separadas por lamelas, sendo sistemas instáveis.",
+        "C": "Exigirem ausência total de água livre para que as bolhas possam se formar.",
+        "D": "Resultarem da combustão incompleta de lipídeos saturados na presença de oxigênio."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a apostila ressalta de forma explícita que as espumas proteicas são sistemas \"instáveis\".",
+        "B": "Correta: o texto e o esquema visual definem: \"Propriedades espumantes: Sistemas onde os gases estão dispersos numa fase líquida, formando bolhas de ar; Instáveis\", ilustrando as bolhas de ar delimitadas por lamelas proteicas.",
+        "C": "Incorreta: a fase contínua que envolve as bolhas de ar na lamela é uma fase aquosa/líquida contendo proteínas dissolvidas.",
+        "D": "Incorreta: espumas alimentares são dispersões mecânicas coloidais gás-líquido, não produtos de combustão química."
+      },
+      "referencia": {
+        "paginas": [
+          16
+        ],
+        "fundamentacao": "Slide 16 da apostila.",
+        "trechos_apoio": [
+          "Propriedades espumantes: Sistemas onde os gases estão dispersos numa fase liquida, formando bolhas de ar; Instáveis\"*."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_05_q023",
+      "slide_id": "bromatologia_aula_05",
+      "slide_nome": "Aula 05 - Proteínas",
+      "arquivo_origem": "Aula 5 - Proteinas_261006_203142.pdf",
+      "numero": 23,
+      "tema": "Propriedades Funcionais",
+      "subtema": "Solubilidade Proteica",
+      "enunciado": "A solubilidade é considerada a propriedade funcional primária das proteínas, pois viabiliza a manifestação de diversas outras características funcionais. Conforme o slide 17, as proteínas necessitam de alta solubilidade para:",
+      "alternativas": {
+        "A": "Atuar como conservantes inorgânicos na inativação de cloretos.",
+        "B": "Promover emulsão, espuma, geleificação e capacidade espessante.",
+        "C": "Impedir o cozimento e a desnaturação da carne em temperatura ambiente.",
+        "D": "Sintetizar novas moléculas de amido de alto peso molecular."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: proteínas solúveis desempenham funções coloidais e reológicas, sem atuar como conservantes inorgânicos.",
+        "B": "Correta: a regra expressa no slide determina textualmente: \"Proteínas requerem alta solubilidade para promover emulsão, espuma, geleificação e capacidade espessante\".",
+        "C": "Incorreta: a solubilidade prévia é necessária para a formação de redes estáveis durante o processamento, não impedindo o cozimento da carne.",
+        "D": "Incorreta: amido é um carboidrato polissacarídeo sintetizado por vegetais, não derivado da solubilidade de proteínas."
+      },
+      "referencia": {
+        "paginas": [
+          17
+        ],
+        "fundamentacao": "Slide 17 da apostila.",
+        "trechos_apoio": [
+          "Solubilidade: Proteínas requerem alta solubilidade para promover emulsão, espuma, geleificação e capacidade espessante\"*."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_05_q024",
+      "slide_id": "bromatologia_aula_05",
+      "slide_nome": "Aula 05 - Proteínas",
+      "arquivo_origem": "Aula 5 - Proteinas_261006_203142.pdf",
+      "numero": 24,
+      "tema": "Solubilidade Proteica",
+      "subtema": "Efeito de Sais e Faixas de Temperatura",
+      "enunciado": "A solubilidade das macromoléculas proteicas é fortemente modulada pela força iônica e pela temperatura do meio. De acordo com os parâmetros detalhados no slide 17:",
+      "alternativas": {
+        "A": "Baixas concentrações de sais aumentam a solubilidade, e na faixa de temperatura entre 0 °C e 40 °C a solubilidade aumenta (sendo que acima de 40 °C ocorre desnaturação).",
+        "B": "Qualquer adição de sal insolubiliza a proteína instantaneamente, e o calor acima de 40 °C aumenta linearmente a solubilidade sem desnaturação.",
+        "C": "A solubilidade é nula entre 0 °C e 40 °C, tornando-se máxima apenas após fervura a 100 °C.",
+        "D": "A concentração salina não exerce nenhuma influência sobre as interações iônicas e hidrofóbicas das proteínas."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: o slide estabelece com clareza: \"Baixas concentrações sais aumentam solubilidade; T°C 0-40°C solubilidade aumenta (> 40°C desnaturação)\".",
+        "B": "Incorreta: concentrações baixas de sais aumentam a solubilidade (salting-in), e temperaturas superiores a 40 °C promovem desnaturação e insolubilização.",
+        "C": "Incorreta: a solubilidade aumenta normalmente de 0 °C a 40 °C com o aumento da agitação térmica antes de atingir a temperatura crítica de desnaturação.",
+        "D": "Incorreta: a força iônica gerada por sais altera diretamente o balanço de cargas e as forças hidrofóbicas e iônicas das proteínas."
+      },
+      "referencia": {
+        "paginas": [
+          17
+        ],
+        "fundamentacao": "Slide 17 da apostila.",
+        "trechos_apoio": [
+          "Baixas concentrações sais aumentam solubilidade; T°C 0-40°C solubilidade aumenta (>40°C desnaturação)\"*."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_05_q025",
+      "slide_id": "bromatologia_aula_05",
+      "slide_nome": "Aula 05 - Proteínas",
+      "arquivo_origem": "Aula 5 - Proteinas_261006_203142.pdf",
+      "numero": 25,
+      "tema": "Determinação de Proteínas",
+      "subtema": "Fundamento do Método de Kjeldahl",
+      "enunciado": "O método clássico padronizado pelo Instituto Adolfo Lutz (2008) para quantificação de proteínas em alimentos é o método de Kjeldahl. O princípio analítico desse ensaio fundamenta-se no fato de que:",
+      "alternativas": {
+        "A": "Todas as proteínas contêm uma quantidade idêntica e fixa de carbonos anoméricos redutores.",
+        "B": "O teor de nitrogênio da amostra é determinado, e, devido à composição das proteínas por aminoácidos, o teor de nitrogênio (dos grupos amino) pode ser diretamente correlacionado com o conteúdo proteico.",
+        "C": "Os lipídeos da amostra são saponificados em meio alcalino e titulados com fenolftaleína.",
+        "D": "A umidade total da amostra é diretamente proporcional ao número de ligações peptídicas intactas."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: carbonos anoméricos redutores são características estruturais de glicídios (açúcares), e não de proteínas.",
+        "B": "Correta: o texto ressalta expressamente: \"A determinação do teor de proteínas em alimentos geralmente é realizada através do método de Kjeldahl, no qual o teor de nitrogênio da amostra é determinado. Devido a composição das proteínas por aminoácidos, o teor de nitrogênio (dos grupos amino) pode ser diretamente correlacionado com o conteúdo proteico da amostra\".",
+        "C": "Incorreta: a saponificação de ésteres de ácidos graxos com álcalis refere-se à análise e química dos lipídeos.",
+        "D": "Incorreta: o método de Kjeldahl baseia-se na quantificação de nitrogênio orgânico digerido, e não na medida gravimétrica de umidade."
+      },
+      "referencia": {
+        "paginas": [
+          18
+        ],
+        "fundamentacao": "Slide 18 da apostila.",
+        "trechos_apoio": [
+          "A determinação do teor de proteínas em alimentos geralmente é realizada através do método de Kjeldahl, no qual o teor de nitrogênio da amostra é determinado. Devido a composição das proteínas por aminoácidos, o teor de nitrogênio (dos grupos amino) pode ser diretamente correlacionado com o conteúdo proteico da amostra."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_05_q026",
+      "slide_id": "bromatologia_aula_05",
+      "slide_nome": "Aula 05 - Proteínas",
+      "arquivo_origem": "Aula 5 - Proteinas_261006_203142.pdf",
+      "numero": 26,
+      "tema": "Método de Kjeldahl",
+      "subtema": "As Três Etapas Sequenciais do Processo",
+      "enunciado": "Em laboratório bromatológico, a execução do método de Kjeldahl é conduzida em etapas padronizadas e encadeadas. De acordo com o resumo metodológico do slide 19, essas etapas consistem sucessivamente em:",
+      "alternativas": {
+        "A": "Filtração a quente, precipitação em etanol e contagem visual em microscópio.",
+        "B": "Digestão da amostra em ácido sulfúrico, separação do nitrogênio por destilação por arraste de vapor e determinação quantitativa por volumetria (titulação).",
+        "C": "Incineração em mufla a 550 °C, solubilização em água destilada e leitura por infravermelho.",
+        "D": "Secagem em estufa a vácuo, prensagem mecânica e cromatografia gasosa."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o método é químico e quantitativo macroanalítico, não se baseando em contagem microscópica.",
+        "B": "Correta: o slide descreve perfeitamente a sequência clássica: \"No método de Kjeldahl, a amostra é digerida em ácido sulfúrico, o nitrogênio é separado por destilação por arraste de vapor, e sua quantidade é determinada por volumetria. Utiliza-se um fator de conversão para transformar massa de nitrogênio em massa de proteína\".",
+        "C": "Incorreta: incineração a 550 °C queima todo o nitrogênio orgânico (utilizada para resíduo mineral fixo/cinzas).",
+        "D": "Incorreta: o método de Kjeldahl não emprega secagem a vácuo nem cromatografia gasosa para quantificar a proteína total."
+      },
+      "referencia": {
+        "paginas": [
+          19
+        ],
+        "fundamentacao": "Slide 19 da apostila.",
+        "trechos_apoio": [
+          "No método de Kjeldahl, a amostra é digerida em ácido sulfúrico, o nitrogênio é separado por destilação por arraste de vapor, e sua quantidade é determinada por volumetria. Utiliza-se um fator de conversão para transformar massa de nitrogênio em massa de proteína."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_05_q027",
+      "slide_id": "bromatologia_aula_05",
+      "slide_nome": "Aula 05 - Proteínas",
+      "arquivo_origem": "Aula 5 - Proteinas_261006_203142.pdf",
+      "numero": 27,
+      "tema": "Método de Kjeldahl",
+      "subtema": "Procedimento Inicial de Digestão",
+      "enunciado": "Na etapa 1 do procedimento de determinação de proteínas (slide 20), a preparação do tubo de digestão deve seguir massas e volumes rigorosos. Segundo o protocolo analítico descrito, deve-se pesar e transferir para o tubo de digestão:",
+      "alternativas": {
+        "A": "Exatamente 10 g de amostra, adicionando 100 mL de ácido clorídrico concentrado e 1 g de sal refinado.",
+        "B": "Exatamente 1 g de amostra em papel de seda, adicionando em sequência 25 mL de ácido sulfúrico e 6 g de mistura catalítica.",
+        "C": "50 g de amostra fresca triturada, adicionando 250 mL de hidróxido de sódio concentrado.",
+        "D": "0,1 g de cinzas incineradas, adicionando 10 mL de ácido nítrico fumegante."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o protocolo especifica 1 g de amostra (e não 10 g) e usa ácido sulfúrico, e não ácido clorídrico.",
+        "B": "Correta: o texto do item 1 estabelece expressamente: \"1. Pesar exatamente 1 g de amostra em papel de seda e transferir para o tubo de digestão, adicionando em sequência ácido sulfúrico (25 ml) e mistura catalítica (6 g)\".",
+        "C": "Incorreta: a digestão inicial é estritamente ácida (com ácido sulfúrico concentrado), e não alcalina.",
+        "D": "Incorreta: a análise parte da amostra de alimento integral cru ou processado pesada em papel de seda, não de cinzas calcinadas."
+      },
+      "referencia": {
+        "paginas": [
+          20
+        ],
+        "fundamentacao": "Slide 20 da apostila.",
+        "trechos_apoio": [
+          "1. Pesar exatamente 1 g de amostra em papel de seda e transfer para o tubo de digestão, adicionando em sequência ácido sulfúrico (25 ml) e mistura catalítica (6 g)."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_05_q028",
+      "slide_id": "bromatologia_aula_05",
+      "slide_nome": "Aula 05 - Proteínas",
+      "arquivo_origem": "Aula 5 - Proteinas_261006_203142.pdf",
+      "numero": 28,
+      "tema": "Método de Kjeldahl",
+      "subtema": "Condições de Aquecimento e Viragem da Digestão",
+      "enunciado": "Durante o aquecimento no bloco digestor na etapa 2 do método de Kjeldahl, a matéria orgânica sofre oxidação drástica. De acordo com o slide 21, as condições térmicas e o aspecto visual indicativo de que a digestão está concluída são:",
+      "alternativas": {
+        "A": "Aquecimento a 100 °C em banho-maria até o líquido evaporar completamente.",
+        "B": "Aquecimento em bloco digestor a 350 °C até a obtenção de solução com cor azul-esverdeada.",
+        "C": "Aquecimento a 50 °C sob luz ultravioleta até a formação de um precipitado preto de fuligem.",
+        "D": "Manutenção em estufa a 200 °C até que o tubo atinja coloração vermelho-sangue intensa."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: banho-maria a 100 °C não fornece a energia térmica necessária para a digestão do ácido sulfúrico.",
+        "B": "Correta: o texto da etapa 2 especifica: \"2. Manter em aquecimento em bloco digestor a 350 °C até a obtenção de solução com cor azul-esverdeada\".",
+        "C": "Incorreta: a presença de líquido preto denota digestão incompleta (carbonização em andamento); o ponto final requer solução límpida azul-esverdeada.",
+        "D": "Incorreta: a coloração final da digestão ácida catalisada por sais de cobre é azul-esverdeada límpida, não vermelha."
+      },
+      "referencia": {
+        "paginas": [
+          21
+        ],
+        "fundamentacao": "Slide 21 da apostila.",
+        "trechos_apoio": [
+          "2. Manter em aquecimento em bloco digestor a 350ºC até a obtenção de solução com cor azul-esverdeada."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_05_q029",
+      "slide_id": "bromatologia_aula_05",
+      "slide_nome": "Aula 05 - Proteínas",
+      "arquivo_origem": "Aula 5 - Proteinas_261006_203142.pdf",
+      "numero": 29,
+      "tema": "Método de Kjeldahl",
+      "subtema": "Destilação e Solução Receptora",
+      "enunciado": "Concluída a digestão e após o resfriamento do tubo, dá-se início ao processo de destilação por arraste de vapor (etapa 3). Segundo as instruções do slide 21, o procedimento correto de alcalinização e recepção do destilado consiste em:",
+      "alternativas": {
+        "A": "Adicionar quantidade suficiente de ácido clorídrico concentrado e receber o destilado em álcool etílico anidro.",
+        "B": "Adicionar quantidade suficiente de solução concentrada de hidróxido de sódio (suficiente para pequeno excesso de base) e receber o destilado em 25 mL de solução de ácido sulfúrico 0,05 M (com indicador vermelho de metila).",
+        "C": "Adicionar água destilada gelada e coletar o gás liberado diretamente em béquer aberto sem reagente algum.",
+        "D": "Neutralizar com bicarbonato de sódio e recolher o destilado em fenolftaleína alcoólica pura."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a destilação de amônia requer a alcalinização do sulfato de amônio com hidróxido de sódio concentrado, e o destilado é recolhido em ácido padronizado.",
+        "B": "Correta: o texto do item 3 determina textualmente: \"3. Após resfriar, adicionar quantidade suficiente de solução concentrada de hidróxido de sódio (suficiente para pequeno excesso de base) e iniciar o processo de destilação por arraste de vapor, recebendo o destilado em 25 ml de solução de ácido sulfúrico 0,05 M (com indicador vermelho de metila)\".",
+        "C": "Incorreta: a amônia liberada é volátil e se perderia no ar se não fosse borbulhada e fixada na solução ácida receptora.",
+        "D": "Incorreta: o receptor padronizado pelo Instituto Adolfo Lutz é o ácido sulfúrico 0,05 M com indicador vermelho de metila."
+      },
+      "referencia": {
+        "paginas": [
+          21
+        ],
+        "fundamentacao": "Slide 21 da apostila.",
+        "trechos_apoio": [
+          "3. Após resfriar, adicionar quantidade suficiente de solução concentrada de hidróxido de sódio (suficiente para pequeno excesso de base) e iniciar o processo de destilação por arraste de vapor, recebendo o destilado em 25 ml de solução de ácido sulfúrico 0,05 M (com indicador vermelho de metila)."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_05_q030",
+      "slide_id": "bromatologia_aula_05",
+      "slide_nome": "Aula 05 - Proteínas",
+      "arquivo_origem": "Aula 5 - Proteinas_261006_203142.pdf",
+      "numero": 30,
+      "tema": "Método de Kjeldahl",
+      "subtema": "Volume de Destilado e Mudança de Coloração",
+      "enunciado": "Durante a destilação por arraste de vapor, o vapor de amônia atinge o erlenmeyer receptor promovendo alterações na solução indicadora. Conforme o slide 22, o volume que deve ser destilado e a respectiva viragem de cor observada durante esse processo são:",
+      "alternativas": {
+        "A": "Destilar exatamente 10 mL; a solução passará de azul para incolor.",
+        "B": "Destilar até obter de 250 a 300 mL de destilado, período durante o qual a solução passará do vermelho ao amarelo.",
+        "C": "Destilar 1000 mL de condensado; a solução permanecerá violeta escuro do início ao fim.",
+        "D": "Destilar 50 mL de líquido; a solução passará do amarelo brilhante para o verde fluorescente."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: 10 mL é um volume insuficiente para garantir o arraste completo de toda a amônia da amostra.",
+        "B": "Correta: o slide descreve com precisão: \"Destilar até obter de 250 a 300 ml de destilado. Durante esse processo a solução passará do vermelho ao amarelo\".",
+        "C": "Incorreta: volumes de 1000 mL são desnecessários e aumentariam demasiadamente o tempo de arraste.",
+        "D": "Incorreta: o indicador empregado é o vermelho de metila, que em meio ácido inicial é vermelho e vira para amarelo à medida que a amônia básica neutraliza parcialmente o meio receptor."
+      },
+      "referencia": {
+        "paginas": [
+          22
+        ],
+        "fundamentacao": "Slide 22 da apostila.",
+        "trechos_apoio": [
+          "Destilar até obter de 250 a 300 ml de destilado. Durante esse processo a solução passará do vermelho ao amarelo."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_05_q031",
+      "slide_id": "bromatologia_aula_05",
+      "slide_nome": "Aula 05 - Proteínas",
+      "arquivo_origem": "Aula 5 - Proteinas_261006_203142.pdf",
+      "numero": 31,
+      "tema": "Método de Kjeldahl",
+      "subtema": "Titulação Volumétrica e Ponto Final",
+      "enunciado": "Após a destilação por arraste de vapor, o excesso de ácido sulfúrico presente no erlenmeyer receptor precisa ser quantificado volumetricamente (etapa 4). De acordo com as diretrizes do slide 23, a titulação é realizada:",
+      "alternativas": {
+        "A": "Com ácido clorídrico 1,0 M até que a solução mude de incolor para azul-escuro.",
+        "B": "Titulando o excesso de ácido sulfúrico com hidróxido de sódio 0,1 M até que a solução (amarela) volte à cor vermelha.",
+        "C": "Adicionando nitrato de prata 0,5 M até a precipitação de cloreto insolúvel branco.",
+        "D": "Gotejando permanganato de potássio concentrado até a descoloração completa por 5 minutos."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o titulante é uma base padronizada (NaOH 0,1 M), e não ácido clorídrico.",
+        "B": "Correta: o slide estabelece textualmente: \"4. Titular o excesso de ácido sulfúrico com hidróxido de sódio 0,1 M até que a solução (amarela) volte à cor vermelha\".",
+        "C": "Incorreta: nitrato de prata é utilizado em volumetria de precipitação para determinação de cloretos (método de Mohr), não no método de Kjeldahl.",
+        "D": "Incorreta: permanganometria é titulação de oxirredução, ao passo que a titulação de Kjeldahl é de neutralização ácido-base."
+      },
+      "referencia": {
+        "paginas": [
+          23
+        ],
+        "fundamentacao": "Slide 23 da apostila.",
+        "trechos_apoio": [
+          "4. Titular o excesso de ácido sulfúrico com hidróxido de sódio 0,1 M até que a solução (amarela) volte à cor vermelha."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_05_q032",
+      "slide_id": "bromatologia_aula_05",
+      "slide_nome": "Aula 05 - Proteínas",
+      "arquivo_origem": "Aula 5 - Proteinas_261006_203142.pdf",
+      "numero": 32,
+      "tema": "Método de Kjeldahl",
+      "subtema": "Cálculo do Parâmetro V",
+      "enunciado": "Para a aplicação da fórmula final de cálculo do percentual de proteína bruta, deve-se determinar a variável V. Conforme a definição apresentada no slide 24, a variável V representa:",
+      "alternativas": {
+        "A": "O volume total do balão volumétrico em litros.",
+        "B": "A diferença entre o número de mL de ácido sulfúrico 0,05 M e o número de mL de hidróxido de sódio 0,1 M gastos na titulação.",
+        "C": "A massa de água evaporada na estufa dividida pela densidade do solvente.",
+        "D": "O volume de amônia gasosa desprendida no bloco digestor a 350 °C."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a análise de Kjeldahl não utiliza diluição em balão de grande volume para expressar V.",
+        "B": "Correta: a apostila define expressamente: \"Onde: V = diferença entre o número de ml de ácido sulfúrico 0,05 M e o número de ml de hidróxido de sódio 0,1 M gastos na titulação\".",
+        "C": "Incorreta: perda de água refere-se à determinação de umidade, não à titulação de nitrogênio.",
+        "D": "Incorreta: a amônia é recolhida em solução ácida e dosada por volumetria, e não por medida manométrica de volume gasoso no bloco."
+      },
+      "referencia": {
+        "paginas": [
+          24
+        ],
+        "fundamentacao": "Slide 24 da apostila.",
+        "trechos_apoio": [
+          "Onde: V = diferença entre o número de ml de ácido sulfúrico 0,05 M e o número de ml de hidróxido de sódio 0,1 M gastos na titulação."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_05_q033",
+      "slide_id": "bromatologia_aula_05",
+      "slide_nome": "Aula 05 - Proteínas",
+      "arquivo_origem": "Aula 5 - Proteinas_261006_203142.pdf",
+      "numero": 33,
+      "tema": "Método de Kjeldahl",
+      "subtema": "Fator de Conversão de Nitrogênio (f)",
+      "enunciado": "Uma vez quantificado o nitrogênio total na amostra, utiliza-se um fator estequiométrico de conversão para transformar a massa de nitrogênio em massa de proteína correspondente. Segundo os parâmetros da fórmula adotada no slide 24, o valor do fator de conversão (f) utilizado é:",
+      "alternativas": {
+        "A": "1,00",
+        "B": "3,14",
+        "C": "6,25",
+        "D": "10,00"
+      },
+      "gabarito": "C",
+      "explicacoes": {
+        "A": "Incorreta: o fator 1,00 representaria que 100% da proteína seria nitrogênio elementar, o que é biologicamente impossível.",
+        "B": "Incorreta: 3,14 é o valor aproximado da constante matemática pi.",
+        "C": "Correta: o slide estabelece categoricamente: \"f = fator de conversão (utilizado 6,25)\", refletindo a média de 16% de nitrogênio na maioria das proteínas alimentares (100 / 16 = 6,25).",
+        "D": "Incorreta: o fator 10,00 não tem correspondência analítica ou bromatológica."
+      },
+      "referencia": {
+        "paginas": [
+          24
+        ],
+        "fundamentacao": "Slide 24 da apostila.",
+        "trechos_apoio": [
+          "f = fator de conversão (utilizado 6,25)* P = peso da amostra"
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_05_q034",
+      "slide_id": "bromatologia_aula_05",
+      "slide_nome": "Aula 05 - Proteínas",
+      "arquivo_origem": "Aula 5 - Proteinas_261006_203142.pdf",
+      "numero": 34,
+      "tema": "Método de Kjeldahl",
+      "subtema": "Fórmula Matemática de Proteína Bruta",
+      "enunciado": "A determinação quantitativa final do teor de proteína percentual em base úmida ou integral é expressa por uma equação estequiométrica consolidada. Conforme apresentada no slide 24 da aula, a fórmula para o cálculo do teor de Proteínas, % (m/m) é:",
+      "alternativas": {
+        "A": "Proteínas, % (m/m) = (P × f) / (V × 0,14)",
+        "B": "Proteínas, % (m/m) = (V × 0,14 × f) / P",
+        "C": "Proteínas, % (m/m) = (V + P + f) / 100",
+        "D": "Proteínas, % (m/m) = [(P − V) × 100] / f"
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: inverte o numerador com o denominador (a massa da amostra P deve estar dividindo o cálculo).",
+        "B": "Correta: a fórmula oficial descrita textualmente no slide é: Proteínas, % (m/m) = (V × 0,14 × f) / P.",
+        "C": "Incorreta: somar volumes com massas e fatores adimensionais viola a análise dimensional e estequiométrica.",
+        "D": "Incorreta: a fórmula não expressa uma subtração gravimétrica direta de massas, mas sim uma titulação volumétrica."
+      },
+      "referencia": {
+        "paginas": [
+          24
+        ],
+        "fundamentacao": "Slide 24 da apostila.",
+        "trechos_apoio": [
+          "Proteínas, % (m/m) = (V 0,14 f) / P"
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_05_q035",
+      "slide_id": "bromatologia_aula_05",
+      "slide_nome": "Aula 05 - Proteínas",
+      "arquivo_origem": "Aula 5 - Proteinas_261006_203142.pdf",
+      "numero": 35,
+      "tema": "Método de Kjeldahl",
+      "subtema": "Cálculo Prático Aplicado",
+      "enunciado": "Em uma análise bromatológica conduzida rigorosamente conforme o protocolo do Instituto Adolfo Lutz (2008) da aula, um analista utilizou exatamente P = 1,0 g de amostra. Na titulação, encontrou uma diferença de volume V = 10,0 mL e aplicou o fator f = 6,25. Aplicando a fórmula oficial da aula, o teor de proteínas dessa amostra é de:",
+      "alternativas": {
+        "A": "1,40%",
+        "B": "6,25%",
+        "C": "8,75%",
+        "D": "24,30%"
+      },
+      "gabarito": "C",
+      "explicacoes": {
+        "A": "Incorreta: corresponde a multiplicar apenas V × 0,14 (ou seja, 10,0 × 0,14 = 1,40), esquecendo-se de multiplicar pelo fator de conversão proteico f = 6,25.",
+        "B": "Incorreta: confunde o resultado com o próprio valor isolado do fator f = 6,25.",
+        "C": "Correta: aplicando a equação: Proteínas, % (m/m) = (10,0 × 0,14 × 6,25) / 1,0 = (1,4 × 6,25) / 1,0 = 8,75%.",
+        "D": "Incorreta: 24,30% corresponde ao teor de proteína da lentilha constante na tabela do slide 2."
+      },
+      "referencia": {
+        "paginas": [
+          24
+        ],
+        "fundamentacao": "Slide 24 da apostila.",
+        "trechos_apoio": [
+          "Proteínas, % (m/m) = (V 0,14 f) / P"
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_05_q036",
+      "slide_id": "bromatologia_aula_05",
+      "slide_nome": "Aula 05 - Proteínas",
+      "arquivo_origem": "Aula 5 - Proteinas_261006_203142.pdf",
+      "numero": 36,
+      "tema": "Proteínas em Alimentos Básicos",
+      "subtema": "Composição Centesimal do Arroz e Massa",
+      "enunciado": "Analisando a tabela de teores proteicos totais dos alimentos apresentada no início da aula, observa-se a contribuição dos cereais e derivados na dieta. Conforme os dados numéricos do slide 2, os percentuais de proteína total presentes no arroz e na massa são, respectivamente:",
+      "alternativas": {
+        "A": "20,3% e 12,5%",
+        "B": "2,6% e 3,6%",
+        "C": "8,4% e 5,6%",
+        "D": "24,3% e 4,7%"
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: 20,3% é o teor da carne e 12,5% é o teor do ovo de galinha na tabela.",
+        "B": "Correta: a tabela do slide 2 estipula de forma explícita: \"Arroz: 2,6% de proteína total\" e \"Massa: 3,6% de proteína total\".",
+        "C": "Incorreta: 8,4% é o teor do pão branco e 5,6% é o teor da batata frita.",
+        "D": "Incorreta: 24,3% refere-se à lentilha e 4,7% ao chocolate puro."
+      },
+      "referencia": {
+        "paginas": [
+          2
+        ],
+        "fundamentacao": "Slide 2 da apostila.",
+        "trechos_apoio": [
+          "| Alimento | Proteína total (%) | Arroz | 2,6 | Massa | 3,6 |"
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_05_q037",
+      "slide_id": "bromatologia_aula_05",
+      "slide_nome": "Aula 05 - Proteínas",
+      "arquivo_origem": "Aula 5 - Proteinas_261006_203142.pdf",
+      "numero": 37,
+      "tema": "Tabela de Aminoácidos",
+      "subtema": "Identificação de Não Essenciais",
+      "enunciado": "Na Tabela 2.1 da aula, os aminoácidos não essenciais são aqueles que o organismo humano é capaz de sintetizar endogenamente. Com base exclusivamente nessa tabela, assinale a opção que contém apenas aminoácidos não essenciais:",
+      "alternativas": {
+        "A": "Arginina, Histidina e Valina.",
+        "B": "Alanina, Cisteína, Glutamina e Prolina.",
+        "C": "Fenilalanina, Treonina e Triptofano.",
+        "D": "Leucina, Isoleucina e Metionina."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: arginina, histidina e valina são todos classificados como aminoácidos essenciais na tabela.",
+        "B": "Correta: a coluna de \"Aminoácidos Não Essenciais\" da Tabela 2.1 elenca expressamente: Alanina, Asparagina, Aspartato, Cisteína, Glutamato, Glutamina, Glicina, Prolina, Serina e Tirosina.",
+        "C": "Incorreta: fenilalanina, treonina e triptofano constam na coluna de essenciais.",
+        "D": "Incorreta: leucina, isoleucina e metionina são aminoácidos essenciais na tabela."
+      },
+      "referencia": {
+        "paginas": [
+          6,
+          2,
+          1
+        ],
+        "fundamentacao": "Slide 6 (Tabela 2.1) da apostila.",
+        "trechos_apoio": [
+          "AMINOÁCIDOS NÃO ESSENCIAIS: Alanina, Asparagina, Aspartato, Cisteína, Glutamato, Glutamina, Glicina, Prolina, Serina, Tirosina."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_05_q038",
+      "slide_id": "bromatologia_aula_05",
+      "slide_nome": "Aula 05 - Proteínas",
+      "arquivo_origem": "Aula 5 - Proteinas_261006_203142.pdf",
+      "numero": 38,
+      "tema": "Instrumentação Analítica",
+      "subtema": "Equipamento de Kjeldahl",
+      "enunciado": "A aula apresenta a fotografia e o esquema do equipamento clássico de bancada empregado na etapa de separação do nitrogênio (slide 22). O instrumento de laboratório ilustrado é o:",
+      "alternativas": {
+        "A": "Forno mufla microprocessado com cadinhos de porcelana.",
+        "B": "Destilador de nitrogênio contendo o tubo de digestão e o erlenmeyer receptor.",
+        "C": "Refratômetro óptico manual para leitura de sólidos solúveis.",
+        "D": "Analisador gravimétrico de umidade por radiação infravermelha."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: fornos mufla calcinam cinzas a 550 °C sem condensação de destilado.",
+        "B": "Correta: a legenda da imagem no slide 22 indica textualmente: \"Destilador de nitrogênio contendo tubo de digestão (com líquido azul - a) e erlenmeyer contendo ácido sulfúrico (com líquido vermelho - b)\".",
+        "C": "Incorreta: refratômetros medem o índice de refração de soluções de açúcares (graus Brix).",
+        "D": "Incorreta: analisadores de umidade IV determinam a perda de massa por dessecação térmica, e não nitrogênio total."
+      },
+      "referencia": {
+        "paginas": [
+          22
+        ],
+        "fundamentacao": "Slide 22 da apostila.",
+        "trechos_apoio": [
+          "Destilador de nitrogênio contendo tubo de digestão (com líquido azul a) e erlenmeyer contendo ácido sulfúrico (com líquido vermelho - b)"
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_05_q039",
+      "slide_id": "bromatologia_aula_05",
+      "slide_nome": "Aula 05 - Proteínas",
+      "arquivo_origem": "Aula 5 - Proteinas_261006_203142.pdf",
+      "numero": 39,
+      "tema": "Aplicação Tecnológica da Desnaturação",
+      "subtema": "Branqueamento",
+      "enunciado": "No slide 9, um exemplo fotográfico e prático de processamento vegetal ilustra a aplicação da desnaturação térmica controlada (alimento branqueado versus não branqueado). O objetivo tecnológico dessa operação no pré-processamento de alimentos é:",
+      "alternativas": {
+        "A": "Converter celulose insolúvel em sacarose cristalizada.",
+        "B": "Inativar enzimas por desnaturação térmica evitando alterações indesejáveis na qualidade.",
+        "C": "Substituir a água líquida livre por gordura saturada trans.",
+        "D": "Romper completamente todas as ligações peptídicas das proteínas estruturais."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o branqueamento térmico não tem o poder de converter celulose vegetal em açúcar redutor.",
+        "B": "Correta: o calor do branqueamento promove a desnaturação conformacional das enzimas celulares (como polifenoloxidases e peroxidases), inativando-as para proteger a cor e o sabor do alimento.",
+        "C": "Incorreta: o branqueamento é um tratamento hidrotérmico rápido com água ou vapor, sem adição de lipídeos.",
+        "D": "Incorreta: a desnaturação altera o enovelamento espacial sem romper ligações peptídicas."
+      },
+      "referencia": {
+        "paginas": [
+          9
+        ],
+        "fundamentacao": "Slide 9 da apostila.",
+        "trechos_apoio": [
+          "Desnaturação proteica • Fatores provocam: calor [...] [Imagem: branqueado vs não branqueado]"
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_05_q040",
+      "slide_id": "bromatologia_aula_05",
+      "slide_nome": "Aula 05 - Proteínas",
+      "arquivo_origem": "Aula 5 - Proteinas_261006_203142.pdf",
+      "numero": 40,
+      "tema": "Proteínas",
+      "subtema": "Síntese e Relação Estrutura-Função nas Proteínas",
+      "enunciado": "Ao analisar de forma integrada a aula de Proteínas, a diversidade funcional das proteínas na alimentação decorre de um princípio bioquímico fundamental. Conforme sintetizado no slide 7:",
+      "alternativas": {
+        "A": "As proteínas agem de forma idêntica independentemente da sua conformação ou aminoácidos constituintes.",
+        "B": "Os aminoácidos, unidades básicas das proteínas, unem-se por ligações peptídicas, formando estruturas complexas que determinam suas propriedades e funções biológicas.",
+        "C": "As propriedades funcionais dependem unicamente da presença de amido e lipídeos na formulação.",
+        "D": "Qualquer alteração na estrutura terciária torna a proteína permanentemente tóxica para o consumo humano."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a diversidade funcional das proteínas depende rigorosamente de sua sequência e conformação espacial tridimensional específica.",
+        "B": "Correta: a apostila conclui textualmente: \"A composição química das proteínas está intimamente ligada à sua diversidade funcional. Os aminoácidos, unidades básicas das proteínas, unem-se por ligações peptídicas, formando estruturas complexas que determinam suas propriedades e funções biológicas\".",
+        "C": "Incorreta: as propriedades funcionais proteicas são atributos intrínsecos de suas próprias cadeias polipeptídicas e superfícies coloidais.",
+        "D": "Incorreta: a alteração da estrutura terciária (desnaturação) é um processo comum no cozimento diário que aumenta a digestibilidade e é plenamente seguro."
+      },
+      "referencia": {
+        "paginas": [
+          7
+        ],
+        "fundamentacao": "Slide 7 da apostila.",
+        "trechos_apoio": [
+          "A composição química das proteínas está intimamente ligada à sua diversidade funcional. Os aminoácidos, unidades básicas das proteínas, unem-se por ligações peptídicas, formando estruturas complexas que determinam suas propriedades e funções biológicas."
+        ]
+      }
+    }
+  ]
+}

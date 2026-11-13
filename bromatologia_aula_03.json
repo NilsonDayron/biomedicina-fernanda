@@ -1,0 +1,1289 @@
+{
+  "questoes": [
+    {
+      "id": "bromatologia_aula_03_q001",
+      "slide_id": "bromatologia_aula_03",
+      "slide_nome": "Aula 03 - Água nos Alimentos",
+      "arquivo_origem": "Aula_03_Agua_nos_Alimentos_Bromatologia_261006_203158.pdf",
+      "numero": 1,
+      "tema": "Fundamentos da Água nos Alimentos",
+      "subtema": "Quantidade Total versus Água Disponível",
+      "enunciado": "Em relação ao comportamento da água nos alimentos e à sua conservação, a ideia-chave apresentada na aula estabelece que:",
+      "alternativas": {
+        "A": "A quantidade total de água e a água disponível expressam rigorosamente a mesma informação analítica.",
+        "B": "Dois alimentos com teores de umidade semelhantes podem apresentar comportamentos de estabilidade diferentes.",
+        "C": "Qualquer alimento com umidade inferior a 50% é estéril e livre de reações químicas de degradação.",
+        "D": "O teor de umidade total é o único parâmetro confiável para prever a vida de prateleira de um produto."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o texto destaca explicitamente como ideia-chave que a quantidade total de água e a água disponível não são a mesma informação.",
+        "B": "Correta: a apostila define que dois alimentos podem ter umidades semelhantes e comportamentos de estabilidade completamente diferentes devido ao estado em que a água se encontra.",
+        "C": "Incorreta: alimentos com umidade abaixo de 50% (ex.: umidade intermediária) ainda possuem água disponível capaz de permitir reações químicas e desenvolvimento de microrganismos.",
+        "D": "Incorreta: a estabilidade e a conservação dependem primordialmente da atividade de água (Aw) e do seu estado energético, e não apenas do teor de umidade total."
+      },
+      "referencia": {
+        "paginas": [
+          2
+        ],
+        "fundamentacao": "Slide 2 da apostila.",
+        "trechos_apoio": [
+          "Ideia-chave: A quantidade total de água e a água disponível não são a mesma informação. Dois alimentos podem ter umidades semelhantes e comportamentos de estabilidade diferentes."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_03_q002",
+      "slide_id": "bromatologia_aula_03",
+      "slide_nome": "Aula 03 - Água nos Alimentos",
+      "arquivo_origem": "Aula_03_Agua_nos_Alimentos_Bromatologia_261006_203158.pdf",
+      "numero": 2,
+      "tema": "Formas da Água",
+      "subtema": "Água Livre",
+      "enunciado": "A água presente nos tecidos biológicos e formulações alimentícias pode assumir diferentes estados físicos. De acordo com o material didático, a água livre caracteriza-se por:",
+      "alternativas": {
+        "A": "Apresentar maior mobilidade, não estar ligada aos componentes do alimento e estar disponível para microrganismos e reações químicas.",
+        "B": "Integrar a rede cristalina dos sais em proporções estequiométricas fixas, sendo irremovível por evaporação.",
+        "C": "Estar unida irreversivelmente às proteínas musculares, apresentando mobilidade nula.",
+        "D": "Ter contribuição desprezível para a pressão de vapor do alimento."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: a água livre não está ligada aos componentes do alimento, apresenta maior mobilidade e encontra-se disponível para microrganismos e reações químicas.",
+        "B": "Incorreta: a água que integra a rede cristalina em proporção definida é a água de cristalização, não a água livre.",
+        "C": "Incorreta: a água ligada por pontes de hidrogênio a macromoléculas é a água ligada/associada, que possui mobilidade reduzida, enquanto a livre tem grande mobilidade.",
+        "D": "Incorreta: a água livre é justamente a fração que apresenta a maior contribuição para a pressão de vapor do alimento."
+      },
+      "referencia": {
+        "paginas": [
+          4
+        ],
+        "fundamentacao": "Slides 4 da apostila.",
+        "trechos_apoio": [
+          "ÁGUA LIVRE: Não está ligada aos componentes do alimento. Disponível para microrganismos e reações químicas [...] Maior mobilidade e disponibilidade para reações e microrganismos"
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_03_q003",
+      "slide_id": "bromatologia_aula_03",
+      "slide_nome": "Aula 03 - Água nos Alimentos",
+      "arquivo_origem": "Aula_03_Agua_nos_Alimentos_Bromatologia_261006_203158.pdf",
+      "numero": 3,
+      "tema": "Formas da Água",
+      "subtema": "Água Ligada",
+      "enunciado": "Em contraposição à água livre, a água ligada (ou associada) nos alimentos exibe propriedades físico-químicas particulares. Segundo o texto, essa fração de água:",
+      "alternativas": {
+        "A": "Não estabelece qualquer interação intermolecular com solutos.",
+        "B": "Está ligada por forças de hidrogênio ou interação com solutos, proteínas e carboidratos, apresentando menor mobilidade.",
+        "C": "É facilmente volatilizada em temperatura ambiente sem fornecimento de energia térmica.",
+        "D": "É a principal responsável pela proliferação acelerada de bactérias patogênicas em carnes frescas."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a água ligada interage ativamente por meio de forças de hidrogênio e atração eletrostática com solutos e macromoléculas.",
+        "B": "Correta: a apostila estabelece que a água ligada está unida por forças de hidrogênio ou interação com solutos (proteínas, carboidratos, sais), possuindo menor mobilidade e menor disponibilidade.",
+        "C": "Incorreta: por estar interagindo energeticamente com os constituintes, a água ligada requer maior energia para ser removida do que a água livre.",
+        "D": "Incorreta: a proliferação bacteriana depende da água livre disponível no sistema, e não da água fortemente associada."
+      },
+      "referencia": {
+        "paginas": [
+          4
+        ],
+        "fundamentacao": "Slides 4 da apostila.",
+        "trechos_apoio": [
+          "ÁGUA LIGADA: Ligada por forças de hidrogênio ou interação com solutos. Menos disponível [...] Associada a proteínas, carboidratos, sais e outras estruturas; menor mobilidade"
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_03_q004",
+      "slide_id": "bromatologia_aula_03",
+      "slide_nome": "Aula 03 - Água nos Alimentos",
+      "arquivo_origem": "Aula_03_Agua_nos_Alimentos_Bromatologia_261006_203158.pdf",
+      "numero": 4,
+      "tema": "Formas da Água",
+      "subtema": "Água de Cristalização e Estrutural",
+      "enunciado": "A respeito da água de cristalização (ou estrutural) citada na aula, é correto afirmar que:",
+      "alternativas": {
+        "A": "É prontamente consumida por bactérias e bolores durante o armazenamento do alimento.",
+        "B": "Faz parte da estrutura de cristais em proporção definida (como na α-lactose monoidratada) e não é removida por secagem comum.",
+        "C": "Apresenta elevadíssima mobilidade e evapora espontaneamente sob pressão atmosférica normal.",
+        "D": "Representa toda a fração aquosa de alimentos fluidos como leite e sucos cítricos."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: por estar integrada à malha cristalina, ela não está prontamente disponível para o metabolismo microbiano nem para a maioria das reações químicas.",
+        "B": "Correta: o slide explica que ela faz parte da estrutura de determinados cristais em proporção definida, exemplificando com a α-lactose monoidratada, e ressalta que não é removida por secagem comum.",
+        "C": "Incorreta: a água estrutural apresenta baixa mobilidade, diferindo totalmente da água livre.",
+        "D": "Incorreta: em leites e sucos a água predominante é a água livre, que se encontra dispersa e não associada a retículos cristalinos monoidratados."
+      },
+      "referencia": {
+        "paginas": [
+          4
+        ],
+        "fundamentacao": "Slides 4 da apostila.",
+        "trechos_apoio": [
+          "ÁGUA DE CRISTALIZAÇÃO: Faz parte da estrutura de cristais. Não é removida por secagem comum [...] Exemplo: a lactose monoidratada (α-lactose monoidratada)"
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_03_q005",
+      "slide_id": "bromatologia_aula_03",
+      "slide_nome": "Aula 03 - Água nos Alimentos",
+      "arquivo_origem": "Aula_03_Agua_nos_Alimentos_Bromatologia_261006_203158.pdf",
+      "numero": 5,
+      "tema": "Teor de Umidade",
+      "subtema": "Expressão Matemática e Cálculo Gravimétrico",
+      "enunciado": "A quantificação do teor de umidade é fundamental na determinação da composição centesimal. A apostila apresenta a seguinte equação para o cálculo percentual de umidade:\n Umidade (%) = [(massa inicial − massa seca) / massa inicial] × 100 \nSe uma amostra alimentícia de 5,0 g perde 1,5 g de massa após o procedimento de secagem adequada, o teor de umidade dessa amostra é de:",
+      "alternativas": {
+        "A": "15%",
+        "B": "25%",
+        "C": "30%",
+        "D": "70%"
+      },
+      "gabarito": "C",
+      "explicacoes": {
+        "A": "Incorreta: confunde a massa perdida de 1,5 g com uma porcentagem direta de 15%, ignorando a proporção em relação à massa inicial de 5,0 g.",
+        "B": "Incorreta: cálculo incorreto; 25% corresponderia a uma perda de 1,25 g.",
+        "C": "Correta: aplicando a fórmula: Umidade (%) = (1,5 / 5,0) × 100 = 0,30 × 100 = 30%, valor coincidente com o exercício de fixação proposto no slide.",
+        "D": "Incorreta: 70% corresponde ao teor de sólidos secos remanescentes (3,5 g / 5,0 g × 100), e não ao teor de umidade perdida."
+      },
+      "referencia": {
+        "paginas": [
+          5
+        ],
+        "fundamentacao": "Slide 5 da apostila.",
+        "trechos_apoio": [
+          "Umidade (%) = (massa inicial - massa seca) / massa inicial 100 [...] Para fixar: Se uma amostra perde 1,5 g a partir de 5,0 g, qual é a umidade? [Cálculo: (1,5 / 5,0) 100 = 30%]"
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_03_q006",
+      "slide_id": "bromatologia_aula_03",
+      "slide_nome": "Aula 03 - Água nos Alimentos",
+      "arquivo_origem": "Aula_03_Agua_nos_Alimentos_Bromatologia_261006_203158.pdf",
+      "numero": 6,
+      "tema": "Métodos de Determinação de Umidade",
+      "subtema": "Secagem em Estufa",
+      "enunciado": "A secagem em estufa é um dos métodos mais tradicionais para a determinação de umidade em laboratórios de bromatologia. De acordo com o quadro comparativo da apostila, o princípio desse método e o principal ponto de atenção/cuidado a ser observado são, respectivamente:",
+      "alternativas": {
+        "A": "Reação química específica com iodo; exige equipamentos eletrônicos de alto custo.",
+        "B": "Perda de massa por aquecimento; pode ocasionar perda concomitante de outros compostos voláteis.",
+        "C": "Arraste azeotrópico em solvente imiscível; processo altamente trabalhoso e moroso.",
+        "D": "Leitura indireta por emissão de raios infravermelhos; requer calibração estrita por matriz."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o princípio da reação química específica para água descreve o método de Karl Fischer.",
+        "B": "Correta: a apostila define que a secagem em estufa baseia-se na perda de massa por aquecimento (vantagem: simples e amplamente utilizada) e seu ponto de atenção é que \"pode perder outros voláteis\".",
+        "C": "Incorreta: o uso de solventes e arraste por separação mecânica refere-se ao método de destilação.",
+        "D": "Incorreta: a leitura gravimétrica por radiação térmica é a base do analisador por infravermelho."
+      },
+      "referencia": {
+        "paginas": [
+          6
+        ],
+        "fundamentacao": "Slide 6 da apostila.",
+        "trechos_apoio": [
+          "Secagem em estufa | Princípio: Perda de massa por aquecimento | Vantagem: Simples e amplamente utilizada | Atenção: Pode perder outros voláteis"
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_03_q007",
+      "slide_id": "bromatologia_aula_03",
+      "slide_nome": "Aula 03 - Água nos Alimentos",
+      "arquivo_origem": "Aula_03_Agua_nos_Alimentos_Bromatologia_261006_203158.pdf",
+      "numero": 7,
+      "tema": "Métodos de Determinação de Umidade",
+      "subtema": "Analisador por Infravermelho",
+      "enunciado": "O método de determinação de umidade por radiação infravermelha tem sido crescentemente adotado no controle de processos industriais. Segundo a aula, sua principal vantagem operacional e seu ponto crítico de atenção são:",
+      "alternativas": {
+        "A": "Destruição total de cinzas; ausência de necessidade de calibração.",
+        "B": "Medição exclusiva de água ligada; tempo de ensaio superior a 24 horas.",
+        "C": "Rapidez na secagem acoplada à leitura gravimétrica; exigência de padronização por matriz alimentar.",
+        "D": "Seletividade química absoluta; emprego de reagentes inflamáveis controlados pela polícia."
+      },
+      "gabarito": "C",
+      "explicacoes": {
+        "A": "Incorreta: analisadores de umidade IV não quantificam cinzas e exigem padronização para cada alimento.",
+        "B": "Incorreta: o método é muito rápido e mede a perda de voláteis/água por calor, não se restringindo a frações ligadas.",
+        "C": "Correta: o quadro destaca que a vantagem do infravermelho é a sua rapidez (secagem rápida com leitura gravimétrica direta), tendo como atenção a exigência de padronização por matriz.",
+        "D": "Incorreta: alta seletividade por reação química e reagentes específicos são características de Karl Fischer, não do secador IV."
+      },
+      "referencia": {
+        "paginas": [
+          6
+        ],
+        "fundamentacao": "Slide 6 da apostila.",
+        "trechos_apoio": [
+          "Infravermelho | Princípio: Secagem rápida com leitura gravimétrica | Vantagem: Rapidez | Atenção: Exige padronização por matriz"
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_03_q008",
+      "slide_id": "bromatologia_aula_03",
+      "slide_nome": "Aula 03 - Água nos Alimentos",
+      "arquivo_origem": "Aula_03_Agua_nos_Alimentos_Bromatologia_261006_203158.pdf",
+      "numero": 8,
+      "tema": "Métodos de Determinação de Umidade",
+      "subtema": "Método de Karl Fischer",
+      "enunciado": "Ao analisar amostras com teores reduzidos de umidade ou matrizes ricas em componentes termolábeis e voláteis, o método de Karl Fischer destaca-se como alternativa de referência. De acordo com a apostila, o princípio diferencial desse método fundamenta-se em:",
+      "alternativas": {
+        "A": "Evaporação térmica violenta da água sob chama direta a 300 °C.",
+        "B": "Reação química específica para água, proporcionando alta seletividade.",
+        "C": "Separação mecânica da água por decantação estática em ampolas fechadas.",
+        "D": "Estimativa visual da turbidez após congelamento com gelo seco."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o método de Karl Fischer não aquece a amostra em chama direta nem provoca pirólise.",
+        "B": "Correta: o texto indica textualmente que o princípio de Karl Fischer reside em uma \"reação química específica para água\", tendo como grande vantagem a sua \"alta seletividade\".",
+        "C": "Incorreta: decantação ou arraste por solventes caracterizam os métodos de destilação, não a titulação de Karl Fischer.",
+        "D": "Incorreta: a análise de Karl Fischer é titrimétrica e baseada em estequiometria química precisa, e não em turbidimetria visual."
+      },
+      "referencia": {
+        "paginas": [
+          6
+        ],
+        "fundamentacao": "Slide 6 da apostila.",
+        "trechos_apoio": [
+          "Karl Fischer | Princípio: Reação química específica para água | Vantagem: Alta seletividade | Atenção: Reagentes/equipamento específicos"
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_03_q009",
+      "slide_id": "bromatologia_aula_03",
+      "slide_nome": "Aula 03 - Água nos Alimentos",
+      "arquivo_origem": "Aula_03_Agua_nos_Alimentos_Bromatologia_261006_203158.pdf",
+      "numero": 9,
+      "tema": "Água nos Alimentos e Atividade de Água (Aw)",
+      "subtema": "Conceito Termodinâmico de Atividade de Água (Aw)",
+      "enunciado": "A atividade de água (Aw) descreve a disponibilidade termodinâmica da água em um alimento. De acordo com a definição matemática e conceitual apresentada no material, a Aw é calculada pela:",
+      "alternativas": {
+        "A": "Razão entre o peso seco do alimento e sua massa de cinzas minerais fixas.",
+        "B": "Razão entre a pressão de vapor da água no alimento (p) e a pressão de vapor da água pura (p₀), na mesma temperatura.",
+        "C": "Multiplicação do volume de água livre pela temperatura em graus Celsius da amostra.",
+        "D": "Soma percentual da água de cristalização com o teor de açúcares redutores do alimento."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a relação entre peso seco e cinzas refere-se ao balanço da composição centesimal inorgânica, sem correlação com Aw.",
+        "B": "Correta: a apostila define formalmente: Aw = p / p₀, correspondendo à razão entre a pressão de vapor da água no alimento (p) e a pressão de vapor da água pura (p₀) na mesma temperatura.",
+        "C": "Incorreta: Aw é uma grandeza adimensional definida por pressões parciais de vapor, e não por produtos com temperatura empírica.",
+        "D": "Incorreta: a atividade de água não é obtida por soma de compostos químicos, mas por equilíbrio termodinâmico de fases."
+      },
+      "referencia": {
+        "paginas": [
+          7,
+          10
+        ],
+        "fundamentacao": "Slide 7 e 10 da apostila.",
+        "trechos_apoio": [
+          "Aw descreve a disponibilidade termodinâmica da água no alimento. É definida pela razão entre a pressão de vapor da água no alimento (p) e a pressão de vapor da água pura (p0), na mesma temperatura. Aw = p / p0"
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_03_q010",
+      "slide_id": "bromatologia_aula_03",
+      "slide_nome": "Aula 03 - Água nos Alimentos",
+      "arquivo_origem": "Aula_03_Agua_nos_Alimentos_Bromatologia_261006_203158.pdf",
+      "numero": 10,
+      "tema": "Água nos Alimentos e Atividade de Água (Aw)",
+      "subtema": "Atividade de Água e Umidade Relativa de Equilíbrio (UR)",
+      "enunciado": "A atividade de água (Aw) correlaciona-se diretamente com a Umidade Relativa de Equilíbrio da atmosfera circundante por meio da equação UR de equilíbrio (%) ≈ Aw × 100. Se um produto alimentício apresenta Aw = 0,75, ele se encontra em equilíbrio higroscópico com um ambiente cuja umidade relativa é de aproximadamente:",
+      "alternativas": {
+        "A": "7,5%",
+        "B": "25%",
+        "C": "75%",
+        "D": "100%"
+      },
+      "gabarito": "C",
+      "explicacoes": {
+        "A": "Incorreta: valor decorrente de multiplicação incorreta por 10 em vez de 100.",
+        "B": "Incorreta: corresponde ao cálculo de sólidos ou déficit de umidade em relação a 100%, e não à umidade relativa atmosférica correspondente.",
+        "C": "Correta: aplicando a relação dada no material (UR (%) ≈ Aw × 100), temos: 0,75 × 100 = 75%, exatamente como formulado na questão de fixação do slide.",
+        "D": "Incorreta: umidade relativa de 100% ocorre em equilíbrio com água pura, onde Aw = 1,00."
+      },
+      "referencia": {
+        "paginas": [
+          7
+        ],
+        "fundamentacao": "Slide 7 da apostila.",
+        "trechos_apoio": [
+          "Relação com UR de equilíbrio: ERH (%) ≈ Aw * 100 [...] Para fixar: Um alimento com Aw = 0,75 está em equilíbrio com aproximadamente qual umidade relativa? [Resposta: 75%]"
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_03_q011",
+      "slide_id": "bromatologia_aula_03",
+      "slide_nome": "Aula 03 - Água nos Alimentos",
+      "arquivo_origem": "Aula_03_Agua_nos_Alimentos_Bromatologia_261006_203158.pdf",
+      "numero": 11,
+      "tema": "Diferenças entre Umidade e Aw",
+      "subtema": "Conceito Físico-Químico",
+      "enunciado": "O quadro comparativo apresentado na aula contrapõe o teor de umidade à atividade de água (Aw). Em relação ao que cada grandeza representa e suas respectivas unidades de medida, é correto afirmar que:",
+      "alternativas": {
+        "A": "A umidade representa o estado energético da água (adimensional), enquanto a Aw expressa a quantidade total em porcentagem.",
+        "B": "O teor de umidade representa a quantidade total de água (expressa em % ou g/100 g), enquanto a Aw indica a disponibilidade ou estado energético da água (adimensional, variando de 0 a 1).",
+        "C": "Ambas as grandezas representam exatamente o mesmo fenômeno e são expressas obrigatoriamente na unidade dimensional g/100 g.",
+        "D": "O teor de umidade depende unicamente da temperatura, ao passo que a Aw depende exclusivamente do tamanho da amostra pesada."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: inverte completamente as definições e as unidades; Aw é que reflete o estado energético/disponibilidade e é adimensional, enquanto a umidade mede a quantidade total em porcentagem.",
+        "B": "Correta: o slide estabelece que o teor de umidade expressa a \"quantidade total de água\" (em % ou g/100 g) e a Aw representa a \"disponibilidade/estado energético da água\", sendo uma grandeza adimensional (escala de 0 a 1).",
+        "C": "Incorreta: umidade e Aw expressam propriedades termodinâmicas distintas e possuem naturezas de unidades diferentes.",
+        "D": "Incorreta: o teor de umidade depende da composição da matriz e da perda de massa na secagem, enquanto a Aw é regida pela interação da matriz com solutos e varia fortemente com a temperatura."
+      },
+      "referencia": {
+        "paginas": [
+          8
+        ],
+        "fundamentacao": "Slide 8 da apostila.",
+        "trechos_apoio": [
+          "Teor de umidade | O que representa: Quantidade total de água | Unidade: % ou g/100 g [...] Atividade de água (Aw) | O que representa: Disponibilidade/estado energético da água | Unidade: Adimensional (0–1)"
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_03_q012",
+      "slide_id": "bromatologia_aula_03",
+      "slide_nome": "Aula 03 - Água nos Alimentos",
+      "arquivo_origem": "Aula_03_Agua_nos_Alimentos_Bromatologia_261006_203158.pdf",
+      "numero": 12,
+      "tema": "Aplicação Tecnológica de Umidade e Aw",
+      "subtema": "Controle e Previsão",
+      "enunciado": "No controle de qualidade dos alimentos, a escolha entre avaliar o teor de umidade ou a atividade de água depende do objetivo analítico. De acordo com o material didático, os usos principais do teor de umidade e da Aw são, respectivamente:",
+      "alternativas": {
+        "A": "Prever reações de oxidação lipídica acelerada; avaliar o teor calórico do produto.",
+        "B": "Composição, rendimento e padronização; estabilidade, segurança e vida útil.",
+        "C": "Identificar fraudes por adição de corantes; dimensionar o consumo energético do forno industrial.",
+        "D": "Determinar a cinética de migração gasosa em embalagens; isolar patógenos estritos."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a estabilidade química frente a oxidações é avaliada pela Aw, e a umidade mede massa de água, não calorias.",
+        "B": "Correta: a tabela do slide 8 define textualmente que o uso principal do teor de umidade relaciona-se a \"composição, rendimento e padronização\", enquanto a Aw é utilizada para prever \"estabilidade, segurança e vida útil\".",
+        "C": "Incorreta: corantes e custos de fornos não são os objetos de uso descritos para esses parâmetros na apostila.",
+        "D": "Incorreta: a avaliação microbiológica de segurança e vida útil decorre da Aw, e a umidade atende a requisitos composicionais e padronização legal."
+      },
+      "referencia": {
+        "paginas": [
+          8
+        ],
+        "fundamentacao": "Slide 8 da apostila.",
+        "trechos_apoio": [
+          "Uso principal: Teor de umidade → Composição, rendimento, padronização | Atividade de água (Aw) → Estabilidade, segurança e vida útil"
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_03_q013",
+      "slide_id": "bromatologia_aula_03",
+      "slide_nome": "Aula 03 - Água nos Alimentos",
+      "arquivo_origem": "Aula_03_Agua_nos_Alimentos_Bromatologia_261006_203158.pdf",
+      "numero": 13,
+      "tema": "Isotermas de Sorção",
+      "subtema": "Definição e Conceito",
+      "enunciado": "A respeito do conceito de isoterma de sorção, o material didático a define tecnicamente como:",
+      "alternativas": {
+        "A": "A curva que correlaciona a condutividade térmica com o teor de gordura insaturada em temperatura decrescente.",
+        "B": "A curva que representa a relação entre a atividade de água (Aw) e o teor de umidade de equilíbrio de um alimento, a temperatura constante.",
+        "C": "Uma reta perfeitamente linear e universal que converte umidade percentual em Aw para qualquer tipo de matriz.",
+        "D": "O gráfico de calorimetria diferencial de varredura que mede o ponto de fusão da água de cristalização."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a isoterma relaciona parâmetros de retenção de água (umidade e Aw), sem ligação com gorduras ou condutividade térmica.",
+        "B": "Correta: o slide conceitua a isoterma de sorção como a curva que representa a relação entre a atividade de água (Aw) e o teor de umidade de equilíbrio de um alimento, a temperatura constante, avaliando seu comportamento na secagem e estocagem.",
+        "C": "Incorreta: o texto enfatiza enfaticamente que a relação entre umidade e Aw não é linear nem universal.",
+        "D": "Incorreta: a isoterma avalia o equilíbrio higroscópico entre as fases, não transições térmicas de ponto de fusão."
+      },
+      "referencia": {
+        "paginas": [
+          9
+        ],
+        "fundamentacao": "Slide 9 da apostila.",
+        "trechos_apoio": [
+          "Isoterma de sorção: curva que representa a relação entre a atividade de água (Aw) e o teor de umidade de equilíbrio de um alimento, a temperatura constante, permitindo avaliar seu comportamento durante secagem e armazenamento."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_03_q014",
+      "slide_id": "bromatologia_aula_03",
+      "slide_nome": "Aula 03 - Água nos Alimentos",
+      "arquivo_origem": "Aula_03_Agua_nos_Alimentos_Bromatologia_261006_203158.pdf",
+      "numero": 14,
+      "tema": "Isotermas de Sorção",
+      "subtema": "Propriedades e Não Linearidade",
+      "enunciado": "A análise das curvas de isotermas de sorção revela particularidades do comportamento higroscópico das matrizes alimentícias. Conforme abordado na aula, sobre a relação entre umidade e Aw nas isotermas:",
+      "alternativas": {
+        "A": "Trata-se de uma relação matemática linear invariável para todos os alimentos.",
+        "B": "Cada alimento apresenta comportamento próprio, a relação não é linear, e a temperatura e a composição química alteram a isoterma.",
+        "C": "Alimentos com a mesma porcentagem de umidade exibem obrigatoriamente idêntico valor de Aw.",
+        "D": "As isotermas independem da estrutura molecular e da formulação do alimento."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o material enfatiza que a relação entre umidade e Aw nunca é linear.",
+        "B": "Correta: o slide destaca que \"a relação entre umidade e Aw não é linear\", \"cada alimento apresenta comportamento próprio\" e que \"temperatura e composição alteram a isoterma\".",
+        "C": "Incorreta: dois alimentos com o mesmo teor de umidade podem conter a água mais ou menos ligada aos seus componentes, resultando em valores de Aw completamente diferentes.",
+        "D": "Incorreta: a forma como os biopolímeros e solutos interagem com a água depende da estrutura química e da composição de cada alimento."
+      },
+      "referencia": {
+        "paginas": [
+          9
+        ],
+        "fundamentacao": "Slide 9 da apostila.",
+        "trechos_apoio": [
+          "• A relação entre umidade e Aw não é linear. • Cada alimento apresenta comportamento próprio. • Temperatura e composição alteram a isoterma. • É útil para formulação, embalagem, secagem e previsão de estabilidade."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_03_q015",
+      "slide_id": "bromatologia_aula_03",
+      "slide_nome": "Aula 03 - Água nos Alimentos",
+      "arquivo_origem": "Aula_03_Agua_nos_Alimentos_Bromatologia_261006_203158.pdf",
+      "numero": 15,
+      "tema": "Fenômenos de Sorção",
+      "subtema": "Adsorção versus Dessorção",
+      "enunciado": "Quando um alimento é colocado em contato com o ar ambiente sob determinada umidade relativa, ocorrem trocas de vapor de água até que o equilíbrio higroscópico seja atingido. Segundo a apostila, os fenômenos de adsorção e dessorção definem-se, respectivamente, como:",
+      "alternativas": {
+        "A": "Perda de solutos dissolvidos para o ar; retenção irreversível de gases atmosféricos.",
+        "B": "Ganho de água do ambiente; perda de água para o ambiente.",
+        "C": "Formação de cristais de gelo na superfície; sublimação direta da água ligada.",
+        "D": "Precipitação de sais minerais; condensação de solventes orgânicos."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: os processos tratam estritamente do fluxo de vapor de água entre a matriz e o ambiente, sem perda de solutos pelo ar.",
+        "B": "Correta: a apostila define de forma direta: \"Adsorver água → ganhar água do ambiente; Dessorver água → perder água para o ambiente\".",
+        "C": "Incorreta: congelamento e sublimação referem-se a transições térmicas de fase sólida, e não à definição geral de adsorção/dessorção higroscópica.",
+        "D": "Incorreta: adsorção e dessorção referem-se à água em equilíbrio de sorção, e não a reações de precipitação inorgânica."
+      },
+      "referencia": {
+        "paginas": [
+          9
+        ],
+        "fundamentacao": "Slide 9 da apostila.",
+        "trechos_apoio": [
+          "Quando um alimento é colocado em um ambiente com determinada umidade relativa, ele pode: Adsorver água → ganhar água do ambiente; Dessorver água → perder água para o ambiente; atingir o equilíbrio, quando não há ganho ou perda líquida de água."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_03_q016",
+      "slide_id": "bromatologia_aula_03",
+      "slide_nome": "Aula 03 - Água nos Alimentos",
+      "arquivo_origem": "Aula_03_Agua_nos_Alimentos_Bromatologia_261006_203158.pdf",
+      "numero": 16,
+      "tema": "Água nos Alimentos e Atividade de Água (Aw)",
+      "subtema": "Classificação dos Alimentos por Teor de Umidade",
+      "enunciado": "Conforme a tabela didática de classificação apresentada no slide sobre umidade e alimentos, os alimentos de umidade intermediária são caracterizados por apresentarem um teor de umidade na faixa de:",
+      "alternativas": {
+        "A": "> 70%",
+        "B": "30% a 70%",
+        "C": "10% a 30%",
+        "D": "< 10%"
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a faixa > 70% classifica os alimentos de alta umidade (como leite, carnes e hortaliças).",
+        "B": "Correta: a tabela estabelece expressamente que os alimentos de umidade intermediária possuem teor de umidade de 30–70% (citando queijos, pães e embutidos como exemplos).",
+        "C": "Incorreta: a faixa de 10% a 30% corresponde aos alimentos de baixa umidade (como farinhas e frutas secas).",
+        "D": "Incorreta: teores inferiores a 10% enquadram os alimentos de umidade muito baixa (leite em pó, grãos, açúcar)."
+      },
+      "referencia": {
+        "paginas": [
+          10
+        ],
+        "fundamentacao": "Slide 10 da apostila.",
+        "trechos_apoio": [
+          "Alimentos de umidade intermediária | Teor de umidade: 30 - 70% | Exemplos: Queijos, pães, embutidos"
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_03_q017",
+      "slide_id": "bromatologia_aula_03",
+      "slide_nome": "Aula 03 - Água nos Alimentos",
+      "arquivo_origem": "Aula_03_Agua_nos_Alimentos_Bromatologia_261006_203158.pdf",
+      "numero": 17,
+      "tema": "Faixas de Aw e Microbiologia",
+      "subtema": "Faixa de Aw > 0,91",
+      "enunciado": "Na tabela que correlaciona as faixas de atividade de água ao crescimento microbiano, a condição com Aw > 0,91 é descrita como:",
+      "alternativas": {
+        "A": "Muito baixa, onde não ocorre multiplicação de nenhuma bactéria patogênica.",
+        "B": "Muito alta, propiciando o crescimento ótimo da maioria dos microrganismos.",
+        "C": "Intermediária, permitindo o crescimento exclusivo de bolores xerófilos e fungos osmotolerantes.",
+        "D": "Crítica para a dessecação forçada de microrganismos esporulados."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: Aw > 0,91 não inibe bactérias, pelo contrário, representa a faixa de maior atividade metabólica bacteriana.",
+        "B": "Correta: a tabela classifica a faixa de Aw > 0,91 como \"Muito alta\" e indica que nela ocorre o \"crescimento ótimo da maioria dos microrganismos\".",
+        "C": "Incorreta: bolores xerófilos proliferam em faixas mais baixas de Aw (0,60–0,70), enquanto > 0,91 favorece a microbiota geral e bactérias deteriorantes.",
+        "D": "Incorreta: não há dessecação com Aw > 0,91; a disponibilidade de água livre nesse patamar é elevadíssima."
+      },
+      "referencia": {
+        "paginas": [
+          10
+        ],
+        "fundamentacao": "Slide 10 da apostila.",
+        "trechos_apoio": [
+          "Faixa de Aw: > 0,91 | Condição: Muito alta | Crescimento microbiano: Crescimento ótimo da maioria dos microrganismos"
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_03_q018",
+      "slide_id": "bromatologia_aula_03",
+      "slide_nome": "Aula 03 - Água nos Alimentos",
+      "arquivo_origem": "Aula_03_Agua_nos_Alimentos_Bromatologia_261006_203158.pdf",
+      "numero": 18,
+      "tema": "Faixas de Aw e Microbiologia",
+      "subtema": "Bactérias Patogênicas (0,85 a 0,91)",
+      "enunciado": "Segundo os dados apresentados na apostila, a faixa de atividade de água classificada como alta, situada entre 0,85 e 0,91, reveste-se de grande preocupação sanitária porque nela:",
+      "alternativas": {
+        "A": "Cessam totalmente todas as reações enzimáticas e químicas de deterioração.",
+        "B": "Crescem muitas bactérias patogênicas.",
+        "C": "Ocorre apenas a germinação de sementes e grãos armazenados a granel.",
+        "D": "O crescimento microbiano é inviabilizado pela ausência de água livre."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: com Aw entre 0,85 e 0,91, as reações bioquímicas continuam em velocidade expressiva.",
+        "B": "Correta: na tabela do slide 10, a faixa de 0,85–0,91 (Condição: Alta) tem como consequência microbiológica o fato de que \"crescem muitas bactérias patogênicas\".",
+        "C": "Incorreta: o foco desta faixa no controle bromatológico reside na proliferação de patógenos alimentares de relevância à saúde pública.",
+        "D": "Incorreta: essa faixa ainda possui ampla quantidade de água móvel e livre no meio."
+      },
+      "referencia": {
+        "paginas": [
+          10
+        ],
+        "fundamentacao": "Slide 10 da apostila.",
+        "trechos_apoio": [
+          "Faixa de Aw: 0,85 - 0,91 | Condição: Alta | Crescimento microbiano: Crescem muitas bactérias patogênicas"
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_03_q019",
+      "slide_id": "bromatologia_aula_03",
+      "slide_nome": "Aula 03 - Água nos Alimentos",
+      "arquivo_origem": "Aula_03_Agua_nos_Alimentos_Bromatologia_261006_203158.pdf",
+      "numero": 19,
+      "tema": "Faixas de Aw e Microbiologia",
+      "subtema": "Leveduras Osmofílicas e Bolores Xerófilos (0,60 a 0,70)",
+      "enunciado": "Na faixa de Aw entre 0,60 e 0,70 (condição classificada como baixa), a maioria das bactérias comuns já não consegue se multiplicar. Contudo, essa faixa ainda permite o desenvolvimento específico de:",
+      "alternativas": {
+        "A": "Microrganismos termófilos esporulados em meio líquido.",
+        "B": "Leveduras osmofílicas e bolores xerófilos.",
+        "C": "Bactérias anaeróbias proteolíticas estritas.",
+        "D": "Algas unicelulares fotossintetizantes."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: bactérias esporuladas termófilas necessitam de valores consideravelmente mais elevados de Aw para proliferação vegetativa.",
+        "B": "Correta: a tabela estipula que na faixa de 0,60–0,70 (baixa disponibilidade de água) desenvolvem-se \"leveduras osmofílicas e bolores xerófilos\", adaptados a altas pressões osmóticas.",
+        "C": "Incorreta: bactérias proteolíticas exigem valores de Aw superiores a 0,90 para sua atividade metabólica normal.",
+        "D": "Incorreta: algas aquáticas necessitam de ambientes aquosos com Aw próxima a 1,00."
+      },
+      "referencia": {
+        "paginas": [
+          10
+        ],
+        "fundamentacao": "Slide 10 da apostila.",
+        "trechos_apoio": [
+          "Faixa de Aw: 0,60 - 0,70 | Condição: Baixa | Crescimento microbiano: Crescem leveduras osmofílicas e bolores xerófilos"
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_03_q020",
+      "slide_id": "bromatologia_aula_03",
+      "slide_nome": "Aula 03 - Água nos Alimentos",
+      "arquivo_origem": "Aula_03_Agua_nos_Alimentos_Bromatologia_261006_203158.pdf",
+      "numero": 20,
+      "tema": "Faixas de Aw e Microbiologia",
+      "subtema": "Limite Mínimo de Segurança (Aw < 0,60)",
+      "enunciado": "O patamar de Aw < 0,60 (ou 0 a 0,60) é reconhecido na tecnologia de alimentos como uma barreira crítica. Conforme o material didático, nessa faixa de Aw:",
+      "alternativas": {
+        "A": "Não ocorre crescimento microbiano para a maioria das bactérias.",
+        "B": "Ocorre a multiplicação explosiva de fungos filamentosos produtores de aflatoxinas.",
+        "C": "A água livre atinge sua pressão de vapor máxima, provocando efervescência espontânea.",
+        "D": "Inicia-se a síntese biológica de novas moléculas de água celular por fermentação."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: a tabela de faixas e o resumo da apostila registram textualmente que, na faixa de 0–0,60 (muito baixa), \"não ocorre crescimento (maioria das bactérias)\" e que \"abaixo de 0,60 o crescimento microbiano geralmente não ocorre\".",
+        "B": "Incorreta: bolores produtores de micotoxinas são inibidos em valores de Aw abaixo de 0,60.",
+        "C": "Incorreta: com Aw < 0,60, a pressão de vapor exercida pelo alimento é muito baixa em relação à água pura, sem qualquer efervescência.",
+        "D": "Incorreta: sem crescimento microbiano nessa faixa, não há processos fermentativos ativos gerando água metabolicamente."
+      },
+      "referencia": {
+        "paginas": [
+          10
+        ],
+        "fundamentacao": "Slide 10 da apostila.",
+        "trechos_apoio": [
+          "Faixa de Aw: 0 - 0,60 | Condição: Muito baixa | Crescimento microbiano: Não ocorre crescimento (maioria das bactérias) [...] Abaixo de 0,60: Crescimento microbiano geralmente não ocorre"
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_03_q021",
+      "slide_id": "bromatologia_aula_03",
+      "slide_nome": "Aula 03 - Água nos Alimentos",
+      "arquivo_origem": "Aula_03_Agua_nos_Alimentos_Bromatologia_261006_203158.pdf",
+      "numero": 21,
+      "tema": "Faixas de Aw e Microbiologia",
+      "subtema": "Faixa Intermediária (0,70 a 0,85)",
+      "enunciado": "Na classificação microbiológica por faixas de atividade de água apresentada no material, a faixa entre 0,70 e 0,85 é categorizada como intermediária. Os microrganismos cujo crescimento é característico dessa faixa são:",
+      "alternativas": {
+        "A": "Exclusivamente bactérias anaeróbias esporuladas produtoras de toxina botulínica.",
+        "B": "A maioria dos bolores, leveduras e algumas bactérias.",
+        "C": "Apenas bactérias termófilas de degradação láctica a 60 °C.",
+        "D": "Nenhuma forma de vida microbiana celular viável."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: bactérias patogênicas como as produtoras de toxinas alimentares em geral necessitam de Aw superior a 0,85 ou 0,90.",
+        "B": "Correta: a tabela do slide 10 estipula de forma explícita que na faixa de Aw de 0,70–0,85 \"crescem a maioria dos bolores, leveduras e algumas bactérias\".",
+        "C": "Incorreta: a faixa intermediária abrange bolores e leveduras em geral, não se restringindo a espécies termófilas.",
+        "D": "Incorreta: o crescimento microbiano geralmente só cessa totalmente em valores de Aw abaixo de 0,60."
+      },
+      "referencia": {
+        "paginas": [
+          10
+        ],
+        "fundamentacao": "Slide 10 da apostila.",
+        "trechos_apoio": [
+          "Faixa de Aw: 0,70 - 0,85 | Condição: Intermediária | Crescimento microbiano: Crescem a maioria dos bolores, leveduras e algumas bactérias"
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_03_q022",
+      "slide_id": "bromatologia_aula_03",
+      "slide_nome": "Aula 03 - Água nos Alimentos",
+      "arquivo_origem": "Aula_03_Agua_nos_Alimentos_Bromatologia_261006_203158.pdf",
+      "numero": 22,
+      "tema": "Tolerância Microbiana",
+      "subtema": "Comparação de Limites de Aw entre Grupos",
+      "enunciado": "Analisando a tabela aproximada de requisitos mínimos de Aw para os principais grupos microbianos, observa-se uma ordem decrescente de exigência de água livre. Conforme a apostila, os valores aproximados de corte para a maioria das bactérias deteriorantes, muitas leveduras e muitos bolores são, respectivamente:",
+      "alternativas": {
+        "A": "> ~0,60; > ~0,50; > ~0,40.",
+        "B": "> ~0,90; > ~0,88; > ~0,80.",
+        "C": "> ~0,99; > ~0,99; > ~0,95.",
+        "D": "> ~0,75; > ~0,65; > ~0,55."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: abaixo de 0,60 o crescimento microbiano em geral já não ocorre, tornando inviáveis esses limites inferiores para bactérias comuns.",
+        "B": "Correta: a tabela didática estabelece: maioria das bactérias deteriorantes (> ~0,90), muitas leveduras (> ~0,88) e muitos bolores (> ~0,80).",
+        "C": "Incorreta: valores acima de 0,95 a 0,99 descrevem meios aquosos praticamente puros, e não os limites mínimos aproximados dos grupos.",
+        "D": "Incorreta: as bactérias deteriorantes têm limiar bem mais alto (em torno de 0,90), e não 0,75."
+      },
+      "referencia": {
+        "paginas": [
+          10
+        ],
+        "fundamentacao": "Slide 10 da apostila.",
+        "trechos_apoio": [
+          "Maioria das bactérias deteriorantes: > ~0,90 | Muitas leveduras: > ~0,88 | Muitos bolores: > ~0,80 | Abaixo de 0,60: Crescimento microbiano geralmente não ocorre"
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_03_q023",
+      "slide_id": "bromatologia_aula_03",
+      "slide_nome": "Aula 03 - Água nos Alimentos",
+      "arquivo_origem": "Aula_03_Agua_nos_Alimentos_Bromatologia_261006_203158.pdf",
+      "numero": 23,
+      "tema": "Deterioração Física e Textura",
+      "subtema": "Efeitos da Água",
+      "enunciado": "A água dos alimentos afeta diretamente suas propriedades físicas e sensoriais. De acordo com o esquema de \"Água, estabilidade e deterioração\", as manifestações típicas de deterioração física (textural) provocadas pela mobilidade e presença de água incluem:",
+      "alternativas": {
+        "A": "Rompimento oxidativo da ligação éster com liberação de glicerol.",
+        "B": "Perda de crocância, amolecimento, aglomeração e mudanças de textura.",
+        "C": "Síntese enzimática de pigmentos escuros do tipo melanoidina.",
+        "D": "Desnaturação irreversível de proteínas com formação de ácido sulfídrico."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: rompimento da ligação éster de gorduras é um fenômeno de deterioração química (rancidez hidrolítica), não física.",
+        "B": "Correta: o slide descreve explicitamente que na deterioração física podem ocorrer: \"perda de crocância, amolecimento, aglomeração e mudanças de textura\".",
+        "C": "Incorreta: a síntese de pigmentos por condensação carbonila-amina é uma reação química (Maillard).",
+        "D": "Incorreta: a degradação proteica com gases sulfurados e putrescina é consequência microbiológica/bioquímica."
+      },
+      "referencia": {
+        "paginas": [
+          11
+        ],
+        "fundamentacao": "Slides 11 da apostila.",
+        "trechos_apoio": [
+          "Física: Perda de crocância, amolecimento, aglomeração e mudanças de textura podem ocorrer."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_03_q024",
+      "slide_id": "bromatologia_aula_03",
+      "slide_nome": "Aula 03 - Água nos Alimentos",
+      "arquivo_origem": "Aula_03_Agua_nos_Alimentos_Bromatologia_261006_203158.pdf",
+      "numero": 24,
+      "tema": "Água nos Alimentos e Atividade de Água (Aw)",
+      "subtema": "Estabilidade Química e Bioquímica em Baixa Aw",
+      "enunciado": "Alimentos com baixa atividade de água (Aw) apresentam maior estabilidade geral ao longo do armazenamento. Segundo a apostila, isso decorre do fato de que valores reduzidos de Aw proporcionam:",
+      "alternativas": {
+        "A": "Maior velocidade de oxidação lipídica e aceleração do escurecimento por pirólise.",
+        "B": "Menor crescimento microbiano, menor velocidade de reações químicas, menor atividade enzimática e menor oxidação de lipídeos e escurecimento não enzimático.",
+        "C": "Eliminação completa de todos os minerais fixos da cinza do alimento.",
+        "D": "Deslocamento da água ligada para os poros superficiais com aumento da pressão de vapor."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a baixa Aw reduz a velocidade da maioria das reações químicas e deteriorações metabólicas.",
+        "B": "Correta: o slide pontua que alimentos com baixa Aw têm maior estabilidade devido a: \"Menor crescimento microbiano, Menor velocidade de reações químicas, Menor atividade enzimática, Menor oxidação de lipídeos e escurecimento não enzimático\".",
+        "C": "Incorreta: a quantidade e estabilidade dos minerais inorgânicos independem da atividade de água.",
+        "D": "Incorreta: em baixa Aw a água livre é reduzida, diminuindo a pressão de vapor parcial em relação à água pura."
+      },
+      "referencia": {
+        "paginas": [
+          11
+        ],
+        "fundamentacao": "Slide 11 da apostila.",
+        "trechos_apoio": [
+          "Alimentos com baixa Aw têm maior estabilidade porque: ☑ Menor crescimento microbiano ☑ Menor velocidade de reações químicas ☑ Menor atividade enzimática ☑ Menor oxidação de lipídeos e escurecimento não enzimático"
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_03_q025",
+      "slide_id": "bromatologia_aula_03",
+      "slide_nome": "Aula 03 - Água nos Alimentos",
+      "arquivo_origem": "Aula_03_Agua_nos_Alimentos_Bromatologia_261006_203158.pdf",
+      "numero": 25,
+      "tema": "Comportamento da Água em Alimentos Específicos",
+      "subtema": "Pão",
+      "enunciado": "Na tabela que exemplifica o comportamento da água em alimentos específicos, o pão é classificado com umidade intermediária/alta e Aw alta. A consequência tecnológica direta apontada para o pão durante o armazenamento é que:",
+      "alternativas": {
+        "A": "Apresenta risco predominante de ranço oxidativo acelerado em menos de 24 horas.",
+        "B": "Bolores e perda de textura são relevantes.",
+        "C": "Cristaliza a sacarose em sua crosta, impedindo qualquer alteração biológica.",
+        "D": "Exige esterilização comercial sob alta pressão para evitar colapso estrutural."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o pão deteriora-se principalmente pelo crescimento fúngico na superfície e perda de frescor textural, e não por ranço fulminante.",
+        "B": "Correta: a tabela correlaciona o pão (umidade intermediária/alta, Aw alta) à consequência de que \"bolores e perda de textura são relevantes\".",
+        "C": "Incorreta: o pão possui atividade de água suficiente para permitir a proliferação de fungos filamentosos se não houver conservadores ou embalagem protetora.",
+        "D": "Incorreta: pães comuns são assados e comercializados sem necessidade de esterilização em autoclave industrial."
+      },
+      "referencia": {
+        "paginas": [
+          12
+        ],
+        "fundamentacao": "Slide 12 da apostila.",
+        "trechos_apoio": [
+          "Pão | Umidade relativa: Intermediária/alta | Aw relativa: Alta | Consequência tecnológica: Bolores e perda de textura são relevantes"
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_03_q026",
+      "slide_id": "bromatologia_aula_03",
+      "slide_nome": "Aula 03 - Água nos Alimentos",
+      "arquivo_origem": "Aula_03_Agua_nos_Alimentos_Bromatologia_261006_203158.pdf",
+      "numero": 26,
+      "tema": "Comportamento da Água em Alimentos Específicos",
+      "subtema": "Mel e Xaropes Concentrados",
+      "enunciado": "O mel e os xaropes concentrados possuem um teor moderado de umidade, mas exibem baixa atividade de água (Aw). Conforme o quadro da aula, a explicação para essa consequência tecnológica reside no fato de que:",
+      "alternativas": {
+        "A": "A água livre é removida por evaporação térmica contínua durante o armazenamento.",
+        "B": "A alta concentração de açúcares liga a água e reduz a sua Aw.",
+        "C": "As abelhas adicionam conservantes inorgânicos clorados que destroem a água livre.",
+        "D": "Esses produtos possuem Aw nula absoluta igual a zero."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o mel não evapora espontaneamente quando armazenado em recipientes fechados; sua baixa Aw decorre da concentração de solutos solúveis.",
+        "B": "Correta: a tabela estabelece expressamente para mel e xaropes concentrados: \"Alta concentração de açúcares reduz Aw\".",
+        "C": "Incorreta: a estabilidade biológica deve-se ao efeito osmótico e ligação por pontes de hidrogênio dos carboidratos, não a aditivos clorados.",
+        "D": "Incorreta: a Aw do mel é baixa, mas não é zero (o valor zero indica ausência absoluta de qualquer molécula de água disponível)."
+      },
+      "referencia": {
+        "paginas": [
+          12
+        ],
+        "fundamentacao": "Slide 12 da apostila.",
+        "trechos_apoio": [
+          "Mel / xaropes concentrados | Umidade relativa: Moderada | Aw relativa: Baixa | Consequência tecnológica: Alta concentração de açúcares reduz Aw"
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_03_q027",
+      "slide_id": "bromatologia_aula_03",
+      "slide_nome": "Aula 03 - Água nos Alimentos",
+      "arquivo_origem": "Aula_03_Agua_nos_Alimentos_Bromatologia_261006_203158.pdf",
+      "numero": 27,
+      "tema": "Comportamento da Água em Alimentos Específicos",
+      "subtema": "Biscoitos Secos",
+      "enunciado": "Os biscoitos secos enquadram-se na categoria de baixa umidade e atividade de água muito baixa. Segundo a apostila, o principal cuidado tecnológico durante a sua estocagem refere-se ao fato de que:",
+      "alternativas": {
+        "A": "A perda excessiva de água causa putrefação anaeróbia imediata.",
+        "B": "O ganho de umidade a partir do ambiente pode causar perda de crocância.",
+        "C": "Os lipídeos da massa sofrem saponificação espontânea em baixa Aw.",
+        "D": "As proteínas do glúten transformam-se em cristais insolúveis tóxicos."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: putrefação anaeróbia atinge produtos cárneos e proteicos de alta umidade, não biscoitos secos.",
+        "B": "Correta: a tabela indica textualmente para biscoitos secos: \"Ganho de umidade pode causar perda de crocância\", justificando a necessidade de embalagens-barreira.",
+        "C": "Incorreta: saponificação requer soluções alcalinas fortes concentradas aquecidas, não ocorrendo espontaneamente em biscoitos.",
+        "D": "Incorreta: o glúten não se torna tóxico nem forma cristais no biscoito assado."
+      },
+      "referencia": {
+        "paginas": [
+          12
+        ],
+        "fundamentacao": "Slide 12 da apostila.",
+        "trechos_apoio": [
+          "Biscoitos secos | Umidade relativa: Baixa | Aw relativa: Muito baixa | Consequência tecnológica: Ganho de umidade pode causar perda de crocância"
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_03_q028",
+      "slide_id": "bromatologia_aula_03",
+      "slide_nome": "Aula 03 - Água nos Alimentos",
+      "arquivo_origem": "Aula_03_Agua_nos_Alimentos_Bromatologia_261006_203158.pdf",
+      "numero": 28,
+      "tema": "Redução da Disponibilidade de Água",
+      "subtema": "Secagem e Concentração",
+      "enunciado": "Dentre as intervenções tecnológicas apresentadas na aula para reduzir a disponibilidade de água, a secagem e a concentração diferenciam-se pelo fato de que:",
+      "alternativas": {
+        "A": "A secagem remove água principalmente por evaporação ou outros processos, enquanto a concentração reduz água e eleva a concentração de sólidos.",
+        "B": "A secagem adiciona solutos como cloreto de sódio, enquanto a concentração congela a água líquida.",
+        "C": "Ambas baseiam-se unicamente na aplicação de embalagens impermeáveis com atmosfera modificada.",
+        "D": "A concentração é um método químico enzimático que hidrolisa a água em hidrogênio e oxigênio gasosos."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: o slide descreve: \"Secagem: Remove água por evaporação ou outros processos; Concentração: Reduz água e aumenta a concentração de sólidos\".",
+        "B": "Incorreta: adição de sal e congelamento são estratégias distintas da secagem e concentração.",
+        "C": "Incorreta: embalagens impermeáveis servem para controlar trocas gasosas e umidade no armazenamento, não para efetuar a secagem prévia.",
+        "D": "Incorreta: a concentração não divide a molécula de água por eletrólise química; é um processo físico de remoção de água."
+      },
+      "referencia": {
+        "paginas": [
+          13
+        ],
+        "fundamentacao": "Slide 13 da apostila.",
+        "trechos_apoio": [
+          "Secagem: Remove água por evaporação ou outros processos. Concentração: Reduz água e aumenta a concentração de sólidos."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_03_q029",
+      "slide_id": "bromatologia_aula_03",
+      "slide_nome": "Aula 03 - Água nos Alimentos",
+      "arquivo_origem": "Aula_03_Agua_nos_Alimentos_Bromatologia_261006_203158.pdf",
+      "numero": 29,
+      "tema": "Redução da Disponibilidade de Água",
+      "subtema": "Adição de Solutos (Açúcar e Sal)",
+      "enunciado": "A incorporação de solutos solúveis como sal e açúcar é uma prática tecnológica milenar de preservação. Conforme o material didático, o mecanismo de ação do açúcar e do sal na conservação consiste em:",
+      "alternativas": {
+        "A": "Destruir fisicamente a membrana das células vegetais por atrito mecânico.",
+        "B": "O açúcar ligar a água e reduzir sua disponibilidade, e o sal reduzir a Aw, atuando como barreira de conservação.",
+        "C": "Elevar a pressão de vapor da água livre acima do ponto de ebulição ambiente.",
+        "D": "Acidificar quimicamente o alimento até atingir pH igual a 1,0."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a conservação por solutos dá-se por efeitos termodinâmicos e osmóticos de ligação de água, e não por abrasão mecânica de tecidos.",
+        "B": "Correta: a apostila define claramente: \"Açúcar: Liga água e reduz sua disponibilidade; Sal: Reduz Aw e pode atuar como barreira de conservação\".",
+        "C": "Incorreta: solutos dissolvidos causam diminuição da pressão de vapor do alimento, reduzindo sua Aw, e não o contrário.",
+        "D": "Incorreta: sal e açúcar reduzem a água disponível sem necessariamente transformar o alimento em ácido forte de pH 1,0."
+      },
+      "referencia": {
+        "paginas": [
+          13
+        ],
+        "fundamentacao": "Slide 13 da apostila.",
+        "trechos_apoio": [
+          "Açúcar: Liga água e reduz sua disponibilidade. Sal: Reduz Aw e pode atuar como barreira de conservação."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_03_q030",
+      "slide_id": "bromatologia_aula_03",
+      "slide_nome": "Aula 03 - Água nos Alimentos",
+      "arquivo_origem": "Aula_03_Agua_nos_Alimentos_Bromatologia_261006_203158.pdf",
+      "numero": 30,
+      "tema": "Redução da Disponibilidade de Água",
+      "subtema": "Papel do Congelamento",
+      "enunciado": "O congelamento é amplamente utilizado na conservação de produtos perecíveis. De acordo com o texto da aula, o congelamento reduz a disponibilidade de água para deteriorações porque:",
+      "alternativas": {
+        "A": "Evapora 100% da umidade do alimento durante o choque térmico inicial.",
+        "B": "Transforma parte da água em gelo, reduzindo a água líquida disponível.",
+        "C": "Liga irreversivelmente as moléculas de água às cadeias de ácidos graxos saturados.",
+        "D": "Desnatura todas as enzimas do alimento impedindo que elas voltem a atuar após o descongelamento."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o congelamento imobiliza a água por solidificação em cristais de gelo, e não por evaporação total.",
+        "B": "Correta: o slide afirma textualmente: \"Congelamento: Transforma parte da água em gelo, reduzindo a água líquida disponível\".",
+        "C": "Incorreta: lipídeos são moléculas hidrofóbicas que não formam ligações estruturais com gelo.",
+        "D": "Incorreta: o frio desacelera ou suspende temporariamente a atividade enzimática, mas muitas enzimas reassumem atividade normal no descongelamento."
+      },
+      "referencia": {
+        "paginas": [
+          13
+        ],
+        "fundamentacao": "Slide 13 da apostila.",
+        "trechos_apoio": [
+          "Congelamento: Transforma parte da água em gelo, reduzindo a água líquida disponível."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_03_q031",
+      "slide_id": "bromatologia_aula_03",
+      "slide_nome": "Aula 03 - Água nos Alimentos",
+      "arquivo_origem": "Aula_03_Agua_nos_Alimentos_Bromatologia_261006_203158.pdf",
+      "numero": 31,
+      "tema": "Redução da Disponibilidade de Água",
+      "subtema": "Embalagens-Barreira e Atmosfera",
+      "enunciado": "O uso de embalagens com propriedades de barreira é essencial na estabilização pós-processamento de alimentos. Segundo a apostila, a embalagem-barreira desempenha a função tecnológica primordial de:",
+      "alternativas": {
+        "A": "Controlar o ganho ou a perda de umidade durante o armazenamento.",
+        "B": "Destruir endósporos bacterianos por radiação infravermelha emitida pelo plástico.",
+        "C": "Neutralizar os ácidos graxos livres formados por hidrólise enzimática prévia.",
+        "D": "Substituir a secagem térmica inicial transformando água livre em água de cristalização."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: o slide descreve textualmente que a função da embalagem-barreira (sejam impermeáveis ou com atmosfera modificada) é \"controlar ganho ou perda de umidade durante armazenamento\".",
+        "B": "Incorreta: embalagens convencionais atuam como barreira mecânica e de permeabilidade, não esterilizando ativamente por radiação física.",
+        "C": "Incorreta: a embalagem não neutraliza quimicamente acidez ou ácidos graxos livres já hidrolisados.",
+        "D": "Incorreta: a embalagem impede trocas gasosas e hídricas com o meio externo, mas não tem a capacidade de alterar a estrutura química da água do alimento."
+      },
+      "referencia": {
+        "paginas": [
+          13
+        ],
+        "fundamentacao": "Slides 13 da apostila.",
+        "trechos_apoio": [
+          "Embalagem-barreira: Controla ganho ou perda de umidade durante armazenamento."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_03_q032",
+      "slide_id": "bromatologia_aula_03",
+      "slide_nome": "Aula 03 - Água nos Alimentos",
+      "arquivo_origem": "Aula_03_Agua_nos_Alimentos_Bromatologia_261006_203158.pdf",
+      "numero": 32,
+      "tema": "Instrumentação e Mensuração",
+      "subtema": "Princípio da Medição de Aw",
+      "enunciado": "A determinação laboratorial da atividade de água (Aw) exige equipamentos específicos para garantir a reprodutibilidade. De acordo com o protocolo descrito no material, a medição instrumental da Aw baseia-se em:",
+      "alternativas": {
+        "A": "Pesar a cinza do alimento após incineração a 550 °C em forno mufla sob fluxo de nitrogênio gasoso.",
+        "B": "Colocar uma pequena porção da amostra em câmara fechada até o equilíbrio com o vapor do espaço de cabeça (headspace), medido por ponto de orvalho ou sensores de umidade.",
+        "C": "Diluir o produto em solventes apolares voláteis aquecidos em banho-maria aberto a 100 °C.",
+        "D": "Contar visualmente o número de colônias formadas em placas de ágar nutritivo após 72 horas."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: incineração em mufla determina o resíduo mineral fixo (cinzas), e não a atividade de água.",
+        "B": "Correta: a apostila detalha que \"uma pequena porção da amostra é colocada em câmara fechada\", o sistema atinge o \"equilíbrio entre a água do alimento e o vapor do espaço de cabeça\" e a leitura é feita \"por ponto de orvalho ou sensores de umidade\".",
+        "C": "Incorreta: a análise de Aw não utiliza solventes químicos apolares nem ebulição.",
+        "D": "Incorreta: contagem em ágar avalia unidades formadoras de colônias microbiológicas, não a grandeza termodinâmica Aw."
+      },
+      "referencia": {
+        "paginas": [
+          14
+        ],
+        "fundamentacao": "Slide 14 da apostila.",
+        "trechos_apoio": [
+          "• Uma pequena porção da amostra é colocada em câmara fechada. • O sistema atinge equilíbrio entre a água do alimento e o vapor do espaço de cabeça. • O instrumento mede a condição de equilíbrio, frequentemente por ponto de orvalho ou sensores de umidade."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_03_q033",
+      "slide_id": "bromatologia_aula_03",
+      "slide_nome": "Aula 03 - Água nos Alimentos",
+      "arquivo_origem": "Aula_03_Agua_nos_Alimentos_Bromatologia_261006_203158.pdf",
+      "numero": 33,
+      "tema": "Instrumentação e Mensuração",
+      "subtema": "Importância do Controle de Temperatura",
+      "enunciado": "Durante a determinação da atividade de água (Aw) em laboratório, a temperatura é uma variável crítica que deve ser estritamente controlada e registrada. Segundo a apostila, esse rigor deve-se ao fato de que:",
+      "alternativas": {
+        "A": "A temperatura altera a massa atômica dos átomos de oxigênio da molécula de água.",
+        "B": "A temperatura influencia diretamente a pressão de vapor e a leitura do equilíbrio higroscópico.",
+        "C": "O analisador de Aw incinera a amostra caso a temperatura varie mais de 0,1 °C.",
+        "D": "Temperaturas amenas inibem permanentemente a calibragem do feixe infravermelho óptico."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a massa atômica é uma constante atômica invariável com a temperatura.",
+        "B": "Correta: o texto ressalta textualmente que \"a temperatura deve ser controlada, pois influencia a pressão de vapor e a leitura\".",
+        "C": "Incorreta: a câmara de leitura de Aw opera em temperaturas amenas controladas (frequentemente 25 °C), sem qualquer risco de incineração.",
+        "D": "Incorreta: sensores de Aw (espelho resfriado/ponto de orvalho ou capacitivos) dependem do controle térmico porque a pressão de vapor de saturação varia exponencialmente com a temperatura, e não por falhas de feixes ópticos."
+      },
+      "referencia": {
+        "paginas": [
+          14
+        ],
+        "fundamentacao": "Slide 14 da apostila.",
+        "trechos_apoio": [
+          "A temperatura deve ser controlada, pois influencia a pressão de vapor e a leitura. [...] Para fixar: Por que a temperatura deve ser registrada junto com a medida de Aw?"
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_03_q034",
+      "slide_id": "bromatologia_aula_03",
+      "slide_nome": "Aula 03 - Água nos Alimentos",
+      "arquivo_origem": "Aula_03_Agua_nos_Alimentos_Bromatologia_261006_203158.pdf",
+      "numero": 34,
+      "tema": "Estudo de Caso",
+      "subtema": "Comparação entre Produto A e Produto B",
+      "enunciado": "O slide 15 da apostila apresenta um caso-problema clássico com dois produtos formulados:\n Produto A: 25% de umidade e Aw = 0,82\n Produto B: 18% de umidade e Aw = 0,90\nAo avaliar estritamente esses parâmetros, conclui-se corretamente que:",
+      "alternativas": {
+        "A": "O Produto A apresenta maior risco microbiológico por conter maior quantidade total de água (25%).",
+        "B": "O Produto B apresenta maior disponibilidade de água e maior risco microbiológico, pois sua Aw é superior (0,90).",
+        "C": "Ambos apresentam rigorosamente o mesmo risco de deterioração bacteriana porque a soma de umidade e Aw é idêntica.",
+        "D": "O Produto B é completamente imune ao ataque fúngico, pois possui umidade inferior a 20%."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o risco microbiológico depende da água disponível (Aw), e não do teor total de umidade.",
+        "B": "Correta: o Produto B, apesar de ter menos água total (18%), possui maior Aw (0,90), o que indica que a sua água está menos associada/ligada à matriz, oferecendo maior disponibilidade termodinâmica e maior risco microbiológico.",
+        "C": "Incorreta: somar umidade percentual com Aw é um erro conceitual grave, pois são grandezas físico-químicas de ordens e naturezas distintas.",
+        "D": "Incorreta: Aw = 0,90 é propícia ao crescimento da maioria das bactérias deteriorantes, leveduras e fungos."
+      },
+      "referencia": {
+        "paginas": [
+          15
+        ],
+        "fundamentacao": "Slide 15 da apostila.",
+        "trechos_apoio": [
+          "Caso-problema: dois produtos, duas decisões | Produto A: 25% de umidade e Aw 0,82 | Produto B: 18% de umidade e Aw 0,90 | • Qual produto apresenta maior disponibilidade de água? • Qual deles tende a apresentar maior risco microbiológico, considerando apenas Aw?"
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_03_q035",
+      "slide_id": "bromatologia_aula_03",
+      "slide_nome": "Aula 03 - Água nos Alimentos",
+      "arquivo_origem": "Aula_03_Agua_nos_Alimentos_Bromatologia_261006_203158.pdf",
+      "numero": 35,
+      "tema": "Estudo de Caso",
+      "subtema": "Variação de Aw em Alimentos com Menor Umidade",
+      "enunciado": "Ainda sobre o caso comparativo (Produto A: 25% de umidade e Aw = 0,82; Produto B: 18% de umidade e Aw = 0,90), a justificativa físico-química para o fato de um alimento com menor teor de umidade apresentar maior Aw reside no fato de que:",
+      "alternativas": {
+        "A": "A água no Produto B encontra-se predominantemente na forma de cristais monoidratados insolúveis.",
+        "B": "A composição química e os tipos de solutos diferem entre as matrizes, fazendo com que a água esteja mais ligada no Produto A do que no Produto B.",
+        "C": "O Produto B foi submetido a congelamento forçado a -196 °C antes da pesagem em estufa.",
+        "D": "Alimentos com menor umidade violam espontaneamente as leis termodinâmicas de pressão de vapor."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: se estivesse em cristais monoidratados (água de cristalização/fortemente ligada), a água teria baixa mobilidade e a Aw seria muito baixa, e não elevada (0,90).",
+        "B": "Correta: a interação da água com os constituintes varia com a matriz; o Produto A contém solutos ou componentes que retêm/ligam mais fortemente as moléculas de água por pontes de hidrogênio ou forças osmóticas, diminuindo sua disponibilidade relativa.",
+        "C": "Incorreta: a variação decorre da formulação/solutos e da capacidade de fixação de água de cada matriz à temperatura de teste, e não de congelamento criogênico acidental.",
+        "D": "Incorreta: o fenômeno segue perfeitamente a termodinâmica das soluções e da adsorção em matrizes complexas."
+      },
+      "referencia": {
+        "paginas": [
+          9,
+          10,
+          15
+        ],
+        "fundamentacao": "Slides 9, 10 e 15 da apostila.",
+        "trechos_apoio": [
+          "Por exemplo, dois alimentos podem apresentar 20% de umidade, mas possuir valores diferentes de Aw porque a água pode estar mais ou menos ligada aos seus constituintes."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_03_q036",
+      "slide_id": "bromatologia_aula_03",
+      "slide_nome": "Aula 03 - Água nos Alimentos",
+      "arquivo_origem": "Aula_03_Agua_nos_Alimentos_Bromatologia_261006_203158.pdf",
+      "numero": 36,
+      "tema": "Métodos de Umidade",
+      "subtema": "Destilação com Solvente Adequado",
+      "enunciado": "O quadro comparativo de métodos para determinação de umidade apresenta a destilação como alternativa para matrizes específicas. Segundo a apostila, o princípio e a principal característica operacional desse método são:",
+      "alternativas": {
+        "A": "Reação seletiva com reagentes alcalinos de iodo; processo analítico instantâneo de 30 segundos.",
+        "B": "Separação da água com solvente adequado; é uma técnica útil em algumas matrizes, porém mais trabalhosa.",
+        "C": "Leitura direta em escala digital sem necessidade de aquecimento ou fracionamento da amostra.",
+        "D": "Incineração completa da fração orgânica em mufla a 550 °C com pesagem do vapor condensado."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: reação específica com iodo refere-se a Karl Fischer.",
+        "B": "Correta: a tabela indica expressamente: Princípio: \"Separação da água com solvente adequado\", Vantagem: \"Útil em algumas matrizes\", Atenção: \"Mais trabalhosa\".",
+        "C": "Incorreta: a destilação requer aquecimento prolongado em aparelhos específicos com condensadores e tubos coletores graduados.",
+        "D": "Incorreta: incineração em mufla não recolhe água por destilação com solventes."
+      },
+      "referencia": {
+        "paginas": [
+          6
+        ],
+        "fundamentacao": "Slide 6 da apostila.",
+        "trechos_apoio": [
+          "Destilação | Princípio: Separação da água com solvente adequado | Vantagem: Útil em algumas matrizes | Atenção: Mais trabalhosa"
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_03_q037",
+      "slide_id": "bromatologia_aula_03",
+      "slide_nome": "Aula 03 - Água nos Alimentos",
+      "arquivo_origem": "Aula_03_Agua_nos_Alimentos_Bromatologia_261006_203158.pdf",
+      "numero": 37,
+      "tema": "Deterioração Bioquímica e Química",
+      "subtema": "Enzimas e Oxidação",
+      "enunciado": "Na discussão sobre estabilidade, a água atua diretamente nas reações enzimáticas e químicas de degradação. Segundo o material didático, a presença de água disponível favorece:",
+      "alternativas": {
+        "A": "Exclusivamente a formação de cristais de gelo na superfície do produto em temperatura ambiente.",
+        "B": "A atividade de enzimas e a ocorrência de reações químicas como oxidação, hidrólise e escurecimento.",
+        "C": "A esterilização espontânea de alimentos fermentados por bactérias do ácido lático.",
+        "D": "A inativação térmica de todas as polifenoloxidases do tecido vegetal cortado."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: água líquida disponível não forma cristais de gelo espontaneamente sem refrigeração negativa.",
+        "B": "Correta: o slide lista diretamente que a água disponível favorece: \"Crescimento de microrganismos, Atividade de enzimas, Reações químicas (oxidação, hidrólise, escurecimento) e Perda de textura e alterações sensoriais\".",
+        "C": "Incorreta: a disponibilidade de água permite o metabolismo microbiano, não gerando esterilidade.",
+        "D": "Incorreta: enzimas dependem de mobilidade aquosa para atuar; a água disponível estimula a catálise, e não sua inativação."
+      },
+      "referencia": {
+        "paginas": [
+          11
+        ],
+        "fundamentacao": "Slide 11 da apostila.",
+        "trechos_apoio": [
+          "A água disponível favorece: • Crescimento de microrganismos • Atividade de enzimas • Reações químicas (oxidação, hidrólise, escurecimento) • Perda de textura e alterações sensoriais"
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_03_q038",
+      "slide_id": "bromatologia_aula_03",
+      "slide_nome": "Aula 03 - Água nos Alimentos",
+      "arquivo_origem": "Aula_03_Agua_nos_Alimentos_Bromatologia_261006_203158.pdf",
+      "numero": 38,
+      "tema": "Alimentos de Umidade Muito Baixa e Alta Umidade",
+      "subtema": "Classificação",
+      "enunciado": "A respeito da classificação geral dos alimentos quanto ao teor de umidade apresentada no slide 10, é correto afirmar que:",
+      "alternativas": {
+        "A": "Leite, carnes e hortaliças são classificados como alimentos de baixa umidade (10% a 30%).",
+        "B": "Alimentos com teor de umidade inferior a 10% são categorizados como de \"umidade muito baixa\", exemplificados por leite em pó, grãos, açúcar e mel.",
+        "C": "Farinhas e biscoitos enquadram-se na categoria de alimentos de alta umidade (> 70%).",
+        "D": "Queijos e embutidos possuem teor de umidade necessariamente inferior a 5%."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: leite, carnes e hortaliças são alimentos de alta umidade, com teores superiores a 70%.",
+        "B": "Correta: a tabela classifica formalmente os alimentos com umidade menor que 10% como \"Alimentos de umidade muito baixa\", citando explicitamente como exemplos \"leite em pó, grãos, açúcar, mel\".",
+        "C": "Incorreta: farinhas e biscoitos são classificados como alimentos de baixa umidade (10% a 30%) ou muito baixa.",
+        "D": "Incorreta: queijos e embutidos são classificados como alimentos de umidade intermediária (30% a 70%)."
+      },
+      "referencia": {
+        "paginas": [
+          10
+        ],
+        "fundamentacao": "Slide 10 da apostila.",
+        "trechos_apoio": [
+          "Alimentos de umidade muito baixa | Teor de umidade: < 10 | Exemplos: Leite em pó, grãos, açúcar, mel"
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_03_q039",
+      "slide_id": "bromatologia_aula_03",
+      "slide_nome": "Aula 03 - Água nos Alimentos",
+      "arquivo_origem": "Aula_03_Agua_nos_Alimentos_Bromatologia_261006_203158.pdf",
+      "numero": 39,
+      "tema": "Alimentos Específicos",
+      "subtema": "Estabilidade em Frutas Secas e Queijos",
+      "enunciado": "Na tabela de alimentos específicos e comportamento da água (slide 12), as frutas secas e os queijos apresentam desafios particulares de conservação. Em relação a esses produtos, a apostila indica que:",
+      "alternativas": {
+        "A": "As frutas secas exigem esterilização comercial sob vácuo total, enquanto os queijos não sofrem influência do sal.",
+        "B": "As frutas secas possuem maior estabilidade, mas bolores xerófilos merecem atenção; nos queijos, o sal, o pH e a Aw atuam em conjunto na preservação.",
+        "C": "Os queijos possuem Aw sempre nula, impedindo qualquer maturação bioquímica.",
+        "D": "As frutas secas perdem água por destilação efervescente espontânea em temperatura ambiente."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: frutas secas são conservadas por baixa Aw e o sal é um fator determinante na conservação de queijos.",
+        "B": "Correta: o slide estabelece expressamente: Frutas secas → \"Maior estabilidade; bolores xerófilos merecem atenção\"; Queijos → \"Sal, pH e Aw atuam em conjunto\".",
+        "C": "Incorreta: os queijos apresentam Aw intermediária/alta (variável), fundamental para a atividade das enzimas na maturação.",
+        "D": "Incorreta: frutas secas não entram em ebulição espontânea; sofrem trocas higroscópicas lentas se expostas à umidade do ar."
+      },
+      "referencia": {
+        "paginas": [
+          12
+        ],
+        "fundamentacao": "Slide 12 da apostila.",
+        "trechos_apoio": [
+          "Queijos | Umidade relativa: Variável | Aw relativa: Intermediária/alta | Consequência tecnológica: Sal, pH e Aw atuam em conjunto [...] Frutas secas | Umidade relativa: Baixa/intermediária | Aw relativa: Reduzida | Consequência tecnológica: Maior estabilidade; bolores xerófilos merecem atenção"
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_03_q040",
+      "slide_id": "bromatologia_aula_03",
+      "slide_nome": "Aula 03 - Água nos Alimentos",
+      "arquivo_origem": "Aula_03_Agua_nos_Alimentos_Bromatologia_261006_203158.pdf",
+      "numero": 40,
+      "tema": "Síntese e Conceito Integrado",
+      "subtema": "Umidade versus Aw na Vida de Prateleira",
+      "enunciado": "No fechamento da aula (slides 14 e 17), os autores sintetizam a relação de complementaridade entre o teor de umidade e a atividade de água (Aw). Em uma avaliação analítica completa da qualidade dos alimentos:",
+      "alternativas": {
+        "A": "O teor de umidade informa quanto de água existe no alimento, enquanto a Aw informa quão disponível essa água está para processos de deterioração.",
+        "B": "O valor da Aw isolado dispensa qualquer consideração sobre pH, temperatura, atmosfera ou embalagem.",
+        "C": "A mensuração da umidade é dispensável em formulações industriais porque apenas a densidade importa no rendimento.",
+        "D": "Um alimento com Aw < 0,60 está totalmente imune a alterações físicas e rancidez lipídica."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: a síntese final do slide 17 define com precisão: \"Teor de umidade informa quanto de água existe no alimento. Aw informa quão disponível essa água está para processos de deterioração\".",
+        "B": "Incorreta: o texto enfatiza que \"Aw ajuda a prever crescimento microbiano, mas não atua isoladamente\", devendo ser interpretada junto com pH, temperatura e atmosfera.",
+        "C": "Incorreta: o teor de umidade é fundamental para composição centesimal, rendimento fabril e padronização legal.",
+        "D": "Incorreta: mesmo em Aw < 0,60 (onde não há proliferação microbiana), o alimento ainda pode sofrer deterioração física (perda de textura/caking) e reações químicas (como oxidação de lipídeos)."
+      },
+      "referencia": {
+        "paginas": [
+          11,
+          14,
+          17
+        ],
+        "fundamentacao": "Slides 11, 14 e 17 da apostila.",
+        "trechos_apoio": [
+          "Síntese: • Teor de umidade informa quanto de água existe no alimento. • Aw informa quão disponível essa água está para processos de deterioração. • A relação entre umidade e Aw depende da composição e da estrutura do alimento. • Aw ajuda a prever crescimento microbiano, mas não atua isoladamente."
+        ]
+      }
+    }
+  ]
+}

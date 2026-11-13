@@ -1,0 +1,1289 @@
+{
+  "questoes": [
+    {
+      "id": "bromatologia_aula_06_q001",
+      "slide_id": "bromatologia_aula_06",
+      "slide_nome": "Aula 06 - Lipídeos",
+      "arquivo_origem": "aula 6 LIPÍDEOS_261106_195058.pdf",
+      "numero": 1,
+      "tema": "Lipídeos",
+      "subtema": "Definição Química e Composição Elementar dos Lipídeos",
+      "enunciado": "Em química de alimentos, os lipídeos constituem uma classe funcional ampla e heterogênea. De acordo com a caracterização inicial apresentada na apostila, os lipídeos são definidos como:",
+      "alternativas": {
+        "A": "Polímeros hidrossolúveis formados exclusivamente por aminoácidos aromáticos unidos por ligações amídicas.",
+        "B": "Um grupo de compostos heterogêneos, relacionados com os ácidos graxos ou que deles derivam, vulgarmente conhecidos como \"gorduras\", constituídos por C, H e O (e em algumas classes também P, N e S).",
+        "C": "Hidratos de carbono simples de fórmula mínima geral Cₙ(H₂O)ₙ que sofrem hidrólise ácida imediata.",
+        "D": "Misturas inorgânicas puras de cloreto de sódio e carbonato de cálcio precipitadas em água."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: polímeros solúveis formados por aminoácidos correspondem à definição química de proteínas, não de lipídeos.",
+        "B": "Correta: o slide estabelece textualmente: \"Quimicamente podem ser definidos como um grupo de compostos heterogêneos, relacionados com os ácidos graxos ou que deles derivam. São vulgarmente conhecidos como 'gorduras'\" e acrescenta que são compostos de C, H e O, encontrando-se também fósforo, nitrogênio e enxofre em algumas classes.",
+        "C": "Incorreta: compostos de fórmula Cₙ(H₂O)ₙ são os carboidratos/glicídios.",
+        "D": "Incorreta: lipídeos são biomoléculas orgânicas apolares, e não sais minerais inorgânicos."
+      },
+      "referencia": {
+        "paginas": [
+          2,
+          3
+        ],
+        "fundamentacao": "Slides 2 e 3 da apostila.",
+        "trechos_apoio": [
+          "Quimicamente podem ser definidos como um grupo de compostos heterogêneos, relacionados com os ácidos graxos ou que deles derivam. São vulgarmente conhecidos como 'gorduras'. [...] Lipídeos são compostos de carbono, hidrogênio e oxigênio encontrados em diversos alimentos na forma de gordura e/ou óleos. Em algumas classes encontram-se também: fósforo, nitrogênio e enxofre."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_06_q002",
+      "slide_id": "bromatologia_aula_06",
+      "slide_nome": "Aula 06 - Lipídeos",
+      "arquivo_origem": "aula 6 LIPÍDEOS_261106_195058.pdf",
+      "numero": 2,
+      "tema": "Estrutura Molecular Básica",
+      "subtema": "Gorduras e Óleos (Camargo et al., 1984)",
+      "enunciado": "As gorduras e os óleos alimentares apresentam uma unidade estrutural básica comum responsável por suas características termodinâmicas. Segundo a citação de Camargo et al. (1984) na aula, as gorduras e óleos são formados por:",
+      "alternativas": {
+        "A": "Três moléculas de ácidos graxos ligados a uma molécula de glicerol, podendo ter de 4 a 24 ou mais átomos de carbono, sendo saturados ou insaturados.",
+        "B": "Uma molécula de ácido graxo ligada a três moléculas de glicose anidra por pontes dissulfeto.",
+        "C": "Centenas de unidades de frutose unidas por ligações glicosídicas ramificadas.",
+        "D": "Duas moléculas de glicerol condensadas com resíduos fixos de ácido sulfúrico concentrado."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: o slide registra textualmente: \"As gorduras e óleos são formados por três moléculas de ácidos graxos ligados a uma molécula de glicerol podendo ter de quatro a vinte e quatro ou mais átomos de carbonos sendo saturados ou insaturados (Camargo et al, 1984)\".",
+        "B": "Incorreta: a base estrutural é o glicerol (um triálcool) esterificado a três ácidos graxos, não a moléculas de glicose.",
+        "C": "Incorreta: polímeros de frutose/glicose constituem os glicídios (como inulina ou amido).",
+        "D": "Incorreta: gorduras não contêm ácido sulfúrico em sua molécula fundamental."
+      },
+      "referencia": {
+        "paginas": [
+          3
+        ],
+        "fundamentacao": "Slide 3 da apostila.",
+        "trechos_apoio": [
+          "As gorduras e óleos são formados por três moléculas de ácidos graxos ligados a uma molécula de glicerol podendo ter de quatro a vinte e quatro ou mais átomos de carbonos sendo saturados ou insaturados (Camargo et al, 1984)."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_06_q003",
+      "slide_id": "bromatologia_aula_06",
+      "slide_nome": "Aula 06 - Lipídeos",
+      "arquivo_origem": "aula 6 LIPÍDEOS_261106_195058.pdf",
+      "numero": 3,
+      "tema": "Grau de Insaturação dos Ácidos Graxos",
+      "subtema": "Classificação e Exemplos",
+      "enunciado": "O número de duplas ligações entre os átomos de carbono define o grau de insaturação dos ácidos graxos. A respeito da classificação e dos exemplos citados no slide 4, assinale a afirmativa correta:",
+      "alternativas": {
+        "A": "Os ácidos graxos saturados possuem duas ou mais duplas ligações conjugadas entre carbonos adjacentes.",
+        "B": "Os monoinsaturados possuem uma única ligação dupla (exemplificados pelo azeite de oliva e óleo de canola), enquanto os poli-insaturados possuem duas ou mais ligações duplas (como os ômegas 3 e 6).",
+        "C": "O azeite de oliva é classificado estritamente como um ácido graxo saturado de cadeia curta.",
+        "D": "Os ácidos graxos poli-insaturados apresentam duplas ligações adjacentes sem nenhum átomo de carbono separando-as."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: ácidos graxos saturados não possuem duplas ligações entre os carbonos.",
+        "B": "Correta: o texto especifica: \"Monoinsaturados = com uma única ligação dupla (azeite de oliva e óleo de canola); Poliinsaturados = com duas ou mais ligações duplas (ômegas 3 e 6); Saturados = não possuem duplas ligações entre os carbonos\".",
+        "C": "Incorreta: o azeite de oliva é citado como exemplo clássico de fonte rica em ácidos graxos monoinsaturados.",
+        "D": "Incorreta: duplas ligações adjacentes não existem na conformação natural descrita no slide, que exige separação entre elas."
+      },
+      "referencia": {
+        "paginas": [
+          4
+        ],
+        "fundamentacao": "Slide 4 da apostila.",
+        "trechos_apoio": [
+          "Grau de insaturação: n° de duplas ligações entre carbonos. Monoinsaturados = com uma única ligação dupla (azeite de oliva e óleo de canola); Poliinsaturados = com duas ou mais ligações duplas (ômegas 3 e 6); [...] Saturados = não possuem duplas ligações entre os carbonos."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_06_q004",
+      "slide_id": "bromatologia_aula_06",
+      "slide_nome": "Aula 06 - Lipídeos",
+      "arquivo_origem": "aula 6 LIPÍDEOS_261106_195058.pdf",
+      "numero": 4,
+      "tema": "Estrutura Química",
+      "subtema": "Posição Relativa das Duplas Ligações em Poli-insaturados",
+      "enunciado": "Na conformação dos ácidos graxos poli-insaturados naturais, as duplas ligações obedecem a um padrão espacial rígido de distanciamento na cadeia carbônica. De acordo com a regra estrutural destacada no slide 4, quando existem mais de uma dupla ligação na molécula, elas:",
+      "alternativas": {
+        "A": "São sempre adjacentes e unidas diretamente ao mesmo átomo de carbono.",
+        "B": "São sempre separadas por pelo menos 3 carbonos, nunca sendo adjacentes nem conjugadas.",
+        "C": "Formam anéis aromáticos benzênicos estáveis com liberação espontânea de hidrogênio.",
+        "D": "Localizam-se compulsoriamente na extremidade carboxílica terminal (carbono 1)."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o texto enfatiza expressamente que as duplas ligações nunca são adjacentes.",
+        "B": "Correta: a apostila dita: \"Quando existem mais de uma dupla ligação, estas são sempre separadas por pelo menos 3 carbonos, nunca são adjacentes nem conjugadas\".",
+        "C": "Incorreta: ácidos graxos possuem cadeias alifáticas lineares, não se transformando em anéis aromáticos.",
+        "D": "Incorreta: o carbono 1 é o carbono do grupo carboxila (-COOH), e as insaturações distribuem-se ao longo da cadeia carbônica intermediária."
+      },
+      "referencia": {
+        "paginas": [
+          4
+        ],
+        "fundamentacao": "Slide 4 da apostila.",
+        "trechos_apoio": [
+          "Quando existem mais de uma dupla ligação, estas são sempre separadas por pelo menos 3 carbonos, nunca são adjacentes nem conjugadas."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_06_q005",
+      "slide_id": "bromatologia_aula_06",
+      "slide_nome": "Aula 06 - Lipídeos",
+      "arquivo_origem": "aula 6 LIPÍDEOS_261106_195058.pdf",
+      "numero": 5,
+      "tema": "Efeitos Fisiológicos",
+      "subtema": "Gorduras Saturadas na Saúde Humana",
+      "enunciado": "O consumo excessivo de gorduras saturadas é objeto de grande atenção na saúde pública e na nutrição. Segundo o material didático (slide 5), as gorduras saturadas provocam e associam-se aos seguintes efeitos orgânicos:",
+      "alternativas": {
+        "A": "Redução acentuada do colesterol total e diminuição da pressão arterial média.",
+        "B": "Provocam obesidade, competem com os ácidos graxos essenciais em vias metabólicas complexas, aumentam as chances de doenças cardíacas, infarto e derrame cerebral, e promovem o aumento do LDL (mau colesterol).",
+        "C": "Síntese acelerada de novos ácidos graxos essenciais que o corpo não consegue produzir.",
+        "D": "Eliminação completa de radicais livres prevenindo qualquer processo de envelhecimento celular."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: gorduras saturadas aumentam o colesterol ruim (LDL), não promovendo a redução da pressão arterial.",
+        "B": "Correta: o slide elenca expressamente: \"Gorduras Saturadas: • Provoca obesidade; • Competem com os ácidos graxos essenciais em vias metabólicas complexas; • Aumenta as chances de desenvolvimento das doenças cardíacas, infarto e derrame cerebral; • Aumento do LDL (mau colesterol)\".",
+        "C": "Incorreta: ácidos graxos essenciais não são sintetizados pelo corpo e as gorduras saturadas competem negativamente com suas vias.",
+        "D": "Incorreta: gorduras saturadas não atuam como agentes antioxidantes eliminadores de radicais livres."
+      },
+      "referencia": {
+        "paginas": [
+          5
+        ],
+        "fundamentacao": "Slide 5 da apostila.",
+        "trechos_apoio": [
+          "Gorduras Saturadas: Provoca obesidade; Competem com os ácidos graxos essenciais em vias metabólicas complexas; Aumenta as chances de desenvolvimento das doenças cardíacas, infarto e derrame cerebral; Aumento do LDL (mau colesterol)"
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_06_q006",
+      "slide_id": "bromatologia_aula_06",
+      "slide_nome": "Aula 06 - Lipídeos",
+      "arquivo_origem": "aula 6 LIPÍDEOS_261106_195058.pdf",
+      "numero": 6,
+      "tema": "Nomenclatura Química",
+      "subtema": "Tabela de Ácidos Graxos Saturados",
+      "enunciado": "A tabela do slide 6 correlaciona os nomes comuns dos ácidos graxos saturados à nomenclatura oficial da IUPAC. De acordo com essa tabela, os nomes IUPAC correspondentes aos ácidos butírico, láurico e esteárico são, respectivamente:",
+      "alternativas": {
+        "A": "Ácido octanóico, ácido decanóico e ácido hexadecanóico.",
+        "B": "Ácido butanóico, ácido duodecanóico e ácido octadecanóico.",
+        "C": "Ácido untriacontanóico, ácido tetradecanóico e ácido hexanóico.",
+        "D": "Ácido oleico, ácido linoleico e ácido linolênico."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: octanóico é o caprílico, decanóico é o caprico e hexadecanóico é o palmítico.",
+        "B": "Correta: a tabela correlaciona textualmente: Ácido butírico → Ácido butanóico; Ácido láurico → Ácido duodecanóico; Ácido esteárico → Ácido octadecanóico.",
+        "C": "Incorreta: untriacontanóico é o melíssico, tetradecanóico é o mirístico e hexanóico é o capróico.",
+        "D": "Incorreta: oleico, linoleico e linolênico são ácidos graxos insaturados, não figurando na tabela de saturados do slide 6."
+      },
+      "referencia": {
+        "paginas": [
+          6
+        ],
+        "fundamentacao": "Slide 6 da apostila.",
+        "trechos_apoio": [
+          "| Nome comum | Nome IUPAC | Ácido butírico | Ácido butanóico | Ácido láurico | Ácido duodecanóico | Ácido esteárico | Ácido octadecanóico |"
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_06_q007",
+      "slide_id": "bromatologia_aula_06",
+      "slide_nome": "Aula 06 - Lipídeos",
+      "arquivo_origem": "aula 6 LIPÍDEOS_261106_195058.pdf",
+      "numero": 7,
+      "tema": "Fontes Alimentares",
+      "subtema": "Concentração de Gorduras Saturadas",
+      "enunciado": "A proporção de ácidos graxos saturados varia significativamente dependendo da matriz alimentar. Conforme destacado no slide 7, apresentam grande concentração de gorduras saturadas quando comparados aos outros alimentos:",
+      "alternativas": {
+        "A": "Os óleos vegetais de semente de linhaça e de soja extra-virgem.",
+        "B": "Alimentos de origem animal como leites integrais e as carnes de bovinos, suínos e ovinos.",
+        "C": "Os filés de pescados de águas profundas ricos em ômega 3.",
+        "D": "As frutas cítricas frescas colhidas na maturação fisiológica."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: óleos de linhaça e soja são fontes clássicas de gorduras poli-insaturadas saudáveis.",
+        "B": "Correta: o slide afirma: \"Alimentos de origem animal como leites integrais e as carnes de bovinos, suínos e ovinos apresentam grande concentração de gordura saturadas quando comparadas aos outros alimentos\".",
+        "C": "Incorreta: peixes contêm gorduras com elevado grau de insaturação.",
+        "D": "Incorreta: frutas cítricas praticamente não contêm lipídeos."
+      },
+      "referencia": {
+        "paginas": [
+          7
+        ],
+        "fundamentacao": "Slide 7 da apostila.",
+        "trechos_apoio": [
+          "Alimentos de origem animal como leites integrais e as carnes de bovinos, suínos e ovinos apresentam grande concentração de gordura saturadas quando comparadas aos outros alimentos"
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_06_q008",
+      "slide_id": "bromatologia_aula_06",
+      "slide_nome": "Aula 06 - Lipídeos",
+      "arquivo_origem": "aula 6 LIPÍDEOS_261106_195058.pdf",
+      "numero": 8,
+      "tema": "Efeitos Fisiológicos",
+      "subtema": "Gorduras Insaturadas na Saúde Humana",
+      "enunciado": "Em contraposição aos efeitos das gorduras saturadas, as gorduras insaturadas oferecem benefícios metabólicos comprovados. De acordo com o slide 8, a inclusão de gorduras insaturadas na dieta:",
+      "alternativas": {
+        "A": "Provoca elevação expressiva do LDL e redução do fluxo sanguíneo coronário.",
+        "B": "Diminui o nível de colesterol ruim (LDL) no organismo, aumenta o bom colesterol (HDL) e ajuda a manter estável a pressão arterial.",
+        "C": "Cristaliza a bile formando cálculos insolúveis de oxalato de cálcio.",
+        "D": "Desnatura as lipases gástricas impedindo a digestão de proteínas."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a elevação de LDL decorre de gorduras saturadas e gorduras trans, enquanto as insaturadas reduzem o LDL.",
+        "B": "Correta: o texto destaca textualmente: \"Gorduras Insaturadas: • Diminui o nível de colesterol ruim (LDL) no organismo, e aumenta do bom colesterol (HDL); • Ajuda a manter estável a pressão arterial; • São gorduras que devem ser mais adicionada no organismo\".",
+        "C": "Incorreta: gorduras insaturadas não promovem formação de cálculos insolúveis de oxalato.",
+        "D": "Incorreta: a ação das gorduras insaturadas relaciona-se ao perfil lipídico sérico e vascular, não à destruição enzimática estomacal."
+      },
+      "referencia": {
+        "paginas": [
+          8
+        ],
+        "fundamentacao": "Slide 8 da apostila.",
+        "trechos_apoio": [
+          "Gorduras Insaturadas: Diminui o nível de colesterol ruim (LDL) no organismo, e aumenta do bom colesterol (HDL); Ajuda a manter estável a pressão arterial; São gorduras que devem ser mais adicionada no organismo"
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_06_q009",
+      "slide_id": "bromatologia_aula_06",
+      "slide_nome": "Aula 06 - Lipídeos",
+      "arquivo_origem": "aula 6 LIPÍDEOS_261106_195058.pdf",
+      "numero": 9,
+      "tema": "Perfil Lipídico de Carnes",
+      "subtema": "Carnes Brancas versus Pele de Aves",
+      "enunciado": "No estudo das carnes brancas em comparação a outros cortes, a apostila estabelece uma importante ressalva nutricional sobre as aves. Conforme o slide 9:",
+      "alternativas": {
+        "A": "As carnes de aves e peixes são mais saturadas que as carnes bovinas, sem colesterol algum.",
+        "B": "As carnes de aves e peixes são mais insaturadas quando comparadas às outras carnes; no entanto, a pele das aves apresenta elevada concentração de colesterol.",
+        "C": "A pele das aves é isenta de gorduras e deve ser consumida para diminuir o LDL plasmático.",
+        "D": "Os peixes contêm exclusivamente ácidos graxos saturados de cadeia curta e média."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: as carnes de aves e peixes têm maior proporção de gorduras insaturadas do que carnes vermelhas de mamíferos.",
+        "B": "Correta: o slide registra expressamente: \"As carnes de aves e peixes são mais insaturadas quando comparadas às outras carnes. No entanto, a pele das aves apresenta elevada concentração de colesterol\".",
+        "C": "Incorreta: a pele das aves concentra elevado teor lipídico e colesterol, demandando moderação.",
+        "D": "Incorreta: carnes de peixes são notórias por sua elevada insaturação (ricas em ácidos graxos poli-insaturados como ômega 3)."
+      },
+      "referencia": {
+        "paginas": [
+          9
+        ],
+        "fundamentacao": "Slide 9 da apostila.",
+        "trechos_apoio": [
+          "As carnes de aves e peixes são mais insaturadas quando comparadas às outras carnes. No entanto, a pele das aves apresenta elevada concentração de colesterol"
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_06_q010",
+      "slide_id": "bromatologia_aula_06",
+      "slide_nome": "Aula 06 - Lipídeos",
+      "arquivo_origem": "aula 6 LIPÍDEOS_261106_195058.pdf",
+      "numero": 10,
+      "tema": "Lipídeos",
+      "subtema": "Óleos Saudáveis e suas Ações Fisiológicas",
+      "enunciado": "O material didático aponta fontes lipídicas vegetais específicas recomendadas na alimentação diária. Segundo o slide 10, os óleos mais saudáveis e recomendados são o azeite extra-virgem de oliva, o óleo de semente de linhaça e o óleo de soja, porque:",
+      "alternativas": {
+        "A": "São inteiramente constituídos por ácidos graxos trans de cadeia linear.",
+        "B": "Contribuem para o bom funcionamento do sistema nervoso, imunitário e cardíaco.",
+        "C": "Possuem ponto de fusão superior a 70 °C, permanecendo sólidos em temperatura ambiente.",
+        "D": "Não contêm nenhuma ligação dupla entre os átomos de carbono de suas moléculas."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: óleos saudáveis contêm conformação cis natural, sendo as gorduras trans prejudiciais à saúde.",
+        "B": "Correta: o slide afirma categoricamente: \"Os óleos mais saudáveis e recomendados são: azeite extra-virgem de oliva, óleo de semente de linhaça e óleo de soja, porque contribuem para o bom funcionamento do sistema nervoso, imunitário e cardíaco\".",
+        "C": "Incorreta: óleos vegetais insaturados possuem baixo ponto de fusão e são líquidos à temperatura ambiente.",
+        "D": "Incorreta: esses óleos caracterizam-se exatamente por possuírem ligações duplas (monoinsaturados e poli-insaturados)."
+      },
+      "referencia": {
+        "paginas": [
+          10
+        ],
+        "fundamentacao": "Slide 10 da apostila.",
+        "trechos_apoio": [
+          "Os óleos mais saudáveis e recomendados são: azeite extra-virgem de oliva, óleo de semente de linhaça e óleo de soja, porque contribuem para o bom funcionamento do sistema nervoso, imunitário e cardíaco."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_06_q011",
+      "slide_id": "bromatologia_aula_06",
+      "slide_nome": "Aula 06 - Lipídeos",
+      "arquivo_origem": "aula 6 LIPÍDEOS_261106_195058.pdf",
+      "numero": 11,
+      "tema": "Ácidos Graxos Essenciais",
+      "subtema": "Conceito e Exemplos",
+      "enunciado": "O organismo humano não dispõe da maquinaria enzimática necessária para sintetizar certos ácidos graxos poli-insaturados, tornando indispensável sua obtenção por meio da alimentação. De acordo com o slide 11, os ácidos graxos essenciais são exemplificados por:",
+      "alternativas": {
+        "A": "Ácido butírico, ácido láurico e ácido mirístico.",
+        "B": "Ácido linoleico, ácido linolênico e ácido araquidônico.",
+        "C": "Ácido palmítico, ácido esteárico e ácido melíssico.",
+        "D": "Ácido acético, ácido lático e ácido cítrico."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: são ácidos graxos saturados que o organismo sintetiza endogenamente.",
+        "B": "Correta: a apostila define textualmente que o organismo humano não é capaz de produzir os ácidos graxos essenciais e cita expressamente como exemplos o ácido linoleico, o ácido linolênico e o ácido araquidônico.",
+        "C": "Incorreta: são ácidos graxos saturados constantes na tabela de nomenclatura do slide 6.",
+        "D": "Incorreta: são ácidos orgânicos de cadeia curta solúveis em água, e não ácidos graxos poli-insaturados essenciais."
+      },
+      "referencia": {
+        "paginas": [
+          11
+        ],
+        "fundamentacao": "Slide 11 da apostila.",
+        "trechos_apoio": [
+          "ÁCIDOS GRAXOS ESSENCIAIS: • Organismo humano não tem capacidade de produzir. • Exemplos: o ácido linoléico, ác. linolênico e araquidônico. São ácidos graxos poliinsaturados [...] Outro tipo de óleo essencial são os ômegas 3 e 6."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_06_q012",
+      "slide_id": "bromatologia_aula_06",
+      "slide_nome": "Aula 06 - Lipídeos",
+      "arquivo_origem": "aula 6 LIPÍDEOS_261106_195058.pdf",
+      "numero": 12,
+      "tema": "Lipídeos",
+      "subtema": "Fontes Vegetais de Ácidos Graxos Poli-insaturados Essenciais",
+      "enunciado": "Os ácidos graxos poli-insaturados essenciais, como o ácido linoleico e o ácido linolênico, estão amplamente distribuídos em sementes e grãos oleaginosos. Segundo o slide 11, são fontes desses ácidos graxos:",
+      "alternativas": {
+        "A": "A banha suína e a gordura anidra de leite pasteurizado.",
+        "B": "Os óleos de açafrão, soja, milho, semente de algodão e de amendoim.",
+        "C": "Os cortes de carnes bovinas marmorizadas com tecido adiposo.",
+        "D": "As bebidas lácteas desnatadas e o soro de queijo clarificado."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: banha e gordura láctea concentram predominantemente ácidos graxos saturados.",
+        "B": "Correta: o texto indica expressamente que esses ácidos graxos poli-insaturados são \"encontrados nos óleos de açafrão, soja, milho, semente de algodão e de amendoim\".",
+        "C": "Incorreta: carnes bovinas são ricas em gorduras saturadas.",
+        "D": "Incorreta: soro de queijo e produtos desnatados têm fração lipídica muito baixa ou ausente."
+      },
+      "referencia": {
+        "paginas": [
+          11
+        ],
+        "fundamentacao": "Slide 11 da apostila.",
+        "trechos_apoio": [
+          "São ácidos graxo poliinsaturado, encontrado nos óleos de açafrão, soja, milho, semente de algodão e de amendoim."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_06_q013",
+      "slide_id": "bromatologia_aula_06",
+      "slide_nome": "Aula 06 - Lipídeos",
+      "arquivo_origem": "aula 6 LIPÍDEOS_261106_195058.pdf",
+      "numero": 13,
+      "tema": "Nomenclatura da Família Ômega",
+      "subtema": "Posição das Duplas Ligações",
+      "enunciado": "A classificação dos ácidos graxos na família ômega baseia-se na localização da primeira dupla ligação a partir da extremidade metílica terminal (carbono ômega). Conforme as definições do slide 12, a correta caracterização dos ômegas 3, 6 e 9 estabelece que:",
+      "alternativas": {
+        "A": "No ômega 3 a dupla ligação está no terceiro carbono (obtido na dieta); no ômega 6 está no sexto carbono (obtido na dieta); e no ômega 9 está no nono carbono (podendo ser sintetizado pelos mamíferos).",
+        "B": "O ômega 9 deve ser obtido obrigatoriamente da dieta e o ômega 3 é sintetizado livremente pelos mamíferos.",
+        "C": "Todas as classes ômega possuem sua primeira dupla ligação posicionada no carbono 1 da carboxila.",
+        "D": "O ômega 6 possui exatamente 6 duplas ligações conjugadas adjacentes ao glicerol."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: o slide estabelece: \"Ômega 3: dupla ligação posicionada no terceiro carbono (devem ser obtidos da dieta); Ômega 6: dupla ligação posicionada no sexto carbono (devem ser obtidos da dieta); Ômega 9: dupla ligação posicionada no nono carbono (podem ser sintetizados pelos mamíferos)\".",
+        "B": "Incorreta: inverte as funções: o ômega 9 pode ser sintetizado pelos mamíferos, enquanto o ômega 3 deve vir da dieta.",
+        "C": "Incorreta: a contagem ômega inicia-se na extremidade metílica terminal, e não no carbono carboxílico 1.",
+        "D": "Incorreta: o número 6 refere-se à posição da primeira dupla ligação a partir do carbono ômega, e não à quantidade total de insaturações."
+      },
+      "referencia": {
+        "paginas": [
+          12
+        ],
+        "fundamentacao": "Slide 12 da apostila.",
+        "trechos_apoio": [
+          "ÁCIDOS GRAXOS - ÔMEGA: Posição das duplas ligações: Ômega 3. dupla ligação posicionada no terceiro carbono (devem ser obtidos da dieta); Ômega 6. dupla ligação posicionada no sexto carbono (devem ser obtidos da dieta); Ômega 9. dupla ligação posicionada no nono carbono (podem ser sintetizados pelos mamíferos)"
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_06_q014",
+      "slide_id": "bromatologia_aula_06",
+      "slide_nome": "Aula 06 - Lipídeos",
+      "arquivo_origem": "aula 6 LIPÍDEOS_261106_195058.pdf",
+      "numero": 14,
+      "tema": "Isomeria Geométrica",
+      "subtema": "Conformação Cis versus Trans na Natureza",
+      "enunciado": "Os ácidos graxos insaturados exibem isomeria geométrica decorrente da restrição de rotação em torno da dupla ligação carbono-carbono. Em relação às conformações espaciais cis e trans, o slide 12 destaca que:",
+      "alternativas": {
+        "A": "Na natureza, apenas são encontrados em concentrações elevadas ácidos graxos na forma \"cis\".",
+        "B": "Todas as gorduras naturais de origem vegetal encontram-se predominantemente na forma \"trans\".",
+        "C": "A conformação \"trans\" é a única forma biológica estável que os mamíferos conseguem metabolizar.",
+        "D": "Ácidos graxos insaturados não apresentam isomeria geométrica espacial."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: o texto destaca de modo categórico: \"Na natureza apenas são encontrados em concentrações elevadas ácidos graxos na forma 'cis'\".",
+        "B": "Incorreta: as plantas e sementes vegetais produzem predominantemente isômeros na conformação cis.",
+        "C": "Incorreta: a forma biológica natural amplamente predominante e saudável é a cis, sendo a trans associada a efeitos adversos.",
+        "D": "Incorreta: a presença da dupla ligação possibilita a existência de isômeros geométricos espaciais (cis e trans)."
+      },
+      "referencia": {
+        "paginas": [
+          12
+        ],
+        "fundamentacao": "Slide 12 da apostila.",
+        "trechos_apoio": [
+          "Configuração (cis ou trans): Os ácidos graxos insaturados podem apresentar conformação 'cis' ou 'trans'. Na natureza apenas são encontrados em concentrações elevadas ácidos graxos na forma 'cis.'"
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_06_q015",
+      "slide_id": "bromatologia_aula_06",
+      "slide_nome": "Aula 06 - Lipídeos",
+      "arquivo_origem": "aula 6 LIPÍDEOS_261106_195058.pdf",
+      "numero": 15,
+      "tema": "Lipídeos",
+      "subtema": "Fundamento Químico da Isomeria Geométrica em Ácidos Graxos",
+      "enunciado": "O slide 13 conceitua a isomeria geométrica como a diferenciação das fórmulas estruturais espaciais mantendo-se a mesma fórmula plana. Essa diferenciação geométrica decorre da:",
+      "alternativas": {
+        "A": "Existência de uma ligação dupla entre dois átomos de C, unindo-se a cada átomo de C da dupla ligação dois radicais diferentes, determinando diferentes posições dos hidrogênios nas cadeias.",
+        "B": "Sublimação direta de cristais de gelo sob pressão atmosférica normal.",
+        "C": "Formação de ramificações compostas exclusivamente por nitrogênio e fósforo.",
+        "D": "Rotação livre e desimpedida das ligações simples carbono-carbono."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: a apostila define: \"São formas para diferentes posições dos hidrogênios nas cadeias dos ácidos graxos insaturados. Isômeros geométricos: mesma fórmula estrutural plana / diferenciação - fórmulas estruturais espaciais. ISOMERIA GEOMÉTRICA: Existência de ligação dupla entre dois átomos de C, unindo-se a cada átomo de C, da dupla ligação, dois radicais diferentes\".",
+        "B": "Incorreta: sublimação de gelo é a mudança de estado físico que ocorre na liofilização.",
+        "C": "Incorreta: a isomeria geométrica clássica avalia a posição relativa de átomos de hidrogênio e cadeias alquílicas em torno dos carbonos da dupla.",
+        "D": "Incorreta: para haver isomeria geométrica é indispensável haver ligação dupla, que impede a rotação livre dos átomos."
+      },
+      "referencia": {
+        "paginas": [
+          13
+        ],
+        "fundamentacao": "Slide 13 da apostila.",
+        "trechos_apoio": [
+          "ISOMERIA GEOMÉTRICA: Existência de ligação dupla entre dois átomos de C, unindo-se a cada átomo de C, da dupla ligação, dois radicais diferentes."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_06_q016",
+      "slide_id": "bromatologia_aula_06",
+      "slide_nome": "Aula 06 - Lipídeos",
+      "arquivo_origem": "aula 6 LIPÍDEOS_261106_195058.pdf",
+      "numero": 16,
+      "tema": "Gorduras Trans",
+      "subtema": "Origem e Comportamento Estrutural",
+      "enunciado": "As gorduras trans são amplamente monitoradas em bromatologia por seus impactos cardiovasculares. Segundo as características estruturais e rotas de formação descritas no slide 14, as gorduras trans:",
+      "alternativas": {
+        "A": "São exclusivamente sintetizadas em laboratório a frio sem nunca ocorrer em animais.",
+        "B": "São formadas a partir de ácidos graxos insaturados por hidrogenação natural (no rúmen de animais) ou industrial e, apesar de insaturadas, apresentam estrutura linear, comportando-se como gorduras saturadas.",
+        "C": "Possuem curvaturas acentuadas em ângulo agudo, tornando-se líquidas a qualquer temperatura.",
+        "D": "Têm ação protetora comprovada, reduzindo os níveis de colesterol LDL no sangue."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: ocorrem naturalmente em pequenas quantidades em ruminantes por bio-hidrogenação ruminal.",
+        "B": "Correta: o slide estabelece textualmente: \"Gorduras Trans: Formadas a partir de ácidos graxos insaturados por hidrogenação natural (no rúmen de animais) ou industrial; Apesar de serem insaturadas apresentam uma estrutura linear, comportando-se como gorduras saturadas\".",
+        "C": "Incorreta: a conformação cis é que introduz curvatura na molécula; a conformação trans confere conformação linear e rígida.",
+        "D": "Incorreta: gorduras trans aumentam o LDL e os riscos cardiovasculares, comportando-se como saturadas."
+      },
+      "referencia": {
+        "paginas": [
+          14
+        ],
+        "fundamentacao": "Slide 14 da apostila.",
+        "trechos_apoio": [
+          "Gorduras Trans: • Formadas a partir de ácidos graxos insaturados por hidrogenação natural (no rúmen de animais) ou industrial; • Apesar de serem insaturadas apresentam uma estrutura linear, comportando-se como gorduras saturadas."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_06_q017",
+      "slide_id": "bromatologia_aula_06",
+      "slide_nome": "Aula 06 - Lipídeos",
+      "arquivo_origem": "aula 6 LIPÍDEOS_261106_195058.pdf",
+      "numero": 17,
+      "tema": "Triglicerídeos",
+      "subtema": "Estrutura e Armazenamento Celular",
+      "enunciado": "Os triacilgliceróis (ou triglicerídeos) constituem a principal forma de depósito lipídico nos animais e vegetais. De acordo com as informações contidas no slide 15, os triglicerídeos:",
+      "alternativas": {
+        "A": "São formados por três moléculas de glicerol ligadas a uma única cadeia de ácido graxo solúvel em água.",
+        "B": "São formados por três moléculas de ácido graxo e uma molécula de glicerol, sendo estocados nos adipócitos (células da hipoderme/tecido subcutâneo) com funções de isolamento térmico e reserva energética.",
+        "C": "São estocados exclusivamente nos hepatócitos na forma de glicogênio hepático ramificado.",
+        "D": "Apresentam solubilidade irrestrita em soluções aquosas alcalinas sem necessidade de aquecimento."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a estequiometria é a inversa: três ácidos graxos ligados a um único glicerol.",
+        "B": "Correta: o slide registra: \"Formados por três moléculas de ácido graxo e uma molécula de glicerol. Os triglicerídeos são estocados em células chamadas adipócitos. Os adipócitos formam a hipoderme, tecido subcutâneo que tem como funções principais o isolamento térmico e a reserva energética para momentos de déficit de energia\".",
+        "C": "Incorreta: o glicogênio é um polissacarídeo de glicose, enquanto triglicerídeos são lipídeos de reserva.",
+        "D": "Incorreta: os triglicerídeos são moléculas insolúveis em água (hidrofóbicas)."
+      },
+      "referencia": {
+        "paginas": [
+          15
+        ],
+        "fundamentacao": "Slide 15 da apostila.",
+        "trechos_apoio": [
+          "TRIGLICERÍDEOS: Formados por três moléculas de ácido graxo e uma molécula de glicerol. Os triglicerídeos são estocados em células chamadas adipócitos. Os adipócitos formam a hipoderme, tecido subcutâneo que tem como funções principais o isolamento térmico e a reserva energética para momentos de déficit de energia."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_06_q018",
+      "slide_id": "bromatologia_aula_06",
+      "slide_nome": "Aula 06 - Lipídeos",
+      "arquivo_origem": "aula 6 LIPÍDEOS_261106_195058.pdf",
+      "numero": 18,
+      "tema": "Classificação dos Triglicerídeos",
+      "subtema": "Simples versus Mistos e Polaridade",
+      "enunciado": "Quanto à composição dos ácidos graxos esterificados e à afinidade pela água, os triglicerídeos são classificados e descritos no slide 16 da seguinte forma:",
+      "alternativas": {
+        "A": "Simples (quando contêm 2 ou mais tipos de ácidos graxos) e Mistos (quando contêm um único tipo de ácido graxo).",
+        "B": "Simples (contêm um único tipo de ácido graxo) e Mistos (contêm 2 ou mais tipos diferentes de ácidos graxos), sendo ambos absolutamente hidrofóbicos.",
+        "C": "São todos anfifílicos altamente hidrossolúveis em pH neutro.",
+        "D": "Simples (sólidos a 100 °C) e Mistos (gasosos à temperatura ambiente)."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: inverte os conceitos de triglicerídeo simples e misto.",
+        "B": "Correta: a apostila define: \"Simples: contém um único tipo de ácido graxo; Mistos: contém 2 ou mais tipos diferentes de ácidos graxos; São absolutamente hidrofóbicos\".",
+        "C": "Incorreta: triglicerídeos não são anfifílicos; são moléculas totalmente apolares e hidrofóbicas.",
+        "D": "Incorreta: o estado físico dos triglicerídeos depende do tamanho das cadeias e do grau de insaturação, não existindo triglicerídeos gasosos."
+      },
+      "referencia": {
+        "paginas": [
+          16
+        ],
+        "fundamentacao": "Slide 16 da apostila.",
+        "trechos_apoio": [
+          "Simples: contém um único tipo de ácido graxo. Mistos: contém 2 ou mais tipos diferentes de ácidos graxos. São absolutamente hidrofóbicos."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_06_q019",
+      "slide_id": "bromatologia_aula_06",
+      "slide_nome": "Aula 06 - Lipídeos",
+      "arquivo_origem": "aula 6 LIPÍDEOS_261106_195058.pdf",
+      "numero": 19,
+      "tema": "Lipídeos",
+      "subtema": "Funções Fisiológicas e Tecnológicas dos Lipídeos",
+      "enunciado": "Os lipídeos desempenham papéis biológicos e sensoriais determinantes nos alimentos e nos organismos. De acordo com a relação completa apresentada no slide 16, as funções dos lipídeos incluem:",
+      "alternativas": {
+        "A": "Isolante e conservante do calor natural, revestimento de órgãos internos, veículos para vitaminas lipossolúveis, componentes da membrana celular, reserva de energia, maior palatabilidade e função hormonal (esteroides).",
+        "B": "Atuação exclusiva como catalisadores enzimáticos na digestão de amilose.",
+        "C": "Transporte exclusivo de vitaminas hidrossolúveis do complexo B e vitamina C.",
+        "D": "Formação da malha viscoelástica do glúten na farinha de trigo."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: o slide elenca detalhadamente: \"FUNÇÕES: Isolante e conservante do calor natural; Revestem órgãos internos; Veículos para vitaminas lipossolúveis; Componentes da membrana celular; Reserva de energia; Maior palatabilidade; Hormonal (esteróides)\".",
+        "B": "Incorreta: lipídeos não atuam como enzimas digestivas; enzimas são proteínas globulares.",
+        "C": "Incorreta: lipídeos atuam como veículos para vitaminas lipossolúveis (A, D, E, K), e não hidrossolúveis.",
+        "D": "Incorreta: a viscoelasticidade do glúten é função funcional das proteínas vegetais da farinha."
+      },
+      "referencia": {
+        "paginas": [
+          16
+        ],
+        "fundamentacao": "Slide 16 da apostila.",
+        "trechos_apoio": [
+          "FUNÇÕES: • Isolante e conservante do calor natural; • Revestem órgãos internos; • Veículos para vitaminas lipossolúveis; • Componentes da membrana celular; • Reserva de energia; • Maior palatabilidade; • Hormonal (esteróides)"
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_06_q020",
+      "slide_id": "bromatologia_aula_06",
+      "slide_nome": "Aula 06 - Lipídeos",
+      "arquivo_origem": "aula 6 LIPÍDEOS_261106_195058.pdf",
+      "numero": 20,
+      "tema": "Óleo versus Gordura",
+      "subtema": "Estado Físico e Temperatura Limite Legal",
+      "enunciado": "A distinção física entre um óleo e uma gordura baseia-se em seu estado físico sob uma temperatura de referência regulamentada. Conforme o slide 17, as definições e a temperatura limite estabelecida pela legislação são:",
+      "alternativas": {
+        "A": "Óleo é sólido a 0 °C e Gordura é líquida a 100 °C; temperatura limite: 50 °C.",
+        "B": "Óleo é líquido à temperatura ambiente e Gordura é sólida à temperatura ambiente; temperatura limite da legislação: 20 °C.",
+        "C": "Óleo e gordura são fluidos gasosos; temperatura limite: 4 °C.",
+        "D": "Ambos são obrigatoriamente sólidos cristalinos; temperatura limite: 35 °C."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: as definições de estado físico e os valores numéricos estão incorretos.",
+        "B": "Correta: a apostila determina: \"Óleo: Líquido a temperatura ambiente; Gordura: Sólido a temperatura ambiente; Legislação: Temperatura limite: 20 °C\".",
+        "C": "Incorreta: lipídeos não se apresentam no estado gasoso em condições ambientes normais.",
+        "D": "Incorreta: óleos são caracterizados por sua fluidez líquida à temperatura ambiente."
+      },
+      "referencia": {
+        "paginas": [
+          17
+        ],
+        "fundamentacao": "Slide 17 da apostila.",
+        "trechos_apoio": [
+          "CARACTERÍSTICAS: Óleo: Líquido a temperatura ambiente / Gordura: Sólido a temperatura ambiente / Legislação: Temperatura limite: 20°C"
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_06_q021",
+      "slide_id": "bromatologia_aula_06",
+      "slide_nome": "Aula 06 - Lipídeos",
+      "arquivo_origem": "aula 6 LIPÍDEOS_261106_195058.pdf",
+      "numero": 21,
+      "tema": "Denominação Tecnológica e Legal",
+      "subtema": "Azeites",
+      "enunciado": "A legislação e a tecnologia de alimentos definem nomenclaturas específicas para óleos vegetais de acordo com a sua origem botânica. De acordo com o slide 18, o termo azeite é utilizado exclusivamente para:",
+      "alternativas": {
+        "A": "Óleos provenientes de sementes e grãos secos de cereais, como milho e soja.",
+        "B": "Óleos provenientes de frutos (exemplificados por oliva e dendê).",
+        "C": "Gorduras animais purificadas por fusão térmica a seco.",
+        "D": "Frações lipídicas sintéticas derivadas da hidrogenação industrial completa."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: óleos extraídos de sementes e grãos recebem a denominação genérica de óleos vegetais (óleo de milho, óleo de soja), não de azeite.",
+        "B": "Correta: o slide estabelece categoricamente: \"Azeites: termo utilizado apenas para óleos provenientes de frutos. Ex.: Oliva e dendê\".",
+        "C": "Incorreta: gorduras fundidas de origem animal recebem designações como banha ou sebo, nunca azeite.",
+        "D": "Incorreta: produtos de hidrogenação química são gorduras hidrogenadas comerciais, sem relação com a extração de frutos in natura."
+      },
+      "referencia": {
+        "paginas": [
+          18
+        ],
+        "fundamentacao": "Slide 18 da apostila.",
+        "trechos_apoio": [
+          "Azeites: termo utilizado apenas para óleos provenientes de frutos. Ex.: Oliva e dendê"
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_06_q022",
+      "slide_id": "bromatologia_aula_06",
+      "slide_nome": "Aula 06 - Lipídeos",
+      "arquivo_origem": "aula 6 LIPÍDEOS_261106_195058.pdf",
+      "numero": 22,
+      "tema": "Características Comparativas",
+      "subtema": "Ponto de Fusão e Insaturação em Óleos e Gorduras",
+      "enunciado": "Na tabela comparativa do slide 19, são contrastadas as propriedades físicas dos óleos e das gorduras. Assinale a alternativa que correlaciona corretamente as propriedades físico-químicas de cada grupo:",
+      "alternativas": {
+        "A": "Óleos: ponto de fusão alto, sólidos em temperatura ambiente e menor grau de insaturação; Gorduras: ponto de fusão baixo, líquidas e maior grau de insaturação.",
+        "B": "Óleos: ponto de fusão baixo, líquidos em temperatura ambiente e maior grau de insaturação; Gorduras: ponto de fusão alto, sólidas em temperatura ambiente e menor grau de insaturação.",
+        "C": "Ambos apresentam ponto de fusão idêntico fixado em 100 °C pela presença de glicerol anidro.",
+        "D": "As gorduras são formadas estritamente por ácidos graxos monoinsaturados voláteis."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: inverte totalmente as características das duas frações.",
+        "B": "Correta: a tabela do slide 19 detalha com precisão: Óleo → Ponto de fusão baixo, Líquido em temperatura ambiente, Maior grau de insaturação; Gordura → Ponto de fusão alto, Sólida em temperatura ambiente, Menor grau de insaturação.",
+        "C": "Incorreta: pontos de fusão diferem consideravelmente em função do comprimento das cadeias e da quantidade de duplas ligações.",
+        "D": "Incorreta: as gorduras caracterizam-se por predomínio de cadeias saturadas (menor grau de insaturação), conferindo rigidez à temperatura ambiente."
+      },
+      "referencia": {
+        "paginas": [
+          19
+        ],
+        "fundamentacao": "Slide 19 da apostila.",
+        "trechos_apoio": [
+          "| ÓLEO | GORDURA | Ponto de fusão baixo | Ponto de fusão alto | Líquido em T° ambiente | Sólida em T° ambiente | Maior grau de insaturação | Menor grau de insaturação |"
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_06_q023",
+      "slide_id": "bromatologia_aula_06",
+      "slide_nome": "Aula 06 - Lipídeos",
+      "arquivo_origem": "aula 6 LIPÍDEOS_261106_195058.pdf",
+      "numero": 23,
+      "tema": "Transformações Químicas",
+      "subtema": "Reação de Saponificação",
+      "enunciado": "A saponificação é uma reação clássica de clivagem alcalina dos lipídeos. Segundo a descrição e o esquema da reação no slide 20, a saponificação ocorre quando:",
+      "alternativas": {
+        "A": "Um óleo ou gordura é resfriado a -20 °C na presença de ácido clorídrico concentrado.",
+        "B": "Um óleo ou gordura é aquecido em solução aquosa alcalina (como NaOH), formando glicerol e uma mistura de sais alcalinos de ácidos graxos conhecidos como SABÕES (solúveis em água).",
+        "C": "O oxigênio atmosférico se adiciona às duplas ligações formando peróxidos lipídicos insolúveis.",
+        "D": "Ocorre fermentação láctica de triglicerídeos por bactérias anaeróbias restritas."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a saponificação exige aquecimento e meio básico forte (álcali), não meio ácido criogênico.",
+        "B": "Correta: o texto técnico e a equação definem: \"Quando um óleo ou gordura é aquecido em solução aquosa alcalina, forma-se glicerol e uma mistura de sais alcalinos de ácidos graxos conhecidos como SABÕES\", destacando que o ácido graxo livre original é insolúvel em água, mas o sabão formado é solúvel.",
+        "C": "Incorreta: adição de oxigênio a duplas ligações caracteriza a auto-oxidação lipídica.",
+        "D": "Incorreta: a saponificação é uma reação puramente química inorgânica/orgânica, sem atividade biológica ou bacteriana."
+      },
+      "referencia": {
+        "paginas": [
+          20
+        ],
+        "fundamentacao": "Slide 20 da apostila.",
+        "trechos_apoio": [
+          "SAPONIFICAÇÃO: Quando um óleo ou gordura é aquecido em solução aquosa alcalina, forma-se glicerol e uma mistura de sais alcalinos de ácidos graxos conhecidos como SABÕES."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_06_q024",
+      "slide_id": "bromatologia_aula_06",
+      "slide_nome": "Aula 06 - Lipídeos",
+      "arquivo_origem": "aula 6 LIPÍDEOS_261106_195058.pdf",
+      "numero": 24,
+      "tema": "Modificações Industriais",
+      "subtema": "Princípio do Processo de Hidrogenação",
+      "enunciado": "A hidrogenação é uma das tecnologias mais empregadas pela indústria de óleos para modificar a consistência de matérias-primas lipídicas. Conforme o slide 21, o processo de hidrogenação consiste na:",
+      "alternativas": {
+        "A": "Extração por solventes apolares voláteis em temperatura inferior a 0 °C.",
+        "B": "Adição de hidrogênio às duplas ligações dos ácidos graxos insaturados, produzindo saturação total ou parcial da cadeia, sob condições de temperatura elevada (140 °C a 225 °C) e pressão, em presença de catalisadores.",
+        "C": "Liberação espontânea de moléculas de água ligadas à estrutura conformacional das proteínas.",
+        "D": "Ciclização do glicerol em anéis aromáticos altamente tóxicos."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: extração por solvente é método de obtenção de óleo bruto, não modificação química catalítica.",
+        "B": "Correta: o slide descreve: \"Consiste na adição de hidrogênio as duplas ligações dos ácidos graxos insaturados, produzindo saturação total ou parcial da cadeia, sob condições de T° elevada (140-225 °C) e pressão; [...] Introdução de hidrogênio nas duplas ligações de ácidos graxos, em presença de catalisadores\".",
+        "C": "Incorreta: perda de água ligada em matrizes proteicas ou géis de amido refere-se à sinérese.",
+        "D": "Incorreta: a hidrogenação atua saturando as insaturações alifáticas, não transformando o glicerol em compostos aromáticos."
+      },
+      "referencia": {
+        "paginas": [
+          21,
+          22
+        ],
+        "fundamentacao": "Slides 21 e 22 da apostila.",
+        "trechos_apoio": [
+          "HIDROGENAÇÃO: Consiste na adição de hidrogênio as duplas ligações dos ácidos graxos insaturados, produzindo saturação total ou parcial da cadeia, sob condições de T° elevada (140-225°C) e pressão; [...] Introdução de hidrogênio nas duplas ligações de ácidos graxos, em presença de catalisadores."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_06_q025",
+      "slide_id": "bromatologia_aula_06",
+      "slide_nome": "Aula 06 - Lipídeos",
+      "arquivo_origem": "aula 6 LIPÍDEOS_261106_195058.pdf",
+      "numero": 25,
+      "tema": "Lipídeos",
+      "subtema": "Efeitos Físicos e Estruturais da Hidrogenação",
+      "enunciado": "A saturação parcial ou total promovida pela hidrogenação acarreta profundas mudanças termodinâmicas no perfil lipídico. De acordo com o slide 21, a hidrogenação promove:",
+      "alternativas": {
+        "A": "Redução drástica do ponto de fusão, transformando gorduras sólidas em óleos voláteis.",
+        "B": "Elevação do ponto de fusão, permitindo a conversão de óleos em gorduras e aumentando a quantidade de gordura trans.",
+        "C": "Eliminação completa de qualquer ácido graxo da molécula de glicerol.",
+        "D": "Diminuição da vida de prateleira por indução de ranço hidrolítico imediato."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a saturação das duplas ligações empacota melhor as cadeias carbônicas, o que eleva (e não reduz) o ponto de fusão.",
+        "B": "Correta: o slide pontua claramente os impactos: \"↑ Ponto de Fusão; Permite a conversão de óleos em gorduras; ↑ quantidade de gordura trans\".",
+        "C": "Incorreta: as ligações éster entre ácidos graxos e o glicerol são preservadas, apenas as duplas ligações da cadeia são hidrogenadas.",
+        "D": "Incorreta: a redução do grau de insaturação confere maior estabilidade oxidativa, aumentando a vida útil do produto."
+      },
+      "referencia": {
+        "paginas": [
+          21
+        ],
+        "fundamentacao": "Slide 21 da apostila.",
+        "trechos_apoio": [
+          "↑ Ponto de Fusão; Permite a conversão de óleos em gorduras; ↑ quantidade de gordura trans."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_06_q026",
+      "slide_id": "bromatologia_aula_06",
+      "slide_nome": "Aula 06 - Lipídeos",
+      "arquivo_origem": "aula 6 LIPÍDEOS_261106_195058.pdf",
+      "numero": 26,
+      "tema": "Relação Estrutural",
+      "subtema": "Saturação versus Ponto de Fusão (PF)",
+      "enunciado": "O slide 22 apresenta um exemplo didático que comprova visualmente a correlação entre saturação e ponto de fusão ao comparar o ácido oleico com o ácido esteárico. Com base nos dados numéricos fornecidos nesse slide, observa-se que:",
+      "alternativas": {
+        "A": "O ácido oleico (insaturado) tem PF = 13 °C e, após a adição de H₂ sob catálise, converte-se em ácido esteárico (saturado) com PF = 72 °C (↑ saturação: ↑ PF).",
+        "B": "O ácido oleico possui ponto de fusão superior a 100 °C por ser trans.",
+        "C": "O ácido esteárico tem ponto de fusão negativo (−72 °C) por ser poli-insaturado.",
+        "D": "A hidrogenação catalítica do ácido oleico mantém o ponto de fusão rigorosamente constante em 13 °C."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: o slide exibe a reação esquemática: \"Ex. Ácido Oléico PF = 13 °C + H₂ cat. → Ex. Ácido Esteárico PF = 72 °C\", concluindo com a regra fundamental: \"↑ saturação: ↑ PF\".",
+        "B": "Incorreta: o ácido oleico é o isômero cis natural e apresenta baixo ponto de fusão (13 °C).",
+        "C": "Incorreta: o ácido esteárico é um ácido graxo saturado de 18 carbonos sólido à temperatura ambiente (PF = 72 °C).",
+        "D": "Incorreta: a saturação da dupla ligação provoca um salto de 13 °C para 72 °C no ponto de fusão."
+      },
+      "referencia": {
+        "paginas": [
+          22
+        ],
+        "fundamentacao": "Slide 22 da apostila.",
+        "trechos_apoio": [
+          "Ex. Ácido Oléico PF = 13°C + H2 cat. → Ex. Ácido Esteárico PF = 72°C | ↑ saturação: ↑ PF"
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_06_q027",
+      "slide_id": "bromatologia_aula_06",
+      "slide_nome": "Aula 06 - Lipídeos",
+      "arquivo_origem": "aula 6 LIPÍDEOS_261106_195058.pdf",
+      "numero": 27,
+      "tema": "Aplicações Industriais e Frituras",
+      "subtema": "Vantagens da Hidrogenação",
+      "enunciado": "A hidrogenação confere características tecnológicas altamente valorizadas na fabricação de margarinas, biscoitos e recheios. Segundo o slide 23, a hidrogenação é amplamente utilizada pela indústria porque dá origem a uma gordura com:",
+      "alternativas": {
+        "A": "Maior teor de água ligada e sensibilidade extrema a enzimas sacarolíticas.",
+        "B": "Ponto de fusão mais elevado, melhor qualidade de estocagem, melhor palatabilidade e textura, e maior vida de prateleira.",
+        "C": "Baixa estabilidade térmica que impede o reaproveitamento em frituras.",
+        "D": "Sabor amargo pungente com degradação imediata de pigmentos de caramelo."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: gorduras hidrogenadas são anidras e lipídicas, não possuindo relação com água ou enzimas de carboidratos.",
+        "B": "Correta: o slide lista textualmente as razões do seu amplo uso industrial: \"Hidrogenação dá origem a uma gordura com: • Ponto de fusão mais elevado; • Melhor qualidade de estocagem; • Melhor palatibilidade e textura; • Maior vida de prateleira; • Por isso é tão utilizada na indústria\".",
+        "C": "Incorreta: a hidrogenação confere alta estabilidade ao calor, sendo muito estável durante processos de fritura.",
+        "D": "Incorreta: o objetivo do processo é justamente melhorar a textura e a palatabilidade, sem conferir amargor."
+      },
+      "referencia": {
+        "paginas": [
+          23
+        ],
+        "fundamentacao": "Slide 23 da apostila.",
+        "trechos_apoio": [
+          "Hidrogenação dá origem a uma gordura com: • Ponto de fusão mais elevado • Melhor qualidade de estocagem • Melhor palatibilidade e textura • Maior vida de prateleira • Por isso é tão utilizada na indústria."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_06_q028",
+      "slide_id": "bromatologia_aula_06",
+      "slide_nome": "Aula 06 - Lipídeos",
+      "arquivo_origem": "aula 6 LIPÍDEOS_261106_195058.pdf",
+      "numero": 28,
+      "tema": "Hidrogenação Térmica em Serviços de Alimentação",
+      "subtema": "Processo de Fritura",
+      "enunciado": "Além dos reatores industriais específicos, o fenômeno de saturação de ácidos graxos pode ocorrer durante o preparo culinário. De acordo com o slide 24, a conversão de ácidos graxos insaturados a saturados através de hidrogenação também ocorre facilmente:",
+      "alternativas": {
+        "A": "Durante o resfriamento lento de carnes sob vácuo em geladeira doméstica.",
+        "B": "Nas frituras sob aquecimento contínuo.",
+        "C": "No armazenamento de azeites de oliva em garrafas de vidro escuro a 15 °C.",
+        "D": "Na mistura mecânica a frio de farinha com água em batedeiras planetárias."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o frio sob ausência de ar não fornece energia térmica nem hidrogênio livre para saturar duplas ligações.",
+        "B": "Correta: o slide ressalta expressamente: \"A conversão de ácidos graxos insaturados a saturados através de hidrogenação também ocorre facilmente nas frituras\".",
+        "C": "Incorreta: embalagem escura e temperatura amena evitam oxidações e preservam o estado insaturado nativo do azeite.",
+        "D": "Incorreta: o batimento de massa de farinha desenvolve o glúten, sem promover hidrogenação de lipídeos."
+      },
+      "referencia": {
+        "paginas": [
+          24
+        ],
+        "fundamentacao": "Slide 24 da apostila.",
+        "trechos_apoio": [
+          "A conversão de ácidos graxos insaturados a saturados através de hidrogenação também ocorre facilmente nas frituras."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_06_q029",
+      "slide_id": "bromatologia_aula_06",
+      "slide_nome": "Aula 06 - Lipídeos",
+      "arquivo_origem": "aula 6 LIPÍDEOS_261106_195058.pdf",
+      "numero": 29,
+      "tema": "Tecnologia de Modificação Lipídica",
+      "subtema": "Transesterificação",
+      "enunciado": "Como alternativa moderna ao processo de hidrogenação parcial, a indústria desenvolveu a transesterificação para modificar óleos vegetais. Segundo o slide 25, a transesterificação e suas respectivas vantagens caracterizam-se por:",
+      "alternativas": {
+        "A": "Ser uma técnica usada para transformar óleo em gordura (química ou enzimaticamente), tendo como grandes vantagens o fato de não formar gorduras trans e não diminuir o valor nutricional.",
+        "B": "Destruir todo o glicerol da molécula por queima térmica direta a 400 °C.",
+        "C": "Transformar gorduras saturadas em carboidratos redutores solúveis.",
+        "D": "Exigir a adição obrigatória de ácido sulfúrico concentrado e catalisador de platina em alta pressão."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: o slide detalha: \"TRANSESTERIFICAÇÃO: Técnica usada para transformar óleo em gordura; Químico ou enzimático; Vantagens: Não forma trans; Não diminui valor nutricional\".",
+        "B": "Incorreta: a transesterificação consiste no rearranjo dos ácidos graxos nas posições do glicerol, preservando as moléculas de glicerol intactas.",
+        "C": "Incorreta: lipídeos não são convertidos em açúcares ou carboidratos redutores na transesterificação.",
+        "D": "Incorreta: a reação pode ocorrer via enzimática (com lipases) ou química suave (metóxido de sódio), sem uso de ácido sulfúrico corrosivo de digestão."
+      },
+      "referencia": {
+        "paginas": [
+          25
+        ],
+        "fundamentacao": "Slide 25 da apostila.",
+        "trechos_apoio": [
+          "TRANSESTERIFICAÇÃO: Técnica usada para transformar óleo em gordura / Químico ou enzimático / Vantagens: Não forma trans / Não diminui valor nutricional."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_06_q030",
+      "slide_id": "bromatologia_aula_06",
+      "slide_nome": "Aula 06 - Lipídeos",
+      "arquivo_origem": "aula 6 LIPÍDEOS_261106_195058.pdf",
+      "numero": 30,
+      "tema": "Deterioração dos Lipídeos",
+      "subtema": "Conceito de Rancificação e suas Vias",
+      "enunciado": "A degradação da fração lipídica representa um dos maiores desafios bromatológicos na preservação de alimentos ricos em gordura. Conforme os slides 26 e 27, a rancificação é conceituada e subdividida da seguinte maneira:",
+      "alternativas": {
+        "A": "Degradação térmica de proteínas que gera melanoidinas insolúveis em água.",
+        "B": "Degradação da gordura que consiste em uma alteração química com desenvolvimento de odor e sabor desagradáveis, subdividida em deterioração por rancidez hidrolítica (hidrólise da ligação éster por lipase e umidade) e rancidez oxidativa (auto-oxidação).",
+        "C": "Fermentação controlada da lactose por bactérias lácticas gerando coalhada comercial.",
+        "D": "Perda de umidade por secagem superficial sem alteração sensorial no produto."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: formação de melanoidinas por degradação não enzimática envolve açúcares redutores e aminoácidos (Maillard), e não gorduras puras.",
+        "B": "Correta: os slides definem textualmente: \"RANCIFICAÇÃO = DEGRADAÇÃO DA GORDURA; Alteração química = desenvolvimento de odor e sabor desagradáveis da gordura\", estruturando o esquema nas duas vias: \"Rancidez hidrolítica (hidrólise da ligação éster por lipase e umidade)\" e \"Rancidez oxidativa (autoxidação)\".",
+        "C": "Incorreta: fermentação de lactose refere-se ao azedamento do leite em derivados como iogurtes, e não ao ranço de gorduras.",
+        "D": "Incorreta: a rancificação é uma alteração química profunda que compromete radicalmente os atributos de aroma e sabor."
+      },
+      "referencia": {
+        "paginas": [
+          26,
+          27
+        ],
+        "fundamentacao": "Slides 26 e 27 da apostila.",
+        "trechos_apoio": [
+          "RANCIFICAÇÃO = DEGRADAÇÃO DA GORDURA / Alteração química = desenvolvimento de odor e sabor desagradáveis da gordura. / RANCIFICAÇÃO DETERIORAÇÃO: Rancidez hidrolítica (Hidrólise da ligação éster por lipase e umidade) | Rancidez oxidativa (Autoxidação)"
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_06_q031",
+      "slide_id": "bromatologia_aula_06",
+      "slide_nome": "Aula 06 - Lipídeos",
+      "arquivo_origem": "aula 6 LIPÍDEOS_261106_195058.pdf",
+      "numero": 31,
+      "tema": "Deterioração dos Lipídeos",
+      "subtema": "Princípio Geral da Rancidez Oxidativa",
+      "enunciado": "A rancidez oxidativa (ou auto-oxidação) é a principal causa de deterioração química em matrizes gordurosas. De acordo com o slide 28, a rancidez oxidativa caracteriza-se por:",
+      "alternativas": {
+        "A": "Ser uma reação entre ácidos graxos insaturados e o oxigênio, com quebra da dupla ligação, compreendendo as etapas de Iniciação → Propagação → Terminação.",
+        "B": "Ocorrer exclusivamente em ácidos graxos saturados sob ausência absoluta de ar.",
+        "C": "Resultar da hidrólise enzimática exclusiva de ligações éster por bactérias lácticas a 0 °C.",
+        "D": "Elevar o teor de vitaminas lipossolúveis e carotenoides na fração lipídica."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: a apostila define textualmente que a rancidez oxidativa é uma \"reação entre ácidos graxos insaturados e o oxigênio\", envolvendo a \"quebra da dupla ligação\", e esquematiza seu curso como \"Iniciação → Propagação → Terminação\".",
+        "B": "Incorreta: a auto-oxidação exige a presença de oxigênio gasoso e ataca as insaturações (duplas ligações) dos ácidos graxos.",
+        "C": "Incorreta: a hidrólise de ligações éster por enzimas é a rancidez hidrolítica, não a rancidez oxidativa.",
+        "D": "Incorreta: a auto-oxidação degrada e destrói vitaminas lipossolúveis e carotenoides."
+      },
+      "referencia": {
+        "paginas": [
+          28
+        ],
+        "fundamentacao": "Slide 28 da apostila.",
+        "trechos_apoio": [
+          "RANCIDEZ OXIDATIVA: • Reação entre ácidos graxos insaturados e o oxigênio. • Quebra da dupla ligação • Iniciação → Propagação → Terminação"
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_06_q032",
+      "slide_id": "bromatologia_aula_06",
+      "slide_nome": "Aula 06 - Lipídeos",
+      "arquivo_origem": "aula 6 LIPÍDEOS_261106_195058.pdf",
+      "numero": 32,
+      "tema": "Lipídeos",
+      "subtema": "Consequências Sensoriais e Nutricionais da Rancidez Oxidativa",
+      "enunciado": "O desenvolvimento do ranço oxidativo compromete tanto os atributos de qualidade sensorial quanto a segurança e o valor nutritivo dos alimentos. Conforme o slide 28/29, a rancidez oxidativa acarreta:",
+      "alternativas": {
+        "A": "Aumento da crocância de massas folhadas e retenção de umidade superficial.",
+        "B": "Alterações indesejáveis de cor, sabor, aroma e consistência do alimento, perda de valor nutricional (destruição de vitaminas, carotenoides e ácidos graxos essenciais), depreciação do produto e toxicidade (grande formação de radicais livres).",
+        "C": "Neutralização completa dos ácidos graxos livres formando sabões aromáticos.",
+        "D": "Transformação dos triglicerídeos em proteínas de alto valor biológico."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a oxidação gera compostos voláteis rançosos e altera a consistência, sem melhorar atributos de textura.",
+        "B": "Correta: o slide detalha expressamente: \"Resulta em alterações indesejáveis de cor, sabor, aroma e consistência do alimento. Valor nutricional (perda de vitaminas, carotenóides e ácidos graxos essenciais); depreciação do produto e toxicidade (grande formação de radicais livres)\".",
+        "C": "Incorreta: neutralização com formação de sabões refere-se à saponificação com soda cáustica.",
+        "D": "Incorreta: lipídeos oxidados não se convertem em proteínas."
+      },
+      "referencia": {
+        "paginas": [
+          28,
+          29
+        ],
+        "fundamentacao": "Slides 28 e 29 da apostila.",
+        "trechos_apoio": [
+          "Resulta em alterações indesejáveis de cor, sabor, aroma e consistência do alimento. • Valor nutricional (perda de vitaminas, carotenóides e ácidos graxos essenciais); depreciação do produto e toxicidade (grande formação de radicais livres)."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_06_q033",
+      "slide_id": "bromatologia_aula_06",
+      "slide_nome": "Aula 06 - Lipídeos",
+      "arquivo_origem": "aula 6 LIPÍDEOS_261106_195058.pdf",
+      "numero": 33,
+      "tema": "Rancidez Oxidativa",
+      "subtema": "O 1º Passo (Iniciação ou Indução)",
+      "enunciado": "A etapa de abertura da auto-oxidação lipídica envolve a formação das primeiras espécies reativas. Segundo o mecanismo químico detalhado no slide 30, no 1º passo (Iniciação ou Indução):",
+      "alternativas": {
+        "A": "Todas as duplas ligações são hidrogenadas e saturadas simultaneamente.",
+        "B": "Um átomo de hidrogênio é retirado do grupo metílico de um ácido graxo (RH) insaturado, formando um radical livre (R•), ao qual o oxigênio se adiciona formando um radical peróxido (ROO•).",
+        "C": "Os ácidos graxos se rompem espontaneamente em glicerol e amônia livre.",
+        "D": "Ocorrem alterações sensoriais imediatas e odor pútrido característico."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: hidrogenação é processo industrial de saturação com H₂, e não o início da degradação oxidativa.",
+        "B": "Correta: o texto técnico e as equações expressam: \"1º PASSO: INICIAÇÃO OU INDUÇÃO: a) Um átomo de hidrogênio é retirado do grupo metilico de um ácido graxo (RH) insaturado, levando a formação de um radical livre (R• + H•) [...] O oxigênio adiciona-se ao radical livre e forma um radical peróxido (R• + O₂ → ROO•)\".",
+        "C": "Incorreta: a clivagem do glicerol ocorre na hidrólise, e lipídeos não possuem nitrogênio para liberar amônia livre.",
+        "D": "Incorreta: a fase de iniciação é caracterizada pela ausência de alterações sensoriais perceptíveis."
+      },
+      "referencia": {
+        "paginas": [
+          30
+        ],
+        "fundamentacao": "Slide 30 da apostila.",
+        "trechos_apoio": [
+          "1º PASSO: INICIAÇÃO OU INDUÇÃO: a) Um átomo de hidrogênio é retirado do grupo metilico de um ácido graxo (RH) insaturado, levando a formação de um radial livre. R• + O2 → ROO• O oxigênio adiciona-se ao radical livre e forma um radical peróxido"
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_06_q034",
+      "slide_id": "bromatologia_aula_06",
+      "slide_nome": "Aula 06 - Lipídeos",
+      "arquivo_origem": "aula 6 LIPÍDEOS_261106_195058.pdf",
+      "numero": 34,
+      "tema": "Lipídeos",
+      "subtema": "Características Químicas da Fase de Iniciação",
+      "enunciado": "O período de indução ou iniciação possui um perfil analítico bem delimitado que precede o desenvolvimento rápido do ranço. Conforme o slide 31, são características da Iniciação:",
+      "alternativas": {
+        "A": "Consumo massivo e explosivo de oxigênio e alto índice de peróxidos.",
+        "B": "Baixo consumo de oxigênio (que tende a aumentar progressivamente), baixa concentração de peróxidos, alta concentração de radicais livres e ausência de alterações sensoriais.",
+        "C": "Aparecimento imediato de sabor de sabão e cor escura intensa.",
+        "D": "Precipitação de todos os sais minerais da matriz lipídica."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o alto consumo de oxigênio e o rápido aumento do índice de peróxidos caracterizam a fase seguinte (propagação).",
+        "B": "Correta: o slide resume com precisão: \"Rancidez oxidativa - Iniciação • Características: Baixo consumo de oxigênio, mas que tende a aumentar progressivamente; Baixa concentração de peróxidos; Alta concentração de radicais livres; Ausência de alterações sensoriais\".",
+        "C": "Incorreta: sabor de sabão decorre de ácidos láurico/mirístico na rancidez hidrolítica, não ocorrendo na iniciação da auto-oxidação.",
+        "D": "Incorreta: a iniciação afeta a formação inicial de radicais no lipídeo, sem envolver precipitação salina."
+      },
+      "referencia": {
+        "paginas": [
+          31
+        ],
+        "fundamentacao": "Slide 31 da apostila.",
+        "trechos_apoio": [
+          "Rancidez oxidativa - Iniciação • Características: Baixo consumo de oxigênio, mas que tende a aumentar progressivamente; Baixa concentração de peróxidos; Alta concentração de radicais livres; Ausência de alterações sensoriais."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_06_q035",
+      "slide_id": "bromatologia_aula_06",
+      "slide_nome": "Aula 06 - Lipídeos",
+      "arquivo_origem": "aula 6 LIPÍDEOS_261106_195058.pdf",
+      "numero": 35,
+      "tema": "Rancidez Oxidativa",
+      "subtema": "O 2º Passo (Propagação)",
+      "enunciado": "Uma vez gerados os radicais peróxidos, o processo oxidativo ganha velocidade exponencial. Segundo o slide 32/33, no 2º passo (Propagação) ocorre:",
+      "alternativas": {
+        "A": "A neutralização natural de todos os radicais livres pela água livre do alimento.",
+        "B": "Reação em cadeia em que os radicais peróxidos retiram átomos de hidrogênio de outros lipídeos insaturados (ROO• + RH → ROOH + R•), caracterizando alto consumo de oxigênio e rápido aumento do Índice de Peróxido.",
+        "C": "Cristalização de sacarose formando pontes de hidrogênio com a gordura.",
+        "D": "Desnaturação térmica de proteínas musculares com liberação de suco cárneo."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a água não neutraliza os radicais livres da oxidação; pelo contrário, a reação se autopropaga em cadeia.",
+        "B": "Correta: os slides descrevem: \"2º PASSO: Propagação: Os radicais peróxidos formados são extremamente reativos e podem retirar átomos de hidrogênio de outros lipídeos insaturados, e dessa maneira propagar a reação de oxidação. Reação em cadeia: alto consumo de oxigênio, rápido aumento do Índice de Peróxido\".",
+        "C": "Incorreta: sacarose é carboidrato e não participa das reações de propagação por radicais livres de lipídeos.",
+        "D": "Incorreta: desnaturação proteica com exsudação de suco é fenômeno de proteínas, não a etapa de propagação da auto-oxidação lipídica."
+      },
+      "referencia": {
+        "paginas": [
+          32,
+          33
+        ],
+        "fundamentacao": "Slides 32 e 33 da apostila.",
+        "trechos_apoio": [
+          "2º PASSO: Propagação: Os radicais peróxidos formados são extremamente reativos e podem retirar átomos de hidrogênio de outros lipídeos insaturados [...] ROO• + RH → ROOH + R• Reação em cadeia: alto consumo de oxigênio, rápido aumento do Índice de Peróxido"
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_06_q036",
+      "slide_id": "bromatologia_aula_06",
+      "slide_nome": "Aula 06 - Lipídeos",
+      "arquivo_origem": "aula 6 LIPÍDEOS_261106_195058.pdf",
+      "numero": 36,
+      "tema": "Cinética da Oxidação",
+      "subtema": "Influência da Composição e do Grau de Insaturação",
+      "enunciado": "A suscetibilidade à auto-oxidação varia amplamente em função do número de duplas ligações na cadeia dos ácidos graxos. De acordo com os dados quantitativos apresentados no slide 34, em relação à velocidade de oxidação:",
+      "alternativas": {
+        "A": "O ácido oleico oxida 100 vezes mais rápido do que qualquer ácido graxo poli-insaturado.",
+        "B": "Os ácidos linoleico e linolênico oxidam-se, respectivamente, 64 e 100 vezes mais rápido do que o ácido oleico.",
+        "C": "Todos os ácidos graxos insaturados oxidam na mesma taxa fixa e imutável.",
+        "D": "O grau de insaturação não exerce influência sobre a velocidade de oxidação da gordura."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o ácido oleico (monoinsaturado) oxida muito mais lentamente do que os poli-insaturados.",
+        "B": "Correta: o slide estabelece expressamente: \"Composição da gordura: o tipo de ácido graxo insaturado e o grau de saturação têm influência significativa na oxidação (os ácidos linoléico e linolênico oxidam-se 64 e 100 vezes mais rápido que o ácido oléico, respectivamente)\".",
+        "C": "Incorreta: quanto maior o número de duplas ligações, exponencialmente maior é a suscetibilidade oxidativa.",
+        "D": "Incorreta: o grau de insaturação é um dos principais fatores determinantes da cinética da rancidez oxidativa."
+      },
+      "referencia": {
+        "paginas": [
+          34
+        ],
+        "fundamentacao": "Slide 34 da apostila.",
+        "trechos_apoio": [
+          "Composição da gordura: o tipo de ácido graxo insaturado e o grau de saturação têm influência significativa na oxidação (os ácidos linoléico e linolênico oxidam-se 64 e 100 vezes mais rápido que o ácido oléico, respectivamente);"
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_06_q037",
+      "slide_id": "bromatologia_aula_06",
+      "slide_nome": "Aula 06 - Lipídeos",
+      "arquivo_origem": "aula 6 LIPÍDEOS_261106_195058.pdf",
+      "numero": 37,
+      "tema": "Cinética da Oxidação",
+      "subtema": "Efeito da Temperatura de Armazenamento",
+      "enunciado": "A temperatura ambiente de estocagem dita o ritmo cinético da reação dos lipídeos com o oxigênio. Segundo a regra numérica destacada no slide 35, a cada aumento de 10 °C na temperatura:",
+      "alternativas": {
+        "A": "A velocidade da reação oxidativa reduz-se pela metade.",
+        "B": "A reação do oxigênio com a gordura insaturada duplica (efeito que pode ser minimizado por refrigeração e congelamento).",
+        "C": "O oxigênio é expelido completamente da embalagem impedindo a formação de peróxidos.",
+        "D": "Ocorre inativação térmica de todas as reações químicas não enzimáticas."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o aumento térmico acelera a oxidação, e não diminui sua taxa.",
+        "B": "Correta: a regra expressa no slide dita: \"Temperatura de armazenamento: quanto maior a temperatura, maior será a velocidade com que a reação se desenvolve. A cada aumento de 10 °C na temperatura, a reação do oxigênio com a gordura insaturada duplica. Esse efeito pode ser minimizado com o armazenamento de alimentos sob refrigeração e congelamento\".",
+        "C": "Incorreta: o aquecimento aumenta a energia cinética e a taxa de colisão com o oxigênio dissolvido.",
+        "D": "Incorreta: temperaturas mais altas aceleram as reações químicas não enzimáticas como a auto-oxidação."
+      },
+      "referencia": {
+        "paginas": [
+          35
+        ],
+        "fundamentacao": "Slide 35 da apostila.",
+        "trechos_apoio": [
+          "Temperatura de armazenamento: quanto maior a temperatura, maior será a velocidade com que a reação se desenvolve. A cada aumento de 10°C na temperatura, a reação do oxigênio com a gordura insaturada duplica. Esse efeito pode ser minimizado com o armazenamento de alimentos sob refrigeração e congelamento."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_06_q038",
+      "slide_id": "bromatologia_aula_06",
+      "slide_nome": "Aula 06 - Lipídeos",
+      "arquivo_origem": "aula 6 LIPÍDEOS_261106_195058.pdf",
+      "numero": 38,
+      "tema": "Lipídeos",
+      "subtema": "Fatores Pró-Oxidantes e Atividade de Água (Aw) na Oxidação",
+      "enunciado": "Fatores intrínsecos como catalisadores metálicos e a disponibilidade de água no alimento modulam diretamente o início da auto-oxidação. De acordo com o slide 36, sobre os agentes pró-oxidantes e a Aw:",
+      "alternativas": {
+        "A": "A presença de luz, oxigênio, metais e do grupo heme da mioglobina acelera a oxidação, e a presença de água livre aumenta a atividade catalítica dos metais, elevando o risco de oxidação com o aumento da Aw.",
+        "B": "Metais pesados e mioglobina atuam como poderosos agentes antioxidantes protetores.",
+        "C": "A rancidez oxidativa ocorre mais intensamente na ausência total de oxigênio.",
+        "D": "A atividade de água não exerce qualquer influência sobre a mobilidade dos catalisadores na matriz lipídica."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: o slide ressalta que metais e o grupo heme da mioglobina atuam como catalisadores pró-oxidantes e explica: \"Atividade de água (Aw) dos alimentos: a presença de água livre aumenta a atividade catalítica dos metais, portanto o risco de oxidação aumenta a medida que Aw aumenta\".",
+        "B": "Incorreta: metais e heme são pró-oxidantes (aceleram a oxidação), e não antioxidantes.",
+        "C": "Incorreta: a rancificação oxidativa exige obrigatoriamente oxigênio (\"não ocorre na ausência de O₂\").",
+        "D": "Incorreta: a água livre atua como solvente e mobiliza íons metálicos pró-oxidantes, acelerando o contato com a gordura."
+      },
+      "referencia": {
+        "paginas": [
+          36
+        ],
+        "fundamentacao": "Slide 36 da apostila.",
+        "trechos_apoio": [
+          "Presença de catalisadores, chamados de pró-oxidantes: aceleram a reação de oxidação (ex: metais e grupo heme da mioglobina); Atividade de água (Aw) dos alimentos: a presença de água livre aumenta a atividade catalítica dos metais, portanto o risco de oxidação aumenta a medida que Aw aumenta."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_06_q039",
+      "slide_id": "bromatologia_aula_06",
+      "slide_nome": "Aula 06 - Lipídeos",
+      "arquivo_origem": "aula 6 LIPÍDEOS_261106_195058.pdf",
+      "numero": 39,
+      "tema": "Rancidez Hidrolítica (Lipolítica)",
+      "subtema": "Mecanismo e Métodos de Inibição",
+      "enunciado": "A segunda rota clássica de deterioração dos lipídeos é a rancidez hidrolítica. Conforme detalhado no slide 37, a rancidez hidrolítica e suas respectivas formas de inibição fundamentam-se em:",
+      "alternativas": {
+        "A": "Reação por radicais livres induzida exclusivamente por luz ultravioleta em embalagens transparentes.",
+        "B": "Reação ocasionada pela ação de enzimas (lipase/lipoxigenase) e/ou agentes químicos (ácidos/bases) que rompem a ligação éster liberando ácidos graxos livres (saturados e insaturados), podendo ser inibida pela inativação térmica das enzimas e pela eliminação da água no lipídeo.",
+        "C": "Formação de hidroximetilfurfural a partir do congelamento criogênico de manteigas.",
+        "D": "Ligação de peptídeos do glúten à carboxila do glicerol em meio básico."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: reação por radicais induzida por luz descreve a rancidez oxidativa fotoquímica.",
+        "B": "Correta: o slide descreve: \"É a reação ocasionada pela ação de enzimas como a lipase/lipoxigenase e/ou por agentes químicos (ácidos/bases) que rompem a ligação éster dos lipídeos, liberando ácidos graxos. [...] A rancificação hidrolítica pode ser inibida pela inativação térmica das enzimas, e pela eliminação da água no lipídeo (água é o meio que favorece a hidrólise)\".",
+        "C": "Incorreta: HMF é intermediário da caramelização de carboidratos, não pertencendo à hidrólise lipídica.",
+        "D": "Incorreta: a hidrólise de lipídeos cliva a ligação éster sem envolvimento do glúten do trigo."
+      },
+      "referencia": {
+        "paginas": [
+          37
+        ],
+        "fundamentacao": "Slide 37 da apostila.",
+        "trechos_apoio": [
+          "RANCIDEZ HIDROLÍTICA: • É a reação ocasionada pela ação de enzimas como a lipase/lipoxigenase e/ou por agentes químicos (ácidos/bases) que rompem a ligação éster dos lipídeos, liberando ácidos graxos. [...] A rancificação hidrolítica pode ser inibida pela inativação térmica das enzimas, e pela eliminação da água no lipídeo (água é o meio que favorece a hidrólise)."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_06_q040",
+      "slide_id": "bromatologia_aula_06",
+      "slide_nome": "Aula 06 - Lipídeos",
+      "arquivo_origem": "aula 6 LIPÍDEOS_261106_195058.pdf",
+      "numero": 40,
+      "tema": "Consequências Sensoriais da Rancidez Hidrolítica",
+      "subtema": "Ácidos Graxos Livres Específicos",
+      "enunciado": "A liberação de ácidos graxos livres de cadeia curta e média confere notas sensoriais muito características aos alimentos deteriorados ou fermentados. Segundo o slide 38, a rancidez hidrolítica resulta em matéria ácida e alterações organolépticas específicas, sendo correto afirmar que:",
+      "alternativas": {
+        "A": "O ácido butírico confere sabor doce característico de calda de pudim.",
+        "B": "O ácido butírico confere sabor azedo, os ácidos láurico e mirístico conferem sabor de sabão, sendo essa liberação enzimática desejada e fundamental na maturação de alguns queijos.",
+        "C": "Os ácidos graxos livres liberados não possuem qualquer sabor ou odor perceptível.",
+        "D": "A hidrólise lipídica é estritamente proibida em qualquer classe de queijo maturado."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o ácido butírico confere odor rançoso pungente e sabor azedo, típico de manteiga rançosa.",
+        "B": "Correta: o slide estabelece detalhadamente: \"RANCIDEZ HIDROLÍTICA: • Liberação de ácidos graxos: matéria ácida; • Modifica o sabor e odor; • Ácido butírico: sabor azedo; • Ácido láurico e mirístico: sabor de sabão; • Maturação de alguns queijos\".",
+        "C": "Incorreta: ácidos graxos livres de cadeias curtas e médias são voláteis e possuem limiares sensoriais muito baixos e marcantes.",
+        "D": "Incorreta: a lipólise controlada durante a maturação é tecnologicamente desejada em diversos tipos de queijos finos para o desenvolvimento do buquê característico."
+      },
+      "referencia": {
+        "paginas": [
+          38
+        ],
+        "fundamentacao": "Slide 38 da apostila.",
+        "trechos_apoio": [
+          "RANCIDEZ HIDROLÍTICA: • Liberação de ácidos graxos: matéria ácida; • Modifica o sabor e odor; • Ácido butírico: sabor azedo; • Ácido láurico e mirístico: sabor de sabão; • Maturação de alguns queijos."
+        ]
+      }
+    }
+  ]
+}

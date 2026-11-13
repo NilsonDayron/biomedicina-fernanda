@@ -3,317 +3,1345 @@
     {
       "id": "aula_7_conservacao_q001",
       "slide_id": "aula_7_conservacao",
-      "slide_nome": "Apostila Aula 7 - Princípios de conservação de alimentos",
+      "slide_nome": "Aula 07 - Princípios de Conservação de Alimentos",
+      "arquivo_origem": "Apostila Aula 7_261111_153651.pdf",
       "numero": 1,
-      "tema": "Fundamentos da conservação.",
-      "subtema": "Diferença entre aparência normal e segurança sanitária.",
-      "enunciado": "Um alimento não apresenta cheiro, aparência ou sabor anormais. Segundo a apostila, o que é possível concluir apenas com essas informações?",
+      "tema": "Seção 1",
+      "subtema": "Fundamentos da Conservação de Alimentos",
+      "enunciado": "O texto de abertura da apostila conceitua as matrizes alimentares como estruturas dinâmicas que continuam sofrendo transformações mesmo após serem retiradas de seu ambiente original. De acordo com o item 1, os alimentos são caracterizados como:",
       "alternativas": {
-        "A": "A ausência de alterações sensoriais demonstra que não existem patógenos.",
-        "B": "Uma pequena prova do alimento permite confirmar sua segurança.",
-        "C": "A aparência normal não permite excluir a presença de patógenos ou toxinas.",
-        "D": "A presença de toxinas pode ser descartada, embora ainda possam existir microrganismos."
+        "A": "Substâncias quimicamente inertes cuja reatividade cessa imediatamente no momento da colheita, ordenha ou abate.",
+        "B": "Sistemas biológicos e físico-químicos complexos nos quais, após a colheita, abate, ordenha, pesca ou processamento, continuam ocorrendo reações que podem alterar cor, textura, aroma, sabor e valor nutricional, além de permitir a multiplicação de microrganismos quando há nutrientes, água disponível e ambiente favorável.",
+        "C": "Matrizes anidras puras incapazes de suportar crescimento microbiano espontâneo sem a adição intencional de açúcares redutores.",
+        "D": "Misturas homogêneas estabilizadas que apenas sofrem alterações se expostas a radiações cósmicas ionizantes."
       },
-      "gabarito": "C",
+      "gabarito": "B",
       "explicacoes": {
-        "A": "Incorreta: o texto afirma que patógenos podem estar presentes sem alterações perceptíveis de cheiro, aparência ou sabor.",
-        "B": "Incorreta: a apostila orienta expressamente que não se deve provar um alimento suspeito para decidir se é seguro.",
-        "C": "Correta: o material distingue deterioração e perigo sanitário e informa que patógenos ou toxinas podem existir sem alterações sensoriais.",
-        "D": "Incorreta: essa limitação da avaliação sensorial também se aplica às toxinas, não apenas aos microrganismos."
+        "A": "Incorreta: os alimentos não são inertes; enzimas e processos químicos residuais continuam operando ativamente após a colheita ou abate.",
+        "B": "Correta: a apostila define textualmente que os alimentos são sistemas biológicos e físico-químicos complexos onde reações degradativas continuam após colheita/abate e microrganismos multiplicam-se se encontrarem água, nutrientes e ambiente propício.",
+        "C": "Incorreta: os alimentos in natura contêm água livre abundante e nutrientes suficientes para o desenvolvimento microbiano sem necessidade de açúcares adicionados.",
+        "D": "Incorreta: as alterações pós-colheita ocorrem por via bioquímica, enzimática e microbiana natural, independentemente de radiação."
       },
       "referencia": {
         "paginas": [
-          1
+          1,
+          7
         ],
-        "fundamentacao": "página 1.",
+        "fundamentacao": "Seção 1 da Apostila Aula 7.",
         "trechos_apoio": [
-          "Um alimento pode conter patógenos ou toxinas sem apresentar cheiro, aparência ou sabor anormais."
+          "Alimentos são sistemas biológicos e físico-químicos complexos. Depois da colheita, abate, ordenha, pesca ou processamento, continuam ocorrendo reações que podem alterar cor, textura, aroma, sabor e valor nutricional. Além disso, microrganismos podem se multiplicar quando encontram nutrientes, água disponível e condições ambientais favoráveis."
         ]
       }
     },
     {
       "id": "aula_7_conservacao_q002",
       "slide_id": "aula_7_conservacao",
-      "slide_nome": "Apostila Aula 7 - Princípios de conservação de alimentos",
+      "slide_nome": "Aula 07 - Princípios de Conservação de Alimentos",
+      "arquivo_origem": "Apostila Aula 7_261111_153651.pdf",
       "numero": 2,
-      "tema": "Estratégias de conservação.",
-      "subtema": "Combinação e validação de barreiras.",
-      "enunciado": "Uma empresa pretende combinar temperatura baixa, redução da atividade de água e embalagem para conservar um produto. Qual justificativa corresponde ao conceito de tecnologia de barreiras?",
+      "tema": "Seção 1.1",
+      "subtema": "Mecanismos de Deterioração (Tabela 1.1)",
+      "enunciado": "Na Tabela 1.1 da apostila, são correlacionados os mecanismos de deterioração, os fenômenos observados e exemplos típicos. Com base exclusivamente nessa tabela, a rancidez oxidativa de gorduras e perda de pigmentos/vitaminas e o escurecimento de frutas cortadas/amolecimento tecidual são classificados, respectivamente, como mecanismos:",
       "alternativas": {
-        "A": "A combinação pode favorecer a estabilidade sem tornar uma única barreira extrema, mas precisa ser validada.",
-        "B": "A combinação garante segurança mesmo quando as condições escolhidas não foram avaliadas.",
-        "C": "O uso de embalagem permite dispensar o controle das demais barreiras do processo.",
-        "D": "A presença de várias barreiras demonstra que todos os microrganismos foram eliminados."
+        "A": "Físico/mecânico e Microbiológico.",
+        "B": "Químico e Enzimático.",
+        "C": "Pragas e Físico/mecânico.",
+        "D": "Microbiológico e Químico."
       },
-      "gabarito": "A",
+      "gabarito": "B",
       "explicacoes": {
-        "A": "Correta: a apostila explica que barreiras podem atuar em conjunto e ressalta a necessidade de validar suas combinações.",
-        "B": "Incorreta: alguns microrganismos toleram condições adversas; a simples combinação de fatores não dispensa avaliação.",
-        "C": "Incorreta: a segurança depende da combinação e do controle dos fatores. A embalagem não torna os outros controles dispensáveis.",
-        "D": "Incorreta: muitas barreiras tornam o ambiente menos favorável à multiplicação, sem necessariamente eliminar todos os microrganismos."
+        "A": "Incorreta: impactos e exsudação são mecanismos físicos/mecânicos, enquanto leite azedo e limo são microbiológicos.",
+        "B": "Correta: a tabela correlaciona diretamente: mecanismo químico → reações como oxidação, hidrólise e escurecimento não enzimático (ex.: rancidez oxidativa de gorduras, perda de pigmentos e vitaminas); mecanismo enzimático → enzimas presentes catalisando reações (ex.: escurecimento de frutas cortadas e amolecimento de tecidos).",
+        "C": "Incorreta: pragas envolvem insetos, roedores e embalagens roídas; físico envolve amassamento e queimadura pelo frio.",
+        "D": "Incorreta: a oxidação de lipídeos é uma alteração estritamente química e o escurecimento enzimático depende das enzimas ativas do próprio fruto."
       },
       "referencia": {
         "paginas": [
-          2,
+          1,
           7
         ],
-        "fundamentacao": "páginas 2 e 7.",
+        "fundamentacao": "Tabela 1.1 da Apostila Aula 7.",
         "trechos_apoio": [
-          "A combinação de barreiras pode permitir um produto estável sem exigir que uma única barreira seja extrema; porém, combinações precisam ser validadas"
+          "| Enzimático | Enzimas naturalmente presentes no alimento continuam catalisando reações após colheita ou abate. | Escurecimento de frutas cortadas; amolecimento de tecidos vegetais. | Químico | Reações como oxidação, hidrólise e escurecimento não enzimático modificam os componentes. | Rancidez oxidativa de gorduras; perda de pigmentos e vitaminas."
         ]
       }
     },
     {
       "id": "aula_7_conservacao_q003",
       "slide_id": "aula_7_conservacao",
-      "slide_nome": "Apostila Aula 7 - Princípios de conservação de alimentos",
+      "slide_nome": "Aula 07 - Princípios de Conservação de Alimentos",
+      "arquivo_origem": "Apostila Aula 7_261111_153651.pdf",
       "numero": 3,
-      "tema": "Conservação pelo frio.",
-      "subtema": "Mecanismo de conservação no congelamento.",
-      "enunciado": "Qual explicação descreve corretamente o efeito do congelamento sobre a conservação dos alimentos?",
+      "tema": "Seção 1.1",
+      "subtema": "Segurança Sanitária versus Deterioração Sensorial",
+      "enunciado": "Em inspeção bromatológica e controle higiênico, a percepção sensorial do consumidor nem sempre reflete o perfil microbiológico e toxicológico da amostra. Segundo as diretrizes do item 1.1:",
       "alternativas": {
-        "A": "A água permanece inteiramente líquida, mas todos os microrganismos são inativados.",
-        "B": "A formação de gelo elimina a necessidade de controlar as condições após o descongelamento.",
-        "C": "A principal finalidade é inativar enzimas por um tratamento térmico breve.",
-        "D": "Parte significativa da água forma cristais de gelo, reduzindo a disponibilidade de água líquida e tornando as reações mais lentas."
+        "A": "Alimentos com odor ou sabor inalterados estão garantidos como isentos de perigos biológicos.",
+        "B": "Deterioração e perigo sanitário não são sinônimos, pois um alimento pode conter patógenos ou toxinas sem apresentar cheiro, aparência ou sabor anormais, e uma alteração sensorial pode indicar perda de qualidade sem identificar qual perigo está presente (não se devendo provar alimentos suspeitos).",
+        "C": "Qualquer alteração na cor de um vegetal indica a presença obrigatória de neurotoxinas esporuladas.",
+        "D": "Provar pequenas porções de alimentos suspeitos em jejum é o teste preliminar recomendado para avaliar a inocuidade de lotes comerciais."
       },
-      "gabarito": "D",
+      "gabarito": "B",
       "explicacoes": {
-        "A": "Incorreta: o congelamento transforma parte significativa da água em gelo e não garante a destruição dos microrganismos.",
-        "B": "Incorreta: sobreviventes podem voltar a se multiplicar após o descongelamento, quando encontram condições favoráveis.",
-        "C": "Incorreta: a inativação de enzimas por tratamento térmico breve caracteriza o branqueamento, não o mecanismo descrito para o congelamento.",
-        "D": "Correta: corresponde à explicação da apostila para a redução da atividade e da velocidade das reações durante o congelamento."
+        "A": "Incorreta: patógenos entéricos e toxinas bacterianas graves multiplicam-se frequentemente sem degradar a textura ou produzir odores pútridos perceptíveis.",
+        "B": "Correta: o texto técnico dita expressamente: \"Deterioração e perigo sanitário não são sinônimos. Um alimento pode conter patógenos ou toxinas sem apresentar cheiro, aparência ou sabor anormais. Da mesma forma, uma alteração sensorial pode indicar perda de qualidade sem necessariamente identificar qual perigo está presente. Não se deve provar um alimento suspeito para decidir se é seguro\".",
+        "C": "Incorreta: alterações de cor podem decorrer de simples reações químicas de oxidação de pigmentos ou reações enzimáticas inócuas.",
+        "D": "Incorreta: a apostila proíbe de forma categórica a prática de provar alimentos suspeitos para averiguar segurança sanitária."
       },
       "referencia": {
         "paginas": [
-          3,
-          4
+          1,
+          7
         ],
-        "fundamentacao": "página 3; distinção sobre branqueamento na página 4.",
+        "fundamentacao": "Seção 1.1 da Apostila Aula 7.",
         "trechos_apoio": [
-          "No congelamento, parte significativa da água se transforma em cristais de gelo. A disponibilidade de água líquida diminui e as reações ficam mais lentas"
+          "Deterioração e perigo sanitário não são sinônimos. Um alimento pode conter patógenos ou toxinas sem apresentar cheiro, aparência ou sabor anormais. Da mesma forma, uma alteração sensorial pode indicar perda de qualidade sem necessariamente identificar qual perigo está presente. Não se deve provar um alimento suspeito para decidir se é seguro."
         ]
       }
     },
     {
       "id": "aula_7_conservacao_q004",
       "slide_id": "aula_7_conservacao",
-      "slide_nome": "Apostila Aula 7 - Princípios de conservação de alimentos",
+      "slide_nome": "Aula 07 - Princípios de Conservação de Alimentos",
+      "arquivo_origem": "Apostila Aula 7_261111_153651.pdf",
       "numero": 4,
-      "tema": "Conservação pelo frio.",
-      "subtema": "Velocidade do congelamento e danos estruturais.",
-      "enunciado": "Dois lotes de um mesmo alimento foram congelados: um rapidamente e outro lentamente. Qual tendência é apresentada na apostila?",
+      "tema": "Seção 1.2",
+      "subtema": "Os Quatro Objetivos Formais da Conservação",
+      "enunciado": "As tecnologias e boas práticas de conservação visam atingir metas bem delimitadas na cadeia agroindustrial. De acordo com o item 1.2 da apostila, os objetivos da conservação consistem em:",
       "alternativas": {
-        "A": "O congelamento rápido tende a formar cristais maiores e aumentar os danos estruturais.",
-        "B": "O congelamento rápido tende a formar cristais menores e reduzir os danos estruturais.",
-        "C": "O congelamento lento tende a formar cristais menores e reduzir a perda de suco após o descongelamento.",
-        "D": "A velocidade do congelamento não participa da formação dos cristais nem da perda de suco."
+        "A": "Esterilização obrigatória a 150 °C, eliminação de 100% dos lipídeos, adição de sais sintéticos e uniformização do preço de mercado.",
+        "B": "Segurança sanitária; Estabilidade e vida de prateleira; Preservação da qualidade; e Redução de perdas e ampliação da distribuição.",
+        "C": "Conversão de glicídios em álcool anidro, desnaturação do colágeno, retenção osmótica de cinzas e aumento da acidez volátil.",
+        "D": "Substituição integral das bactérias láticas por fungos xerófilos de alta resistência."
       },
       "gabarito": "B",
       "explicacoes": {
-        "A": "Incorreta: inverte a tendência descrita: o congelamento rápido tende a formar cristais menores.",
-        "B": "Correta: o material relaciona cristais menores à redução dos danos estruturais.",
-        "C": "Incorreta: o congelamento lento pode formar cristais maiores e aumentar a perda de suco após o descongelamento.",
-        "D": "Incorreta: a velocidade participa do resultado, embora composição, tamanho e embalagem também o influenciem."
+        "A": "Incorreta: a conservação busca manter atributos sem destruir a matriz com temperaturas inadequadas, preservando o valor nutricional.",
+        "B": "Correta: a seção 1.2 lista textualmente os quatro objetivos: \"• Segurança sanitária: reduzir ou controlar perigos biológicos e evitar contaminação posterior. • Estabilidade e vida de prateleira: retardar mudanças que tornem o produto inaceitável. • Preservação da qualidade: manter, tanto quanto possível, atributos sensoriais e nutricionais. • Redução de perdas e ampliação da distribuição: permitir armazenamento, transporte e comercialização com condições controladas\".",
+        "C": "Incorreta: esses processos químicos específicos não constituem os objetivos institucionais e regulatórios da conservação de alimentos.",
+        "D": "Incorreta: a introdução descontrolada de bolores xerófilos deteriora alimentos secos, contrariando as metas de estabilidade."
       },
       "referencia": {
         "paginas": [
-          3
+          1,
+          2,
+          7
         ],
-        "fundamentacao": "página 3.",
+        "fundamentacao": "Seção 1.2 da Apostila Aula 7.",
         "trechos_apoio": [
-          "O congelamento rápido tende a formar cristais menores, reduzindo danos estruturais"
+          "1.2 Objetivos da conservação: • Segurança sanitária: reduzir ou controlar perigos biológicos e evitar contaminação posterior. • Estabilidade e vida de prateleira: retardar mudanças que tornem o produto inaceitável. • Preservação da qualidade: manter, tanto quanto possível, atributos sensoriais e nutricionais. • Redução de perdas e ampliação da distribuição..."
         ]
       }
     },
     {
       "id": "aula_7_conservacao_q005",
       "slide_id": "aula_7_conservacao",
-      "slide_nome": "Apostila Aula 7 - Princípios de conservação de alimentos",
+      "slide_nome": "Aula 07 - Princípios de Conservação de Alimentos",
+      "arquivo_origem": "Apostila Aula 7_261111_153651.pdf",
       "numero": 5,
-      "tema": "Conservação pelo frio.",
-      "subtema": "Condições de descongelamento.",
-      "enunciado": "Qual orientação de descongelamento está de acordo com a apostila?",
+      "tema": "Seção 2",
+      "subtema": "Estratégias Gerais de Intervenção Industrial",
+      "enunciado": "No planejamento industrial e sanitário, as estratégias de combate à deterioração organizam-se de forma estruturada. Conforme a introdução da seção 2 da apostila de apoio:",
       "alternativas": {
-        "A": "Descongelar sob refrigeração ou por método que permita cocção imediata, conforme as orientações aplicáveis.",
-        "B": "Deixar o alimento à temperatura ambiente por longos períodos, pois o congelamento anterior garante sua segurança.",
-        "C": "Recongelar automaticamente qualquer alimento descongelado, sem avaliar suas condições anteriores.",
-        "D": "Dispensar as instruções do fabricante quando o alimento tiver sido armazenado congelado."
+        "A": "As intervenções industriais resumem-se unicamente ao uso de antibióticos e antifúngicos de uso veterinário na água de lavagem.",
+        "B": "As estratégias organizam-se em três grupos complementares na prática industrial: evitar o acesso de contaminantes, eliminar ou remover microrganismos e controlar o crescimento.",
+        "C": "Os métodos de conservação atuam de forma isolada e excludente, sendo tecnologicamente proibido associar higiene prévia ao tratamento térmico.",
+        "D": "O único método aceito pela legislação sanitária é a destruição térmica total das embalagens plásticas."
       },
-      "gabarito": "A",
+      "gabarito": "B",
       "explicacoes": {
-        "A": "Correta: corresponde aos métodos indicados, respeitando orientação sanitária e do fabricante.",
-        "B": "Incorreta: o material orienta evitar longos períodos à temperatura ambiente e não considera o congelamento uma garantia de segurança posterior.",
-        "C": "Incorreta: a apostila rejeita o recongelamento automático e exige avaliar as instruções e as condições de segurança.",
-        "D": "Incorreta: as instruções do fabricante continuam relevantes para o descongelamento e para a avaliação do produto."
+        "A": "Incorreta: o uso de antibióticos na preservação direta de alimentos é proibido e perigoso para a saúde pública.",
+        "B": "Correta: o texto estabelece com clareza: \"A apresentação organiza as estratégias em três grupos: evitar o acesso de contaminantes, eliminar ou remover microrganismos e controlar o crescimento. Na prática industrial, esses grupos se complementam\".",
+        "C": "Incorreta: as estratégias complementam-se na rotina de boas práticas; a higiene da matéria-prima viabiliza tratamentos térmicos mais brandos e seguros.",
+        "D": "Incorreta: a conservação apoia-se em embalagens íntegras e adequadas como barreira física de proteção, e não na sua destruição."
       },
       "referencia": {
         "paginas": [
-          3
+          2,
+          7
         ],
-        "fundamentacao": "página 3.",
+        "fundamentacao": "Seção 2 da Apostila Aula 7.",
         "trechos_apoio": [
-          "Descongelar sob refrigeração ou por método que permita cocção imediata [...] não deixar à temperatura ambiente por longos períodos."
+          "A apresentação organiza as estratégias em três grupos: evitar o acesso de contaminantes, eliminar ou remover microrganismos e controlar o crescimento. Na prática industrial, esses grupos se complementam."
         ]
       }
     },
     {
       "id": "aula_7_conservacao_q006",
       "slide_id": "aula_7_conservacao",
-      "slide_nome": "Apostila Aula 7 - Princípios de conservação de alimentos",
+      "slide_nome": "Aula 07 - Princípios de Conservação de Alimentos",
+      "arquivo_origem": "Apostila Aula 7_261111_153651.pdf",
       "numero": 6,
-      "tema": "Conservação pelo frio.",
-      "subtema": "Cuidados durante o armazenamento congelado.",
-      "enunciado": "Após congelar um alimento, qual conjunto de cuidados corresponde às recomendações da apostila?",
+      "tema": "Seção 2.1",
+      "subtema": "Relação entre BPF, POP/PPHO e o Sistema APPCC/HACCP",
+      "enunciado": "O controle sanitário de excelência nas indústrias de alimentos estrutura-se em camadas hierarquizadas e preventivas. Segundo as definições da seção 2.1 da apostila:",
       "alternativas": {
-        "A": "Permitir oscilações térmicas e utilizar embalagens permeáveis ao vapor.",
-        "B": "Manter a embalagem, mas desconsiderar o prazo recomendado enquanto houver gelo.",
-        "C": "Evitar oscilações térmicas, embalagens permeáveis ao vapor e armazenamento além do prazo recomendado.",
-        "D": "Considerar que a temperatura de congelamento corrige automaticamente falhas anteriores de conservação."
+        "A": "As Boas Práticas de Fabricação (BPF) tornam desnecessária a aplicação do sistema APPCC em qualquer linha de abate de produtos cárneos.",
+        "B": "As BPF e os Procedimentos Operacionais Padronizados (POP/PPHO) são a base do controle higiênico-sanitário, enquanto o sistema APPCC/HACCP complementa essa base identificando perigos significativos, medidas de controle, pontos críticos quando aplicáveis, limites críticos, monitoramento, ações corretivas e verificação.",
+        "C": "O sistema APPCC foca exclusivamente na estética das embalagens e na redução de custos logísticos das frotas.",
+        "D": "Procedimentos Operacionais Padronizados dispensam registros escritos e auditorias de verificação."
       },
-      "gabarito": "C",
+      "gabarito": "B",
       "explicacoes": {
-        "A": "Incorreta: oscilações térmicas e embalagens permeáveis ao vapor estão entre as condições que o material orienta evitar.",
-        "B": "Incorreta: a presença de gelo não substitui o respeito ao prazo recomendado.",
-        "C": "Correta: reúne os três cuidados expressamente citados para o armazenamento.",
-        "D": "Incorreta: a apostila orienta não presumir que o congelamento tenha corrigido abusos anteriores."
+        "A": "Incorreta: as BPF constituem os pré-requisitos fundamentais sobre os quais o plano APPCC é implantado, não o dispensando.",
+        "B": "Correta: a apostila define formalmente com base no Codex Alimentarius (CXC 1-1969): \"Boas Práticas de Fabricação (BPF) e Procedimentos Operacionais Padronizados (POP; em alguns contextos, PPHO) são a base do controle higiênico-sanitário. O sistema APPCC/HACCP complementa essa base identificando perigos significativos, medidas de controle, pontos críticos quando aplicáveis, limites críticos, monitoramento, ações corretivas e verificação. A abordagem deve ser baseada no risco e adequada ao processo\".",
+        "C": "Incorreta: o APPCC é um sistema preventivo de segurança dos alimentos baseado na análise e controle de perigos biológicos, químicos e físicos.",
+        "D": "Incorreta: registrar e monitorar tempo, temperatura e higienização é requisito indispensável das BPF e dos POPs."
       },
       "referencia": {
         "paginas": [
-          3
+          2,
+          1,
+          7
         ],
-        "fundamentacao": "página 3.",
+        "fundamentacao": "Seção 2.1 da Apostila Aula 7.",
         "trechos_apoio": [
-          "Evitar oscilações térmicas, embalagens permeáveis ao vapor e armazenamento além do prazo recomendado."
+          "Boas Práticas de Fabricação (BPF) e Procedimentos Operacionais Padronizados (POP; em alguns contextos, PPHO) são a base do controle higiênico-sanitário. O sistema APPCC/HACCP complementa essa base identificando perigos significativos, medidas de controle, pontos críticos quando aplicáveis, limites críticos, monitoramento, ações corretivas e verificação."
         ]
       }
     },
     {
       "id": "aula_7_conservacao_q007",
       "slide_id": "aula_7_conservacao",
-      "slide_nome": "Apostila Aula 7 - Princípios de conservação de alimentos",
+      "slide_nome": "Aula 07 - Princípios de Conservação de Alimentos",
+      "arquivo_origem": "Apostila Aula 7_261111_153651.pdf",
       "numero": 7,
-      "tema": "Tratamentos térmicos.",
-      "subtema": "Finalidade e limites do branqueamento.",
-      "enunciado": "Uma indústria aplica um tratamento térmico breve a vegetais antes do congelamento, buscando reduzir alterações de cor, sabor e textura durante o armazenamento. Qual interpretação está correta?",
+      "tema": "Seção 2.2",
+      "subtema": "Remoção versus Inativação de Microrganismos",
+      "enunciado": "As intervenções físicas direcionadas à carga microbiana atuam por dois mecanismos principais: remoção e inativação letal. Conforme o item 2.2 da apostila, sobre essas estratégias:",
       "alternativas": {
-        "A": "Trata-se de pasteurização, que garante a destruição de todos os esporos e toxinas.",
-        "B": "Trata-se de branqueamento, cujo objetivo principal é inativar enzimas, sem constituir isoladamente esterilização.",
-        "C": "Trata-se de esterilização comercial, identificada apenas por atingir temperatura superior a 100 °C.",
-        "D": "Trata-se de branqueamento, que torna desnecessários o congelamento e os demais cuidados de conservação."
+        "A": "Lavagem e filtração inativam enzimas por desnaturação térmica instantânea.",
+        "B": "A remoção física pode ocorrer por lavagem, descascamento ou filtração, enquanto a inativação pode ser obtida por calor ou radiação ionizante; além disso, redução microbiana não significa necessariamente eliminação de todos os microrganismos, dependendo o resultado da resistência do organismo e da intensidade do tratamento.",
+        "C": "Qualquer lavagem com água fria corrente elimina 100% das bactérias formadoras de esporos da superfície da carne.",
+        "D": "Tratamentos com calor brando são sempre esterilizantes independentemente da espécie bacteriana envolvida."
       },
       "gabarito": "B",
       "explicacoes": {
-        "A": "Incorreta: a descrição corresponde ao branqueamento. Além disso, o material não atribui à pasteurização a destruição de todos os esporos e toxinas.",
-        "B": "Correta: a apostila apresenta o branqueamento como tratamento breve, frequentemente anterior ao congelamento ou à secagem, voltado principalmente à inativação enzimática.",
-        "C": "Incorreta: a esterilização comercial depende de um processo definido para produto, embalagem e equipamento; não se resume a esse limite de temperatura.",
-        "D": "Incorreta: o branqueamento é apresentado como uma etapa anterior a outros métodos, não como substituto automático deles."
+        "A": "Incorreta: lavagem e filtração promovem a remoção ou separação mecânica dos microrganismos, sem atuar por calor.",
+        "B": "Correta: o texto formaliza: \"A remoção física pode ocorrer por lavagem, descascamento, filtração ou outras operações, mas sua eficácia depende do produto e do método. A inativação pode ser obtida por calor, radiação ionizante ou outras tecnologias autorizadas. 'Redução microbiana não significa necessariamente eliminação de todos os microrganismos; o resultado depende da resistência do organismo e da intensidade do tratamento'\".",
+        "C": "Incorreta: a remoção por lavagem é apenas parcial e não esteriliza o produto.",
+        "D": "Incorreta: esporos bacterianos e microrganismos termorresistentes sobrevivem a aquecimentos moderados."
       },
       "referencia": {
         "paginas": [
-          3,
-          4
+          2,
+          7
         ],
-        "fundamentacao": "páginas 3–4.",
+        "fundamentacao": "Seção 2.2 da Apostila Aula 7.",
         "trechos_apoio": [
-          "Tem como objetivo principal inativar enzimas [...] não é, isoladamente, um processo de esterilização."
+          "A remoção física pode ocorrer por lavagem, descascamento, filtração ou outras operações [...] A inativação pode ser obtida por calor, radiação ionizante ou outras tecnologias autorizadas. Redução microbiana não significa necessariamente eliminação de todos os microrganismos; o resultado depende da resistência do organismo e da intensidade do tratamento."
         ]
       }
     },
     {
       "id": "aula_7_conservacao_q008",
       "slide_id": "aula_7_conservacao",
-      "slide_nome": "Apostila Aula 7 - Princípios de conservação de alimentos",
+      "slide_nome": "Aula 07 - Princípios de Conservação de Alimentos",
+      "arquivo_origem": "Apostila Aula 7_261111_153651.pdf",
       "numero": 8,
-      "tema": "Redução de água nos alimentos.",
-      "subtema": "Princípio da liofilização.",
-      "enunciado": "Qual descrição identifica a liofilização?",
+      "tema": "Seção 2.3",
+      "subtema": "Fundamentos da Tecnologia de Barreiras (Hurdle Technology)",
+      "enunciado": "A conservação contemporânea de alimentos prioriza a manutenção da frescura sensorial e o valor nutritivo através da aplicação de múltiplos fatores combinados. Segundo a seção 2.3 da apostila, a tecnologia de barreiras fundamenta-se no princípio de que:",
       "alternativas": {
-        "A": "Remoção de parte da água, geralmente por evaporação, elevando a proporção de sólidos.",
-        "B": "Remoção de água por transferência de calor e massa em secadores de ar quente.",
-        "C": "Incorporação de cloreto de sódio para alterar o equilíbrio osmótico e reduzir a atividade de água.",
-        "D": "Congelamento do alimento seguido da remoção do gelo por sublimação sob pressão reduzida."
+        "A": "Uma única barreira deve ser mantida em níveis letais extremos para dispensar o uso de embalagens herméticas.",
+        "B": "A combinação de barreiras (temperatura baixa, Aw reduzida, acidificação, atmosfera modificada, conservadores e embalagem) torna o ambiente menos favorável à multiplicação, permitindo obter um produto estável sem exigir que uma única barreira seja extrema; contudo, as combinações precisam ser validadas, pois alguns microrganismos toleram condições adversas.",
+        "C": "A acidificação de conservas torna o produto estéril dispensando qualquer verificação de processo.",
+        "D": "O sal de cozinha isoladamente elimina todas as bactérias deteriorantes em qualquer concentração."
       },
-      "gabarito": "D",
+      "gabarito": "B",
       "explicacoes": {
-        "A": "Incorreta: corresponde à descrição de concentração.",
-        "B": "Incorreta: apresenta uma forma de secagem descrita no material, sem o mecanismo específico de sublimação do gelo.",
-        "C": "Incorreta: corresponde à salga, que incorpora sal ao alimento.",
-        "D": "Correta: reúne as etapas e condições que caracterizam a liofilização na apostila."
+        "A": "Incorreta: o objetivo da tecnologia de barreiras é justamente evitar a agressividade de um tratamento único extremo.",
+        "B": "Correta: a apostila define textualmente: \"Muitas tecnologias preservam o alimento tornando o ambiente menos favorável à multiplicação. Entre as barreiras estão temperatura baixa, redução da atividade de água (aw), acidificação, atmosfera modificada, conservadores autorizados e embalagem. A combinação de barreiras pode permitir um produto estável sem exigir que uma única barreira seja extrema; porém, combinações precisam ser validadas, porque alguns microrganismos toleram condições adversas\".",
+        "C": "Incorreta: a acidificação inibe o crescimento, mas não destrói necessariamente esporos ou toxinas já formadas, exigindo processos validados.",
+        "D": "Incorreta: a tolerância ao sal varia muito entre espécies e concentrações inadequadas não garantem inocuidade."
       },
       "referencia": {
         "paginas": [
-          4,
-          5
+          2,
+          3,
+          7
         ],
-        "fundamentacao": "página 4; descrição de salga na página 5.",
+        "fundamentacao": "Seção 2.3 da Apostila Aula 7.",
         "trechos_apoio": [
-          "A liofilização congela o alimento e remove gelo por sublimação sob pressão reduzida"
+          "A combinação de barreiras pode permitir um produto estável sem exigir que uma única barreira seja extrema; porém, combinações precisam ser validadas, porque alguns microrganismos toleram condições adversas."
         ]
       }
     },
     {
       "id": "aula_7_conservacao_q009",
       "slide_id": "aula_7_conservacao",
-      "slide_nome": "Apostila Aula 7 - Princípios de conservação de alimentos",
+      "slide_nome": "Aula 07 - Princípios de Conservação de Alimentos",
+      "arquivo_origem": "Apostila Aula 7_261111_153651.pdf",
       "numero": 9,
-      "tema": "Salga.",
-      "subtema": "Distribuição do sal e limites da conservação.",
-      "enunciado": "Um produtor afirma que aplicar sal na superfície de um alimento já garante sua segurança, independentemente da distribuição do sal e das demais condições de conservação. Qual avaliação corresponde à apostila?",
+      "tema": "Seção 2.3",
+      "subtema": "Limitações da Baixa Atividade de Água e do pH Baixo (Tabela 2.1)",
+      "enunciado": "Ao avaliar a Tabela 2.1 da apostila, cada barreira aplicada aos alimentos possui um efeito principal associado a uma limitação técnica ou microbiológica específica. A esse respeito, as limitações importantes apontadas para a atividade de água baixa e para o pH baixo são, respectivamente:",
       "alternativas": {
-        "A": "A afirmação está correta, pois a presença superficial de sal garante concentração adequada em todo o alimento.",
-        "B": "A afirmação está incorreta, pois a eficácia depende da concentração final no interior e da combinação com outras barreiras.",
-        "C": "A afirmação está correta, pois a difusão do sal independe da espessura e da estrutura do alimento.",
-        "D": "A afirmação está correta, pois todos os produtos cárneos salgados possuem processamento e conservação equivalentes."
+        "A": "Oxidação de vitaminas solúveis e precipitação forçada de lactose no centro do alimento.",
+        "B": "Bolores e leveduras tolerantes podem persistir em produtos mais secos; e a acidificação não destrói necessariamente toxinas ou esporos.",
+        "C": "Destruição das proteínas miofibrilares e produção espontânea de amônia gasosa.",
+        "D": "Favorecimento obrigatório de microrganismos psicrótrofos sob calor de 100 °C."
       },
       "gabarito": "B",
       "explicacoes": {
-        "A": "Incorreta: aplicar sal na superfície não demonstra que a concentração final no interior seja adequada.",
-        "B": "Correta: o texto destaca a concentração interna e a associação com secagem, refrigeração, acidificação, calor ou outras barreiras.",
-        "C": "Incorreta: espessura e estrutura do tecido estão entre os fatores que influenciam a difusão do sal.",
-        "D": "Incorreta: o material informa que produtos tradicionais salgados podem diferir em formulação, umidade, processamento e armazenamento."
+        "A": "Incorreta: precipitação de lactose em sorvetes é alteração física por oscilação térmica, e não limitação de pH.",
+        "B": "Correta: a Tabela da seção 2.3 destaca claramente as limitações: para atividade de água baixa → \"Bolores e leveduras tolerantes podem persistir em produtos mais secos\"; para pH baixo → \"A acidificação não destrói necessariamente toxinas ou esporos\".",
+        "C": "Incorreta: produção de amônia e destruição de proteínas decorre de putrefação por bactérias proteolíticas.",
+        "D": "Incorreta: psicrótrofos desenvolvem-se sob refrigeração e não sobrevivem a 100 °C."
       },
       "referencia": {
         "paginas": [
-          5
+          2,
+          3,
+          7
         ],
-        "fundamentacao": "página 5.",
+        "fundamentacao": "Tabela da seção 2.3 da Apostila Aula 7.",
         "trechos_apoio": [
-          "O sal, isoladamente, não garante segurança absoluta. A eficácia depende da concentração final no interior do alimento e da combinação com [...] outras barreiras."
+          "| Atividade de água baixa | Limita a água disponível para crescimento e reações. | Bolores e leveduras tolerantes podem persistir em produtos mais secos. | pH baixo | Dificulta o crescimento de muitos microrganismos. | A acidificação não destrói necessariamente toxinas ou esporos."
         ]
       }
     },
     {
       "id": "aula_7_conservacao_q010",
       "slide_id": "aula_7_conservacao",
-      "slide_nome": "Apostila Aula 7 - Princípios de conservação de alimentos",
+      "slide_nome": "Aula 07 - Princípios de Conservação de Alimentos",
+      "arquivo_origem": "Apostila Aula 7_261111_153651.pdf",
       "numero": 10,
-      "tema": "Embalagens e conservação.",
-      "subtema": "Diferença entre vácuo e atmosfera modificada.",
-      "enunciado": "Dois processos de embalagem foram descritos:\n\n- Processo I: remoção do ar antes do fechamento.\n- Processo II: substituição do ar por uma mistura gasosa planejada.\n\nQual alternativa identifica corretamente os processos e seus limites?",
+      "tema": "Seção 2.3",
+      "subtema": "Atmosfera Modificada e Conservadores Autorizados (Tabela 2.1)",
+      "enunciado": "Ainda na análise das barreiras descritas na Tabela da seção 2.3, a aplicação de atmosferas com composição gasosa diferenciada e o uso de aditivos conservadores demandam rigorosos cuidados operacionais. Conforme essa tabela, as limitações críticas associadas à atmosfera modificada e aos conservadores autorizados estabelecem que:",
       "alternativas": {
-        "A": "I é vácuo e II é atmosfera modificada; nenhum deles dispensa refrigeração ou outras barreiras quando requeridas.",
-        "B": "I é atmosfera modificada e II é vácuo; ambos exigem os mesmos gases em qualquer alimento.",
-        "C": "I é vácuo e II é atmosfera modificada; ambos tornam desnecessário o controle de temperatura.",
-        "D": "I e II são equivalentes; qualquer redução de oxigênio garante automaticamente a segurança do alimento."
+        "A": "A atmosfera modificada elimina totalmente qualquer necessidade de refrigeração e os conservadores podem ser aplicados em qualquer dosagem arbitrada pela indústria.",
+        "B": "A atmosfera modificada pode favorecer microrganismos anaeróbios se houver falha de temperatura ou formulação; e o uso de conservadores autorizados depende estritamente da categoria, função e limite legal estabelecido.",
+        "C": "Os conservadores químicos tornam os alimentos instantaneamente radioativos ao consumidor.",
+        "D": "A atmosfera modificada provoca o colapso estrutural compulsório de todas as embalagens rígidas de vidro."
       },
-      "gabarito": "A",
+      "gabarito": "B",
       "explicacoes": {
-        "A": "Correta: diferencia os processos conforme a apostila e preserva a necessidade dos demais controles quando aplicáveis.",
-        "B": "Incorreta: inverte as definições. Além disso, a mistura gasosa é selecionada conforme características do alimento e da embalagem.",
-        "C": "Incorreta: identifica os processos corretamente, mas elimina indevidamente o controle de temperatura.",
-        "D": "Incorreta: o texto afirma que os métodos não são equivalentes e que pouco oxigênio não torna o alimento automaticamente seguro."
+        "A": "Incorreta: a atmosfera modificada não dispensa refrigeração em carnes frescas e conservadores possuem limites de ingestão diária estritos.",
+        "B": "Correta: a tabela formaliza com rigor técnico: para atmosfera modificada → \"Pode favorecer microrganismos anaeróbios se houver falha de temperatura ou formulação\"; para conservadores autorizados → \"Uso permitido depende da categoria, função e limite legal\".",
+        "C": "Incorreta: aditivos químicos autorizados não emitem radiação e são avaliados toxicologicamente pelas agências reguladoras.",
+        "D": "Incorreta: embalagens rígidas não colapsam com misturas gasosas e o nitrogênio é frequentemente usado exatamente para evitar o colapso em filmes flexíveis."
       },
       "referencia": {
         "paginas": [
-          6
+          2,
+          3,
+          7
         ],
-        "fundamentacao": "página 6.",
+        "fundamentacao": "Tabela da seção 2.3 da Apostila Aula 7.",
         "trechos_apoio": [
-          "No vácuo, o ar é removido da embalagem antes do fechamento. Na atmosfera modificada, o ar é substituído por uma mistura gasosa planejada."
+          "| Atmosfera modificada | Altera proporções de O2, CO2 e N2 para influenciar deterioração. | Pode favorecer microrganismos anaeróbios se houver falha de temperatura ou formulação. | Conservadores autorizados | Inibem determinados grupos microbianos ou reações. | Uso permitido depende da categoria, função e limite legal."
+        ]
+      }
+    },
+    {
+      "id": "aula_7_conservacao_q011",
+      "slide_id": "aula_7_conservacao",
+      "slide_nome": "Aula 07 - Princípios de Conservação de Alimentos",
+      "arquivo_origem": "Apostila Aula 7_261111_153651.pdf",
+      "numero": 11,
+      "tema": "Seção 3.1",
+      "subtema": "Refrigeração: Princípios, Vantagens e Limitações",
+      "enunciado": "A conservação pelo frio na faixa de refrigeração é amplamente empregada para alimentos frescos e perecíveis. De acordo com a seção 3.1 da apostila, a refrigeração caracteriza-se por:",
+      "alternativas": {
+        "A": "Cristalizar toda a água livre do produto em gelo, destruindo as bactérias por choque osmótico a frio.",
+        "B": "Manter o alimento acima do ponto de congelamento, em temperatura baixa e controlada; preserva melhor a textura de alimentos frescos e reduz a velocidade de crescimento microbiano e de reações químicas, porém não esteriliza nem impede indefinidamente a deterioração, pois microrganismos psicrótrofos e alguns patógenos podem persistir ou crescer lentamente.",
+        "C": "Garantir que o centro do alimento atinja instantaneamente a mesma temperatura do ar do equipamento refrigerador.",
+        "D": "Esterilizar produtos cárneos crus dispensando a necessidade de controle de validade ou embalagem."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a refrigeração opera em temperaturas positivas acima do ponto de congelamento, sem formar cristais de gelo.",
+        "B": "Correta: a apostila define expressamente: \"Refrigeração mantém o alimento acima do ponto de congelamento, em temperatura baixa e controlada. [...] Vantagens: preserva melhor a textura de muitos alimentos frescos; reduz a velocidade de crescimento microbiano e de reações químicas. Limitações: não esteriliza e não impede indefinidamente a deterioração; microrganismos psicrótrofos e alguns patógenos podem persistir ou crescer lentamente\".",
+        "C": "Incorreta: o texto técnico alerta que a temperatura do equipamento não garante, por si só, que o centro do alimento já tenha atingido a temperatura desejada.",
+        "D": "Incorreta: alimentos refrigerados não são estéreis e mantêm vida útil comercial limitada."
+      },
+      "referencia": {
+        "paginas": [
+          3,
+          1,
+          7
+        ],
+        "fundamentacao": "Seção 3.1 da Apostila Aula 7.",
+        "trechos_apoio": [
+          "Refrigeração mantém o alimento acima do ponto de congelamento, em temperatura baixa e controlada. [...] Limitações: não esteriliza e não impede indefinidamente a deterioração; microrganismos psicrótrofos e alguns patógenos podem persistir ou crescer lentamente."
+        ]
+      }
+    },
+    {
+      "id": "aula_7_conservacao_q012",
+      "slide_id": "aula_7_conservacao",
+      "slide_nome": "Aula 07 - Princípios de Conservação de Alimentos",
+      "arquivo_origem": "Apostila Aula 7_261111_153651.pdf",
+      "numero": 12,
+      "tema": "Seção 3.1",
+      "subtema": "Parâmetros de Temperatura de Refrigeração e Interpretação Técnica",
+      "enunciado": "O controle da refrigeração exige discernimento entre parâmetros de referência tecnológica e exigências legais obrigatórias. Conforme as orientações técnicas da seção 3.1:",
+      "alternativas": {
+        "A": "Temperaturas próximas de 0 °C citadas para carnes e alimentos cozidos devem ser entendidas como referências tecnológicas e não como uma regra universal fixa, devendo-se cumprir regulamentos específicos como a RDC Anvisa nº 216/2004 para serviços de alimentação no Brasil.",
+        "B": "Toda carne fresca deve ser mantida obrigatoriamente a 10 °C no centro geométrico durante o transporte rodoviário.",
+        "C": "O termômetro fixado na porta da câmara fria reflete com precisão idêntica a temperatura interna de caixas fechadas empilhadas.",
+        "D": "Alimentos crus e cozidos podem ser estocados desprotegidos e misturados na mesma prateleira da câmara fria."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: o texto formaliza: \"A apresentação cita temperaturas próximas de 0 °C para carnes e alimentos cozidos refrigerados. Esses valores devem ser entendidos como referências tecnológicas, não como regra universal. Para serviços de alimentação no Brasil, a RDC Anvisa nº 216/2004 estabelece requisitos específicos para preparação, resfriamento, conservação e distribuição\".",
+        "B": "Incorreta: carnes frescas exigem temperaturas baixas e controladas bem inferiores a 10 °C.",
+        "C": "Incorreta: a temperatura do equipamento ou do ar periférico não garante que o centro do alimento tenha resfriado adequadamente.",
+        "D": "Incorreta: as boas práticas exigem proteger os alimentos e manter separação rigorosa entre crus e prontos para consumo."
+      },
+      "referencia": {
+        "paginas": [
+          3,
+          1,
+          7
+        ],
+        "fundamentacao": "Seção 3.1 da Apostila Aula 7.",
+        "trechos_apoio": [
+          "A apresentação cita temperaturas próximas de 0°C para carnes e alimentos cozidos refrigerados. Esses valores devem ser entendidos como referências tecnológicas, não como regra universal. Para serviços de alimentação no Brasil, a RDC Anvisa nº 216/2004 estabelece requisitos específicos..."
+        ]
+      }
+    },
+    {
+      "id": "aula_7_conservacao_q013",
+      "slide_id": "aula_7_conservacao",
+      "slide_nome": "Aula 07 - Princípios de Conservação de Alimentos",
+      "arquivo_origem": "Apostila Aula 7_261111_153651.pdf",
+      "numero": 13,
+      "tema": "Seção 3.2",
+      "subtema": "Mecanismo e Microbiologia do Congelamento",
+      "enunciado": "O congelamento altera o estado físico da água e a cinética das reações no alimento. Segundo a seção 3.2 da apostila, o impacto do congelamento sobre a microbiota estabelece que:",
+      "alternativas": {
+        "A": "Todos os microrganismos patogênicos e deteriorantes são rompidos e destruídos na formação do primeiro cristal de gelo.",
+        "B": "Parte significativa da água se transforma em cristais de gelo, diminuindo a água líquida disponível e tornando as reações mais lentas; contudo, a maioria dos microrganismos não é necessariamente destruída e, após o descongelamento, os sobreviventes podem voltar a se multiplicar.",
+        "C": "O congelamento esteriliza permanentemente o alimento, permitindo que ele fique exposto à temperatura ambiente pós-descongelamento sem riscos.",
+        "D": "A atividade de água líquida aumenta exponencialmente durante o congelamento em função da sublimação forçada."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o congelamento tem efeito predominantemente bacteriostático; muitos microrganismos sobrevivem em estado latente no gelo.",
+        "B": "Correta: a apostila define: \"No congelamento, parte significativa da água se transforma em cristais de gelo. A disponibilidade de água líquida diminui e as reações ficam mais lentas, mas a maioria dos microrganismos não é necessariamente destruída. Após o descongelamento, sobreviventes podem voltar a se multiplicar se houver condições favoráveis\".",
+        "C": "Incorreta: o alimento descongelado deteriora-se rapidamente se permanecer em temperatura ambiente, pois a microbiota sobrevivente retoma o metabolismo ativo.",
+        "D": "Incorreta: a formação de gelo retira a água da fase líquida, reduzindo a água líquida livre."
+      },
+      "referencia": {
+        "paginas": [
+          3,
+          2,
+          7
+        ],
+        "fundamentacao": "Seção 3.2 da Apostila Aula 7.",
+        "trechos_apoio": [
+          "No congelamento, parte significativa da água se transforma em cristais de gelo. A disponibilidade de água líquida diminui e as reações ficam mais lentas, mas a maioria dos microrganismos não é necessariamente destruída. Após o descongelamento, sobreviventes podem voltar a se multiplicar se houver condições favoráveis."
+        ]
+      }
+    },
+    {
+      "id": "aula_7_conservacao_q014",
+      "slide_id": "aula_7_conservacao",
+      "slide_nome": "Aula 07 - Princípios de Conservação de Alimentos",
+      "arquivo_origem": "Apostila Aula 7_261111_153651.pdf",
+      "numero": 14,
+      "tema": "Seção 3.2",
+      "subtema": "Congelamento Rápido versus Congelamento Lento",
+      "enunciado": "A taxa de remoção de calor determina o tamanho e a distribuição dos cristais de gelo formados nos tecidos celulares. De acordo com a seção 3.2:",
+      "alternativas": {
+        "A": "O congelamento rápido produz cristais grandes e pontiagudos que rasgam as fibras musculares.",
+        "B": "O congelamento rápido tende a formar cristais menores, reduzindo danos estruturais; já o congelamento lento pode formar cristais maiores e aumentar a perda de suco (exsudação) após o descongelamento.",
+        "C": "O tamanho dos cristais independe da velocidade de passagem pela zona de formação de cristais.",
+        "D": "O congelamento lento é o método ideal para evitar perdas nutricionais por gotejamento de suco cárneo."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o congelamento rápido produz pequenos cristais uniformes que preservam a estrutura celular.",
+        "B": "Correta: o texto técnico detalha: \"O congelamento rápido tende a formar cristais menores, reduzindo danos estruturais; o congelamento lento pode formar cristais maiores e aumentar a perda de suco após descongelamento. O resultado também depende da composição, tamanho, embalagem e velocidade de passagem pela zona de formação de cristais\".",
+        "C": "Incorreta: a velocidade com que o alimento ultrapassa a zona de cristalização máxima é determinante para o calibre dos cristais.",
+        "D": "Incorreta: o congelamento lento acentua o rompimento de membranas e eleva o volume de exsudato (drip) perdido."
+      },
+      "referencia": {
+        "paginas": [
+          3,
+          2,
+          7
+        ],
+        "fundamentacao": "Seção 3.2 da Apostila Aula 7.",
+        "trechos_apoio": [
+          "O congelamento rápido tende a formar cristais menores, reduzindo danos estruturais; o congelamento lento pode formar cristais maiores e aumentar a perda de suco após descongelamento."
+        ]
+      }
+    },
+    {
+      "id": "aula_7_conservacao_q015",
+      "slide_id": "aula_7_conservacao",
+      "slide_nome": "Aula 07 - Princípios de Conservação de Alimentos",
+      "arquivo_origem": "Apostila Aula 7_261111_153651.pdf",
+      "numero": 15,
+      "tema": "Seção 3.2",
+      "subtema": "Boas Práticas de Manutenção e Descongelamento",
+      "enunciado": "O manuseio de produtos congelados na cadeia de distribuição exige cuidados térmicos rigorosos. Conforme a seção 3.2 da apostila, as regras de conservação sob congelamento estabelecem que:",
+      "alternativas": {
+        "A": "Alimentos descongelados devem ser recongelados imediatamente no freezer para corrigir falhas de temperatura anteriores.",
+        "B": "Muitos alimentos são mantidos a -18 °C ou menos para armazenamento prolongado; deve-se descongelar sob refrigeração ou por método com cocção imediata e não se deve recongelar automaticamente um alimento descongelado.",
+        "C": "O descongelamento deve ocorrer lentamente em bancadas abertas sob sol direto durante 12 horas.",
+        "D": "Embalagens permeáveis ao vapor d'água são recomendadas para estimular a queima pelo gelo."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a apostila proíbe expressamente: \"Não recongelar automaticamente um alimento descongelado: avaliar as instruções do produto e as condições de segurança, sem presumir que o congelamento corrigiu abusos anteriores\".",
+        "B": "Correta: as orientações listam: \"Para armazenamento prolongado, muitos alimentos são mantidos a -18 °C ou menos [...]; Descongelar sob refrigeração ou por método que permita cocção imediata [...]; não deixar à temperatura ambiente por longos períodos; Não recongelar automaticamente um alimento descongelado\".",
+        "C": "Incorreta: descongelar à temperatura ambiente em bancadas expõe a superfície do alimento à zona crítica de proliferação bacteriana.",
+        "D": "Incorreta: deve-se evitar embalagens permeáveis ao vapor para prevenir desidratação e queima pelo frio."
+      },
+      "referencia": {
+        "paginas": [
+          3,
+          2,
+          7
+        ],
+        "fundamentacao": "Seção 3.2 da Apostila Aula 7.",
+        "trechos_apoio": [
+          "Para armazenamento prolongado, muitos alimentos são mantidos a -18°C ou menos [...]. Descongelar sob refrigeração ou por método que permita cocção imediata [...]. Não recongelar automaticamente um alimento descongelado..."
+        ]
+      }
+    },
+    {
+      "id": "aula_7_conservacao_q016",
+      "slide_id": "aula_7_conservacao",
+      "slide_nome": "Aula 07 - Princípios de Conservação de Alimentos",
+      "arquivo_origem": "Apostila Aula 7_261111_153651.pdf",
+      "numero": 16,
+      "tema": "Seção 3.3",
+      "subtema": "Fatores Determinantes da Letalidade Térmica",
+      "enunciado": "A destruição pelo calor depende de parâmetros termodinâmicos e da matriz do alimento. Segundo a seção 3.3 da apostila, a letalidade térmica depende:",
+      "alternativas": {
+        "A": "Exclusivamente da quantidade de sal comum adicionada na superfície da embalagem.",
+        "B": "Da combinação tempo-temperatura e de fatores como pH, atividade de água, composição, tamanho da peça e resistência térmica do microrganismo, sendo que a temperatura superficial pode diferir da temperatura no centro.",
+        "C": "Unicamente da espessura do filme plástico externo da embalagem secundária.",
+        "D": "Do tempo de aeração do produto após o resfriamento em caixas de papelão abertas."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a letalidade térmica é fruto da transferência de calor na matriz e das variáveis intrínsecas e extrínsecas do sistema.",
+        "B": "Correta: o texto formaliza: \"A letalidade térmica depende da combinação tempo-temperatura e de fatores como pH, atividade de água, composição, tamanho da peça e resistência térmica do microrganismo. A temperatura superficial pode diferir da temperatura no centro; por isso, processos precisam ser validados para o produto e o equipamento\".",
+        "C": "Incorreta: a composição e geometria do próprio alimento governam a taxa de penetração de calor até o ponto mais frio.",
+        "D": "Incorreta: aeração externa não define a taxa de inativação cinética do microrganismo durante o tratamento térmico."
+      },
+      "referencia": {
+        "paginas": [
+          3,
+          7
+        ],
+        "fundamentacao": "Seção 3.3 da Apostila Aula 7.",
+        "trechos_apoio": [
+          "A letalidade térmica depende da combinação tempo-temperatura e de fatores como pH, atividade de água, composição, tamanho da peça e resistência térmica do microrganismo. A temperatura superficial pode diferir da temperatura no centro..."
+        ]
+      }
+    },
+    {
+      "id": "aula_7_conservacao_q017",
+      "slide_id": "aula_7_conservacao",
+      "slide_nome": "Aula 07 - Princípios de Conservação de Alimentos",
+      "arquivo_origem": "Apostila Aula 7_261111_153651.pdf",
+      "numero": 17,
+      "tema": "Seção 3.3",
+      "subtema": "Limitações do Tratamento Térmico e Termorresistência",
+      "enunciado": "Um equívoco frequente em segurança de alimentos é presumir que qualquer aquecimento elimina todos os perigos biológicos. Conforme alertado na seção 3.3:",
+      "alternativas": {
+        "A": "Todo e qualquer tratamento térmico destrói indiscriminadamente 100% de todas as toxinas e esporos bacterianos existentes no alimento.",
+        "B": "Não é correto afirmar que todo tratamento térmico destrói todas as toxinas ou todos os esporos; algumas toxinas são relativamente termorresistentes e esporos bacterianos podem sobreviver a tratamentos insuficientes, devendo o controle considerar o perigo específico.",
+        "C": "Esporos bacterianos são inativados com facilidade sob aquecimento brando a 50 °C por 1 minuto.",
+        "D": "Toxinas bacterianas perdem sua toxicidade biológica apenas com exposição prolongada à luz solar visível."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a apostila refuta diretamente essa afirmação simplista, destacando a existência de toxinas estáveis ao calor e esporos dormentes.",
+        "B": "Correta: o texto técnico é enfático: \"O aquecimento pode reduzir perigos microbiológicos e inativar enzimas, mas não é correto afirmar que todo tratamento térmico destrói todas as toxinas ou todos os esporos. Algumas toxinas são relativamente termorresistentes e esporos bacterianos podem sobreviver a tratamentos insuficientes. O controle deve considerar o perigo específico\".",
+        "C": "Incorreta: esporos bacterianos (como os de Bacillus e Clostridium) exigem tratamentos térmicos sob pressão bem acima de 100 °C para sua destruição letal.",
+        "D": "Incorreta: a luz solar visível não inativa toxinas pré-formadas e degrada a qualidade dos alimentos."
+      },
+      "referencia": {
+        "paginas": [
+          3,
+          7
+        ],
+        "fundamentacao": "Seção 3.3 da Apostila Aula 7.",
+        "trechos_apoio": [
+          "O aquecimento pode reduzir perigos microbiológicos e inativar enzimas, mas não é correto afirmar que todo tratamento térmico destrói todas as toxinas ou todos os esporos. Algumas toxinas são relativamente termorresistentes e esporos bacterianos podem sobreviver a tratamentos insuficientes."
+        ]
+      }
+    },
+    {
+      "id": "aula_7_conservacao_q018",
+      "slide_id": "aula_7_conservacao",
+      "slide_nome": "Aula 07 - Princípios de Conservação de Alimentos",
+      "arquivo_origem": "Apostila Aula 7_261111_153651.pdf",
+      "numero": 18,
+      "tema": "Seção 3.4",
+      "subtema": "Pasteurização: Finalidade e Requisitos Operacionais",
+      "enunciado": "A pasteurização é um tratamento térmico brando e controlado aplicado a líquidos e produtos sensíveis. De acordo com a tabela da seção 3.4 da apostila, a pasteurização:",
+      "alternativas": {
+        "A": "Destina-se a esterilizar conservas enlatadas em temperatura ambiente por até dez anos.",
+        "B": "Tem por finalidade reduzir microrganismos patogênicos relevantes e deteriorantes sensíveis ao calor, por meio de tratamento validado com combinação de tempo e temperatura, sendo normalmente combinada com refrigeração ou outras barreiras (ex.: leite pasteurizado e bebidas).",
+        "C": "Elimina completamente a necessidade de higiene pós-processamento por gerar barreira antimicrobiana permanente na embalagem.",
+        "D": "Deve ser realizada exclusivamente a 180 °C em autoclaves de alta pressão hidrostática."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a esterilização comercial de enlatados é obtida por autoclavação térmica sob pressão, e não por pasteurização.",
+        "B": "Correta: a tabela formaliza: \"Pasteurização: Reduz microrganismos patogênicos relevantes e deteriorantes sensíveis ao calor. Características: Tratamento validado com combinação de tempo e temperatura; normalmente combinado com refrigeração ou outras barreiras. Usado, por exemplo, em leite pasteurizado e bebidas\".",
+        "C": "Incorreta: o texto enfatiza que pasteurização não equivale a esterilização e exige proteção contínua contra recontaminação.",
+        "D": "Incorreta: a pasteurização opera em temperaturas inferiores ao ponto de ebulição (geralmente entre 63 °C e 75 °C), sem pressões de 180 °C."
+      },
+      "referencia": {
+        "paginas": [
+          3,
+          4,
+          7
+        ],
+        "fundamentacao": "Seção 3.4 da Apostila Aula 7.",
+        "trechos_apoio": [
+          "Pasteurização: Reduz microrganismos patogênicos relevantes e deteriorantes sensíveis ao calor. Tratamento validado com combinação de tempo e temperatura; normalmente combinado com refrigeração ou outras barreiras."
+        ]
+      }
+    },
+    {
+      "id": "aula_7_conservacao_q019",
+      "slide_id": "aula_7_conservacao",
+      "slide_nome": "Aula 07 - Princípios de Conservação de Alimentos",
+      "arquivo_origem": "Apostila Aula 7_261111_153651.pdf",
+      "numero": 19,
+      "tema": "Seção 3.4",
+      "subtema": "Esterilização Comercial e a Crítica à \"Regra Acima de 100 °C\"",
+      "enunciado": "A esterilização comercial é o tratamento térmico industrial de eleição para conservas de baixa acidez envasadas hermeticamente. Segundo a tabela e o texto da seção 3.4, a esterilização comercial:",
+      "alternativas": {
+        "A": "Tem como finalidade obter estabilidade comercial controlando microrganismos de importância sanitária e deterioração nas condições previstas de armazenamento, sendo definida para o produto, embalagem e equipamento, não devendo ser reduzida à regra simplista \"acima de 100 °C\".",
+        "B": "É um processo doméstico idêntico ao cozimento brando de legumes em panelas abertas.",
+        "C": "Não depende da integridade da vedação da embalagem nem da prevenção de recontaminações após o resfriamento.",
+        "D": "É recomendada exclusivamente para produtos que serão consumidos em menos de 2 horas sob refrigeração obrigatória."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: a tabela da seção 3.4 define: \"Esterilização comercial: Obter estabilidade comercial por tratamento térmico capaz de controlar microrganismos de importância sanitária e deterioração nas condições previstas de armazenamento. Comum em alimentos de baixa acidez envasados hermeticamente. O processo é definido para produto, embalagem e equipamento; não deve ser reduzido à regra 'acima de 100 °C'\".",
+        "B": "Incorreta: o cozimento aberto a 100 °C não garante esterilização comercial de alimentos de baixa acidez, pois esporos de C. botulinum toleram 100 °C por horas.",
+        "C": "Incorreta: a estabilidade do produto esterilizado depende rigorosamente da validação do processo e da vedação hermética da embalagem.",
+        "D": "Incorreta: alimentos esterilizados comercialmente são formulados para estocagem estável à temperatura ambiente por longos períodos."
+      },
+      "referencia": {
+        "paginas": [
+          3,
+          4,
+          7
+        ],
+        "fundamentacao": "Seção 3.4 da Apostila Aula 7.",
+        "trechos_apoio": [
+          "Esterilização comercial: Obter estabilidade comercial por tratamento térmico capaz de controlar microrganismos de importância sanitária e deterioração [...]. O processo é definido para produto, embalagem e equipamento; não deve ser reduzido à regra 'acima de 100°C'."
+        ]
+      }
+    },
+    {
+      "id": "aula_7_conservacao_q020",
+      "slide_id": "aula_7_conservacao",
+      "slide_nome": "Aula 07 - Princípios de Conservação de Alimentos",
+      "arquivo_origem": "Apostila Aula 7_261111_153651.pdf",
+      "numero": 20,
+      "tema": "Seção 3.5",
+      "subtema": "Resfriamento de Alimentos Preparados segundo a RDC Anvisa nº 216/2004",
+      "enunciado": "O resfriamento rápido após a cocção é etapa crítica de controle higiênico em serviços de alimentação coletiva para prevenir a germinação de esporos na zona de perigo térmico. De acordo com as diretrizes da seção 3.5 da apostila e a RDC Anvisa nº 216/2004:",
+      "alternativas": {
+        "A": "Os alimentos preparados devem ser mantidos em panelas volumosas resfriando espontaneamente em bancadas por 24 horas.",
+        "B": "O resfriamento deve realizar a redução da temperatura de 60 °C para 10 °C em até duas horas, seguida de conservação abaixo de 5 °C ou congelamento a -18 °C ou menos, recomendando-se dividir grandes volumes em recipientes rasos e monitorar com termômetro calibrado.",
+        "C": "A temperatura de 60 °C deve ser mantida constante por congelamento rápido criogênico em nitrogênio gasoso.",
+        "D": "Alimentos recém-cozidos devem ser guardados imediatamente em recipientes fundos hermeticamente lacrados sem monitoramento de temperatura."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: deixar panelas grandes esfriando lentamente em temperatura ambiente mantém o alimento por horas na faixa ideal de multiplicação de patógenos.",
+        "B": "Correta: a apostila transcreve a norma federal: \"A RDC Anvisa nº 216/2004 estabelece, para os serviços de alimentação abrangidos, redução de 60 °C para 10 °C em até duas horas, seguida de conservação abaixo de 5 °C ou congelamento a -18 °C ou menos. [...] Boas práticas incluem dividir grandes volumes em recipientes rasos, usar equipamentos adequados, evitar deixar panelas grandes resfriando lentamente à temperatura ambiente e monitorar o processo com termômetro calibrado\".",
+        "C": "Incorreta: 60 °C é o ponto de partida do resfriamento após a cocção, devendo baixar para 10 °C e depois para menos de 5 °C.",
+        "D": "Incorreta: recipientes fundos criam núcleos quentes que demoram muito a resfriar; a recomendação expressa é dividir o lote em recipientes rasos e medir com termômetro."
+      },
+      "referencia": {
+        "paginas": [
+          3,
+          5,
+          7
+        ],
+        "fundamentacao": "Seção 3.5 da Apostila Aula 7.",
+        "trechos_apoio": [
+          "A RDC Anvisa nº 216/2004 estabelece, para os serviços de alimentação abrangidos, redução de 60°C para 10°C em até duas horas, seguida de conservação abaixo de 5°C ou congelamento a -18°C ou menos. Boas práticas incluem dividir grandes volumes em recipientes rasos..."
+        ]
+      }
+    },
+    {
+      "id": "aula_7_conservacao_q021",
+      "slide_id": "aula_7_conservacao",
+      "slide_nome": "Aula 07 - Princípios de Conservação de Alimentos",
+      "arquivo_origem": "Apostila Aula 7_261111_153651.pdf",
+      "numero": 21,
+      "tema": "Seção 4.1",
+      "subtema": "Concentração: Mecanismo, Aplicações e Estabilidade",
+      "enunciado": "A concentração é uma operação unitária comum na indústria para elevar o teor de matéria seca em produtos fluidos. Segundo a seção 4.1 da apostila, a concentração:",
+      "alternativas": {
+        "A": "Remove 100% da água livre e estrutural, garantindo estabilidade absoluta à temperatura ambiente sem necessidade de qualquer outro tratamento.",
+        "B": "Remove parte da água, geralmente por evaporação, elevando a proporção de sólidos (usada em sucos concentrados, leite concentrado, xaropes e doces); porém, como parte da água permanece no produto, nem sempre é suficiente para torná-lo estável à temperatura ambiente, podendo exigir refrigeração, envase, tratamento térmico ou outras barreiras.",
+        "C": "Inativa esporos bacterianos termófilos por choque osmótico a frio.",
+        "D": "Transforma instantaneamente todas as proteínas solúveis em sabões alcalinos insolúveis."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a concentração retira apenas parte da água, mantendo umidade residual suficiente para reações e desenvolvimento microbiano caso não haja barreiras adicionais.",
+        "B": "Correta: o texto formaliza expressamente: \"A concentração remove parte da água, geralmente por evaporação, elevando a proporção de sólidos. É usada em sucos concentrados, leite concentrado, xaropes, doces e bases para alimentos. Como parte da água permanece no produto, a concentração nem sempre é suficiente para torná-lo estável à temperatura ambiente; refrigeração, envase, tratamento térmico ou outras barreiras podem ser necessários\".",
+        "C": "Incorreta: o processo de evaporação em temperaturas moderadas não esteriliza o alimento e não inativa esporos.",
+        "D": "Incorreta: a concentração não saponifica a matéria graxa com bases fortes."
+      },
+      "referencia": {
+        "paginas": [
+          4,
+          1,
+          7
+        ],
+        "fundamentacao": "Seção 4.1 da Apostila Aula 7.",
+        "trechos_apoio": [
+          "A concentração remove parte da água, geralmente por evaporação, elevando a proporção de sólidos. [...] Como parte da água permanece no produto, a concentração nem sempre é suficiente para torná-lo estável à temperatura ambiente; refrigeração, envase, tratamento térmico ou outras barreiras podem ser necessários."
+        ]
+      }
+    },
+    {
+      "id": "aula_7_conservacao_q022",
+      "slide_id": "aula_7_conservacao",
+      "slide_nome": "Aula 07 - Princípios de Conservação de Alimentos",
+      "arquivo_origem": "Apostila Aula 7_261111_153651.pdf",
+      "numero": 22,
+      "tema": "Seção 4.2",
+      "subtema": "Secagem e Desidratação: Cinética e Riscos Operacionais",
+      "enunciado": "A remoção de água por processos térmicos envolve fenômenos simultâneos de transporte. Conforme as considerações da seção 4.2 da apostila, a secagem e desidratação:",
+      "alternativas": {
+        "A": "Ocorrem exclusivamente ao sol em bandejas abertas de madeira tratada.",
+        "B": "Removem água por transferência de calor e massa; a velocidade e a uniformidade da secagem influenciam cor, textura, rendimento e segurança, sendo que a secagem lenta em condições inadequadas pode permitir a deterioração antes que a Aw caia suficientemente.",
+        "C": "Aumentam o peso total e o volume dos produtos, elevando os custos de transporte e armazenamento.",
+        "D": "Dispensam o uso de embalagens protetoras, visto que produtos desidratados não conseguem reabsorver umidade do ar."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: podem ocorrer ao sol, em secadores de ar quente, por contato com superfícies aquecidas ou por tecnologias específicas.",
+        "B": "Correta: a apostila define textualmente: \"Secagem e desidratação removem água por transferência de calor e massa. [...] A velocidade e a uniformidade da secagem influenciam cor, textura, rendimento e segurança. Secagem lenta em condições inadequadas pode permitir deterioração antes que a aw caia suficientemente\".",
+        "C": "Incorreta: a secagem promove redução expressiva de massa e volume, barateando os custos de frete e estocagem.",
+        "D": "Incorreta: o texto ressalta que a embalagem deve impedir a reabsorção de água e proteger contra luz e oxigênio."
+      },
+      "referencia": {
+        "paginas": [
+          4,
+          2,
+          7
+        ],
+        "fundamentacao": "Seção 4.2 da Apostila Aula 7.",
+        "trechos_apoio": [
+          "Secagem e desidratação removem água por transferência de calor e massa. [...] Secagem lenta em condições inadequadas pode permitir deterioração antes que a aw caia suficientemente."
+        ]
+      }
+    },
+    {
+      "id": "aula_7_conservacao_q023",
+      "slide_id": "aula_7_conservacao",
+      "slide_nome": "Aula 07 - Princípios de Conservação de Alimentos",
+      "arquivo_origem": "Apostila Aula 7_261111_153651.pdf",
+      "numero": 23,
+      "tema": "Seção 4.3",
+      "subtema": "Liofilização: Etapas e Vulnerabilidade Pós-Processo",
+      "enunciado": "A liofilização destaca-se entre os métodos de dessecação pela alta retenção de atributos nobres do alimento. De acordo com a seção 4.3 da apostila, sobre a liofilização:",
+      "alternativas": {
+        "A": "O alimento é fervido a 120 °C sob refluxo de álcool etílico para desidratação a quente.",
+        "B": "O alimento é congelado e o gelo é removido por sublimação sob pressão reduzida (com etapa secundária para remover água residual ligada); preserva melhor a estrutura e aroma do que secagens térmicas convencionais, mas o produto liofilizado continua suscetível à umidade e à oxidação se a embalagem for inadequada.",
+        "C": "Os produtos liofilizados tornam-se completamente resistentes ao oxigênio e à umidade mesmo em embalagens abertas.",
+        "D": "É um processo de baixo custo operacional que não exige equipamentos especiais ou câmaras de vácuo."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a liofilização congela a água e remove o gelo diretamente por sublimação (passagem de sólido para vapor sob vácuo), sem fervura.",
+        "B": "Correta: o texto técnico detalha: \"A liofilização congela o alimento e remove gelo por sublimação sob pressão reduzida; uma etapa secundária pode remover água residual ligada. Pode preservar estrutura, aroma e componentes sensíveis melhor do que algumas secagens convencionais, mas exige equipamento caro e controle rigoroso. O produto liofilizado continua suscetível à umidade e à oxidação se a embalagem for inadequada\".",
+        "C": "Incorreta: a alta porosidade e a baixíssima umidade deixam o produto ávido por água e suscetível à oxidação lipídica se a embalagem não for impermeável.",
+        "D": "Incorreta: a apostila explicita que a liofilização exige equipamento caro e controle operacional rigoroso."
+      },
+      "referencia": {
+        "paginas": [
+          4,
+          3,
+          7
+        ],
+        "fundamentacao": "Seção 4.3 da Apostila Aula 7.",
+        "trechos_apoio": [
+          "A liofilização congela o alimento e remove gelo por sublimação sob pressão reduzida; uma etapa secundária pode remover água residual ligada. [...] O produto liofilizado continua suscetível à umidade e à oxidação se a embalagem for inadequada."
+        ]
+      }
+    },
+    {
+      "id": "aula_7_conservacao_q024",
+      "slide_id": "aula_7_conservacao",
+      "slide_nome": "Aula 07 - Princípios de Conservação de Alimentos",
+      "arquivo_origem": "Apostila Aula 7_261111_153651.pdf",
+      "numero": 24,
+      "tema": "Seção 5.1",
+      "subtema": "Fatores que Influenciam a Difusão do Sal na Salga",
+      "enunciado": "A penetração do cloreto de sódio nos tecidos animais depende de variáveis operacionais e biológicas do corte. Segundo a seção 5.1 da apostila, a difusão do sal depende:",
+      "alternativas": {
+        "A": "Exclusivamente da quantidade de luz ultravioleta que incide sobre o tanque de salga.",
+        "B": "Da concentração, temperatura, espessura da peça, teor de gordura e estrutura do tecido.",
+        "C": "Unicamente do tipo de corante sintético pulverizado sobre a superfície muscular.",
+        "D": "Da velocidade de rotação de pás mecânicas em câmaras herméticas de vácuo estéril."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a radiação ultravioleta não governa a difusão iônica do cloreto de sódio em matrizes teciduais.",
+        "B": "Correta: a apostila lista formalmente: \"A salga incorpora cloreto de sódio ao alimento por aplicação seca, imersão em salmoura ou combinação dos dois métodos. [...] A difusão do sal depende da concentração, temperatura, espessura, teor de gordura e estrutura do tecido\".",
+        "C": "Incorreta: corantes não interferem na cinética osmótica de migração do sal.",
+        "D": "Incorreta: a difusão baseia-se em gradientes de concentração e características teciduais intrínsecas da peça."
+      },
+      "referencia": {
+        "paginas": [
+          5,
+          1,
+          7
+        ],
+        "fundamentacao": "Seção 5.1 da Apostila Aula 7.",
+        "trechos_apoio": [
+          "A difusão do sal depende da concentração, temperatura, espessura, teor de gordura e estrutura do tecido."
+        ]
+      }
+    },
+    {
+      "id": "aula_7_conservacao_q025",
+      "slide_id": "aula_7_conservacao",
+      "slide_nome": "Aula 07 - Princípios de Conservação de Alimentos",
+      "arquivo_origem": "Apostila Aula 7_261111_153651.pdf",
+      "numero": 25,
+      "tema": "Seção 5.1",
+      "subtema": "Limitações da Salga e Produtos Tradicionais",
+      "enunciado": "O uso do sal como conservador isolado exige interpretação crítica no âmbito bromatológico. Conforme os apontamentos da seção 5.1:",
+      "alternativas": {
+        "A": "O sal, por si só, garante segurança microbiológica absoluta e esterilização de qualquer carne em qualquer dose.",
+        "B": "O sal, isoladamente, não garante segurança absoluta; sua eficácia depende da concentração final no interior do alimento e da combinação com outras barreiras (secagem, refrigeração, acidificação), e produtos como charque, carne de sol e pescado salgado não são equivalentes entre si.",
+        "C": "O pescado salgado apresenta as mesmas propriedades de conservação e teor de umidade que a carne de sol fresca.",
+        "D": "A salga elimina a necessidade de qualquer controle higiênico durante as etapas de abate e desossa."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: concentrações insuficientes ou não uniformes de sal permitem a sobrevivência e crescimento de microrganismos halotolerantes.",
+        "B": "Correta: o texto alerta: \"O sal, isoladamente, não garante segurança absoluta. A eficácia depende da concentração final no interior do alimento e da combinação com secagem, refrigeração, acidificação, tratamento térmico ou outras barreiras. Produtos tradicionais, como charque, carne de sol e pescado salgado, não são necessariamente equivalentes entre si: diferem em formulação, intensidade de salga, umidade, processamento e condições de armazenamento\".",
+        "C": "Incorreta: cada produto tradicional tem perfil bromatológico de umidade, salga e perecibilidade próprio.",
+        "D": "Incorreta: as Boas Práticas de Fabricação continuam indispensáveis para evitar contaminações profundas da carcaça."
+      },
+      "referencia": {
+        "paginas": [
+          5,
+          1,
+          7
+        ],
+        "fundamentacao": "Seção 5.1 da Apostila Aula 7.",
+        "trechos_apoio": [
+          "O sal, isoladamente, não garante segurança absoluta. A eficácia depende da concentração final no interior do alimento e da combinação com secagem, refrigeração, acidificação, tratamento térmico ou outras barreiras."
+        ]
+      }
+    },
+    {
+      "id": "aula_7_conservacao_q026",
+      "slide_id": "aula_7_conservacao",
+      "slide_nome": "Aula 07 - Princípios de Conservação de Alimentos",
+      "arquivo_origem": "Apostila Aula 7_261111_153651.pdf",
+      "numero": 26,
+      "tema": "Seção 5.2",
+      "subtema": "Papel Físico-Químico e Bioquímico do Nitrato e Nitrito",
+      "enunciado": "A cura de produtos cárneos emprega aditivos nitrogenados com funções tecnológicas bem definidas. Segundo a seção 5.2 da apostila, o nitrito e o nitrato atuam na cura porque:",
+      "alternativas": {
+        "A": "O nitrito destrói as proteínas miofibrilares transformando-as em gorduras saturadas lineares.",
+        "B": "O nitrito contribui para a cor característica de produtos curados, para o sabor e para a inibição de determinados microrganismos, incluindo o risco associado a Clostridium botulinum em produtos específicos; e o nitrato pode atuar como reservatório de nitrito em processos em que sua conversão é tecnologicamente prevista.",
+        "C": "O nitrato impede a hidrólise da lactose no estômago de ruminantes.",
+        "D": "Ambos substituem completamente o sal de cozinha e dispensam o cozimento de embutidos."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: nitritos não degradam proteínas em lipídeos; interagem com a mioglobina gerando a cor rósea estável da cura.",
+        "B": "Correta: a apostila define textualmente: \"Nitrito contribui para a cor característica de produtos curados, sabor e inibição de determinados microrganismos, incluindo o risco associado a Clostridium botulinum em produtos específicos. Nitrato pode atuar como reservatório de nitrito em processos em que sua conversão é tecnologicamente prevista\".",
+        "C": "Incorreta: sais de cura cárneos não possuem relação com o metabolismo ruminal de lactose.",
+        "D": "Incorreta: os sais de cura são adicionados em pequenas quantidades associados ao cloreto de sódio (NaCl) e a formulações específicas."
+      },
+      "referencia": {
+        "paginas": [
+          5,
+          2,
+          7
+        ],
+        "fundamentacao": "Seção 5.2 da Apostila Aula 7.",
+        "trechos_apoio": [
+          "Nitrito contribui para a cor característica de produtos curados, sabor e inibição de determinados microrganismos, incluindo o risco associado a Clostridium botulinum em produtos específicos. Nitrato pode atuar como reservatório de nitrito em processos em que sua conversão é tecnologicamente prevista."
+        ]
+      }
+    },
+    {
+      "id": "aula_7_conservacao_q027",
+      "slide_id": "aula_7_conservacao",
+      "slide_nome": "Aula 07 - Princípios de Conservação de Alimentos",
+      "arquivo_origem": "Apostila Aula 7_261111_153651.pdf",
+      "numero": 27,
+      "tema": "Seção 5.2",
+      "subtema": "Regulamentação Sanitária de Sais de Cura (RDC 778/2023 e IN 211/2023)",
+      "enunciado": "Em razão dos riscos toxicológicos do excesso de nitritos, a legislação sanitária brasileira consolida normas rigorosas para sua aplicação. De acordo com a seção 5.2 da apostila:",
+      "alternativas": {
+        "A": "O salitre e o nitrito podem ser medidos por estimativa visual em formulações caseiras de embutidos sem qualquer balança analítica.",
+        "B": "Nitrito e nitrato exigem controle técnico rigoroso, pois o uso permitido depende da categoria de alimento, função tecnológica, limites e condições estabelecidos na legislação brasileira, consolidada pela Anvisa na RDC nº 778/2023 e na IN nº 211/2023 (não se devendo formular por estimativa doméstica).",
+        "C": "É permitida a substituição livre de sal de cozinha por sais de cura sem especificação de rótulo.",
+        "D": "A Anvisa baniu integralmente o uso de nitrito em produtos cárneos curados no Brasil desde 2004."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o texto técnico condena expressamente estimativas domésticas em virtude do risco de intoxicação aguda.",
+        "B": "Correta: a apostila formaliza: \"Nitrito e nitrato exigem controle técnico rigoroso. O uso permitido depende da categoria de alimento, função tecnológica, limites e condições estabelecidos na legislação brasileira. Não se deve formular sais de cura por estimativa doméstica ou substituir sais comuns por misturas sem especificação. A Anvisa consolida requisitos na RDC nº 778/2023 e na IN nº 211/2023, sujeitas a atualizações\".",
+        "C": "Incorreta: trocar sal comum por misturas de cura desreguladas gera risco de ingestão tóxica de nitritos.",
+        "D": "Incorreta: o nitrito é expressamente autorizado e regulamentado pela Anvisa para categorias e limites específicos."
+      },
+      "referencia": {
+        "paginas": [
+          5,
+          2,
+          7
+        ],
+        "fundamentacao": "Seção 5.2 da Apostila Aula 7.",
+        "trechos_apoio": [
+          "Não se deve formular sais de cura por estimativa doméstica ou substituir sais comuns por misturas sem especificação. A Anvisa consolida requisitos na RDC nº 778/2023 e na IN nº 211/2023, sujeitas a atualizações."
+        ]
+      }
+    },
+    {
+      "id": "aula_7_conservacao_q028",
+      "slide_id": "aula_7_conservacao",
+      "slide_nome": "Aula 07 - Princípios de Conservação de Alimentos",
+      "arquivo_origem": "Apostila Aula 7_261111_153651.pdf",
+      "numero": 28,
+      "tema": "Seção 5.3",
+      "subtema": "Controle de Qualidade em Carnes Salgadas Tradicionais",
+      "enunciado": "O padrão de identidade e a conservação de carnes salgadas desidratadas dependem de parâmetros de processamento validados. Conforme a seção 5.3 da apostila, são fatores determinantes para o controle de qualidade de carne seca, carne de sol e charque:",
+      "alternativas": {
+        "A": "A esterilização em autoclave industrial a 130 °C sob vapor saturado de ácido nítrico.",
+        "B": "A uniformidade da salga, a redução de Aw quando aplicável, a higiene, a embalagem e a temperatura de distribuição indicada para o produto.",
+        "C": "A quebra forçada das fibras musculares por ultrassom criogênico em meio aquoso.",
+        "D": "A incorporação de 50% de sacarose anidra para cristalização dos tecidos."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: esses produtos não sofrem esterilização úmida em autoclave; são conservados por salga e dessecação.",
+        "B": "Correta: a apostila define claramente: \"Para controle de qualidade, são importantes a uniformidade da salga, a redução de aw quando aplicável, a higiene, a embalagem e a temperatura de distribuição indicada para o produto\".",
+        "C": "Incorreta: métodos mecânicos ou por ultrassom não correspondem às tecnologias tradicionais descritas no material.",
+        "D": "Incorreta: o conservador da carne de sol, charque e carne seca é o sal (NaCl), não o açúcar."
+      },
+      "referencia": {
+        "paginas": [
+          5,
+          3,
+          7
+        ],
+        "fundamentacao": "Seção 5.3 da Apostila Aula 7.",
+        "trechos_apoio": [
+          "Para controle de qualidade, são importantes a uniformidade da salga, a redução de aw quando aplicável, a higiene, a embalagem e a temperatura de distribuição indicada para o produto."
+        ]
+      }
+    },
+    {
+      "id": "aula_7_conservacao_q029",
+      "slide_id": "aula_7_conservacao",
+      "slide_nome": "Aula 07 - Princípios de Conservação de Alimentos",
+      "arquivo_origem": "Apostila Aula 7_261111_153651.pdf",
+      "numero": 29,
+      "tema": "Seção 6",
+      "subtema": "Mecanismo Protetor da Defumação e Matérias-Primas Proibidas",
+      "enunciado": "A defumação agrega atributos sensoriais enquanto deposita substâncias ativas sobre a superfície dos alimentos. Segundo a seção 6 e 6.1 da apostila de apoio:",
+      "alternativas": {
+        "A": "A defumação resulta da queima de qualquer tipo de resíduo industrial, recomendando-se o uso de madeiras envernizadas ou pintadas.",
+        "B": "Compostos da fumaça (como fenóis, ácidos orgânicos e compostos carbonílicos) depositam-se na superfície exercendo efeitos antioxidantes ou antimicrobianos; os tempos e temperaturas são parâmetros de processo que variam e madeiras tratadas, pintadas, contaminadas ou inadequadas não devem ser usadas.",
+        "C": "A cor dourada externa da fumaça garante, por si só, que o alimento já atingiu esterilidade no seu centro geométrico.",
+        "D": "A defumação elimina integralmente o cloreto de sódio presente em embutidos cárneos."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a apostila proíbe terminantemente o uso de madeiras pintadas, tratadas ou contaminadas para evitar compostos químicos tóxicos na fumaça.",
+        "B": "Correta: o texto formaliza: \"Compostos da fumaça depositam-se na superfície e contribuem para aroma, sabor e cor. Alguns fenóis, ácidos orgânicos e compostos carbonílicos podem exercer efeitos antioxidantes ou antimicrobianos [...] Madeiras tratadas, pintadas, contaminadas ou inadequadas não devem ser usadas\".",
+        "C": "Incorreta: a tabela 6.1 adverte que não se deve assumir segurança microbiológica apenas pela cor superficial ou exposição à fumaça.",
+        "D": "Incorreta: a defumação é frequentemente combinada com salga e cura prévias, mantendo o sal na formulação."
+      },
+      "referencia": {
+        "paginas": [
+          6,
+          1,
+          7
+        ],
+        "fundamentacao": "Seções 6 e 6.1 da Apostila Aula 7.",
+        "trechos_apoio": [
+          "Compostos da fumaça depositam-se na superfície e contribuem para aroma, sabor e cor. Alguns fenóis, ácidos orgânicos e compostos carbonílicos podem exercer efeitos antioxidantes ou antimicrobianos... Madeiras tratadas, pintadas, contaminadas ou inadequadas não devem ser usadas."
+        ]
+      }
+    },
+    {
+      "id": "aula_7_conservacao_q030",
+      "slide_id": "aula_7_conservacao",
+      "slide_nome": "Aula 07 - Princípios de Conservação de Alimentos",
+      "arquivo_origem": "Apostila Aula 7_261111_153651.pdf",
+      "numero": 30,
+      "tema": "Seção 6.2",
+      "subtema": "Fumaça Líquida e Controle de Benzo[a]pireno",
+      "enunciado": "O desenvolvimento de derivados tecnológicos da fumaça busca otimizar a aplicação industrial e mitigar a presença de contaminantes perigosos. De acordo com a seção 6.2 da apostila, a fumaça líquida e a prevenção de hidrocarbonetos aromáticos policíclicos fundamentam-se em:",
+      "alternativas": {
+        "A": "A fumaça líquida é totalmente isenta de qualquer regulamentação legal por ser um produto mineral inorgânico puro.",
+        "B": "A fumaça líquida é produzida por captura e processamento de componentes da fumaça, com etapas que podem reduzir determinadas frações indesejáveis; no entanto, a fumaça de combustão inadequada pode conter hidrocarbonetos aromáticos policíclicos (incluindo o benzo[a]pireno), dependendo a prevenção do controle rigoroso do processo e da matéria-prima.",
+        "C": "O benzo[a]pireno é um potente antimicrobiano natural adicionado para inibir bolores xerófilos.",
+        "D": "A combustão lenta com madeiras plásticas é recomendada para aumentar o teor de hidrocarbonetos policíclicos protetores."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: pureza, autorização e limites de uso da fumaça líquida são regulados sanitariamente.",
+        "B": "Correta: a apostila esclarece formalmente: \"A fumaça líquida é produzida por captura e processamento de componentes da fumaça, com etapas que podem reduzir determinadas frações indesejáveis e facilitar a aplicação uniforme. Isso não significa ausência automática de contaminantes: composição, pureza, autorização e condições de uso precisam atender aos requisitos aplicáveis. A fumaça produzida em combustão inadequada pode conter hidrocarbonetos aromáticos policíclicos, incluindo benzo[a]pireno; a prevenção depende de controle do processo e da matéria-prima\".",
+        "C": "Incorreta: o benzo[a]pireno é um contaminante químico perigoso com potencial carcinogênico comprovado.",
+        "D": "Incorreta: madeiras plásticas ou sintéticas geram compostos altamente tóxicos na combustão, sendo proibidas."
+      },
+      "referencia": {
+        "paginas": [
+          6,
+          2,
+          7
+        ],
+        "fundamentacao": "Seção 6.2 da Apostila Aula 7.",
+        "trechos_apoio": [
+          "A fumaça produzida em combustão inadequada pode conter hidrocarbonetos aromáticos policíclicos, incluindo benzo[a]pireno; a prevenção depende de controle do processo e da matéria-prima."
+        ]
+      }
+    },
+    {
+      "id": "aula_7_conservacao_q031",
+      "slide_id": "aula_7_conservacao",
+      "slide_nome": "Aula 07 - Princípios de Conservação de Alimentos",
+      "arquivo_origem": "Apostila Aula 7_261111_153651.pdf",
+      "numero": 31,
+      "tema": "Seção 7",
+      "subtema": "Princípios Físicos da Irradiação de Alimentos",
+      "enunciado": "A irradiação é uma tecnologia física de conservação reconhecida por agências reguladoras internacionais e nacionais. Segundo a seção 7 da apostila, a irradiação de alimentos:",
+      "alternativas": {
+        "A": "Utiliza calor latente de vapor saturado a 140 °C para desnaturar o centro das células de pragas agrícolas.",
+        "B": "Utiliza energia ionizante (como raios gama, raios X ou feixe de elétrons) em doses controladas e para finalidades autorizadas, danificando o material genético de microrganismos e insetos para reduzir sua multiplicação, sendo um processo \"a frio\" que não torna o alimento radioativo quando aplicada corretamente.",
+        "C": "Torna os alimentos permanentemente emissores de partículas radioativas perigosas à saúde humana.",
+        "D": "Substitui a cadeia de frio, as embalagens secundárias e todas as rotinas de higienização das mãos e superfícies."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a irradiação é um tratamento físico não térmico (não utiliza vapor saturado ou calor a 140 °C).",
+        "B": "Correta: o texto formaliza expressamente que a tecnologia emprega energia ionizante (raios gama, raios X ou feixe de elétrons) em doses controladas, danificando o material genético de microrganismos e pragas; trata-se de um processo \"a frio\" que não torna o alimento radioativo se aplicado corretamente.",
+        "C": "Incorreta: o material esclarece enfaticamente que a irradiação não induz radioatividade nos alimentos processados.",
+        "D": "Incorreta: a apostila adverte que a tecnologia não dispensa as boas práticas de higiene, o controle térmico nem a proteção contra recontaminações posteriores."
+      },
+      "referencia": {
+        "paginas": [
+          7
+        ],
+        "fundamentacao": "Seção 7 da Apostila Aula 7.",
+        "trechos_apoio": [
+          "A irradiação de alimentos utiliza energia ionizante, como raios gama, raios X ou feixe de elétrons, em doses controladas e para finalidades autorizadas. A energia pode danificar material genético de microrganismos e insetos, reduzindo sua capacidade de multiplicação. [...] A irradiação é um processo 'a frio' no sentido de que não depende do aquecimento convencional do alimento. Ela não torna o alimento radioativo quando aplicada corretamente..."
+        ]
+      }
+    },
+    {
+      "id": "aula_7_conservacao_q032",
+      "slide_id": "aula_7_conservacao",
+      "slide_nome": "Aula 07 - Princípios de Conservação de Alimentos",
+      "arquivo_origem": "Apostila Aula 7_261111_153651.pdf",
+      "numero": 32,
+      "tema": "Seção 7",
+      "subtema": "Limitações Sanitárias e Operacionais da Irradiação",
+      "enunciado": "O emprego da radiação ionizante exige compreensão exata de suas fronteiras tecnológicas e sanitárias. De acordo com a seção 7 da apostila, a irradiação:",
+      "alternativas": {
+        "A": "Garante imunidade biológica perpétua contra recontaminações, mesmo que o alimento seja exposto a poeira e pragas em embalagens rompidas.",
+        "B": "Não substitui a higiene, o controle de temperatura ou a prevenção de recontaminação após o tratamento, e seus efeitos sobre a qualidade dependem da dose, composição, oxigênio, embalagem e sensibilidade do alimento.",
+        "C": "Inativa instantaneamente 100% dos metais pesados tóxicos presentes na água de lavagem.",
+        "D": "Apresenta eficácia uniforme e independente da composição da matriz lipídica ou da dose absorvida."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o alimento irradiado continua vulnerável à contaminação cruzada pós-processo se a embalagem for violada ou inadequada.",
+        "B": "Correta: o texto técnico detalha: \"Ela não torna o alimento radioativo quando aplicada corretamente, mas não substitui higiene, controle de temperatura ou prevenção de recontaminação após o tratamento. Efeitos sobre qualidade dependem da dose, composição, oxigênio, embalagem e sensibilidade do alimento\".",
+        "C": "Incorreta: a energia ionizante atua sobre o material biológico (DNA), não destruindo íons inorgânicos de metais pesados.",
+        "D": "Incorreta: a resposta sensorial e os efeitos de conservação variam consideravelmente conforme a dose administrada e os teores de água e lipídeos da matriz."
+      },
+      "referencia": {
+        "paginas": [
+          7
+        ],
+        "fundamentacao": "Seção 7 da Apostila Aula 7.",
+        "trechos_apoio": [
+          "Ela não torna o alimento radioativo quando aplicada corretamente, mas não substitui higiene, controle de temperatura ou prevenção de recontaminação após o tratamento. Efeitos sobre qualidade dependem da dose, composição, oxigênio, embalagem e sensibilidade do alimento."
+        ]
+      }
+    },
+    {
+      "id": "aula_7_conservacao_q033",
+      "slide_id": "aula_7_conservacao",
+      "slide_nome": "Aula 07 - Princípios de Conservação de Alimentos",
+      "arquivo_origem": "Apostila Aula 7_261111_153651.pdf",
+      "numero": 33,
+      "tema": "Seção 7",
+      "subtema": "Aplicações Práticas, Efeitos Fisiológicos e Rotulagem da Irradiação",
+      "enunciado": "Os efeitos fisiológicos e de conservação decorrentes da irradiação aplicam-se a diversas classes de matérias-primas agropecuárias. Conforme a seção 7:",
+      "alternativas": {
+        "A": "A irradiação é utilizada para transformar sacarose em amilose cerosa ramificada.",
+        "B": "Dependendo da dose e do alimento, a tecnologia pode reduzir patógenos, controlar pragas, retardar a brotação (como ilustrado para batatas e cebolas armazenadas por meses) ou ampliar a vida de prateleira, devendo a aplicação comercial seguir regulamentação pertinente e requisitos de rotulagem aplicáveis.",
+        "C": "Produtos irradiados não necessitam de qualquer símbolo ou menção de rotulagem informativa ao consumidor.",
+        "D": "A irradiação estimula a germinação e o brotamento precoce acelerado de tubérculos e bulbos hortícolas."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a energia ionizante não sintetiza amido a partir de dissacarídeos.",
+        "B": "Correta: a apostila expressa: \"Dependendo da dose e do alimento, a tecnologia pode reduzir patógenos, controlar pragas, retardar brotação ou ampliar a vida de prateleira\", citando o exemplo de batatas e cebolas cuja brotação é retardada e exigindo o cumprimento de regras de rotulagem e símbolos internacionais.",
+        "C": "Incorreta: alimentos submetidos à radiação ionizante exigem rotulagem obrigatória específica e símbolos informativos regulamentados.",
+        "D": "Incorreta: a irradiação retarda e inibe o brotamento de batatas e cebolas, prolongando sua vida comercial pós-colheita."
+      },
+      "referencia": {
+        "paginas": [
+          7
+        ],
+        "fundamentacao": "Seção 7 da Apostila Aula 7.",
+        "trechos_apoio": [
+          "Dependendo da dose e do alimento, a tecnologia pode reduzir patógenos, controlar pragas, retardar brotação ou ampliar a vida de prateleira. [...] A apresentação mostra exemplos visuais de batatas e cebolas armazenadas por meses e uma embalagem de carne com símbolo relacionado à irradiação. [...] A aplicação comercial deve seguir a regulamentação pertinente e requisitos de rotulagem aplicáveis."
+        ]
+      }
+    },
+    {
+      "id": "aula_7_conservacao_q034",
+      "slide_id": "aula_7_conservacao",
+      "slide_nome": "Aula 07 - Princípios de Conservação de Alimentos",
+      "arquivo_origem": "Apostila Aula 7_261111_153651.pdf",
+      "numero": 34,
+      "tema": "Seção 8.1",
+      "subtema": "Funções Específicas dos Gases na Atmosfera Modificada",
+      "enunciado": "Embalagens sob atmosfera modificada (EAM) utilizam combinações de gases formuladas especificamente para cada matriz alimentar. De acordo com as funções dos gases detalhadas na seção 8.1 da apostila:",
+      "alternativas": {
+        "A": "O gás CO₂ oxida gorduras insaturadas; o N₂ estimula a proliferação bacteriana; e o O₂ evita o colapso mecânico do plástico.",
+        "B": "O CO₂ pode inibir parte da microbiota deteriorante (dependendo da concentração, temperatura e produto); o N₂ é um gás relativamente inerte usado para deslocar oxigênio e reduzir o colapso da embalagem; e o O₂ pode ser necessário para manter a cor vermelha de carnes frescas em certas apresentações, mas também favorece oxidação e crescimento de aeróbios.",
+        "C": "O O₂ puro a 100% deve ser injetado em óleos vegetais refinados para impedir o ranço oxidativo.",
+        "D": "O N₂ é um gás reativo adicionado para hidrolisar quimicamente as ligações éster dos triglicerídeos."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: inverte as propriedades tecnológicas clássicas de cada gás na conservação.",
+        "B": "Correta: a seção 8.1 define rigorosamente: \"• CO₂: pode inibir parte da microbiota deteriorante, dependendo da concentração, temperatura e produto. • N₂: gás relativamente inerte, usado para deslocar oxigênio e reduzir o colapso da embalagem em certos produtos. • O₂: pode ser necessário para manter a cor vermelha de carnes frescas em determinadas apresentações, mas também favorece oxidação e crescimento de microrganismos aeróbios\".",
+        "C": "Incorreta: o oxigênio acelera fortemente a auto-oxidação lipídica e o surgimento de ranço.",
+        "D": "Incorreta: o nitrogênio é inerte e atua como gás de enchimento (filler), sem promover hidrólise química."
+      },
+      "referencia": {
+        "paginas": [
+          8,
+          1,
+          7
+        ],
+        "fundamentacao": "Seção 8.1 da Apostila Aula 7.",
+        "trechos_apoio": [
+          "8.1 Funções dos gases: • CO2: pode inibir parte da microbiota deteriorante, dependendo da concentração, temperatura e produto. • N2: gás relativamente inerte, usado para deslocar oxigênio e reduzir o colapso da embalagem em certos produtos. • O2: pode ser necessário para manter a cor vermelha de carnes frescas em determinadas apresentações, mas também favorece oxidação e crescimento de microrganismos aeróbios."
+        ]
+      }
+    },
+    {
+      "id": "aula_7_conservacao_q035",
+      "slide_id": "aula_7_conservacao",
+      "slide_nome": "Aula 07 - Princípios de Conservação de Alimentos",
+      "arquivo_origem": "Apostila Aula 7_261111_153651.pdf",
+      "numero": 35,
+      "tema": "Seção 8.1 e 8.2",
+      "subtema": "Vácuo versus Atmosfera Modificada e o Risco de Anaeróbios",
+      "enunciado": "O confinamento de alimentos em embalagens com baixo teor de oxigênio altera os equilíbrios microbiológicos do ecossistema interno. Conforme alertado nas seções 8.1 e 8.2 da apostila de apoio:",
+      "alternativas": {
+        "A": "A remoção do ar da embalagem elimina qualquer possibilidade de crescimento de bactérias patogênicas em temperatura ambiente.",
+        "B": "No vácuo o ar é removido antes do fechamento e na atmosfera modificada o ar é substituído por mistura gasosa planejada; ambos não são equivalentes, não dispensam refrigeração quando requerida e, em produtos refrigerados com pouco oxigênio, o controle de temperatura e prazo é essencial porque a redução de O₂ pode mudar o perfil de risco microbiológico e favorecer microrganismos anaeróbios se houver falhas.",
+        "C": "A embalagem a vácuo substitui a esterilização por autoclave em conservas de carnes de baixa acidez.",
+        "D": "Alimentos embalados a vácuo degradam-se exclusivamente pela proliferação de bolores filamentosos estritamente aeróbios."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: ambientes com pouco oxigênio são propícios para a multiplicação e toxinogênese de bactérias anaeróbias patogênicas caso ocorram abusos térmicos.",
+        "B": "Correta: as seções 8.1 e 8.2 esclarecem que vácuo e atmosfera modificada não são equivalentes nem dispensam a cadeia fria, alertando que a redução de oxigênio pode favorecer patógenos anaeróbios se houver falha de refrigeração ou vedação.",
+        "C": "Incorreta: o fechamento a vácuo sem processamento térmico em autoclave não inativa esporos nem esteriliza conservas cárneas de baixa acidez.",
+        "D": "Incorreta: bolores são aeróbios estritos e têm seu desenvolvimento inibido em atmosferas privadas de oxigênio gasoso."
+      },
+      "referencia": {
+        "paginas": [
+          8,
+          1,
+          2,
+          7
+        ],
+        "fundamentacao": "Seções 8.1 e 8.2 da Apostila Aula 7.",
+        "trechos_apoio": [
+          "A atmosfera modificada pode aumentar a vida comercial, mas também mudar o perfil de risco microbiológico. Embalagens com pouco oxigênio não tornam automaticamente o alimento seguro; em produtos refrigerados, o controle de temperatura, formulação, prazo de validade e perigos anaeróbios é essencial. [...] No vácuo, o ar é removido da embalagem antes do fechamento. Na atmosfera modificada, o ar é substituído por uma mistura gasosa planejada. Ambos podem reduzir oxidação e alterar a microbiota, mas não são equivalentes e não dispensam refrigeração..."
+        ]
+      }
+    },
+    {
+      "id": "aula_7_conservacao_q036",
+      "slide_id": "aula_7_conservacao",
+      "slide_nome": "Aula 07 - Princípios de Conservação de Alimentos",
+      "arquivo_origem": "Apostila Aula 7_261111_153651.pdf",
+      "numero": 36,
+      "tema": "Seção 9",
+      "subtema": "Perecibilidade Diferencial: Carne Moída versus Peças Inteiras",
+      "enunciado": "Operações de cominuição mecânica afetam radicalmente a estabilidade higiênico-sanitária de tecidos biológicos. De acordo com a seção 9 da apostila, as carnes mais subdivididas (como a carne moída) tendem a ser mais perecíveis do que peças inteiras de carne porque:",
+      "alternativas": {
+        "A": "As proteínas miofibrilares sofrem desnaturação osmótica imediata pelo cloreto de sódio nativo do músculo.",
+        "B": "A moagem aumenta a área superficial, distribui microrganismos que estavam concentrados na superfície por todo o interior e amplia o contato do produto com o oxigênio e equipamentos de manipulação.",
+        "C": "Cortes inteiros de carne não possuem microbiota em sua superfície externa durante o abate.",
+        "D": "A subdivisão mecânica transforma as gorduras insaturadas em ácidos graxos voláteis solúveis em água pura."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a moagem é uma operação mecânica de redução de partículas, não uma desnaturação salina forçada.",
+        "B": "Correta: a apostila justifica com exatidão: \"A apresentação destaca que carnes mais subdivididas, como carne moída, tendem a ser mais perecíveis do que peças inteiras. A moagem aumenta a área superficial, distribui microrganismos que estavam na superfície pelo interior e amplia o contato com oxigênio e equipamentos\".",
+        "C": "Incorreta: superfícies de peças inteiras contêm contaminação microbiana decorrente do abate e esfola; todavia, a microbiota permanece restrita à periferia da peça se o músculo estiver íntegro.",
+        "D": "Incorreta: a moagem não solubiliza lipídeos nem converte matéria graxa em compostos aquosos solúveis."
+      },
+      "referencia": {
+        "paginas": [
+          9,
+          7
+        ],
+        "fundamentacao": "Seção 9 da Apostila Aula 7.",
+        "trechos_apoio": [
+          "A apresentação destaca que carnes mais subdivididas, como carne moída, tendem a ser mais perecíveis do que peças inteiras. A moagem aumenta a área superficial, distribui microrganismos que estavam na superfície pelo interior e amplia o contato com oxigênio e equipamentos. Por isso, higiene do equipamento, temperatura, rapidez do processamento, embalagem e prazo de validade são especialmente importantes."
+        ]
+      }
+    },
+    {
+      "id": "aula_7_conservacao_q037",
+      "slide_id": "aula_7_conservacao",
+      "slide_nome": "Aula 07 - Princípios de Conservação de Alimentos",
+      "arquivo_origem": "Apostila Aula 7_261111_153651.pdf",
+      "numero": 37,
+      "tema": "Seção 9",
+      "subtema": "Conceito e Metodologia Científica de Vida de Prateleira (Shelf-Life)",
+      "enunciado": "A determinação do período de validade de um produto alimentício industrializado requer embasamento analítico multidisciplinar. Segundo a seção 9 da apostila, a vida de prateleira:",
+      "alternativas": {
+        "A": "Pode ser deduzida com segurança pela simples ausência de bolores visíveis na parte externa da embalagem.",
+        "B": "É o período em que um alimento mantém características aceitáveis e segurança sob condições definidas de produção, embalagem, transporte e armazenamento, não devendo ser estimada apenas pela aparência, podendo sua determinação exigir estudos microbiológicos, físico-químicos e sensoriais, avaliação de perigos, análise da embalagem e testes em condições previsíveis de distribuição.",
+        "C": "É fixada por um cálculo matemático arbitrário baseado na quantidade de água total da formulação.",
+        "D": "Corresponde ao tempo limite em que o alimento atinge desidratação completa por perda de água ligada."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: estimar o prazo de validade apenas pelo aspecto visual é um erro operacional que ignora patógenos e degradações não aparentes.",
+        "B": "Correta: o texto formaliza: \"A vida de prateleira é o período em que um alimento mantém características aceitáveis e segurança sob condições definidas de produção, embalagem, transporte e armazenamento. Não deve ser estimada apenas pela aparência. Sua determinação pode exigir estudos microbiológicos, físico-químicos e sensoriais, avaliação de perigos, análise da embalagem e testes em condições previsíveis de distribuição\".",
+        "C": "Incorreta: a estabilidade depende de interações complexas entre formulação, processos, Aw, embalagem e cinética de perigos, não de um cálculo simplista de umidade.",
+        "D": "Incorreta: perda total de água ligada é fenômeno térmico de secagem destrutiva, não a definição científica de vida de prateleira comercial."
+      },
+      "referencia": {
+        "paginas": [
+          9,
+          7
+        ],
+        "fundamentacao": "Seção 9 da Apostila Aula 7.",
+        "trechos_apoio": [
+          "A vida de prateleira é o período em que um alimento mantém características aceitáveis e segurança sob condições definidas de produção, embalagem, transporte e armazenamento. Não deve ser estimada apenas pela aparência. Sua determinação pode exigir estudos microbiológicos, físico-químicos e sensoriais, avaliação de perigos, análise da embalagem e testes em condições previsíveis de distribuição."
+        ]
+      }
+    },
+    {
+      "id": "aula_7_conservacao_q038",
+      "slide_id": "aula_7_conservacao",
+      "slide_nome": "Aula 07 - Princípios de Conservação de Alimentos",
+      "arquivo_origem": "Apostila Aula 7_261111_153651.pdf",
+      "numero": 38,
+      "tema": "Seção 10",
+      "subtema": "Barreiras Combinadas: Leite Pasteurizado e Vegetais Congelados (Tabela 10)",
+      "enunciado": "O Quadro-Resumo da seção 10 detalha combinações tecnológicas de barreiras e os cuidados críticos operacionais para produtos de consumo diário. Com base estritamente nessa tabela, as barreiras associadas e os respectivos cuidados essenciais para o leite pasteurizado e para os vegetais congelados são:",
+      "alternativas": {
+        "A": "Leite pasteurizado: esterilização em autoclave + secagem em tambor rotativo; Vegetais congelados: fermentação acética em salmoura.",
+        "B": "Leite pasteurizado: tratamento térmico + embalagem higiênica + refrigeração (cuidado: manter cadeia fria e respeitar validade após abertura); Vegetais congelados: branqueamento + congelamento rápido + embalagem com barreira à umidade (cuidados: branqueamento adequado e evitar oscilações térmicas).",
+        "C": "Vegetais congelados: dessecação solar direta ao ar livre sem controle de pragas.",
+        "D": "Leite pasteurizado: adição de antibióticos autorizados e conservação em temperatura ambiente."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o leite pasteurizado passa por calor brando (pasteurização), não por autoclavação de esterilização; vegetais congelados não são fermentados em vinagre.",
+        "B": "Correta: a tabela correlaciona diretamente: Leite pasteurizado → Barreiras: Tratamento térmico + embalagem higiênica + refrigeração (Cuidados: Manter cadeia fria; respeitar validade após abertura); Vegetais congelados → Barreiras: Branqueamento + congelamento rápido + embalagem com barreira à umidade (Cuidados: Branqueamento adequado; evitar oscilações térmicas).",
+        "C": "Incorreta: vegetais congelados dependem da tecnologia do frio rápido associada ao branqueamento prévio, sem secagem ao sol.",
+        "D": "Incorreta: aditivos antibióticos são proibidos no leite e sua conservação depende compulsoriamente da cadeia fria."
+      },
+      "referencia": {
+        "paginas": [
+          10,
+          7
+        ],
+        "fundamentacao": "Tabela da seção 10 da Apostila Aula 7.",
+        "trechos_apoio": [
+          "| Leite pasteurizado | Tratamento térmico + embalagem higiênica + refrigeração. | Manter cadeia fria; respeitar validade após abertura. | Vegetais congelados | Branqueamento + congelamento rápido + embalagem com barreira à umidade. | Branqueamento adequado; evitar oscilações térmicas. |"
+        ]
+      }
+    },
+    {
+      "id": "aula_7_conservacao_q039",
+      "slide_id": "aula_7_conservacao",
+      "slide_nome": "Aula 07 - Princípios de Conservação de Alimentos",
+      "arquivo_origem": "Apostila Aula 7_261111_153651.pdf",
+      "numero": 39,
+      "tema": "Seção 10",
+      "subtema": "Barreiras Combinadas: Frutas Secas, Carnes e Alimentos Acidificados (Tabela 10)",
+      "enunciado": "A integração sinérgica de parâmetros intrínsecos e extrínsecos assegura a estabilidade de diferentes classes de alimentos industrializados. Conforme as especificações da Tabela 10 da apostila:",
+      "alternativas": {
+        "A": "Frutas secas dependem exclusivamente de embalagem aberta para que o vapor de água atmosférico umedeça a casca.",
+        "B": "Frutas secas utilizam redução de Aw + embalagem protetora (cuidado: evitar reabsorção de água e bolores); Alimentos acidificados utilizam pH controlado + tratamento e envase adequados (cuidado: medir pH de equilíbrio e seguir processo validado); e Carnes em atmosfera modificada utilizam gases selecionados + embalagem de alta barreira + cadeia fria (cuidado: validar mistura, prazo e riscos microbiológicos).",
+        "C": "Alimentos acidificados dispensam a medição do pH de equilíbrio caso tenham sido envasados a quente.",
+        "D": "Carnes em atmosfera modificada dispensam o controle de temperatura fria durante o transporte comercial."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: embalagens permeáveis facilitam a reidratação do fruto seco e o desenvolvimento de bolores xerófilos deteriorantes.",
+        "B": "Correta: a tabela formaliza: Frutas secas → Redução de Aw + embalagem protetora (evitar reabsorção de água e bolores); Alimento acidificado → pH controlado + tratamento e envase adequados (medir pH de equilíbrio e seguir processo validado); Carne em atmosfera modificada → Gases selecionados + embalagem de alta barreira + cadeia fria (validar mistura, prazo e riscos microbiológicos).",
+        "C": "Incorreta: o monitoramento analítico do pH de equilíbrio é mandatório para assegurar a inibição de germinação de esporos patogênicos.",
+        "D": "Incorreta: a manutenção rigorosa da cadeia fria é requisito primordial em produtos cárneos frescos sob atmosfera modificada."
+      },
+      "referencia": {
+        "paginas": [
+          10,
+          7
+        ],
+        "fundamentacao": "Tabela da seção 10 da Apostila Aula 7.",
+        "trechos_apoio": [
+          "| Frutas secas | Redução de aw + embalagem protetora. | Evitar reabsorção de água e crescimento de bolores. | Carne em atmosfera modificada | Gases selecionados + embalagem de alta barreira + cadeia fria. | Validar mistura, prazo e riscos microbiológicos. | Alimento acidificado | pH controlado + tratamento e envase adequados. | Medir pH de equilíbrio; seguir processo validado e norma específica. |"
+        ]
+      }
+    },
+    {
+      "id": "aula_7_conservacao_q040",
+      "slide_id": "aula_7_conservacao",
+      "slide_nome": "Aula 07 - Princípios de Conservação de Alimentos",
+      "arquivo_origem": "Apostila Aula 7_261111_153651.pdf",
+      "numero": 40,
+      "tema": "Seção 10",
+      "subtema": "O Princípio Central da Tecnologia de Barreiras",
+      "enunciado": "Ao concluir as diretrizes sobre os princípios de conservação, a apostila formula a síntese epistemológica que orienta a tecnologia moderna de alimentos. Segundo a seção 10:",
+      "alternativas": {
+        "A": "A inocuidade de um alimento é garantida pelo nome de prestígio comercial atribuído ao método industrial de fabricação.",
+        "B": "O conceito de \"tecnologia de barreiras\" é central: a segurança decorre da combinação e do controle de fatores, e não do nome do método; uma etapa não validada, uma falha de vedação ou uma quebra da cadeia fria pode comprometer todo o sistema.",
+        "C": "Qualquer método tradicional elimina a necessidade de controle de vedação em embalagens termosseladas.",
+        "D": "As falhas operacionais na cadeia fria não afetam a segurança de produtos estocados sob atmosfera com pouco oxigênio."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a segurança microbiológica não decorre do rótulo ou da denominação comercial da tecnologia, mas do controle real dos parâmetros físico-químicos e cinéticos.",
+        "B": "Correta: a apostila conclui de modo definitivo: \"O conceito de 'tecnologia de barreiras' é central: a segurança decorre da combinação e do controle de fatores, e não do nome do método. Uma etapa não validada, uma falha de vedação ou uma quebra da cadeia fria pode comprometer o sistema\".",
+        "C": "Incorreta: a integridade física da vedação da embalagem é requisito indispensável para a manutenção das barreiras protetoras.",
+        "D": "Incorreta: abusos de temperatura rompem a estabilidade microbiológica e viabilizam o crescimento de patógenos anaeróbios."
+      },
+      "referencia": {
+        "paginas": [
+          10,
+          7
+        ],
+        "fundamentacao": "Seção 10 da Apostila Aula 7.",
+        "trechos_apoio": [
+          "O conceito de 'tecnologia de barreiras' é central: a segurança decorre da combinação e do controle de fatores, e não do nome do método. Uma etapa não validada, uma falha de vedação ou uma quebra da cadeia fria pode comprometer o sistema."
         ]
       }
     }
   ]
 }
-

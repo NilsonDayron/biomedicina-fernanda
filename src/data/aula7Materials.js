@@ -1,3 +1,8 @@
+import rawBromatologiaAula02 from '../../bromatologia_aula_02.json' with { type: 'json' }
+import rawBromatologiaAula03 from '../../bromatologia_aula_03.json' with { type: 'json' }
+import rawBromatologiaAula04 from '../../bromatologia_aula_04.json' with { type: 'json' }
+import rawBromatologiaAula05 from '../../bromatologia_aula_05.json' with { type: 'json' }
+import rawBromatologiaAula06 from '../../bromatologia_aula_06.json' with { type: 'json' }
 import rawDeterioracao from '../../aula_7_deterioracao.json' with { type: 'json' }
 import rawConservacao from '../../aula_7_conservacao.json' with { type: 'json' }
 import rawOrigemVidaAula01 from '../../origem_vida_aula_01.json' with { type: 'json' }
@@ -51,7 +56,7 @@ export const DISCIPLINE_DEFINITIONS = [
     icone: '📁',
     resumoCabecalho: '2º período · Bromatologia e Tecnologia de Alimentos',
     descricao:
-      'Deterioração dos alimentos e Princípios de conservação de alimentos.',
+      'Amostragem de alimentos, água nos alimentos e atividade de água (Aw), glicídios, proteínas, lipídeos, deterioração dos alimentos e princípios de conservação de alimentos.',
   },
   {
     id: 'origem-vida',
@@ -77,26 +82,81 @@ export const DISCIPLINE_DEFINITIONS = [
 
 const JSON_MATERIAL_DEFINITIONS = [
   {
-    file: 'aula_7_deterioracao.json',
-    arquivoOrigem: 'Aula 7 - Deterioração dos alimentos.pdf',
-    slide_id: 'aula_7_deterioracao',
-    nome: 'Aula 7 - Deterioração dos alimentos',
+    file: 'bromatologia_aula_02.json',
+    arquivoOrigem: 'aula 2 Amostragem_261006_203124.pdf',
+    slide_id: 'bromatologia_aula_02',
+    nome: 'Aula 02 - Amostragem',
     disciplineId: 'bromatologia',
     disciplineNome: 'Bromatologia e Tecnologia de Alimentos',
-    blurb: 'Fatores intrínsecos e extrínsecos, atividade de água (Aa), pH, oxidação lipídica, escurecimento e deterioração microbiana.',
+    blurb: 'Amostragem ampla e estatística, lotes homogêneos e estratificados, planos por atributos e variáveis, planos de duas e três classes (n, c, m, M) e preparo de amostras.',
+    rawData: rawBromatologiaAula02,
+    esperado: 35,
+  },
+  {
+    file: 'bromatologia_aula_03.json',
+    arquivoOrigem: 'Aula_03_Agua_nos_Alimentos_Bromatologia_261006_203158.pdf',
+    slide_id: 'bromatologia_aula_03',
+    nome: 'Aula 03 - Água nos Alimentos',
+    disciplineId: 'bromatologia',
+    disciplineNome: 'Bromatologia e Tecnologia de Alimentos',
+    blurb: 'Água livre e água ligada, teor de umidade e métodos analíticos (estufa, infravermelho, Karl Fischer), atividade de água (Aw), isotermas de sorção, histerese e estabilidade.',
+    rawData: rawBromatologiaAula03,
+    esperado: 40,
+  },
+  {
+    file: 'bromatologia_aula_04.json',
+    arquivoOrigem: 'aula 4 GLICÍDIOS_261006_203135.pdf',
+    slide_id: 'bromatologia_aula_04',
+    nome: 'Aula 04 - Glicídios',
+    disciplineId: 'bromatologia',
+    disciplineNome: 'Bromatologia e Tecnologia de Alimentos',
+    blurb: 'Monossacarídeos, dissacarídeos e polissacarídeos, ligação glicosídica, açúcares redutores e invertidos, amido (amilose e amilopectina), gelatinização, retrogradação, reação de Maillard e caramelização.',
+    rawData: rawBromatologiaAula04,
+    esperado: 40,
+  },
+  {
+    file: 'bromatologia_aula_05.json',
+    arquivoOrigem: 'Aula 5 - Proteinas_261006_203142.pdf',
+    slide_id: 'bromatologia_aula_05',
+    nome: 'Aula 05 - Proteínas',
+    disciplineId: 'bromatologia',
+    disciplineNome: 'Bromatologia e Tecnologia de Alimentos',
+    blurb: 'Aminoácidos e ligação peptídica, estruturas primária a quaternária, desnaturação proteica, propriedades funcionais (hidratação, emulsificação, geleificação, espuma) e método de Kjeldahl.',
+    rawData: rawBromatologiaAula05,
+    esperado: 40,
+  },
+  {
+    file: 'bromatologia_aula_06.json',
+    arquivoOrigem: 'aula 6 LIPÍDEOS_261106_195058.pdf',
+    slide_id: 'bromatologia_aula_06',
+    nome: 'Aula 06 - Lipídeos',
+    disciplineId: 'bromatologia',
+    disciplineNome: 'Bromatologia e Tecnologia de Alimentos',
+    blurb: 'Glicerídeos, ácidos graxos saturados e insaturados, isomeria cis e trans, hidrogenação, interesterificação, fracionamento e rancidez hidrolítica e oxidativa.',
+    rawData: rawBromatologiaAula06,
+    esperado: 40,
+  },
+  {
+    file: 'aula_7_deterioracao.json',
+    arquivoOrigem: 'AULA 7 deterioracao dos alimentos_261110_194314.pdf',
+    slide_id: 'aula_7_deterioracao',
+    nome: 'Aula 07 - Deterioração dos Alimentos',
+    disciplineId: 'bromatologia',
+    disciplineNome: 'Bromatologia e Tecnologia de Alimentos',
+    blurb: 'Classificação por perecibilidade, agentes microbiológicos, enzimáticos, químicos e físicos, ranço, putrefação, azedamento e princípios de conservação.',
     rawData: rawDeterioracao,
-    esperado: 10,
+    esperado: 40,
   },
   {
     file: 'aula_7_conservacao.json',
-    arquivoOrigem: 'Apostila Aula 7 - Princípios de conservação de alimentos.pdf',
+    arquivoOrigem: 'Apostila Aula 7_261111_153651.pdf',
     slide_id: 'aula_7_conservacao',
-    nome: 'Apostila Aula 7 - Princípios de conservação de alimentos',
+    nome: 'Aula 07 - Princípios de Conservação de Alimentos',
     disciplineId: 'bromatologia',
     disciplineNome: 'Bromatologia e Tecnologia de Alimentos',
-    blurb: 'Métodos de conservação pelo calor, frio, controle de umidade, aditivos e barreiras.',
+    blurb: 'Segurança sanitária vs. deterioração, BPF/POP/APPCC, tecnologia de barreiras, refrigeração, congelamento, pasteurização, esterilização comercial, secagem, liofilização, salga, cura, defumação, irradiação e atmosfera modificada.',
     rawData: rawConservacao,
-    esperado: 10,
+    esperado: 40,
   },
   {
     file: 'origem_vida_aula_01.json',

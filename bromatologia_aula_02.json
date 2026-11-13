@@ -1,0 +1,1129 @@
+{
+  "questoes": [
+    {
+      "id": "bromatologia_aula_02_q001",
+      "slide_id": "bromatologia_aula_02",
+      "slide_nome": "Aula 02 - Amostragem",
+      "arquivo_origem": "aula 2 Amostragem_261006_203124.pdf",
+      "numero": 1,
+      "tema": "Fundamentos da Amostragem",
+      "subtema": "Definições de Amostragem Ampla e Estatística",
+      "enunciado": "Em análise de alimentos, a amostragem pode ser compreendida sob uma definição ampla ou sob uma definição estatística específica. De acordo com a apostila, a amostragem estatística caracteriza-se formalmente como o procedimento pelo qual:",
+      "alternativas": {
+        "A": "Retira-se qualquer fração de um produto sem necessidade de conhecimento prévio sobre o volume total do lote.",
+        "B": "Obtém-se uma amostra representativa a partir de uma quantidade conhecida de produto.",
+        "C": "Coleta-se apenas a fração superficial de um produto a granel para agilizar a rotina laboratorial.",
+        "D": "Separa-se a porção final que sobra após o consumo de um lote de alimentos embalados."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: retirar qualquer porção sem considerar a representatividade ou o tamanho conhecido refere-se à definição ampla de amostragem, e não à estatística.",
+        "B": "Correta: a definição específica estabelece que a amostragem estatística é o procedimento pelo qual se obtém uma amostra representativa de uma quantidade conhecida de produto.",
+        "C": "Incorreta: a amostragem estatística exige critérios de representatividade de todo o conjunto, e não apenas a retirada superficial.",
+        "D": "Incorreta: a amostragem não se restringe a sobras de consumo, mas sim à retirada planejada e representativa de um lote conhecido."
+      },
+      "referencia": {
+        "paginas": [
+          2
+        ],
+        "fundamentacao": "Slide 2 da apostila.",
+        "trechos_apoio": [
+          "2 - Definição específica: Amostragem estatística é procedimento pelo qual é obtida uma amostra representativa, de uma quantidade conhecida de produto."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_02_q002",
+      "slide_id": "bromatologia_aula_02",
+      "slide_nome": "Aula 02 - Amostragem",
+      "arquivo_origem": "aula 2 Amostragem_261006_203124.pdf",
+      "numero": 2,
+      "tema": "Conceitos Fundamentais",
+      "subtema": "Condição para Amostras Representativas e Lotes Homogêneos",
+      "enunciado": "A representatividade de uma amostra é essencial para garantir a confiabilidade analítica. Segundo os conceitos apresentados no material, amostras representativas somente podem ser obtidas a partir de:",
+      "alternativas": {
+        "A": "Lotes totalmente heterogêneos sem qualquer tipo de fracionamento ou divisão.",
+        "B": "Lotes homogêneos, ou de porções homogêneas de lotes heterogêneos.",
+        "C": "Qualquer alimento embalado, independentemente da homogeneidade da característica pesquisada.",
+        "D": "Amostras brutas coletadas exclusivamente no fundo dos recipientes de armazenamento."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: de um lote heterogêneo não se obtém amostra representativa direta sem isolar suas porções homogêneas.",
+        "B": "Correta: o conceito formal dita que amostras representativas só podem ser obtidas de lotes homogêneos ou de porções homogêneas de lotes heterogêneos.",
+        "C": "Incorreta: o simples fato de o produto estar embalado não garante representatividade se a característica não for homogênea no lote ou na fração.",
+        "D": "Incorreta: coletar apenas do fundo não garante representatividade e contraria a técnica para fluidos, que exige coleta no topo, meio e fundo."
+      },
+      "referencia": {
+        "paginas": [
+          3
+        ],
+        "fundamentacao": "Slide 3 da apostila.",
+        "trechos_apoio": [
+          "Amostras representativas somente podem ser obtidas de lotes homogêneos, ou de porções homogêneas de lotes heterogêneos."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_02_q003",
+      "slide_id": "bromatologia_aula_02",
+      "slide_nome": "Aula 02 - Amostragem",
+      "arquivo_origem": "aula 2 Amostragem_261006_203124.pdf",
+      "numero": 3,
+      "tema": "Tipos de Amostragem",
+      "subtema": "Amostragem Estratificada",
+      "enunciado": "Quando um analista se depara com um lote classificado como heterogêneo em relação à característica avaliada, a metodologia de amostragem indicada pelo material consiste na realização da amostragem em suas porções homogêneas, processo denominado:",
+      "alternativas": {
+        "A": "Amostragem ampla.",
+        "B": "Amostragem destrutiva contínua.",
+        "C": "Amostragem estratificada.",
+        "D": "Amostragem empírica pontual."
+      },
+      "gabarito": "C",
+      "explicacoes": {
+        "A": "Incorreta: amostragem ampla é a simples obtenção de uma porção de um produto, sem a divisão metódica em porções homogêneas.",
+        "B": "Incorreta: o termo técnico definido para a divisão de lotes heterogêneos em frações homogêneas é amostragem estratificada.",
+        "C": "Correta: a apostila define explicitamente que, quando os lotes forem heterogêneos, a amostragem realizada em porções homogêneas chama-se amostragem estratificada.",
+        "D": "Incorreta: amostragem empírica pontual não é uma definição técnica adotada pelo texto da aula."
+      },
+      "referencia": {
+        "paginas": [
+          3
+        ],
+        "fundamentacao": "Slide 3 da apostila.",
+        "trechos_apoio": [
+          "Quando os lotes forem heterogêneos, a amostragem realizada em porções homogêneas é denominada amostragem estratificada."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_02_q004",
+      "slide_id": "bromatologia_aula_02",
+      "slide_nome": "Aula 02 - Amostragem",
+      "arquivo_origem": "aula 2 Amostragem_261006_203124.pdf",
+      "numero": 4,
+      "tema": "Características do Lote",
+      "subtema": "Lote Homogêneo e Distribuição de Características",
+      "enunciado": "A respeito da homogeneidade de um lote em bromatologia, a apostila afirma que um lote homogêneo é aquele cuja característica pesquisada está uniformemente distribuída. Sobre essa propriedade, é correto afirmar que:",
+      "alternativas": {
+        "A": "Um lote que é homogêneo para uma dada característica pode ser heterogêneo para outra.",
+        "B": "A homogeneidade de um lote é absoluta, ou seja, se for homogêneo para um parâmetro físico, será automaticamente para todos os outros.",
+        "C": "Alimentos sólidos nunca podem compor lotes homogêneos em nenhuma circunstância.",
+        "D": "A característica pesquisada nunca se distribui de maneira uniforme em produtos alimentícios."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: o texto destaca expressamente que a homogeneidade depende do parâmetro avaliado, podendo o lote ser homogêneo para uma característica e heterogêneo para outra.",
+        "B": "Incorreta: contraria o texto da aula, pois a homogeneidade não é universal para todas as variáveis simultaneamente.",
+        "C": "Incorreta: alimentos sólidos podem formar lotes homogêneos ou frações homogêneas para determinadas características de interesse.",
+        "D": "Incorreta: o próprio conceito de lote homogêneo baseia-se na distribuição uniforme da característica pesquisada em todo o produto do lote."
+      },
+      "referencia": {
+        "paginas": [
+          4
+        ],
+        "fundamentacao": "Slide 4 da apostila.",
+        "trechos_apoio": [
+          "Um lote pode ser homogêneo para uma dada característica e ser heterogêneo para outra"
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_02_q005",
+      "slide_id": "bromatologia_aula_02",
+      "slide_nome": "Aula 02 - Amostragem",
+      "arquivo_origem": "aula 2 Amostragem_261006_203124.pdf",
+      "numero": 5,
+      "tema": "Âmbito de Aplicação",
+      "subtema": "Tipos de Produtos e Lotes",
+      "enunciado": "A amostragem na indústria e fiscalização de alimentos possui diferentes âmbitos de aplicação. Conforme estruturado na apostila, a amostragem pode ser aplicada quanto à forma de apresentação do alimento e à dinâmica do lote, respectivamente, em:",
+      "alternativas": {
+        "A": "Produtos sólidos apenas e lotes de descarte imediato.",
+        "B": "Produtos embalados ou a granel, e em lotes isolados ou contínuos.",
+        "C": "Produtos de origem animal unicamente e lotes sazonais.",
+        "D": "Alimentos desidratados apenas e lotes fracionados de laboratório."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a amostragem abrange tanto produtos a granel quanto embalados, não se restringindo a sólidos nem a descarte.",
+        "B": "Correta: o esquema do slide detalha o âmbito de aplicação em \"Produtos a granel / Produtos embalados\" e \"Lotes isolados / Lotes contínuos\".",
+        "C": "Incorreta: o âmbito de aplicação não é exclusivo de produtos de origem animal.",
+        "D": "Incorreta: aplica-se a produtos a granel e embalados em geral, e não somente a alimentos desidratados."
+      },
+      "referencia": {
+        "paginas": [
+          5
+        ],
+        "fundamentacao": "Slide 5 da apostila.",
+        "trechos_apoio": [
+          "Âmbito de Aplicação: Produtos a granel / Produtos embalados [...] Lotes isolados / Lotes contínuos"
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_02_q006",
+      "slide_id": "bromatologia_aula_02",
+      "slide_nome": "Aula 02 - Amostragem",
+      "arquivo_origem": "aula 2 Amostragem_261006_203124.pdf",
+      "numero": 6,
+      "tema": "Planos de Aceitação",
+      "subtema": "Definição e Fundamentos",
+      "enunciado": "Os planos de amostragem de aceitação são ferramentas cruciais no controle de qualidade. De acordo com a aula, esses planos consistem em procedimentos que:",
+      "alternativas": {
+        "A": "São inteiramente empíricos e dispensam modelos matemáticos ou estatísticos.",
+        "B": "Visam aceitar 100% dos lotes produzidos sem estabelecer critérios de rejeição prévios.",
+        "C": "São matematicamente definidos e baseados em cálculos de probabilidades para aceitar ou rejeitar um lote.",
+        "D": "Aplicam-se livremente a lotes totalmente heterogêneos sem necessidade de estratificação."
+      },
+      "gabarito": "C",
+      "explicacoes": {
+        "A": "Incorreta: os planos de aceitação são construídos a partir de modelos matemáticos e não de métodos puramente empíricos.",
+        "B": "Incorreta: eles contêm critérios claros tanto de aceitação quanto de rejeição para níveis prévios de qualidade.",
+        "C": "Correta: a definição oficial apresentada indica que são procedimentos matematicamente definidos, baseados em cálculos de probabilidades, que permitem aceitar ou rejeitar um lote.",
+        "D": "Incorreta: a apostila ressalta que esses planos só se aplicam a lotes homogêneos ou a porções homogêneas de lotes heterogêneos."
+      },
+      "referencia": {
+        "paginas": [
+          6,
+          7
+        ],
+        "fundamentacao": "Slides 6 e 7 da apostila.",
+        "trechos_apoio": [
+          "Planos de amostragem de aceitação são procedimentos de amostragem, matematicamente definidos, que permitem a aceitação ou rejeição de um lote de acordo com critérios estatísticos [...] baseados em cálculos de probabilidades"
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_02_q007",
+      "slide_id": "bromatologia_aula_02",
+      "slide_nome": "Aula 02 - Amostragem",
+      "arquivo_origem": "aula 2 Amostragem_261006_203124.pdf",
+      "numero": 7,
+      "tema": "Tipos de Planos de Aceitação",
+      "subtema": "Amostragem por Atributos",
+      "enunciado": "Na classificação geral dos planos de aceitação, a amostragem por atributos é utilizada para características de qualidade específicas. Segundo a apostila, uma característica por atributo é aquela expressa em:",
+      "alternativas": {
+        "A": "Sistema binário (como passa/não passa, atende/não atende, presença/ausência).",
+        "B": "Escala numérica contínua infinita com casas decimais.",
+        "C": "Faixas de valores térmicos com limites máximos e mínimos.",
+        "D": "Porcentagens contínuas de acidez titulável e umidade."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: o texto define atributo como toda característica de qualidade expressa em sistema binário (passa/não passa, atende/não atende, presença/ausência, positivo/negativo).",
+        "B": "Incorreta: características expressas em escala contínua referem-se à amostragem por variáveis.",
+        "C": "Incorreta: limites expressos em faixas contínuas de valores pertencem à categoria de variáveis.",
+        "D": "Incorreta: porcentagens contínuas (como umidade e acidez) são variáveis, não atributos binários."
+      },
+      "referencia": {
+        "paginas": [
+          8
+        ],
+        "fundamentacao": "Slide 8 da apostila.",
+        "trechos_apoio": [
+          "Atributo: É toda a característica de qualidade que pode ser expressa em sistema binário, ou seja, do tipo: a) Passa – não passa; b) Atende - não atende; c) Presença - ausência; d) Positivo - negativo."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_02_q008",
+      "slide_id": "bromatologia_aula_02",
+      "slide_nome": "Aula 02 - Amostragem",
+      "arquivo_origem": "aula 2 Amostragem_261006_203124.pdf",
+      "numero": 8,
+      "tema": "Tipos de Planos de Aceitação",
+      "subtema": "Amostragem por Variáveis",
+      "enunciado": "Em contraste com os atributos, a amostragem por variáveis lida com características cujos valores são expressos em escala contínua. Segundo o material, os limites para essas variáveis podem ser expressos como:",
+      "alternativas": {
+        "A": "Exclusivamente no formato qualitativo \"positivo ou negativo\".",
+        "B": "Limite máximo, limite mínimo ou um intervalo restrito entre limites (Lm ≤ X ≤ LM).",
+        "C": "Apenas pelo critério binário \"atende ou não atende\".",
+        "D": "Fatores arbitrários sem qualquer correlação com unidades de medida."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: positivo/negativo é um formato típico do sistema binário de atributos.",
+        "B": "Correta: a variável pode assumir valores discretos ou contínuos e seus limites podem ser do tipo \"Máximo de...\", \"Mínimo de...\" ou situados entre limites (Lm ≤ X ≤ LM).",
+        "C": "Incorreta: a expressão \"atende - não atende\" é clássica de atributos binários.",
+        "D": "Incorreta: as variáveis trabalham com valores e escalas contínuas mensuráveis."
+      },
+      "referencia": {
+        "paginas": [
+          9
+        ],
+        "fundamentacao": "Slide 9 da apostila.",
+        "trechos_apoio": [
+          "Variável: É toda a característica de qualidade cujos valores são expressos em escala contínua [...] Os limites podem ser do tipo: a) Máximo de....; b) Mínimo de....; c) Lm ≤ X ≤ LM"
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_02_q009",
+      "slide_id": "bromatologia_aula_02",
+      "slide_nome": "Aula 02 - Amostragem",
+      "arquivo_origem": "aula 2 Amostragem_261006_203124.pdf",
+      "numero": 9,
+      "tema": "Planos Microbiológicos",
+      "subtema": "Plano de Duas Classes",
+      "enunciado": "Nos planos de amostragem para análises microbiológicas, o plano de duas classes divide o produto estritamente em aceitável ou inaceitável. Nesse tipo de plano, o critério baseia-se em:",
+      "alternativas": {
+        "A": "Três categorias de contagem: aceitável, intermediária e rejeitada.",
+        "B": "Um limite microbiológico como critério de aceitação ou rejeição (m ou M), dividindo as unidades entre conformes e não conformes.",
+        "C": "Faixas de tolerância marginal onde até metade das amostras pode exceder o valor máximo M.",
+        "D": "Análises químicas exclusivas de umidade e cinzas."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a divisão em três categorias (aceitável, marginal e inaceitável) caracteriza o plano de três classes.",
+        "B": "Correta: no plano de duas classes, o produto é classificado diretamente como aceitável ou inaceitável em função de um limite microbiológico estabelecido.",
+        "C": "Incorreta: faixas de qualidade marginal não existem no plano de duas classes; são exclusivas do plano de três classes.",
+        "D": "Incorreta: trata-se de um plano de avaliação microbiológica, não de análises físico-químicas de cinzas ou umidade."
+      },
+      "referencia": {
+        "paginas": [
+          11,
+          13
+        ],
+        "fundamentacao": "Slides 11 e 13 da apostila.",
+        "trechos_apoio": [
+          "Planos de duas classes: Produto aceitável ou inaceitável em função do índice microbiológico como critério de aceitação ou rejeição (m)."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_02_q010",
+      "slide_id": "bromatologia_aula_02",
+      "slide_nome": "Aula 02 - Amostragem",
+      "arquivo_origem": "aula 2 Amostragem_261006_203124.pdf",
+      "numero": 10,
+      "tema": "Planos Microbiológicos",
+      "subtema": "Plano de Três Classes",
+      "enunciado": "Em um plano de amostragem microbiológica de três classes, os resultados analíticos das contagens microbiológicas são classificados em três faixas de qualidade. Conforme o material, um lote ou unidade é considerado de qualidade marginal quando suas contagens situam-se:",
+      "alternativas": {
+        "A": "Estritamente abaixo ou iguais ao limite m (contagens ≤ m).",
+        "B": "Exclusivamente acima do limite superior M (contagens > M).",
+        "C": "Entre os limites estabelecidos m e M (contagens entre m e M).",
+        "D": "Exatamente iguais a zero em todas as repetições analíticas."
+      },
+      "gabarito": "C",
+      "explicacoes": {
+        "A": "Incorreta: contagens menores ou iguais a m qualificam o produto como \"inteiramente aceitável\".",
+        "B": "Incorreta: contagens superiores a M classificam o produto ou lote diretamente como \"inaceitável\".",
+        "C": "Correta: a qualidade marginal (ou qualidade intermediária aceitável) ocorre exatamente quando as contagens estão situadas entre os limites m e M.",
+        "D": "Incorreta: contagens nulas ou abaixo de m representam aceitação plena, e não a faixa marginal."
+      },
+      "referencia": {
+        "paginas": [
+          12
+        ],
+        "fundamentacao": "Slide 12 da apostila.",
+        "trechos_apoio": [
+          "Planos de três classes em função das contagens microbiológicas, admite-se: Inteiramente aceitável ( contagens ≤ m) Qualidade marginal (contagens entre m e M) * Inaceitável (contagens >M)"
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_02_q011",
+      "slide_id": "bromatologia_aula_02",
+      "slide_nome": "Aula 02 - Amostragem",
+      "arquivo_origem": "aula 2 Amostragem_261006_203124.pdf",
+      "numero": 11,
+      "tema": "Planos Microbiológicos",
+      "subtema": "Parâmetro n",
+      "enunciado": "Nos planos de amostragem microbiológica regulamentados, o símbolo n desempenha uma função amostral indispensável. De acordo com a apostila, n é definido tecnicamente como:",
+      "alternativas": {
+        "A": "O número total de embalagens que constituem o lote industrial fabricado.",
+        "B": "O número de unidades a serem colhidas aleatoriamente de um mesmo lote e analisadas individualmente.",
+        "C": "O número máximo de unidades toleradas que podem ultrapassar o limite inaceitável M.",
+        "D": "O fator empírico de correção associado à homogeneidade da matriz alimentar."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o número total de unidades do lote é denominado população e representado por n minúsculo na fórmula matemática de lotes grandes, e não o tamanho da amostra colhida.",
+        "B": "Correta: na definição dos planos microbiológicos, n corresponde exatamente ao número de unidades colhidas aleatoriamente do lote para análise individual.",
+        "C": "Incorreta: o número de unidades toleradas na faixa marginal é representado pela letra c, sendo que nenhuma unidade pode ultrapassar M.",
+        "D": "Incorreta: o fator ligado ao grau de precisão e homogeneidade é representado pela letra c na fórmula de dimensionamento de amostra bruta."
+      },
+      "referencia": {
+        "paginas": [
+          14
+        ],
+        "fundamentacao": "Slide 14 da apostila.",
+        "trechos_apoio": [
+          "n: é o número de unidades a serem colhidas aleatoriamente de um mesmo lote e analisadas individualmente."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_02_q012",
+      "slide_id": "bromatologia_aula_02",
+      "slide_nome": "Aula 02 - Amostragem",
+      "arquivo_origem": "aula 2 Amostragem_261006_203124.pdf",
+      "numero": 12,
+      "tema": "Planos Microbiológicos",
+      "subtema": "Parâmetro m",
+      "enunciado": "Em um plano de amostragem de três classes, o parâmetro m estabelece um ponto de corte analítico decisivo. Segundo o texto da aula, o limite m é aquele que:",
+      "alternativas": {
+        "A": "Separa o produto de qualidade intermediária aceitável do lote totalmente inaceitável.",
+        "B": "Separa o lote aceitável do produto ou lote com qualidade intermediária aceitável.",
+        "C": "Representa a contagem máxima letal que invalida a comercialização do produto alimentício.",
+        "D": "Define a quantidade em gramas da alíquota homogeneizada em caldo nutritivo."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o limite que separa a qualidade intermediária aceitável da inaceitável é o limite M, e não m.",
+        "B": "Correta: a apostila define explicitamente que m é o limite que, em um plano de três classes, separa o lote aceitável do produto ou lote com qualidade intermediária aceitável.",
+        "C": "Incorreta: valores acima de M (e não de m) determinam a inaceitabilidade imediata do produto.",
+        "D": "Incorreta: a proporção em gramas da alíquota é uma instrução de preparo analítico (peso/volume), sem relação conceitual com o limite m."
+      },
+      "referencia": {
+        "paginas": [
+          14
+        ],
+        "fundamentacao": "Slide 14 da apostila.",
+        "trechos_apoio": [
+          "m: é o limite que, em um plano de três classes, separa o lote aceitável do produto ou lote com qualidade intermediária aceitável."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_02_q013",
+      "slide_id": "bromatologia_aula_02",
+      "slide_nome": "Aula 02 - Amostragem",
+      "arquivo_origem": "aula 2 Amostragem_261006_203124.pdf",
+      "numero": 13,
+      "tema": "Planos Microbiológicos",
+      "subtema": "Parâmetro M",
+      "enunciado": "Conforme os conceitos apresentados na apostila, o parâmetro M tem interpretações fundamentadas tanto em planos de duas classes quanto de três classes. A esse respeito, é correto afirmar que:",
+      "alternativas": {
+        "A": "Em um plano de três classes, qualquer unidade amostral com contagem acima de M torna o lote inaceitável.",
+        "B": "Valores que ultrapassam M são plenamente tolerados desde que não excedam o valor de c.",
+        "C": "No plano de duas classes, M é o limite que define a qualidade intermediária permitida.",
+        "D": "O limite M estabelece a contagem microbiológica ideal onde o lote é classificado como inteiramente puro."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: o texto dita categoricamente que valores acima de M são inaceitáveis e nenhuma das unidades n pode apresentar valores superiores a M.",
+        "B": "Incorreta: o parâmetro c aplica-se apenas a unidades com contagens situadas entre m e M; contagens maiores que M nunca são aceitas.",
+        "C": "Incorreta: não existe qualidade intermediária no plano de duas classes; nela o produto é estritamente aceitável ou inaceitável.",
+        "D": "Incorreta: a faixa inteiramente aceitável é delimitada por contagens menores ou iguais a m."
+      },
+      "referencia": {
+        "paginas": [
+          14,
+          15
+        ],
+        "fundamentacao": "Slides 14 e 15 da apostila.",
+        "trechos_apoio": [
+          "Valores acima de M são inaceitáveis [...] Nenhuma das unidades n pode apresentar valores superiores ao M."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_02_q014",
+      "slide_id": "bromatologia_aula_02",
+      "slide_nome": "Aula 02 - Amostragem",
+      "arquivo_origem": "aula 2 Amostragem_261006_203124.pdf",
+      "numero": 14,
+      "tema": "Planos Microbiológicos",
+      "subtema": "Parâmetro c no Plano de Três Classes",
+      "enunciado": "Em um plano microbiológico de três classes, a letra c representa uma tolerância numérica específica. De acordo com a apostila, c indica:",
+      "alternativas": {
+        "A": "O número mínimo de amostras que devem apresentar contagens estritamente nulas.",
+        "B": "O número total de diluições decimais necessárias na rotina de semeadura em placa.",
+        "C": "O número máximo aceitável de unidades de amostras com contagens entre os limites m e M.",
+        "D": "O número de analistas autorizados a manipular a amostra bruta simultaneamente."
+      },
+      "gabarito": "C",
+      "explicacoes": {
+        "A": "Incorreta: as unidades que não estão na faixa marginal devem ser apenas menores ou iguais a m, não necessariamente nulas.",
+        "B": "Incorreta: c refere-se a unidades amostrais toleradas na faixa marginal, não a fatores de diluição laboratorial.",
+        "C": "Correta: o texto conceitua c exatamente como o número máximo aceitável de unidades de amostras com contagens entre os limites m e M.",
+        "D": "Incorreta: o parâmetro não se refere a operadores analíticos, mas sim ao limite estatístico de unidades amostrais aceitas na faixa intermediária."
+      },
+      "referencia": {
+        "paginas": [
+          14,
+          15
+        ],
+        "fundamentacao": "Slides 14 e 15 da apostila.",
+        "trechos_apoio": [
+          "c: é o número máximo aceitável de unidades de amostras com contagens entre os limites de m e M (plano de três classes)."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_02_q015",
+      "slide_id": "bromatologia_aula_02",
+      "slide_nome": "Aula 02 - Amostragem",
+      "arquivo_origem": "aula 2 Amostragem_261006_203124.pdf",
+      "numero": 15,
+      "tema": "Padrões Microbiológicos Qualitativos",
+      "subtema": "Tolerância Zero para Salmonella",
+      "enunciado": "Quando uma determinação microbiológica possui padrão expresso formalmente por \"ausência em 25 g\" (como para Salmonella sp.), a apostila determina que:",
+      "alternativas": {
+        "A": "O valor de c deve ser fixado em zero (c = 0), aplicando-se um plano de duas classes.",
+        "B": "O valor de c deve ser igual a 2, permitindo contagens reduzidas na faixa marginal.",
+        "C": "Aplica-se compulsoriamente um plano de três classes com limites m e M bem espaçados.",
+        "D": "É proibida qualquer junção ou homogeneização de alíquotas retiradas das unidades amostrais."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: a regra expressa na apostila estabelece que nos casos em que o padrão seja de ausência, c é igual a zero e aplica-se o plano de duas classes.",
+        "B": "Incorreta: para padrões de ausência, não há tolerância marginal (c não pode ser maior que zero).",
+        "C": "Incorreta: planos de três classes não se aplicam a critérios qualitativos binários de presença/ausência.",
+        "D": "Incorreta: o texto permite expressamente a mistura das alíquotas retiradas de cada unidade amostral para detecção de Salmonella sp., na proporção p/v de 1:10 em caldo."
+      },
+      "referencia": {
+        "paginas": [
+          14,
+          15
+        ],
+        "fundamentacao": "Slides 14 e 15 da apostila.",
+        "trechos_apoio": [
+          "Nos casos em que o padrão microbiológico seja expresso por 'ausência', c é igual a zero, aplica-se o plano de duas classes."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_02_q016",
+      "slide_id": "bromatologia_aula_02",
+      "slide_nome": "Aula 02 - Amostragem",
+      "arquivo_origem": "aula 2 Amostragem_261006_203124.pdf",
+      "numero": 16,
+      "tema": "Planos Microbiológicos",
+      "subtema": "Composição das Unidades Aceitas em Três Classes",
+      "enunciado": "Em um plano de amostragem microbiológica de três classes definido pelos parâmetros n, c, m e M, caso exatamente c unidades apresentem contagens na faixa marginal (entre m e M), para que o lote seja aprovado as demais unidades (correspondentes a n - c) devem apresentar:",
+      "alternativas": {
+        "A": "Valores estritamente superiores ao limite M.",
+        "B": "Valores menores ou iguais a m.",
+        "C": "Contagens exatamente idênticas à média aritmética do parâmetro M.",
+        "D": "Valores situados acima de m, desde que não excedam o dobro de M."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: nenhuma unidade pode ter valor superior a M, pois valores acima de M provocam rejeição imediata do lote.",
+        "B": "Correta: a regra operacional estipula que as demais unidades (n menos c) devem obrigatoriamente apresentar valores menores ou iguais a m.",
+        "C": "Incorreta: não se exige igualdade matemática à média de M, mas sim que os valores estejam contidos no limite aceitável (≤ m).",
+        "D": "Incorreta: se as unidades restantes estivessem acima de m, ultrapassariam o total tolerado c, desqualificando o lote."
+      },
+      "referencia": {
+        "paginas": [
+          15
+        ],
+        "fundamentacao": "Slide 15 da apostila.",
+        "trechos_apoio": [
+          "As demais unidades, n menos c, devem apresentar valores menores ou iguais a m. Nenhuma das unidades n pode apresentar valores superiores ao M."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_02_q017",
+      "slide_id": "bromatologia_aula_02",
+      "slide_nome": "Aula 02 - Amostragem",
+      "arquivo_origem": "aula 2 Amostragem_261006_203124.pdf",
+      "numero": 17,
+      "tema": "Preparo Microbiológico",
+      "subtema": "Proporção Peso/Volume para Enriquecimento",
+      "enunciado": "Ao realizar a análise de patógenos com padrão de ausência em 25 g em um lote de alimentos, é permitida a mistura de alíquotas das unidades amostrais em meio de cultura líquido. De acordo com a apostila, a proporção em peso da amostra para o volume do meio de cultura em caldo (p/v) deve ser rigorosamente de:",
+      "alternativas": {
+        "A": "1 parte em peso de amostra para 100 partes em volume de meio.",
+        "B": "1 parte em peso de amostra para 10 partes em volume de meio de cultura em caldo.",
+        "C": "5 partes em peso de amostra para 1 parte em volume de meio.",
+        "D": "10 partes em peso de amostra para 1 parte em volume de meio concentrado."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a diluição padrão indicada no texto é decimal (1:10), e não centesimal (1:100).",
+        "B": "Correta: a apostila determina que se deve respeitar a proporção p/v de uma parte em peso da amostra para 10 partes em volume do meio de cultura em caldo.",
+        "C": "Incorreta: inverte e distorce a proporção recomendada para o enriquecimento em caldo.",
+        "D": "Incorreta: o volume de líquido do meio deve ser 10 vezes maior do que a massa de amostra, e não o oposto."
+      },
+      "referencia": {
+        "paginas": [
+          14
+        ],
+        "fundamentacao": "Slide 14 da apostila.",
+        "trechos_apoio": [
+          "...respeitando-se a proporção p/v (uma parte em peso da amostra, para 10 partes em volume do meio de cultura em caldo)."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_02_q018",
+      "slide_id": "bromatologia_aula_02",
+      "slide_nome": "Aula 02 - Amostragem",
+      "arquivo_origem": "aula 2 Amostragem_261006_203124.pdf",
+      "numero": 18,
+      "tema": "Aplicação em Produtos Cárneos",
+      "subtema": "Parâmetros para Coliformes a 45 °C",
+      "enunciado": "Na tabela da legislação apresentada na apostila para produtos cárneos (cozidos ou não, embutidos ou não), o plano microbiológico estabelecido para Coliformes a 45 °C/g define os seguintes valores de n, c, m e M, respectivamente:",
+      "alternativas": {
+        "A": "n = 5; c = 0; m = Ausência; M = Ausência.",
+        "B": "n = 5; c = 2; m = 10²; M = 10³.",
+        "C": "n = 10; c = 1; m = 10³; M = 3 × 10³.",
+        "D": "n = 5; c = 1; m = 10²; M = 5 × 10²."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: esses valores (n = 5, c = 0, ausência) correspondem ao padrão estipulado para Salmonella sp./25g na mesma tabela.",
+        "B": "Correta: a tabela prescreve para coliformes a 45 °C/g exatamente n = 5, c = 2, m = 10² e M = 10³.",
+        "C": "Incorreta: para Staphylococcus coagulase positiva/g os valores são n = 5, c = 1, m = 10² e M = 3 × 10³.",
+        "D": "Incorreta: essa combinação (n = 5, c = 1, m = 10², M = 5 × 10²) refere-se a Clostridium sulfito redutor a 46 °C."
+      },
+      "referencia": {
+        "paginas": [
+          16
+        ],
+        "fundamentacao": "Slide 16 da apostila.",
+        "trechos_apoio": [
+          "Coliformes a 45°C/g [...] n: 5 | c: 2 | m: 10² | M: 10³"
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_02_q019",
+      "slide_id": "bromatologia_aula_02",
+      "slide_nome": "Aula 02 - Amostragem",
+      "arquivo_origem": "aula 2 Amostragem_261006_203124.pdf",
+      "numero": 19,
+      "tema": "Conceitos Amostrais",
+      "subtema": "Definição de Amostra",
+      "enunciado": "O material didático apresenta uma definição formal e clássica de amostra. Segundo o texto, a amostra consiste em:",
+      "alternativas": {
+        "A": "Todo o material retido após filtração rápida sob vácuo em laboratório.",
+        "B": "Uma fração descartada que não preserva qualquer similaridade com a massa produtiva.",
+        "C": "Uma porção limitada do material tomada do conjunto selecionada de maneira a possuir as características essenciais do conjunto.",
+        "D": "O resíduo mineral obtido após incineração prolongada a 550 °C em mufla."
+      },
+      "gabarito": "C",
+      "explicacoes": {
+        "A": "Incorreta: relaciona-se a uma etapa de separação física em bancada, não ao conceito estatístico de amostra.",
+        "B": "Incorreta: a amostra deve necessariamente manter as características essenciais do todo, e não ser uma porção desprovida de similaridade.",
+        "C": "Correta: o slide define amostra formalmente como uma porção limitada do material tomada do conjunto (o universo estatístico), selecionada para possuir as características essenciais do conjunto.",
+        "D": "Incorreta: incineração em mufla é o método gravimétrico de quantificação de cinzas, sem relação com a definição de amostra."
+      },
+      "referencia": {
+        "paginas": [
+          17
+        ],
+        "fundamentacao": "Slide 17 da apostila.",
+        "trechos_apoio": [
+          "AMOSTRA: Uma porção limitada do material tomada do conjunto – o universo, na terminologia estatística -, selecionada de maneira a possuir as características essenciais do conjunto."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_02_q020",
+      "slide_id": "bromatologia_aula_02",
+      "slide_nome": "Aula 02 - Amostragem",
+      "arquivo_origem": "aula 2 Amostragem_261006_203124.pdf",
+      "numero": 20,
+      "tema": "Etapas do Processo",
+      "subtema": "Fases da Amostragem",
+      "enunciado": "Para que uma avaliação bromatológica seja bem-sucedida, o processo global de amostragem deve seguir uma sequência técnica encadeada. Conforme descrito na aula, essa sequência compreende as etapas de:",
+      "alternativas": {
+        "A": "Descarte da matéria-prima, incineração e titulação volumétrica.",
+        "B": "Coleta da amostra bruta, preparação da amostra de laboratório e preparação da amostra para análise.",
+        "C": "Coleta de alíquota analítica, pasteurização térmica e estocagem em temperatura ambiente.",
+        "D": "Mistura aleatória com solventes, determinação de densidade e quarteamento de efluentes."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: descreve procedimentos analíticos e de descarte, omitindo a sequência de coleta e redução amostral.",
+        "B": "Correta: a apostila divide estruturalmente o processo de amostragem em três etapas: A) Coleta da amostra bruta; B) Preparação da amostra de laboratório; e C) Preparação da amostra para análise.",
+        "C": "Incorreta: pasteurização e estocagem ambiental não constituem as etapas padronizadas da metodologia de amostragem.",
+        "D": "Incorreta: mistura com solventes e medidas de densidade são determinações físico-químicas específicas, não o fluxo do processo amostral."
+      },
+      "referencia": {
+        "paginas": [
+          18
+        ],
+        "fundamentacao": "Slide 18 da apostila.",
+        "trechos_apoio": [
+          "PROCESSO DE AMOSTRAGEM: A) Coleta da amostra bruta; B) Preparação da amostra de laboratório; C) Preparação da amostra para análise;"
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_02_q021",
+      "slide_id": "bromatologia_aula_02",
+      "slide_nome": "Aula 02 - Amostragem",
+      "arquivo_origem": "aula 2 Amostragem_261006_203124.pdf",
+      "numero": 21,
+      "tema": "Amostra Bruta",
+      "subtema": "Fidelidade ao Universo Amostrado",
+      "enunciado": "Em relação à amostra bruta, a apostila estabelece que ela deve se comportar como uma réplica fiel do lote original. Essa réplica em ponto reduzido deve manter fidelidade ao universo considerado quanto:",
+      "alternativas": {
+        "A": "Exclusivamente à cor e ao aroma percebidos sensorialmente.",
+        "B": "Tanto à composição química como à distribuição do tamanho de partícula.",
+        "C": "Apenas ao peso cúbico e à temperatura externa do lote.",
+        "D": "Ao teor estrito de conservadores químicos sintéticos adicionados."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: limitar a réplica a parâmetros sensoriais superficiais contraria o rigor físico-químico exigido para a amostra bruta.",
+        "B": "Correta: o material define claramente que a amostra bruta deve ser uma réplica em ponto reduzido do universo no que diz respeito tanto à composição quanto à distribuição do tamanho da partícula.",
+        "C": "Incorreta: dimensões de embalagem ou temperatura externa não resumem a exigência analítica de similaridade composicional e granulométrica.",
+        "D": "Incorreta: a composição global completa (e não apenas aditivos conservadores) deve ser fielmente representada."
+      },
+      "referencia": {
+        "paginas": [
+          19
+        ],
+        "fundamentacao": "Slide 19 da apostila.",
+        "trechos_apoio": [
+          "A amostra bruta deve ser uma réplica, em ponto reduzido, do universo considerado, no que diz respeito tanto à composição como à distribuição do tamanho da partícula."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_02_q022",
+      "slide_id": "bromatologia_aula_02",
+      "slide_nome": "Aula 02 - Amostragem",
+      "arquivo_origem": "aula 2 Amostragem_261006_203124.pdf",
+      "numero": 22,
+      "tema": "Amostras Fluidas",
+      "subtema": "Procedimento de Coleta para Líquidos Homogêneos",
+      "enunciado": "Na amostragem de amostras fluidas (líquidas e pastosas) homogêneas contidas em grandes tanques ou recipientes, o procedimento correto de amostragem exige que a coleta seja realizada:",
+      "alternativas": {
+        "A": "Apenas na lâmina superficial superior imediatamente antes de qualquer mistura.",
+        "B": "No escoamento residual do fundo do recipiente após decantação de 24 horas.",
+        "C": "Em frascos com o mesmo volume, coletando no alto, meio e fundo do recipiente, após agitação e homogeneização.",
+        "D": "Em frascos de volumes desiguais, dispensando a homogeneização do produto fluido."
+      },
+      "gabarito": "C",
+      "explicacoes": {
+        "A": "Incorreta: colher apenas a superfície desconsidera variações verticais de densidade e constituintes.",
+        "B": "Incorreta: coletar resíduos decantados no fundo gera uma amostra concentrada e não representativa da massa fluida.",
+        "C": "Correta: a diretriz técnica afirma que as amostras fluidas devem ser coletadas em frascos com o mesmo volume, nos pontos alto, meio e fundo do recipiente, após agitação e homogeneização.",
+        "D": "Incorreta: os frascos devem conter volumes idênticos e a homogeneização prévia é obrigatória."
+      },
+      "referencia": {
+        "paginas": [
+          20
+        ],
+        "fundamentacao": "Slide 20 da apostila.",
+        "trechos_apoio": [
+          "Amostras Fluídas (Líquidas e Pastosas) Homogêneas: Coletadas em frascos com o mesmo volume (alto, meio e fundo do recipiente), após agitação e homogeneização."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_02_q023",
+      "slide_id": "bromatologia_aula_02",
+      "slide_nome": "Aula 02 - Amostragem",
+      "arquivo_origem": "aula 2 Amostragem_261006_203124.pdf",
+      "numero": 23,
+      "tema": "Amostras Sólidas",
+      "subtema": "Manejo Físico da Amostra",
+      "enunciado": "As amostras de alimentos sólidos apresentam particularidades físicas que interferem na representatividade. De acordo com o material da aula, as amostras sólidas devem ser moídas e misturadas porque:",
+      "alternativas": {
+        "A": "São substâncias perfeitamente miscíveis com qualquer indicador volumétrico.",
+        "B": "Diferem naturalmente em textura, densidade e tamanho de partículas.",
+        "C": "Apresentam riscos imediatos de explosão se analisadas em formato íntegro.",
+        "D": "Possuem umidade sempre superior a 90%, o que inviabiliza a pesagem direta."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a moagem é uma operação mecânica preparatória física e não decorre de miscibilidade com indicadores.",
+        "B": "Correta: o slide destaca textualmente que os alimentos sólidos diferem em textura, densidade e tamanho de partículas, motivo pelo qual devem ser moídos e misturados.",
+        "C": "Incorreta: alimentos sólidos convencionais não explodem durante a manipulação analítica comum.",
+        "D": "Incorreta: grande parte dos sólidos (grãos, pós, farinhas) possui baixa umidade e a moagem não visa resolver teores hipotéticos de 90%."
+      },
+      "referencia": {
+        "paginas": [
+          21
+        ],
+        "fundamentacao": "Slide 21 da apostila.",
+        "trechos_apoio": [
+          "AMOSTRAS SÓLIDAS: Diferem em textura, densidade e tamanho de partículas, por isso devem ser moídas e misturadas."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_02_q024",
+      "slide_id": "bromatologia_aula_02",
+      "slide_nome": "Aula 02 - Amostragem",
+      "arquivo_origem": "aula 2 Amostragem_261006_203124.pdf",
+      "numero": 24,
+      "tema": "Dimensionamento de Amostra",
+      "subtema": "Embalagens Únicas e Lotes Pequenos",
+      "enunciado": "Ao determinar a quantidade a ser coletada para formar a amostra bruta, o analista deve verificar o tamanho do lote. No caso específico de embalagens únicas ou pequenos lotes, a orientação formal da apostila é que:",
+      "alternativas": {
+        "A": "Deve-se coletar exatamente 1% do peso bruto total.",
+        "B": "Todo o material deve ser tomado como amostra bruta.",
+        "C": "Deve-se aguardar a chegada de um lote maior para dar início à amostragem.",
+        "D": "Deve-se extrair apenas uma alíquota de 0,5 g e descartar o restante da embalagem."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: para pequenos lotes ou embalagens únicas a regra não prevê alíquotas percentuais reduzidas como 1%.",
+        "B": "Correta: a apostila determina expressamente que para embalagens únicas ou pequenos lotes, todo o material deve ser tomado como amostra bruta.",
+        "C": "Incorreta: análises laboratoriais e periciais rotineiramente demandam a avaliação de embalagens únicas, sem necessidade de aguardar outros lotes.",
+        "D": "Incorreta: a tomada de frações mínimas sem representatividade em pequenos lotes contraria o protocolo de coleta bruta integral."
+      },
+      "referencia": {
+        "paginas": [
+          22
+        ],
+        "fundamentacao": "Slide 22 da apostila.",
+        "trechos_apoio": [
+          "Embalagens únicas ou pequenos lotes: todo material deve ser tomado como amostra bruta."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_02_q025",
+      "slide_id": "bromatologia_aula_02",
+      "slide_nome": "Aula 02 - Amostragem",
+      "arquivo_origem": "aula 2 Amostragem_261006_203124.pdf",
+      "numero": 25,
+      "tema": "Dimensionamento de Amostra",
+      "subtema": "Lotes Maiores",
+      "enunciado": "Para lotes maiores, as regras práticas de amostragem quantitativa apresentadas na apostila estabelecem que a amostra bruta deve compreender:",
+      "alternativas": {
+        "A": "Exatamente 50% de todas as embalagens contidas no depósito.",
+        "B": "De 10% a 20% do número de embalagens do lote, ou de 5% a 10% do peso total do alimento.",
+        "C": "Menos de 0,1% do peso total, independentemente do volume do lote.",
+        "D": "Três embalagens fixas, sem qualquer correlação com o volume ou massa do lote."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: reter 50% das embalagens de um grande lote configuraria desperdício oneroso e inviabilizaria a logística comercial.",
+        "B": "Correta: o texto técnico estipula que em lotes maiores a amostragem deve compreender de 10% a 20% do número de embalagens contido no lote, ou de 5% a 10% do peso total do alimento.",
+        "C": "Incorreta: porcentagens excessivamente baixas como 0,1% não cumprem o intervalo recomendado de 5% a 10% da massa.",
+        "D": "Incorreta: números fixos desconsideram a proporcionalidade matemática estipulada para a representatividade do lote."
+      },
+      "referencia": {
+        "paginas": [
+          23
+        ],
+        "fundamentacao": "Slide 23 da apostila.",
+        "trechos_apoio": [
+          "Lotes maiores: a amostragem deve compreender de 10% a 20% do número de embalagens contido no lote, ou de 5% a 10% do peso total do alimento a ser analisado."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_02_q026",
+      "slide_id": "bromatologia_aula_02",
+      "slide_nome": "Aula 02 - Amostragem",
+      "arquivo_origem": "aula 2 Amostragem_261006_203124.pdf",
+      "numero": 26,
+      "tema": "Dimensionamento de Amostra",
+      "subtema": "Lotes Muito Grandes e Fórmula Matemática",
+      "enunciado": "Para a coleta da amostra bruta em lotes muito grandes, a apostila orienta calcular o número de unidades a serem retiradas utilizando a fórmula N = c · √n. Nessa equação, o termo n representa:",
+      "alternativas": {
+        "A": "A população total do lote (número de sacos, caixas, latas).",
+        "B": "O número final de unidades que comporão a amostra bruta de laboratório.",
+        "C": "O índice de tolerância aceitável na faixa marginal microbiológica.",
+        "D": "O teor residual de água livre obtido por secagem gravimétrica."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: na legenda da fórmula N = c · √n, o termo n é explicitamente definido como a população (número de sacos, caixas ou latas que formam o lote).",
+        "B": "Incorreta: o número de unidades a serem coletadas como amostra bruta é representado por N maiúsculo, e não por n.",
+        "C": "Incorreta: o índice de tolerância na faixa marginal de três classes é representado pela letra c em planos microbiológicos, não pelo n desta fórmula.",
+        "D": "Incorreta: a fórmula trata exclusivamente da contagem de embalagens para amostragem, sem relação com medidas de água ou umidade."
+      },
+      "referencia": {
+        "paginas": [
+          24
+        ],
+        "fundamentacao": "Slide 24 da apostila.",
+        "trechos_apoio": [
+          "Lotes muito grande: toma-se a raiz quadrada do número de unidades do lote. Fórmula: N = c . √n | Onde: n = população (n°. de sacos, caixas, latas)"
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_02_q027",
+      "slide_id": "bromatologia_aula_02",
+      "slide_nome": "Aula 02 - Amostragem",
+      "arquivo_origem": "aula 2 Amostragem_261006_203124.pdf",
+      "numero": 27,
+      "tema": "Dimensionamento de Amostra",
+      "subtema": "Fator c e Homogeneidade",
+      "enunciado": "Ainda na fórmula N = c · √n aplicada a lotes volumosos, o fator c reflete o grau de precisão e a homogeneidade da matriz alimentar. De acordo com as especificações da aula, o fator c assume valores:",
+      "alternativas": {
+        "A": "Sempre iguais a zero para garantir ausência de desvios.",
+        "B": "c < 1 para amostras homogêneas e c > 1 para amostras heterogêneas.",
+        "C": "c > 1 para amostras estritamente homogêneas e c < 1 para heterogêneas.",
+        "D": "Fixos em 10 para qualquer tipo de matriz alimentar industrial."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: se c fosse zero, o tamanho da amostra calculada seria nulo (N = 0), o que inviabilizaria qualquer amostragem.",
+        "B": "Correta: o slide define categoricamente que c é o fator ligado ao grau de precisão e homogeneidade da amostra, sendo c < 1 para amostra homogênea e c > 1 para amostra heterogênea.",
+        "C": "Incorreta: inverte as condições; amostras homogêneas requerem menor esforço amostral (c < 1), enquanto as heterogêneas demandam maior amostragem (c > 1).",
+        "D": "Incorreta: o fator varia conforme o grau de precisão e uniformidade do lote, não sendo um valor rígido e arbitrário."
+      },
+      "referencia": {
+        "paginas": [
+          24
+        ],
+        "fundamentacao": "Slide 24 da apostila.",
+        "trechos_apoio": [
+          "c = fator ligado ao grau de precisão e homogeneidade da amostra (c < 1 para amostra homogênea, e c > 1 heterogênea)."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_02_q028",
+      "slide_id": "bromatologia_aula_02",
+      "slide_nome": "Aula 02 - Amostragem",
+      "arquivo_origem": "aula 2 Amostragem_261006_203124.pdf",
+      "numero": 28,
+      "tema": "Redução da Amostra Bruta",
+      "subtema": "Necessidade da Amostra de Laboratório",
+      "enunciado": "Frequentemente, a amostra bruta colhida no campo ou depósito é volumosa demais para ser processada em sua totalidade no laboratório. Segundo a apostila, o procedimento de redução da amostra bruta para amostra de laboratório:",
+      "alternativas": {
+        "A": "Depende estritamente do tipo de produto a ser analisado e da análise a ser realizada.",
+        "B": "Deve ser realizado descartando-se aleatoriamente 99% da amostra inicial sem homogeneização prévia.",
+        "C": "É desnecessário em alimentos secos e em pó, aplicando-se apenas a líquidos fermentados.",
+        "D": "Segue um protocolo único e inflexível para todas as matrizes alimentícias existentes."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: o texto ressalta que a amostra bruta é frequentemente grande demais para a rotina e que a redução vai depender do tipo de produto a ser analisado e da análise.",
+        "B": "Incorreta: descartar material sem critérios técnicos destrói a representatividade da amostra original.",
+        "C": "Incorreta: pós e alimentos secos necessitam de redução metódica (como o quarteamento manual ou por equipamentos).",
+        "D": "Incorreta: a metodologia varia conforme a natureza física do alimento (líquido, sólido, pasta, emulsão ou semissólido)."
+      },
+      "referencia": {
+        "paginas": [
+          25
+        ],
+        "fundamentacao": "Slide 25 da apostila.",
+        "trechos_apoio": [
+          "A amostra bruta é freqüentemente grande demais para ser convenientemente trabalhada em laboratório e, portanto, deve ser reduzida. A redução vai depender do tipo de produto a ser analisado e da análise."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_02_q029",
+      "slide_id": "bromatologia_aula_02",
+      "slide_nome": "Aula 02 - Amostragem",
+      "arquivo_origem": "aula 2 Amostragem_261006_203124.pdf",
+      "numero": 29,
+      "tema": "Preparação da Amostra de Laboratório",
+      "subtema": "Método do Quarteamento Manual",
+      "enunciado": "O método do quarteamento manual é amplamente empregado na redução de alimentos secos em pó ou granulares. A sequência correta desse procedimento, segundo a apostila, consiste em:",
+      "alternativas": {
+        "A": "Peneirar o alimento, adicionar água destilada morna e filtrar sob vácuo.",
+        "B": "Misturar bem, espalhar formando um quadrado, dividir em 4 partes (ABCD), rejeitar 2 quadrados opostos e misturar os 2 restantes sucessivamente.",
+        "C": "Incinerar dois quadrantes alternados em forno mufla e reservar os outros dois para titulação.",
+        "D": "Separar a amostra em três triângulos congruentes e descartar a porção central."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o quarteamento de sólidos secos é um método mecânico a seco, sem adição de solventes ou filtração.",
+        "B": "Correta: o procedimento detalhado no slide estabelece: misturar, formar quadrado, dividir em ABCD, rejeitar dois opostos, misturar os dois restantes e repetir sucessivamente até atingir o tamanho ideal.",
+        "C": "Incorreta: incineração é um ensaio analítico de cinzas, e não uma etapa de redução preparatória da amostra.",
+        "D": "Incorreta: a divisão clássica do método é em quatro quadrados (ABCD), e não em figuras triangulares."
+      },
+      "referencia": {
+        "paginas": [
+          26
+        ],
+        "fundamentacao": "Slide 26 da apostila.",
+        "trechos_apoio": [
+          "Quarteamento: manual - Colocar a amostra sobre uma folha de papel; Misturar bem e espalhar formando um quadrado. - Dividir o quadrado em 4 quadrados menores (ABCD). Rejeitar 2 quadrados opostos e misturar os 2 restantes e novamente misturar, espalhar e dividir..."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_02_q030",
+      "slide_id": "bromatologia_aula_02",
+      "slide_nome": "Aula 02 - Amostragem",
+      "arquivo_origem": "aula 2 Amostragem_261006_203124.pdf",
+      "numero": 30,
+      "tema": "Preparo de Amostras",
+      "subtema": "Alimentos Semissólidos (Queijos Duros e Chocolate)",
+      "enunciado": "A consistência física do alimento dita a técnica de preparo mecânico da amostra de laboratório. No caso de alimentos semissólidos, como queijos duros e chocolate, a apostila prescreve que:",
+      "alternativas": {
+        "A": "As amostras devem ser liquefeitas por fervura a 100 °C em banho-maria.",
+        "B": "As amostras devem ser raladas.",
+        "C": "O material deve ser imediatamente desidratado em estufa a vácuo antes do fracionamento.",
+        "D": "As amostras devem ser dissolvidas em ácido sulfúrico concentrado para amostragem."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: fervura altera quimicamente gorduras e proteínas, inviabilizando diversos ensaios físicos e sensoriais.",
+        "B": "Correta: a regra expressa no slide determina textualmente que para alimentos semissólidos (queijos duros e chocolate) as amostras devem ser raladas.",
+        "C": "Incorreta: a estufa a vácuo desidrata a matriz e altera o teor de umidade original antes da tomada de amostra.",
+        "D": "Incorreta: ácido sulfúrico concentrado é usado na digestão ácida (ex.: Kjeldahl), e não no preparo mecânico da amostra bruta."
+      },
+      "referencia": {
+        "paginas": [
+          27
+        ],
+        "fundamentacao": "Slide 27 da apostila.",
+        "trechos_apoio": [
+          "ALIMENTOS SEMI-SÓLIDOS (QUEIJOS DUROS E CHOCOLATE): as amostras devem ser raladas."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_02_q031",
+      "slide_id": "bromatologia_aula_02",
+      "slide_nome": "Aula 02 - Amostragem",
+      "arquivo_origem": "aula 2 Amostragem_261006_203124.pdf",
+      "numero": 31,
+      "tema": "Preparo de Amostras",
+      "subtema": "Alimentos Úmidos (Carnes, Peixes e Vegetais)",
+      "enunciado": "O manuseio de alimentos úmidos, como carnes, peixes e vegetais frescos, requer cuidados contra a deterioração rápida durante a preparação. Conforme o material didático, essas amostras devem ser:",
+      "alternativas": {
+        "A": "Secas ao sol por 48 horas antes da pesagem em balança analítica.",
+        "B": "Picadas ou moídas e misturadas, sendo a estocagem mantida sob refrigeração.",
+        "C": "Mantidas intactas em temperatura ambiente até o início da titulação volumétrica.",
+        "D": "Submetidas à cura imediata com excesso de cloreto de sódio refinado."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: secagem ao sol decompõe tecidos frescos e altera a composição bromatológica.",
+        "B": "Correta: a apostila prescreve que para carnes, peixes e vegetais a amostra deve ser picada ou moída e misturada, devendo a estocagem ser sob refrigeração.",
+        "C": "Incorreta: peças inteiras sem moagem não garantem homogeneidade e mantê-las em temperatura ambiente acelera a proliferação microbiana.",
+        "D": "Incorreta: a salga altera o teor mineral e osmótico da amostra que se pretende avaliar no estado original."
+      },
+      "referencia": {
+        "paginas": [
+          27
+        ],
+        "fundamentacao": "Slide 27 da apostila.",
+        "trechos_apoio": [
+          "Alimentos úmidos (carnes, peixes e vegetais): a amostra deve ser picada ou moída e misturada. A estocagem deve ser sob refrigeração."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_02_q032",
+      "slide_id": "bromatologia_aula_02",
+      "slide_nome": "Aula 02 - Amostragem",
+      "arquivo_origem": "aula 2 Amostragem_261006_203124.pdf",
+      "numero": 32,
+      "tema": "Preparo de Amostras",
+      "subtema": "Alimentos com Emulsão (Manteiga e Margarina)",
+      "enunciado": "Alimentos emulsionados, como manteiga e margarina, apresentam separação de fases em condições inadequadas. Para preparar adequadamente a amostra desse grupo, a recomendação específica da apostila é:",
+      "alternativas": {
+        "A": "Dissolver o produto em solventes clorados a frio em béquer aberto.",
+        "B": "Aquecer as amostras a 35 °C num frasco com tampa, agitando em seguida para homogeneização.",
+        "C": "Congelar a amostra com nitrogênio líquido a -196 °C para fragmentação por impacto.",
+        "D": "Incinerar o produto para eliminar completamente a fração graxa residual."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o preparo físico da amostra não envolve diluição em solventes clorados voláteis em frascos abertos.",
+        "B": "Correta: a instrução para alimentos com emulsão (manteiga e margarina) é aquecer a amostra a 35 °C em frasco fechado com tampa, agitando-a posteriormente para assegurar a homogeneidade.",
+        "C": "Incorreta: o congelamento extremo em nitrogênio é técnica de controle oxidativo/moagem criogênica, não o protocolo padrão citado para manteiga e margarina.",
+        "D": "Incorreta: a incineração destruiria a fração lipídica e orgânica da amostra."
+      },
+      "referencia": {
+        "paginas": [
+          28
+        ],
+        "fundamentacao": "Slide 28 da apostila.",
+        "trechos_apoio": [
+          "Alimentos com emulsão (manteiga e margarina): as amostras devem aquecidas a 35°C num frasco com tampa, que depois é agitado para homogeneização."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_02_q033",
+      "slide_id": "bromatologia_aula_02",
+      "slide_nome": "Aula 02 - Amostragem",
+      "arquivo_origem": "aula 2 Amostragem_261006_203124.pdf",
+      "numero": 33,
+      "tema": "Tipos de Preparo",
+      "subtema": "Desintegração Enzimática",
+      "enunciado": "Na etapa de preparo mecânico e bioquímico da amostra, a desintegração enzimática constitui uma ferramenta especializada. Conforme os apontamentos da aula, essa desintegração:",
+      "alternativas": {
+        "A": "Emprega celulases em amostras vegetais, enquanto proteases e carboidrases solubilizam proteínas e polissacarídeos.",
+        "B": "Aplica-se exclusivamente a óleos refinados minerais para reduzir sua viscosidade a quente.",
+        "C": "Utiliza apenas enzimas inorgânicas sintetizadas em forno mufla.",
+        "D": "Tem como único objetivo desnaturar irreversivelmente todos os lipídeos da carne bovina."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: o texto indica que a desintegração enzimática é útil em amostras vegetais com o uso de celulases, e que proteases e carboidrases são úteis para solubilizar proteínas e polissacarídeos em vários alimentos.",
+        "B": "Incorreta: óleos minerais não são matrizes biológicas para ação de celulases ou carboidrases.",
+        "C": "Incorreta: enzimas são macromoléculas de natureza proteica e biológica, e não compostos inorgânicos de mufla.",
+        "D": "Incorreta: enzimas não atuam como agentes térmicos desestabilizadores universais de lipídeos, mas na hidrólise específica de seus substratos orgânicos."
+      },
+      "referencia": {
+        "paginas": [
+          29
+        ],
+        "fundamentacao": "Slide 29 da apostila.",
+        "trechos_apoio": [
+          "Desintegração enzimática: é útil em amostras vegetais com o uso de celulases. Proteases e carboidrases são úteis para solubilizar componentes de alto peso molecular (proteínas e polissacarídeos) em vários alimentos."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_02_q034",
+      "slide_id": "bromatologia_aula_02",
+      "slide_nome": "Aula 02 - Amostragem",
+      "arquivo_origem": "aula 2 Amostragem_261006_203124.pdf",
+      "numero": 34,
+      "tema": "Preservação da Amostra",
+      "subtema": "Inativação Enzimática",
+      "enunciado": "Uma vez colhida a amostra, medidas devem ser adotadas para garantir sua integridade até o momento da análise. De acordo com a apostila, a inativação enzimática é um procedimento de preservação cuja finalidade é:",
+      "alternativas": {
+        "A": "Estimular o crescimento acelerado de bactérias deteriorativas para testes rápidos.",
+        "B": "Preservar o estado original dos componentes de um material vivo.",
+        "C": "Oxidar precocemente todos os lipídeos insaturados para gerar peróxidos voláteis.",
+        "D": "Promover a hidrólise total da lactose para facilitar a fermentação lática imediata."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a inativação visa estabilizar a amostra, e não fomentar crescimento microbiano patogênico ou deteriorativo.",
+        "B": "Correta: o slide afirma textualmente que a inativação enzimática serve para preservar o estado original dos componentes de um material vivo.",
+        "C": "Incorreta: a oxidação de lipídeos é uma alteração indesejável que deve ser contida, e não promovida.",
+        "D": "Incorreta: a inativação impede transformações químicas e bioquímicas indesejadas, como a degradação de açúcares."
+      },
+      "referencia": {
+        "paginas": [
+          30
+        ],
+        "fundamentacao": "Slide 30 da apostila.",
+        "trechos_apoio": [
+          "Inativação enzimática: serve pra preservar o estado original dos componentes de um material vivo."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_02_q035",
+      "slide_id": "bromatologia_aula_02",
+      "slide_nome": "Aula 02 - Amostragem",
+      "arquivo_origem": "aula 2 Amostragem_261006_203124.pdf",
+      "numero": 35,
+      "tema": "Preservação da Amostra",
+      "subtema": "Controle do Ataque Oxidativo e Microbiológico",
+      "enunciado": "Na seção final da apostila sobre preservação de amostras, são detalhados os métodos físicos e químicos para conter o ataque oxidativo e a contaminação microbiológica. A respeito dessas técnicas, é correto afirmar que:",
+      "alternativas": {
+        "A": "O ataque oxidativo é controlado na maioria dos alimentos pela preservação a baixas temperaturas, como com o uso de nitrogênio líquido (N líquido).",
+        "B": "O controle microbiológico proíbe expressamente o congelamento e a secagem da amostra.",
+        "C": "Amostras submetidas à conservação com conservadores químicos devem ser descartadas sem análise.",
+        "D": "O ataque oxidativo só pode ser contido mediante exposição contínua da amostra ao calor ambiente de 45 °C."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: a apostila especifica expressamente que o controle do ataque oxidativo é realizado por preservação a baixa temperatura (N líquido) para a maioria dos alimentos.",
+        "B": "Incorreta: o controle microbiológico prevê justamente congelamento, secagem ou o uso de conservadores (ou combinação dos três).",
+        "C": "Incorreta: conservadores são recursos metodológicos autorizados para estabilizar a amostra até a medição analítica.",
+        "D": "Incorreta: temperaturas elevadas aumentam a cinética oxidativa e aceleram a rancidez, prejudicando a amostra."
+      },
+      "referencia": {
+        "paginas": [
+          30
+        ],
+        "fundamentacao": "Slide 30 da apostila.",
+        "trechos_apoio": [
+          "Controle do ataque oxidativo: preservação a baixa temperatura (N líquido) para a maioria dos alimentos. / Controle do ataque microbiológico: congelamento, secagem ou o uso de conservadores, e a combinação de quaisquer dos três."
+        ]
+      }
+    }
+  ]
+}

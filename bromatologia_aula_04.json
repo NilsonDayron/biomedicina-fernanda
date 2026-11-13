@@ -1,0 +1,1288 @@
+{
+  "questoes": [
+    {
+      "id": "bromatologia_aula_04_q001",
+      "slide_id": "bromatologia_aula_04",
+      "slide_nome": "Aula 04 - Glicídios",
+      "arquivo_origem": "aula 4 GLICÍDIOS_261006_203135.pdf",
+      "numero": 1,
+      "tema": "Química e Bromatologia",
+      "subtema": "Definição Química e Elementos Constituintes dos Glicídios",
+      "enunciado": "Em química de alimentos, os glicídios (ou carboidratos) são definidos formalmente a partir de seus grupos funcionais orgânicos e composição elementar. De acordo com a apostila, os glicídios são compostos:",
+      "alternativas": {
+        "A": "Formados exclusivamente por cadeias de hidrocarbonetos puros e insolúveis em água.",
+        "B": "Aldeídicos ou cetônicos com múltiplas hidroxilas, constituídos sempre por C, H e O, e alguns contendo N e P.",
+        "C": "Constituídos unicamente por nitrogênio e fósforo unidos a ácidos graxos insaturados.",
+        "D": "Polipeptídicos formados por condensação exclusiva de aminoácidos sulfurados."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: glicídios não são hidrocarbonetos puros; possuem oxigênios na forma de múltiplas hidroxilas e funções carbonílicas (aldeído ou cetona).",
+        "B": "Correta: a apostila define expressamente: \"São compostos aldeídos ou cetônicos com múltiplas hidroxilas. Constituídos sempre por: C, H e O. Alguns: N e P\".",
+        "C": "Incorreta: os elementos obrigatórios são Carbono, Hidrogênio e Oxigênio; Nitrogênio e Fósforo aparecem apenas em algumas classes.",
+        "D": "Incorreta: polipeptídeos formados por aminoácidos correspondem à definição química de proteínas, e não de glicídios."
+      },
+      "referencia": {
+        "paginas": [
+          2
+        ],
+        "fundamentacao": "Slide 2 da apostila.",
+        "trechos_apoio": [
+          "DEFINIÇÃO: São compostos aldeídos ou cetônicos com múltiplas hidroxilas. Constituídos sempres por: C, H e O. Alguns: N e P"
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_04_q002",
+      "slide_id": "bromatologia_aula_04",
+      "slide_nome": "Aula 04 - Glicídios",
+      "arquivo_origem": "aula 4 GLICÍDIOS_261006_203135.pdf",
+      "numero": 2,
+      "tema": "Química e Bromatologia",
+      "subtema": "Fórmula Mínima e Denominações dos Glicídios",
+      "enunciado": "Os glicídios recebem diversas sinonímias na literatura de alimentos, tais como carboidratos, sacarídeos e hidratos de carbono. Segundo a fórmula mínima geral indicada no material didático, os hidratos de carbono são representados quimicamente por:",
+      "alternativas": {
+        "A": "Cₙ(H₂O)ₙ",
+        "B": "Cₙ(NH₃)ₙ",
+        "C": "R-COOH",
+        "D": "Cₙ(H₂SO₄)ₙ"
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: o slide correlaciona textualmente os nomes \"Carboidratos ou Sacarídeos\" e \"Hidratos de Carbono\" com a fórmula estequiométrica Cₙ(H₂O)ₙ.",
+        "B": "Incorreta: a fórmula com amônia não corresponde à proporção estequiométrica fundamental dos hidratos de carbono.",
+        "C": "Incorreta: R-COOH é a fórmula geral de ácidos carboxílicos/graxos, não de glicídios.",
+        "D": "Incorreta: a fórmula associa carbono à água (hidrato de carbono), e não ao ácido sulfúrico."
+      },
+      "referencia": {
+        "paginas": [
+          2
+        ],
+        "fundamentacao": "Slide 2 da apostila.",
+        "trechos_apoio": [
+          "Carboidratos ou Sacarídeos / Hidratos de Carbono = Cₙ(H₂O)ₙ"
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_04_q003",
+      "slide_id": "bromatologia_aula_04",
+      "slide_nome": "Aula 04 - Glicídios",
+      "arquivo_origem": "aula 4 GLICÍDIOS_261006_203135.pdf",
+      "numero": 3,
+      "tema": "Funções Biológicas dos Glicídios",
+      "subtema": "Associação Estrutura-Função",
+      "enunciado": "O material didático categoriza as principais funções desempenhadas pelos glicídios nos seres vivos e nos alimentos. A correta associação entre a função biológica e seus respectivos glicídios exemplares, segundo a aula, é:",
+      "alternativas": {
+        "A": "Energética (quitina) e Genética (amido).",
+        "B": "Estrutural (glicogênio) e Reserva alimentar (glicose).",
+        "C": "Energética (glicose), Reserva alimentar (glicogênio e amido), Estrutural (celulose e quitina) e Genética (pentoses).",
+        "D": "Genética (sacarose) e Estrutural (frutose)."
+      },
+      "gabarito": "C",
+      "explicacoes": {
+        "A": "Incorreta: quitina tem função estrutural e amido atua como reserva alimentar vegetal, não genética.",
+        "B": "Incorreta: glicogênio é reserva alimentar animal e glicose é a fonte direta energética imediata.",
+        "C": "Correta: o slide detalha exatamente as quatro funções: \"Energética (glicose); Reserva alimentar (glicogênio e amido); Estrutural (celulose e quitina); Genética (pentoses)\".",
+        "D": "Incorreta: pentoses desempenham a função genética (ácidos nucleicos); sacarose e frutose não são estruturais nem genéticas."
+      },
+      "referencia": {
+        "paginas": [
+          2
+        ],
+        "fundamentacao": "Slide 2 da apostila.",
+        "trechos_apoio": [
+          "FUNÇÕES: Energética (glicose) / Reserva alimentar (glicogênio e amido) / Estrutural (celulose e quitina) / Genética (pentoses)"
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_04_q004",
+      "slide_id": "bromatologia_aula_04",
+      "slide_nome": "Aula 04 - Glicídios",
+      "arquivo_origem": "aula 4 GLICÍDIOS_261006_203135.pdf",
+      "numero": 4,
+      "tema": "Glicídios Simples",
+      "subtema": "Conceito de Oses e Monossacarídeos",
+      "enunciado": "Na classificação geral dos glicídios, os monossacarídeos (também denominados oses ou \"açúcares simples\") apresentam características estruturais bem definidas. Conforme o material da aula, as oses são caracterizadas como:",
+      "alternativas": {
+        "A": "Polímeros insolúveis formados pela união de milhares de dissacarídeos ramificados.",
+        "B": "Aldeídos ou cetonas que possuem duas ou mais hidroxilas, sendo poli-álcoois com carbonila aldeídica (aldose) ou cetônica (cetose), redutores ou não hidrolisáveis.",
+        "C": "Compostos formados obrigatoriamente pela saída de moléculas de água entre dois anéis aromáticos.",
+        "D": "Ésteres graxos saponificáveis que originam sabões alcalinos quando fervidos com soda cáustica."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: monossacarídeos são monômeros simples e não polímeros formados por centenas de unidades.",
+        "B": "Correta: o slide define: \"Monossacarídeos ou 'açúcares simples': Aldeídos ou cetonas que possuem duas ou mais hidroxilas. São poli-alcoois com uma carbonila aldeídica (aldose) ou cetônica (cetose). Redutores ou não hidrolisáveis (ex.: glicose, frutose)\".",
+        "C": "Incorreta: monossacarídeos não derivam de condensações entre anéis aromáticos com perda de água.",
+        "D": "Incorreta: ésteres que formam sabões sob hidrólise alcalina são lipídeos/triglicerídeos."
+      },
+      "referencia": {
+        "paginas": [
+          3
+        ],
+        "fundamentacao": "Slide 3 da apostila.",
+        "trechos_apoio": [
+          "OSES: Monossacarídeos ou 'açúcares simples' / Aldeídos ou cetonas que possuem duas ou mais hidroxilas / São poli-alcoois com uma carbonila aldeídica (aldose) ou cetônica (cetose) / Redutores ou não hidrolisáveis / GLICOSE, FRUTOSE"
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_04_q005",
+      "slide_id": "bromatologia_aula_04",
+      "slide_nome": "Aula 04 - Glicídios",
+      "arquivo_origem": "aula 4 GLICÍDIOS_261006_203135.pdf",
+      "numero": 5,
+      "tema": "Glicídios Compostos",
+      "subtema": "Formação de Dissacarídeos e Síntese por Desidratação",
+      "enunciado": "Os dissacarídeos resultam da união química entre dois monossacarídeos. A respeito da reação de formação de um dissacarídeo, a apostila afirma que ocorre:",
+      "alternativas": {
+        "A": "Uma reação de hidrólise contínua com absorção de duas moléculas de água do solvente.",
+        "B": "A formação de uma molécula de água para cada ligação, tratando-se, portanto, de uma síntese por desidratação.",
+        "C": "A oxidação imediata de todas as hidroxilas em ácidos carboxílicos voláteis.",
+        "D": "O rompimento da cadeia carbônica por quebra térmica sob congelamento a 0 °C."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: na formação (síntese) ocorre liberação de água, e não consumo por hidrólise.",
+        "B": "Correta: o texto indica claramente: \"Na reação de formação de um dissacarídeo há formação de uma molécula de água, portanto se trata de uma síntese por desidratação para cada ligação\".",
+        "C": "Incorreta: a síntese do dissacarídeo mantém o esqueleto dos anéis glicídicos intacto, sem oxidar o açúcar a ácido carboxílico.",
+        "D": "Incorreta: a ligação é uma reação anabólica/de condensação que une monômeros, sem ruptura da cadeia."
+      },
+      "referencia": {
+        "paginas": [
+          4
+        ],
+        "fundamentacao": "Slide 4 da apostila.",
+        "trechos_apoio": [
+          "DISSACARÍDEOS: São os resultados da ligação entre dois monossacarídeos. Na reação de formação de um dissacarídeo há formação de uma molécula de água, portanto se trata de uma síntese por desidratação para cada ligação."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_04_q006",
+      "slide_id": "bromatologia_aula_04",
+      "slide_nome": "Aula 04 - Glicídios",
+      "arquivo_origem": "aula 4 GLICÍDIOS_261006_203135.pdf",
+      "numero": 6,
+      "tema": "Química e Bromatologia",
+      "subtema": "Mecanismo da Ligação Glicosídica",
+      "enunciado": "A ligação glicosídica é a ponte covalente que une as unidades de monossacarídeos para formar dissacarídeos e polissacarídeos. Conforme descrito no material, a ligação glicosídica ocorre:",
+      "alternativas": {
+        "A": "Entre os grupamentos amina e carboxila terminais com formação de polímeros nitrogenados.",
+        "B": "Entre o carbono de um monossacarídeo e qualquer outro carbono do monossacarídeo seguinte, através de suas hidroxilas e com a saída de uma molécula de água.",
+        "C": "Pela adição de hidrogênio gasoso às duplas ligações em presença de catalisadores metálicos.",
+        "D": "Exclusivamente entre radicais fosfato inorgânicos na presença de solventes apolares."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a união entre amina e carboxila com eliminação de água define a ligação peptídica das proteínas.",
+        "B": "Correta: a apostila define textualmente que a ligação glicosídica \"ocorre entre o carbono de um monossacarídeo e qualquer outro carbono do monossacarídeo seguinte, através de suas hidroxilas e com a saída de uma molécula de água\".",
+        "C": "Incorreta: a adição de hidrogênio a duplas ligações em presença de catalisador descreve o processo de hidrogenação de lipídeos.",
+        "D": "Incorreta: a ligação glicosídica ocorre fundamentalmente entre grupos hidroxilas (-OH) dos monossacarídeos, e não com radicais fosfato."
+      },
+      "referencia": {
+        "paginas": [
+          4
+        ],
+        "fundamentacao": "Slide 4 da apostila.",
+        "trechos_apoio": [
+          "A Ligação Glicosídica: ocorre entre o carbono de um monossacarídeo e qualquer outro carbono do monossacarídeo seguinte, através de suas hidroxilas e com a saída de uma molécula de água."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_04_q007",
+      "slide_id": "bromatologia_aula_04",
+      "slide_nome": "Aula 04 - Glicídios",
+      "arquivo_origem": "aula 4 GLICÍDIOS_261006_203135.pdf",
+      "numero": 7,
+      "tema": "Classificação dos Carboidratos",
+      "subtema": "Monossacarídeos, Dissacarídeos e Polissacarídeos",
+      "enunciado": "O esquema estrutural do slide 5 divide os glicídios em três grupos principais com seus respectivos exemplos representativos. Assinale a alternativa que apresenta a correta correspondência entre classe e exemplo:",
+      "alternativas": {
+        "A": "Monossacarídeos: sacarose e amido; Polissacarídeos: glicose e frutose.",
+        "B": "Dissacarídeos: glicose, galactose e amido; Polissacarídeos: lactose e maltose.",
+        "C": "Monossacarídeos: glicose, frutose, galactose; Dissacarídeos: sacarose, maltose, lactose; Polissacarídeos: amido, celulose, glicogênio, quitina.",
+        "D": "Dissacarídeos: quitina e celulose; Monossacarídeos: maltose e sacarose."
+      },
+      "gabarito": "C",
+      "explicacoes": {
+        "A": "Incorreta: sacarose é dissacarídeo, amido é polissacarídeo, e glicose e frutose são monossacarídeos.",
+        "B": "Incorreta: glicose e galactose são monossacarídeos; lactose e maltose são dissacarídeos.",
+        "C": "Correta: o mapa do slide 5 lista exatamente: Monossacarídeos (Glicose, Frutose, Galactose); Dissacarídeos (Sacarose, Maltose, Lactose); Polissacarídeos (Amido, Celulose, Glicogênio, Quitina).",
+        "D": "Incorreta: inverte totalmente as classes: quitina e celulose são polissacarídeos, enquanto maltose e sacarose são dissacarídeos."
+      },
+      "referencia": {
+        "paginas": [
+          5
+        ],
+        "fundamentacao": "Slide 5 da apostila.",
+        "trechos_apoio": [
+          "Classificados em: MONOSSACARÍDEOS (Glicose, Frutose, Galactose); DISSACARÍDEOS (Sacarose, Maltose, Lactose); POLISSACARÍDEOS (Amido, Celulose, Glicogênio, Quitina)"
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_04_q008",
+      "slide_id": "bromatologia_aula_04",
+      "slide_nome": "Aula 04 - Glicídios",
+      "arquivo_origem": "aula 4 GLICÍDIOS_261006_203135.pdf",
+      "numero": 8,
+      "tema": "Propriedades Químicas",
+      "subtema": "Conceito Estrutural de Açúcares Redutores",
+      "enunciado": "O poder redutor é uma das propriedades analíticas mais exploradas no estudo dos carboidratos. Segundo o material didático, os açúcares são considerados redutores quando:",
+      "alternativas": {
+        "A": "Apresentam extrema volatilidade em temperaturas abaixo de 0 °C.",
+        "B": "Apresentam extremidade da cadeia carbônica com carbonos não impedidos para reagirem, conhecidos como carbonos anoméricos, que não estão envolvidos em ligações glicosídicas.",
+        "C": "Foram previamente incinerados em mufla a 550 °C na presença de sais minerais.",
+        "D": "Possuem todas as suas hidroxilas totalmente bloqueadas por ligações éster graxas."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: açúcares não evaporam abaixo de 0 °C; o poder redutor é uma reatividade química de transferência de elétrons em solução.",
+        "B": "Correta: a apostila define textualmente que os açúcares redutores \"apresentam extremidade da cadeia carbônica com carbonos não impedidos para reagirem, conhecidos como carbonos anoméricos, isto é, carbonos que não estão envolvidos em ligações glicosídicas\".",
+        "C": "Incorreta: incineração a 550 °C queima compostos orgânicos para análise de cinzas, sem relação com o conceito de açúcar redutor.",
+        "D": "Incorreta: se as hidroxilas ou o carbono anomérico estiverem bloqueados ou impedidos, a molécula perde a capacidade redutora."
+      },
+      "referencia": {
+        "paginas": [
+          6
+        ],
+        "fundamentacao": "Slide 6 da apostila.",
+        "trechos_apoio": [
+          "AÇÚCARES REDUTORES: Açúcares redutores apresentam extremidade da cadeia carbônica com carbonos não impedidos para reagirem, conhecidos como carbonos anoméricos, isto é, carbonos que não estão envolvidos em ligações glicosídicas."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_04_q009",
+      "slide_id": "bromatologia_aula_04",
+      "slide_nome": "Aula 04 - Glicídios",
+      "arquivo_origem": "aula 4 GLICÍDIOS_261006_203135.pdf",
+      "numero": 9,
+      "tema": "Química e Bromatologia",
+      "subtema": "Açúcares Redutores e o Comportamento da Sacarose",
+      "enunciado": "Em relação ao caráter redutor dos carboidratos alimentares, a apostila lista expressamente exemplos de açúcares redutores e detalha a condição peculiar da sacarose. A esse respeito, é correto afirmar que:",
+      "alternativas": {
+        "A": "Frutose, glicose, maltose e lactose são redutores, enquanto a sacarose é um açúcar que pode tornar-se redutor se sofrer ação enzimática ou hidrólise ácida.",
+        "B": "A sacarose é o mais forte redutor natural conhecido, não dependendo de nenhuma hidrólise para reagir.",
+        "C": "A glicose e a frutose são não redutoras porque possuem anéis aromáticos estáveis.",
+        "D": "A lactose nunca atua como açúcar redutor devido ao bloqueio permanente de sua galactose."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: o slide estabelece que frutose, glicose, maltose e lactose são açúcares redutores e ressalta que \"a sacarose, sendo formada por glicose e frutose, pode tornar-se um açúcar redutor se sofrer ação enzimática ou hidrólise ácida\".",
+        "B": "Incorreta: a sacarose intacta é um dissacarídeo não redutor, pois seus carbonos anoméricos estão ambos envolvidos na ligação glicosídica.",
+        "C": "Incorreta: glicose e frutose são os monossacarídeos redutores clássicos da aula.",
+        "D": "Incorreta: a lactose é explicitamente listada no grupo dos açúcares redutores."
+      },
+      "referencia": {
+        "paginas": [
+          7
+        ],
+        "fundamentacao": "Slide 7 da apostila.",
+        "trechos_apoio": [
+          "AÇÚCARES REDUTORES: Frutose, glicose, maltose e lactose / A sacarose, sendo formada por glicose e frutose, pode tornar-se um açúcar redutor se sofrer ação enzimática ou hidrólise ácida."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_04_q010",
+      "slide_id": "bromatologia_aula_04",
+      "slide_nome": "Aula 04 - Glicídios",
+      "arquivo_origem": "aula 4 GLICÍDIOS_261006_203135.pdf",
+      "numero": 10,
+      "tema": "Comportamento Tecnológico do Amido",
+      "subtema": "Conceito de Retrogradação e Sinérese",
+      "enunciado": "O amido é o principal polissacarídeo de reserva vegetal e exibe propriedades tecnológicas fundamentais na culinária e na indústria. Segundo a aula, o fenômeno da retrogradação do amido ocorre em função do:",
+      "alternativas": {
+        "A": "Aquecimento contínuo de amido cru sob pressão de vapor a 180 °C.",
+        "B": "Resfriamento de soluções de amido gelatinizado, provocando a liberação de moléculas de água que estavam ligadas às cadeias (sinérese).",
+        "C": "Ataque microbiano exclusivo por bactérias lácticas proteolíticas.",
+        "D": "Fracionamento mecânico a seco por quarteamento em papel de filtro."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: aquecimento com água leva à gelatinização inicial do amido, enquanto a retrogradação ocorre no resfriamento subsequente do gel.",
+        "B": "Correta: o texto define textualmente: \"O fenômeno da retrogradação ocorre em função do resfriamento de soluções de amido gelatinizado. Com a redução da temperatura durante o resfriamento do gel ocorre liberação de moléculas de água que estavam ligadas as cadeias (sinérese)\".",
+        "C": "Incorreta: a retrogradação é uma reorganização físico-química das cadeias poliméricas de amilose/amilopectina, e não uma alteração provocada por bactérias.",
+        "D": "Incorreta: quarteamento é uma técnica mecânica de preparo de amostras sólidas em pó para análise bromatológica."
+      },
+      "referencia": {
+        "paginas": [
+          8
+        ],
+        "fundamentacao": "Slide 8 da apostila.",
+        "trechos_apoio": [
+          "RETROGRADAÇÃO DO AMIDO: O fenômeno da retrogradação ocorre em função do resfriamento de soluções de amido gelatinizado. Com a redução da temperatura durante o resfriamento do gel ocorre liberação de moléculas de água que estavam ligadas as cadeias (sinérese)."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_04_q011",
+      "slide_id": "bromatologia_aula_04",
+      "slide_nome": "Aula 04 - Glicídios",
+      "arquivo_origem": "aula 4 GLICÍDIOS_261006_203135.pdf",
+      "numero": 11,
+      "tema": "Retrogradação do Amido",
+      "subtema": "Alterações Estruturais no Gel",
+      "enunciado": "O fenômeno de retrogradação que ocorre durante o resfriamento de soluções de amido gelatinizado acarreta modificações físicas perceptíveis no alimento. Conforme a apostila, a retrogradação resulta diretamente em:",
+      "alternativas": {
+        "A": "Aumento de volume da massa, amolecimento pronunciado do gel e absorção de água líquida livre.",
+        "B": "Redução de volume, aumento da firmeza do gel e sinérese.",
+        "C": "Solubilização instantânea de todos os grânulos com formação de espuma proteica estável.",
+        "D": "Descarboxilação de aminoácidos com liberação gasosa espontânea de gás carbônico."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o processo não aumenta o volume nem amolece o gel; pelo contrário, causa contração e enrijecimento das cadeias com expulsão de água.",
+        "B": "Correta: o slide estabelece expressamente que \"a retrogradação resulta na redução de volume, aumento da firmeza do gel e sinérese\".",
+        "C": "Incorreta: a retrogradação reduz a solubilidade das cadeias de amilose/amilopectina e não tem relação com espumas proteicas.",
+        "D": "Incorreta: descarboxilação com liberação de CO₂ é etapa da degradação de Strecker em Maillard, não da retrogradação mecânica do amido."
+      },
+      "referencia": {
+        "paginas": [
+          9
+        ],
+        "fundamentacao": "Slide 9 da apostila.",
+        "trechos_apoio": [
+          "RETROGRADAÇÃO DO AMIDO: A retrogradação resulta na redução de volume, aumento da firmeza do gel e sinérese."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_04_q012",
+      "slide_id": "bromatologia_aula_04",
+      "slide_nome": "Aula 04 - Glicídios",
+      "arquivo_origem": "aula 4 GLICÍDIOS_261006_203135.pdf",
+      "numero": 12,
+      "tema": "Retrogradação do Amido",
+      "subtema": "Reversibilidade e Cinética de Temperatura",
+      "enunciado": "A cinética e a reversibilidade da retrogradação do amido determinam a estabilidade de sobremesas, molhos e produtos panificados. Sobre essas propriedades, a apostila afirma textualmente que a retrogradação do amido é um fenômeno:",
+      "alternativas": {
+        "A": "Totalmente reversível mediante resfriamento suave a 25 °C.",
+        "B": "Irreversível e ocorre mais rapidamente em temperaturas próximas de 0 °C (acelerado pelo congelamento das soluções).",
+        "C": "Espontâneo exclusivamente em temperaturas superiores a 120 °C em estufas industriais.",
+        "D": "Catalisado unicamente por radiações ionizantes de alta frequência."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a reorganização das cadeias na retrogradação do amido é um processo irreversível.",
+        "B": "Correta: o texto ressalta expressamente que \"esse fenômeno é irreversível e ocorre mais rapidamente em temperaturas próximas de 0 °C (ou seja, é acelerado pelo congelamento das soluções)\".",
+        "C": "Incorreta: temperaturas elevadas desfazem associações e promovem gelatinização inicial, enquanto a retrogradação acelera no resfriamento e próximo a 0 °C.",
+        "D": "Incorreta: a cinética da retrogradação é governada pela temperatura e mobilidade das pontes de hidrogênio entre as cadeias, sem relação com irradiação ionizante."
+      },
+      "referencia": {
+        "paginas": [
+          10
+        ],
+        "fundamentacao": "Slide 10 da apostila.",
+        "trechos_apoio": [
+          "Esse fenômeno é irreversível e ocorre mais rapidamente em temperaturas próximas de 0°C (ou seja, é acelerado pelo congelamento das soluções)."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_04_q013",
+      "slide_id": "bromatologia_aula_04",
+      "slide_nome": "Aula 04 - Glicídios",
+      "arquivo_origem": "aula 4 GLICÍDIOS_261006_203135.pdf",
+      "numero": 13,
+      "tema": "Polissacarídeos de Reserva Animal",
+      "subtema": "Glicogênio",
+      "enunciado": "O glicogênio é o polissacarídeo de reserva energética dos tecidos animais. A respeito da sua ocorrência e papel biológico/tecnológico descrito na aula, é correto afirmar que:",
+      "alternativas": {
+        "A": "É a forma de armazenamento de glicose no fígado e no músculo, atua na transformação do músculo em carne e apresenta teor elevado na carne de equídeos.",
+        "B": "É acumulado exclusivamente nas sementes de leguminosas sob forma de amilose pura.",
+        "C": "É um dissacarídeo insolúvel formado pela união de duas moléculas de galactose monoidratada.",
+        "D": "Não desempenha qualquer função na glicólise post-mortem nem na conversão do tecido muscular em carne."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: a apostila pontua textualmente: \"Armazenamento de glicose no fígado e no músculo / Transformação do músculo em carne / ↑ carne de equídeos\".",
+        "B": "Incorreta: glicogênio é exclusivo de tecidos animais e fungos; a reserva de sementes vegetais é o amido.",
+        "C": "Incorreta: o glicogênio é um polissacarídeo de glicose de alto peso molecular, e não um dissacarídeo de galactose.",
+        "D": "Incorreta: sua degradação post-mortem (hidrólise anaeróbia a ácido lático) é determinante na transformação do músculo em carne."
+      },
+      "referencia": {
+        "paginas": [
+          11
+        ],
+        "fundamentacao": "Slide 11 da apostila.",
+        "trechos_apoio": [
+          "GLICÍDIO COMPOSTO - GLICOGÊNIO: • Armazenamento de glicose no fígado e no músculo. • Transformação do músculo em carne • ↑ carne de equídeos."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_04_q014",
+      "slide_id": "bromatologia_aula_04",
+      "slide_nome": "Aula 04 - Glicídios",
+      "arquivo_origem": "aula 4 GLICÍDIOS_261006_203135.pdf",
+      "numero": 14,
+      "tema": "Transformações Tecnológicas",
+      "subtema": "Fermentação dos Glicídios",
+      "enunciado": "A fermentação de carboidratos é um processo bioquímico amplamente explorado no processamento de derivados lácteos e produtos cárneos. De acordo com o conceito apresentado no material, a fermentação consiste na:",
+      "alternativas": {
+        "A": "Oxidação lipídica dos triglicerídeos gerando peróxidos e aldeídos graxos voláteis.",
+        "B": "Degradação (hidrólise) dos glicídios por ação de várias enzimas (autolíticas e/ou microbianas).",
+        "C": "Junção direta e irreversível de hidroxilas graxas com cloreto de sódio refinado.",
+        "D": "Desidratação térmica do amido seco acima de 200 °C em forno industrial."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: oxidação de gorduras refere-se à rancidez lipídica, não à fermentação de açúcares.",
+        "B": "Correta: o slide define: \"FERMENTAÇÃO: Degradação (hidrólise) dos glicídios por ação de várias enzimas (autolíticas e/ou microbianas)\", exemplificando com conversão do músculo em carne, iogurte e leite ácido.",
+        "C": "Incorreta: a fermentação é um processo biológico/enzimático de quebra de açúcares, sem ligação com síntese de compostos clorados.",
+        "D": "Incorreta: desidratação a altas temperaturas sem água líquida promove pirólise ou caramelização, não fermentação biológica."
+      },
+      "referencia": {
+        "paginas": [
+          12
+        ],
+        "fundamentacao": "Slide 12 da apostila.",
+        "trechos_apoio": [
+          "FERMENTAÇÃO: • Degradação (hidrólise) dos glicídios por ação de várias enzimas (autolíticas e/ou microbianas). • Conversão do músculo em carne • Iogurte • Leite ácido"
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_04_q015",
+      "slide_id": "bromatologia_aula_04",
+      "slide_nome": "Aula 04 - Glicídios",
+      "arquivo_origem": "aula 4 GLICÍDIOS_261006_203135.pdf",
+      "numero": 15,
+      "tema": "Comportamento Físico dos Açúcares",
+      "subtema": "Cristalização",
+      "enunciado": "A cristalização de soluções açucaradas é uma operação determinante na fabricação de doces, balas, chocolates e confeitos. Conforme abordado no slide sobre cristalização, é correto afirmar que:",
+      "alternativas": {
+        "A": "Quanto mais impura for uma solução de açúcar, mais rápida e perfeita é a sua cristalização.",
+        "B": "Quanto mais pura for uma solução de açúcar, mais facilmente ele se cristaliza, ocorrendo na formação de cristais de sacarose a formação de pontes de hidrogênio entre as moléculas de frutose.",
+        "C": "A presença de água livre impede absolutamente qualquer formação de cristais em soluções de sacarose.",
+        "D": "A cristalização só ocorre quando o alimento atinge temperatura de ebulição a 150 °C."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: impurezas e solutos diferentes atrapalham a aproximação molecular e dificultam a cristalização.",
+        "B": "Correta: o slide afirma textualmente: \"Quanto mais pura for uma solução de açúcar mais facilmente ele se cristaliza. Formação de cristais de sacarose → formação de pontes de hidrogênio entre as moléculas de frutose\".",
+        "C": "Incorreta: a cristalização ocorre justamente a partir de soluções aquosas saturadas ou supersaturadas.",
+        "D": "Incorreta: a cristalização geralmente decorre do resfriamento e supersaturação da solução pura, não da ebulição a 150 °C."
+      },
+      "referencia": {
+        "paginas": [
+          12,
+          13
+        ],
+        "fundamentacao": "Slides 12 e 13 da apostila.",
+        "trechos_apoio": [
+          "CRISTALIZAÇÃO: • Quanto mais pura for uma solução de açúcar mais facilmente ele se cristaliza. • Formação de cristais de sacarose → formação de pontes de hidrogênio entre as moléculas de frutose."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_04_q016",
+      "slide_id": "bromatologia_aula_04",
+      "slide_nome": "Aula 04 - Glicídios",
+      "arquivo_origem": "aula 4 GLICÍDIOS_261006_203135.pdf",
+      "numero": 16,
+      "tema": "Escurecimento Não Enzimático",
+      "subtema": "Comparação entre Maillard e Caramelização",
+      "enunciado": "O material didático compara as duas principais vias de escurecimento não enzimático dos alimentos: a Reação de Maillard e a Caramelização. Em relação às semelhanças e diferenças entre esses dois processos, a apostila destaca que:",
+      "alternativas": {
+        "A": "Em ambos os casos ocorre degradação de carboidratos com formação de compostos escuros (melanoidinas em Maillard e caramelo na caramelização), havendo em Maillard a formação adicional de compostos voláteis responsáveis pelo aroma característico.",
+        "B": "A reação de Maillard exige temperaturas acima de 300 °C na ausência total de água, enquanto a caramelização ocorre a frio a 4 °C.",
+        "C": "Ambas necessitam compulsoriamente da presença de aminoácidos sulfurados para gerar a cor marrom.",
+        "D": "Nenhuma das duas reações provoca alterações de cor em produtos de confeitaria ou carnes assadas."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: o texto destaca expressamente que em ambos os casos ocorre degradação de carboidratos formando produtos escuros (\"Maillard = melanoidinas; Caramelização = caramelo\") e ressalta que \"na reação de Maillard há também a formação de compostos voláteis responsáveis pelo cheiro característico do produto\".",
+        "B": "Incorreta: Maillard ocorre prontamente a temperaturas amenas e moderadas (40 °C a 70 °C), sem exigir 300 °C.",
+        "C": "Incorreta: a caramelização não utiliza aminoácidos ou proteínas; ocorre apenas com carboidratos aquecidos.",
+        "D": "Incorreta: ambas são as principais responsáveis pelo escurecimento de crostas assadas e grelhados."
+      },
+      "referencia": {
+        "paginas": [
+          13
+        ],
+        "fundamentacao": "Slide 13 da apostila.",
+        "trechos_apoio": [
+          "REAÇÃO DE MAILLARD E A CARAMELIZAÇÃO: • Em ambos os casos, ocorrem degradação nos carboidratos. • Nas duas transformações, os produtos de degradação formam compostos de coloração escura. Maillard = melanoidinas; Caramelização = caramelo. • Na reação de Maillard há também a formação de compostos voláteis responsáveis pelo cheiro característico do produto."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_04_q017",
+      "slide_id": "bromatologia_aula_04",
+      "slide_nome": "Aula 04 - Glicídios",
+      "arquivo_origem": "aula 4 GLICÍDIOS_261006_203135.pdf",
+      "numero": 17,
+      "tema": "Reação de Maillard",
+      "subtema": "Definição Química e Reagentes",
+      "enunciado": "A Reação de Maillard é uma das interações químicas mais estudadas na bromatologia. Segundo a definição formal apresentada no material, essa reação é caracterizada pela:",
+      "alternativas": {
+        "A": "Junção do grupo carbonila dos açúcares redutores com o grupo amínico das proteínas, de peptídios ou de aminoácidos.",
+        "B": "Clivagem oxidativa de ácidos graxos insaturados na presença de gás oxigênio.",
+        "C": "Precipitação de sais de cálcio em soluções ácidas desprovidas de matéria orgânica.",
+        "D": "Hidrólise estritamente enzimática de polissacarídeos na polpa de frutas verdes."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: o slide define textualmente: \"Reação caracterizada pela junção do grupo carbonila dos açúcares redutores com o grupo amínico das proteínas, de peptídios ou de aminoácidos. Também denominada: 'escurecimento não enzimático'. Participam: aminoácidos e açúcares redutores\".",
+        "B": "Incorreta: a quebra de ácidos graxos insaturados com oxigênio caracteriza a autooxidação lipídica.",
+        "C": "Incorreta: reações inorgânicas de sais de cálcio não constituem o escurecimento de Maillard.",
+        "D": "Incorreta: Maillard é uma reação química puramente não enzimática."
+      },
+      "referencia": {
+        "paginas": [
+          13,
+          14
+        ],
+        "fundamentacao": "Slides 13 e 14 da apostila.",
+        "trechos_apoio": [
+          "REAÇÃO DE MAILLARD: • Reação caracterizada pela junção do grupo carbonila dos açúcares redutores com o grupo amínico das proteínas, de peptídios ou de aminoácidos. • Também denominada: 'escurecimento não enzimático' • Participam : aminoácidos e açúcares redutores"
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_04_q018",
+      "slide_id": "bromatologia_aula_04",
+      "slide_nome": "Aula 04 - Glicídios",
+      "arquivo_origem": "aula 4 GLICÍDIOS_261006_203135.pdf",
+      "numero": 18,
+      "tema": "Reação de Maillard",
+      "subtema": "Eventos da Fase Inicial",
+      "enunciado": "A Reação de Maillard desenvolve-se através de uma sequência encadeada de etapas químicas (fases inicial, intermediária e final). Conforme descrito na aula, os eventos característicos da fase inicial compreendem:",
+      "alternativas": {
+        "A": "Polimerização de anéis de furfural gerando pigmentos escuros nitrogenados insolúveis.",
+        "B": "Reação entre o açúcar redutor e o aminoácido formando glicosamina, seguida pelo rearranjo de Amadori (formando cetose amina ou aldose amina).",
+        "C": "Degradação de Strecker com desprendimento imediato de grandes volumes de gás carbônico.",
+        "D": "Pirólise térmica do caramelo sob aquecimento a seco a 190 °C."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a polimerização em melanoidinas constitui a fase final da reação de Maillard.",
+        "B": "Correta: a apostila detalha explicitamente a etapa de abertura: \"FASE INICIAL: Açúcar redutor + aminoácido = glicosamina / Glicosamina - rearranjo de Amadori = cetose amina ou aldose amina\".",
+        "C": "Incorreta: a degradação de Strecker e a formação de reductonas ocorrem na fase intermediária.",
+        "D": "Incorreta: pirólise e queima de açúcar fazem parte da caramelização forçada, sem pertencer à fase inicial de Maillard."
+      },
+      "referencia": {
+        "paginas": [
+          14
+        ],
+        "fundamentacao": "Slide 14 da apostila.",
+        "trechos_apoio": [
+          "REAÇÃO DE MAILLARD • FASE INICIAL: • Açúcar redutor + aminoácido = glicosamina • Glicosamina - rearranjo de Amadori = cetose amina ou aldose amina."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_04_q019",
+      "slide_id": "bromatologia_aula_04",
+      "slide_nome": "Aula 04 - Glicídios",
+      "arquivo_origem": "aula 4 GLICÍDIOS_261006_203135.pdf",
+      "numero": 19,
+      "tema": "Reação de Maillard",
+      "subtema": "Eventos da Fase Intermediária e Degradação de Strecker",
+      "enunciado": "Na fase intermediária da Reação de Maillard, ocorrem desidratações e clivagens moleculares cruciais para as propriedades sensoriais dos alimentos. Segundo o material didático, os produtos formados nessa etapa e o mecanismo da degradação de Strecker são, respectivamente:",
+      "alternativas": {
+        "A": "Cristais puros de sacarose hidratada; condensação de ácidos graxos insaturados.",
+        "B": "Formação de derivados do furfural e reductonas; reação do aminoácido com a reductona gerando aldeídos com menos um átomo de C e liberação de CO₂.",
+        "C": "Síntese de glicose livre a partir de amido cru gelatinizado; retenção de oxigênio gasoso.",
+        "D": "Neutralização de bases com produção exclusiva de cloreto de amônio inodoro."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: cristais de sacarose e lipídeos insaturados não participam da fase intermediária de Maillard.",
+        "B": "Correta: o slide descreve: \"FASE INTERMEDIÁRIA: Formação de derivados do furfural e reductonas. Degradação de Strecker = reação do AA com a reductona = aldeídos com menos um átomo de C e CO₂\".",
+        "C": "Incorreta: a hidrólise de amido em glicose é via enzimática ou ácida, sem relação com reductonas e Strecker.",
+        "D": "Incorreta: a degradação de Strecker forma aldeídos aromáticos voláteis e dióxido de carbono, responsáveis pelo cheiro típico, e não cloreto de amônio inodoro."
+      },
+      "referencia": {
+        "paginas": [
+          14
+        ],
+        "fundamentacao": "Slide 14 da apostila.",
+        "trechos_apoio": [
+          "FASE INTERMEDIÁRIA: • Formação de derivados do furfural e reductonas. • Degradação de Strecker = reação do AA com a reductona = aldeídos com menos um átomo de C e CO₂"
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_04_q020",
+      "slide_id": "bromatologia_aula_04",
+      "slide_nome": "Aula 04 - Glicídios",
+      "arquivo_origem": "aula 4 GLICÍDIOS_261006_203135.pdf",
+      "numero": 20,
+      "tema": "Reação de Maillard",
+      "subtema": "Fase Final e Formação de Melanoidinas",
+      "enunciado": "O desfecho da Reação de Maillard caracteriza-se pela formação de pigmentos de coloração escura característicos. De acordo com a apostila, a fase final dessa reação envolve a:",
+      "alternativas": {
+        "A": "Formação de cristais monoidratados incolores de frutose pura.",
+        "B": "Polimerização do furfural gerando MELANOIDINAS (que contêm nitrogênio na molécula).",
+        "C": "Liberação de gás cloro e precipitação de sulfato de cobre anidro.",
+        "D": "Hidrogenação total das duplas ligações transformando óleos em gorduras trans."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: os produtos da fase final são altamente pigmentados e poliméricos, não cristais incolores.",
+        "B": "Correta: o slide estabelece categoricamente: \"FASE FINAL: Polimerização do furfural = MELANOIDINAS (com N na molécula)\".",
+        "C": "Incorreta: compostos de cloro e sulfato de cobre não são formados na via orgânica de Maillard.",
+        "D": "Incorreta: hidrogenação de óleos com formação de gorduras trans é processo de processamento lipídico industrial, e não a fase final de Maillard."
+      },
+      "referencia": {
+        "paginas": [
+          15
+        ],
+        "fundamentacao": "Slide 15 da apostila.",
+        "trechos_apoio": [
+          "REAÇÃO DE MAILLARD • FASE FINAL: • Polimerização do furfural = MELANOIDINAS (com N na molécula)"
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_04_q021",
+      "slide_id": "bromatologia_aula_04",
+      "slide_nome": "Aula 04 - Glicídios",
+      "arquivo_origem": "aula 4 GLICÍDIOS_261006_203135.pdf",
+      "numero": 21,
+      "tema": "Reação de Maillard",
+      "subtema": "Consequências Nutricionais e Físicas",
+      "enunciado": "Além das mudanças sensoriais de cor e aroma, a ocorrência da Reação de Maillard acarreta modificações nutricionais e físico-químicas importantes nas proteínas alimentares. Conforme a apostila, as alterações ocorridas durante a reação de Maillard:",
+      "alternativas": {
+        "A": "Elevam a digestibilidade e aumentam a síntese de aminoácidos essenciais pelo organismo.",
+        "B": "Reduzem a solubilidade e o valor nutritivo das proteínas.",
+        "C": "Convertem as proteínas em lipídeos essenciais da família ômega 3 e ômega 6.",
+        "D": "Não afetam a solubilidade nem a disponibilidade biológica dos aminoácidos."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o bloqueio dos grupamentos amínicos de aminoácidos (como a lisina) diminui, e não aumenta, o valor biológico e a absorção.",
+        "B": "Correta: o slide estabelece textualmente: \"As alterações ocorridas durante a reação de Maillard, reduzem a solubilidade e o valor nutritivo das proteínas\".",
+        "C": "Incorreta: proteínas e carboidratos não se transformam em ácidos graxos insaturados pela reação de Maillard.",
+        "D": "Incorreta: a reação altera profundamente a estrutura tridimensional das proteínas, reduzindo sua solubilidade e seu valor nutricional."
+      },
+      "referencia": {
+        "paginas": [
+          16
+        ],
+        "fundamentacao": "Slide 16 da apostila.",
+        "trechos_apoio": [
+          "As alterações ocorridas durante a reação de Maillard, reduzem a solubilidade e o valor nutritivo das proteínas."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_04_q022",
+      "slide_id": "bromatologia_aula_04",
+      "slide_nome": "Aula 04 - Glicídios",
+      "arquivo_origem": "aula 4 GLICÍDIOS_261006_203135.pdf",
+      "numero": 22,
+      "tema": "Cinética de Maillard",
+      "subtema": "Influência da Temperatura",
+      "enunciado": "A temperatura é um dos fatores que exercem controle direto sobre a cinética da Reação de Maillard. De acordo com os dados numéricos apresentados na apostila, na faixa de temperatura entre 40 °C e 70 °C, a velocidade da reação:",
+      "alternativas": {
+        "A": "Permanece estritamente constante devido à inativação térmica de catalisadores.",
+        "B": "Duplica a cada 10 °C de elevação na temperatura.",
+        "C": "Reduz-se pela metade a cada grau Celsius aumentado.",
+        "D": "Torna-se nula em temperaturas superiores a 50 °C."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a velocidade da reação depende da temperatura e sofre forte aceleração com o aquecimento.",
+        "B": "Correta: a regra expressa no slide dita: \"Binômio temperatura/tempo: velocidade da reação duplica a cada 10 °C entre 40 e 70 °C\".",
+        "C": "Incorreta: a velocidade aumenta exponencialmente com o calor, e não decresce.",
+        "D": "Incorreta: entre 40 °C e 70 °C a reação é intensa e contínua, com sua velocidade dobrando a cada 10 °C."
+      },
+      "referencia": {
+        "paginas": [
+          17
+        ],
+        "fundamentacao": "Slide 17 da apostila.",
+        "trechos_apoio": [
+          "Binômio temperatura/tempo: velocidade da reação duplica a cada 10°C entre 40 e 70°C."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_04_q023",
+      "slide_id": "bromatologia_aula_04",
+      "slide_nome": "Aula 04 - Glicídios",
+      "arquivo_origem": "aula 4 GLICÍDIOS_261006_203135.pdf",
+      "numero": 23,
+      "tema": "Cinética de Maillard",
+      "subtema": "Influência do pH",
+      "enunciado": "O pH do meio alimentar interfere no estado de ionização dos grupamentos amina e na abertura de anel dos açúcares. Segundo o material didático, a velocidade da Reação de Maillard é máxima quando o meio se encontra em:",
+      "alternativas": {
+        "A": "pH extremamente ácido (pH entre 1,0 e 2,0).",
+        "B": "pH neutro.",
+        "C": "pH fortemente alcalino (pH superior a 13,0).",
+        "D": "Ausência total de qualquer valor mensurável de pH."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: em pH muito ácido os grupos amino encontram-se protonados (−NH₃⁺), o que desfavorece o ataque nucleofílico à carbonila.",
+        "B": "Correta: a apostila define de forma direta e concisa: \"pH: pH neutro a velocidade de reação é máxima\".",
+        "C": "Incorreta: a condição ótima destacada explicitamente no slide da aula para a velocidade máxima é o pH neutro.",
+        "D": "Incorreta: matrizes aquosas alimentares possuem valores definidos de pH, e a neutralidade é o ponto ótimo indicado."
+      },
+      "referencia": {
+        "paginas": [
+          17
+        ],
+        "fundamentacao": "Slide 17 da apostila.",
+        "trechos_apoio": [
+          "pH: pH neutro a velocidade de reação é máxima."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_04_q024",
+      "slide_id": "bromatologia_aula_04",
+      "slide_nome": "Aula 04 - Glicídios",
+      "arquivo_origem": "aula 4 GLICÍDIOS_261006_203135.pdf",
+      "numero": 24,
+      "tema": "Cinética de Maillard",
+      "subtema": "Faixa Ótima de Atividade de Água (Aw)",
+      "enunciado": "A atividade de água (Aw) governa a taxa de difusão e a concentração efetiva dos reagentes no sistema alimentar. De acordo com a apostila, a Reação de Maillard ocorre com maior velocidade em alimentos que apresentam:",
+      "alternativas": {
+        "A": "Atividade de água média, situada entre 0,60 e 0,85.",
+        "B": "Atividade de água muito alta, estritamente superior a 0,95.",
+        "C": "Atividade de água nula absoluta igual a zero.",
+        "D": "Atividade de água extremamente baixa, abaixo de 0,10."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: o slide ressalta: \"Atividade de água (Aw): atividade de água (Aw) média, entre 0,6-0,85 a reação de Maillard ocorre com maior velocidade\".",
+        "B": "Incorreta: em Aw muito alta (> 0,9), a velocidade diminui devido à diluição excessiva dos reagentes.",
+        "C": "Incorreta: com Aw nula não há mobilidade molecular nem meio solvente para a aproximação dos reagentes.",
+        "D": "Incorreta: em valores de Aw < 0,25, a taxa de reação é muito baixa devido à falta de solvente."
+      },
+      "referencia": {
+        "paginas": [
+          17
+        ],
+        "fundamentacao": "Slide 17 da apostila.",
+        "trechos_apoio": [
+          "Atividade de água (Aw): atividade de água (Aw) média, entre 0,6-0,85 a reação de Maillard ocorre com maior velocidade."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_04_q025",
+      "slide_id": "bromatologia_aula_04",
+      "slide_nome": "Aula 04 - Glicídios",
+      "arquivo_origem": "aula 4 GLICÍDIOS_261006_203135.pdf",
+      "numero": 25,
+      "tema": "Cinética de Maillard",
+      "subtema": "Comportamento em Extremos de Aw",
+      "enunciado": "O comportamento da Reação de Maillard é desfavorecido tanto em atividade de água muito elevada quanto em atividade de água muito baixa. Segundo a explicação físico-química constante no slide 17, a velocidade da reação é baixa em Aw > 0,9 e em Aw < 0,25 porque:",
+      "alternativas": {
+        "A": "Em Aw > 0,9 há evaporação violenta de aminoácidos, e em Aw < 0,25 há excesso de diluição.",
+        "B": "Em Aw > 0,9 ocorre a diluição de reagentes, e em Aw < 0,25 há ausência de solventes com mobilidade limitada dos reagentes.",
+        "C": "Em ambos os extremos ocorre a quebra expontânea dos anéis aromáticos das proteínas.",
+        "D": "Em Aw > 0,9 os açúcares tornam-se insolúveis, e em Aw < 0,25 a água congela instantaneamente."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: aminoácidos não evaporam em alta umidade; o que ocorre é a diluição física da concentração de reagentes.",
+        "B": "Correta: o texto técnico explica detalhadamente: \"Aw > 0,9: ocorre a diluição de reagentes e a velocidade da reação é baixa; Aw < 0,25: ausência de solventes, mobilidade limitada dos reagentes com baixa velocidade de reação\".",
+        "C": "Incorreta: a variação de Aw afeta a difusão e concentração das moléculas, sem quebrar anéis aromáticos de aminoácidos.",
+        "D": "Incorreta: açúcares são altamente hidrossolúveis em alta Aw e a baixa Aw decorre de desidratação, não de congelamento forçado."
+      },
+      "referencia": {
+        "paginas": [
+          17
+        ],
+        "fundamentacao": "Slide 17 da apostila.",
+        "trechos_apoio": [
+          "Aw > 0,9: ocorre a diluição de reagentes e a velocidade da reação é baixa; Aw < 0,25: ausência de solventes, mobilidade limitada dos reagentes com baixa velocidade de reação."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_04_q026",
+      "slide_id": "bromatologia_aula_04",
+      "slide_nome": "Aula 04 - Glicídios",
+      "arquivo_origem": "aula 4 GLICÍDIOS_261006_203135.pdf",
+      "numero": 26,
+      "tema": "Cinética de Maillard",
+      "subtema": "Efeito Catalítico de Íons Metálicos",
+      "enunciado": "A presença de certos íons inorgânicos na matriz alimentar atua acelerando as transformações não enzimáticas. De acordo com a aula, os íons metálicos que exercem ação aceleradora sobre a velocidade da Reação de Maillard são:",
+      "alternativas": {
+        "A": "Chumbo e mercúrio elementares.",
+        "B": "Cobre (Cu) e Ferro (Fe).",
+        "C": "Hélio e neônio gasosos.",
+        "D": "Bário e estrôncio precipitados."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: chumbo e mercúrio são metais pesados contaminantes tóxicos, não citados como promotores catalíticos da reação no slide.",
+        "B": "Correta: o slide indica textualmente: \"Íons metálicos: a presença de íons metálicos como Cu e Fe aceleram a velocidade da reação de Maillard\".",
+        "C": "Incorreta: hélio e neônio são gases nobres quimicamente inertes.",
+        "D": "Incorreta: bário e estrôncio não são íons fisiológicos nem catalisadores abordados no mecanismo de Maillard."
+      },
+      "referencia": {
+        "paginas": [
+          18
+        ],
+        "fundamentacao": "Slide 18 da apostila.",
+        "trechos_apoio": [
+          "Íons metálicos: a presença de íons metálicos como Cu e Fe aceleram a velocidade da reação de Maillard."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_04_q027",
+      "slide_id": "bromatologia_aula_04",
+      "slide_nome": "Aula 04 - Glicídios",
+      "arquivo_origem": "aula 4 GLICÍDIOS_261006_203135.pdf",
+      "numero": 27,
+      "tema": "Cinética de Maillard",
+      "subtema": "Tipo de Carboidrato e a Sacarose Não Hidrolisada",
+      "enunciado": "A estrutura química do carboidrato determina sua capacidade de participar do escurecimento não enzimático de Maillard. Sobre a reatividade dos carboidratos, a apostila enfatiza que:",
+      "alternativas": {
+        "A": "Qualquer carboidrato reage instantaneamente, inclusive a celulose cristalina insolúvel.",
+        "B": "A presença do açúcar redutor é essencial para a interação da carbonila com o grupo amina, razão pela qual a sacarose não hidrolisada não participa da reação de Maillard por não apresentar grupo redutor livre.",
+        "C": "A sacarose intacta é o reagente que confere maior velocidade à reação de Maillard, reagindo mais rápido que a glicose.",
+        "D": "A frutose e a glicose são incapazes de fornecer grupos carbonílicos reativos."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: carboidratos estruturais insolúveis ou dissacarídeos não redutores intactos não realizam Maillard diretamente.",
+        "B": "Correta: o slide explica: \"Tipo de Carboidrato: a presença do açúcar redutor é essencial para a interação da carbonila com o grupo amina, assim a sacarose não hidrolizada não participa da reação de Maillard porque não apresenta grupo redutor livre\".",
+        "C": "Incorreta: a sacarose não hidrolisada não participa de Maillard por não ter extremidade anomérica livre.",
+        "D": "Incorreta: glicose e frutose contêm carbonilas livres (aldose e cetose) e reagem ativamente em Maillard."
+      },
+      "referencia": {
+        "paginas": [
+          18
+        ],
+        "fundamentacao": "Slide 18 da apostila.",
+        "trechos_apoio": [
+          "Tipo de Carboidrato: a presença do açúcar redutor é essencial para a interação da carbonila com o grupo amina, assim a sacarose não hidrolizada não participa da reação de Maillard porque não apresenta grupo redutor livre."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_04_q028",
+      "slide_id": "bromatologia_aula_04",
+      "slide_nome": "Aula 04 - Glicídios",
+      "arquivo_origem": "aula 4 GLICÍDIOS_261006_203135.pdf",
+      "numero": 28,
+      "tema": "Reação de Caramelização",
+      "subtema": "Conceito e Condições Operacionais",
+      "enunciado": "A Caramelização é outra via fundamental de escurecimento não enzimático de açúcares. Em relação às condições e reagentes necessários para a sua ocorrência, a apostila estabelece que ela:",
+      "alternativas": {
+        "A": "Envolve açúcares redutores e não-redutores aquecidos acima da sua temperatura de fusão, sem participação de aminoácidos.",
+        "B": "Ocorre exclusivamente a frio mediante adição de enzimas bacterianas em pH ácido.",
+        "C": "Exige obrigatoriamente a presença de proteínas de alto peso molecular e peptídeos.",
+        "D": "É restrita à quebra de amido por ação da saliva durante a mastigação."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: o slide pontua claramente: \"Caramelização: • Açúcares redutores e não-redutores: aquecimento acima da sua T° de fusão; • Não tem participação de aa; • Hidrólise, degradações e condensações; • Calda de pudim\".",
+        "B": "Incorreta: a caramelização exige alta temperatura térmica (acima da fusão do açúcar) e é estritamente não enzimática.",
+        "C": "Incorreta: ao contrário de Maillard, a caramelização não conta com a participação de aminoácidos ou proteínas.",
+        "D": "Incorreta: a ação da saliva sobre amido é hidrólise enzimática (amilase salivar), sem relação com a caramelização térmica."
+      },
+      "referencia": {
+        "paginas": [
+          19
+        ],
+        "fundamentacao": "Slide 19 da apostila.",
+        "trechos_apoio": [
+          "Caramelização: • Açúcares redutores e não-redutores: aquecimento acima da sua T° de fusão; • Não tem participação de aa; • Hidrólise, degradações e condensações; • Calda de pudim."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_04_q029",
+      "slide_id": "bromatologia_aula_04",
+      "slide_nome": "Aula 04 - Glicídios",
+      "arquivo_origem": "aula 4 GLICÍDIOS_261006_203135.pdf",
+      "numero": 29,
+      "tema": "Mecanismo da Reação de Caramelização",
+      "subtema": "Etapas Iniciais",
+      "enunciado": "O processo de caramelização envolve etapas sequenciais de desidratação e reorganização intramolecular. Conforme descrito na aula, os fenômenos que ocorrem inicialmente sob o efeito do calor são:",
+      "alternativas": {
+        "A": "A precipitação de cristais de cloreto de sódio com formação de espuma lipídica.",
+        "B": "A ruptura das ligações de hidrogênio liberando água de hidratação e, praticamente ao mesmo tempo, a ruptura da ligação glicosídica.",
+        "C": "A síntese anabólica de amilopectina altamente ramificada com retenção de umidade.",
+        "D": "A protonação de grupamentos amina livres por ácidos graxos voláteis."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o açúcar puro aquecido sofre desidratação e pirólise, sem presença ou precipitação de salmoura.",
+        "B": "Correta: o slide descreve: \"Inicialmente, sob o efeito do calor, ocorre a ruptura das ligações de hidrogênio liberando água de hidratação. Praticamente, ao mesmo tempo, ocorre a ruptura da ligação glicosídica\".",
+        "C": "Incorreta: o calor destrutivo cliva as moléculas do açúcar, e não sintetiza novos polissacarídeos complexos de amido.",
+        "D": "Incorreta: na caramelização não há participação de grupos amina de aminoácidos."
+      },
+      "referencia": {
+        "paginas": [
+          20
+        ],
+        "fundamentacao": "Slide 20 da apostila.",
+        "trechos_apoio": [
+          "REAÇÃO DE CARAMELIZAÇÃO: • Inicialmente, sob o efeito do calor, ocorre a ruptura das ligações de hidrogênio liberando água de hidratação. • Praticamente, ao mesmo tempo, ocorre a ruptura da ligação glicosídica."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_04_q030",
+      "slide_id": "bromatologia_aula_04",
+      "slide_nome": "Aula 04 - Glicídios",
+      "arquivo_origem": "aula 4 GLICÍDIOS_261006_203135.pdf",
+      "numero": 30,
+      "tema": "Mecanismo da Reação de Caramelização",
+      "subtema": "Formação de HMF e Pigmentos",
+      "enunciado": "Após a ruptura inicial das ligações glicosídicas na caramelização, a molécula sofre perda de água e ciclização. De acordo com a apostila, os compostos intermediários e os pigmentos finais gerados nessa transformação são:",
+      "alternativas": {
+        "A": "Formação do intermediário hidroximetilfurfural (HMF) e, a partir deste por condensação de anéis, formação de \"melanoidinas\" responsáveis pela cor marrom-dourada do caramelo.",
+        "B": "Liberação de gás metano e deposição superficial de cristais incolores insolúveis.",
+        "C": "Síntese de ácidos graxos saturados como ácido butírico e ácido láurico.",
+        "D": "Formação de ésteres de colesterol e precipitação de sais biliares."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: o texto afirma textualmente que ocorrem \"modificações estruturais com perda de moléculas de água e ciclização resultando vários compostos intermediários e o hidroximetil furfural (HMF)\" e que \"a partir do HMF, por condensação de anéis, formam-se as 'melanoidinas', responsáveis pela cor marrom-dourada do caramelo\".",
+        "B": "Incorreta: o processo produz intermediários aromáticos e pigmentos poliméricos escuros, não metano gasoso.",
+        "C": "Incorreta: ácidos graxos derivam do metabolismo lipídico, e não da ciclização de açúcares no caramelo.",
+        "D": "Incorreta: colesterol e sais biliares são lipídeos de origem animal totalmente ausentes na caramelização de açúcares."
+      },
+      "referencia": {
+        "paginas": [
+          20
+        ],
+        "fundamentacao": "Slide 20 da apostila.",
+        "trechos_apoio": [
+          "Daí para frente, começam a ocorrer modificações estruturais com perda de moléculas de água e ciclização resultando vários compostos intermediários e o hidroximetil furfural (HMF). A partir do HMF, por condensação de anéis, formam-se as 'melanoidinas', responsáveis pela cor marrom-dourada do caramelo."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_04_q031",
+      "slide_id": "bromatologia_aula_04",
+      "slide_nome": "Aula 04 - Glicídios",
+      "arquivo_origem": "aula 4 GLICÍDIOS_261006_203135.pdf",
+      "numero": 31,
+      "tema": "Escurecimento Não Enzimático",
+      "subtema": "Reações Desejáveis na Culinária e Panificação",
+      "enunciado": "As reações de escurecimento não enzimático desempenham papel essencial na aceitabilidade sensorial de diversos produtos. De acordo com o slide 21, as reações de escurecimento são desejadas em:",
+      "alternativas": {
+        "A": "Produtos de confeitaria, no preparo de bolos, bolachas, balas, biscoitos, pães e assados em geral.",
+        "B": "Leites em pó integrais formulados para recém-nascidos.",
+        "C": "Ovos desidratados destinados ao armazenamento seco prolongado.",
+        "D": "Filés de peixes frescos resfriados para consumo cru."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: o slide estabelece expressamente que as reações de escurecimento são desejadas em produtos de confeitaria, no preparo de bolos, bolachas, balas, biscoitos, pães e assados em geral.",
+        "B": "Incorreta: o escurecimento em leite em pó é classificado como uma reação indesejável que deve ser evitada.",
+        "C": "Incorreta: o escurecimento em ovo em pó durante a estocagem prolongada é uma alteração prejudicial indesejada.",
+        "D": "Incorreta: pescados frescos não devem sofrer escurecimento durante o armazenamento refrigerado."
+      },
+      "referencia": {
+        "paginas": [
+          21
+        ],
+        "fundamentacao": "Slide 21 da apostila.",
+        "trechos_apoio": [
+          "REAÇÕES DESEJÁVEIS DE ESCURECIMENTO: As reações de escurecimento são desejadas em produtos de confeitaria, no preparo de bolos, bolachas, balas, biscoitos, pães e assados em geral."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_04_q032",
+      "slide_id": "bromatologia_aula_04",
+      "slide_nome": "Aula 04 - Glicídios",
+      "arquivo_origem": "aula 4 GLICÍDIOS_261006_203135.pdf",
+      "numero": 32,
+      "tema": "Escurecimento Não Enzimático",
+      "subtema": "Aplicações em Carnes, Petiscos e Bebidas",
+      "enunciado": "Além dos itens de panificação e confeitaria, o material didático cita outras matrizes alimentares em que o desenvolvimento de cor marrom por aquecimento é intencional e apreciado. Conforme a apostila, o escurecimento é também desejado em:",
+      "alternativas": {
+        "A": "Sucos de frutas cítricas pasteurizados claros em garrafa de vidro.",
+        "B": "Carnes assadas, batatas fritas, amendoim e café torrados e em cerveja escura.",
+        "C": "Pescados salgados secos acondicionados em fardos de juta.",
+        "D": "Soros de queijo líquidos clarificados para ultrafiltração."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o escurecimento em sucos de frutas é indesejável e denota alteração de qualidade.",
+        "B": "Correta: o slide destaca textualmente: \"Também são desejadas nas carnes assadas, batatas fritas, amendoim e café torrados e em cerveja escura\".",
+        "C": "Incorreta: o escurecimento em pescado salgado seco desidratado é indesejável e deve ser rigorosamente evitado.",
+        "D": "Incorreta: soro clarificado para filtração de proteínas não deve sofrer reações de escurecimento."
+      },
+      "referencia": {
+        "paginas": [
+          21
+        ],
+        "fundamentacao": "Slide 21 da apostila.",
+        "trechos_apoio": [
+          "Também são desejadas nas carnes assadas, batatas fritas, amendoim e café torrados e em cerveja escura."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_04_q033",
+      "slide_id": "bromatologia_aula_04",
+      "slide_nome": "Aula 04 - Glicídios",
+      "arquivo_origem": "aula 4 GLICÍDIOS_261006_203135.pdf",
+      "numero": 33,
+      "tema": "Escurecimento Não Enzimático",
+      "subtema": "Reações Indesejáveis em Alimentos Desidratados",
+      "enunciado": "O escurecimento não enzimático pode atuar como um grave fator de perda de qualidade durante a estocagem. Segundo o slide 22, essas reações devem ser evitadas principalmente em alimentos desidratados armazenados secos por longo tempo, tais como:",
+      "alternativas": {
+        "A": "Café e grãos de amendoim submetidos à torrefação imediata.",
+        "B": "O leite em pó, o ovo em pó, o pescado salgado seco e os sucos de frutas.",
+        "C": "Caldas caramelizadas para cobertura de pudim de leite.",
+        "D": "Cascas externas de pães franceses recém-assados."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: no café e no amendoim a torra escura é intencional e desejada para desenvolver aromas e sabor.",
+        "B": "Correta: o slide estabelece categoricamente: \"Estas reações devem ser evitadas em alguns alimentos principalmente os desidratados armazenados secos por longo tempo como o leite em pó, ovo em pó, o pescado salgado seco e os sucos de frutas\".",
+        "C": "Incorreta: a calda de pudim é obtida propositalmente pelo escurecimento da caramelização térmica.",
+        "D": "Incorreta: a crosta dourada/marrom do pão é um atributo sensorial desejado e característico."
+      },
+      "referencia": {
+        "paginas": [
+          22
+        ],
+        "fundamentacao": "Slide 22 da apostila.",
+        "trechos_apoio": [
+          "REAÇÕES DE ESCURECIMENTO NÃO DESEJÁVEIS: Estas reações devem ser evitadas em alguns alimentos principalmente os desidratados armazenados secos por longo tempo como o leite em pó, ovo em pó, o pescado salgado seco e os sucos de frutas."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_04_q034",
+      "slide_id": "bromatologia_aula_04",
+      "slide_nome": "Aula 04 - Glicídios",
+      "arquivo_origem": "aula 4 GLICÍDIOS_261006_203135.pdf",
+      "numero": 34,
+      "tema": "Classificação dos Monossacarídeos",
+      "subtema": "Aldoses versus Cetoses",
+      "enunciado": "No estudo dos monossacarídeos (oses), os açúcares simples são agrupados de acordo com a função carbonílica presente em sua estrutura molecular. Conforme a classificação química apresentada no slide 3, é correto afirmar que:",
+      "alternativas": {
+        "A": "As aldoses possuem uma carbonila aldeídica e as cetoses possuem uma carbonila cetônica.",
+        "B": "As aldoses possuem grupamentos amino e as cetoses são formadas por ligações éster graxas.",
+        "C": "Nem as aldoses nem as cetoses possuem hidroxilas alcoólicas livres em sua cadeia.",
+        "D": "Toda cetose é necessariamente um polissacarídeo insolúvel de reserva animal."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: a apostila define monossacarídeos como poli-álcoois dotados de uma carbonila aldeídica (aldose) ou de uma carbonila cetônica (cetose), ilustrando as estruturas de aldeído e cetona.",
+        "B": "Incorreta: grupamentos amino pertencem a aminoácidos e ligações éster compõem os lipídeos.",
+        "C": "Incorreta: os monossacarídeos são poli-álcoois e possuem duas ou mais hidroxilas livres ligadas aos carbonos.",
+        "D": "Incorreta: cetoses (como a frutose) são monossacarídeos simples solúveis, e não polissacarídeos de reserva."
+      },
+      "referencia": {
+        "paginas": [
+          3
+        ],
+        "fundamentacao": "Slide 3 da apostila.",
+        "trechos_apoio": [
+          "São poli-alcoois com uma carbonila aldeídica (aldose) ou cetônica (cetose) [...] Aldeídos ou cetonas que possuem duas ou mais hidroxilas"
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_04_q035",
+      "slide_id": "bromatologia_aula_04",
+      "slide_nome": "Aula 04 - Glicídios",
+      "arquivo_origem": "aula 4 GLICÍDIOS_261006_203135.pdf",
+      "numero": 35,
+      "tema": "Polissacarídeos",
+      "subtema": "Definição Estrutural",
+      "enunciado": "O esquema geral de classificação dos glicídios estabelece distinções quantitativas quanto ao grau de polimerização dos carboidratos. Segundo a definição do slide 5, os polissacarídeos caracterizam-se por serem:",
+      "alternativas": {
+        "A": "Resultantes da união de apenas dois monossacarídeos unidos com liberação de amônia.",
+        "B": "Moléculas simples não hidrolisáveis formadas por três a seis carbonos.",
+        "C": "Resultantes da união de centenas de monossacarídeos e dissacarídeos.",
+        "D": "Lipídeos complexos saponificáveis extraídos exclusivamente de tecidos adiposos."
+      },
+      "gabarito": "C",
+      "explicacoes": {
+        "A": "Incorreta: a união de dois monossacarídeos com perda de água forma um dissacarídeo.",
+        "B": "Incorreta: moléculas simples não hidrolisáveis com poucos carbonos são os monossacarídeos (oses).",
+        "C": "Correta: o mapa conceitual define explicitamente: \"POLISSACARÍDEOS: Resultante da união de centenas de monossacarídeos e dissacarídeos\".",
+        "D": "Incorreta: polissacarídeos são carboidratos poliméricos, e não lipídeos saponificáveis."
+      },
+      "referencia": {
+        "paginas": [
+          5
+        ],
+        "fundamentacao": "Slide 5 da apostila.",
+        "trechos_apoio": [
+          "POLISSACARÍDEOS: Resultante da união de centenas de monossacarídeos e dissacarídeos. Exemplos são: AMIDO, CELULOSE, GLICOGÊNIO, QUITINA."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_04_q036",
+      "slide_id": "bromatologia_aula_04",
+      "slide_nome": "Aula 04 - Glicídios",
+      "arquivo_origem": "aula 4 GLICÍDIOS_261006_203135.pdf",
+      "numero": 36,
+      "tema": "Transformações Bioquímicas",
+      "subtema": "Exemplos Tecnológicos de Fermentação",
+      "enunciado": "No slide 12, a hidrólise e degradação enzimática dos glicídios (fermentação) é exemplificada em processos biológicos e agroindustriais. Conforme a lista apresentada no material, são exemplos práticos dessa via:",
+      "alternativas": {
+        "A": "A conversão do músculo em carne, o iogurte e o leite ácido.",
+        "B": "A rancidez oxidativa em carnes suínas e o escurecimento do caramelo em calda.",
+        "C": "O congelamento criogênico com nitrogênio líquido e a liofilização do leite.",
+        "D": "A hidrogenação catalítica de óleos vegetais e a saponificação em meio alcalino."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: o slide lista diretamente como processos fermentativos decorrentes da degradação dos glicídios: \"Conversão do músculo em carne, Iogurte, Leite ácido\".",
+        "B": "Incorreta: rancidez oxidativa é degradação lipídica e caramelo é pirólise térmica sem enzimas.",
+        "C": "Incorreta: congelamento e liofilização são métodos físicos de conservação por frio/secagem.",
+        "D": "Incorreta: hidrogenação e saponificação são transformações tecnológicas exclusivas de gorduras e óleos."
+      },
+      "referencia": {
+        "paginas": [
+          12
+        ],
+        "fundamentacao": "Slide 12 da apostila.",
+        "trechos_apoio": [
+          "FERMENTAÇÃO: Degradação (hidrólise) dos glicídios por ação de várias enzimas (autolíticas e/ou microbianas) • Conversão do músculo em carne • Iogurte • Leite ácido"
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_04_q037",
+      "slide_id": "bromatologia_aula_04",
+      "slide_nome": "Aula 04 - Glicídios",
+      "arquivo_origem": "aula 4 GLICÍDIOS_261006_203135.pdf",
+      "numero": 37,
+      "tema": "Reação de Maillard",
+      "subtema": "Composição Elementar das Melanoidinas",
+      "enunciado": "Uma distinção química fundamental entre as \"melanoidinas\" produzidas na fase final da Reação de Maillard e aquelas oriundas da caramelização simples reside na presença de um elemento químico específico na cadeia polimérica. De acordo com o slide 15, as melanoidinas da reação de Maillard caracterizam-se por:",
+      "alternativas": {
+        "A": "Apresentarem nitrogênio (N) em sua molécula.",
+        "B": "Serem constituídas estritamente por átomos de fósforo e enxofre inorgânicos.",
+        "C": "Serem compostos hidrofóbicos insolúveis desprovidos de átomos de carbono.",
+        "D": "Conterem exclusivamente cloro e sódio derivados de sais de cura."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: a apostila especifica expressamente: \"FASE FINAL: Polimerização do furfural = MELANOIDINAS (com N na molécula)\", refletindo a incorporação dos grupamentos amínicos dos aminoácidos reagentes.",
+        "B": "Incorreta: são polímeros orgânicos heterocíclicos complexos formados por carbono, hidrogênio, oxigênio e nitrogênio.",
+        "C": "Incorreta: como derivados de carboidratos e aminoácidos, possuem o carbono como esqueleto estrutural obrigatório.",
+        "D": "Incorreta: melanoidinas não são sais de cozinha nem dependem de cloro para sua formação."
+      },
+      "referencia": {
+        "paginas": [
+          15
+        ],
+        "fundamentacao": "Slide 15 da apostila.",
+        "trechos_apoio": [
+          "FASE FINAL: Polimerização do furfural = MELANOIDINAS (com N na molécula)"
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_04_q038",
+      "slide_id": "bromatologia_aula_04",
+      "slide_nome": "Aula 04 - Glicídios",
+      "arquivo_origem": "aula 4 GLICÍDIOS_261006_203135.pdf",
+      "numero": 38,
+      "tema": "Compostos Aromáticos Voláteis",
+      "subtema": "Reação de Maillard versus Caramelização",
+      "enunciado": "Durante o processamento térmico de alimentos, a percepção olfativa é intensamente impactada pelas reações químicas não enzimáticas. De acordo com a comparação apresentada no slide 13, uma particularidade importante da Reação de Maillard frente à caramelização é que:",
+      "alternativas": {
+        "A": "Maillard não gera nenhuma alteração de cor, atuando apenas no congelamento do produto.",
+        "B": "Na reação de Maillard há também a formação de compostos voláteis responsáveis pelo cheiro característico do produto.",
+        "C": "A reação de Maillard produz apenas água líquida pura, sendo totalmente inodora.",
+        "D": "Os compostos aromáticos de Maillard derivam da decomposição exclusiva de lipídeos saturados."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a reação de Maillard é uma das principais vias formadoras de pigmentos escuros em assados e grelhados.",
+        "B": "Correta: o texto ressalta textualmente: \"Na reação de Maillard há também a formação de compostos voláteis responsáveis pelo cheiro característico do produto\" (especialmente via degradação de Strecker).",
+        "C": "Incorreta: Maillard produz diversos aldeídos, pirazinas e compostos aromáticos voláteis de forte impacto sensorial.",
+        "D": "Incorreta: os voláteis de Maillard originam-se da interação entre açúcares redutores e aminoácidos, e não da quebra de lipídeos puros."
+      },
+      "referencia": {
+        "paginas": [
+          13
+        ],
+        "fundamentacao": "Slide 13 da apostila.",
+        "trechos_apoio": [
+          "Na reação de Maillard há também a formação de compostos voláteis responsáveis pelo cheiro característico do produto."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_04_q039",
+      "slide_id": "bromatologia_aula_04",
+      "slide_nome": "Aula 04 - Glicídios",
+      "arquivo_origem": "aula 4 GLICÍDIOS_261006_203135.pdf",
+      "numero": 39,
+      "tema": "Comportamento Tecnológico da Sacarose",
+      "subtema": "Reversibilidade do Poder Redutor",
+      "enunciado": "Em confeitaria e tecnologia de bebidas, a sacarose frequentemente passa por tratamentos para alterar sua funcionalidade tecnológica. Segundo os slides 7 e 18, sobre a reatividade da sacarose:",
+      "alternativas": {
+        "A": "A sacarose não hidrolisada não participa de Maillard por não apresentar grupo redutor livre, mas pode tornar-se um açúcar redutor se sofrer ação enzimática ou hidrólise ácida.",
+        "B": "A sacarose é permanentemente estável e insolúvel em ácidos a qualquer temperatura.",
+        "C": "Quando submetida à hidrólise enzimática, a sacarose se transforma em amilose e celulose.",
+        "D": "A adição de ácidos inibe qualquer possibilidade de a sacarose participar de reações químicas."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: os slides afirmam conjuntamente que a sacarose nativa não tem poder redutor livre (e não reage em Maillard), mas se sofrer ação enzimática ou hidrólise ácida, quebra-se em glicose e frutose livres, tornando-se redutora.",
+        "B": "Incorreta: a ligação glicosídica da sacarose é suscetível à hidrólise em meio ácido aquecido.",
+        "C": "Incorreta: a hidrólise da sacarose gera monossacarídeos (glicose + frutose), e não polissacarídeos complexos.",
+        "D": "Incorreta: a hidrólise ácida libera as carbonilas anoméricas da glicose e da frutose, habilitando a mistura a reagir prontamente via Maillard."
+      },
+      "referencia": {
+        "paginas": [
+          7,
+          18
+        ],
+        "fundamentacao": "Slides 7 e 18 da apostila.",
+        "trechos_apoio": [
+          "A sacarose, sendo formada por glicose e frutose, pode tornar-se um açúcar redutor se sofrer ação enzimática ou hidrólise ácida.",
+          "assim a sacarose não hidrolizada não participa da reação de Maillard porque não apresenta grupo redutor livre."
+        ]
+      }
+    },
+    {
+      "id": "bromatologia_aula_04_q040",
+      "slide_id": "bromatologia_aula_04",
+      "slide_nome": "Aula 04 - Glicídios",
+      "arquivo_origem": "aula 4 GLICÍDIOS_261006_203135.pdf",
+      "numero": 40,
+      "tema": "Síntese e Integração",
+      "subtema": "Aplicação Prática da Caramelização na Culinária",
+      "enunciado": "A preparação de caldas doces e coberturas na gastronomia clássica ilustra perfeitamente as transformações térmicas dos carboidratos. No slide 19, o exemplo culinário prático explicitamente associado à Reação de Caramelização por aquecimento de açúcares acima de sua temperatura de fusão é:",
+      "alternativas": {
+        "A": "O leite azedo fermentado por bactérias lácticas.",
+        "B": "A calda de pudim.",
+        "C": "A farinha de mandioca seca torrada sem açúcar.",
+        "D": "O iogurte natural desnatado em meio aquoso."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o leite azedo é resultante de fermentação biológica e produção de ácido lático.",
+        "B": "Correta: o slide correlaciona textualmente a caramelização térmica de açúcares sem aminoácidos ao exemplo da \"calda de pudim\".",
+        "C": "Incorreta: farinha de mandioca é fonte de amido que passa por dextrinização mecânica e gelatinização, sem configurar a clássica calda caramelizada citada no slide.",
+        "D": "Incorreta: iogurte é produto lácteo fermentado, e não açúcar aquecido acima da fusão térmica."
+      },
+      "referencia": {
+        "paginas": [
+          19
+        ],
+        "fundamentacao": "Slide 19 da apostila.",
+        "trechos_apoio": [
+          "Caramelização: • Açúcares redutores e não-redutores: aquecimento acima da sua T° de fusão; • Não tem participação de aa; • Hidrólise, degradações e condensações; • Calda de pudim."
+        ]
+      }
+    }
+  ]
+}
