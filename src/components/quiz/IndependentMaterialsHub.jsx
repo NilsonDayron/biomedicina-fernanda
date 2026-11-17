@@ -199,6 +199,7 @@ export default function IndependentMaterialsHub({
   const [session, setSession] = useState(initialState.session)
   const [confirmingNewSession, setConfirmingNewSession] = useState(false)
   const [expandedOtherExplanationsUid, setExpandedOtherExplanationsUid] = useState(null)
+  const [zoomedImageUid, setZoomedImageUid] = useState(null)
 
   useEffect(() => {
     saveUiState({
@@ -1495,6 +1496,160 @@ export default function IndependentMaterialsHub({
         >
           {currentQuestion.enunciado}
         </div>
+
+        {/* Imagem da questão (exibida logo abaixo do enunciado e antes das alternativas, preservada em reforços e na revisão) */}
+        {currentQuestion.imagem ? (
+          <figure
+            data-testid="question-image-container"
+            style={{
+              margin: '0 0 18px 0',
+              padding: 12,
+              background: '#0b2229',
+              border: '1px solid #24515e',
+              borderRadius: 14,
+            }}
+          >
+            <button
+              type="button"
+              data-testid="btn-zoom-question-image"
+              onClick={() => setZoomedImageUid(currentQueueItem.uid)}
+              aria-label={`Ampliar imagem: ${currentQuestion.imagem_fonte || 'Slide 51 — Enzimas'}`}
+              style={{
+                display: 'block',
+                width: '100%',
+                padding: 0,
+                border: 'none',
+                background: 'transparent',
+                cursor: 'zoom-in',
+              }}
+            >
+              <img
+                src={currentQuestion.imagem}
+                alt={currentQuestion.imagem_fonte || 'Slide 51 — Enzimas'}
+                data-testid="question-image"
+                style={{
+                  display: 'block',
+                  width: '100%',
+                  maxWidth: 720,
+                  height: 'auto',
+                  margin: '0 auto',
+                  borderRadius: 10,
+                  background: '#ffffff',
+                  objectFit: 'contain',
+                }}
+              />
+            </button>
+            <figcaption
+              style={{
+                display: 'flex',
+                justifyContent: 'space-between',
+                alignItems: 'center',
+                flexWrap: 'wrap',
+                gap: 8,
+                marginTop: 10,
+                fontSize: 13,
+                color: '#bfe7ea',
+              }}
+            >
+              <span data-testid="question-image-source" style={{ fontWeight: 700, color: '#edfafa' }}>
+                Fonte: {currentQuestion.imagem_fonte || 'Slide 51 — Enzimas'}
+              </span>
+              <button
+                type="button"
+                data-testid="btn-zoom-question-image-label"
+                className="ghost"
+                onClick={() => setZoomedImageUid(currentQueueItem.uid)}
+                style={{ padding: '5px 10px', fontSize: 12 }}
+              >
+                🔍 Toque para ampliar
+              </button>
+            </figcaption>
+          </figure>
+        ) : null}
+
+        {currentQuestion.imagem && zoomedImageUid === currentQueueItem.uid ? (
+          <div
+            data-testid="question-image-zoom-modal"
+            role="dialog"
+            aria-modal="true"
+            aria-label={currentQuestion.imagem_fonte || 'Slide 51 — Enzimas'}
+            onClick={() => setZoomedImageUid(null)}
+            style={{
+              position: 'fixed',
+              inset: 0,
+              zIndex: 9999,
+              background: 'rgba(3, 12, 15, 0.92)',
+              display: 'flex',
+              flexDirection: 'column',
+              justifyContent: 'center',
+              alignItems: 'center',
+              padding: 16,
+              overflow: 'auto',
+            }}
+          >
+            <div
+              onClick={(e) => e.stopPropagation()}
+              style={{
+                maxWidth: '96vw',
+                width: '100%',
+                display: 'flex',
+                flexDirection: 'column',
+                alignItems: 'center',
+                gap: 12,
+              }}
+            >
+              <div
+                style={{
+                  width: '100%',
+                  maxWidth: 960,
+                  display: 'flex',
+                  justifyContent: 'space-between',
+                  alignItems: 'center',
+                  gap: 12,
+                  color: '#fff',
+                }}
+              >
+                <span data-testid="zoom-modal-source" style={{ fontWeight: 800, fontSize: 15 }}>
+                  {currentQuestion.imagem_fonte || 'Slide 51 — Enzimas'}
+                </span>
+                <button
+                  type="button"
+                  data-testid="btn-close-image-zoom"
+                  className="primary"
+                  onClick={() => setZoomedImageUid(null)}
+                  style={{ padding: '8px 14px', fontSize: 14 }}
+                >
+                  Fechar ✕
+                </button>
+              </div>
+              <div
+                style={{
+                  maxWidth: '96vw',
+                  maxHeight: '82vh',
+                  overflow: 'auto',
+                  borderRadius: 12,
+                  background: '#ffffff',
+                  padding: 6,
+                }}
+              >
+                <img
+                  src={currentQuestion.imagem}
+                  alt={currentQuestion.imagem_fonte || 'Slide 51 — Enzimas'}
+                  data-testid="question-image-zoomed"
+                  style={{
+                    display: 'block',
+                    maxWidth: '92vw',
+                    maxHeight: '78vh',
+                    width: 'auto',
+                    height: 'auto',
+                    objectFit: 'contain',
+                    margin: '0 auto',
+                  }}
+                />
+              </div>
+            </div>
+          </div>
+        ) : null}
 
         {/* Alternativas A, B, C e D */}
         <div

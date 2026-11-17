@@ -937,6 +937,8 @@
       "tema": "Enzimas",
       "subtema": "Sítio ativo e energia de ativação",
       "enunciado": "O slide das enzimas mostra que:",
+      "imagem": "/images/grafico-enzimas.png",
+      "imagem_fonte": "Slide 51 — Enzimas",
       "alternativas": {
         "A": "O substrato liga-se ao sítio ativo da enzima, formando o complexo enzima-substrato, e a energia de ativação da reação é menor com a enzima do que sem ela.",
         "B": "A energia de ativação é maior com a enzima do que sem ela.",
@@ -954,7 +956,7 @@
         "paginas": [
           51
         ],
-        "fundamentacao": "Slide 51, \"Enzimas\".",
+        "fundamentacao": "Slide 51 — Enzimas.",
         "trechos_apoio": [
           "\"Activation energy without enzyme … Activation energy with enzyme\" (rótulos do gráfico)"
         ]
