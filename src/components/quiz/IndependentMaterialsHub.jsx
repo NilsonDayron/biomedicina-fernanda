@@ -17,6 +17,7 @@ import {
   loadAllMaterialsProgress,
   loadSavedUiState,
   recordMaterialQuestionAnswer,
+  sanitizeSavedSession,
   saveMaterialActiveSession,
   saveMaterialReflectionDraft,
   saveMaterialReflectionFinal,
@@ -57,8 +58,13 @@ function normalizeSavedSession(saved, slideId) {
   if (!saved || saved.slide_id !== slideId || !Array.isArray(saved.queue) || !saved.queue.length) {
     return null
   }
+  const validIds = new Set(getQuestionsBySlideId(slideId).map((q) => q.id))
+  const sanitized = sanitizeSavedSession(saved, validIds, slideId)
+  if (!sanitized || !Array.isArray(sanitized.queue) || !sanitized.queue.length) {
+    return null
+  }
   let initialCounter = 0
-  const normalizedQueue = saved.queue.map((item) => {
+  const normalizedQueue = sanitized.queue.map((item) => {
     if (!item.isReforco) {
       initialCounter += 1
     }
@@ -72,14 +78,15 @@ function normalizeSavedSession(saved, slideId) {
     }
   })
   return {
-    ...saved,
-    initialCount: saved.initialCount || initialCounter || normalizedQueue.length,
+    ...sanitized,
+    initialCount: sanitized.initialCount || initialCounter || normalizedQueue.length,
     queue: normalizedQueue,
-    currentIndex: typeof saved.currentIndex === 'number' ? saved.currentIndex : 0,
-    viewIndex: typeof saved.viewIndex === 'number' ? saved.viewIndex : saved.currentIndex || 0,
-    responsesByUid: saved.responsesByUid || {},
-    draftByUid: saved.draftByUid || {},
-    reflectionDraftByUid: saved.reflectionDraftByUid || {},
+    currentIndex: typeof sanitized.currentIndex === 'number' ? sanitized.currentIndex : 0,
+    viewIndex:
+      typeof sanitized.viewIndex === 'number' ? sanitized.viewIndex : sanitized.currentIndex || 0,
+    responsesByUid: sanitized.responsesByUid || {},
+    draftByUid: sanitized.draftByUid || {},
+    reflectionDraftByUid: sanitized.reflectionDraftByUid || {},
   }
 }
 

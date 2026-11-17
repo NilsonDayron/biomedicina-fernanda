@@ -42,13 +42,123 @@ function loadLegacyAnswersMap() {
   }
 }
 
-function isSavedSessionCompatible(sessaoAtiva, validIds, expectedSlideId) {
-  if (!sessaoAtiva || typeof sessaoAtiva !== 'object') return false
-  if (sessaoAtiva.slide_id !== expectedSlideId) return false
-  if (!Array.isArray(sessaoAtiva.queue) || sessaoAtiva.queue.length === 0) return false
-  return sessaoAtiva.queue.every(
-    (item) => item && typeof item.questaoId === 'string' && validIds.has(String(item.questaoId)),
-  )
+const REMOVED_ADMIN_QUESTION_IDS = new Set([
+  'fundamentos_q001',
+  'fundamentos_q002',
+  'fundamentos_q003',
+  'fundamentos_q004',
+  'fundamentos_q005',
+  'fundamentos_q006',
+  'fundamentos_q007',
+  'fundamentos_q008',
+])
+
+export function sanitizeSavedSession(sessaoAtiva, validIds, expectedSlideId) {
+  if (!sessaoAtiva || typeof sessaoAtiva !== 'object') return null
+  if (sessaoAtiva.slide_id !== expectedSlideId) return null
+  if (!Array.isArray(sessaoAtiva.queue) || sessaoAtiva.queue.length === 0) return null
+
+  const oldQueue = sessaoAtiva.queue
+  const oldCurrentIndex = typeof sessaoAtiva.currentIndex === 'number' ? sessaoAtiva.currentIndex : 0
+  const oldViewIndex =
+    typeof sessaoAtiva.viewIndex === 'number' ? sessaoAtiva.viewIndex : oldCurrentIndex
+
+  let keptBeforeCurrent = 0
+  let keptBeforeView = 0
+  const filteredRawQueue = []
+
+  oldQueue.forEach((item, idx) => {
+    const isValid =
+      item && typeof item.questaoId === 'string' && validIds.has(String(item.questaoId))
+    if (isValid) {
+      if (idx < oldCurrentIndex) keptBeforeCurrent += 1
+      if (idx < oldViewIndex) keptBeforeView += 1
+      filteredRawQueue.push(item)
+    }
+  })
+
+  if (filteredRawQueue.length === 0) {
+    return null
+  }
+
+  if (filteredRawQueue.length === oldQueue.length) {
+    return sessaoAtiva
+  }
+
+  let initialCounter = 0
+  const filteredQueue = filteredRawQueue.map((item) => {
+    if (!item.isReforco) {
+      initialCounter += 1
+    }
+    return {
+      ...item,
+      initialPosition: !item.isReforco ? initialCounter : null,
+    }
+  })
+
+  const keptUids = new Set(filteredQueue.map((item) => item.uid))
+  const rawResponses =
+    sessaoAtiva.responsesByUid && typeof sessaoAtiva.responsesByUid === 'object'
+      ? sessaoAtiva.responsesByUid
+      : {}
+  const filteredResponsesByUid = {}
+  for (const [uid, resp] of Object.entries(rawResponses)) {
+    if (keptUids.has(uid) && resp && validIds.has(String(resp.questaoId))) {
+      filteredResponsesByUid[uid] = resp
+    }
+  }
+
+  const rawDrafts =
+    sessaoAtiva.draftByUid && typeof sessaoAtiva.draftByUid === 'object'
+      ? sessaoAtiva.draftByUid
+      : {}
+  const filteredDraftByUid = {}
+  for (const [uid, val] of Object.entries(rawDrafts)) {
+    if (keptUids.has(uid)) {
+      filteredDraftByUid[uid] = val
+    }
+  }
+
+  const rawReflectionDrafts =
+    sessaoAtiva.reflectionDraftByUid && typeof sessaoAtiva.reflectionDraftByUid === 'object'
+      ? sessaoAtiva.reflectionDraftByUid
+      : {}
+  const filteredReflectionDraftByUid = {}
+  for (const [uid, val] of Object.entries(rawReflectionDrafts)) {
+    if (keptUids.has(uid)) {
+      filteredReflectionDraftByUid[uid] = val
+    }
+  }
+
+  const rawHistory = Array.isArray(sessaoAtiva.history) ? sessaoAtiva.history : []
+  const filteredHistory = rawHistory
+    .filter((entry) => entry && keptUids.has(entry.uid) && validIds.has(String(entry.questaoId)))
+    .map((entry, idx) => ({
+      ...entry,
+      posicaoSessao: idx + 1,
+    }))
+
+  const filteredAnsweredIds = Array.isArray(sessaoAtiva.answeredQuestionIds)
+    ? sessaoAtiva.answeredQuestionIds.filter((qId) => validIds.has(String(qId)))
+    : Array.from(new Set(filteredHistory.map((h) => h.questaoId)))
+
+  const newCurrentIndex = Math.max(0, Math.min(keptBeforeCurrent, filteredQueue.length - 1))
+  const newViewIndex = Math.max(0, Math.min(keptBeforeView, newCurrentIndex))
+  const reinforcementsAdded = filteredQueue.filter((item) => item.isReforco).length
+
+  return {
+    ...sessaoAtiva,
+    initialCount: initialCounter || filteredQueue.length,
+    queue: filteredQueue,
+    currentIndex: newCurrentIndex,
+    viewIndex: newViewIndex,
+    history: filteredHistory,
+    responsesByUid: filteredResponsesByUid,
+    draftByUid: filteredDraftByUid,
+    reflectionDraftByUid: filteredReflectionDraftByUid,
+    answeredQuestionIds: filteredAnsweredIds,
+    reinforcementsAdded,
+  }
 }
 
 export function loadAllMaterialsProgress() {
@@ -112,18 +222,19 @@ export function loadAllMaterialsProgress() {
         const hadDeprecatedActiveSession = deprecatedSavedList.some((item) =>
           Boolean(item.sessaoAtiva),
         )
-        const primarySessionCompatible = isSavedSessionCompatible(
-          primarySaved.sessaoAtiva,
-          validIds,
-          id,
-        )
+        const sanitizedSession = sanitizeSavedSession(primarySaved.sessaoAtiva, validIds, id)
 
-        const sessaoAtiva = primarySessionCompatible ? primarySaved.sessaoAtiva : null
+        const sessaoAtiva = sanitizedSession
         const sessaoIncompativelSubstituida = Boolean(
           primarySaved.sessaoIncompativelSubstituida ||
-            (hadPrimaryActiveSession && !primarySessionCompatible) ||
+            (hadPrimaryActiveSession && !sanitizedSession) ||
             hadDeprecatedActiveSession,
         )
+
+        const allReflexoes = [
+          ...(Array.isArray(primarySaved.reflexoes) ? primarySaved.reflexoes : []),
+          ...extraReflexoes,
+        ].filter((r) => !r?.questaoId || !REMOVED_ADMIN_QUESTION_IDS.has(String(r.questaoId)))
 
         merged[id] = {
           ...createEmptyMaterialProgress(id),
@@ -135,10 +246,7 @@ export function loadAllMaterialsProgress() {
           totalRespostas: (primarySaved.totalRespostas || 0) + extraTotal,
           sessoesConcluidas: (primarySaved.sessoesConcluidas || 0) + extraSessoes,
           porQuestao: compatiblePorQuestao,
-          reflexoes: [
-            ...(Array.isArray(primarySaved.reflexoes) ? primarySaved.reflexoes : []),
-            ...extraReflexoes,
-          ],
+          reflexoes: allReflexoes,
           rascunhosReflexao:
             primarySaved.rascunhosReflexao && typeof primarySaved.rascunhosReflexao === 'object'
               ? primarySaved.rascunhosReflexao

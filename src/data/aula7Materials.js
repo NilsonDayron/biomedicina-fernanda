@@ -99,7 +99,7 @@ const JSON_MATERIAL_DEFINITIONS = [
     disciplineNome: 'Fundamentos de Bioquímica',
     blurb: 'Conceito e escopo da Bioquímica, matriz extracelular (MEC), 4 classes de biomoléculas, vitaminas lipossolúveis e hidrossolúveis, anabolismo vs. catabolismo e visão geral da respiração celular.',
     rawData: rawBioquimicaFundamentos,
-    esperado: 40,
+    esperado: 32,
   },
   {
     file: 'bioquimica_150820_carboidratos_estruturas.json',

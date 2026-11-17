@@ -1,267 +1,11 @@
 {
   "questoes": [
     {
-      "id": "fundamentos_q001",
-      "slide_id": "fundamentos",
-      "slide_nome": "080826 - Fundamentos de Bioquímica",
-      "arquivo_origem": "080826_-_FUNDAMENTOS_DE_BIOQUÍMICA_260916_153651.pdf",
-      "numero": 1,
-      "tema": "Procedimentos de avaliação",
-      "subtema": "V1, VT e V2",
-      "enunciado": "De acordo com os procedimentos de avaliação apresentados, a associação correta entre a verificação e seu peso é:",
-      "alternativas": {
-        "A": "V1 (conhecimento da matéria): peso 1; VT (trabalhos e seminários): peso 2; V2 (parte prática): peso 2.",
-        "B": "V1 (parte prática): peso 2; VT (conhecimento da matéria): peso 1; V2 (trabalhos): peso 2.",
-        "C": "V1 (conhecimento de toda a matéria até a data da prova): peso 2; VT (trabalhos individuais ou em grupo, seminários, debates): peso 1; V2 (parte prática): peso 2.",
-        "D": "V1, VT e V2 têm todas o mesmo peso 1."
-      },
-      "gabarito": "C",
-      "explicacoes": {
-        "A": "Incorreta: inverte os pesos de V1 e VT. A V1 tem peso 2 e o VT tem peso 1.",
-        "B": "Incorreta: troca o conteúdo das verificações. A V1 avalia o conhecimento da matéria, o VT avalia os trabalhos e a V2 é a parte prática.",
-        "C": "Correta: reproduz o conteúdo e os pesos das três verificações (2, 1 e 2).",
-        "D": "Incorreta: os pesos são diferentes: V1 = 2, VT = 1 e V2 = 2."
-      },
-      "referencia": {
-        "paginas": [
-          2
-        ],
-        "fundamentacao": "Slide 2, \"PROCEDIMENTOS DE AVALIAÇÃO (MIA)\".",
-        "trechos_apoio": [
-          "\"V1 = verificação do conhecimento de toda matéria dada até a data da prova (valor de 0 a 10), peso 2(dois)\""
-        ]
-      }
-    },
-    {
-      "id": "fundamentos_q002",
-      "slide_id": "fundamentos",
-      "slide_nome": "080826 - Fundamentos de Bioquímica",
-      "arquivo_origem": "080826_-_FUNDAMENTOS_DE_BIOQUÍMICA_260916_153651.pdf",
-      "numero": 2,
-      "tema": "Procedimentos de avaliação",
-      "subtema": "Cálculo da média do semestre",
-      "enunciado": "A média do semestre (MS) é apurada pela fórmula:",
-      "alternativas": {
-        "A": "(V1×2 + VT + V2×2) / 5",
-        "B": "(V1 + VT + V2) / 3",
-        "C": "(V1×2 + VT×2 + V2) / 5",
-        "D": "(V1 + VT×2 + V2×2) / 5"
-      },
-      "gabarito": "A",
-      "explicacoes": {
-        "A": "Correta: é a fórmula do slide. V1 e V2 pesam 2, o VT pesa 1, e a soma dos pesos é 5.",
-        "B": "Incorreta: é uma média simples, que ignora os pesos das verificações.",
-        "C": "Incorreta: dá peso 2 ao VT e peso 1 à V2, invertendo os pesos reais.",
-        "D": "Incorreta: dá peso 1 à V1 e peso 2 ao VT, também trocando os pesos."
-      },
-      "referencia": {
-        "paginas": [
-          3
-        ],
-        "fundamentacao": "Slide 3, \"PROCEDIMENTOS DE AVALIAÇÃO (MIA)\".",
-        "trechos_apoio": [
-          "\"a)(V1x2+VT+V2x2)/5=MS\""
-        ]
-      }
-    },
-    {
-      "id": "fundamentos_q003",
-      "slide_id": "fundamentos",
-      "slide_nome": "080826 - Fundamentos de Bioquímica",
-      "arquivo_origem": "080826_-_FUNDAMENTOS_DE_BIOQUÍMICA_260916_153651.pdf",
-      "numero": 3,
-      "tema": "Procedimentos de avaliação",
-      "subtema": "Aprovação direta e Verificação Suplementar",
-      "enunciado": "Sobre o resultado da média do semestre (MS), é correto afirmar que:",
-      "alternativas": {
-        "A": "O aluno com MS igual ou superior a 5,0 é aprovado sem VS.",
-        "B": "O aluno com MS inferior a 4,0 realiza a VS.",
-        "C": "O aluno com MS igual ou superior a 7,0 realiza a VS.",
-        "D": "O aluno com MS igual ou superior a 7,0 é aprovado sem VS, e o aluno com MS igual ou superior a 4,0 e inferior a 7,0 realiza a VS, cujo aproveitamento não pode ser inferior a 5,0."
-      },
-      "gabarito": "D",
-      "explicacoes": {
-        "A": "Incorreta: a aprovação direta exige MS igual ou superior a 7,0, não 5,0.",
-        "B": "Incorreta: a VS é para quem tem MS de 4,0 a menos de 7,0. Com MS abaixo de 4,0 não há acesso à VS.",
-        "C": "Incorreta: com MS igual ou superior a 7,0 o aluno é aprovado sem necessidade de VS.",
-        "D": "Correta: reúne a aprovação direta (MS ≥ 7,0) e a regra da VS (MS entre 4,0 e 7,0, com VS mínima de 5,0)."
-      },
-      "referencia": {
-        "paginas": [
-          3
-        ],
-        "fundamentacao": "Slides 3 e 4, \"PROCEDIMENTOS DE AVALIAÇÃO (MIA)\".",
-        "trechos_apoio": [
-          "\"Se a MS for igual ou superior a 4,0 e inferior a 7,0, o aluno será submetido à VS\""
-        ]
-      }
-    },
-    {
-      "id": "fundamentos_q004",
-      "slide_id": "fundamentos",
-      "slide_nome": "080826 - Fundamentos de Bioquímica",
-      "arquivo_origem": "080826_-_FUNDAMENTOS_DE_BIOQUÍMICA_260916_153651.pdf",
-      "numero": 4,
-      "tema": "Procedimentos de avaliação",
-      "subtema": "Média final e frequência",
-      "enunciado": "Para o aluno que realizou a VS, a média final e a frequência exigidas são:",
-      "alternativas": {
-        "A": "Média final = MS + VS, com valor igual ou superior a 7,0, e frequência mínima de 50%.",
-        "B": "Média final = (MS + VS) / 2, com valor igual ou superior a 5,0, e frequência mínima de 75%.",
-        "C": "Média final = MS × VS, com valor igual ou superior a 4,0, e frequência mínima de 60%.",
-        "D": "Média final = (MS + VS) / 2, com valor igual ou superior a 7,0, e frequência mínima de 75%."
-      },
-      "gabarito": "B",
-      "explicacoes": {
-        "A": "Incorreta: a média final não é a soma simples, e a frequência exigida é 75%, não 50%.",
-        "B": "Correta: a média final é (MS+VS)/2, com mínimo de 5,0, e o aluno precisa ter no mínimo 75% de frequência.",
-        "C": "Incorreta: não se multiplica MS por VS, e o mínimo de frequência é 75%.",
-        "D": "Incorreta: a fórmula e a frequência estão certas, mas a média final mínima é 5,0, não 7,0 (7,0 é a nota que dispensa a VS)."
-      },
-      "referencia": {
-        "paginas": [
-          4
-        ],
-        "fundamentacao": "Slide 4, \"PROCEDIMENTOS DE AVALIAÇÃO (MIA)\".",
-        "trechos_apoio": [
-          "\"A MÉDIA FINAL É A SOMA (MS+VS)/2 E DEVERÁ TER VALOR IGUAL OU SUPERIOR A 5,0.\""
-        ]
-      }
-    },
-    {
-      "id": "fundamentos_q005",
-      "slide_id": "fundamentos",
-      "slide_nome": "080826 - Fundamentos de Bioquímica",
-      "arquivo_origem": "080826_-_FUNDAMENTOS_DE_BIOQUÍMICA_260916_153651.pdf",
-      "numero": 5,
-      "tema": "Procedimentos de avaliação",
-      "subtema": "2ª chamada",
-      "enunciado": "Sobre a 2ª chamada das verificações V1 e V2, a apostila estabelece que:",
-      "alternativas": {
-        "A": "É feita automaticamente, sem necessidade de requerimento.",
-        "B": "Pode ser solicitada em até 10 dias úteis, sem justificativa.",
-        "C": "Exige requerimento pela Secretaria On-Line em até 2 dias úteis após a prova, com justificativa, e a prova abrange toda a matéria ministrada até a data da prova.",
-        "D": "Abrange apenas o conteúdo da aula em que o aluno faltou."
-      },
-      "gabarito": "C",
-      "explicacoes": {
-        "A": "Incorreta: o aluno só pode fazer a 2ª chamada se apresentar requerimento.",
-        "B": "Incorreta: o prazo é de até 2 dias úteis após a aplicação da prova, e é necessária justificativa.",
-        "C": "Correta: reúne o requerimento, o prazo de 2 dias úteis, a justificativa e o conteúdo da prova.",
-        "D": "Incorreta: a prova de 2ª chamada constará toda a matéria ministrada até a data da prova."
-      },
-      "referencia": {
-        "paginas": [
-          5
-        ],
-        "fundamentacao": "Slides 5 e 10, \"2ª CHAMADA\" e \"(MIA)\".",
-        "trechos_apoio": [
-          "\"A verificação de 2ª chamada constará toda a matéria ministrada até a data da prova.\""
-        ]
-      }
-    },
-    {
-      "id": "fundamentos_q006",
-      "slide_id": "fundamentos",
-      "slide_nome": "080826 - Fundamentos de Bioquímica",
-      "arquivo_origem": "080826_-_FUNDAMENTOS_DE_BIOQUÍMICA_260916_153651.pdf",
-      "numero": 6,
-      "tema": "Procedimentos de avaliação",
-      "subtema": "R1",
-      "enunciado": "Sobre a R1, é correto afirmar que:",
-      "alternativas": {
-        "A": "É oferecida aos alunos com nota igual ou inferior a 6,0 na V1, substitui a nota da V1 se for superior e vale no máximo 7,0 pontos.",
-        "B": "É oferecida a todos os alunos, vale 10,0 pontos e soma-se à nota da V1.",
-        "C": "É oferecida aos alunos com nota inferior a 4,0 na V2 e vale no máximo 5,0 pontos.",
-        "D": "É oferecida só aos alunos aprovados na V1 e vale 7,0 pontos adicionais."
-      },
-      "gabarito": "A",
-      "explicacoes": {
-        "A": "Correta: reúne o público (nota ≤ 6,0 na V1), a substituição (se superior) e o máximo de 7,0 pontos.",
-        "B": "Incorreta: a R1 não é para todos, vale no máximo 7,0 e substitui (não soma) a V1.",
-        "C": "Incorreta: a R1 refere-se à V1, não à V2, e vale até 7,0.",
-        "D": "Incorreta: não é para os aprovados, e a nota não é adicional. Ela substitui a V1 se for maior."
-      },
-      "referencia": {
-        "paginas": [
-          9
-        ],
-        "fundamentacao": "Slide 9, \"(MIA) MANUAL INFORMATIVO DO ALUNO\".",
-        "trechos_apoio": [
-          "\"A R1 será oferecida aos alunos que obtiverem nota igual ou inferior a 6,0 (seis) na V1.\""
-        ]
-      }
-    },
-    {
-      "id": "fundamentos_q007",
-      "slide_id": "fundamentos",
-      "slide_nome": "080826 - Fundamentos de Bioquímica",
-      "arquivo_origem": "080826_-_FUNDAMENTOS_DE_BIOQUÍMICA_260916_153651.pdf",
-      "numero": 7,
-      "tema": "Agenda das avaliações",
-      "subtema": "VT on-line",
-      "enunciado": "Segundo a agenda das avaliações, o VT é aplicado:",
-      "alternativas": {
-        "A": "Presencialmente, em 07/11/26, com 20 questões discursivas.",
-        "B": "No AVA, em 07/11/26, com 10 questões objetivas, aberto às 19h15min e fechado às 23h10min.",
-        "C": "No AVA, em 05/12/26, com 10 questões objetivas.",
-        "D": "No AVA, em 07/11/26, com 10 questões objetivas, disponível às 09h20min e fechado às 23h10min."
-      },
-      "gabarito": "D",
-      "explicacoes": {
-        "A": "Incorreta: o VT é on-line (AVA), com 10 questões objetivas, não 20 discursivas.",
-        "B": "Incorreta: o horário de abertura é 09h20min, não 19h15min (19h15min é o horário da 2ª chamada).",
-        "C": "Incorreta: 05/12/26 é a data da V2 presencial. O VT é em 07/11/26.",
-        "D": "Correta: o VT é on-line, com 10 questões objetivas, de 09h20min às 23h10min de 07/11/26."
-      },
-      "referencia": {
-        "paginas": [
-          8
-        ],
-        "fundamentacao": "Slide 8, \"AGENDA DAS AVALIAÇÕES\".",
-        "trechos_apoio": [
-          "\"O VT constará de 10 questões objetivas disponíveis no AVA no dia 07/11/26\""
-        ]
-      }
-    },
-    {
-      "id": "fundamentos_q008",
-      "slide_id": "fundamentos",
-      "slide_nome": "080826 - Fundamentos de Bioquímica",
-      "arquivo_origem": "080826_-_FUNDAMENTOS_DE_BIOQUÍMICA_260916_153651.pdf",
-      "numero": 8,
-      "tema": "Agenda das avaliações",
-      "subtema": "Datas presenciais",
-      "enunciado": "A associação correta entre avaliação e data, conforme a agenda, é:",
-      "alternativas": {
-        "A": "V1 presencial: 31/10/26; R1 presencial: 10/10/26; V2 presencial: 19/12/26; VS presencial: 05/12/26.",
-        "B": "V1 presencial: 10/10/26; R1 presencial: 31/10/26; V2 presencial: 05/12/26; VS presencial: 19/12/26.",
-        "C": "V1 presencial: 05/12/26; R1 presencial: 07/11/26; V2 presencial: 10/10/26; VS presencial: 31/10/26.",
-        "D": "V1 presencial: 10/10/26; R1 presencial: 07/11/26; V2 presencial: 12/12/26; VS presencial: 19/12/26."
-      },
-      "gabarito": "B",
-      "explicacoes": {
-        "A": "Incorreta: troca V1 com R1 e V2 com VS. A V1 é em 10/10, a R1 em 31/10, a V2 em 05/12 e a VS em 19/12.",
-        "B": "Correta: reproduz as datas da agenda.",
-        "C": "Incorreta: embaralha todas as datas. 07/11 é o VT on-line, não a R1.",
-        "D": "Incorreta: a R1 é em 31/10 (07/11 é o VT), e a V2 é em 05/12 (12/12 é a entrega de provas)."
-      },
-      "referencia": {
-        "paginas": [
-          6
-        ],
-        "fundamentacao": "Slides 6 a 8, \"AGENDA – TURMA N1 – 2026/2\" e \"AGENDA DAS AVALIAÇÕES\".",
-        "trechos_apoio": [
-          "\"10/10/26 – V1 presencial … 31/10/26 - R1 presencial (7.0 pontos) … 05/12/26 - V2 presencial\""
-        ]
-      }
-    },
-    {
       "id": "fundamentos_q009",
       "slide_id": "fundamentos",
       "slide_nome": "080826 - Fundamentos de Bioquímica",
       "arquivo_origem": "080826_-_FUNDAMENTOS_DE_BIOQUÍMICA_260916_153651.pdf",
-      "numero": 9,
+      "numero": 1,
       "tema": "Ementa",
       "subtema": "Estrutura molecular e moléculas inorgânicas",
       "enunciado": "Na ementa, o tópico \"estrutura molecular\" trata da formação estrutural, do comportamento químico e das funções das moléculas orgânicas e inorgânicas. As moléculas inorgânicas listadas são:",
@@ -293,7 +37,7 @@
       "slide_id": "fundamentos",
       "slide_nome": "080826 - Fundamentos de Bioquímica",
       "arquivo_origem": "080826_-_FUNDAMENTOS_DE_BIOQUÍMICA_260916_153651.pdf",
-      "numero": 10,
+      "numero": 2,
       "tema": "Ementa",
       "subtema": "Moléculas orgânicas",
       "enunciado": "As moléculas orgânicas listadas na ementa são:",
@@ -325,7 +69,7 @@
       "slide_id": "fundamentos",
       "slide_nome": "080826 - Fundamentos de Bioquímica",
       "arquivo_origem": "080826_-_FUNDAMENTOS_DE_BIOQUÍMICA_260916_153651.pdf",
-      "numero": 11,
+      "numero": 3,
       "tema": "Ementa",
       "subtema": "Metabolismo celular",
       "enunciado": "No tópico \"metabolismo celular\", a ementa inclui:",
@@ -357,7 +101,7 @@
       "slide_id": "fundamentos",
       "slide_nome": "080826 - Fundamentos de Bioquímica",
       "arquivo_origem": "080826_-_FUNDAMENTOS_DE_BIOQUÍMICA_260916_153651.pdf",
-      "numero": 12,
+      "numero": 4,
       "tema": "Ementa",
       "subtema": "Metabolismo aeróbico e anaeróbio",
       "enunciado": "Segundo a ementa, o metabolismo aeróbico compreende a oxidação de carboidratos, lipídeos e proteínas, e o metabolismo anaeróbio compreende:",
@@ -389,7 +133,7 @@
       "slide_id": "fundamentos",
       "slide_nome": "080826 - Fundamentos de Bioquímica",
       "arquivo_origem": "080826_-_FUNDAMENTOS_DE_BIOQUÍMICA_260916_153651.pdf",
-      "numero": 13,
+      "numero": 5,
       "tema": "Ementa",
       "subtema": "Metabolismo de carboidratos",
       "enunciado": "No tópico \"metabolismo de carboidratos\", a ementa lista:",
@@ -421,7 +165,7 @@
       "slide_id": "fundamentos",
       "slide_nome": "080826 - Fundamentos de Bioquímica",
       "arquivo_origem": "080826_-_FUNDAMENTOS_DE_BIOQUÍMICA_260916_153651.pdf",
-      "numero": 14,
+      "numero": 6,
       "tema": "Ementa",
       "subtema": "Metabolismo de lipídeos",
       "enunciado": "O tópico \"metabolismo de lipídeos\" da ementa inclui:",
@@ -453,7 +197,7 @@
       "slide_id": "fundamentos",
       "slide_nome": "080826 - Fundamentos de Bioquímica",
       "arquivo_origem": "080826_-_FUNDAMENTOS_DE_BIOQUÍMICA_260916_153651.pdf",
-      "numero": 15,
+      "numero": 7,
       "tema": "Ementa",
       "subtema": "Proteínas, aminoácidos e enzimas",
       "enunciado": "Para as enzimas, a ementa prevê o estudo de:",
@@ -485,7 +229,7 @@
       "slide_id": "fundamentos",
       "slide_nome": "080826 - Fundamentos de Bioquímica",
       "arquivo_origem": "080826_-_FUNDAMENTOS_DE_BIOQUÍMICA_260916_153651.pdf",
-      "numero": 16,
+      "numero": 8,
       "tema": "Célula",
       "subtema": "Unidade básica do ser vivo",
       "enunciado": "Sobre a célula, a apostila afirma que:",
@@ -517,7 +261,7 @@
       "slide_id": "fundamentos",
       "slide_nome": "080826 - Fundamentos de Bioquímica",
       "arquivo_origem": "080826_-_FUNDAMENTOS_DE_BIOQUÍMICA_260916_153651.pdf",
-      "numero": 17,
+      "numero": 9,
       "tema": "Bioquímica",
       "subtema": "Definição",
       "enunciado": "Segundo a apostila, a bioquímica é:",
@@ -549,7 +293,7 @@
       "slide_id": "fundamentos",
       "slide_nome": "080826 - Fundamentos de Bioquímica",
       "arquivo_origem": "080826_-_FUNDAMENTOS_DE_BIOQUÍMICA_260916_153651.pdf",
-      "numero": 18,
+      "numero": 10,
       "tema": "Bioquímica",
       "subtema": "Objetivo principal",
       "enunciado": "O principal objetivo da bioquímica, segundo a apostila, é:",
@@ -581,7 +325,7 @@
       "slide_id": "fundamentos",
       "slide_nome": "080826 - Fundamentos de Bioquímica",
       "arquivo_origem": "080826_-_FUNDAMENTOS_DE_BIOQUÍMICA_260916_153651.pdf",
-      "numero": 19,
+      "numero": 11,
       "tema": "Bioquímica",
       "subtema": "Três áreas de ação",
       "enunciado": "O campo de ação da bioquímica é dividido em três áreas principais. Quais são elas?",
@@ -613,7 +357,7 @@
       "slide_id": "fundamentos",
       "slide_nome": "080826 - Fundamentos de Bioquímica",
       "arquivo_origem": "080826_-_FUNDAMENTOS_DE_BIOQUÍMICA_260916_153651.pdf",
-      "numero": 20,
+      "numero": 12,
       "tema": "Bioquímica estrutural e bioquímica da informação biológica",
       "subtema": "Bioquímica estrutural e bioquímica da informação biológica",
       "enunciado": "A associação correta entre o ramo e o que ele estuda é:",
@@ -645,7 +389,7 @@
       "slide_id": "fundamentos",
       "slide_nome": "080826 - Fundamentos de Bioquímica",
       "arquivo_origem": "080826_-_FUNDAMENTOS_DE_BIOQUÍMICA_260916_153651.pdf",
-      "numero": 21,
+      "numero": 13,
       "tema": "Bioquímica do metabolismo",
       "subtema": "Conteúdo",
       "enunciado": "A bioquímica do metabolismo estuda:",
@@ -677,7 +421,7 @@
       "slide_id": "fundamentos",
       "slide_nome": "080826 - Fundamentos de Bioquímica",
       "arquivo_origem": "080826_-_FUNDAMENTOS_DE_BIOQUÍMICA_260916_153651.pdf",
-      "numero": 22,
+      "numero": 14,
       "tema": "Componentes químicos da matéria viva",
       "subtema": "Inorgânicos e orgânicos",
       "enunciado": "Os componentes químicos da matéria viva dividem-se em dois grupos. A divisão correta é:",
@@ -709,7 +453,7 @@
       "slide_id": "fundamentos",
       "slide_nome": "080826 - Fundamentos de Bioquímica",
       "arquivo_origem": "080826_-_FUNDAMENTOS_DE_BIOQUÍMICA_260916_153651.pdf",
-      "numero": 23,
+      "numero": 15,
       "tema": "Matéria do universo",
       "subtema": "Inanimados e seres vivos",
       "enunciado": "Sobre os seres vivos, a apostila afirma que:",
@@ -741,7 +485,7 @@
       "slide_id": "fundamentos",
       "slide_nome": "080826 - Fundamentos de Bioquímica",
       "arquivo_origem": "080826_-_FUNDAMENTOS_DE_BIOQUÍMICA_260916_153651.pdf",
-      "numero": 24,
+      "numero": 16,
       "tema": "Composição química da célula animal",
       "subtema": "Gráfico",
       "enunciado": "No gráfico das porcentagens aproximadas dos constituintes químicos de uma célula animal, os valores são:",
@@ -773,7 +517,7 @@
       "slide_id": "fundamentos",
       "slide_nome": "080826 - Fundamentos de Bioquímica",
       "arquivo_origem": "080826_-_FUNDAMENTOS_DE_BIOQUÍMICA_260916_153651.pdf",
-      "numero": 25,
+      "numero": 17,
       "tema": "Elementos químicos da matéria viva",
       "subtema": "Elementos químicos da matéria viva",
       "enunciado": "Dos cerca de 118 elementos químicos da tabela periódica, a matéria viva se constitui principalmente por:",
@@ -805,7 +549,7 @@
       "slide_id": "fundamentos",
       "slide_nome": "080826 - Fundamentos de Bioquímica",
       "arquivo_origem": "080826_-_FUNDAMENTOS_DE_BIOQUÍMICA_260916_153651.pdf",
-      "numero": 26,
+      "numero": 18,
       "tema": "Níveis de organização molecular da célula",
       "subtema": "Níveis de organização molecular da célula",
       "enunciado": "Nos esquemas da apostila, a organização da matéria viva segue uma hierarquia. Qual alternativa a descreve corretamente?",
@@ -837,7 +581,7 @@
       "slide_id": "fundamentos",
       "slide_nome": "080826 - Fundamentos de Bioquímica",
       "arquivo_origem": "080826_-_FUNDAMENTOS_DE_BIOQUÍMICA_260916_153651.pdf",
-      "numero": 27,
+      "numero": 19,
       "tema": "Metabolismo celular",
       "subtema": "Monômeros e polímeros",
       "enunciado": "Sobre monômeros e polímeros, a apostila afirma que:",
@@ -869,7 +613,7 @@
       "slide_id": "fundamentos",
       "slide_nome": "080826 - Fundamentos de Bioquímica",
       "arquivo_origem": "080826_-_FUNDAMENTOS_DE_BIOQUÍMICA_260916_153651.pdf",
-      "numero": 28,
+      "numero": 20,
       "tema": "Balanço energético",
       "subtema": "Rendimento do Ciclo de Krebs na cadeia respiratória",
       "enunciado": "No esquema do balanço energético, os 6 NADH e os 2 FADH do Ciclo de Krebs rendem, na cadeia respiratória, respectivamente:",
@@ -901,7 +645,7 @@
       "slide_id": "fundamentos",
       "slide_nome": "080826 - Fundamentos de Bioquímica",
       "arquivo_origem": "080826_-_FUNDAMENTOS_DE_BIOQUÍMICA_260916_153651.pdf",
-      "numero": 29,
+      "numero": 21,
       "tema": "Balanço energético",
       "subtema": "Locais e total",
       "enunciado": "No esquema \"BALANÇO ENERGÉTICO\", a glicólise ocorre no ______ e rende 2 ATP, o Ciclo de Krebs ocorre na ______ e rende 2 ATP diretos, e o total indicado é de ______.",
@@ -933,7 +677,7 @@
       "slide_id": "fundamentos",
       "slide_nome": "080826 - Fundamentos de Bioquímica",
       "arquivo_origem": "080826_-_FUNDAMENTOS_DE_BIOQUÍMICA_260916_153651.pdf",
-      "numero": 30,
+      "numero": 22,
       "tema": "Regulação da glicose",
       "subtema": "Insulina",
       "enunciado": "No esquema da regulação da glicose, quando a taxa de glicose está alta:",
@@ -965,7 +709,7 @@
       "slide_id": "fundamentos",
       "slide_nome": "080826 - Fundamentos de Bioquímica",
       "arquivo_origem": "080826_-_FUNDAMENTOS_DE_BIOQUÍMICA_260916_153651.pdf",
-      "numero": 31,
+      "numero": 23,
       "tema": "Regulação da glicose",
       "subtema": "Glucagon",
       "enunciado": "No esquema da regulação da glicose, quando a taxa de glicose está baixa:",
@@ -997,7 +741,7 @@
       "slide_id": "fundamentos",
       "slide_nome": "080826 - Fundamentos de Bioquímica",
       "arquivo_origem": "080826_-_FUNDAMENTOS_DE_BIOQUÍMICA_260916_153651.pdf",
-      "numero": 32,
+      "numero": 24,
       "tema": "Lipídeos",
       "subtema": "Classes de armazenamento e de membrana",
       "enunciado": "Segundo o esquema das principais classes de lipídios, os lipídios de armazenamento (neutros) e os de membrana (polares) são, respectivamente:",
@@ -1029,7 +773,7 @@
       "slide_id": "fundamentos",
       "slide_nome": "080826 - Fundamentos de Bioquímica",
       "arquivo_origem": "080826_-_FUNDAMENTOS_DE_BIOQUÍMICA_260916_153651.pdf",
-      "numero": 33,
+      "numero": 25,
       "tema": "Lipídeos simples",
       "subtema": "Óleos, gorduras e triglicerídeos",
       "enunciado": "No mapa conceitual dos lipídeos simples, é correto afirmar que:",
@@ -1061,7 +805,7 @@
       "slide_id": "fundamentos",
       "slide_nome": "080826 - Fundamentos de Bioquímica",
       "arquivo_origem": "080826_-_FUNDAMENTOS_DE_BIOQUÍMICA_260916_153651.pdf",
-      "numero": 34,
+      "numero": 26,
       "tema": "Membrana plasmática",
       "subtema": "Componentes",
       "enunciado": "No esquema da membrana plasmática, estão identificados:",
@@ -1093,7 +837,7 @@
       "slide_id": "fundamentos",
       "slide_nome": "080826 - Fundamentos de Bioquímica",
       "arquivo_origem": "080826_-_FUNDAMENTOS_DE_BIOQUÍMICA_260916_153651.pdf",
-      "numero": 35,
+      "numero": 27,
       "tema": "Aminoácidos",
       "subtema": "Estrutura geral",
       "enunciado": "Na estrutura geral do aminoácido mostrada na apostila, ligados ao carbono alfa estão:",
@@ -1125,7 +869,7 @@
       "slide_id": "fundamentos",
       "slide_nome": "080826 - Fundamentos de Bioquímica",
       "arquivo_origem": "080826_-_FUNDAMENTOS_DE_BIOQUÍMICA_260916_153651.pdf",
-      "numero": 36,
+      "numero": 28,
       "tema": "Aminoácidos",
       "subtema": "Classificação pelas cadeias laterais",
       "enunciado": "O esquema dos aminoácidos agrupa-os conforme o tipo de cadeia lateral. Quais grupos aparecem no slide?",
@@ -1157,7 +901,7 @@
       "slide_id": "fundamentos",
       "slide_nome": "080826 - Fundamentos de Bioquímica",
       "arquivo_origem": "080826_-_FUNDAMENTOS_DE_BIOQUÍMICA_260916_153651.pdf",
-      "numero": 37,
+      "numero": 29,
       "tema": "Proteínas",
       "subtema": "Níveis de estrutura",
       "enunciado": "No esquema das estruturas das proteínas, a associação correta é:",
@@ -1189,7 +933,7 @@
       "slide_id": "fundamentos",
       "slide_nome": "080826 - Fundamentos de Bioquímica",
       "arquivo_origem": "080826_-_FUNDAMENTOS_DE_BIOQUÍMICA_260916_153651.pdf",
-      "numero": 38,
+      "numero": 30,
       "tema": "Enzimas",
       "subtema": "Sítio ativo e energia de ativação",
       "enunciado": "O slide das enzimas mostra que:",
@@ -1221,7 +965,7 @@
       "slide_id": "fundamentos",
       "slide_nome": "080826 - Fundamentos de Bioquímica",
       "arquivo_origem": "080826_-_FUNDAMENTOS_DE_BIOQUÍMICA_260916_153651.pdf",
-      "numero": 39,
+      "numero": 31,
       "tema": "Ácidos nucleicos",
       "subtema": "Nucleotídeo e DNA",
       "enunciado": "Segundo os slides de ácidos nucleicos, o nucleotídeo e o DNA são descritos assim:",
@@ -1253,7 +997,7 @@
       "slide_id": "fundamentos",
       "slide_nome": "080826 - Fundamentos de Bioquímica",
       "arquivo_origem": "080826_-_FUNDAMENTOS_DE_BIOQUÍMICA_260916_153651.pdf",
-      "numero": 40,
+      "numero": 32,
       "tema": "Ácidos nucleicos",
       "subtema": "DNA e RNA",
       "enunciado": "No esquema comparativo de DNA e RNA, é correto afirmar que:",
