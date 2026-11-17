@@ -4,7 +4,6 @@ import {
   DISCIPLINES,
   LETTER_KEYS,
   generateShuffledOptionOrder,
-  generateThreeReinforcementOptionOrders,
   getDisciplineById,
   getMaterialBySlideId,
   getQuestionsBySlideId,
@@ -39,19 +38,69 @@ function createInitialQueueItems(questions) {
   }))
 }
 
-function createThreeReinforcementQueueItems(questao, initialOptionOrder, origemErroUid) {
-  const threeOrders = generateThreeReinforcementOptionOrders(initialOptionOrder)
-  return threeOrders.map((order, idx) => ({
-    uid: `${questao.id}__ref${idx + 1}__${Date.now()}__${idx}__${Math.random().toString(36).slice(2, 6)}`,
-    questaoId: questao.id,
-    slide_id: questao.slide_id,
-    optionOrder: order,
-    isReforco: true,
-    repetida: true,
-    reforcoNumero: idx + 1,
-    origemErroUid,
-    origemErroId: questao.id,
+function buildCompletedSessionSnapshot(baseSession, updatedHistory, updatedResponsesByUid) {
+  const initialQueue = Array.isArray(baseSession?.queue)
+    ? baseSession.queue.filter((item) => item && !item.isReforco)
+    : []
+  const rawInitialHistory =
+    initialQueue.length > 0
+      ? initialQueue
+          .map(
+            (item) =>
+              updatedResponsesByUid?.[item.uid] ||
+              (Array.isArray(updatedHistory)
+                ? updatedHistory.find((h) => h && h.uid === item.uid && !h.isReforco)
+                : null) ||
+              null,
+          )
+          .filter(Boolean)
+      : Array.isArray(updatedHistory)
+        ? updatedHistory.filter((h) => h && !h.isReforco)
+        : []
+
+  const initialHistory = rawInitialHistory.map((entry, idx) => ({
+    ...entry,
+    isReforco: false,
+    repetida: false,
+    posicaoSessao: idx + 1,
   }))
+
+  const totalRespondidas = initialHistory.length
+  const acertos = initialHistory.filter((h) => h.acertou).length
+  const erros = totalRespondidas - acertos
+  const percentual = totalRespondidas > 0 ? Math.round((acertos / totalRespondidas) * 100) : 0
+  const concluidaEm = baseSession?.concluidaEm || Date.now()
+
+  return {
+    ...baseSession,
+    initialCount: totalRespondidas,
+    queue: initialQueue,
+    history: initialHistory,
+    responsesByUid: updatedResponsesByUid || baseSession?.responsesByUid || {},
+    acertos,
+    erros,
+    totalRespondidas,
+    percentual,
+    reinforcementsAdded: 0,
+    concluidaEm,
+  }
+}
+
+function formatSessionDatePtBr(timestamp) {
+  const dateObj = timestamp ? new Date(timestamp) : new Date()
+  if (Number.isNaN(dateObj.getTime())) {
+    return new Date().toLocaleDateString('pt-BR')
+  }
+  const data = dateObj.toLocaleDateString('pt-BR', {
+    day: '2-digit',
+    month: '2-digit',
+    year: 'numeric',
+  })
+  const hora = dateObj.toLocaleTimeString('pt-BR', {
+    hour: '2-digit',
+    minute: '2-digit',
+  })
+  return `${data} às ${hora}`
 }
 
 function normalizeSavedSession(saved, slideId) {
@@ -113,6 +162,7 @@ export default function IndependentMaterialsHub({
       const mat = getMaterialBySlideId(initialSlideId)
       if (mat) {
         const savedSess = normalizeSavedSession(allProg[mat.slide_id]?.sessaoAtiva, mat.slide_id)
+        const savedSummary = allProg[mat.slide_id]?.ultimaSessao
         if (savedUi?.selectedSlideId === mat.slide_id && savedUi?.viewMode === 'session' && savedSess) {
           return {
             disciplineId: mat.disciplineId,
@@ -120,6 +170,20 @@ export default function IndependentMaterialsHub({
             viewMode: 'session',
             desiredCount: mat.totalValidas,
             session: savedSess,
+          }
+        }
+        if (
+          savedUi?.selectedSlideId === mat.slide_id &&
+          savedUi?.viewMode === 'summary' &&
+          savedSummary &&
+          Array.isArray(savedSummary.history)
+        ) {
+          return {
+            disciplineId: mat.disciplineId,
+            slideId: mat.slide_id,
+            viewMode: 'summary',
+            desiredCount: mat.totalValidas,
+            session: savedSummary,
           }
         }
         return {
@@ -149,6 +213,7 @@ export default function IndependentMaterialsHub({
       const mat = getMaterialBySlideId(savedUi.selectedSlideId)
       if (mat) {
         const savedSess = normalizeSavedSession(allProg[mat.slide_id]?.sessaoAtiva, mat.slide_id)
+        const savedSummary = allProg[mat.slide_id]?.ultimaSessao
         if (savedUi.viewMode === 'session' && savedSess) {
           return {
             disciplineId: mat.disciplineId,
@@ -156,6 +221,19 @@ export default function IndependentMaterialsHub({
             viewMode: 'session',
             desiredCount: mat.totalValidas,
             session: savedSess,
+          }
+        }
+        if (
+          savedUi.viewMode === 'summary' &&
+          savedSummary &&
+          Array.isArray(savedSummary.history)
+        ) {
+          return {
+            disciplineId: mat.disciplineId,
+            slideId: mat.slide_id,
+            viewMode: 'summary',
+            desiredCount: mat.totalValidas,
+            session: savedSummary,
           }
         }
         if (savedUi.viewMode === 'config') {
@@ -200,6 +278,7 @@ export default function IndependentMaterialsHub({
   const [confirmingNewSession, setConfirmingNewSession] = useState(false)
   const [expandedOtherExplanationsUid, setExpandedOtherExplanationsUid] = useState(null)
   const [zoomedImageUid, setZoomedImageUid] = useState(null)
+  const [reviewingSummaryUid, setReviewingSummaryUid] = useState(null)
 
   useEffect(() => {
     saveUiState({
@@ -444,6 +523,7 @@ export default function IndependentMaterialsHub({
 
     setConfirmingNewSession(false)
     setExpandedOtherExplanationsUid(null)
+    setReviewingSummaryUid(null)
     setSession(nextSession)
     setViewMode('session')
     saveUiState({
@@ -469,12 +549,30 @@ export default function IndependentMaterialsHub({
     if (!saved) return
     setConfirmingNewSession(false)
     setExpandedOtherExplanationsUid(null)
+    setReviewingSummaryUid(null)
     setSession(saved)
     setViewMode('session')
     saveUiState({
       selectedDisciplineId: activeMaterial?.disciplineId || selectedDisciplineId,
       selectedSlideId,
       viewMode: 'session',
+    })
+    window.scrollTo({ top: 0, behavior: 'smooth' })
+  }
+
+  function openSavedSummary(summaryToOpen = null) {
+    if (!selectedSlideId) return
+    const targetSummary = summaryToOpen || progressByMaterial[selectedSlideId]?.ultimaSessao
+    if (!targetSummary || !Array.isArray(targetSummary.history)) return
+    setConfirmingNewSession(false)
+    setExpandedOtherExplanationsUid(null)
+    setReviewingSummaryUid(null)
+    setSession(targetSummary)
+    setViewMode('summary')
+    saveUiState({
+      selectedDisciplineId: activeMaterial?.disciplineId || selectedDisciplineId,
+      selectedSlideId,
+      viewMode: 'summary',
     })
     window.scrollTo({ top: 0, behavior: 'smooth' })
   }
@@ -517,19 +615,8 @@ export default function IndependentMaterialsHub({
       new Set([...(session.answeredQuestionIds || []), currentQuestion.id]),
     )
 
-    let nextQueue = [...session.queue]
-    let addedCount = 0
+    const nextQueue = [...session.queue]
     const isInitialError = !acertou && !currentQueueItem.isReforco
-
-    if (isInitialError) {
-      const threeReinforcements = createThreeReinforcementQueueItems(
-        currentQuestion,
-        currentQueueItem.optionOrder,
-        currentQueueItem.uid,
-      )
-      nextQueue.splice(session.currentIndex + 1, 0, ...threeReinforcements)
-      addedCount = threeReinforcements.length
-    }
 
     const historyEntry = {
       uid: currentQueueItem.uid,
@@ -549,9 +636,9 @@ export default function IndependentMaterialsHub({
       gabarito: gabaritoDisplayed,
       gabaritoOriginal: currentQuestion.gabarito,
       acertou,
-      isReforco: currentQueueItem.isReforco,
-      repetida: currentQueueItem.repetida,
-      reforcoNumero: currentQueueItem.reforcoNumero || null,
+      isReforco: false,
+      repetida: false,
+      reforcoNumero: null,
       requiresReflection: isInitialError,
       reflexaoSalva: '',
       respondidaEm: Date.now(),
@@ -568,7 +655,7 @@ export default function IndependentMaterialsHub({
       history: [...session.history, historyEntry],
       responsesByUid: updatedResponsesByUid,
       answeredQuestionIds: updatedAnsweredIds,
-      reinforcementsAdded: (session.reinforcementsAdded || 0) + addedCount,
+      reinforcementsAdded: 0,
     }
 
     setExpandedOtherExplanationsUid(null)
@@ -650,14 +737,13 @@ export default function IndependentMaterialsHub({
     setSession(updatedSession)
 
     if (!hasMore) {
-      const acertos = updatedHistory.filter((h) => h.acertou).length
-      const erros = updatedHistory.length - acertos
-      const resumo = {
-        acertos,
-        erros,
-        totalRespondidas: updatedHistory.length,
-        reforcosAdicionados: session.reinforcementsAdded || 0,
-      }
+      const completedSnapshot = buildCompletedSessionSnapshot(
+        updatedSession,
+        updatedHistory,
+        updatedResponsesByUid,
+      )
+      setReviewingSummaryUid(null)
+      setSession(completedSnapshot)
       setProgressByMaterial((prev) => {
         const afterRef = saveMaterialReflectionFinal(
           prev,
@@ -666,7 +752,7 @@ export default function IndependentMaterialsHub({
           currentQueueItem.uid,
           cleaned,
         )
-        return completeMaterialSession(afterRef, selectedSlideId, resumo)
+        return completeMaterialSession(afterRef, selectedSlideId, completedSnapshot)
       })
       setViewMode('summary')
       saveUiState({
@@ -729,15 +815,16 @@ export default function IndependentMaterialsHub({
     const nextIdx = session.currentIndex + 1
 
     if (nextIdx >= session.queue.length) {
-      const acertos = session.history.filter((h) => h.acertou).length
-      const erros = session.history.length - acertos
-      const resumo = {
-        acertos,
-        erros,
-        totalRespondidas: session.history.length,
-        reforcosAdicionados: session.reinforcementsAdded || 0,
-      }
-      setProgressByMaterial((prev) => completeMaterialSession(prev, selectedSlideId, resumo))
+      const completedSnapshot = buildCompletedSessionSnapshot(
+        session,
+        session.history,
+        session.responsesByUid,
+      )
+      setReviewingSummaryUid(null)
+      setSession(completedSnapshot)
+      setProgressByMaterial((prev) =>
+        completeMaterialSession(prev, selectedSlideId, completedSnapshot),
+      )
       setViewMode('summary')
       saveUiState({
         selectedDisciplineId: activeMaterial?.disciplineId || selectedDisciplineId,
@@ -1242,6 +1329,118 @@ export default function IndependentMaterialsHub({
             </div>
           ) : null}
 
+          {prog.ultimaSessao && Array.isArray(prog.ultimaSessao.history) && prog.ultimaSessao.history.length > 0 ? (
+            <div
+              data-testid="last-session-summary-card"
+              style={{
+                marginTop: 16,
+                padding: 16,
+                borderRadius: 14,
+                background: '#0a2128',
+                border: '1px solid #234f5b',
+              }}
+            >
+              <div
+                style={{
+                  display: 'flex',
+                  justifyContent: 'space-between',
+                  alignItems: 'center',
+                  flexWrap: 'wrap',
+                  gap: 10,
+                }}
+              >
+                <div>
+                  <div style={{ fontSize: 14, fontWeight: 800, color: '#8be9dc' }}>
+                    Último Raio-X salvo ({formatSessionDatePtBr(prog.ultimaSessao.concluidaEm)})
+                  </div>
+                  <div style={{ fontSize: 13, color: '#d8f3f5', marginTop: 4 }}>
+                    {prog.ultimaSessao.totalRespondidas} questões · {prog.ultimaSessao.acertos} acertos ·{' '}
+                    {prog.ultimaSessao.erros} erros (
+                    {typeof prog.ultimaSessao.percentual === 'number'
+                      ? prog.ultimaSessao.percentual
+                      : prog.ultimaSessao.totalRespondidas
+                        ? Math.round(
+                            (prog.ultimaSessao.acertos / prog.ultimaSessao.totalRespondidas) * 100,
+                          )
+                        : 0}
+                    % de acerto)
+                  </div>
+                </div>
+                <button
+                  type="button"
+                  data-testid="btn-ver-ultimo-raiox"
+                  className="ghost"
+                  onClick={() => openSavedSummary(prog.ultimaSessao)}
+                  style={{ fontSize: 13, padding: '9px 14px' }}
+                >
+                  Ver Raio-X da última sessão
+                </button>
+              </div>
+
+              {Array.isArray(prog.historicoSessoes) && prog.historicoSessoes.length > 1 ? (
+                <div
+                  data-testid="previous-sessions-history"
+                  style={{
+                    marginTop: 12,
+                    paddingTop: 10,
+                    borderTop: '1px solid #1b424d',
+                    fontSize: 12,
+                    color: '#9fc8cc',
+                  }}
+                >
+                  <div style={{ fontWeight: 700, marginBottom: 6 }}>
+                    Sessões anteriores preservadas ({prog.historicoSessoes.length} concluídas):
+                  </div>
+                  <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8 }}>
+                    {prog.historicoSessoes.slice(0, 5).map((histSess, idx) => {
+                      const pctHist =
+                        typeof histSess.percentual === 'number'
+                          ? histSess.percentual
+                          : histSess.totalRespondidas
+                            ? Math.round((histSess.acertos / histSess.totalRespondidas) * 100)
+                            : 0
+                      return (
+                        <button
+                          key={histSess.sessionId || idx}
+                          type="button"
+                          data-testid={`btn-ver-sessao-anterior-${idx + 1}`}
+                          className="ghost"
+                          onClick={() => openSavedSummary(histSess)}
+                          style={{ fontSize: 12, padding: '6px 10px' }}
+                        >
+                          Sessão #{prog.historicoSessoes.length - idx}: {histSess.totalRespondidas}q ·{' '}
+                          {histSess.acertos}✓ · {histSess.erros}✗ ({pctHist}%)
+                        </button>
+                      )
+                    })}
+                  </div>
+                </div>
+              ) : null}
+            </div>
+          ) : null}
+
+          {Array.isArray(prog.historicoReforcosAntigos) && prog.historicoReforcosAntigos.length > 0 ? (
+            <div
+              data-testid="old-reinforcements-history-info"
+              style={{
+                marginTop: 12,
+                padding: '10px 14px',
+                borderRadius: 10,
+                background: '#07181e',
+                border: '1px solid #1b3e48',
+                fontSize: 12,
+                color: '#8ab8be',
+              }}
+            >
+              Histórico de reforços antigos preservado separadamente:{' '}
+              <b>{prog.historicoReforcosAntigos.length}</b>{' '}
+              {prog.historicoReforcosAntigos.length === 1
+                ? 'resposta de reforço anterior'
+                : 'respostas de reforços anteriores'}{' '}
+              (não incluídas no cálculo das questões iniciais).
+            </div>
+          ) : null}
+
           <div style={{ marginTop: 16 }}>
             <button
               type="button"
@@ -1258,13 +1457,50 @@ export default function IndependentMaterialsHub({
   }
 
   // ============================================================================
-  // NÍVEL 3B: RESUMO AO CONCLUIR O ESTUDO
+  // NÍVEL 3B: RAIO-X DESTA SESSÃO (AO CONCLUIR O ESTUDO)
   // ============================================================================
   if (viewMode === 'summary' && session) {
-    const total = session.history.length
-    const acertos = session.history.filter((h) => h.acertou).length
+    const initialHistory = Array.isArray(session.history)
+      ? session.history.filter((h) => h && !h.isReforco)
+      : []
+    const total = initialHistory.length
+    const acertos = initialHistory.filter((h) => h.acertou).length
     const erros = total - acertos
-    const pct = total ? Math.round((acertos / total) * 100) : 0
+    const pct = total > 0 ? Math.round((acertos / total) * 100) : 0
+    const sessionDateFormatted = formatSessionDatePtBr(session.concluidaEm || session.startedAt)
+
+    // Agrupar temas e subtemas para listar os assuntos com erros nesta sessão
+    const topicsMap = new Map()
+    for (const item of initialHistory) {
+      const tema = item.tema || 'Geral'
+      const subtema = item.subtema || 'Geral'
+      const key = `${tema}|||${subtema}`
+      const prev = topicsMap.get(key) || {
+        key,
+        tema,
+        subtema,
+        respondidas: 0,
+        acertos: 0,
+        erros: 0,
+      }
+      prev.respondidas += 1
+      if (item.acertou) prev.acertos += 1
+      else prev.erros += 1
+      topicsMap.set(key, prev)
+    }
+    const topicsWithErrors = Array.from(topicsMap.values()).filter((t) => t.erros > 0)
+
+    const reviewedIndex = reviewingSummaryUid
+      ? initialHistory.findIndex((item) => item.uid === reviewingSummaryUid)
+      : -1
+    const reviewedHistoryItem = reviewedIndex >= 0 ? initialHistory[reviewedIndex] : null
+    const reviewedQuestion = reviewedHistoryItem
+      ? questionsMap.get(reviewedHistoryItem.questaoId) || null
+      : null
+    const reviewedMapped =
+      reviewedQuestion && reviewedHistoryItem
+        ? mapQuestionWithOptionOrder(reviewedQuestion, reviewedHistoryItem.optionOrder)
+        : null
 
     return (
       <section className="drive-shell" data-testid="study-summary-view">
@@ -1278,29 +1514,674 @@ export default function IndependentMaterialsHub({
             padding: 20,
           }}
         >
-          <span className="muted" style={{ fontSize: 13 }}>
-            {activeMaterial.disciplineNome}
-          </span>
-          <h2 style={{ margin: '4px 0 14px', fontSize: 24 }}>
-            Estudo concluído — {activeMaterial.nome}
-          </h2>
-
-          <div className="report-grid" style={{ marginBottom: 18 }}>
-            <div className="box">
-              <b>{pct}%</b>
-              <div>aproveitamento</div>
+          {/* Cabeçalho do Raio-X desta sessão */}
+          <div
+            style={{
+              display: 'flex',
+              justifyContent: 'space-between',
+              alignItems: 'flex-start',
+              flexWrap: 'wrap',
+              gap: 12,
+              marginBottom: 14,
+            }}
+          >
+            <div>
+              <span
+                className="pill"
+                data-testid="raiox-title"
+                style={{
+                  fontSize: 12,
+                  fontWeight: 800,
+                  color: '#38d1bd',
+                  borderColor: '#38d1bd',
+                  marginBottom: 8,
+                  display: 'inline-block',
+                }}
+              >
+                Raio-X desta sessão
+              </span>
+              <div className="muted" style={{ fontSize: 13 }}>
+                {activeMaterial.disciplineNome}
+              </div>
+              <h2
+                data-testid="raiox-material-name"
+                style={{ margin: '2px 0 4px', fontSize: 23, color: '#fff' }}
+              >
+                {activeMaterial.nome}
+              </h2>
+              <div
+                data-testid="raiox-session-date"
+                style={{ fontSize: 13, color: '#9fc8cc' }}
+              >
+                Data da sessão: <b>{sessionDateFormatted}</b>
+              </div>
             </div>
-            <div className="box">
-              <b>{acertos}</b>
+
+            <div
+              data-testid="raiox-summary-line"
+              style={{
+                padding: '10px 14px',
+                borderRadius: 12,
+                background: '#0c2730',
+                border: '1px solid #265966',
+                fontSize: 14,
+                fontWeight: 700,
+                color: '#edfafa',
+              }}
+            >
+              {total} {total === 1 ? 'questão' : 'questões'}, {acertos}{' '}
+              {acertos === 1 ? 'acerto' : 'acertos'} e {erros} {erros === 1 ? 'erro' : 'erros'} ={' '}
+              <span style={{ color: '#38d1bd' }}>{pct}% de acerto</span>
+            </div>
+          </div>
+
+          {/* 4 cartões de indicadores exclusivos das questões iniciais desta sessão */}
+          <div className="report-grid" style={{ marginBottom: 22 }}>
+            <div className="box" data-testid="raiox-box-total">
+              <b data-testid="raiox-total-respondidas">{total}</b>
+              <div>questões respondidas</div>
+            </div>
+            <div className="box" data-testid="raiox-box-acertos">
+              <b data-testid="raiox-acertos" style={{ color: '#8af3b1' }}>
+                {acertos}
+              </b>
               <div>acertos</div>
             </div>
-            <div className="box">
-              <b>{erros}</b>
+            <div className="box" data-testid="raiox-box-erros">
+              <b data-testid="raiox-erros" style={{ color: erros > 0 ? '#ffaaaa' : '#edfafa' }}>
+                {erros}
+              </b>
               <div>erros</div>
             </div>
-            <div className="box">
-              <b>{session.reinforcementsAdded || 0}</b>
-              <div>reforços respondidos</div>
+            <div className="box" data-testid="raiox-box-percentual">
+              <b data-testid="raiox-percentual" style={{ color: '#38d1bd' }}>
+                {pct}%
+              </b>
+              <div>percentual de acerto</div>
+            </div>
+          </div>
+
+          {/* Painel de Revisão / Consulta individual de uma questão da sessão */}
+          {reviewedHistoryItem && reviewedQuestion && reviewedMapped ? (
+            <div
+              data-testid="raiox-question-review-panel"
+              style={{
+                marginBottom: 24,
+                padding: 18,
+                borderRadius: 14,
+                background: '#0b2229',
+                border: '2px solid #38d1bd',
+              }}
+            >
+              <div
+                style={{
+                  display: 'flex',
+                  justifyContent: 'space-between',
+                  alignItems: 'center',
+                  flexWrap: 'wrap',
+                  gap: 10,
+                  marginBottom: 12,
+                  paddingBottom: 12,
+                  borderBottom: '1px solid #1f4b57',
+                }}
+              >
+                <div style={{ display: 'flex', alignItems: 'center', gap: 10, flexWrap: 'wrap' }}>
+                  <span
+                    className="pill"
+                    data-testid="review-question-number"
+                    style={{ fontSize: 13, fontWeight: 800, color: '#fff', borderColor: '#38d1bd' }}
+                  >
+                    Questão {reviewedIndex + 1} de {total}
+                  </span>
+                  <span
+                    data-testid="review-question-status"
+                    style={{
+                      fontSize: 13,
+                      fontWeight: 800,
+                      padding: '4px 10px',
+                      borderRadius: 999,
+                      background: reviewedHistoryItem.acertou ? '#103528' : '#3a1b1f',
+                      color: reviewedHistoryItem.acertou ? '#8af3b1' : '#ffaaaa',
+                      border: reviewedHistoryItem.acertou
+                        ? '1px solid #348c5b'
+                        : '1px solid #9a4545',
+                    }}
+                  >
+                    {reviewedHistoryItem.acertou ? '✓ Acertou' : '✗ Errou'}
+                  </span>
+                  <span className="muted" style={{ fontSize: 12 }}>
+                    Modo consulta (respostas e totais bloqueados para edição)
+                  </span>
+                </div>
+
+                <button
+                  type="button"
+                  data-testid="btn-fechar-revisao-questao"
+                  className="ghost"
+                  onClick={() => setReviewingSummaryUid(null)}
+                  style={{ fontSize: 13, padding: '7px 14px' }}
+                >
+                  Fechar revisão ✕
+                </button>
+              </div>
+
+              <div className="topic" data-testid="review-question-tema">
+                {reviewedQuestion.tema}
+              </div>
+              <div
+                className="micro"
+                data-testid="review-question-subtema"
+                style={{ fontSize: 13, marginTop: 3 }}
+              >
+                {reviewedQuestion.subtema}
+              </div>
+
+              <div
+                className="question"
+                data-testid="review-question-enunciado"
+                style={{ whiteSpace: 'pre-line', marginTop: 12, marginBottom: 16, fontSize: 18 }}
+              >
+                {reviewedQuestion.enunciado}
+              </div>
+
+              {reviewedQuestion.imagem ? (
+                <figure
+                  data-testid="question-image-container"
+                  style={{
+                    margin: '0 0 18px 0',
+                    padding: 12,
+                    background: '#081c22',
+                    border: '1px solid #24515e',
+                    borderRadius: 14,
+                  }}
+                >
+                  <button
+                    type="button"
+                    data-testid="btn-zoom-question-image"
+                    onClick={() => setZoomedImageUid(reviewedHistoryItem.uid)}
+                    aria-label={`Ampliar imagem: ${reviewedQuestion.imagem_fonte || 'Slide 51 — Enzimas'}`}
+                    style={{
+                      display: 'block',
+                      width: '100%',
+                      padding: 0,
+                      border: 'none',
+                      background: 'transparent',
+                      cursor: 'zoom-in',
+                    }}
+                  >
+                    <img
+                      src={reviewedQuestion.imagem}
+                      alt={reviewedQuestion.imagem_fonte || 'Slide 51 — Enzimas'}
+                      data-testid="question-image"
+                      style={{
+                        display: 'block',
+                        width: '100%',
+                        maxWidth: 720,
+                        height: 'auto',
+                        margin: '0 auto',
+                        borderRadius: 10,
+                        background: '#ffffff',
+                        objectFit: 'contain',
+                      }}
+                    />
+                  </button>
+                  <figcaption
+                    style={{
+                      display: 'flex',
+                      justifyContent: 'space-between',
+                      alignItems: 'center',
+                      flexWrap: 'wrap',
+                      gap: 8,
+                      marginTop: 10,
+                      fontSize: 13,
+                      color: '#bfe7ea',
+                    }}
+                  >
+                    <span
+                      data-testid="question-image-source"
+                      style={{ fontWeight: 700, color: '#edfafa' }}
+                    >
+                      Fonte: {reviewedQuestion.imagem_fonte || 'Slide 51 — Enzimas'}
+                    </span>
+                    <button
+                      type="button"
+                      data-testid="btn-zoom-question-image-label"
+                      className="ghost"
+                      onClick={() => setZoomedImageUid(reviewedHistoryItem.uid)}
+                      style={{ padding: '5px 10px', fontSize: 12 }}
+                    >
+                      🔍 Toque para ampliar
+                    </button>
+                  </figcaption>
+                </figure>
+              ) : null}
+
+              {reviewedQuestion.imagem && zoomedImageUid === reviewedHistoryItem.uid ? (
+                <div
+                  data-testid="question-image-zoom-modal"
+                  role="dialog"
+                  aria-modal="true"
+                  aria-label={reviewedQuestion.imagem_fonte || 'Slide 51 — Enzimas'}
+                  onClick={() => setZoomedImageUid(null)}
+                  style={{
+                    position: 'fixed',
+                    inset: 0,
+                    zIndex: 9999,
+                    background: 'rgba(3, 12, 15, 0.92)',
+                    display: 'flex',
+                    flexDirection: 'column',
+                    justifyContent: 'center',
+                    alignItems: 'center',
+                    padding: 16,
+                    overflow: 'auto',
+                  }}
+                >
+                  <div
+                    onClick={(e) => e.stopPropagation()}
+                    style={{
+                      maxWidth: '96vw',
+                      width: '100%',
+                      display: 'flex',
+                      flexDirection: 'column',
+                      alignItems: 'center',
+                      gap: 12,
+                    }}
+                  >
+                    <div
+                      style={{
+                        width: '100%',
+                        maxWidth: 960,
+                        display: 'flex',
+                        justifyContent: 'space-between',
+                        alignItems: 'center',
+                        gap: 12,
+                        color: '#fff',
+                      }}
+                    >
+                      <span data-testid="zoom-modal-source" style={{ fontWeight: 800, fontSize: 15 }}>
+                        {reviewedQuestion.imagem_fonte || 'Slide 51 — Enzimas'}
+                      </span>
+                      <button
+                        type="button"
+                        data-testid="btn-close-image-zoom"
+                        className="primary"
+                        onClick={() => setZoomedImageUid(null)}
+                        style={{ padding: '8px 14px', fontSize: 14 }}
+                      >
+                        Fechar ✕
+                      </button>
+                    </div>
+                    <div
+                      style={{
+                        maxWidth: '96vw',
+                        maxHeight: '82vh',
+                        overflow: 'auto',
+                        borderRadius: 12,
+                        background: '#ffffff',
+                        padding: 6,
+                      }}
+                    >
+                      <img
+                        src={reviewedQuestion.imagem}
+                        alt={reviewedQuestion.imagem_fonte || 'Slide 51 — Enzimas'}
+                        data-testid="question-image-zoomed"
+                        style={{
+                          display: 'block',
+                          maxWidth: '92vw',
+                          maxHeight: '78vh',
+                          width: 'auto',
+                          height: 'auto',
+                          objectFit: 'contain',
+                          margin: '0 auto',
+                        }}
+                      />
+                    </div>
+                  </div>
+                </div>
+              ) : null}
+
+              {/* Alternativas na ordem exata daquela tentativa */}
+              <div
+                className="answers"
+                data-testid="review-options-list"
+                data-order={(reviewedHistoryItem.optionOrder || LETTER_KEYS).join('')}
+                style={{ marginBottom: 14 }}
+              >
+                {LETTER_KEYS.map((letra) => {
+                  const textoAlt = reviewedMapped.alternativasExibidas[letra]
+                  const isMarked = reviewedHistoryItem.escolhida === letra
+                  const isGab = reviewedMapped.gabaritoExibido === letra
+                  let cls = 'answer'
+                  if (isGab) cls += ' correct'
+                  else if (isMarked && !isGab) cls += ' wrong'
+
+                  return (
+                    <button
+                      key={letra}
+                      type="button"
+                      disabled
+                      data-testid={`review-option-${letra}`}
+                      data-marked={isMarked ? 'true' : 'false'}
+                      data-correct={isGab ? 'true' : 'false'}
+                      className={cls}
+                    >
+                      <b>{letra})</b> {textoAlt}
+                    </button>
+                  )
+                })}
+              </div>
+
+              <div
+                data-testid="review-summary-choice-box"
+                style={{
+                  padding: 12,
+                  borderRadius: 12,
+                  background: reviewedHistoryItem.acertou ? '#102e26' : '#2b191c',
+                  border: reviewedHistoryItem.acertou ? '1px solid #348c5b' : '1px solid #9a4545',
+                  fontSize: 14,
+                  marginBottom: 14,
+                }}
+              >
+                <div>
+                  <b>Alternativa marcada:</b>{' '}
+                  <span data-testid="review-chosen-letter">{reviewedHistoryItem.escolhida}</span> —{' '}
+                  {reviewedMapped.alternativasExibidas[reviewedHistoryItem.escolhida]}
+                </div>
+                <div style={{ marginTop: 4 }}>
+                  <b>Resposta correta (Gabarito):</b>{' '}
+                  <span data-testid="review-gabarito-letter">{reviewedMapped.gabaritoExibido}</span>{' '}
+                  — {reviewedMapped.textoGabarito}
+                </div>
+              </div>
+
+              {/* Explicações completas de todas as alternativas na ordem exibida */}
+              <div
+                data-testid="review-explicacoes-abcd"
+                style={{
+                  background: '#081d23',
+                  border: '1px solid #2b5964',
+                  borderRadius: 12,
+                  padding: 14,
+                  marginBottom: 14,
+                }}
+              >
+                <div style={{ fontSize: 13, fontWeight: 800, color: '#bfe7ea', marginBottom: 10 }}>
+                  Explicações das alternativas
+                </div>
+                <div className="list" style={{ gap: 8 }}>
+                  {LETTER_KEYS.map((letra) => {
+                    const ehGabarito = letra === reviewedMapped.gabaritoExibido
+                    const foiMarcada = letra === reviewedHistoryItem.escolhida
+                    return (
+                      <div
+                        key={letra}
+                        data-testid={`review-explicacao-${letra}`}
+                        style={{
+                          padding: 10,
+                          borderRadius: 10,
+                          border: ehGabarito
+                            ? '1px solid #348c5b'
+                            : foiMarcada
+                              ? '1px solid #9a4545'
+                              : '1px solid #1f4650',
+                          background: ehGabarito
+                            ? '#102e26'
+                            : foiMarcada
+                              ? '#2b191c'
+                              : '#0b2229',
+                        }}
+                      >
+                        <div style={{ fontSize: 13, fontWeight: 800, marginBottom: 4 }}>
+                          Alternativa {letra}
+                          {ehGabarito ? ' (Correta)' : ''}
+                          {foiMarcada && !ehGabarito ? ' (Marcada por você)' : ''}:{' '}
+                          {reviewedMapped.alternativasExibidas[letra]}
+                        </div>
+                        <div style={{ fontSize: 13, color: '#dffafa', lineHeight: 1.5 }}>
+                          {reviewedMapped.explicacoesExibidas[letra]}
+                        </div>
+                      </div>
+                    )
+                  })}
+                </div>
+              </div>
+
+              {/* Referência à apostila */}
+              {reviewedQuestion.referencia ? (
+                <div
+                  data-testid="review-question-referencia"
+                  style={{
+                    padding: 12,
+                    borderRadius: 12,
+                    background: '#07181e',
+                    border: '1px solid #1f4b57',
+                    fontSize: 13,
+                    color: '#d4f2f5',
+                    lineHeight: 1.55,
+                    marginBottom: reviewedHistoryItem.reflexaoSalva ? 14 : 0,
+                  }}
+                >
+                  <div>
+                    <b>Apostila:</b> {reviewedQuestion.slide_nome}
+                    {reviewedQuestion.referencia.fundamentacao ? (
+                      <> · <b>Referência:</b> {reviewedQuestion.referencia.fundamentacao}</>
+                    ) : Array.isArray(reviewedQuestion.referencia.paginas) &&
+                      reviewedQuestion.referencia.paginas.length > 0 ? (
+                      <> · <b>Página(s):</b> {reviewedQuestion.referencia.paginas.join(', ')}</>
+                    ) : null}
+                  </div>
+                  {Array.isArray(reviewedQuestion.referencia.trechos_apoio) &&
+                  reviewedQuestion.referencia.trechos_apoio.length > 0 ? (
+                    <div style={{ marginTop: 6 }}>
+                      <b>Trecho de apoio:</b>{' '}
+                      {reviewedQuestion.referencia.trechos_apoio.map((trecho, i) => (
+                        <span key={i}>
+                          &ldquo;{trecho}&rdquo;
+                          {i < reviewedQuestion.referencia.trechos_apoio.length - 1 ? ' | ' : ''}
+                        </span>
+                      ))}
+                    </div>
+                  ) : null}
+                </div>
+              ) : null}
+
+              {/* Reflexão salva naquela tentativa */}
+              {reviewedHistoryItem.reflexaoSalva ? (
+                <div
+                  data-testid="review-saved-reflection"
+                  style={{
+                    background: '#1c180f',
+                    border: '1px solid #8a6432',
+                    borderRadius: 12,
+                    padding: 12,
+                  }}
+                >
+                  <div style={{ fontSize: 13, fontWeight: 800, color: '#ffd166', marginBottom: 4 }}>
+                    O que entendi sobre meu erro (reflexão salva)
+                  </div>
+                  <div style={{ fontSize: 14, color: '#edfafa', whiteSpace: 'pre-line' }}>
+                    {reviewedHistoryItem.reflexaoSalva}
+                  </div>
+                </div>
+              ) : null}
+            </div>
+          ) : null}
+
+          {/* Seção 4: Assuntos para revisar */}
+          <div
+            data-testid="raiox-topics-to-review"
+            style={{
+              marginBottom: 24,
+              padding: 16,
+              borderRadius: 14,
+              background: '#0a2128',
+              border: '1px solid #224d59',
+            }}
+          >
+            <h3 style={{ margin: '0 0 6px', fontSize: 17, color: '#fff' }}>
+              Assuntos para revisar
+            </h3>
+            <p
+              data-testid="raiox-topics-disclaimer"
+              className="muted"
+              style={{ margin: '0 0 12px', fontSize: 13, lineHeight: 1.5 }}
+            >
+              Desempenho referente às questões respondidas nesta sessão, para orientar sua revisão na apostila (sem adicionar questões automaticamente à fila).
+            </p>
+
+            {topicsWithErrors.length === 0 ? (
+              <div
+                data-testid="raiox-no-errors-message"
+                style={{
+                  padding: 12,
+                  borderRadius: 10,
+                  background: '#0e2c24',
+                  border: '1px solid #2e7d52',
+                  color: '#a8f5c6',
+                  fontSize: 14,
+                }}
+              >
+                Nenhum erro registrado nos assuntos respondidos nesta sessão. Este resultado reflete o desempenho nas questões respondidas agora.
+              </div>
+            ) : (
+              <div className="list" style={{ gap: 8 }}>
+                {topicsWithErrors.map((topicItem, idx) => (
+                  <div
+                    key={topicItem.key}
+                    data-testid={`raiox-topic-error-${idx + 1}`}
+                    style={{
+                      display: 'flex',
+                      justifyContent: 'space-between',
+                      alignItems: 'center',
+                      flexWrap: 'wrap',
+                      gap: 10,
+                      padding: '10px 14px',
+                      borderRadius: 10,
+                      background: '#1f171a',
+                      border: '1px solid #7c3b3f',
+                    }}
+                  >
+                    <div>
+                      <div style={{ fontSize: 13, fontWeight: 800, color: '#ffd166' }}>
+                        {topicItem.tema}
+                      </div>
+                      <div style={{ fontSize: 14, color: '#fff', fontWeight: 600 }}>
+                        {topicItem.subtema}
+                      </div>
+                    </div>
+                    <div
+                      data-testid={`raiox-topic-counts-${idx + 1}`}
+                      style={{
+                        fontSize: 13,
+                        fontWeight: 700,
+                        color: '#ffaaaa',
+                        background: '#2e1619',
+                        padding: '5px 10px',
+                        borderRadius: 8,
+                      }}
+                    >
+                      {topicItem.respondidas}{' '}
+                      {topicItem.respondidas === 1 ? 'respondida' : 'respondidas'} ·{' '}
+                      {topicItem.erros} {topicItem.erros === 1 ? 'erro' : 'erros'}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            )}
+          </div>
+
+          {/* Seção 3: Conferência por questão na ordem da sessão */}
+          <div
+            data-testid="raiox-questions-list"
+            style={{
+              marginBottom: 22,
+              padding: 16,
+              borderRadius: 14,
+              background: '#0a2128',
+              border: '1px solid #224d59',
+            }}
+          >
+            <h3 style={{ margin: '0 0 12px', fontSize: 17, color: '#fff' }}>
+              Conferência por questão ({total})
+            </h3>
+            <div className="list" style={{ gap: 10 }}>
+              {initialHistory.map((item, idx) => {
+                const snippet =
+                  item.enunciado && item.enunciado.length > 110
+                    ? `${item.enunciado.slice(0, 110).trim()}…`
+                    : item.enunciado
+                const isSelectedReview = reviewingSummaryUid === item.uid
+
+                return (
+                  <div
+                    key={item.uid}
+                    data-testid={`raiox-question-item-${idx + 1}`}
+                    style={{
+                      display: 'flex',
+                      justifyContent: 'space-between',
+                      alignItems: 'center',
+                      flexWrap: 'wrap',
+                      gap: 12,
+                      padding: 12,
+                      borderRadius: 12,
+                      background: isSelectedReview ? '#11343e' : '#081c22',
+                      border: isSelectedReview ? '1px solid #38d1bd' : '1px solid #1d444f',
+                    }}
+                  >
+                    <div style={{ flex: '1 1 280px', minWidth: 0 }}>
+                      <div
+                        style={{
+                          display: 'flex',
+                          alignItems: 'center',
+                          gap: 8,
+                          flexWrap: 'wrap',
+                          marginBottom: 4,
+                        }}
+                      >
+                        <span style={{ fontSize: 13, fontWeight: 800, color: '#38d1bd' }}>
+                          Questão {idx + 1}
+                        </span>
+                        <span
+                          data-testid={`raiox-question-result-${idx + 1}`}
+                          style={{
+                            fontSize: 12,
+                            fontWeight: 800,
+                            padding: '2px 9px',
+                            borderRadius: 999,
+                            background: item.acertou ? '#103528' : '#3a1b1f',
+                            color: item.acertou ? '#8af3b1' : '#ffaaaa',
+                            border: item.acertou ? '1px solid #348c5b' : '1px solid #9a4545',
+                          }}
+                        >
+                          {item.acertou ? 'Acertou' : 'Errou'}
+                        </span>
+                        <span style={{ fontSize: 12, color: '#9fc8cc' }}>
+                          {item.tema} · {item.subtema}
+                        </span>
+                      </div>
+                      <div
+                        data-testid={`raiox-question-snippet-${idx + 1}`}
+                        style={{ fontSize: 14, color: '#edfafa', lineHeight: 1.45 }}
+                      >
+                        {snippet}
+                      </div>
+                    </div>
+
+                    <button
+                      type="button"
+                      data-testid={`btn-revisar-questao-${idx + 1}`}
+                      className={isSelectedReview ? 'primary' : 'ghost'}
+                      onClick={() => {
+                        setReviewingSummaryUid((prev) => (prev === item.uid ? null : item.uid))
+                        window.scrollTo({ top: 0, behavior: 'smooth' })
+                      }}
+                      style={{ fontSize: 13, padding: '8px 14px', flexShrink: 0 }}
+                    >
+                      {isSelectedReview ? 'Ocultar revisão' : 'Revisar questão'}
+                    </button>
+                  </div>
+                )
+              })}
             </div>
           </div>
 
@@ -1335,9 +2216,6 @@ export default function IndependentMaterialsHub({
   const initialTotal = session.initialCount || session.queue.filter((item) => !item.isReforco).length
   const initialAnsweredCount = session.queue.filter(
     (item) => !item.isReforco && Boolean(session.responsesByUid?.[item.uid]),
-  ).length
-  const pendingReinforcementsCount = session.queue.filter(
-    (item) => item.isReforco && !session.responsesByUid?.[item.uid],
   ).length
 
   // Posição atual entre as questões iniciais
@@ -1380,7 +2258,7 @@ export default function IndependentMaterialsHub({
           padding: 20,
         }}
       >
-        {/* Cabeçalho enxuto da apostila em estudo + progresso separado de questões iniciais e reforços */}
+        {/* Cabeçalho enxuto da apostila em estudo + progresso de questões da sessão */}
         <div
           style={{
             display: 'flex',
@@ -1420,19 +2298,7 @@ export default function IndependentMaterialsHub({
               data-testid="stat-initial-progress"
               style={{ fontSize: 12, fontWeight: 700, color: '#edfafa' }}
             >
-              Questões iniciais: <b>{initialAnsweredCount}/{initialTotal}</b>
-            </span>
-            <span
-              className="pill"
-              data-testid="stat-reinforcements"
-              style={{
-                fontSize: 12,
-                fontWeight: 700,
-                borderColor: pendingReinforcementsCount > 0 ? '#b5853b' : undefined,
-                color: pendingReinforcementsCount > 0 ? '#ffd166' : '#9fc8cc',
-              }}
-            >
-              Reforços pendentes: <b>{pendingReinforcementsCount}</b>
+              Respondidas: <b>{initialAnsweredCount}/{initialTotal}</b>
             </span>
           </div>
         </div>
@@ -1451,35 +2317,15 @@ export default function IndependentMaterialsHub({
           </div>
         ) : null}
 
-        {/* Indicador claro da questão atual (diferenciando questão inicial de repetição de reforço) */}
+        {/* Indicador claro da questão atual */}
         <div className="row" style={{ justifyContent: 'flex-start', flexWrap: 'wrap', gap: 8, marginBottom: 10 }}>
-          {currentQueueItem.isReforco ? (
-            <span
-              className="tag warn"
-              data-testid="session-question-counter"
-              style={{ fontSize: 13, fontWeight: 800, padding: '5px 12px' }}
-            >
-              Reforço {currentQueueItem.reforcoNumero} de 3
-            </span>
-          ) : (
-            <span
-              className="pill"
-              data-testid="session-question-counter"
-              style={{ fontSize: 13, fontWeight: 800, color: '#fff', borderColor: '#38d1bd' }}
-            >
-              Questão {currentInitialPosition} de {initialTotal}
-            </span>
-          )}
-
-          {currentQueueItem.isReforco ? (
-            <span
-              className="muted"
-              data-testid="badge-reforco"
-              style={{ fontSize: 12 }}
-            >
-              Repetição para fixar o conteúdo (alternativas em nova ordem)
-            </span>
-          ) : null}
+          <span
+            className="pill"
+            data-testid="session-question-counter"
+            style={{ fontSize: 13, fontWeight: 800, color: '#fff', borderColor: '#38d1bd' }}
+          >
+            Questão {currentInitialPosition} de {initialTotal}
+          </span>
         </div>
 
         <div className="topic" data-testid="question-tema">
@@ -1738,11 +2584,6 @@ export default function IndependentMaterialsHub({
                   <span data-testid="gabarito-text">{mappedCurrentQuestion.textoGabarito}</span>
                 </div>
               )}
-              {!isCorrect && !currentQueueItem.isReforco ? (
-                <div style={{ marginTop: 8, fontSize: 13, color: '#ffd166' }}>
-                  Foram adicionadas 3 repetições desta questão aos reforços pendentes.
-                </div>
-              ) : null}
             </div>
 
             {/* Explicações: primeiro a marcada e a correta (1 card se acertou, 2 cards se errou) */}

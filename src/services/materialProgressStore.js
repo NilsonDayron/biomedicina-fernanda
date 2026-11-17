@@ -18,6 +18,8 @@ export function createEmptyMaterialProgress(slideId) {
     rascunhosReflexao: {},
     ultimaOrdemQuestoesIds: [],
     ultimaSessao: null,
+    historicoSessoes: [],
+    historicoReforcosAntigos: [],
     sessaoAtiva: null,
     sessaoIncompativelSubstituida: false,
   }
@@ -53,6 +55,31 @@ const REMOVED_ADMIN_QUESTION_IDS = new Set([
   'fundamentos_q008',
 ])
 
+export function extractOldReinforcementsFromSession(sessaoAtiva, validIds) {
+  if (!sessaoAtiva || typeof sessaoAtiva !== 'object') return []
+  const rawHistory = Array.isArray(sessaoAtiva.history) ? sessaoAtiva.history : []
+  const rawResponses =
+    sessaoAtiva.responsesByUid && typeof sessaoAtiva.responsesByUid === 'object'
+      ? Object.values(sessaoAtiva.responsesByUid)
+      : []
+  const combined = [...rawHistory, ...rawResponses]
+  const seenUids = new Set()
+  const result = []
+  for (const entry of combined) {
+    if (
+      entry &&
+      entry.isReforco &&
+      entry.uid &&
+      !seenUids.has(entry.uid) &&
+      (!validIds || validIds.has(String(entry.questaoId)))
+    ) {
+      seenUids.add(entry.uid)
+      result.push(entry)
+    }
+  }
+  return result
+}
+
 export function sanitizeSavedSession(sessaoAtiva, validIds, expectedSlideId) {
   if (!sessaoAtiva || typeof sessaoAtiva !== 'object') return null
   if (sessaoAtiva.slide_id !== expectedSlideId) return null
@@ -68,9 +95,12 @@ export function sanitizeSavedSession(sessaoAtiva, validIds, expectedSlideId) {
   const filteredRawQueue = []
 
   oldQueue.forEach((item, idx) => {
-    const isValid =
-      item && typeof item.questaoId === 'string' && validIds.has(String(item.questaoId))
-    if (isValid) {
+    const isInitialAndValid =
+      item &&
+      !item.isReforco &&
+      typeof item.questaoId === 'string' &&
+      validIds.has(String(item.questaoId))
+    if (isInitialAndValid) {
       if (idx < oldCurrentIndex) keptBeforeCurrent += 1
       if (idx < oldViewIndex) keptBeforeView += 1
       filteredRawQueue.push(item)
@@ -81,18 +111,14 @@ export function sanitizeSavedSession(sessaoAtiva, validIds, expectedSlideId) {
     return null
   }
 
-  if (filteredRawQueue.length === oldQueue.length) {
-    return sessaoAtiva
-  }
-
   let initialCounter = 0
   const filteredQueue = filteredRawQueue.map((item) => {
-    if (!item.isReforco) {
-      initialCounter += 1
-    }
+    initialCounter += 1
     return {
       ...item,
-      initialPosition: !item.isReforco ? initialCounter : null,
+      isReforco: false,
+      repetida: false,
+      initialPosition: initialCounter,
     }
   })
 
@@ -103,7 +129,7 @@ export function sanitizeSavedSession(sessaoAtiva, validIds, expectedSlideId) {
       : {}
   const filteredResponsesByUid = {}
   for (const [uid, resp] of Object.entries(rawResponses)) {
-    if (keptUids.has(uid) && resp && validIds.has(String(resp.questaoId))) {
+    if (keptUids.has(uid) && resp && !resp.isReforco && validIds.has(String(resp.questaoId))) {
       filteredResponsesByUid[uid] = resp
     }
   }
@@ -132,7 +158,13 @@ export function sanitizeSavedSession(sessaoAtiva, validIds, expectedSlideId) {
 
   const rawHistory = Array.isArray(sessaoAtiva.history) ? sessaoAtiva.history : []
   const filteredHistory = rawHistory
-    .filter((entry) => entry && keptUids.has(entry.uid) && validIds.has(String(entry.questaoId)))
+    .filter(
+      (entry) =>
+        entry &&
+        !entry.isReforco &&
+        keptUids.has(entry.uid) &&
+        validIds.has(String(entry.questaoId)),
+    )
     .map((entry, idx) => ({
       ...entry,
       posicaoSessao: idx + 1,
@@ -142,13 +174,36 @@ export function sanitizeSavedSession(sessaoAtiva, validIds, expectedSlideId) {
     ? sessaoAtiva.answeredQuestionIds.filter((qId) => validIds.has(String(qId)))
     : Array.from(new Set(filteredHistory.map((h) => h.questaoId)))
 
-  const newCurrentIndex = Math.max(0, Math.min(keptBeforeCurrent, filteredQueue.length - 1))
-  const newViewIndex = Math.max(0, Math.min(keptBeforeView, newCurrentIndex))
-  const reinforcementsAdded = filteredQueue.filter((item) => item.isReforco).length
+  const firstIncompleteIdx = filteredQueue.findIndex((item) => {
+    const resp = filteredResponsesByUid[item.uid]
+    if (!resp) return true
+    if (resp.requiresReflection && !resp.reflexaoSalva) return true
+    return false
+  })
+
+  const wasCurrentOnRemovedOrReforco =
+    !oldQueue[oldCurrentIndex] ||
+    oldQueue[oldCurrentIndex].isReforco ||
+    !validIds.has(String(oldQueue[oldCurrentIndex].questaoId))
+  const wasViewOnRemovedOrReforco =
+    !oldQueue[oldViewIndex] ||
+    oldQueue[oldViewIndex].isReforco ||
+    !validIds.has(String(oldQueue[oldViewIndex].questaoId))
+
+  const newCurrentIndex =
+    firstIncompleteIdx !== -1
+      ? wasCurrentOnRemovedOrReforco
+        ? firstIncompleteIdx
+        : Math.max(0, Math.min(keptBeforeCurrent, firstIncompleteIdx))
+      : filteredQueue.length - 1
+
+  const newViewIndex = wasViewOnRemovedOrReforco
+    ? newCurrentIndex
+    : Math.max(0, Math.min(keptBeforeView, newCurrentIndex))
 
   return {
     ...sessaoAtiva,
-    initialCount: initialCounter || filteredQueue.length,
+    initialCount: filteredQueue.length,
     queue: filteredQueue,
     currentIndex: newCurrentIndex,
     viewIndex: newViewIndex,
@@ -157,7 +212,7 @@ export function sanitizeSavedSession(sessaoAtiva, validIds, expectedSlideId) {
     draftByUid: filteredDraftByUid,
     reflectionDraftByUid: filteredReflectionDraftByUid,
     answeredQuestionIds: filteredAnsweredIds,
-    reinforcementsAdded,
+    reinforcementsAdded: 0,
   }
 }
 
@@ -222,6 +277,22 @@ export function loadAllMaterialsProgress() {
         const hadDeprecatedActiveSession = deprecatedSavedList.some((item) =>
           Boolean(item.sessaoAtiva),
         )
+        const extractedOldReinforcements = extractOldReinforcementsFromSession(
+          primarySaved.sessaoAtiva,
+          validIds,
+        )
+        const prevOldReinforcements = Array.isArray(primarySaved.historicoReforcosAntigos)
+          ? primarySaved.historicoReforcosAntigos
+          : []
+        const seenRefUids = new Set(prevOldReinforcements.map((r) => r?.uid).filter(Boolean))
+        const mergedOldReinforcements = [...prevOldReinforcements]
+        for (const r of extractedOldReinforcements) {
+          if (r?.uid && !seenRefUids.has(r.uid)) {
+            seenRefUids.add(r.uid)
+            mergedOldReinforcements.push(r)
+          }
+        }
+
         const sanitizedSession = sanitizeSavedSession(primarySaved.sessaoAtiva, validIds, id)
 
         const sessaoAtiva = sanitizedSession
@@ -235,6 +306,12 @@ export function loadAllMaterialsProgress() {
           ...(Array.isArray(primarySaved.reflexoes) ? primarySaved.reflexoes : []),
           ...extraReflexoes,
         ].filter((r) => !r?.questaoId || !REMOVED_ADMIN_QUESTION_IDS.has(String(r.questaoId)))
+
+        const prevHistoricoSessoes = Array.isArray(primarySaved.historicoSessoes)
+          ? primarySaved.historicoSessoes
+          : primarySaved.ultimaSessao
+            ? [primarySaved.ultimaSessao]
+            : []
 
         merged[id] = {
           ...createEmptyMaterialProgress(id),
@@ -254,6 +331,8 @@ export function loadAllMaterialsProgress() {
           ultimaOrdemQuestoesIds: Array.isArray(primarySaved.ultimaOrdemQuestoesIds)
             ? primarySaved.ultimaOrdemQuestoesIds.filter((qId) => validIds.has(String(qId)))
             : [],
+          historicoSessoes: prevHistoricoSessoes,
+          historicoReforcosAntigos: mergedOldReinforcements,
           sessaoAtiva,
           sessaoIncompativelSubstituida,
         }
@@ -469,16 +548,23 @@ export function saveMaterialActiveSession(allState, slideId, sessaoAtiva, extraM
 
 export function completeMaterialSession(allState, slideId, resumoSessao) {
   const current = allState[slideId] || createEmptyMaterialProgress(slideId)
+  const completedEntry = {
+    ...resumoSessao,
+    concluidaEm: resumoSessao?.concluidaEm || Date.now(),
+  }
+  const prevHistorico = Array.isArray(current.historicoSessoes) ? current.historicoSessoes : []
+  const filteredHistorico = completedEntry.sessionId
+    ? prevHistorico.filter((item) => item?.sessionId !== completedEntry.sessionId)
+    : prevHistorico
+
   const nextState = {
     ...allState,
     [slideId]: {
       ...current,
       slide_id: slideId,
       sessoesConcluidas: (current.sessoesConcluidas || 0) + 1,
-      ultimaSessao: {
-        ...resumoSessao,
-        concluidaEm: Date.now(),
-      },
+      ultimaSessao: completedEntry,
+      historicoSessoes: [completedEntry, ...filteredHistorico],
       sessaoAtiva: null,
     },
   }
