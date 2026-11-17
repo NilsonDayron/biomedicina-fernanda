@@ -1,3 +1,12 @@
+import rawBioquimicaFundamentos from '../../bioquimica_080826_fundamentos.json' with { type: 'json' }
+import rawBioquimicaCarboidratosEstruturas from '../../bioquimica_150820_carboidratos_estruturas.json' with { type: 'json' }
+import rawBioquimicaCarboidratosDigestao from '../../bioquimica_220826_carboidratos_digestao.json' with { type: 'json' }
+import rawBioquimicaSistemaEnergeticoEGlicolitico from '../../bioquimica_290826_sistema_energetico_e_glicolitico.json' with { type: 'json' }
+import rawBioquimicaSistemaEnergeticoGlicolitico from '../../bioquimica_050926_sistema_energetico_glicolitico.json' with { type: 'json' }
+import rawBioquimicaGlicoliseKrebs from '../../bioquimica_120918_glicolise_e_ciclo_de_krebs.json' with { type: 'json' }
+import rawBioquimicaProteinasEnzimas from '../../bioquimica_proteinas_aminoacidos_enzimas.json' with { type: 'json' }
+import rawBioquimicaEstudoDirigidoV1 from '../../bioquimica_estudo_dirigido_v1.json' with { type: 'json' }
+import rawBioquimicaRevisaoV1 from '../../bioquimica_revisao_v1_gabarito.json' with { type: 'json' }
 import rawBromatologiaAula02 from '../../bromatologia_aula_02.json' with { type: 'json' }
 import rawBromatologiaAula03 from '../../bromatologia_aula_03.json' with { type: 'json' }
 import rawBromatologiaAula04 from '../../bromatologia_aula_04.json' with { type: 'json' }
@@ -81,6 +90,105 @@ export const DISCIPLINE_DEFINITIONS = [
 ]
 
 const JSON_MATERIAL_DEFINITIONS = [
+  {
+    file: 'bioquimica_080826_fundamentos.json',
+    arquivoOrigem: '080826_-_Fundamentos_de_Bioquímica_260825_172659.pdf',
+    slide_id: 'fundamentos',
+    nome: '080826 - Fundamentos de Bioquímica',
+    disciplineId: 'bioquimica',
+    disciplineNome: 'Fundamentos de Bioquímica',
+    blurb: 'Conceito e escopo da Bioquímica, matriz extracelular (MEC), 4 classes de biomoléculas, vitaminas lipossolúveis e hidrossolúveis, anabolismo vs. catabolismo e visão geral da respiração celular.',
+    rawData: rawBioquimicaFundamentos,
+    esperado: 40,
+  },
+  {
+    file: 'bioquimica_150820_carboidratos_estruturas.json',
+    arquivoOrigem: '150820_-_Carboidratos_Estruturas_Moleculares_260916_152721.pdf',
+    slide_id: 'carboidratos',
+    nome: '150820 - Carboidratos: Estruturas Moleculares',
+    disciplineId: 'bioquimica',
+    disciplineNome: 'Fundamentos de Bioquímica',
+    blurb: 'Fórmula geral e funções dos carboidratos, classificação (monossacarídeos, oligossacarídeos e polissacarídeos), aldoses e cetoses, ligação glicosídica, maltose, sacarose, lactose, amido, glicogênio, celulose, quitina e parede bacteriana.',
+    rawData: rawBioquimicaCarboidratosEstruturas,
+    esperado: 40,
+  },
+  {
+    file: 'bioquimica_220826_carboidratos_digestao.json',
+    arquivoOrigem: '220826_-_Carboidratos_Digestão_260916_152627.pdf',
+    slide_id: 'digestao',
+    nome: '220826 - Carboidratos: Digestão',
+    disciplineId: 'bioquimica',
+    disciplineNome: 'Fundamentos de Bioquímica',
+    blurb: 'Digestão salivar, gástrica e intestinal de carboidratos, dissacaridases da borda em escova, intolerância à lactose, SGLT1, GLUT2 e GLUT5, insulina e glucagon, GLUT4, glicogênese, glicogenólise, gliconeogênese e diabetes tipo 1, tipo 2 e gestacional.',
+    rawData: rawBioquimicaCarboidratosDigestao,
+    esperado: 40,
+  },
+  {
+    file: 'bioquimica_290826_sistema_energetico_e_glicolitico.json',
+    arquivoOrigem: '290826_-_Sistema_Energético_e_Glicolítico_260916_152644.pdf',
+    slide_id: 'bioenergetica',
+    nome: '290826 - Sistema Energético e Glicolítico',
+    disciplineId: 'bioquimica',
+    disciplineNome: 'Fundamentos de Bioquímica',
+    blurb: 'Digestão e absorção de carboidratos, pâncreas endócrino e regulação hormonal da glicemia, sinalização insulínica (IRS-1/2, PI-3K, AKT, GLUT4), bioenergética (ATP/ADP, NAD/FAD), mitocôndrias, glicólise anaeróbia e acidose lática cerebral.',
+    rawData: rawBioquimicaSistemaEnergeticoEGlicolitico,
+    esperado: 40,
+  },
+  {
+    file: 'bioquimica_050926_sistema_energetico_glicolitico.json',
+    arquivoOrigem: '050926_-_SISTEMA_ENERGÉTICO_GLICOLÍTICO_260918_204208.pdf',
+    slide_id: 'glicolise',
+    nome: '050926 - Sistema Energético Glicolítico',
+    disciplineId: 'bioquimica',
+    disciplineNome: 'Fundamentos de Bioquímica',
+    blurb: 'Bioenergética, ATP/ADP e aceptores NAD/FAD, estrutura mitocondrial, glicólise aeróbia e anaeróbia, tecidos dependentes de glicólise anaeróbia, oxidação do piruvato a Acetil-CoA, 8 etapas do Ciclo de Krebs e balanços das lançadeiras.',
+    rawData: rawBioquimicaSistemaEnergeticoGlicolitico,
+    esperado: 40,
+  },
+  {
+    file: 'bioquimica_120918_glicolise_e_ciclo_de_krebs.json',
+    arquivoOrigem: '120918_-_Glicólise_e_Ciclo_de_Krebs_260916_152654.pdf',
+    slide_id: 'krebs',
+    nome: '120918 - Glicólise e Ciclo de Krebs',
+    disciplineId: 'bioquimica',
+    disciplineNome: 'Fundamentos de Bioquímica',
+    blurb: 'As 10 reações e enzimas da glicólise, complexo piruvato desidrogenase (E1, E2, E3 e 5 coenzimas), Ciclo de Krebs detalhado, cadeia respiratória (Complexos I–IV, ubiquinona, citocromo c), ATP sintase, lançadeiras e inibidores.',
+    rawData: rawBioquimicaGlicoliseKrebs,
+    esperado: 40,
+  },
+  {
+    file: 'bioquimica_proteinas_aminoacidos_enzimas.json',
+    arquivoOrigem: 'PROTEÍNAS, AMINOÁCIDOS E ENZIMAS_261008_211137.pdf',
+    slide_id: 'proteinas-aminoacidos-enzimas',
+    nome: 'Proteínas, Aminoácidos e Enzimas',
+    disciplineId: 'bioquimica',
+    disciplineNome: 'Fundamentos de Bioquímica',
+    blurb: 'Funções das proteínas, carbono alfa (α) e isomeria óptica, os 20 aminoácidos (apolares, polares neutros, ácidos e básicos), essenciais vs. não essenciais, ligação peptídica, estruturas proteicas, desnaturação, enzimas, holoenzima e regulação.',
+    rawData: rawBioquimicaProteinasEnzimas,
+    esperado: 40,
+  },
+  {
+    file: 'bioquimica_estudo_dirigido_v1.json',
+    arquivoOrigem: 'ESTUDO DIRIGIDO V1 FUNDAMENTOS DE BIOQUÍMICA_261008_211052.pdf',
+    slide_id: 'estudo-dirigido-v1',
+    nome: 'Estudo Dirigido V1 - Fundamentos de Bioquímica',
+    disciplineId: 'bioquimica',
+    disciplineNome: 'Fundamentos de Bioquímica',
+    blurb: 'Questões integradas do Estudo Dirigido V1 sobre MEC, metabolismo energético, carboidratos, digestão, regulação hormonal da glicemia, diabetes, glicólise e Ciclo de Krebs.',
+    rawData: rawBioquimicaEstudoDirigidoV1,
+    esperado: 15,
+  },
+  {
+    file: 'bioquimica_revisao_v1_gabarito.json',
+    arquivoOrigem: 'REVISÃO V1 FUNDAMENTOS DE BIOQUÍMICA GABARITO_261008_211111.pdf',
+    slide_id: 'revisao-integrada',
+    nome: 'Revisão V1 - Fundamentos de Bioquímica (Gabarito)',
+    disciplineId: 'bioquimica',
+    disciplineNome: 'Fundamentos de Bioquímica',
+    blurb: 'Banco completo de 60 questões comentadas da Revisão V1 de Fundamentos de Bioquímica cobrindo MEC, biomoléculas, carboidratos, digestão e absorção, insulina e glucagon, diabetes, ATP, glicólise, Ciclo de Krebs e cadeia respiratória.',
+    rawData: rawBioquimicaRevisaoV1,
+    esperado: 60,
+  },
   {
     file: 'bromatologia_aula_02.json',
     arquivoOrigem: 'aula 2 Amostragem_261006_203124.pdf',
@@ -407,14 +515,26 @@ function convertTopicToMaterial(topic) {
   }
 }
 
+export const DEPRECATED_BIOQUIMICA_SLIDE_REDIRECTS = {
+  glicemia: 'digestao',
+  respiracao: 'bioenergetica',
+  piruvato: 'glicolise',
+  'cadeia-respiratoria': 'krebs',
+}
+
 export const JSON_IMPORTED_MATERIALS = JSON_MATERIAL_DEFINITIONS.map(importJsonMaterial)
+export const BIOQUIMICA_MATERIALS = JSON_IMPORTED_MATERIALS.filter(
+  (m) => m.disciplineId === 'bioquimica',
+)
 export const BROMATOLOGIA_MATERIALS = JSON_IMPORTED_MATERIALS.filter(
   (m) => m.disciplineId === 'bromatologia',
 )
 export const ORIGEM_VIDA_MATERIALS = JSON_IMPORTED_MATERIALS.filter(
   (m) => m.disciplineId === 'origem-vida',
 )
-export const TOPIC_MATERIALS = TOPICS.map(convertTopicToMaterial)
+export const TOPIC_MATERIALS = TOPICS.filter((t) => t.disciplineId !== 'bioquimica').map(
+  convertTopicToMaterial,
+)
 
 export const INDEPENDENT_MATERIALS = JSON_IMPORTED_MATERIALS
 export const ALL_MATERIALS = [...JSON_IMPORTED_MATERIALS, ...TOPIC_MATERIALS]
@@ -450,7 +570,9 @@ export function getMaterialsByDisciplineId(disciplineId) {
 
 export function getMaterialBySlideId(slideId) {
   if (!slideId) return null
-  return MATERIALS_BY_SLIDE_ID[String(slideId)] || null
+  const key = String(slideId)
+  const resolvedKey = DEPRECATED_BIOQUIMICA_SLIDE_REDIRECTS[key] || key
+  return MATERIALS_BY_SLIDE_ID[resolvedKey] || null
 }
 
 export function getQuestionsBySlideId(slideId) {

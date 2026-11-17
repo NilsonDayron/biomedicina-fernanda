@@ -1,0 +1,1284 @@
+{
+  "questoes": [
+    {
+      "id": "bioenergetica_q001",
+      "slide_id": "bioenergetica",
+      "slide_nome": "290826 - Sistema Energético e Glicolítico",
+      "arquivo_origem": "290826_-_Sistema_Energético_e_Glicolítico_260916_152644.pdf",
+      "numero": 1,
+      "tema": "Digestão dos carboidratos",
+      "subtema": "Boca e amilase salivar",
+      "enunciado": "Segundo a apostila, a digestão dos carboidratos na boca é incompleta porque:",
+      "alternativas": {
+        "A": "A amilase salivar só atua sobre lipídios e é inativada pela bile.",
+        "B": "O alimento passa pouco tempo na boca, e a amilase salivar, que continua atuando até o estômago, é inibida ali pelo pH ácido.",
+        "C": "A boca não secreta enzimas, e a ação só começa no intestino delgado.",
+        "D": "A amilase salivar é destruída pela maltase assim que o alimento é mastigado."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a amilase salivar atua sobre carboidratos (amido), não sobre lipídios, e a bile não é citada como inibidora.",
+        "B": "Correta: o alimento passa pouco tempo na boca, e a amilase continua atuando até o estômago, onde o pH ácido inibe sua ação.",
+        "C": "Incorreta: a boca secreta a amilase salivar pelas glândulas salivares, e a digestão dos carboidratos começa ali.",
+        "D": "Incorreta: a maltase é enzima do intestino delgado e não destrói a amilase. A inibição vem do pH ácido do estômago."
+      },
+      "referencia": {
+        "paginas": [
+          5
+        ],
+        "fundamentacao": "Slide 5, \"DIGESTÃO DOS CARBOIDRATOS\".",
+        "trechos_apoio": [
+          "\"Como o alimento passa pouco tempo na boca, este processo é incompleto.\""
+        ]
+      }
+    },
+    {
+      "id": "bioenergetica_q002",
+      "slide_id": "bioenergetica",
+      "slide_nome": "290826 - Sistema Energético e Glicolítico",
+      "arquivo_origem": "290826_-_Sistema_Energético_e_Glicolítico_260916_152644.pdf",
+      "numero": 2,
+      "tema": "Digestão dos carboidratos",
+      "subtema": "Ptialina",
+      "enunciado": "O início da digestão dos carboidratos ocorre:",
+      "alternativas": {
+        "A": "No estômago, pela ação da amilase pancreática sobre a lactose.",
+        "B": "No intestino delgado, pela ação da lactase sobre o amido.",
+        "C": "Na boca, pela amilase pancreática, que transforma maltose em glicose.",
+        "D": "Na boca, pela ptialina (amilase salivar) secretada pelas glândulas salivares, que hidrolisa o amido até maltose e oligossacarídeos."
+      },
+      "gabarito": "D",
+      "explicacoes": {
+        "A": "Incorreta: o início não ocorre no estômago, cujo pH ácido inibe a amilase salivar. A amilase pancreática atua no intestino delgado.",
+        "B": "Incorreta: o início é na boca, e a lactase atua sobre a lactose no intestino delgado, não sobre o amido.",
+        "C": "Incorreta: na boca atua a amilase salivar, não a pancreática, e o produto é maltose e oligossacarídeos, não glicose.",
+        "D": "Correta: a ptialina (amilase salivar), secretada pelas glândulas salivares, quebra as ligações entre as glicoses do amido, hidrolisando-o até maltose e oligossacarídeos."
+      },
+      "referencia": {
+        "paginas": [
+          6
+        ],
+        "fundamentacao": "Slide 6, \"DIGESTÃO DOS CARBOIDRATOS\".",
+        "trechos_apoio": [
+          "\"A ENZIMA PTIALINA, também chamada de AMILASE SALIVAR, é SECRETADA PELAS GLÂNDULAS SALIVARES.\""
+        ]
+      }
+    },
+    {
+      "id": "bioenergetica_q003",
+      "slide_id": "bioenergetica",
+      "slide_nome": "290826 - Sistema Energético e Glicolítico",
+      "arquivo_origem": "290826_-_Sistema_Energético_e_Glicolítico_260916_152644.pdf",
+      "numero": 3,
+      "tema": "Digestão dos carboidratos",
+      "subtema": "Amilase pancreática",
+      "enunciado": "No intestino delgado, a amilase pancreática forma principalmente:",
+      "alternativas": {
+        "A": "Maltose, oligossacarídeos (dextrinas) e certa quantidade de isomaltose.",
+        "B": "Glicose e frutose, a partir da sacarose.",
+        "C": "Glicose e galactose, a partir da lactose.",
+        "D": "Glicogênio e amido, a partir da maltose."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: a amilase pancreática forma principalmente maltose, oligossacarídeos (dextrinas) e certa quantidade de isomaltose.",
+        "B": "Incorreta: glicose e frutose vêm da sacarose pela ação da sacarase, não da amilase pancreática.",
+        "C": "Incorreta: glicose e galactose vêm da lactose pela ação da lactase.",
+        "D": "Incorreta: glicogênio e amido são polissacarídeos que a digestão degrada, e não produtos da amilase."
+      },
+      "referencia": {
+        "paginas": [
+          7
+        ],
+        "fundamentacao": "Slide 7, \"DIGESTÃO DOS CARBOIDRATOS NO INTESTINO DELGADO\".",
+        "trechos_apoio": [
+          "\"MALTOSE • OLIGOSSACARÍDEOS (dextrinas) e • determinada quantidade de ISOMALTOSE.\""
+        ]
+      }
+    },
+    {
+      "id": "bioenergetica_q004",
+      "slide_id": "bioenergetica",
+      "slide_nome": "290826 - Sistema Energético e Glicolítico",
+      "arquivo_origem": "290826_-_Sistema_Energético_e_Glicolítico_260916_152644.pdf",
+      "numero": 4,
+      "tema": "Digestão dos carboidratos",
+      "subtema": "Local principal e borda em escova",
+      "enunciado": "A respeito do local em que ocorre a maior parte da digestão dos carboidratos, a apostila afirma que:",
+      "alternativas": {
+        "A": "Ocorre no estômago, onde a sacarase transforma maltose em frutose.",
+        "B": "Ocorre na boca, onde a maltase forma duas glicoses.",
+        "C": "Ocorre no intestino delgado (duodeno), no lúmen e na borda em escova do enterócito, onde a maltase transforma a maltose em duas glicoses.",
+        "D": "Ocorre no intestino grosso, onde a lactase transforma amido em maltose."
+      },
+      "gabarito": "C",
+      "explicacoes": {
+        "A": "Incorreta: o estômago inibe a amilase salivar pelo pH ácido, e a sacarase atua sobre a sacarose, não sobre a maltose.",
+        "B": "Incorreta: na boca atua a amilase salivar. A maltase atua na borda em escova do enterócito.",
+        "C": "Correta: a maior parte da digestão ocorre no intestino delgado (duodeno), no lúmen e na borda em escova, onde a maltase forma duas glicoses a partir da maltose.",
+        "D": "Incorreta: a apostila situa a digestão no intestino delgado, e a lactase atua sobre a lactose, não sobre o amido."
+      },
+      "referencia": {
+        "paginas": [
+          8
+        ],
+        "fundamentacao": "Slide 8, \"DIGESTÃO DOS CARBOIDRATOS NO INTESTINO DELGADO\".",
+        "trechos_apoio": [
+          "\"onde a enzima maltase transforma a maltose em duas glicoses.\""
+        ]
+      }
+    },
+    {
+      "id": "bioenergetica_q005",
+      "slide_id": "bioenergetica",
+      "slide_nome": "290826 - Sistema Energético e Glicolítico",
+      "arquivo_origem": "290826_-_Sistema_Energético_e_Glicolítico_260916_152644.pdf",
+      "numero": 5,
+      "tema": "Digestão dos carboidratos",
+      "subtema": "Enzimas da borda em escova e seus substratos",
+      "enunciado": "Na superfície epitelial do intestino delgado há enzimas que quebram dissacarídeos até monossacarídeos. A associação correta entre enzima e substrato é:",
+      "alternativas": {
+        "A": "Sacarase: lactose; lactase: maltose; maltase: sacarose.",
+        "B": "Sacarase: sacarose; lactase: lactose; maltase: maltose.",
+        "C": "Sacarase: maltose; lactase: sacarose; maltase: lactose.",
+        "D": "Sacarase: amido; lactase: glicogênio; maltase: celulose."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: troca os pares. A sacarase atua na sacarose, a lactase na lactose e a maltase na maltose.",
+        "B": "Correta: cada enzima atua no substrato de que leva o nome: sacarase (sacarose), lactase (lactose) e maltase (maltose).",
+        "C": "Incorreta: embaralha os três substratos e inverte os pares corretos.",
+        "D": "Incorreta: amido, glicogênio e celulose são polissacarídeos, e não substratos dessas enzimas no material."
+      },
+      "referencia": {
+        "paginas": [
+          9
+        ],
+        "fundamentacao": "Slide 9, \"DIGESTÃO DOS CARBOIDRATOS NO INTESTINO DELGADO\".",
+        "trechos_apoio": [
+          "\"SACAROSE • LACTOSE • MALTOSE.\""
+        ]
+      }
+    },
+    {
+      "id": "bioenergetica_q006",
+      "slide_id": "bioenergetica",
+      "slide_nome": "290826 - Sistema Energético e Glicolítico",
+      "arquivo_origem": "290826_-_Sistema_Energético_e_Glicolítico_260916_152644.pdf",
+      "numero": 6,
+      "tema": "Digestão dos carboidratos",
+      "subtema": "Produtos das dissacaridases",
+      "enunciado": "Segundo a tabela de enzimas da apostila, os produtos da ação das enzimas das células do intestino são:",
+      "alternativas": {
+        "A": "Sacarase: glicose e frutose; maltase: 2 moléculas de glicose; lactase: glicose e galactose.",
+        "B": "Sacarase: 2 glicoses; maltase: glicose e frutose; lactase: glicose e galactose.",
+        "C": "Sacarase: glicose e galactose; maltase: glicose e frutose; lactase: 2 glicoses.",
+        "D": "As três enzimas produzem apenas frutose."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: a sacarose gera glicose e frutose, a maltose gera 2 glicoses e a lactose gera glicose e galactose.",
+        "B": "Incorreta: a sacarase não forma 2 glicoses (isso é da maltase), e a maltase não forma frutose.",
+        "C": "Incorreta: troca os produtos das três enzimas. Glicose e galactose vêm da lactose, e 2 glicoses vêm da maltose.",
+        "D": "Incorreta: os produtos são glicose, frutose e galactose, conforme a enzima, e não só frutose."
+      },
+      "referencia": {
+        "paginas": [
+          3
+        ],
+        "fundamentacao": "Slide 3, tabela \"Enzima / Origem / Efeitos\".",
+        "trechos_apoio": [
+          "\"Sacarase: células do intestino. No intestino delgado, a sacarose é convertida em glicose e frutose.\""
+        ]
+      }
+    },
+    {
+      "id": "bioenergetica_q007",
+      "slide_id": "bioenergetica",
+      "slide_nome": "290826 - Sistema Energético e Glicolítico",
+      "arquivo_origem": "290826_-_Sistema_Energético_e_Glicolítico_260916_152644.pdf",
+      "numero": 7,
+      "tema": "Digestão dos carboidratos",
+      "subtema": "Absorção dos monossacarídeos",
+      "enunciado": "De acordo com o esquema da digestão, os monossacarídeos formados no duodeno são:",
+      "alternativas": {
+        "A": "Absorvidos pelo estômago, por osmose.",
+        "B": "Eliminados diretamente nas fezes sem absorção.",
+        "C": "Transformados em amido pelas glândulas salivares.",
+        "D": "Absorvidos pelas células intestinais por meio de transporte ativo ou difusão simples."
+      },
+      "gabarito": "D",
+      "explicacoes": {
+        "A": "Incorreta: o esquema coloca a absorção nas células intestinais, não no estômago, cujo pH ácido inativa a amilase salivar.",
+        "B": "Incorreta: os monossacarídeos são absorvidos, não eliminados.",
+        "C": "Incorreta: as glândulas salivares secretam a amilase salivar, que degrada o amido, e não o sintetizam.",
+        "D": "Correta: os monossacarídeos são absorvidos pelas células intestinais por transporte ativo ou difusão simples."
+      },
+      "referencia": {
+        "paginas": [
+          4
+        ],
+        "fundamentacao": "Slide 4, esquema da digestão dos carboidratos.",
+        "trechos_apoio": [
+          "\"Os monossacarídeos são absorvidos pelas células intestinais por meio de transporte ativo ou difusão simples\""
+        ]
+      }
+    },
+    {
+      "id": "bioenergetica_q008",
+      "slide_id": "bioenergetica",
+      "slide_nome": "290826 - Sistema Energético e Glicolítico",
+      "arquivo_origem": "290826_-_Sistema_Energético_e_Glicolítico_260916_152644.pdf",
+      "numero": 8,
+      "tema": "Digestão dos carboidratos",
+      "subtema": "Origem das enzimas",
+      "enunciado": "Quanto à origem das enzimas digestivas dos carboidratos, a tabela da apostila indica que:",
+      "alternativas": {
+        "A": "A amilase salivar vem do pâncreas, e a amilase pancreática vem das glândulas salivares.",
+        "B": "A sacarase, a maltase e a lactase vêm do pâncreas.",
+        "C": "A amilase salivar vem das glândulas salivares, a amilase pancreática vem do pâncreas, e a sacarase, a maltase e a lactase vêm das células do intestino.",
+        "D": "Todas as enzimas vêm das glândulas salivares."
+      },
+      "gabarito": "C",
+      "explicacoes": {
+        "A": "Incorreta: inverte as origens. A amilase salivar vem da glândula salivar e a pancreática, do pâncreas.",
+        "B": "Incorreta: sacarase, maltase e lactase são enzimas das células do intestino, não do pâncreas.",
+        "C": "Correta: reproduz a coluna \"Origem\" da tabela.",
+        "D": "Incorreta: só a amilase salivar vem das glândulas salivares."
+      },
+      "referencia": {
+        "paginas": [
+          3
+        ],
+        "fundamentacao": "Slide 3, tabela \"Enzima / Origem / Efeitos\".",
+        "trechos_apoio": [
+          "\"Amilase pancreática — Pâncreas — No intestino delgado, o polissacarídeo é convertido em dissacarídeos\""
+        ]
+      }
+    },
+    {
+      "id": "bioenergetica_q009",
+      "slide_id": "bioenergetica",
+      "slide_nome": "290826 - Sistema Energético e Glicolítico",
+      "arquivo_origem": "290826_-_Sistema_Energético_e_Glicolítico_260916_152644.pdf",
+      "numero": 9,
+      "tema": "Metabolismo da glicose",
+      "subtema": "Glicogênese",
+      "enunciado": "Segundo a apostila, a glicogênese é:",
+      "alternativas": {
+        "A": "A conversão do glicogênio em glicose.",
+        "B": "A síntese de glicogênio a partir da glicose.",
+        "C": "A formação de glicose a partir de aminoácidos, glicerol, piruvato e lactato.",
+        "D": "A quebra da glicose em duas moléculas de piruvato."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: descreve a glicogenólise, que é o processo inverso.",
+        "B": "Correta: a glicogênese é a síntese de glicogênio a partir da glicose (o slide a descreve como \"síntese de glicose em glicogênio\").",
+        "C": "Incorreta: descreve a gliconeogênese, formação de glicose a partir de outras substâncias.",
+        "D": "Incorreta: descreve a glicólise."
+      },
+      "referencia": {
+        "paginas": [
+          10
+        ],
+        "fundamentacao": "Slide 10, \"Glicogênese\".",
+        "trechos_apoio": [
+          "\"Glicogênese: síntese de glicose em glicogênio\""
+        ]
+      }
+    },
+    {
+      "id": "bioenergetica_q010",
+      "slide_id": "bioenergetica",
+      "slide_nome": "290826 - Sistema Energético e Glicolítico",
+      "arquivo_origem": "290826_-_Sistema_Energético_e_Glicolítico_260916_152644.pdf",
+      "numero": 10,
+      "tema": "Metabolismo da glicose",
+      "subtema": "Glicogenólise",
+      "enunciado": "A glicogenólise, segundo a apostila, é o processo que:",
+      "alternativas": {
+        "A": "Converte o glicogênio em glicose.",
+        "B": "Sintetiza glicogênio a partir da glicose.",
+        "C": "Forma glicose a partir de lactato no fígado.",
+        "D": "Oxida a glicose até piruvato no citoplasma."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: a glicogenólise converte o glicogênio em glicose.",
+        "B": "Incorreta: é a definição de glicogênese, processo oposto.",
+        "C": "Incorreta: é a gliconeogênese, formação de glicose a partir de outras substâncias.",
+        "D": "Incorreta: é a glicólise, que parte da glicose e termina em piruvato."
+      },
+      "referencia": {
+        "paginas": [
+          10
+        ],
+        "fundamentacao": "Slide 10, \"Glicogenólise\".",
+        "trechos_apoio": [
+          "\"Glicogenólise: processo que converte o glicogênio em glicose\""
+        ]
+      }
+    },
+    {
+      "id": "bioenergetica_q011",
+      "slide_id": "bioenergetica",
+      "slide_nome": "290826 - Sistema Energético e Glicolítico",
+      "arquivo_origem": "290826_-_Sistema_Energético_e_Glicolítico_260916_152644.pdf",
+      "numero": 11,
+      "tema": "Metabolismo da glicose",
+      "subtema": "Gliconeogênese",
+      "enunciado": "A gliconeogênese é definida na apostila como:",
+      "alternativas": {
+        "A": "A formação de glicose apenas a partir de glicogênio muscular.",
+        "B": "A quebra da glicose em piruvato no citosol.",
+        "C": "A síntese de glicogênio no estômago.",
+        "D": "A formação de glicose a partir de outras substâncias (aminoácidos, glicerol, piruvato, lactato), tendo o fígado como órgão indicado no slide."
+      },
+      "gabarito": "D",
+      "explicacoes": {
+        "A": "Incorreta: a gliconeogênese parte de outras substâncias (aminoácidos, glicerol, piruvato, lactato), não do glicogênio.",
+        "B": "Incorreta: é a descrição da glicólise.",
+        "C": "Incorreta: o estômago não é citado, e a síntese de glicogênio é a glicogênese.",
+        "D": "Correta: é a formação de glicose a partir de aminoácidos, glicerol, piruvato e lactato, associada ao fígado no slide."
+      },
+      "referencia": {
+        "paginas": [
+          11
+        ],
+        "fundamentacao": "Slide 11, \"Gliconeogênese\".",
+        "trechos_apoio": [
+          "\"formação de glicose a partir de outras substâncias (aminoácidos, glicerol, piruvato, lactato)\""
+        ]
+      }
+    },
+    {
+      "id": "bioenergetica_q012",
+      "slide_id": "bioenergetica",
+      "slide_nome": "290826 - Sistema Energético e Glicolítico",
+      "arquivo_origem": "290826_-_Sistema_Energético_e_Glicolítico_260916_152644.pdf",
+      "numero": 12,
+      "tema": "Metabolismo da glicose",
+      "subtema": "Papel do fígado na gliconeogênese",
+      "enunciado": "Segundo o slide da gliconeogênese, os produtos da decomposição de gorduras, proteínas e outras substâncias podem ser:",
+      "alternativas": {
+        "A": "Eliminados na urina sem aproveitamento.",
+        "B": "Convertidos em ATP no estômago.",
+        "C": "Levados pelo sangue ao fígado para reconversão em glicose.",
+        "D": "Armazenados como glicogênio muscular sem passar pelo fígado."
+      },
+      "gabarito": "C",
+      "explicacoes": {
+        "A": "Incorreta: o slide diz que esses produtos podem ser reconvertidos em glicose, e não descartados.",
+        "B": "Incorreta: o estômago não é citado nesse processo.",
+        "C": "Correta: o slide diz que os produtos da decomposição de gorduras e proteínas vão pelo sangue ao fígado para reconversão em glicose.",
+        "D": "Incorreta: o destino indicado é o fígado, e o processo descrito é a formação de glicose, não de glicogênio muscular."
+      },
+      "referencia": {
+        "paginas": [
+          11
+        ],
+        "fundamentacao": "Slide 11, \"Gliconeogênese\".",
+        "trechos_apoio": [
+          "\"podem ser levados ao fígado pelo sangue para a reconversão em glicose.\""
+        ]
+      }
+    },
+    {
+      "id": "bioenergetica_q013",
+      "slide_id": "bioenergetica",
+      "slide_nome": "290826 - Sistema Energético e Glicolítico",
+      "arquivo_origem": "290826_-_Sistema_Energético_e_Glicolítico_260916_152644.pdf",
+      "numero": 13,
+      "tema": "Metabolismo da glicose",
+      "subtema": "Comparação entre as três vias",
+      "enunciado": "Qual associação entre processo e definição está correta, conforme a apostila?",
+      "alternativas": {
+        "A": "Glicogênese: síntese de glicogênio; glicogenólise: conversão do glicogênio em glicose; gliconeogênese: formação de glicose a partir de outras substâncias.",
+        "B": "Glicogênese: conversão do glicogênio em glicose; glicogenólise: síntese de glicogênio; gliconeogênese: quebra da glicose.",
+        "C": "Glicogênese: formação de glicose a partir de lactato; glicogenólise: síntese de glicogênio; gliconeogênese: conversão do glicogênio em glicose.",
+        "D": "As três são sinônimos de degradação da glicose em piruvato."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: reúne as definições dos slides 10 e 11 sem trocas.",
+        "B": "Incorreta: inverte glicogênese e glicogenólise, e a gliconeogênese não é a quebra da glicose.",
+        "C": "Incorreta: embaralha as três definições. Glicose a partir de lactato é gliconeogênese.",
+        "D": "Incorreta: a degradação da glicose em piruvato é a glicólise, e as três vias descritas são distintas."
+      },
+      "referencia": {
+        "paginas": [
+          10
+        ],
+        "fundamentacao": "Slides 10 e 11, \"Glicogênese\", \"Glicogenólise\" e \"Gliconeogênese\".",
+        "trechos_apoio": [
+          "\"Glicogenólise: processo que converte o glicogênio em glicose\""
+        ]
+      }
+    },
+    {
+      "id": "bioenergetica_q014",
+      "slide_id": "bioenergetica",
+      "slide_nome": "290826 - Sistema Energético e Glicolítico",
+      "arquivo_origem": "290826_-_Sistema_Energético_e_Glicolítico_260916_152644.pdf",
+      "numero": 14,
+      "tema": "Pâncreas",
+      "subtema": "Parte endócrina",
+      "enunciado": "Sobre o pâncreas endócrino, o slide da apostila indica que ele:",
+      "alternativas": {
+        "A": "Corresponde à maior parte do órgão e secreta as dissacaridases.",
+        "B": "Corresponde a 1-2% do órgão e produz a amilase pancreática.",
+        "C": "É formado apenas pelos ductos pancreático e colédoco.",
+        "D": "Corresponde a 1-2% do pâncreas e é formado pelas ilhotas de Langerhans, células produtoras de hormônios."
+      },
+      "gabarito": "D",
+      "explicacoes": {
+        "A": "Incorreta: o pâncreas endócrino é só 1-2% do órgão, e as dissacaridases vêm das células do intestino.",
+        "B": "Incorreta: a fração está certa, mas a amilase pancreática é liberada pelo pâncreas para a digestão, não produzida pelas ilhotas.",
+        "C": "Incorreta: os ductos aparecem no esquema como estruturas de condução, e o pâncreas endócrino é formado pelas ilhotas de Langerhans.",
+        "D": "Correta: o slide indica pâncreas endócrino de 1-2%, com ilhotas de Langerhans, células produtoras de hormônios."
+      },
+      "referencia": {
+        "paginas": [
+          13
+        ],
+        "fundamentacao": "Slide 13, esquema do pâncreas.",
+        "trechos_apoio": [
+          "\"Pâncreas endócrino 1-2% (Ilhotas de Langerhans: células produtoras de hormônios)\""
+        ]
+      }
+    },
+    {
+      "id": "bioenergetica_q015",
+      "slide_id": "bioenergetica",
+      "slide_nome": "290826 - Sistema Energético e Glicolítico",
+      "arquivo_origem": "290826_-_Sistema_Energético_e_Glicolítico_260916_152644.pdf",
+      "numero": 15,
+      "tema": "Pâncreas",
+      "subtema": "Digestão e hormônios",
+      "enunciado": "Com base nos esquemas da apostila, é correto afirmar que o pâncreas:",
+      "alternativas": {
+        "A": "Produz a amilase pancreática nas ilhotas de Langerhans e a libera no sangue.",
+        "B": "Libera a amilase pancreática para a digestão no intestino delgado e contém ilhotas de Langerhans, com células endócrinas produtoras de hormônios.",
+        "C": "Produz a amilase salivar, que atua na boca.",
+        "D": "Atua só como glândula endócrina, sem participação na digestão dos carboidratos."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a amilase pancreática é liberada para o intestino delgado, e as ilhotas são descritas como produtoras de hormônios.",
+        "B": "Correta: o esquema da digestão mostra o pâncreas liberando a amilase pancreática, e o esquema do pâncreas mostra as ilhotas com células endócrinas.",
+        "C": "Incorreta: a amilase salivar vem das glândulas salivares.",
+        "D": "Incorreta: o pâncreas participa da digestão ao liberar a amilase pancreática."
+      },
+      "referencia": {
+        "paginas": [
+          4
+        ],
+        "fundamentacao": "Slides 4 e 13, esquemas da digestão e do pâncreas.",
+        "trechos_apoio": [
+          "\"O pâncreas libera a amilase pancreática\""
+        ]
+      }
+    },
+    {
+      "id": "bioenergetica_q016",
+      "slide_id": "bioenergetica",
+      "slide_nome": "290826 - Sistema Energético e Glicolítico",
+      "arquivo_origem": "290826_-_Sistema_Energético_e_Glicolítico_260916_152644.pdf",
+      "numero": 16,
+      "tema": "Entrada da glicose na célula muscular",
+      "subtema": "Papel da insulina e do GLUT4",
+      "enunciado": "Na entrada da glicose na célula muscular, a apostila afirma que a insulina:",
+      "alternativas": {
+        "A": "É transportada para dentro da célula pelo GLUT4.",
+        "B": "Impede a passagem da glicose, reduzindo a permeabilidade da membrana.",
+        "C": "Estimula a permeabilidade da membrana por meio da translocação do GLUT4, permitindo a passagem da glicose para a célula muscular.",
+        "D": "Degrada o glicogênio muscular em glicose por ação do GLUT4."
+      },
+      "gabarito": "C",
+      "explicacoes": {
+        "A": "Incorreta: o GLUT4 permite a passagem da glicose, não da insulina, que age no receptor da membrana.",
+        "B": "Incorreta: a insulina estimula, e não reduz, a permeabilidade da membrana.",
+        "C": "Correta: a insulina estimula a permeabilidade da membrana pela translocação do GLUT4, que permite a passagem da glicose.",
+        "D": "Incorreta: o GLUT4 é transportador de glicose, e a degradação do glicogênio é a glicogenólise."
+      },
+      "referencia": {
+        "paginas": [
+          14
+        ],
+        "fundamentacao": "Slide 14, \"ENTRADA DA GLICOSE NA CÉLULA MUSCULAR\".",
+        "trechos_apoio": [
+          "\"A insulina estimula a permeabilidade de membrana, através da translocação do glut 4\""
+        ]
+      }
+    },
+    {
+      "id": "bioenergetica_q017",
+      "slide_id": "bioenergetica",
+      "slide_nome": "290826 - Sistema Energético e Glicolítico",
+      "arquivo_origem": "290826_-_Sistema_Energético_e_Glicolítico_260916_152644.pdf",
+      "numero": 17,
+      "tema": "Entrada da glicose na célula muscular",
+      "subtema": "Esquema da sinalização da insulina",
+      "enunciado": "No esquema da entrada da glicose, a sequência de eventos é:",
+      "alternativas": {
+        "A": "A insulina liga-se ao receptor de insulina, ativando uma cascata de eventos (IRS-1/2, PI-3K, AKT), e o GLUT4 chega à membrana, permitindo a entrada da glicose.",
+        "B": "A glicose liga-se ao receptor de insulina, e o GLUT4 degrada a glicose na membrana.",
+        "C": "A AKT bloqueia o GLUT4, e a glicose fica retida fora da célula.",
+        "D": "A glicose entra sem receptor, sem cascata e sem GLUT4."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: o esquema mostra a insulina no receptor, a cascata de eventos (IRS-1/2, PI-3K, AKT) e o GLUT4 na membrana, com a glicose entrando.",
+        "B": "Incorreta: quem se liga ao receptor é a insulina, não a glicose, e o GLUT4 é canal de passagem, não degrada a glicose.",
+        "C": "Incorreta: a AKT faz parte da cascata que leva à ação do GLUT4, e não o bloqueia.",
+        "D": "Incorreta: o esquema apresenta o receptor, a cascata e o GLUT4 como parte do processo."
+      },
+      "referencia": {
+        "paginas": [
+          15
+        ],
+        "fundamentacao": "Slide 15, esquema com \"receptor de insulina\", \"GLUT 4\" e \"Cascata de Eventos\".",
+        "trechos_apoio": [
+          "\"receptor de insulina … IRS-1/2 … PI-3K … AKT … GLUT 4 … Cascata de Eventos\" (rótulos do esquema)"
+        ]
+      }
+    },
+    {
+      "id": "bioenergetica_q018",
+      "slide_id": "bioenergetica",
+      "slide_nome": "290826 - Sistema Energético e Glicolítico",
+      "arquivo_origem": "290826_-_Sistema_Energético_e_Glicolítico_260916_152644.pdf",
+      "numero": 18,
+      "tema": "Energia",
+      "subtema": "Conceito",
+      "enunciado": "Segundo a apostila, energia é:",
+      "alternativas": {
+        "A": "Uma substância concreta armazenada exclusivamente nas gorduras.",
+        "B": "Uma grandeza que só existe nos seres vivos.",
+        "C": "Apenas o movimento de um corpo.",
+        "D": "Uma grandeza abstrata que representa a capacidade de um corpo ou sistema de realizar trabalho ou provocar mudanças."
+      },
+      "gabarito": "D",
+      "explicacoes": {
+        "A": "Incorreta: a apostila define energia como grandeza abstrata, não como substância concreta.",
+        "B": "Incorreta: os exemplos incluem um carro andando, que não é ser vivo.",
+        "C": "Incorreta: o movimento é só uma forma, a energia cinética. O conceito é mais amplo.",
+        "D": "Correta: energia é a capacidade de realizar trabalho ou provocar mudanças."
+      },
+      "referencia": {
+        "paginas": [
+          18
+        ],
+        "fundamentacao": "Slide 18, \"ENERGIA\".",
+        "trechos_apoio": [
+          "\"É uma grandeza abstrata que representa a capacidade de um corpo ou sistema de realizar trabalho ou provocar mudanças.\""
+        ]
+      }
+    },
+    {
+      "id": "bioenergetica_q019",
+      "slide_id": "bioenergetica",
+      "slide_nome": "290826 - Sistema Energético e Glicolítico",
+      "arquivo_origem": "290826_-_Sistema_Energético_e_Glicolítico_260916_152644.pdf",
+      "numero": 19,
+      "tema": "Energia",
+      "subtema": "Tipos de energia",
+      "enunciado": "Qual associação entre tipo de energia e descrição está correta, conforme a apostila?",
+      "alternativas": {
+        "A": "Cinética: ligada às ligações das moléculas; térmica: carro andando; química: temperatura.",
+        "B": "Cinética: ligada ao movimento de um corpo (ex.: carro andando); térmica: movimento das partículas e temperatura; química: armazenada nas ligações das moléculas, liberada em reações ou na digestão dos alimentos.",
+        "C": "Cinética: armazenada nos alimentos; térmica: movimento do corpo; química: temperatura de um corpo.",
+        "D": "As três são o mesmo conceito, com nomes diferentes."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: troca as definições. A energia cinética se liga ao movimento (carro andando).",
+        "B": "Correta: reproduz as três definições do slide.",
+        "C": "Incorreta: a energia armazenada nos alimentos é química, e a cinética é a do movimento.",
+        "D": "Incorreta: o slide trata os três tipos como conceitos distintos."
+      },
+      "referencia": {
+        "paginas": [
+          18
+        ],
+        "fundamentacao": "Slide 18, \"ENERGIA\".",
+        "trechos_apoio": [
+          "\"Energia Química: Armazenada nas ligações de moléculas, liberada em reações ou na digestão dos alimentos\""
+        ]
+      }
+    },
+    {
+      "id": "bioenergetica_q020",
+      "slide_id": "bioenergetica",
+      "slide_nome": "290826 - Sistema Energético e Glicolítico",
+      "arquivo_origem": "290826_-_Sistema_Energético_e_Glicolítico_260916_152644.pdf",
+      "numero": 20,
+      "tema": "Bioenergética",
+      "subtema": "Conceito e conversão em ATP",
+      "enunciado": "De acordo com a apostila, bioenergética é:",
+      "alternativas": {
+        "A": "A síntese de macromoléculas a partir de precursores, e os substratos viram glicogênio.",
+        "B": "A degradação do ATP em AMP, sem relação com os alimentos.",
+        "C": "O processo químico de conversão do alimento em energia, em que glicose, triacilglicerol e aminoácido são transformados em ATP.",
+        "D": "O transporte de oxigênio do sangue até as células, e os substratos viram NADH."
+      },
+      "gabarito": "C",
+      "explicacoes": {
+        "A": "Incorreta: a bioenergética converte alimento em energia, e os substratos energéticos viram ATP, não glicogênio.",
+        "B": "Incorreta: o conceito liga-se à conversão dos alimentos em energia, e a moeda final é o ATP.",
+        "C": "Correta: bioenergética é a conversão do alimento em energia, e os substratos viram ATP.",
+        "D": "Incorreta: não se trata de transporte de oxigênio, e a moeda é o ATP, não o NADH."
+      },
+      "referencia": {
+        "paginas": [
+          19
+        ],
+        "fundamentacao": "Slides 19 e 20, \"BIOENERGÉTICA\".",
+        "trechos_apoio": [
+          "\"O PROCESSO QUÍMICO DE CONVERSÃO DO ALIMENTO EM ENERGIA É DENOMINADO BIOENERGÉTICA\""
+        ]
+      }
+    },
+    {
+      "id": "bioenergetica_q021",
+      "slide_id": "bioenergetica",
+      "slide_nome": "290826 - Sistema Energético e Glicolítico",
+      "arquivo_origem": "290826_-_Sistema_Energético_e_Glicolítico_260916_152644.pdf",
+      "numero": 21,
+      "tema": "ATP",
+      "subtema": "Função na célula",
+      "enunciado": "Sobre o ATP, a apostila afirma que:",
+      "alternativas": {
+        "A": "É usado só durante a atividade física intensa.",
+        "B": "A energia liberada na respiração celular é perdida e não fica armazenada.",
+        "C": "É produzido apenas no jejum.",
+        "D": "É a principal moeda energética das células, armazena a energia da respiração celular e é usado em todas as atividades que requerem gasto energético."
+      },
+      "gabarito": "D",
+      "explicacoes": {
+        "A": "Incorreta: o ATP é usado em todas as atividades que exigem gasto energético, não só na atividade intensa.",
+        "B": "Incorreta: a energia da respiração celular fica armazenada nas moléculas de ATP.",
+        "C": "Incorreta: a apostila não restringe o ATP ao jejum.",
+        "D": "Correta: reúne as três afirmações do slide."
+      },
+      "referencia": {
+        "paginas": [
+          24
+        ],
+        "fundamentacao": "Slide 24, \"ATP – ADENOSINA TRIFOSFATO\".",
+        "trechos_apoio": [
+          "\"O ATP é usado pela célula como fonte de energia, para todas as atividades que requerem gasto energético\""
+        ]
+      }
+    },
+    {
+      "id": "bioenergetica_q022",
+      "slide_id": "bioenergetica",
+      "slide_nome": "290826 - Sistema Energético e Glicolítico",
+      "arquivo_origem": "290826_-_Sistema_Energético_e_Glicolítico_260916_152644.pdf",
+      "numero": 22,
+      "tema": "Conversão do ATP em ADP",
+      "subtema": "Conversão do ATP em ADP",
+      "enunciado": "Sobre a conversão do ATP em ADP, a apostila afirma que:",
+      "alternativas": {
+        "A": "O ATP fornece energia rapidamente por hidrólise do grupo fosfato terminal, reação catalisada pela ATPase, e passa a ADP (adenosina difosfato).",
+        "B": "O ATP é convertido em ADP por adição de um quarto fosfato, pela ATP sintase.",
+        "C": "O ATP perde CO₂ e vira acetil-CoA.",
+        "D": "O ATP é convertido em ADP sem liberar energia."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: a hidrólise do fosfato terminal, catalisada pela ATPase, libera energia e forma ADP.",
+        "B": "Incorreta: ATP → ADP é perda de fosfato, e não adição. A ATP sintase pertence à formação de ATP.",
+        "C": "Incorreta: perda de CO₂ é descarboxilação, que não faz parte dessa conversão.",
+        "D": "Incorreta: a conversão fornece a energia para o trabalho celular."
+      },
+      "referencia": {
+        "paginas": [
+          28
+        ],
+        "fundamentacao": "Slide 28, \"CONVERSÃO DO ATP EM ADP\".",
+        "trechos_apoio": [
+          "\"Esta reação é catalizada pela enzima ATPase\""
+        ]
+      }
+    },
+    {
+      "id": "bioenergetica_q023",
+      "slide_id": "bioenergetica",
+      "slide_nome": "290826 - Sistema Energético e Glicolítico",
+      "arquivo_origem": "290826_-_Sistema_Energético_e_Glicolítico_260916_152644.pdf",
+      "numero": 23,
+      "tema": "NAD e FAD",
+      "subtema": "Nomes e função",
+      "enunciado": "A apostila apresenta NAD e FAD (formas reduzidas NADH e FADH) como:",
+      "alternativas": {
+        "A": "Enzimas que sintetizam ATP a partir de ADP.",
+        "B": "Nicotinamida adenina dinucleotídeo e dinucleotídeo de adenina flavina, que transportam o hidrogênio liberado nas reações químicas.",
+        "C": "Carboidratos de reserva que armazenam glicose.",
+        "D": "Hormônios pancreáticos que regulam a entrada da glicose."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: NAD e FAD transportam hidrogênios. A síntese de ATP é de outra enzima (ATP sintase).",
+        "B": "Correta: NAD é nicotinamida adenina dinucleotídeo, FAD é dinucleotídeo de adenina flavina, e ambos transportam o hidrogênio liberado nas reações.",
+        "C": "Incorreta: a reserva de glicose é o glicogênio.",
+        "D": "Incorreta: os hormônios do pâncreas (como a insulina) são outro tema da apostila."
+      },
+      "referencia": {
+        "paginas": [
+          31
+        ],
+        "fundamentacao": "Slide 31, \"NAD / FAD – NADH / FADH\".",
+        "trechos_apoio": [
+          "\"Transportarem o hidrogênio liberado nas reações químicas\""
+        ]
+      }
+    },
+    {
+      "id": "bioenergetica_q024",
+      "slide_id": "bioenergetica",
+      "slide_nome": "290826 - Sistema Energético e Glicolítico",
+      "arquivo_origem": "290826_-_Sistema_Energético_e_Glicolítico_260916_152644.pdf",
+      "numero": 24,
+      "tema": "Metabolismo glicolítico",
+      "subtema": "Oxidação da glicose",
+      "enunciado": "No corpo humano, segundo a apostila, a glicose é oxidada e:",
+      "alternativas": {
+        "A": "Absorve a energia das ligações, que é perdida no processo.",
+        "B": "Converte-se diretamente em lactato, sem liberar energia.",
+        "C": "Libera a energia contida em suas ligações químicas, que é armazenada na molécula de ATP.",
+        "D": "Converte-se em proteínas, armazenando a energia no NAD."
+      },
+      "gabarito": "C",
+      "explicacoes": {
+        "A": "Incorreta: a oxidação libera, e não absorve, a energia das ligações.",
+        "B": "Incorreta: o lactato é um destino do piruvato em baixa oxigenação, e a oxidação da glicose libera energia.",
+        "C": "Correta: a glicose é oxidada, libera a energia de suas ligações e ela é armazenada no ATP.",
+        "D": "Incorreta: não há conversão em proteínas, e a energia fica no ATP."
+      },
+      "referencia": {
+        "paginas": [
+          33
+        ],
+        "fundamentacao": "Slide 33, \"METABOLISMO GLICOLÍTICO\".",
+        "trechos_apoio": [
+          "\"Libera energia contidas em suas ligações químicas • Armazenada na molécula de ATP\""
+        ]
+      }
+    },
+    {
+      "id": "bioenergetica_q025",
+      "slide_id": "bioenergetica",
+      "slide_nome": "290826 - Sistema Energético e Glicolítico",
+      "arquivo_origem": "290826_-_Sistema_Energético_e_Glicolítico_260916_152644.pdf",
+      "numero": 25,
+      "tema": "Mitocôndria",
+      "subtema": "Membrana interna",
+      "enunciado": "A membrana interna mitocondrial é composta por:",
+      "alternativas": {
+        "A": "80% de lipídios e 20% de proteínas.",
+        "B": "50% de lipídios e 50% de proteínas.",
+        "C": "Apenas carboidratos, com função de reserva.",
+        "D": "20% de lipídios e 80% de proteínas, com três funções: cadeia respiratória, ATP-sintase e proteínas transportadoras específicas."
+      },
+      "gabarito": "D",
+      "explicacoes": {
+        "A": "Incorreta: inverte as proporções. Predominam as proteínas (80%).",
+        "B": "Incorreta: as proporções do slide são 20% e 80%, não 50% e 50%.",
+        "C": "Incorreta: a composição citada é de lipídios e proteínas, não de carboidratos.",
+        "D": "Correta: 20% de lipídios, 80% de proteínas e as três funções listadas."
+      },
+      "referencia": {
+        "paginas": [
+          37
+        ],
+        "fundamentacao": "Slide 37, \"MEMBRANA INTERNA MITOCONDRIAL\".",
+        "trechos_apoio": [
+          "\"20% de lipídios; • 80% de proteínas com 3 tipos de funções\""
+        ]
+      }
+    },
+    {
+      "id": "bioenergetica_q026",
+      "slide_id": "bioenergetica",
+      "slide_nome": "290826 - Sistema Energético e Glicolítico",
+      "arquivo_origem": "290826_-_Sistema_Energético_e_Glicolítico_260916_152644.pdf",
+      "numero": 26,
+      "tema": "Mitocôndria",
+      "subtema": "Matriz mitocondrial",
+      "enunciado": "A matriz mitocondrial, circundada pela membrana interna, contém:",
+      "alternativas": {
+        "A": "Apenas a ATP-sintase e as proteínas transportadoras.",
+        "B": "Enzimas solúveis do ciclo de Krebs, enzimas da β-oxidação dos ácidos graxos, cópias do DNA mitocondrial e ribossomos mitocondriais.",
+        "C": "Somente enzimas digestivas, como a maltase e a lactase.",
+        "D": "O núcleo da célula e o complexo golgiense."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a ATP-sintase e as proteínas transportadoras são da membrana interna, não da matriz.",
+        "B": "Correta: são os quatro componentes que o slide lista para a matriz.",
+        "C": "Incorreta: maltase e lactase são enzimas da borda em escova do intestino, não da matriz.",
+        "D": "Incorreta: núcleo e complexo golgiense são estruturas da célula, não da mitocôndria."
+      },
+      "referencia": {
+        "paginas": [
+          38
+        ],
+        "fundamentacao": "Slide 38, \"MATRIZ MITOCONDRIAL\".",
+        "trechos_apoio": [
+          "\"Enzimas solúveis do ciclo de Krebs • Enzimas da β-oxidação dos ácidos graxos.\""
+        ]
+      }
+    },
+    {
+      "id": "bioenergetica_q027",
+      "slide_id": "bioenergetica",
+      "slide_nome": "290826 - Sistema Energético e Glicolítico",
+      "arquivo_origem": "290826_-_Sistema_Energético_e_Glicolítico_260916_152644.pdf",
+      "numero": 27,
+      "tema": "Mitocôndria",
+      "subtema": "Função",
+      "enunciado": "A função da mitocôndria, segundo a apostila, é:",
+      "alternativas": {
+        "A": "Produzir as enzimas amilase e maltase para a digestão.",
+        "B": "Sintetizar a insulina e o glucagon.",
+        "C": "Extrair a energia dos alimentos (respiração celular), que fica armazenada em ATP, o qual fornece a energia necessária às reações químicas celulares.",
+        "D": "Armazenar glicogênio para uso no jejum."
+      },
+      "gabarito": "C",
+      "explicacoes": {
+        "A": "Incorreta: amilase e maltase são enzimas digestivas de outros locais (glândulas salivares, pâncreas e intestino).",
+        "B": "Incorreta: insulina e glucagon são hormônios do pâncreas.",
+        "C": "Correta: a mitocôndria extrai energia dos alimentos, armazenada em ATP.",
+        "D": "Incorreta: a apostila não atribui à mitocôndria o armazenamento de glicogênio."
+      },
+      "referencia": {
+        "paginas": [
+          39
+        ],
+        "fundamentacao": "Slide 39, \"FUNÇÃO DA MITOCÔNDRIA\".",
+        "trechos_apoio": [
+          "\"Realiza o processo de extração de energia dos alimentos (respiração celular)\""
+        ]
+      }
+    },
+    {
+      "id": "bioenergetica_q028",
+      "slide_id": "bioenergetica",
+      "slide_nome": "290826 - Sistema Energético e Glicolítico",
+      "arquivo_origem": "290826_-_Sistema_Energético_e_Glicolítico_260916_152644.pdf",
+      "numero": 28,
+      "tema": "Moléculas dos alimentos",
+      "subtema": "Monômeros",
+      "enunciado": "Os alimentos são constituídos por proteínas, lipídeos e carboidratos, degradados em unidades monoméricas. A associação correta é:",
+      "alternativas": {
+        "A": "Proteínas: glicose; lipídeos: aminoácidos; carboidratos: ácidos graxos.",
+        "B": "Proteínas: aminoácidos; lipídeos: ácidos graxos e glicerol; carboidratos: glicose (monossacarídeo); os monômeros entram no citosol, onde ocorrerá a oxidação.",
+        "C": "Proteínas: ácidos graxos; lipídeos: glicerol; carboidratos: aminoácidos.",
+        "D": "Proteínas: glicerol; lipídeos: glicose; carboidratos: aminoácidos; os monômeros são oxidados no núcleo."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: troca os três pares. Proteínas geram aminoácidos, lipídeos geram ácidos graxos e glicerol, e carboidratos geram glicose.",
+        "B": "Correta: reproduz as unidades monoméricas e o local de entrada (citosol).",
+        "C": "Incorreta: ácidos graxos e glicerol vêm dos lipídeos, e aminoácidos vêm das proteínas.",
+        "D": "Incorreta: embaralha as associações, e a oxidação ocorre a partir do citosol, não no núcleo."
+      },
+      "referencia": {
+        "paginas": [
+          41
+        ],
+        "fundamentacao": "Slide 41, \"MOLÉCULAS QUE CONSTITUEM OS ALIMENTOS\".",
+        "trechos_apoio": [
+          "\"Proteínas -aminoácidos Lipídeos – ácidos graxos e glicerol Carboidratos - glicose (monossacarídeo)\""
+        ]
+      }
+    },
+    {
+      "id": "bioenergetica_q029",
+      "slide_id": "bioenergetica",
+      "slide_nome": "290826 - Sistema Energético e Glicolítico",
+      "arquivo_origem": "290826_-_Sistema_Energético_e_Glicolítico_260916_152644.pdf",
+      "numero": 29,
+      "tema": "Respiração celular",
+      "subtema": "Etapas e função de cada uma",
+      "enunciado": "A associação correta entre as etapas da respiração celular e suas funções, segundo a apostila, é:",
+      "alternativas": {
+        "A": "Glicólise: produção de ATP; Ciclo de Krebs: quebra da glicose; cadeia respiratória: formação de CO₂.",
+        "B": "Glicólise: formação de FADH₂; Ciclo de Krebs: produção de ATP; cadeia respiratória: quebra da glicose.",
+        "C": "Glicólise: transporte de elétrons; Ciclo de Krebs: formação de piruvato; cadeia respiratória: formação de glicogênio.",
+        "D": "Glicólise: quebra da glicose; Ciclo de Krebs: conjunto de reações que formam CO₂, H₂O, NADH₂ e FADH₂; cadeia respiratória: produção de moléculas de ATP."
+      },
+      "gabarito": "D",
+      "explicacoes": {
+        "A": "Incorreta: embaralha as funções. A quebra da glicose é a glicólise, e a produção de ATP é da cadeia respiratória.",
+        "B": "Incorreta: a quebra da glicose é a glicólise, e não a cadeia respiratória.",
+        "C": "Incorreta: o piruvato é formado na glicólise, e a cadeia respiratória não forma glicogênio.",
+        "D": "Correta: corresponde às três etapas do slide."
+      },
+      "referencia": {
+        "paginas": [
+          44
+        ],
+        "fundamentacao": "Slide 44, \"ETAPAS DA RESPIRAÇÃO CELULAR\".",
+        "trechos_apoio": [
+          "\"III- CADEIA RESPIRATÓRIA – Produção de moléculas de ATP\""
+        ]
+      }
+    },
+    {
+      "id": "bioenergetica_q030",
+      "slide_id": "bioenergetica",
+      "slide_nome": "290826 - Sistema Energético e Glicolítico",
+      "arquivo_origem": "290826_-_Sistema_Energético_e_Glicolítico_260916_152644.pdf",
+      "numero": 30,
+      "tema": "Glicólise",
+      "subtema": "Conceito e número de carbonos",
+      "enunciado": "O \"lembrete\" da apostila sobre a glicólise afirma que:",
+      "alternativas": {
+        "A": "Entra 1 molécula de glicose com 6 carbonos e saem 2 moléculas de piruvato com 3 carbonos.",
+        "B": "Entram 2 moléculas de glicose e sai 1 de piruvato.",
+        "C": "Entra 1 molécula de piruvato com 6 carbonos e sai 1 de glicose.",
+        "D": "Entra 1 glicose com 3 carbonos e saem 6 piruvatos com 1 carbono."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: uma glicose (C₆H₁₂O₆, 6 carbonos) origina 2 piruvatos de 3 carbonos.",
+        "B": "Incorreta: inverte as quantidades. Entra uma glicose e saem dois piruvatos.",
+        "C": "Incorreta: inverte o sentido, pois a glicólise parte da glicose.",
+        "D": "Incorreta: a glicose tem 6 carbonos, e cada piruvato tem 3."
+      },
+      "referencia": {
+        "paginas": [
+          51
+        ],
+        "fundamentacao": "Slide 51, \"GLICÓLISE ANAERÓBICA\" (lembrete).",
+        "trechos_apoio": [
+          "\"Na glicólise entra uma molécula de GLICOSE com 6 carbonos e sai 2 moléculas de piruvato de 3 carbonos\""
+        ]
+      }
+    },
+    {
+      "id": "bioenergetica_q031",
+      "slide_id": "bioenergetica",
+      "slide_nome": "290826 - Sistema Energético e Glicolítico",
+      "arquivo_origem": "290826_-_Sistema_Energético_e_Glicolítico_260916_152644.pdf",
+      "numero": 31,
+      "tema": "Glicólise anaeróbica",
+      "subtema": "Local e organização",
+      "enunciado": "A glicólise ocorre no ______ das células, é constituída por ______ reações (enzimas) e é dividida em ______ fases. Completa corretamente:",
+      "alternativas": {
+        "A": "Núcleo; 8; três.",
+        "B": "Matriz mitocondrial; 10; duas.",
+        "C": "Citoplasma; 10; duas.",
+        "D": "Citoplasma; 8; quatro."
+      },
+      "gabarito": "C",
+      "explicacoes": {
+        "A": "Incorreta: a glicólise não ocorre no núcleo, e são 10 reações em duas fases.",
+        "B": "Incorreta: o número está certo, mas o local é o citoplasma, e não a matriz mitocondrial.",
+        "C": "Correta: citoplasma, 10 reações (10 enzimas), duas fases.",
+        "D": "Incorreta: o local está certo, mas são 10 reações em duas fases."
+      },
+      "referencia": {
+        "paginas": [
+          48
+        ],
+        "fundamentacao": "Slide 48, \"GLICÓLISE ANAERÓBICA\".",
+        "trechos_apoio": [
+          "\"É constituída por uma sequência de 10 reações • (10 enzimas) divididas em duas fases.\""
+        ]
+      }
+    },
+    {
+      "id": "bioenergetica_q032",
+      "slide_id": "bioenergetica",
+      "slide_nome": "290826 - Sistema Energético e Glicolítico",
+      "arquivo_origem": "290826_-_Sistema_Energético_e_Glicolítico_260916_152644.pdf",
+      "numero": 32,
+      "tema": "Glicólise anaeróbica",
+      "subtema": "Saldo energético",
+      "enunciado": "Para que a glicólise aconteça, a célula gasta ______ e produz ______, com saldo energético positivo de ______.",
+      "alternativas": {
+        "A": "4 ATP; 2 ATP; 2 ATP negativos.",
+        "B": "2 ATP; 2 ATP; saldo zero.",
+        "C": "1 ATP; 3 ATP; 2 ATP.",
+        "D": "2 ATP; 4 ATP; 2 ATP."
+      },
+      "gabarito": "D",
+      "explicacoes": {
+        "A": "Incorreta: inverte gasto e produção. A célula gasta 2 e produz 4.",
+        "B": "Incorreta: se produzisse 2 e gastasse 2, o saldo seria zero, mas a produção é de 4 ATP.",
+        "C": "Incorreta: os valores de gasto e produção não correspondem ao material, mesmo que a diferença seja 2.",
+        "D": "Correta: gasta 2 ATP, produz 4 ATP, com saldo de 2 ATP."
+      },
+      "referencia": {
+        "paginas": [
+          49
+        ],
+        "fundamentacao": "Slide 49, \"GLICÓLISE ANAERÓBICA\".",
+        "trechos_apoio": [
+          "\"A célula gasta 2 ATP (durante a reação) e produz 4 ATP.\""
+        ]
+      }
+    },
+    {
+      "id": "bioenergetica_q033",
+      "slide_id": "bioenergetica",
+      "slide_nome": "290826 - Sistema Energético e Glicolítico",
+      "arquivo_origem": "290826_-_Sistema_Energético_e_Glicolítico_260916_152644.pdf",
+      "numero": 33,
+      "tema": "Glicólise anaeróbica",
+      "subtema": "Fases",
+      "enunciado": "As duas fases da via glicolítica anaeróbica, segundo a apostila, são:",
+      "alternativas": {
+        "A": "Fase aeróbica (mitocôndria) e fase anaeróbica (citoplasma).",
+        "B": "Fase de síntese e fase de degradação do glicogênio.",
+        "C": "Fase de absorção e fase de excreção da glicose.",
+        "D": "Fase preparatória (preparação, regulação e gasto de energia) e fase de pagamento (produção de ATP e oxidação)."
+      },
+      "gabarito": "D",
+      "explicacoes": {
+        "A": "Incorreta: aeróbico e anaeróbico são os dois sistemas energéticos, e não as fases da glicólise.",
+        "B": "Incorreta: síntese e degradação do glicogênio são glicogênese e glicogenólise.",
+        "C": "Incorreta: absorção e excreção não são fases da glicólise.",
+        "D": "Correta: a fase preparatória gasta energia e a fase de pagamento produz ATP e oxida."
+      },
+      "referencia": {
+        "paginas": [
+          50
+        ],
+        "fundamentacao": "Slide 50, \"GLICÓLISE OU VIA GLICOLÍTICA ANAERÓBICA\".",
+        "trechos_apoio": [
+          "\"1. FASE PREPARATÓRIA ... 2. FASE DE PAGAMENTO Produção de ATP e oxidação\""
+        ]
+      }
+    },
+    {
+      "id": "bioenergetica_q034",
+      "slide_id": "bioenergetica",
+      "slide_nome": "290826 - Sistema Energético e Glicolítico",
+      "arquivo_origem": "290826_-_Sistema_Energético_e_Glicolítico_260916_152644.pdf",
+      "numero": 34,
+      "tema": "Glicólise anaeróbica",
+      "subtema": "Investimento e produção",
+      "enunciado": "O resumo da glicólise na apostila traz como investimento e produção, respectivamente:",
+      "alternativas": {
+        "A": "Investimento: 2 piruvato + 2 NADH + 2 ATP; produção: glicose + 2 NAD⁺ + 2 ADP + 2 Pi.",
+        "B": "Investimento: glicose + 2 NAD⁺ + 2 ADP + 2 Pi; produção: 2 piruvato + 2 NADH + 2 ATP.",
+        "C": "Investimento: glicose + 2 FAD; produção: 2 acetil-CoA + 2 FADH₂.",
+        "D": "Investimento: 2 lactato; produção: glicose + 4 ATP."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: inverte os lados da equação. A glicose é o ponto de partida.",
+        "B": "Correta: a glicose, 2 NAD⁺, 2 ADP e 2 Pi geram 2 piruvato, 2 NADH e 2 ATP.",
+        "C": "Incorreta: na glicólise o receptor de hidrogênios é o NAD, e o produto é piruvato, não acetil-CoA.",
+        "D": "Incorreta: o lactato é destino do piruvato, e a glicólise não parte dele para formar glicose."
+      },
+      "referencia": {
+        "paginas": [
+          52
+        ],
+        "fundamentacao": "Slide 52, \"PRODUTO DA GLICÓLISE ANAERÓBICA\".",
+        "trechos_apoio": [
+          "\"Investimento: (Glicose + 2 NAD+ + 2 ADP + 2 Pi ) Produção: (2 piruvato + 2 NADH + 2 ATP)\""
+        ]
+      }
+    },
+    {
+      "id": "bioenergetica_q035",
+      "slide_id": "bioenergetica",
+      "slide_nome": "290826 - Sistema Energético e Glicolítico",
+      "arquivo_origem": "290826_-_Sistema_Energético_e_Glicolítico_260916_152644.pdf",
+      "numero": 35,
+      "tema": "Glicólise",
+      "subtema": "Remoção de hidrogênios pelo NAD",
+      "enunciado": "Na conversão da glicose em piruvato, a apostila afirma que as desidrogenases removem hidrogênios da glicose e os transferem a:",
+      "alternativas": {
+        "A": "Dois NAD, e cada NAD captura 2 hidrogênios, formando-se 2 NADH₂.",
+        "B": "Um FAD, que captura 4 hidrogênios, formando 1 FADH₂.",
+        "C": "Dois NAD, e cada NAD captura 1 hidrogênio, formando 1 NADH₂.",
+        "D": "Moléculas de ATP, que liberam o hidrogênio como gás."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: os dois receptores são NAD, cada um captura 2 hidrogênios, e formam-se 2 NADH₂.",
+        "B": "Incorreta: na glicólise o receptor é o NAD, e são dois, não um FAD.",
+        "C": "Incorreta: o número de NAD está certo, mas cada um captura 2 hidrogênios, e formam-se 2 NADH₂.",
+        "D": "Incorreta: o ATP não recebe hidrogênios, e eles são transferidos ao NAD."
+      },
+      "referencia": {
+        "paginas": [
+          55
+        ],
+        "fundamentacao": "Slide 55, \"GLICÓLISE\".",
+        "trechos_apoio": [
+          "\"Cada NAD captura 2 hidrogênios. • Logo, formam-se 2 NADH2.\""
+        ]
+      }
+    },
+    {
+      "id": "bioenergetica_q036",
+      "slide_id": "bioenergetica",
+      "slide_nome": "290826 - Sistema Energético e Glicolítico",
+      "arquivo_origem": "290826_-_Sistema_Energético_e_Glicolítico_260916_152644.pdf",
+      "numero": 36,
+      "tema": "Glicólise e fermentação láctica",
+      "subtema": "Produto final e função",
+      "enunciado": "Sobre o produto final da glicólise e a fermentação láctica, a apostila afirma que:",
+      "alternativas": {
+        "A": "A glicólise ocorre só nas células musculares e produz 36 ATP.",
+        "B": "A glicólise ocorre na mitocôndria e produz 2 lactatos e 2 CO₂.",
+        "C": "A glicólise ocorre no citoplasma de todas as células e dá 2 piruvatos, 2 NADH e saldo de 2 ATP, enquanto a fermentação láctica converte o piruvato em lactato e H⁺ para manter a produção de energia sem oxigênio.",
+        "D": "A fermentação láctica produz piruvato a partir do lactato e consome ATP."
+      },
+      "gabarito": "C",
+      "explicacoes": {
+        "A": "Incorreta: a glicólise ocorre no citoplasma de todas as células, e o saldo é de 2 ATP, não 36.",
+        "B": "Incorreta: a glicólise é citoplasmática, e o produto final são 2 piruvatos, 2 NADH e 2 ATP.",
+        "C": "Correta: reúne local, produtos e função da fermentação láctica, conforme os slides.",
+        "D": "Incorreta: a fermentação láctica converte piruvato em lactato, e não o contrário."
+      },
+      "referencia": {
+        "paginas": [
+          62
+        ],
+        "fundamentacao": "Slides 62 e 63, \"GLICÓLISE\" e \"PRODUTO FINAL DA GLICÓLISE\".",
+        "trechos_apoio": [
+          "\"No citoplasma de todas as células.\""
+        ]
+      }
+    },
+    {
+      "id": "bioenergetica_q037",
+      "slide_id": "bioenergetica",
+      "slide_nome": "290826 - Sistema Energético e Glicolítico",
+      "arquivo_origem": "290826_-_Sistema_Energético_e_Glicolítico_260916_152644.pdf",
+      "numero": 37,
+      "tema": "Destino do piruvato",
+      "subtema": "Primeiro destino (lactato)",
+      "enunciado": "O primeiro destino do piruvato, segundo a apostila, é:",
+      "alternativas": {
+        "A": "A conversão em acetil-CoA dentro da mitocôndria.",
+        "B": "A conversão em glicogênio no fígado.",
+        "C": "A oxidação direta a CO₂ e H₂O no citosol.",
+        "D": "A conversão em lactato (fermentação láctica), regenerando o NAD necessário à glicólise, numa via sem O₂ e muito mais rápida que a aeróbica."
+      },
+      "gabarito": "D",
+      "explicacoes": {
+        "A": "Incorreta: a conversão em acetil-CoA é o destino do metabolismo aeróbico.",
+        "B": "Incorreta: o glicogênio não é indicado como destino do piruvato.",
+        "C": "Incorreta: a oxidação completa até CO₂ e H₂O depende da mitocôndria e do oxigênio.",
+        "D": "Correta: o lactato forma-se sem O₂, regenera o NAD e a via é mais rápida que a aeróbica."
+      },
+      "referencia": {
+        "paginas": [
+          57
+        ],
+        "fundamentacao": "Slides 57 e 58, \"PRIMEIRO DESTINO DO PIRUVATO\".",
+        "trechos_apoio": [
+          "\"Esta via é muito mais rápida que a glicólise aeróbica.\""
+        ]
+      }
+    },
+    {
+      "id": "bioenergetica_q038",
+      "slide_id": "bioenergetica",
+      "slide_nome": "290826 - Sistema Energético e Glicolítico",
+      "arquivo_origem": "290826_-_Sistema_Energético_e_Glicolítico_260916_152644.pdf",
+      "numero": 38,
+      "tema": "Fermentação láctica",
+      "subtema": "Quando o lactato é produzido",
+      "enunciado": "Segundo a apostila, o lactato é produzido no sistema anaeróbico quando:",
+      "alternativas": {
+        "A": "Não há oxigênio suficiente ou na ausência de mitocôndria.",
+        "B": "Há excesso de oxigênio e muitas mitocôndrias.",
+        "C": "O Ciclo de Krebs está acelerado.",
+        "D": "A insulina está elevada e o GLUT4 está na membrana."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: o slide lista a falta de oxigênio suficiente e a ausência de mitocôndria.",
+        "B": "Incorreta: excesso de oxigênio e mitocôndrias favorece o caminho aeróbico.",
+        "C": "Incorreta: o Ciclo de Krebs acelerado é aeróbico, e o piruvato segue para acetil-CoA.",
+        "D": "Incorreta: insulina e GLUT4 se relacionam à entrada da glicose, e não à formação de lactato."
+      },
+      "referencia": {
+        "paginas": [
+          61
+        ],
+        "fundamentacao": "Slide 61, \"FORMAÇÃO DE LACTATO NO SISTEMA ANAERÓBICO\".",
+        "trechos_apoio": [
+          "\"NÃO HÁ OXIGÊNIO SUFICIENTE • NA AUSÊNCIA DE MITOCÔNDRIA\""
+        ]
+      }
+    },
+    {
+      "id": "bioenergetica_q039",
+      "slide_id": "bioenergetica",
+      "slide_nome": "290826 - Sistema Energético e Glicolítico",
+      "arquivo_origem": "290826_-_Sistema_Energético_e_Glicolítico_260916_152644.pdf",
+      "numero": 39,
+      "tema": "Produção de lactato",
+      "subtema": "Lactato desidrogenase e reciclo do NAD⁺",
+      "enunciado": "Sobre a produção de lactato, a apostila afirma que a conversão do piruvato em lactato é mediada pela:",
+      "alternativas": {
+        "A": "Citrato sintase, que forma citrato a partir de acetil-CoA.",
+        "B": "Lactato desidrogenase, que transforma o NADH gerado na glicólise de volta em NAD⁺; sem esse reciclo, a glicólise travaria por falta de NAD⁺ livre.",
+        "C": "Glicogênio fosforilase, que degrada glicogênio em glicose.",
+        "D": "ATPase, que hidrolisa ATP em ADP."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a citrato sintase atua no Ciclo de Krebs, não é citada nesta apostila e não forma lactato.",
+        "B": "Correta: a lactato desidrogenase media a conversão e recicla NADH em NAD⁺, sem o qual a glicólise travaria.",
+        "C": "Incorreta: a glicogênio fosforilase não aparece nesta apostila, e a degradação de glicogênio é outro processo.",
+        "D": "Incorreta: a ATPase catalisa a hidrólise do ATP em ADP, outra reação."
+      },
+      "referencia": {
+        "paginas": [
+          64
+        ],
+        "fundamentacao": "Slide 64, \"PRODUÇÃO DE LACTATO\".",
+        "trechos_apoio": [
+          "\"Sem esse reciclo, a glicólise travaria por falta de NAD⁺ livre na célula.\""
+        ]
+      }
+    },
+    {
+      "id": "bioenergetica_q040",
+      "slide_id": "bioenergetica",
+      "slide_nome": "290826 - Sistema Energético e Glicolítico",
+      "arquivo_origem": "290826_-_Sistema_Energético_e_Glicolítico_260916_152644.pdf",
+      "numero": 40,
+      "tema": "Metabolismo anaeróbico",
+      "subtema": "Recurso de emergência no cérebro",
+      "enunciado": "Quando falta oxigênio no cérebro (isquemia, AVC ou parada cardiorrespiratória), a apostila afirma que os neurônios ativam a glicólise anaeróbica. Sobre esse processo:",
+      "alternativas": {
+        "A": "Rende muito mais energia que o metabolismo aeróbico e não tem efeitos tóxicos.",
+        "B": "Produz 36 ATP por glicose e o subproduto é o oxigênio.",
+        "C": "Produz apenas 2 ATP por molécula de glicose (cerca de 15 vezes menos que o aeróbico), e o acúmulo de lactato reduz o pH (acidose lática), o que é tóxico e acelera a morte neuronal.",
+        "D": "Produz glicogênio, que protege os neurônios do dano."
+      },
+      "gabarito": "C",
+      "explicacoes": {
+        "A": "Incorreta: a eficiência é baixa, e o lactato é tóxico.",
+        "B": "Incorreta: o rendimento é de 2 ATP por glicose, e o subproduto é o lactato.",
+        "C": "Correta: o slide cita baixa eficiência (2 ATP, cerca de 15 vezes menos) e consequência tóxica (acidose lática e morte neuronal).",
+        "D": "Incorreta: o subproduto é o lactato, não o glicogênio, e ele acelera a morte neuronal."
+      },
+      "referencia": {
+        "paginas": [
+          59
+        ],
+        "fundamentacao": "Slide 59, \"O METABOLISMO ANAERÓBICO COMO RECURSO DE EMERGÊNCIA\".",
+        "trechos_apoio": [
+          "\"O acúmulo de lactato reduz o pH do tecido cerebral (acidose lática)\""
+        ]
+      }
+    }
+  ]
+}

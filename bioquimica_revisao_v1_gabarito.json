@@ -1,0 +1,1924 @@
+{
+  "questoes": [
+    {
+      "id": "revisao-integrada_q001",
+      "slide_id": "revisao-integrada",
+      "slide_nome": "Revisão V1 - Fundamentos de Bioquímica (Gabarito)",
+      "arquivo_origem": "REVISÃO V1 FUND BIOQUÍMICA GABARITO_261008_210830.pdf",
+      "numero": 1,
+      "tema": "Carboidratos",
+      "subtema": "Sinônimos e Nomenclatura",
+      "enunciado": "Os carboidratos recebem diversas denominações na literatura bioquímica de acordo com sua composição e propriedades. Conforme o esquema de classificação da apostila, quais são os sinônimos apresentados para carboidratos?",
+      "alternativas": {
+        "A": "Lipídeos, ceras, triglicerídeos e fosfatídeos.",
+        "B": "Glicídios, açúcares, sacarídeos e hidratos de carbono.",
+        "C": "Polipeptídeos, aminoácidos, aminas e enzimas.",
+        "D": "Nucleotídeos, ácidos nucleicos, purinas e pirimidinas."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: lipídeos, ceras e triglicerídeos compõem outra classe de biomoléculas insolúveis em água, não sendo sinônimos de carboidratos.",
+        "B": "Correta: o esquema do slide 2 agrupa como termos correlatos e sinônimos: glicídios, açúcares, sacarídeos e hidratos de carbono.",
+        "C": "Incorreta: polipeptídeos e aminoácidos formam a classe das proteínas.",
+        "D": "Incorreta: nucleotídeos, purinas e pirimidinas integram a estrutura dos ácidos nucleicos (DNA/RNA)."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / 2. Como são classificados os carboidratos?"
+        ],
+        "fundamentacao": "Slide / 2. Como são classificados os carboidratos?",
+        "trechos_apoio": [
+          "GLICÍDIOS / AÇÚCARES / CARBOIDRATOS / SACARÍDEOS / HIDRATOS DE CARBONO"
+        ]
+      }
+    },
+    {
+      "id": "revisao-integrada_q002",
+      "slide_id": "revisao-integrada",
+      "slide_nome": "Revisão V1 - Fundamentos de Bioquímica (Gabarito)",
+      "arquivo_origem": "REVISÃO V1 FUND BIOQUÍMICA GABARITO_261008_210830.pdf",
+      "numero": 2,
+      "tema": "Carboidratos",
+      "subtema": "Classes de Açúcares (Monossacarídeos e Dissacarídeos)",
+      "enunciado": "Os carboidratos são divididos em classes conforme a quantidade de unidades estruturais. Conforme os exemplos citados na apostila, assinale a opção que contém, respectivamente, três monossacarídeos e três dissacarídeos:",
+      "alternativas": {
+        "A": "Amido, celulose e glicogênio; e sacarose, maltose e lactose.",
+        "B": "Glicose, frutose e galactose; e sacarose, maltose e lactose.",
+        "C": "Quitina, glicose e lactose; e frutose, amido e celobiose.",
+        "D": "Frutose, galactose e glicose; e celulose, quitina e glicogênio."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: amido, celulose e glicogênio são polissacarídeos formados por centenas de monômeros.",
+        "B": "Correta: a apostila lista sob monossacarídeos a glicose, frutose e galactose; e sob dissacarídeos (resultantes da união de dois monossacarídeos) a sacarose, maltose e lactose.",
+        "C": "Incorreta: quitina é polissacarídeo estrutural e amido é polissacarídeo de reserva vegetal.",
+        "D": "Incorreta: celulose, quitina e glicogênio são polissacarídeos, e não dissacarídeos."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / 2. Como são classificados os carboidratos?"
+        ],
+        "fundamentacao": "Slide / 2. Como são classificados os carboidratos?",
+        "trechos_apoio": [
+          "MONOSSACARÍDEOS... Exemplos são: GLICOSE, FRUTOSE, GALACTOSE / DISSACARÍDEOS... Exemplos são: SACAROSE, MALTOSE, LACTOSE"
+        ]
+      }
+    },
+    {
+      "id": "revisao-integrada_q003",
+      "slide_id": "revisao-integrada",
+      "slide_nome": "Revisão V1 - Fundamentos de Bioquímica (Gabarito)",
+      "arquivo_origem": "REVISÃO V1 FUND BIOQUÍMICA GABARITO_261008_210830.pdf",
+      "numero": 3,
+      "tema": "Polissacarídeos",
+      "subtema": "Amido e sua Importância Nutricional",
+      "enunciado": "O amido é um polissacarídeo amplamente distribuído na natureza vegetal. De acordo com a tabela de polissacarídeos da apostila, quais são as características atribuídas ao amido?",
+      "alternativas": {
+        "A": "Reserva energética animal presente unicamente no fígado e nos rins.",
+        "B": "Polissacarídeo estrutural que forma o exoesqueleto dos artrópodes.",
+        "C": "Reserva energética das plantas e das algas, formado por centenas de glicoses e fonte mais importante de carboidrato para o homem.",
+        "D": "Fibra insolúvel que impede a digestão e absorção de qualquer hexose."
+      },
+      "gabarito": "C",
+      "explicacoes": {
+        "A": "Incorreta: a reserva energética animal é o glicogênio (presente no fígado e músculos), não o amido.",
+        "B": "Incorreta: o constituinte do exoesqueleto dos artrópodes é a quitina.",
+        "C": "Correta: o amido atua como reserva energética das plantas e das algas, é formado a partir da ligação entre centenas de glicoses, é a fonte mais importante de carboidrato para o homem e está presente em alimentos como milho, soja, arroz e feijão.",
+        "D": "Incorreta: o amido é digerível por enzimas humanas (amilases) e fornece maltose e glicose absorvíveis."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Tipos de Polissacarídeos"
+        ],
+        "fundamentacao": "Slide / Tipos de Polissacarídeos.",
+        "trechos_apoio": [
+          "Amido: Reserva energética das plantas e das algas / Formado a partir da ligação entre centenas de glicoses / Fonte mais importante de carboidrato para o homem / Presente no milho, soja, arroz, feijão, etc."
+        ]
+      }
+    },
+    {
+      "id": "revisao-integrada_q004",
+      "slide_id": "revisao-integrada",
+      "slide_nome": "Revisão V1 - Fundamentos de Bioquímica (Gabarito)",
+      "arquivo_origem": "REVISÃO V1 FUND BIOQUÍMICA GABARITO_261008_210830.pdf",
+      "numero": 4,
+      "tema": "Polissacarídeos",
+      "subtema": "Glicogênio e Tecidos de Armazenamento",
+      "enunciado": "Nos animais, a glicose é armazenada sob a forma de um polímero específico. Onde o glicogênio é armazenado e qual é sua principal função fisiológica, segundo o gabarito da questão 6 da apostila?",
+      "alternativas": {
+        "A": "No tecido adiposo sob a pele; fornecendo isolamento térmico contra o frio.",
+        "B": "No estômago e no pâncreas; produzindo ácido clorídrico para hidrolisar gorduras.",
+        "C": "No fígado e nos músculos; fornecendo energia rápida para contração muscular e mantendo a glicemia estável durante o jejum ou exercícios.",
+        "D": "Exclusivamente no interior das hemácias maduras; transportando gás carbônico."
+      },
+      "gabarito": "C",
+      "explicacoes": {
+        "A": "Incorreta: quem se armazena no tecido adiposo e atua como isolante térmico são os lipídeos (triglicerídeos).",
+        "B": "Incorreta: o estômago produz suco gástrico ácido e não armazena glicogênio.",
+        "C": "Correta: a apostila esclarece que o glicogênio é a principal reserva energética de carboidratos nos animais, armazenado no fígado e músculos, mantendo a glicemia e provendo energia muscular.",
+        "D": "Incorreta: as hemácias não estocam reservas volumosas de glicogênio hepático."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / 6. Descreva a função do glicogênio e onde podemos encontrar"
+        ],
+        "fundamentacao": "Slide / 6. Descreva a função do glicogênio e onde podemos encontrar.",
+        "trechos_apoio": [
+          "O glicogênio é a principal reserva de energia de carboidratos (glicose) em animais, armazenado no fígado e nos músculos. Sua função principal é fornecer energia rápida para a contração muscular e manter os níveis de glicose no sangue (glicemia) estáveis..."
+        ]
+      }
+    },
+    {
+      "id": "revisao-integrada_q005",
+      "slide_id": "revisao-integrada",
+      "slide_nome": "Revisão V1 - Fundamentos de Bioquímica (Gabarito)",
+      "arquivo_origem": "REVISÃO V1 FUND BIOQUÍMICA GABARITO_261008_210830.pdf",
+      "numero": 5,
+      "tema": "Polissacarídeos Estruturais",
+      "subtema": "Quitina e Celulose",
+      "enunciado": "Além das reservas energéticas, os polissacarídeos desempenham papel estrutural chave em diversos organismos. Conforme a tabela da apostila, onde encontramos, respectivamente, a quitina e a celulose?",
+      "alternativas": {
+        "A": "No exoesqueleto dos artrópodes e parede celular de fungos; e na parede celular de células vegetais (fibras vegetais).",
+        "B": "Na bile humana; e na cartilagem articular dos vertebrados.",
+        "C": "No leite materno; e nos tecidos musculares dos insetos.",
+        "D": "No fígado de mamíferos; e nos grãos de milho e soja."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: a quitina forma o exoesqueleto dos artrópodes e a parede celular de fungos; a celulose forma a parede celular de células vegetais e compõe as fibras vegetais da dieta que evitam a constipação.",
+        "B": "Incorreta: a bile contém sais biliares e a cartilagem é formada por proteínas e glicosaminoglicanos, não celulose.",
+        "C": "Incorreta: o leite contém lactose (dissacarídeo) e os músculos contêm actina, miosina e glicogênio.",
+        "D": "Incorreta: o fígado contém glicogênio e os grãos vegetais contêm amido."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Tipos de Polissacarídeos"
+        ],
+        "fundamentacao": "Slide / Tipos de Polissacarídeos.",
+        "trechos_apoio": [
+          "Quitina: Polissacarídeo estrutural / Forma o exoesqueleto dos artrópodes e parede celular de fungos / Celulose: Polissacarídeo estrutural / Forma parede celular de células vegetais / Presente nas fibras vegetais (evita a constipação)"
+        ]
+      }
+    },
+    {
+      "id": "revisao-integrada_q006",
+      "slide_id": "revisao-integrada",
+      "slide_nome": "Revisão V1 - Fundamentos de Bioquímica (Gabarito)",
+      "arquivo_origem": "REVISÃO V1 FUND BIOQUÍMICA GABARITO_261008_210830.pdf",
+      "numero": 6,
+      "tema": "Ligação Glicosídica",
+      "subtema": "Síntese por Desidratação",
+      "enunciado": "A união entre monossacarídeos para a construção de dissacarídeos e polissacarídeos requer um tipo específico de reação química. De acordo com o texto da questão 3 da apostila, como se dá a formação da ligação glicosídica?",
+      "alternativas": {
+        "A": "Pela absorção de nitrogênio gasoso e liberação de oxigênio atômico.",
+        "B": "Com a perda de um átomo de hidrogênio de um dos monossacarídeos e a saída de um radical hidroxila do outro, formando uma molécula de água (síntese por desidratação).",
+        "C": "Pela adição contínua de água que cliva as ligações intramoleculares de carbono.",
+        "D": "Por atração iônica induzida pelo cálcio sem qualquer saída de átomos."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: carboidratos simples não contêm nitrogênio e não há absorção de gases na ligação.",
+        "B": "Correta: a ligação glicosídica forma-se pela perda de um átomo de hidrogênio de um monossacarídeo e de uma hidroxila do outro, gerando uma molécula de água em uma síntese por desidratação.",
+        "C": "Incorreta: a adição de água caracteriza a quebra hidrolítica, e não a formação da ligação.",
+        "D": "Incorreta: a ligação glicosídica é uma ligação covalente formada com eliminação de água, não uma atração iônica."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / 3. Descrever a ligação glicosídica"
+        ],
+        "fundamentacao": "Slide / 3. Descrever a ligação glicosídica.",
+        "trechos_apoio": [
+          "Esta ligação é formada com a perda de um átomo de hidrogênio de um dos monossacarídeos e a saída de um radical hidroxila do outro. Com a saída do hidrogênio e da hidroxila forma-se uma molécula de água. Por isso, pode-se dizer que um dissacarídeo é formado em uma síntese por desidratação"
+        ]
+      }
+    },
+    {
+      "id": "revisao-integrada_q007",
+      "slide_id": "revisao-integrada",
+      "slide_nome": "Revisão V1 - Fundamentos de Bioquímica (Gabarito)",
+      "arquivo_origem": "REVISÃO V1 FUND BIOQUÍMICA GABARITO_261008_210830.pdf",
+      "numero": 7,
+      "tema": "Digestão de Carboidratos",
+      "subtema": "Amilase Salivar e Inativação Estomacal",
+      "enunciado": "A digestão dos polissacarídeos tem início na boca pela amilase salivar (ptialina). Por que o processo digestivo bucal é incompleto e o que ocorre com essa enzima quando o bolo alimentar chega ao estômago?",
+      "alternativas": {
+        "A": "O processo é incompleto devido ao curto tempo de permanência na boca, e a ação da amilase salivar é inibida no estômago pelo pH ácido.",
+        "B": "A amilase salivar é destruída pela saliva e só é ativada pelo ácido clorídrico estomacal.",
+        "C": "A enzima bucal digere todo o amido em frutose livre antes da deglutição.",
+        "D": "A digestão é incompleta porque a boca carece de enzimas ativas para carboidratos."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: a apostila afirma que, como o alimento passa pouco tempo na boca, o processo é incompleto, e a amilase salivar continua atuando até o estômago, onde sua atividade cessa inibida pelo pH ácido gástrico.",
+        "B": "Incorreta: a enzima atua na boca em pH neutro/levemente ácido e é inibida (não ativada) pela acidez do estômago.",
+        "C": "Incorreta: a ação rápida na boca gera oligossacarídeos e maltose, nunca hidrólise total em frutose livre.",
+        "D": "Incorreta: as glândulas salivares secretam ativamente a amilase salivar na boca."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / 5. Digestão dos Carboidratos"
+        ],
+        "fundamentacao": "Slide / 5. Digestão dos Carboidratos.",
+        "trechos_apoio": [
+          "Como o alimento passa pouco tempo na boca, este processo é incompleto. A amilase salivar continua atuando até chegar no estômago, onde sua ação é inibida pelo pH ácido"
+        ]
+      }
+    },
+    {
+      "id": "revisao-integrada_q008",
+      "slide_id": "revisao-integrada",
+      "slide_nome": "Revisão V1 - Fundamentos de Bioquímica (Gabarito)",
+      "arquivo_origem": "REVISÃO V1 FUND BIOQUÍMICA GABARITO_261008_210830.pdf",
+      "numero": 8,
+      "tema": "Digestão Intestinal",
+      "subtema": "Produtos da Amilase Pancreática",
+      "enunciado": "No intestino delgado, a secreção pancreática despeja a amilase pancreática na luz do duodeno. Quais são os principais produtos resultantes da digestão do amido por essa enzima?",
+      "alternativas": {
+        "A": "Ácido lático e hidrogênio gasoso livre.",
+        "B": "Maltose, oligossacarídeos (dextrinas) e isomaltose.",
+        "C": "Polipeptídeos lineares de 20 aminoácidos.",
+        "D": "Glicose livre exclusiva sem produção de dissacarídeos."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: ácido lático é metabólito da via fermentativa anaeróbica celular.",
+        "B": "Correta: no intestino delgado, a enzima amilase pancreática forma principalmente maltose, oligossacarídeos (dextrinas) e determinada quantidade de isomaltose.",
+        "C": "Incorreta: polipeptídeos são fragmentos de proteínas originados pela ação de proteases, não de amilases.",
+        "D": "Incorreta: a amilase pancreática não quebra o polissacarídeo diretamente em glicose pura; ela produz dissacarídeos e dextrinas."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Digestão dos Carboidratos no Intestino Delgado"
+        ],
+        "fundamentacao": "Slide / Digestão dos Carboidratos no Intestino Delgado.",
+        "trechos_apoio": [
+          "No intestino delgado, a ENZIMA AMILASE PANCREÁTICA forma principalmente: MALTOSE, OLIGOSSACARÍDEOS (dextrinas) e determinada quantidade de ISOMALTOSE"
+        ]
+      }
+    },
+    {
+      "id": "revisao-integrada_q009",
+      "slide_id": "revisao-integrada",
+      "slide_nome": "Revisão V1 - Fundamentos de Bioquímica (Gabarito)",
+      "arquivo_origem": "REVISÃO V1 FUND BIOQUÍMICA GABARITO_261008_210830.pdf",
+      "numero": 9,
+      "tema": "Digestão Intestinal",
+      "subtema": "Ação da Maltase na Borda em Escova",
+      "enunciado": "A digestão final dos carboidratos envolve a borda em escova dos enterócitos duodenais. Qual transformação bioquímica específica é catalisada pela enzima maltase nesse local?",
+      "alternativas": {
+        "A": "Conversão de celulose em quitina.",
+        "B": "Conversão da sacarose em glicose e frutose.",
+        "C": "Quebra da maltose em duas moléculas de glicose.",
+        "D": "Transformação da lactose em galactose e água oxigenada."
+      },
+      "gabarito": "C",
+      "explicacoes": {
+        "A": "Incorreta: celulose e quitina não sofrem interconversão enzimática no trato digestório humano.",
+        "B": "Incorreta: a quebra da sacarose em glicose e frutose é catalisada pela sacarase.",
+        "C": "Correta: a apostila descreve que na borda em escova do enterócito a enzima maltase transforma a maltose em duas moléculas de glicose.",
+        "D": "Incorreta: a lactose é desdobrada pela lactase em glicose e galactose, sem produção de peróxido."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Digestão dos Carboidratos no Intestino Delgado"
+        ],
+        "fundamentacao": "Slide / Digestão dos Carboidratos no Intestino Delgado.",
+        "trechos_apoio": [
+          "A digestão ocorre não só no lúmen, mas também na borda em escova do enterócito, onde a enzima maltase transforma a maltose em duas glicoses"
+        ]
+      }
+    },
+    {
+      "id": "revisao-integrada_q010",
+      "slide_id": "revisao-integrada",
+      "slide_nome": "Revisão V1 - Fundamentos de Bioquímica (Gabarito)",
+      "arquivo_origem": "REVISÃO V1 FUND BIOQUÍMICA GABARITO_261008_210830.pdf",
+      "numero": 10,
+      "tema": "Vias Metabólicas dos Carboidratos",
+      "subtema": "Conceituação de Vias Glicídicas",
+      "enunciado": "Na questão 21 da apostila são conceituadas quatro vias fundamentais do metabolismo dos carboidratos. Assinale a correlação conceitual correta:",
+      "alternativas": {
+        "A": "Glicogênese: síntese de glicose em glicogênio; e Glicogenólise: processo que converte o glicogênio em glicose.",
+        "B": "Glicogênese: quebra anaeróbica de glicose em piruvato; e Glicólise: acúmulo de lipídeos no fígado.",
+        "C": "Gliconeogênese: desidratação da sacarose em amido; e Glicogenólise: transporte de oxigênio pelo sangue.",
+        "D": "Glicólise: formação de glicogênio muscular a partir de gorduras puras."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: conforme o gabarito textual do slide 21, a glicogênese é a síntese de glicose em glicogênio, e a glicogenólise é o processo que converte o glicogênio em glicose.",
+        "B": "Incorreta: a conversão de glicose em piruvato é a glicólise, e não a glicogênese.",
+        "C": "Incorreta: gliconeogênese é a formação de glicose a partir de compostos não glicídicos levados ao fígado.",
+        "D": "Incorreta: a glicólise é a quebra catabólica da glicose em duas moléculas de piruvato."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / 21. Conceitue"
+        ],
+        "fundamentacao": "Slide / 21. Conceitue.",
+        "trechos_apoio": [
+          "Glicogênese: síntese de glicose em glicogênio / Glicogenólise: processo que converte o glicogênio em glicose / Gliconeogênese: formação de glicose a partir de outras substâncias (aminoácidos, glicerol, piruvato, lactato)"
+        ]
+      }
+    },
+    {
+      "id": "revisao-integrada_q011",
+      "slide_id": "revisao-integrada",
+      "slide_nome": "Revisão V1 - Fundamentos de Bioquímica (Gabarito)",
+      "arquivo_origem": "REVISÃO V1 FUND BIOQUÍMICA GABARITO_261008_210830.pdf",
+      "numero": 11,
+      "tema": "Bioenergética",
+      "subtema": "Conceito de Bioenergética e Moeda Energética Universal",
+      "enunciado": "O metabolismo energético envolve a transformação constante de nutrientes em formas úteis de energia biológica. Segundo os slides da apostila, como é denominado o processo químico de conversão do alimento em energia e em qual molécula única todos os substratos energéticos são convertidos?",
+      "alternativas": {
+        "A": "Fermentação alcoólica; convertidos em gliceraldeído-3-fosfato.",
+        "B": "Bioenergética; sendo transformados em adenosina trifosfato (ATP).",
+        "C": "Fotossíntese reversa; convertidos em ácido pirúvico puro.",
+        "D": "Glicogenólise gástrica; transformados em creatina quinase."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: fermentação é via anaeróbica de microrganismos e gliceraldeído-3-fosfato é um intermediário da glicólise, não a moeda final aceita pelo organismo.",
+        "B": "Correta: a apostila define textualmente que o processo químico de conversão do alimento em energia é denominado Bioenergética, e que todos os substratos energéticos (glicose, triacilglicerol e aminoácidos) são transformados em uma única moeda energética aceita por todo nosso organismo: a adenosina trifosfato (ATP).",
+        "C": "Incorreta: fotossíntese é processo vegetal autotrófico e ácido pirúvico é metabólito intermediário.",
+        "D": "Incorreta: o estômago não realiza glicogenólise e creatina quinase é uma enzima tecidual, não a moeda universal de energia."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Bioenergética"
+        ],
+        "fundamentacao": "Slide / Bioenergética.",
+        "trechos_apoio": [
+          "O PROCESSO QUÍMICO DE CONVERSÃO DO ALIMENTO EM ENERGIA É DENOMINADO BIOENERGÉTICA... Todos os substratos energéticos (glicose, triacilglicerol e aminoácido) são transformados em uma única moeda enérgica aceita por todo nosso organismo chamada ADENOSINA TRIFOSFATO (ATP)"
+        ]
+      }
+    },
+    {
+      "id": "revisao-integrada_q012",
+      "slide_id": "revisao-integrada",
+      "slide_nome": "Revisão V1 - Fundamentos de Bioquímica (Gabarito)",
+      "arquivo_origem": "REVISÃO V1 FUND BIOQUÍMICA GABARITO_261008_210830.pdf",
+      "numero": 12,
+      "tema": "Bioenergética",
+      "subtema": "Estrutura Molecular e Hidrólise do ATP",
+      "enunciado": "A molécula de ATP armazena energia química em suas ligações fosfato de alta energia. Com base no material didático, como é composta a molécula de ATP e o que ocorre durante a sua conversão em ADP?",
+      "alternativas": {
+        "A": "É formada por três adeninas ligadas a uma ribose; sua quebra consome água e libera gás oxigênio.",
+        "B": "É constituída por adenina, ribose e grupos fosfato; e a adição de água libera um fosfato inorgânico (Pi), convertendo ATP em ADP com liberação de energia.",
+        "C": "É formada por desoxirribose e quatro fosfatos; sua hidrólise inibe a respiração celular.",
+        "D": "É constituída exclusivamente por três ácidos graxos esterificados em glicerol."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o ATP contém apenas uma base adenina (e não três) e sua hidrólise não libera oxigênio gasoso.",
+        "B": "Correta: o esquema do ATP mostra a união de adenina, ribose e três grupos fosfato. Na conversão em ADP com a entrada de água (H₂O), ocorre a liberação de um fosfato inorgânico mais energia utilizável para o trabalho celular.",
+        "C": "Incorreta: o açúcar do ATP é a ribose (pentose comum no RNA) e não a desoxirribose, e o número de fosfatos é três, não quatro.",
+        "D": "Incorreta: a estrutura descrita na alternativa D corresponde a um triglicerídeo (lipídeo), e não ao nucleotídeo ATP."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / ATP – Adenosina Trifosfato e Conversão do ATP em ADP"
+        ],
+        "fundamentacao": "Slide / ATP – Adenosina Trifosfato e Conversão do ATP em ADP.",
+        "trechos_apoio": [
+          "ATP: Adenina, Grupos fosfato, Ribose... CONVERSÃO DO ATP EM ADP: Água (H₂O) + ATP → ADP + Fosfato Inorgânico + Energia"
+        ]
+      }
+    },
+    {
+      "id": "revisao-integrada_q013",
+      "slide_id": "revisao-integrada",
+      "slide_nome": "Revisão V1 - Fundamentos de Bioquímica (Gabarito)",
+      "arquivo_origem": "REVISÃO V1 FUND BIOQUÍMICA GABARITO_261008_210830.pdf",
+      "numero": 13,
+      "tema": "Bioenergética",
+      "subtema": "Coenzimas Transportadoras (NAD e FAD)",
+      "enunciado": "As reações oxidativas do metabolismo desprendem elétrons e íons hidrogênio que necessitam de carreadores específicos. Conforme a apostila, qual é o papel desempenhado pelo NAD (Nicotinamida Adenina Dinucleotídeo) e pelo FAD (Dinucleotídeo de Adenina Flavina)?",
+      "alternativas": {
+        "A": "Hidrolisar as pontes de hidrogênio do DNA nuclear.",
+        "B": "Transportar o hidrogênio liberado nas reações químicas metabólicas.",
+        "C": "Desnaturar as proteínas da borda em escova do enterócito.",
+        "D": "Atuar como substrato direto para a síntese exclusiva de celulose."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: NAD e FAD são coenzimas de oxidorredução metabólica, sem função de helicases nucleares.",
+        "B": "Correta: a apostila define expressamente que o NAD e o FAD têm como papel essencial \"transportarem o hidrogênio liberado nas reações químicas\".",
+        "C": "Incorreta: agentes desnaturantes são variações extremas de pH e temperatura; NAD e FAD são cofatores fisiológicos benéficos.",
+        "D": "Incorreta: celulose é sintetizada por plantas e não tem relação com o transporte de elétrons/hidrogênios por dinucleotídeos celulares."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / NAD / FAD - NADH / FADH"
+        ],
+        "fundamentacao": "Slide / NAD / FAD - NADH / FADH.",
+        "trechos_apoio": [
+          "• NAD (Nicotinamida Adenina Dinucleótido) • FAD (Dinucleotídeo de Adenina Flavina) • Transportarem o hidrogênio liberado nas reações químicas"
+        ]
+      }
+    },
+    {
+      "id": "revisao-integrada_q014",
+      "slide_id": "revisao-integrada",
+      "slide_nome": "Revisão V1 - Fundamentos de Bioquímica (Gabarito)",
+      "arquivo_origem": "REVISÃO V1 FUND BIOQUÍMICA GABARITO_261008_210830.pdf",
+      "numero": 14,
+      "tema": "Respiração Celular",
+      "subtema": "Compartimentalização Celular das Três Etapas",
+      "enunciado": "O catabolismo aeróbico da glicose é altamente organizado no espaço celular. De acordo com o esquema da apostila, em quais compartimentos ocorrem a Glicólise, o Ciclo de Krebs e a Cadeia Respiratória, respectivamente?",
+      "alternativas": {
+        "A": "Citoplasma (hialoplasma); matriz mitocondrial; e cristas mitocondriais.",
+        "B": "Núcleo celular; retículo endoplasmático liso; e complexo de Golgi.",
+        "C": "Lisossomos; espaço intermembranar; e vacúolos digestivos.",
+        "D": "Membrana plasmática; ribossomos citosólicos; e centríolos."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: a glicólise ocorre no citoplasma (hialoplasma/citosol), a 2ª etapa (Ciclo de Krebs) ocorre na matriz mitocondrial e a 3ª etapa (Cadeia Respiratória) ocorre nas cristas mitocondriais.",
+        "B": "Incorreta: o núcleo guarda o genoma e o retículo/Golgi atua na síntese e empacotamento de proteínas e lipídeos, não sendo as sedes do ciclo de Krebs ou da cadeia respiratória.",
+        "C": "Incorreta: lisossomos realizam digestão intracelular e vacúolos armazenam substâncias, sem abrigar as três vias da respiração aeróbica.",
+        "D": "Incorreta: os centríolos atuam na divisão celular e ribossomos na síntese proteica, não participando da quebra respiratória da glicose."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Locais da Respiração Celular e Sistema Energético Glicolítico Aeróbico"
+        ],
+        "fundamentacao": "Slide / Locais da Respiração Celular e Sistema Energético Glicolítico Aeróbico.",
+        "trechos_apoio": [
+          "CITOPLASMA: GLICÓLISE / MITOCÔNDRIAS: CICLO KREBS (Matriz) e CADEIA RESPIRATÓRIA (Cristas)"
+        ]
+      }
+    },
+    {
+      "id": "revisao-integrada_q015",
+      "slide_id": "revisao-integrada",
+      "slide_nome": "Revisão V1 - Fundamentos de Bioquímica (Gabarito)",
+      "arquivo_origem": "REVISÃO V1 FUND BIOQUÍMICA GABARITO_261008_210830.pdf",
+      "numero": 15,
+      "tema": "Glicólise",
+      "subtema": "Conceito Químico e Número de Reações Enzimáticas",
+      "enunciado": "A glicólise é a primeira etapa de oxidação da glicose. Como a apostila define essa via no que se refere ao número de carbonos envolvidos e à sequência enzimática de reações?",
+      "alternativas": {
+        "A": "É a conversão de uma molécula de glicose (6C) em duas moléculas de piruvato (3C), através de uma sequência de 10 reações (10 enzimas).",
+        "B": "É a transformação de 3 moléculas de piruvato (3C) em uma molécula de glicogênio (9C) em 2 etapas.",
+        "C": "É a quebra direta da glicose em 6 moléculas de dióxido de carbono sem participação de enzimas.",
+        "D": "É a desaminação de aminoácidos para gerar frutose livre através de 4 reações nos lisossomos."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: a apostila ensina que a glicólise é a conversão de uma molécula de glicose de 6 carbonos (6C) em duas moléculas de piruvato de 3 carbonos (3C), constituída por uma sequência de 10 reações catalisadas por 10 enzimas.",
+        "B": "Incorreta: o fluxo é catabólico (degradação da glicose em piruvato), e não anabólico de piruvato até glicogênio.",
+        "C": "Incorreta: a glicólise é estritamente enzimática e não converte a glicose diretamente em CO₂ livre (o CO₂ só é liberado na mitocôndria).",
+        "D": "Incorreta: a glicólise utiliza carboidratos e ocorre no citoplasma, não nos lisossomos."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Glicólise e Glicólise Anaeróbica"
+        ],
+        "fundamentacao": "Slide / Glicólise e Glicólise Anaeróbica.",
+        "trechos_apoio": [
+          "Conversão de uma molécula de glicose (6C) em duas moléculas de piruvato (3C)... É constituída por uma sequência de 10 reações (10 enzimas) divididas em duas fases"
+        ]
+      }
+    },
+    {
+      "id": "revisao-integrada_q016",
+      "slide_id": "revisao-integrada",
+      "slide_nome": "Revisão V1 - Fundamentos de Bioquímica (Gabarito)",
+      "arquivo_origem": "REVISÃO V1 FUND BIOQUÍMICA GABARITO_261008_210830.pdf",
+      "numero": 16,
+      "tema": "Glicólise",
+      "subtema": "Divisão em Fases (Preparatória vs. Pagamento)",
+      "enunciado": "As 10 reações da via glicolítica são organizadas didaticamente em dois grandes momentos metabólicos. Quais são essas duas fases e suas características centrais, conforme o material didático?",
+      "alternativas": {
+        "A": "Fase gástrica (digestão ácida) e Fase intestinal (absorção).",
+        "B": "1. Fase Preparatória (preparação, regulação e gasto de energia); e 2. Fase de Pagamento (produção de ATP e oxidação).",
+        "C": "Fase de fixação de carbono e Fase de liberação de nitrogênio.",
+        "D": "Fase hormonal (insulina) e Fase imune (anticorpos)."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: essas são etapas fisiológicas do sistema gastrointestinal, e não da via metabólica glicolítica celular.",
+        "B": "Correta: a via glicolítica é dividida em duas fases: a Fase Preparatória (onde ocorre preparação, regulação e gasto inicial de energia) e a Fase de Pagamento (onde ocorre produção de ATP e oxidação com redução de NAD).",
+        "C": "Incorreta: fixação de carbono ocorre no ciclo de Calvin em vegetais, não na glicólise animal.",
+        "D": "Incorreta: a via glicolítica é composta por reações enzimáticas no citoplasma, não por fases de anticorpos."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Glicólise ou Via Glicolítica Anaeróbica - Fases"
+        ],
+        "fundamentacao": "Slide / Glicólise ou Via Glicolítica Anaeróbica - Fases.",
+        "trechos_apoio": [
+          "1. FASE PREPARATÓRIA: Preparação, regulação e gasto de energia / 2. FASE DE PAGAMENTO: Produção de ATP e oxidação"
+        ]
+      }
+    },
+    {
+      "id": "revisao-integrada_q017",
+      "slide_id": "revisao-integrada",
+      "slide_nome": "Revisão V1 - Fundamentos de Bioquímica (Gabarito)",
+      "arquivo_origem": "REVISÃO V1 FUND BIOQUÍMICA GABARITO_261008_210830.pdf",
+      "numero": 17,
+      "tema": "Glicólise",
+      "subtema": "Saldo Energético da Glicólise Anaeróbica",
+      "enunciado": "Durante o percurso da glicólise anaeróbica, ocorrem investimentos e retornos moleculares de ATP. Qual é o balanço energético entre consumo e síntese de ATP descrito na apostila?",
+      "alternativas": {
+        "A": "A célula consome 4 ATP e produz 2 ATP, resultando em saldo negativo de -2 ATP.",
+        "B": "A célula gasta 2 ATP (durante a reação) e produz 4 ATP, apresentando um saldo energético positivo de 2 ATP.",
+        "C": "A célula gasta 10 ATP e produz 38 ATP diretamente na membrana plasmática.",
+        "D": "Não há consumo nem produção de ATP nesta etapa, sendo o saldo estritamente neutro."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: inverte o gasto e a produção; o saldo da via é positivo para a célula, fornecendo energia líquida imediata.",
+        "B": "Correta: o texto destaca textualmente que a célula gasta 2 ATP na fase preparatória e produz 4 ATP na fase de pagamento, resultando em um saldo líquido positivo de 2 ATP.",
+        "C": "Incorreta: 38 ATP é o rendimento teórico global máximo da respiração aeróbica mitocondrial completa, e não da glicólise isolada citoplasmática.",
+        "D": "Incorreta: ocorrem fosforilações em nível de substrato que sintetizam ATP líquido utilizável."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Glicólise Anaeróbica - Balanço"
+        ],
+        "fundamentacao": "Slide / Glicólise Anaeróbica - Balanço.",
+        "trechos_apoio": [
+          "Para a glicólise acontecer: A célula gasta 2 ATP (durante a reação) e produz 4 ATP. Portanto, a glicólise apresenta um saldo energético positivo de 2 ATP"
+        ]
+      }
+    },
+    {
+      "id": "revisao-integrada_q018",
+      "slide_id": "revisao-integrada",
+      "slide_nome": "Revisão V1 - Fundamentos de Bioquímica (Gabarito)",
+      "arquivo_origem": "REVISÃO V1 FUND BIOQUÍMICA GABARITO_261008_210830.pdf",
+      "numero": 18,
+      "tema": "Glicólise",
+      "subtema": "Regulação pela Fosfofrutoquinase (PFK)",
+      "enunciado": "A enzima fosfofrutoquinase catalisa uma das reações mais críticas da fase preparatória da glicólise. Conforme apontado na apostila, qual é o papel regulador dessa enzima e como ela responde aos níveis energéticos celulares?",
+      "alternativas": {
+        "A": "É a principal enzima no controle da via glicolítica, sendo inibida por altos níveis de ATP e estimulada por frutose-6-fosfato, AMP e ADP.",
+        "B": "É ativada por excesso de oxigênio e inibida exclusivamente por água fria.",
+        "C": "Atua transformando glicogênio diretamente em sacarose na matriz mitocondrial.",
+        "D": "É uma protease estomacal ativada exclusivamente por ácido clorídrico."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: a fosfofrutoquinase é a principal enzima no controle da via glicolítica; quando a célula possui altos níveis de ATP ela é inibida (desacelerando a quebra), sendo estimulada quando faltam energias (presença de AMP, ADP e acúmulo de frutose-6-fosfato).",
+        "B": "Incorreta: a regulação da enzima dá-se pelo estado energético dos adenilatos (ATP, ADP, AMP), e não por água fria.",
+        "C": "Incorreta: a enzima atua na via glicolítica citoplasmática (fosforilando frutose-6-fosfato a frutose-1,6-bisfosfato), e não sintetiza sacarose na mitocôndria.",
+        "D": "Incorreta: a protease estomacal ativada por ácido é a pepsina, não a fosfofrutoquinase."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Fosfofrutoquinase"
+        ],
+        "fundamentacao": "Slide / Fosfofrutoquinase.",
+        "trechos_apoio": [
+          "Fosfofrutoquinase - Principal enzima no controle da via glicolítica. Altos níveis de ATP exercem inibição desta enzima. É estimulada por frutose-6-fosfato, AMP e ADP"
+        ]
+      }
+    },
+    {
+      "id": "revisao-integrada_q019",
+      "slide_id": "revisao-integrada",
+      "slide_nome": "Revisão V1 - Fundamentos de Bioquímica (Gabarito)",
+      "arquivo_origem": "REVISÃO V1 FUND BIOQUÍMICA GABARITO_261008_210830.pdf",
+      "numero": 19,
+      "tema": "Glicólise",
+      "subtema": "Remoção de Hidrogênios e Redução de NAD",
+      "enunciado": "Durante a conversão da glicose em piruvato, ocorrem etapas essenciais de oxidorredução. De acordo com o material didático, quais enzimas realizam a retirada de hidrogênios e qual carreador recebe esses equivalentes redutores?",
+      "alternativas": {
+        "A": "As enzimas amilases, transferindo os hidrogênios para o oxigênio atmosférico livre.",
+        "B": "As enzimas desidrogenases, que retiram hidrogênios da glicose e os transferem para receptores NAD, formando 2 NADH₂.",
+        "C": "As lipases pancreáticas, ligando hidrogênios a moléculas de colesterol no citosol.",
+        "D": "As polimerases nucleares, que utilizam os hidrogênios para clivar RNA mensageiro."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: amilases são hidrolases digestivas da boca e pâncreas, não oxidorredutases citoplasmáticas.",
+        "B": "Correta: na conversão da glicose em piruvato, enzimas desidrogenases retiram hidrogênios e os transferem a dois receptores denominados NAD, formando 2 NADH₂ (cada NAD captura 2 hidrogênios).",
+        "C": "Incorreta: lipases hidrolisam lipídeos na digestão, não atuando na remoção de hidrogênios da glicólise.",
+        "D": "Incorreta: polimerases sintetizam fitas de ácidos nucleicos no núcleo celular, sem função na oxidação glicolítica."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Glicólise - Ação das Desidrogenases"
+        ],
+        "fundamentacao": "Slide / Glicólise - Ação das Desidrogenases.",
+        "trechos_apoio": [
+          "A ação de enzimas desidrogenases, são responsáveis pela remoção de hidrogênios. Nesse processo, os hidrogênios são retirados da glicose e transferidos a dois receptores denominados NAD... Cada NAD captura 2 hidrogênios. Logo, formam-se 2 NADH2"
+        ]
+      }
+    },
+    {
+      "id": "revisao-integrada_q020",
+      "slide_id": "revisao-integrada",
+      "slide_nome": "Revisão V1 - Fundamentos de Bioquímica (Gabarito)",
+      "arquivo_origem": "REVISÃO V1 FUND BIOQUÍMICA GABARITO_261008_210830.pdf",
+      "numero": 20,
+      "tema": "Glicólise Anaeróbica",
+      "subtema": "Produtos Finais e Investimento vs. Produção",
+      "enunciado": "O balanço material da via glicolítica anaeróbica sintetiza os insumos investidos e os produtos obtidos ao término das reações citoplasmáticas. Conforme o resumo da apostila, quais são os produtos finais gerados pela glicólise anaeróbica por molécula de glicose?",
+      "alternativas": {
+        "A": "1 molécula de glicogênio, 4 ATPs líquidos e 6 moléculas de oxigênio.",
+        "B": "2 piruvatos, 2 NADH e um saldo líquido de 2 ATP.",
+        "C": "6 moléculas de dióxido de carbono e 36 ATPs sem produção de piruvato.",
+        "D": "Exclusivamente 2 moléculas de água e glicerol livre."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a via quebra a glicose e não gera glicogênio; o saldo líquido de ATP é 2, não 4.",
+        "B": "Correta: a apostila sintetiza expressamente os produtos da glicólise anaeróbica: 2 piruvatos, 2 NADH e saldo de 2 ATP na reação (Investimento: Glicose + 2 NAD+ + 2 ADP + 2 Pi / Produção: 2 piruvatos + 2 NADH + 2 ATP).",
+        "C": "Incorreta: a oxidação completa a CO₂ com formação de 36 ATP requer o ciclo de Krebs e a cadeia respiratória mitocondrial aeróbica.",
+        "D": "Incorreta: os produtos primários da clivagem citoplasmática são os compostos carbonados de 3 carbonos (piruvato) acompanhados de NADH e ATP."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Produto da Glicólise Anaeróbica"
+        ],
+        "fundamentacao": "Slide / Produto da Glicólise Anaeróbica.",
+        "trechos_apoio": [
+          "PRODUTO DA GLICÓLISE ANAERÓBICA: • 2 PIRUVATOS • 2 NADH • SALDO DE 2 ATP NA REAÇÃO. Investimento: (Glicose + 2 NAD+ + 2 ADP + 2 Pi) / Produção: (2 piruvato + 2 NADH + 2 ATP)"
+        ]
+      }
+    },
+    {
+      "id": "revisao-integrada_q021",
+      "slide_id": "revisao-integrada",
+      "slide_nome": "Revisão V1 - Fundamentos de Bioquímica (Gabarito)",
+      "arquivo_origem": "REVISÃO V1 FUND BIOQUÍMICA GABARITO_261008_210830.pdf",
+      "numero": 21,
+      "tema": "Destinos do Piruvato",
+      "subtema": "Condições para a Formação de Lactato",
+      "enunciado": "O piruvato gerado no citosol pode seguir rotas aeróbicas ou anaeróbicas. De acordo com o material didático, sob quais condições biológicas ocorre a produção de lactato?",
+      "alternativas": {
+        "A": "Exclusivamente quando a glicemia arterial atinge valores abaixo de zero.",
+        "B": "Quando não há oxigênio suficiente ou na ausência de mitocôndrias na célula.",
+        "C": "Sempre que o pH estomacal atinge neutralidade absoluta (pH 7,0).",
+        "D": "Apenas durante o repouso absoluto com saturação de 100% de oxigênio."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a glicemia não atinge valores negativos e a hipoglicemia ativa a gliconeogênese, não sendo a definição da via láctica celular.",
+        "B": "Correta: a apostila define explicitamente que o lactato é produzido quando: 1) não há oxigênio suficiente (anóxia/hipóxia); ou 2) na ausência de mitocôndria (como nas hemácias maduras).",
+        "C": "Incorreta: o pH do estômago atua na digestão luminal de proteínas e não dita a fermentação intracelular de piruvato a lactato.",
+        "D": "Incorreta: em repouso com oxigenação adequada, o piruvato é direcionado para a respiração aeróbica mitocondrial, não para a via do lactato."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Formação de Lactato no Sistema Anaeróbico"
+        ],
+        "fundamentacao": "Slide / Formação de Lactato no Sistema Anaeróbico.",
+        "trechos_apoio": [
+          "O LACTATO É PRODUZIDO QUANDO: • NÃO HÁ OXIGÊNIO SUFICIENTE • NA AUSÊNCIA DE MITOCÔNDRIA"
+        ]
+      }
+    },
+    {
+      "id": "revisao-integrada_q022",
+      "slide_id": "revisao-integrada",
+      "slide_nome": "Revisão V1 - Fundamentos de Bioquímica (Gabarito)",
+      "arquivo_origem": "REVISÃO V1 FUND BIOQUÍMICA GABARITO_261008_210830.pdf",
+      "numero": 22,
+      "tema": "Destinos do Piruvato",
+      "subtema": "Tecidos que Dependem do Metabolismo Anaeróbico",
+      "enunciado": "Algumas células e tecidos dependem rotineiramente da glicólise anaeróbica para suprir suas demandas metabólicas. Conforme a lista apresentada no slide sobre metabolismo anaeróbico, quais tecidos e estruturas celulares realizam essa via?",
+      "alternativas": {
+        "A": "Córtex cerebral e miocárdio ventricular esquerdo.",
+        "B": "Cristalino, córnea do olho, medula renal, testículos, leucócitos e hemácias.",
+        "C": "Exclusivamente os adipócitos brancos e as células beta pancreáticas.",
+        "D": "Células ósseas e hepatócitos centrolobulares."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o cérebro e o miocárdio são altamente dependentes da respiração aeróbica com elevado suprimento de oxigênio.",
+        "B": "Correta: a apostila lista expressamente os tecidos sob metabolismo anaeróbico: cristalino, córnea do olho, medula renal, testículos, leucócitos e hemácias.",
+        "C": "Incorreta: adipócitos e células beta realizam vias aeróbicas ativas para síntese lipídica e secreção de insulina.",
+        "D": "Incorreta: o fígado (hepatócitos) realiza respiração aeróbica plena e gliconeogênese, não sendo o exemplo típico listado para anaerobiose basal."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Destino do Piruvato - Metabolismo Anaeróbico"
+        ],
+        "fundamentacao": "Slide / Destino do Piruvato - Metabolismo Anaeróbico.",
+        "trechos_apoio": [
+          "Metabolismo Anaeróbico: cristalino, córnea do olho, medula renal, testículos, leucócitos, hemácias. Piruvato ↔ Lactato"
+        ]
+      }
+    },
+    {
+      "id": "revisao-integrada_q023",
+      "slide_id": "revisao-integrada",
+      "slide_nome": "Revisão V1 - Fundamentos de Bioquímica (Gabarito)",
+      "arquivo_origem": "REVISÃO V1 FUND BIOQUÍMICA GABARITO_261008_210830.pdf",
+      "numero": 23,
+      "tema": "Fermentação Láctica",
+      "subtema": "Destino do Excedente de Lactato no Fígado",
+      "enunciado": "Durante exercícios físicos intensos, o músculo em sobrecarga metabólica acumula ácido lático e lactato. Segundo a apostila, para onde é transportado o excedente de lactato e qual é a sua finalidade metabólica?",
+      "alternativas": {
+        "A": "É eliminado diretamente pelas glândulas salivares para digestão de amido.",
+        "B": "É transportado para o fígado para produzir nova glicose (gliconeogênese).",
+        "C": "É armazenado na matriz extracelular dos ossos longos como reserva de cálcio.",
+        "D": "É convertido em gás carbônico no interior das hemácias desprovidas de enzimas."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o lactato não é eliminado na saliva para quebrar amido bucal.",
+        "B": "Correta: o esquema da apostila destaca expressamente: \"Músculos em exercício → ↓ pH, cãibras → Excedente de lactato vai para o fígado para produzir glicose\" (via gliconeogênica).",
+        "C": "Incorreta: o lactato não é componente mineral de estocagem de cálcio nos ossos.",
+        "D": "Incorreta: as hemácias geram lactato e o liberam no plasma por não terem mitocôndrias para oxidá-lo a CO₂."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Metabolismo Anaeróbico - Músculos em Exercício"
+        ],
+        "fundamentacao": "Slide / Metabolismo Anaeróbico - Músculos em Exercício.",
+        "trechos_apoio": [
+          "Músculos em exercício: ↓ pH, cãibras. Excedente de lactato → fígado para produzir glicose"
+        ]
+      }
+    },
+    {
+      "id": "revisao-integrada_q024",
+      "slide_id": "revisao-integrada",
+      "slide_nome": "Revisão V1 - Fundamentos de Bioquímica (Gabarito)",
+      "arquivo_origem": "REVISÃO V1 FUND BIOQUÍMICA GABARITO_261008_210830.pdf",
+      "numero": 24,
+      "tema": "Glicólise Anaeróbica",
+      "subtema": "Velocidade Relativa da Via e Produtos Finais",
+      "enunciado": "A via glicolítica anaeróbica apresenta características cinéticas singulares quando comparada ao metabolismo aeróbico completo. Conforme destacado no material didático, quais são os produtos finais dessa via e qual é sua velocidade relativa?",
+      "alternativas": {
+        "A": "Produz lactato e hidrogênio livre, sendo uma via muito mais rápida que a glicólise aeróbica.",
+        "B": "Produz água e oxigênio puro, sendo uma via dez vezes mais lenta que o ciclo de Krebs.",
+        "C": "Produz maltose e sacarose, dependendo obrigatoriamente de oxigênio na reação.",
+        "D": "Produz glicogênio muscular com consumo de hidrogênio livre."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: a apostila ensina textualmente que a glicólise anaeróbica é a degradação da glicose sem a participação de O₂, tendo como produto final o lactato e hidrogênio livre (H⁺), e que esta via é muito mais rápida que a glicólise aeróbica.",
+        "B": "Incorreta: a via é rápida e não gera oxigênio livre nem água pura como produtos.",
+        "C": "Incorreta: maltose e sacarose são carboidratos alimentares digeridos no lúmen intestinal.",
+        "D": "Incorreta: a via degrada glicose até lactato, não sintetizando glicogênio."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Glicólise Anaeróbica - Características"
+        ],
+        "fundamentacao": "Slide / Glicólise Anaeróbica - Características.",
+        "trechos_apoio": [
+          "GLICÓLISE ANAERÓBICA: É a degradação da glicose sem a participação de O₂ na reação. Tendo como produto final o LACTATO E HIDROGÊNIO LIVRE. Esta via é muito mais rápida que a glicólise aeróbica"
+        ]
+      }
+    },
+    {
+      "id": "revisao-integrada_q025",
+      "slide_id": "revisao-integrada",
+      "slide_nome": "Revisão V1 - Fundamentos de Bioquímica (Gabarito)",
+      "arquivo_origem": "REVISÃO V1 FUND BIOQUÍMICA GABARITO_261008_210830.pdf",
+      "numero": 25,
+      "tema": "Transição Mitocondrial",
+      "subtema": "Aporte do Piruvato e Destino do Grupo Acetil",
+      "enunciado": "Em condições de suprimento adequado de oxigênio, o piruvato gerado no citosol segue para a respiração aeróbica. Para qual compartimento celular ele é transportado e qual composto intermediário é gerado para iniciar o Ciclo de Krebs?",
+      "alternativas": {
+        "A": "É transportado para o interior do lisossomo, formando ácido pirúvico livre.",
+        "B": "É transportado para dentro da mitocôndria, sendo oxidado e convertido em Acetil-CoA com liberação de CO₂.",
+        "C": "É direcionado ao retículo endoplasmático rugoso, convertendo-se em amilase pancreática.",
+        "D": "Permanece indefinidamente no citoplasma até condensar-se em celulose."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: lisossomos atuam na lise de macromoléculas estranhas ou velhas, não na formação de Acetil-CoA.",
+        "B": "Correta: em condições aeróbicas, o piruvato é transportado para dentro da mitocôndria para gerar o grupo acetil-coenzima A (Acetil-CoA), liberando CO₂ e ativando o ciclo de Krebs e a cadeia respiratória.",
+        "C": "Incorreta: amilase pancreática é sintetizada por células acinares do pâncreas, não derivando da quebra mitocondrial de piruvato.",
+        "D": "Incorreta: células humanas não produzem celulose."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Segundo Destino do Piruvato e Destinos do Piruvato"
+        ],
+        "fundamentacao": "Slide / Segundo Destino do Piruvato e Destinos do Piruvato.",
+        "trechos_apoio": [
+          "Conversão do piruvato em acetil-CoA. Para gerar o grupo acetil-coenzima A o piruvato tem que ser oxidado, liberando CO₂... É transportado para dentro da mitocôndria para completar sua oxidação até CO₂ e H₂O"
+        ]
+      }
+    },
+    {
+      "id": "revisao-integrada_q026",
+      "slide_id": "revisao-integrada",
+      "slide_nome": "Revisão V1 - Fundamentos de Bioquímica (Gabarito)",
+      "arquivo_origem": "REVISÃO V1 FUND BIOQUÍMICA GABARITO_261008_210830.pdf",
+      "numero": 26,
+      "tema": "Transição Mitocondrial",
+      "subtema": "Complexo Piruvato Desidrogenase",
+      "enunciado": "A conversão de piruvato em Acetil-CoA na matriz mitocondrial é mediada por um complexo enzimático de alta importância regulatória. Qual é esse complexo e quais reações químicas consecutivas ele executa?",
+      "alternativas": {
+        "A": "Complexo citocromo c oxidase; realizando hidrólises e condensações lipídicas.",
+        "B": "Complexo enzimático piruvato desidrogenase; realizando reações consecutivas de descarboxilação e desidrogenação.",
+        "C": "Complexo da lactase intestinal; promovendo síntese de sacarose por desidratação.",
+        "D": "Complexo da ATPase; clivando quatro moléculas de glicose."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o citocromo c oxidase atua no transporte final de elétrons na crista mitocondrial, não na oxidação de piruvato.",
+        "B": "Correta: o slide identifica expressamente o \"complexo enzimático piruvato desidrogenase\", responsável por reações consecutivas de descarboxilação (perda de CO₂) e desidrogenação (formação de NADH) do piruvato até Acetil-CoA.",
+        "C": "Incorreta: a lactase atua na digestão intestinal de lactose, não na mitocôndria.",
+        "D": "Incorreta: a ATPase hidrolisa ATP em ADP e Pi, sem atuar na descarboxilação de piruvato."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Conversão do Piruvato em Acetil CoA e Composto Enzimático Piruvato Deidrogenase"
+        ],
+        "fundamentacao": "Slide / Conversão do Piruvato em Acetil CoA e Composto Enzimático Piruvato Deidrogenase.",
+        "trechos_apoio": [
+          "COMPLEXO ENZIMÁTICO PIRUVATO DEIDROGENASE: Reações consecutivas de descarboxilação e desidrogenação do piruvato até Acetil CoA"
+        ]
+      }
+    },
+    {
+      "id": "revisao-integrada_q027",
+      "slide_id": "revisao-integrada",
+      "slide_nome": "Revisão V1 - Fundamentos de Bioquímica (Gabarito)",
+      "arquivo_origem": "REVISÃO V1 FUND BIOQUÍMICA GABARITO_261008_210830.pdf",
+      "numero": 27,
+      "tema": "Descarboxilação do Piruvato",
+      "subtema": "Reagentes, Produtos e Balanço de Carbonos",
+      "enunciado": "Na reação catalisada pelo complexo da piruvato desidrogenase, a molécula de piruvato passa por uma alteração estrutural no número de carbonos. Conforme o esquema didático da reação, qual é o balanço estequiométrico dessa etapa?",
+      "alternativas": {
+        "A": "Piruvato (3C) + Coenzima A + 1 NAD⁺ → Acetil-Coenzima A (2C) + CO₂ + NADH.",
+        "B": "Piruvato (3C) + 2 FAD → Lactato (6C) + 3 ATP.",
+        "C": "Piruvato (2C) + Glicose → Glicogênio (4C) + Oxigênio gasoso.",
+        "D": "Piruvato (3C) + Água → Frutose (6C) sem liberação de gases."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: o esquema do slide detalha exatamente: Piruvato (3C) + Coenzima A + 1 NAD⁺ → Acetil-Coenzima A (2C com grupamento acetil) + CO₂ (liberado na respiração) + NADH.",
+        "B": "Incorreta: a formação de Acetil-CoA não consome FAD e o lactato tem 3 carbonos, não 6.",
+        "C": "Incorreta: o piruvato possui 3 carbonos e a reação não produz glicogênio.",
+        "D": "Incorreta: não há síntese de frutose nessa reação mitocondrial catabólica."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Descarboxilação do Piruvato"
+        ],
+        "fundamentacao": "Slide / Descarboxilação do Piruvato.",
+        "trechos_apoio": [
+          "Piruvato (3C) + Coenzima A + 1 molécula de NAD⁺ → Acetil-Coenzima A (Acetil 2Carbonos) + CO₂ (Será liberado na respiração) + NADH"
+        ]
+      }
+    },
+    {
+      "id": "revisao-integrada_q028",
+      "slide_id": "revisao-integrada",
+      "slide_nome": "Revisão V1 - Fundamentos de Bioquímica (Gabarito)",
+      "arquivo_origem": "REVISÃO V1 FUND BIOQUÍMICA GABARITO_261008_210830.pdf",
+      "numero": 28,
+      "tema": "Respiração Aeróbica",
+      "subtema": "Produção Total de Dióxido de Carbono (CO₂)",
+      "enunciado": "Durante a degradação aeróbica completa de uma molécula de glicose (C₆H₁₂O₆), formam-se 6 moléculas de CO₂. De acordo com a contabilidade apresentada no slide sobre o sistema glicolítico aeróbico, onde e como são geradas essas 6 moléculas de CO₂?",
+      "alternativas": {
+        "A": "Todas as 6 são formadas na cavidade bucal durante a mastigação.",
+        "B": "3 para cada piruvato: 1 na conversão do piruvato em Acetil-CoA e 2 no Ciclo de Krebs.",
+        "C": "4 formadas na via glicolítica citoplasmática e 2 na cadeia respiratória.",
+        "D": "Formadas unicamente na conversão anaeróbica de piruvato em ácido lático."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a saliva não produz CO₂ a partir da glicólise.",
+        "B": "Correta: a apostila explica que na degradação da glicose formam-se 6 moléculas de CO₂ — sendo 3 para cada molécula de piruvato: 1 formada na conversão do piruvato em Acetil-CoA e 2 formadas dentro do ciclo de Krebs.",
+        "C": "Incorreta: a glicólise citoplasmática converte 6C (glicose) em 2 × 3C (piruvato) sem nenhuma liberação de CO₂.",
+        "D": "Incorreta: a fermentação láctica ocorre sem descarboxilação (o lactato mantém os 3 carbonos do piruvato)."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Sistema Glicolítico Aeróbico - Formação de CO₂"
+        ],
+        "fundamentacao": "Slide / Sistema Glicolítico Aeróbico - Formação de CO₂.",
+        "trechos_apoio": [
+          "Na degradação da glicose (C₆H₁₂O₆) formam 6 moléculas de CO₂ (3 para cada molécula de piruvato): (1 é formada na conversão do piruvato em Acetil CoA) / (2 são formadas no ciclo de Krebs)"
+        ]
+      }
+    },
+    {
+      "id": "revisao-integrada_q029",
+      "slide_id": "revisao-integrada",
+      "slide_nome": "Revisão V1 - Fundamentos de Bioquímica (Gabarito)",
+      "arquivo_origem": "REVISÃO V1 FUND BIOQUÍMICA GABARITO_261008_210830.pdf",
+      "numero": 29,
+      "tema": "Ciclo de Krebs",
+      "subtema": "Conceito Geral e Número de Etapas",
+      "enunciado": "O Ciclo de Krebs (ou ciclo do ácido cítrico) é a rota oxidativa central da respiração celular. Onde ele ocorre na célula e por quantas etapas reacionais ele é constituído, conforme o texto didático?",
+      "alternativas": {
+        "A": "Ocorre no hialoplasma e possui 2 etapas enzimáticas.",
+        "B": "Ocorre na matriz mitocondrial e é composto por um conjunto de 9 etapas formando um ciclo.",
+        "C": "Ocorre nas cristas mitocondriais e possui 10 reações lineares idênticas à glicólise.",
+        "D": "Ocorre no interior dos nucléolos através de 3 desidrogenações isoladas."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: no hialoplasma ocorre a glicólise com 10 reações.",
+        "B": "Correta: a apostila define textualmente que o ciclo de Krebs ocorre na matriz mitocondrial (2ª etapa da respiração aeróbica) e é formado por um conjunto de 9 etapas formando um ciclo.",
+        "C": "Incorreta: as cristas mitocondriais abrigam a cadeia respiratória transportadora de elétrons, não o ciclo de 9 etapas.",
+        "D": "Incorreta: o nucléolo sintetiza subunidades ribossômicas e não participa do ciclo do ácido cítrico."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Ciclo de Krebs (2ª Etapa)"
+        ],
+        "fundamentacao": "Slide / Ciclo de Krebs (2ª Etapa).",
+        "trechos_apoio": [
+          "Ainda na matriz mitocondrial, ocorre a 2ª etapa do processo. O ciclo de Krebs é um conjunto de 9 etapas, formando um ciclo"
+        ]
+      }
+    },
+    {
+      "id": "revisao-integrada_q030",
+      "slide_id": "revisao-integrada",
+      "slide_nome": "Revisão V1 - Fundamentos de Bioquímica (Gabarito)",
+      "arquivo_origem": "REVISÃO V1 FUND BIOQUÍMICA GABARITO_261008_210830.pdf",
+      "numero": 30,
+      "tema": "Ciclo de Krebs",
+      "subtema": "Produtos Formados por Cada Grupo Acetil / Ácido Pirúvico",
+      "enunciado": "Ao término de cada volta do ciclo de Krebs para cada grupo acetil (ou por ácido pirúvico oxidado), quais produtos energéticos e equivalentes de redução são formados na matriz mitocondrial?",
+      "alternativas": {
+        "A": "10 ATP, 4 NADH₂ e 2 FADH₂.",
+        "B": "3 NADH₂, 1 FADH₂, 1 ATP (ou GTP) e 2 CO₂.",
+        "C": "Apenas 1 CO₂ e ácido lático livre.",
+        "D": "6 NADH₂ e 38 ATPs diretos sem produção de CO₂."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: esses valores excedem o saldo de uma volta unitária do ciclo.",
+        "B": "Correta: a apostila detalha que por cada ácido pirúvico/grupo acetil são formados: 3 NADH₂, 1 FADH₂, 1 ATP (ou GTP) e 2 CO₂ (duplicando para 6 NADH₂, 2 FADH₂, 2 ATP e 4 CO₂ ao considerar a molécula inteira de glicose).",
+        "C": "Incorreta: o ciclo libera 2 CO₂ por acetil e produz nucleotídeos de alta energia, sem gerar ácido lático.",
+        "D": "Incorreta: a síntese direta no ciclo é de 1 ATP/GTP por volta; os 38 ATPs dependem da cadeia respiratória."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Produtos Formados no Ciclo de Krebs por cada Ácido Pirúvico"
+        ],
+        "fundamentacao": "Slide / Produtos Formados no Ciclo de Krebs por cada Ácido Pirúvico.",
+        "trechos_apoio": [
+          "PRODUTOS FORMADOS NO CICLO DE KREBS POR CADA ÁCIDO PIRÚVICO: 3 NADH₂, 1 FADH₂, 1 ATP... Ao final gera um grupo acetil: 2 CO₂ (4 por glicose); 3 NADH (6 NADH por glicose); 1 GTP; 1 FADH₂"
+        ]
+      }
+    },
+    {
+      "id": "revisao-integrada_q031",
+      "slide_id": "revisao-integrada",
+      "slide_nome": "Revisão V1 - Fundamentos de Bioquímica (Gabarito)",
+      "arquivo_origem": "REVISÃO V1 FUND BIOQUÍMICA GABARITO_261008_210830.pdf",
+      "numero": 31,
+      "tema": "Ciclo de Krebs",
+      "subtema": "Produtos Formados no Ciclo de Krebs por Molécula de Glicose",
+      "enunciado": "Cada molécula de glicose que ingressa na via glicolítica resulta na produção de duas moléculas de piruvato, as quais são convertidas em duas moléculas de Acetil-CoA. Considerando a oxidação completa proveniente de uma molécula de glicose, quais produtos são formados no Ciclo de Krebs?",
+      "alternativas": {
+        "A": "1 NADH₂, 1 FADH₂ e 1 ATP.",
+        "B": "6 NADH₂, 2 FADH₂, 2 ATP (ou GTP) e 4 CO₂.",
+        "C": "10 CO₂, 1 NADH₂ e 38 ATPs diretos.",
+        "D": "Exclusivamente lactato e água oxigenada."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: esses valores correspondem a um balanço fracionário e incorreto; cada volta individual forma 3 NADH, 1 FADH e 1 ATP.",
+        "B": "Correta: como uma molécula de glicose gera dois ácidos pirúvicos (duas voltas no ciclo), o resultado final do ciclo de Krebs é duplicado: 6 NADH₂, 2 FADH₂, 2 ATP (ou GTP) e 4 CO₂.",
+        "C": "Incorreta: o ciclo de Krebs a partir de uma glicose libera 4 CO₂ (somados aos 2 da piruvato desidrogenase, totalizam 6 CO₂), e o ATP direto ao nível do substrato é de apenas 2.",
+        "D": "Incorreta: o ciclo de Krebs é uma via oxidativa aeróbica mitocondrial e não produz lactato."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Produtos Formados no Ciclo de Krebs por cada Ácido Pirúvico"
+        ],
+        "fundamentacao": "Slide / Produtos Formados no Ciclo de Krebs por cada Ácido Pirúvico.",
+        "trechos_apoio": [
+          "COMO SÃO 2 MOLÉCULAS DE ÁCIDO PIRÚVICO, O RESULTADO FINAL É: 6 NADH₂, 2 FADH₂, 2 ATP"
+        ]
+      }
+    },
+    {
+      "id": "revisao-integrada_q032",
+      "slide_id": "revisao-integrada",
+      "slide_nome": "Revisão V1 - Fundamentos de Bioquímica (Gabarito)",
+      "arquivo_origem": "REVISÃO V1 FUND BIOQUÍMICA GABARITO_261008_210830.pdf",
+      "numero": 32,
+      "tema": "Bioenergética do Ciclo de Krebs",
+      "subtema": "Equivalência Energética de NADH e FADH",
+      "enunciado": "Para a conversão da energia contida nas coenzimas reduzidas em ATP na cadeia respiratória, a apostila estabelece coeficientes fixos de rendimento. De acordo com o slide \"Saldo Energético\", qual é o rendimento em ATP adotado para cada molécula de NADH e de FADH?",
+      "alternativas": {
+        "A": "Cada NADH rende 1 ATP e cada FADH rende 5 ATPs.",
+        "B": "Cada NADH rende 3 ATPs e cada FADH rende 2 ATPs.",
+        "C": "Cada NADH rende 12 ATPs e cada FADH rende 24 ATPs.",
+        "D": "Ambos rendem exatamente meio ATP por molécula oxidada."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: valores invertidos e em desacordo com as referências clássicas da apostila.",
+        "B": "Correta: a regra geral fixada no material é explícita: \"CADA NADH RENDE = 3 ATP\" e \"CADA FADH RENDE = 2 ATP\".",
+        "C": "Incorreta: 12 ATPs é o rendimento total de uma volta completa no ciclo de Krebs, não o valor unitário de um único NADH.",
+        "D": "Incorreta: o rendimento é inteiro conforme padronizado nos cálculos do slide."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Saldo Energético do Ciclo de Krebs"
+        ],
+        "fundamentacao": "Slide / Saldo Energético do Ciclo de Krebs.",
+        "trechos_apoio": [
+          "SALDO ENERGÉTICO: • CADA NADH RENDE = 3 ATP • CADA FADH RENDE = 2 ATP"
+        ]
+      }
+    },
+    {
+      "id": "revisao-integrada_q033",
+      "slide_id": "revisao-integrada",
+      "slide_nome": "Revisão V1 - Fundamentos de Bioquímica (Gabarito)",
+      "arquivo_origem": "REVISÃO V1 FUND BIOQUÍMICA GABARITO_261008_210830.pdf",
+      "numero": 33,
+      "tema": "Bioenergética do Ciclo de Krebs",
+      "subtema": "Cálculo do Saldo Energético por Volta (12 ATP e 24 ATP)",
+      "enunciado": "Com base na equivalência de 3 ATPs por NADH e 2 ATPs por FADH, a apostila demonstra o cálculo do rendimento energético gerado no Ciclo de Krebs. Qual é o saldo energético obtido em 1 volta e em 2 voltas no Ciclo de Krebs, respectivamente?",
+      "alternativas": {
+        "A": "1 volta = 6 ATPs; 2 voltas = 12 ATPs.",
+        "B": "1 volta = 12 ATPs; 2 voltas = 24 ATPs.",
+        "C": "1 volta = 36 ATPs; 2 voltas = 72 ATPs.",
+        "D": "1 volta = 2 ATPs; 2 voltas = 4 ATPs."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: 12 ATPs é a soma de apenas uma volta do ciclo.",
+        "B": "Correta: na apostila consta: 3 NADH × 3 = 9 ATP; 1 FADH × 2 = 2 ATP; 1 ATP = 1 ATP. Somando: 1 volta = 12 ATP; logo, 2 voltas = 24 ATP.",
+        "C": "Incorreta: 36 ATPs é o rendimento global aproximado de toda a respiração aeróbica com a lançadeira glicerol-fosfato, não de uma única volta.",
+        "D": "Incorreta: 2 ATPs é o rendimento obtido exclusivamente ao nível do substrato nas duas voltas, desconsiderando a cadeia respiratória."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Saldo Energético do Ciclo de Krebs"
+        ],
+        "fundamentacao": "Slide / Saldo Energético do Ciclo de Krebs.",
+        "trechos_apoio": [
+          "SÃO FORMADOS: • 3 NADH X 3 = 09 ATP • 1 FADH X 2 = 02 ATP • 1 ATP = 01 ATP • 1 VOLTA = 12 ATP • 2 VOLTAS = 24 ATP"
+        ]
+      }
+    },
+    {
+      "id": "revisao-integrada_q034",
+      "slide_id": "revisao-integrada",
+      "slide_nome": "Revisão V1 - Fundamentos de Bioquímica (Gabarito)",
+      "arquivo_origem": "REVISÃO V1 FUND BIOQUÍMICA GABARITO_261008_210830.pdf",
+      "numero": 34,
+      "tema": "Saldo do Sistema Glicolítico Aeróbico",
+      "subtema": "Soma das 2 Voltas do Ciclo com os 2 NADH da Descarboxilação",
+      "enunciado": "No slide intitulado \"Saldo Energético do Sistema Glicolítico Aeróbico\", é apresentado um cálculo intermediário que soma a energia das duas voltas do Ciclo de Krebs com os 2 NADH produzidos no início da reação mitocondrial (transição do piruvato). Qual é o total de ATP resultante dessa soma específica?",
+      "alternativas": {
+        "A": "10 ATPs.",
+        "B": "20 ATPs.",
+        "C": "30 ATPs.",
+        "D": "40 ATPs."
+      },
+      "gabarito": "C",
+      "explicacoes": {
+        "A": "Incorreta: valor muito abaixo do cálculo da oxidação mitocondrial.",
+        "B": "Incorreta: 24 ATPs decorrem apenas das duas voltas do ciclo.",
+        "C": "Correta: a conta descrita no slide apresenta: 2 voltas no ciclo de Krebs = 24 ATP; somadas aos 2 NADH da transição mitocondrial (2 × 3 = 6 ATP), obtém-se o total parcial de 30 ATPs.",
+        "D": "Incorreta: ultrapassa o somatório intermediário demonstrado na apostila."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Saldo Energético do Sistema Glicolítico Aeróbico"
+        ],
+        "fundamentacao": "Slide / Saldo Energético do Sistema Glicolítico Aeróbico.",
+        "trechos_apoio": [
+          "SALDO ENERGÉTICO DO SISTEMA GLICOLÍTICO AERÓBICO: • 2 VOLTAS NO CICLO DE KREBS: 24 ATP • 2 NADH DO INÍCIO DA REAÇÃO: 2 x 3 = 06 ATP → 30 ATP"
+        ]
+      }
+    },
+    {
+      "id": "revisao-integrada_q035",
+      "slide_id": "revisao-integrada",
+      "slide_nome": "Revisão V1 - Fundamentos de Bioquímica (Gabarito)",
+      "arquivo_origem": "REVISÃO V1 FUND BIOQUÍMICA GABARITO_261008_210830.pdf",
+      "numero": 35,
+      "tema": "Sistemas de Lançadeiras",
+      "subtema": "Por que Existem as Lançadeiras?",
+      "enunciado": "O NADH produzido na glicólise citoplasmática precisa transferir seus elétrons para a cadeia transportadora situada no interior da mitocôndria. Por que essa transferência depende de sistemas de lançadeiras, segundo a apostila?",
+      "alternativas": {
+        "A": "Porque a membrana mitocondrial consome todo o oxigênio antes que o NADH se aproxime.",
+        "B": "Porque não há uma proteína transportadora de NADH na membrana mitocondrial, existindo um transporte seletivo de hidrogênios do citoplasma para a mitocôndria.",
+        "C": "Porque o NADH citoplasmático é destruído imediatamente pela enzima fosfofrutoquinase.",
+        "D": "Porque os elétrons do citoplasma só conseguem atravessar a membrana se estiverem ligados à celulose."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a membrana interna mitocondrial não consome o oxigênio por antecipação; o aceptor final é a citocromo oxidase na matriz/crista.",
+        "B": "Correta: a apostila ensina textualmente: \"Não há uma proteína transportadora de NADH na membrana mitocondrial. Existe um transporte seletivo de hidrogênios do NADH citoplasmático para o NAD mitocondrial\" através de sistemas de lançadeiras.",
+        "C": "Incorreta: a fosfofrutoquinase atua na glicólise fosforilando frutose-6-fosfato e não destrói NADH.",
+        "D": "Incorreta: celulose é polissacarídeo vegetal e não participa do transporte intracelular de equivalentes de redução."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Sistema Lançadeira"
+        ],
+        "fundamentacao": "Slide / Sistema Lançadeira.",
+        "trechos_apoio": [
+          "O NADH PRODUZIDO NO CITOPLASMA PELA GLICÓLISE DEVE TER ACESSO A CADEIA TRANSPORTADORA DE ELÉTRONS. NÃO HÁ UMA PROTEÍNA TRANSPORTADORA DE NADH NA MEMBRANA MITOCONDRIAL. EXISTE UM TRANSPORTE SELETIVO DE HIDROGÊNIOS..."
+        ]
+      }
+    },
+    {
+      "id": "revisao-integrada_q036",
+      "slide_id": "revisao-integrada",
+      "slide_nome": "Revisão V1 - Fundamentos de Bioquímica (Gabarito)",
+      "arquivo_origem": "REVISÃO V1 FUND BIOQUÍMICA GABARITO_261008_210830.pdf",
+      "numero": 36,
+      "tema": "Sistemas de Lançadeiras",
+      "subtema": "Lançadeira Aspartato-Malato (AM)",
+      "enunciado": "A lançadeira Aspartato-Malato (AM) transfere os elétrons do NADH citoplasmático para o NAD⁺ da matriz mitocondrial. Conforme a equivalência indicada na apostila, quantos ATPs são gerados a partir dos 2 NADH citosólicos através dessa lançadeira?",
+      "alternativas": {
+        "A": "2 ATPs.",
+        "B": "4 ATPs.",
+        "C": "6 ATPs.",
+        "D": "12 ATPs."
+      },
+      "gabarito": "C",
+      "explicacoes": {
+        "A": "Incorreta: 2 ATPs é o saldo direto da glicólise anaeróbica.",
+        "B": "Incorreta: 4 ATPs é o rendimento gerado pela lançadeira Glicerol-Fosfato.",
+        "C": "Correta: como a lançadeira Aspartato-Malato transfere os hidrogênios para o NAD mitocondrial, cada um rende 3 ATPs: 2 NADH × 3 = 6 ATP (AM = 6 ATP).",
+        "D": "Incorreta: 12 ATPs é o saldo de uma volta inteira no ciclo de Krebs."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Sistema Lançadeiras"
+        ],
+        "fundamentacao": "Slide / Sistema Lançadeiras.",
+        "trechos_apoio": [
+          "ASPARTATO MALATO (AM) 2 NADH X 3 = 6 ATP... ASPARTATO MALATO = (AM = 6 ATP)"
+        ]
+      }
+    },
+    {
+      "id": "revisao-integrada_q037",
+      "slide_id": "revisao-integrada",
+      "slide_nome": "Revisão V1 - Fundamentos de Bioquímica (Gabarito)",
+      "arquivo_origem": "REVISÃO V1 FUND BIOQUÍMICA GABARITO_261008_210830.pdf",
+      "numero": 37,
+      "tema": "Sistemas de Lançadeiras",
+      "subtema": "Lançadeira Glicerol-Fosfato (GP)",
+      "enunciado": "Na lançadeira Glicerol-Fosfato (GP), os equivalentes de redução do NADH citoplasmático são entregues ao FAD mitocondrial. Qual é o rendimento energético gerado para a célula ao utilizar a lançadeira GP, segundo a apostila?",
+      "alternativas": {
+        "A": "2 FADH × 2 = 4 ATP.",
+        "B": "2 FADH × 5 = 10 ATP.",
+        "C": "Nenhum ATP é produzido, havendo apenas perda de calor.",
+        "D": "2 NADH × 3 = 6 ATP."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: na lançadeira Glicerol-Fosfato (GP), os elétrons alimentam o FAD mitocondrial; como cada FAD rende 2 ATPs, temos: 2 FADH × 2 = 4 ATP (GP = 4 ATP).",
+        "B": "Incorreta: o FADH rende 2 ATPs e não 5 ATPs nos cálculos do material.",
+        "C": "Incorreta: a via gera 4 ATPs úteis para a síntese energética celular.",
+        "D": "Incorreta: este rendimento de 6 ATPs é exclusivo da lançadeira Aspartato-Malato."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Sistema Lançadeiras"
+        ],
+        "fundamentacao": "Slide / Sistema Lançadeiras.",
+        "trechos_apoio": [
+          "GLICEROL FOSFATO (GP) 2 FADH X 2 = 4 ATP... GLICEROL FOSFATO = (GP = 4 ATP)"
+        ]
+      }
+    },
+    {
+      "id": "revisao-integrada_q038",
+      "slide_id": "revisao-integrada",
+      "slide_nome": "Revisão V1 - Fundamentos de Bioquímica (Gabarito)",
+      "arquivo_origem": "REVISÃO V1 FUND BIOQUÍMICA GABARITO_261008_210830.pdf",
+      "numero": 38,
+      "tema": "Glicogenólise",
+      "subtema": "Conceito e Indicação Fisiológica",
+      "enunciado": "A glicogenólise é a via responsável pela degradação do glicogênio estocado. Em quais momentos fisiológicos esse processo acontece prioritariamente no organismo, de acordo com o texto da apostila?",
+      "alternativas": {
+        "A": "Imediatamente após a ingestão excessiva de carboidratos em repouso pós-prandial.",
+        "B": "Em momentos em que o corpo carece de energia (geralmente no jejum) e no início de atividades físicas.",
+        "C": "Exclusivamente durante o sono profundo sem nenhum gasto metabólico.",
+        "D": "Apenas quando a glicemia atinge níveis tóxicos de hiperglicemia."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: após alimentação rica em carboidratos ocorre a glicogênese (síntese de glicogênio), e não a glicogenólise.",
+        "B": "Correta: a apostila explica que a glicogenólise acontece quando o corpo carece de energia (geralmente no jejum) e exemplifica com a atividade física, na qual os primeiros estoques de glicogênio muscular são prontamente recrutados.",
+        "C": "Incorreta: ela ocorre de forma marcante no jejum e no exercício físico diurno.",
+        "D": "Incorreta: na hiperglicemia atua a insulina promovendo o armazenamento da glicose, inibindo a quebra de glicogênio."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Glicogenólise"
+        ],
+        "fundamentacao": "Slide / Glicogenólise.",
+        "trechos_apoio": [
+          "Isto acontece em momentos que o corpo carece por energia (geralmente no jejum). Exemplo: Atividade física - Primeiros estoques de glicogênio muscular são logo recrutados"
+        ]
+      }
+    },
+    {
+      "id": "revisao-integrada_q039",
+      "slide_id": "revisao-integrada",
+      "slide_nome": "Revisão V1 - Fundamentos de Bioquímica (Gabarito)",
+      "arquivo_origem": "REVISÃO V1 FUND BIOQUÍMICA GABARITO_261008_210830.pdf",
+      "numero": 39,
+      "tema": "Regulação Hormonal da Glicogenólise",
+      "subtema": "Hormônios Estimuladores e Ativação da Glicogênio Fosforilase",
+      "enunciado": "O desprendimento de moléculas de glicose a partir do polímero de glicogênio depende de controle hormonal e enzimático. Quais hormônios estimulam a degradação do glicogênio e qual enzima-chave é ativada nesse processo?",
+      "alternativas": {
+        "A": "Apenas a insulina; ativando a enzima amilase pancreática.",
+        "B": "Adrenalina, noradrenalina e glucagon; estimulando a ativação da enzima glicogênio fosforilase.",
+        "C": "Somatropina e estrogênio; ativando a lactase intestinal.",
+        "D": "Acetilcolina e gastrina; ativando a pepsina estomacal."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a insulina estimula a síntese de glicogênio (glicogênese), inibindo a sua fosforilação degradativa.",
+        "B": "Correta: o slide destaca expressamente: \"Os HORMÔNIOS: ADRENALINA, NORADRENALINA, GLUCAGON estimulam a ATIVAÇÃO DA ENZIMA GLICOGÊNIO FOSFORILASE\", levando à degradação do glicogênio em glicose.",
+        "C": "Incorreta: a lactase atua na digestão intestinal de lactose no duodeno.",
+        "D": "Incorreta: a pepsina digere proteínas no estômago sob estímulo ácido, não participando da quebra do glicogênio tecidual."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Glicogenólise - Controle Hormonal"
+        ],
+        "fundamentacao": "Slide / Glicogenólise - Controle Hormonal.",
+        "trechos_apoio": [
+          "Os HORMÔNIOS glicolíticos: ADRENALINA, NORADRENALINA, GLUCAGON • Estimulam a ATIVAÇÃO DA ENZIMA GLICOGÊNIO FOSFORILASE • Ocorre a degradação do GLICOGÊNIO EM GLICOSE"
+        ]
+      }
+    },
+    {
+      "id": "revisao-integrada_q040",
+      "slide_id": "revisao-integrada",
+      "slide_nome": "Revisão V1 - Fundamentos de Bioquímica (Gabarito)",
+      "arquivo_origem": "REVISÃO V1 FUND BIOQUÍMICA GABARITO_261008_210830.pdf",
+      "numero": 40,
+      "tema": "Saldo Energético Inicial",
+      "subtema": "Substrato Inicial: Glicose Livre versus Glicogênio",
+      "enunciado": "Na glicólise, o investimento inicial de ATP varia conforme o ponto de partida do substrato glicídico. De acordo com os slides de saldo energético da apostila, qual é o saldo de ATP obtido no início da via quando o substrato inicial é a Glicose livre e quando é o Glicogênio, respectivamente?",
+      "alternativas": {
+        "A": "Glicose = 1 ATP; Glicogênio = 10 ATPs.",
+        "B": "Glicose = 2 ATPs; Glicogênio = 3 ATPs.",
+        "C": "Glicose = 4 ATPs; Glicogênio = 2 ATPs.",
+        "D": "Ambos geram exatamente 0 ATPs iniciais."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: valores inconsistentes com as regras de balanço da apostila.",
+        "B": "Correta: a apostila estabelece expressamente: \"QUANDO O SUBSTRATO INICIAL FOR A GLICOSE = 2 ATP\" e \"QUANDO O SUBSTRATO INICIAL FOR O GLICOGÊNIO = 3 ATP\" (pois o resíduo clivado do glicogênio já entra fosforilado como glicose-1-fosfato, poupando o gasto de 1 ATP da hexoquinase).",
+        "C": "Incorreta: inverte a relação e superestima a glicose livre.",
+        "D": "Incorreta: há saldo positivo líquido imediato em ambos os casos."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Saldo Energético do Sistema Glicolítico Aeróbico - Substrato Inicial"
+        ],
+        "fundamentacao": "Slide / Saldo Energético do Sistema Glicolítico Aeróbico - Substrato Inicial.",
+        "trechos_apoio": [
+          "QUANDO O SUBSTRATO INICIAL FOR A GLICOSE = 2 ATP / QUANDO O SUBSTRATO INICIAL FOR O GLICOGÊNIO = 3 ATP • GLICOSE (GL) = 2 ATP • GLICOGÊNIO (GG) = 3 ATP"
+        ]
+      }
+    },
+    {
+      "id": "revisao-integrada_q041",
+      "slide_id": "revisao-integrada",
+      "slide_nome": "Revisão V1 - Fundamentos de Bioquímica (Gabarito)",
+      "arquivo_origem": "REVISÃO V1 FUND BIOQUÍMICA GABARITO_261008_210830.pdf",
+      "numero": 41,
+      "tema": "Saldo Energético Global da Respiração Aeróbica",
+      "subtema": "Combinação Glicose Livre e Lançadeira Aspartato-Malato",
+      "enunciado": "O rendimento total teórico de ATP na oxidação aeróbica depende do substrato inicial e da lançadeira utilizada. Segundo as fórmulas da apostila, qual é o saldo final quando a via se inicia com Glicose (GL) e utiliza a lançadeira Aspartato-Malato (AM)?",
+      "alternativas": {
+        "A": "30 ATPs.",
+        "B": "36 ATPs.",
+        "C": "38 ATPs.",
+        "D": "39 ATPs."
+      },
+      "gabarito": "C",
+      "explicacoes": {
+        "A": "Incorreta: 30 ATPs é a soma parcial mitocondrial (2 voltas no ciclo de Krebs = 24 ATP somadas a 6 ATP dos 2 NADH da transição), sem incluir o citosol.",
+        "B": "Incorreta: 36 ATPs é o resultado quando o substrato é a glicose com a lançadeira glicerol-fosfato (GP).",
+        "C": "Correta: a apostila expressa exatamente a equação: (GL) 2 ATP + (AM) 6 ATP + 30 ATP mitocondriais = 38 ATP.",
+        "D": "Incorreta: 39 ATPs é obtido quando o substrato inicial é o glicogênio (GG) com a lançadeira Aspartato-Malato."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Saldo Energético do Sistema Glicolítico Aeróbico"
+        ],
+        "fundamentacao": "Slide / Saldo Energético do Sistema Glicolítico Aeróbico.",
+        "trechos_apoio": [
+          "(GL) 2 ATP + (AM) 6 ATP = 38 ATP"
+        ]
+      }
+    },
+    {
+      "id": "revisao-integrada_q042",
+      "slide_id": "revisao-integrada",
+      "slide_nome": "Revisão V1 - Fundamentos de Bioquímica (Gabarito)",
+      "arquivo_origem": "REVISÃO V1 FUND BIOQUÍMICA GABARITO_261008_210830.pdf",
+      "numero": 42,
+      "tema": "Saldo Energético Global da Respiração Aeróbica",
+      "subtema": "Combinação Glicose Livre e Lançadeira Glicerol-Fosfato",
+      "enunciado": "Quando a oxidação da Glicose (GL) utiliza a lançadeira citoplasmática Glicerol-Fosfato (GP), qual é o saldo energético total de ATP gerado na respiração aeróbica completa, de acordo com o material didático?",
+      "alternativas": {
+        "A": "2 ATPs.",
+        "B": "36 ATPs.",
+        "C": "37 ATPs.",
+        "D": "39 ATPs."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: 2 ATPs é apenas o saldo da fase citosólica anaeróbica isolada.",
+        "B": "Correta: a apostila calcula textualmente: (GL) 2 ATP + (GP) 4 ATP + 30 ATP mitocondriais = 36 ATP.",
+        "C": "Incorreta: 37 ATPs é o balanço obtido a partir de glicogênio com a lançadeira glicerol-fosfato.",
+        "D": "Incorreta: 39 ATPs requer glicogênio associado à lançadeira mais eficiente (aspartato-malato)."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Saldo Energético do Sistema Glicolítico Aeróbico"
+        ],
+        "fundamentacao": "Slide / Saldo Energético do Sistema Glicolítico Aeróbico.",
+        "trechos_apoio": [
+          "(GL) 2 ATP + (GP) 4 ATP = 36 ATP"
+        ]
+      }
+    },
+    {
+      "id": "revisao-integrada_q043",
+      "slide_id": "revisao-integrada",
+      "slide_nome": "Revisão V1 - Fundamentos de Bioquímica (Gabarito)",
+      "arquivo_origem": "REVISÃO V1 FUND BIOQUÍMICA GABARITO_261008_210830.pdf",
+      "numero": 43,
+      "tema": "Saldo Energético Global da Respiração Aeróbica",
+      "subtema": "Combinação Glicogênio e Lançadeira Aspartato-Malato",
+      "enunciado": "Quando o substrato inicial que alimenta a respiração aeróbica celular é o Glicogênio (GG) e a célula utiliza o sistema de lançadeira Aspartato-Malato (AM), qual é o rendimento total máximo de ATP formado?",
+      "alternativas": {
+        "A": "36 ATPs.",
+        "B": "37 ATPs.",
+        "C": "38 ATPs.",
+        "D": "39 ATPs."
+      },
+      "gabarito": "D",
+      "explicacoes": {
+        "A": "Incorreta: 36 ATPs corresponde à quebra de glicose livre com a lançadeira GP.",
+        "B": "Incorreta: 37 ATPs decorre da degradação de glicogênio com a lançadeira GP.",
+        "C": "Incorreta: 38 ATPs é o saldo da oxidação de glicose livre com a lançadeira AM.",
+        "D": "Correta: a equação no slide especifica: (GG) 3 ATP + (AM) 6 ATP + 30 ATP mitocondriais = 39 ATP."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Saldo Energético do Sistema Glicolítico Aeróbico"
+        ],
+        "fundamentacao": "Slide / Saldo Energético do Sistema Glicolítico Aeróbico.",
+        "trechos_apoio": [
+          "(GG) 3 ATP + (AM) 6 ATP = 39 ATP"
+        ]
+      }
+    },
+    {
+      "id": "revisao-integrada_q044",
+      "slide_id": "revisao-integrada",
+      "slide_nome": "Revisão V1 - Fundamentos de Bioquímica (Gabarito)",
+      "arquivo_origem": "REVISÃO V1 FUND BIOQUÍMICA GABARITO_261008_210830.pdf",
+      "numero": 44,
+      "tema": "Saldo Energético Global da Respiração Aeróbica",
+      "subtema": "Combinação Glicogênio e Lançadeira Glicerol-Fosfato",
+      "enunciado": "No caso de a quebra do Glicogênio (GG) ser acoplada à transferência de equivalentes redutores pela lançadeira Glicerol-Fosfato (GP), qual é o saldo final de ATP estabelecido na apostila?",
+      "alternativas": {
+        "A": "24 ATPs.",
+        "B": "36 ATPs.",
+        "C": "37 ATPs.",
+        "D": "42 ATPs."
+      },
+      "gabarito": "C",
+      "explicacoes": {
+        "A": "Incorreta: 24 ATPs representa apenas o produto de duas voltas no Ciclo de Krebs.",
+        "B": "Incorreta: 36 ATPs é a soma referente à glicose livre com a lançadeira GP.",
+        "C": "Correta: o slide estabelece expressamente: (GG) 3 ATP + (GP) 4 ATP + 30 ATP mitocondriais = 37 ATP.",
+        "D": "Incorreta: nenhum cálculo do material atinge 42 ATPs; a variação máxima prevista vai de 36 a 39 ATPs."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Saldo Energético do Sistema Glicolítico Aeróbico"
+        ],
+        "fundamentacao": "Slide / Saldo Energético do Sistema Glicolítico Aeróbico.",
+        "trechos_apoio": [
+          "(GG) 3 ATP + (GP) 4 ATP = 37 ATP"
+        ]
+      }
+    },
+    {
+      "id": "revisao-integrada_q045",
+      "slide_id": "revisao-integrada",
+      "slide_nome": "Revisão V1 - Fundamentos de Bioquímica (Gabarito)",
+      "arquivo_origem": "REVISÃO V1 FUND BIOQUÍMICA GABARITO_261008_210830.pdf",
+      "numero": 45,
+      "tema": "Cadeia Respiratória",
+      "subtema": "Definição e Localização Subcelular",
+      "enunciado": "A terceira etapa da respiração aeróbica promove a fosforilação oxidativa. De acordo com o texto da apostila, como também é chamada a cadeia respiratória e em qual estrutura mitocondrial específica ela ocorre?",
+      "alternativas": {
+        "A": "Cadeia glicosídica citoplasmática; ocorrendo na matriz mitocondrial.",
+        "B": "Cadeia transportadora de elétrons; ocorrendo nas cristas mitocondriais.",
+        "C": "Ciclo das pentoses; ocorrendo no espaço intermembranar liso.",
+        "D": "Complexo da ATPase gástrica; ocorrendo na membrana celular apical."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a matriz mitocondrial abriga o ciclo de Krebs e a transição do piruvato, não a cadeia de citocromos.",
+        "B": "Correta: a apostila define que a cadeia respiratória \"pode ser chamada de cadeia transportadora de elétrons\", a formação de ATP é a fosforilação oxidativa e \"essa fase ocorre nas cristas mitocondriais\".",
+        "C": "Incorreta: a via das pentoses ocorre no citosol e não corresponde à cadeia respiratória oxidativa.",
+        "D": "Incorreta: a ATPase gástrica bombeia prótons para formar o suco gástrico, sem relação com a respiração aeróbica celular."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Cadeia Respiratória"
+        ],
+        "fundamentacao": "Slide / Cadeia Respiratória.",
+        "trechos_apoio": [
+          "A cadeia respiratória pode ser chamada de cadeia transportadora de elétrons... Essa fase ocorre nas cristas mitocondriais"
+        ]
+      }
+    },
+    {
+      "id": "revisao-integrada_q046",
+      "slide_id": "revisao-integrada",
+      "slide_nome": "Revisão V1 - Fundamentos de Bioquímica (Gabarito)",
+      "arquivo_origem": "REVISÃO V1 FUND BIOQUÍMICA GABARITO_261008_210830.pdf",
+      "numero": 46,
+      "tema": "Cadeia Respiratória",
+      "subtema": "Formação de Água e Aceptor Final",
+      "enunciado": "Durante a passagem pela cadeia transportadora de elétrons, os hidrogênios retirados da glicose são transferidos até o seu destino final. Conforme o material didático, qual é o aceptor final desses hidrogênios e qual substância é formada?",
+      "alternativas": {
+        "A": "O gás carbônico, formando lactato citosólico.",
+        "B": "O oxigênio, formando água (H₂O).",
+        "C": "A coenzima A, formando acetato livre.",
+        "D": "O nitrogênio atmosférico, formando amônia."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o gás carbônico é produto residual das descarboxilações, não o aceptor final de elétrons.",
+        "B": "Correta: o texto destaca que \"os hidrogênios retirados da glicose e presentes nas moléculas de FADH2 e NADH2 são transportados até o oxigênio, formando água\".",
+        "C": "Incorreta: a Coenzima A é um carreador de grupos acil na matriz, não o aceptor final de elétrons.",
+        "D": "Incorreta: a respiração celular humana não utiliza nitrogênio atmosférico como aceptor oxidativo terminal."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Cadeia Respiratória"
+        ],
+        "fundamentacao": "Slide / Cadeia Respiratória.",
+        "trechos_apoio": [
+          "Os hidrogênios retirados da glicose e presentes nas moléculas de FADH2 e NADH2 são transportados até o oxigênio, formando água"
+        ]
+      }
+    },
+    {
+      "id": "revisao-integrada_q047",
+      "slide_id": "revisao-integrada",
+      "slide_nome": "Revisão V1 - Fundamentos de Bioquímica (Gabarito)",
+      "arquivo_origem": "REVISÃO V1 FUND BIOQUÍMICA GABARITO_261008_210830.pdf",
+      "numero": 47,
+      "tema": "Cadeia Respiratória",
+      "subtema": "Papel dos Citocromos",
+      "enunciado": "Ao longo da membrana interna mitocondrial, diversas proteínas especializadas compõem a cadeia de transporte. Qual é a definição e a função dos citocromos descrita no slide da cadeia respiratória?",
+      "alternativas": {
+        "A": "São enzimas lipolíticas que clivam triglicerídeos nas cristas mitocondriais.",
+        "B": "São proteínas presentes na cadeia transportadora que têm a função de transportar os elétrons dos hidrogênios, liberando energia gradativamente para a síntese de ATP.",
+        "C": "São transportadores de monossacarídeos que promovem difusão facilitada no núcleo.",
+        "D": "São polissacarídeos fibrosos que impedem a saída de oxigênio da matriz."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: citocromos não hidrolisam lipídeos; são carreadores de elétrons heme-proteicos.",
+        "B": "Correta: a apostila ensina expressamente: \"Citocromos (são proteínas presentes na cadeia transportadora), que têm a função de transportar elétrons dos hidrogênios. À medida que os elétrons passam pela cadeia de Citocromos, liberam energia gradativamente. Essa energia é empregada na síntese de ATP\".",
+        "C": "Incorreta: transportadores de monossacarídeos são os GLUTs presentes na membrana plasmática.",
+        "D": "Incorreta: citocromos são proteínas intrínsecas de transporte eletrônico, não polissacarídeos de barreira."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Cadeia Respiratória - Citocromos"
+        ],
+        "fundamentacao": "Slide / Cadeia Respiratória - Citocromos.",
+        "trechos_apoio": [
+          "Citocromos (são proteínas presentes na cadeia transportadora), que tem a função de transportar elétrons dos hidrogênios... liberam energia gradativamente. Essa energia é empregada na síntese de ATP"
+        ]
+      }
+    },
+    {
+      "id": "revisao-integrada_q048",
+      "slide_id": "revisao-integrada",
+      "slide_nome": "Revisão V1 - Fundamentos de Bioquímica (Gabarito)",
+      "arquivo_origem": "REVISÃO V1 FUND BIOQUÍMICA GABARITO_261008_210830.pdf",
+      "numero": 48,
+      "tema": "Bioenergética Mitocondrial",
+      "subtema": "Utilização Citosólica do ATP Gerado na Matriz",
+      "enunciado": "O ATP gerado por fosforilação oxidativa nas cristas mitocondriais precisa alcançar o citosol para suprir os gastos metabólicos da célula. Conforme o slide \"Translocador de ATP/ADP-Pi\", qual afirmativa está correta sobre a utilização desse ATP?",
+      "alternativas": {
+        "A": "Todo o ATP sintetizado na matriz permanece confinado nela para suprir apenas a digestão de amido.",
+        "B": "A maior parte do ATP gerado na matriz mitocondrial pela fosforilação oxidativa é utilizado no citosol.",
+        "C": "O ATP mitocondrial é eliminado pela urina sem qualquer aproveitamento pelas vias citosólicas.",
+        "D": "O ATP citosólico é transportado para a matriz para ser destruído pelo oxigênio."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o ATP celular é requerido em praticamente todas as reações anabólicas e mecânicas citoplasmáticas.",
+        "B": "Correta: a apostila afirma literalmente: \"A maior parte do ATP gerado na matriz mitocondrial pela fosforilação oxidativa é utilizado no citosol\".",
+        "C": "Incorreta: o ATP é a moeda energética intracelular indispensável e não é excretado na urina como dejeto.",
+        "D": "Incorreta: o fluxo é de exportação de ATP novo para o citosol e importação de ADP gasto para a matriz."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Translocador de ATP/ADP-Pi"
+        ],
+        "fundamentacao": "Slide / Translocador de ATP/ADP-Pi.",
+        "trechos_apoio": [
+          "A maior parte do ATP gerado na matriz mitocondrial pela fosforilação oxidativa é utilizado no citosol"
+        ]
+      }
+    },
+    {
+      "id": "revisao-integrada_q049",
+      "slide_id": "revisao-integrada",
+      "slide_nome": "Revisão V1 - Fundamentos de Bioquímica (Gabarito)",
+      "arquivo_origem": "REVISÃO V1 FUND BIOQUÍMICA GABARITO_261008_210830.pdf",
+      "numero": 49,
+      "tema": "Transporte de Nucleotídeos Mitocondriais",
+      "subtema": "Adenina-Nucleotídeo-Translocase (Antiportador ADP-ATP)",
+      "enunciado": "A membrana mitocondrial interna (MMI) possui um mecanismo de transporte que viabiliza a troca contínua de adenilatos. Conforme o material didático, qual é a função da adenina-nucleotídeo translocase?",
+      "alternativas": {
+        "A": "Sintetizar glicogênio acoplado à saída de CO₂.",
+        "B": "Transportar o ATP para fora da matriz mitocondrial acoplado à importação de ADP e Pi (produzidos no citoplasma a partir de ATP), funcionando em sistema antiporte.",
+        "C": "Hidrolisar a maltose luminal em duas moléculas de frutose pura.",
+        "D": "Desnaturar os citocromos das cristas mitocondriais para poupar energia."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a síntese de glicogênio (glicogênese) ocorre no citoplasma e consome ATP, não sendo mediada pela translocase mitocondrial.",
+        "B": "Correta: a MMI contém um translocador de ADP-ATP (adenina-nucleotídeo translocase) que \"transporta o ATP para fora da matriz mitocondrial acoplado à importação de ADP e Pi produzidos no citoplasma a partir de ATP\" em um sistema antiporte.",
+        "C": "Incorreta: a maltase intestinal atua na digestão de carboidratos, não no transporte de nucleotídeos mitocondriais.",
+        "D": "Incorreta: a translocase mantém a viabilidade bioenergética celular acoplando a fosforilação ao consumo, sem desnaturar citocromos."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Translocador de ATP/ADP-Pi"
+        ],
+        "fundamentacao": "Slide / Translocador de ATP/ADP-Pi.",
+        "trechos_apoio": [
+          "A MMI contém um translocador de ADP-ATP (ou adenina-nucleotídeo translocase). Transporta o ATP para fora da matriz mitocondrial acoplado à importação de ADP e Pi produzidos no citoplasma a partir de ATP. Sistema antiporte"
+        ]
+      }
+    },
+    {
+      "id": "revisao-integrada_q050",
+      "slide_id": "revisao-integrada",
+      "slide_nome": "Revisão V1 - Fundamentos de Bioquímica (Gabarito)",
+      "arquivo_origem": "REVISÃO V1 FUND BIOQUÍMICA GABARITO_261008_210830.pdf",
+      "numero": 50,
+      "tema": "Bioenergética Mitocondrial",
+      "subtema": "Manutenção do Balanço Eletrolítico e Força Quimiosmótica",
+      "enunciado": "O transporte simultâneo de nucleotídeos de adenina pela membrana interna mitocondrial envolve cargas elétricas líquidas distintas (ATP⁴⁻ saindo e ADP³⁻ entrando). Segundo o texto explicativo do slide, qual é a consequência fisiológica desse sistema de translocação?",
+      "alternativas": {
+        "A": "Provoca a alcalinização irreversível do lúmen intestinal.",
+        "B": "Mantém o balanço eletrolítico celular pelo gasto de energia quimiosmótica do gradiente de prótons.",
+        "C": "Bloqueia a entrada de piruvato na matriz mitocondrial.",
+        "D": "Reduz a síntese de água a zero pela destruição do oxigênio molecular."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a translocação de nucleotídeos ocorre no interior da mitocôndria, sem impacto direto sobre o pH do quimo intestinal.",
+        "B": "Correta: o slide descreve textualmente sobre o transportador de ADP/ATP acoplado: \"Mantém balanço eletrolítico pelo gasto de energia quimiosmótica\" gerada pelo bombeamento de prótons.",
+        "C": "Incorreta: o fluxo de translocação de ATP/ADP assegura o funcionamento da fosforilação oxidativa e não impede o transporte de piruvato.",
+        "D": "Incorreta: a síntese de água segue normalmente ao final da cadeia com o aceptor oxigênio."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Translocador de ATP/ADP-Pi"
+        ],
+        "fundamentacao": "Slide / Translocador de ATP/ADP-Pi.",
+        "trechos_apoio": [
+          "Mantém balanço eletrolítico pelo gasto de energia quimiosmótica"
+        ]
+      }
+    },
+    {
+      "id": "revisao-integrada_q051",
+      "slide_id": "revisao-integrada",
+      "slide_nome": "Revisão V1 - Fundamentos de Bioquímica (Gabarito)",
+      "arquivo_origem": "REVISÃO V1 FUND BIOQUÍMICA GABARITO_261008_210830.pdf",
+      "numero": 51,
+      "tema": "Digestão Intestinal de Carboidratos",
+      "subtema": "Enzimas Específicas da Borda em Escova dos Enterócitos",
+      "enunciado": "Na superfície epitelial do intestino delgado (duodeno), um conjunto de enzimas presentes na borda em escova atua na etapa final da digestão dos carboidratos. Quais enzimas atuam sobre a sacarose e a lactose, respectivamente, e quais monossacarídeos são gerados por sua ação?",
+      "alternativas": {
+        "A": "Sacarase gerando glicose + frutose; e lactase gerando glicose + galactose.",
+        "B": "Amilase gerando amido puro; e maltase gerando celulose.",
+        "C": "Ptialina gerando glicogênio; e tripsina gerando aminoácidos.",
+        "D": "Fosfofrutoquinase gerando piruvato; e lipase gerando glicerol."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: a tabela de enzimas digestivas da apostila indica textualmente que no intestino delgado a enzima sacarase converte a sacarose em glicose e frutose, enquanto a lactase converte a lactose em glicose e galactose.",
+        "B": "Incorreta: a amilase digere amido e a maltase quebra maltose em duas glicoses, não havendo síntese de celulose.",
+        "C": "Incorreta: ptialina é a amilase salivar bucal e tripsina é uma protease pancreática, não enzimas dissacaridases da mucosa.",
+        "D": "Incorreta: fosfofrutoquinase é enzima reguladora da via glicolítica intracelular e lípases atuam sobre triglicerídeos."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Tabela de Enzimas Digestivas dos Carboidratos"
+        ],
+        "fundamentacao": "Slide / Tabela de Enzimas Digestivas dos Carboidratos.",
+        "trechos_apoio": [
+          "Sacarase: No intestino delgado, a sacarose é convertida em glicose e frutose / Lactase: No intestino delgado, a lactose é convertida em glicose e galactose"
+        ]
+      }
+    },
+    {
+      "id": "revisao-integrada_q052",
+      "slide_id": "revisao-integrada",
+      "slide_nome": "Revisão V1 - Fundamentos de Bioquímica (Gabarito)",
+      "arquivo_origem": "REVISÃO V1 FUND BIOQUÍMICA GABARITO_261008_210830.pdf",
+      "numero": 52,
+      "tema": "Absorção Intestinal",
+      "subtema": "Mecanismos de Transporte dos Monossacarídeos",
+      "enunciado": "Após a digestão completa dos carboidratos no duodeno, os monossacarídeos resultantes precisam atravessar a membrana dos enterócitos para alcançar a corrente sanguínea. De acordo com o esquema da apostila, através de quais mecanismos fisiológicos os monossacarídeos são absorvidos pelas células intestinais?",
+      "alternativas": {
+        "A": "Exclusivamente por osmose reversa através dos vasos linfáticos.",
+        "B": "Por meio de transporte ativo ou difusão simples.",
+        "C": "Unicamente por fagocitose mediada por vesículas de clatrina.",
+        "D": "Por pinocitose ácida catalisada pela amilase salivar."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: os monossacarídeos são direcionados à circulação sanguínea porta-hepática e não seguem por osmose reversa linfática.",
+        "B": "Correta: o esquema do fluxo digestivo aponta literalmente: \"Os monossacarídeos são absorvidos pelas células intestinais por meio de transporte ativo ou difusão simples\".",
+        "C": "Incorreta: a captação de nutrientes moleculares simples na borda em escova é carreada por transportadores de membrana, e não por fagocitose de corpos celulares estranhos.",
+        "D": "Incorreta: a amilase salivar atua na luz bucal e gástrica inicial, não catalisando absorção enterocitária por pinocitose."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Esquema Digestão e Absorção dos Carboidratos"
+        ],
+        "fundamentacao": "Slide / Esquema Digestão e Absorção dos Carboidratos.",
+        "trechos_apoio": [
+          "Os monossacarídeos são absorvidos pelas células intestinais por meio de transporte ativo ou difusão simples"
+        ]
+      }
+    },
+    {
+      "id": "revisao-integrada_q053",
+      "slide_id": "revisao-integrada",
+      "slide_nome": "Revisão V1 - Fundamentos de Bioquímica (Gabarito)",
+      "arquivo_origem": "REVISÃO V1 FUND BIOQUÍMICA GABARITO_261008_210830.pdf",
+      "numero": 53,
+      "tema": "Polissacarídeos",
+      "subtema": "Comparação entre Amido e Celulose",
+      "enunciado": "Amido e celulose são dois polímeros de grande relevância na biologia vegetal presentes na dieta humana. De acordo com a tabela de tipos de polissacarídeos, o que diferencia a aplicação biológica do amido da celulose para o homem?",
+      "alternativas": {
+        "A": "O amido forma o exoesqueleto dos insetos; a celulose atua como hormônio tireoidiano.",
+        "B": "O amido é a fonte mais importante de carboidrato para o homem (reserva de plantas); a celulose forma a parede celular vegetal e atua nas fibras vegetais evitando a constipação.",
+        "C": "O amido é tóxico para humanos; a celulose é digerida integralmente na boca em 1 minuto.",
+        "D": "Não há diferença biológica, pois ambos constituem reservas lipídicas insolúveis em água."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: quem forma o exoesqueleto dos insetos é a quitina.",
+        "B": "Correta: a tabela da apostila define: o amido é a \"reserva energética das plantas e das algas\" e a \"fonte mais importante de carboidrato para o homem\"; a celulose é um \"polissacarídeo estrutural\" que \"forma parede celular de células vegetais\" e está \"presente nas fibras vegetais (evita a constipação)\".",
+        "C": "Incorreta: o amido compõe a dieta básica humana (arroz, feijão, milho) e a celulose não é hidrolisada na cavidade bucal.",
+        "D": "Incorreta: amido e celulose são carboidratos (polissacarídeos), não lipídeos."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Tipos de Polissacarídeos"
+        ],
+        "fundamentacao": "Slide / Tipos de Polissacarídeos.",
+        "trechos_apoio": [
+          "Amido: ...Fonte mais importante de carboidrato para o homem... Celulose: ...Presente nas fibras vegetais (evita a constipação)"
+        ]
+      }
+    },
+    {
+      "id": "revisao-integrada_q054",
+      "slide_id": "revisao-integrada",
+      "slide_nome": "Revisão V1 - Fundamentos de Bioquímica (Gabarito)",
+      "arquivo_origem": "REVISÃO V1 FUND BIOQUÍMICA GABARITO_261008_210830.pdf",
+      "numero": 54,
+      "tema": "Vias Metabólicas",
+      "subtema": "Precursores da Gliconeogênese Hepática",
+      "enunciado": "Quando a glicemia necessita ser mantida e as reservas de glicogênio estão depletadas, o fígado ativa a gliconeogênese. Segundo a definição apresentada no slide \"Conceitue\", a partir de quais substâncias a glicose pode ser sintetizada nessa via?",
+      "alternativas": {
+        "A": "Exclusivamente a partir do oxigênio atmosférico e gás hélio.",
+        "B": "A partir de aminoácidos, glicerol, piruvato e lactato.",
+        "C": "A partir de celulose e quitina do exoesqueleto.",
+        "D": "Exclusivamente a partir de sacarose e lactose ingeridas no suco gástrico."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o oxigênio atua como aceptor de elétrons e gases nobres não participam do metabolismo humano.",
+        "B": "Correta: a apostila define expressamente: \"Gliconeogênese: formação de glicose a partir de outras substâncias (aminoácidos, glicerol, piruvato, lactato)\".",
+        "C": "Incorreta: celulose e quitina são polissacarídeos estruturais não convertidos em glicose pelo fígado.",
+        "D": "Incorreta: sacarose e lactose são açúcares dietéticos exógenos clivados na digestão intestinal, e não precursores da gliconeogênese."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / 21. Conceitue (Gliconeogênese)"
+        ],
+        "fundamentacao": "Slide / 21. Conceitue (Gliconeogênese).",
+        "trechos_apoio": [
+          "Gliconeogênese: formação de glicose a partir de outras substâncias (aminoácidos, glicerol, piruvato, lactato)"
+        ]
+      }
+    },
+    {
+      "id": "revisao-integrada_q055",
+      "slide_id": "revisao-integrada",
+      "slide_nome": "Revisão V1 - Fundamentos de Bioquímica (Gabarito)",
+      "arquivo_origem": "REVISÃO V1 FUND BIOQUÍMICA GABARITO_261008_210830.pdf",
+      "numero": 55,
+      "tema": "Glicólise",
+      "subtema": "Enzimas da Fase Preparatória",
+      "enunciado": "Durante a fase preparatória da glicólise no citoplasma, a molécula de glicose sofre modificações estruturais consecutivas com consumo de energia. Quais enzimas catalisam, em sequência, as etapas iniciais de conversão de glicose até frutose-1,6-bisfosfato, conforme o esquema da apostila?",
+      "alternativas": {
+        "A": "Hexoquinase, fosfoexose-isomerase e fosfofrutoquinase.",
+        "B": "Amilase salivar, pepsina e lactase.",
+        "C": "Citocromo c oxidase, ATP-sintase e desidrogenase glutâmica.",
+        "D": "Maltase, sacarase e glicogênio fosforilase."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: no diagrama da fase preparatória, a glicose é fosforilada pela hexoquinase a glicose-6-fosfato, isomerizada pela fosfoexose-isomerase a frutose-6-fosfato e fosforilada pela fosfofrutoquinase a frutose-1,6-bisfosfato.",
+        "B": "Incorreta: são enzimas digestivas do trato gastrointestinal.",
+        "C": "Incorreta: são componentes da cadeia respiratória mitocondrial interna e do metabolismo proteico.",
+        "D": "Incorreta: maltase e sacarase atuam na borda em escova do enterócito e glicogênio fosforilase atua na glicogenólise."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / 1. Fase Preparatória - Enzimas"
+        ],
+        "fundamentacao": "Slide / 1. Fase Preparatória - Enzimas.",
+        "trechos_apoio": [
+          "Glicose → [hexoquinase] → Glicose 6-Fosfato → [fosfoexose-isomerase] → Frutose 6-Fosfato → [fosfofrutoquinase] → Frutose 1,6-Difosfato"
+        ]
+      }
+    },
+    {
+      "id": "revisao-integrada_q056",
+      "slide_id": "revisao-integrada",
+      "slide_nome": "Revisão V1 - Fundamentos de Bioquímica (Gabarito)",
+      "arquivo_origem": "REVISÃO V1 FUND BIOQUÍMICA GABARITO_261008_210830.pdf",
+      "numero": 56,
+      "tema": "Glicólise",
+      "subtema": "Enzima Terminal da Fase de Pagamento",
+      "enunciado": "A última etapa da via glicolítica envolve a transferência de um grupamento fosfato de alta energia para uma molécula de ADP, formando ATP e o produto final da via. Qual é a enzima responsável por essa reação de síntese de piruvato?",
+      "alternativas": {
+        "A": "Piruvato quinase.",
+        "B": "Triosefosfato isomerase.",
+        "C": "Aldolase.",
+        "D": "Enolase."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: no esquema da fase de pagamento, a conversão final de fosfoenolpiruvato (PEP) em piruvato, com fosforilação de ADP em ATP, é catalisada pela enzima piruvato quinase.",
+        "B": "Incorreta: a triosefosfato isomerase atua na interconversão entre diidroxiacetona-fosfato e gliceraldeído-3-fosfato.",
+        "C": "Incorreta: a aldolase cliva a frutose-1,6-bisfosfato em duas trioses fosfatadas.",
+        "D": "Incorreta: a enolase atua na reação anterior, desidratando o 2-fosfoglicerato em fosfoenolpiruvato."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / 2. Fase de Pagamento - Produção de ATP e Oxidação"
+        ],
+        "fundamentacao": "Slide / 2. Fase de Pagamento - Produção de ATP e Oxidação.",
+        "trechos_apoio": [
+          "Fosfoenolpiruvato + ADP → [piruvato quinase] → Piruvato + ATP"
+        ]
+      }
+    },
+    {
+      "id": "revisao-integrada_q057",
+      "slide_id": "revisao-integrada",
+      "slide_nome": "Revisão V1 - Fundamentos de Bioquímica (Gabarito)",
+      "arquivo_origem": "REVISÃO V1 FUND BIOQUÍMICA GABARITO_261008_210830.pdf",
+      "numero": 57,
+      "tema": "Fermentação Láctica",
+      "subtema": "Regeneração de NAD+ Citoplasmático",
+      "enunciado": "Em condições de anaerobiose estrita ou em tecidos desprovidos de mitocôndrias, a conversão de piruvato em lactato desempenha um papel bioquímico indispensável para a manutenção do fluxo glicolítico. Qual é essa função essencial destacada na apostila?",
+      "alternativas": {
+        "A": "Permite a regeneração de NAD+, necessário para continuar ocorrendo a glicólise.",
+        "B": "Promove a entrada maciça de oxigênio gasoso na membrana celular.",
+        "C": "Permite a quebra de ácidos graxos em gás carbônico no interior das hemácias.",
+        "D": "Inativa imediatamente todas as enzimas citoplasmáticas para evitar consumo de glicose."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: a apostila ensina expressamente: \"Conversão do piruvato em lactato... Regeneração do NAD (que é necessário para continuar a glicólise)\" e destaca em slide seguinte: \"Conversão anaeróbica do piruvato a lactato: permite a regeneração de NAD+\".",
+        "B": "Incorreta: a via anaeróbica opera na ausência ou limitação de oxigênio.",
+        "C": "Incorreta: hemácias não oxidam ácidos graxos a CO₂ por não possuírem mitocôndrias.",
+        "D": "Incorreta: o objetivo da regeneração do NAD+ é justamente permitir que a glicólise continue funcionando e gerando ATP."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Primeiro Destino do Piruvato e Conversão Anaeróbica"
+        ],
+        "fundamentacao": "Slide / Primeiro Destino do Piruvato e Conversão Anaeróbica.",
+        "trechos_apoio": [
+          "Conversão do piruvato em lactato... Regeneração do NAD (que é necessário para continuar a glicólise)... Permite a regeneração de NAD+"
+        ]
+      }
+    },
+    {
+      "id": "revisao-integrada_q058",
+      "slide_id": "revisao-integrada",
+      "slide_nome": "Revisão V1 - Fundamentos de Bioquímica (Gabarito)",
+      "arquivo_origem": "REVISÃO V1 FUND BIOQUÍMICA GABARITO_261008_210830.pdf",
+      "numero": 58,
+      "tema": "Respiração Celular Integrada",
+      "subtema": "Síntese Descritiva das Três Etapas",
+      "enunciado": "No slide \"Etapas da Respiração Celular\", a apostila resume a função metabólica de cada uma das três grandes etapas da respiração celular aeróbica. Assinale a alternativa que reproduz corretamente essas definições:",
+      "alternativas": {
+        "A": "I - Glicólise: síntese de glicogênio; II - Ciclo de Krebs: oxidação de celulose; III - Cadeia Respiratória: liberação de amônia no citosol.",
+        "B": "I - Glicólise: conversão da glicose em 2 moléculas de piruvato; II - Ciclo de Krebs: conjunto de reações que formam CO₂, H₂O, NADH₂ e FADH₂; III - Cadeia Respiratória: produção de moléculas de ATP.",
+        "C": "I - Glicólise: transporte de colesterol; II - Ciclo de Krebs: emulsificação de lipídeos na bile; III - Cadeia Respiratória: fermentação alcoólica.",
+        "D": "I - Glicólise: desnaturação por calor; II - Ciclo de Krebs: quebra de maltose na boca; III - Cadeia Respiratória: hidrólise ácida gástrica."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a glicólise degrada glicose em piruvato, não sintetizando glicogênio.",
+        "B": "Correta: a apostila define textualmente: \"I - GLICÓLISE – Conversão da glicose em 2 moléculas de piruvato; II - CICLO DE KREBS - Conjunto de reações que formam: CO₂ - H₂O - NADH₂ - FADH₂; III - CADEIA RESPIRATÓRIA – Produção de moléculas de ATP\".",
+        "C": "Incorreta: transporte de lipídeos e emulsificação biliar são processos digestivos e hepáticos, não da respiração celular.",
+        "D": "Incorreta: desnaturação e digestão alimentar gástrica e salivar não compõem as etapas de respiração celular."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Etapas da Respiração Celular"
+        ],
+        "fundamentacao": "Slide / Etapas da Respiração Celular.",
+        "trechos_apoio": [
+          "I- GLICÓLISE – Conversão da glicose em 2 moléculas de piruvato / II- CICLO DE KREBS - Conjunto de reações que formam: CO₂ - H₂O - NADH₂ - FADH₂ / III- CADEIA RESPIRATÓRIA – Produção de moléculas de ATP"
+        ]
+      }
+    },
+    {
+      "id": "revisao-integrada_q059",
+      "slide_id": "revisao-integrada",
+      "slide_nome": "Revisão V1 - Fundamentos de Bioquímica (Gabarito)",
+      "arquivo_origem": "REVISÃO V1 FUND BIOQUÍMICA GABARITO_261008_210830.pdf",
+      "numero": 59,
+      "tema": "Transporte Mitocondrial",
+      "subtema": "Fosfato-Translocase (Simportador H⁺ / H₂PO₄⁻)",
+      "enunciado": "Para a síntese contínua de ATP pela ATP-sintase na membrana interna mitocondrial, além do ADP, é necessário o influxo constante de fosfato inorgânico (Pi) para a matriz. Conforme ilustrado no diagrama do translocador mitocondrial, qual transportador executa essa função e por qual mecanismo ele opera?",
+      "alternativas": {
+        "A": "Fosfato-translocase, atuando como um sistema simportador acoplado ao influxo de íons H⁺.",
+        "B": "Bomba de sódio-potássio ATPase, expulsando fosfato para o citoplasma.",
+        "C": "Transportador de sacarose-frutose, em antiporte com o oxigênio molecular.",
+        "D": "Complexo da ptialina, clivando o ADP na crista mitocondrial."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: o diagrama da MMI ilustra a \"Fosfato-translocase (simportador)\", transportando conjuntamente prótons (H⁺) e fosfato inorgânico (H₂PO₄⁻) para dentro da matriz mitocondrial a favor do gradiente eletroquímico.",
+        "B": "Incorreta: a bomba Na⁺/K⁺ fica na membrana plasmática e transporta íons monovalentes, não importando fosfato mitocondrial.",
+        "C": "Incorreta: monossacarídeos e dissacarídeos não participam do transporte quimiosmótico na membrana interna da mitocôndria.",
+        "D": "Incorreta: ptialina é a enzima salivar bucal, não atuando na fosforilação mitocondrial."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Translocador de ATP/ADP-Pi (Esquema da Membrana Mitocondrial Interna)"
+        ],
+        "fundamentacao": "Slide / Translocador de ATP/ADP-Pi (Esquema da Membrana Mitocondrial Interna).",
+        "trechos_apoio": [
+          "Fosfato-translocase (simportador) H⁺ / H₂PO₄⁻... ATP-sintase... Matriz"
+        ]
+      }
+    },
+    {
+      "id": "revisao-integrada_q060",
+      "slide_id": "revisao-integrada",
+      "slide_nome": "Revisão V1 - Fundamentos de Bioquímica (Gabarito)",
+      "arquivo_origem": "REVISÃO V1 FUND BIOQUÍMICA GABARITO_261008_210830.pdf",
+      "numero": 60,
+      "tema": "Bioenergética Global",
+      "subtema": "Faixa Geral de Formação de ATP na Respiração Aeróbica",
+      "enunciado": "A energia liberada pela transferência dos equivalentes redutores de NADH e FADH na cadeia transportadora de elétrons alimenta a fosforilação oxidativa. De acordo com a síntese apresentada no slide sobre a Cadeia Respiratória, qual é a quantidade total de moléculas de ATP passíveis de serem formadas ao final de todo esse processo por molécula de carboidrato?",
+      "alternativas": {
+        "A": "Exatamente 2 a 4 moléculas de ATP.",
+        "B": "De 36 a 39 moléculas de ATP.",
+        "C": "Mais de 1.000 moléculas de ATP imediatas no citoplasma.",
+        "D": "Apenas 1 ATP na matriz com conversão de todo o restante em ácido lático."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: 2 a 4 ATPs representa apenas a faixa de rendimento da glicólise anaeróbica isolada e das lançadeiras citosólicas.",
+        "B": "Correta: a apostila sintetiza expressamente que \"a quantidade de energia liberada nesse processo é suficiente para formar de 36 a 39 de moléculas de ATP\" (variando conforme o substrato de partida seja glicose ou glicogênio, e a lançadeira seja GP ou AM).",
+        "C": "Incorreta: o valor de 1.000 a 10.000 refere-se à taxa de aceleração da capacidade de reação por enzimas, não ao rendimento estequiométrico de ATP.",
+        "D": "Incorreta: o saldo do sistema glicolítico aeróbico completo atinge de 36 a 39 ATPs, sem acúmulo de lactato."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Cadeia Respiratória - Fosforilação Oxidativa"
+        ],
+        "fundamentacao": "Slide / Cadeia Respiratória - Fosforilação Oxidativa.",
+        "trechos_apoio": [
+          "A formação de ATP é conhecida como fosforilação oxidativa; A quantidade de energia liberada nesse processo é suficiente para formar de 36 a 39 de moléculas de ATP"
+        ]
+      }
+    }
+  ]
+}

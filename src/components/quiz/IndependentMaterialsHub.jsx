@@ -341,14 +341,14 @@ export default function IndependentMaterialsHub({
     if (!material) return
     persistActiveSessionBeforeLeaving()
     setSelectedDisciplineId(material.disciplineId)
-    setSelectedSlideId(slideId)
+    setSelectedSlideId(material.slide_id)
     setDesiredCount(material.totalValidas)
     setSession(null)
     setConfirmingNewSession(false)
     setViewMode('config')
     saveUiState({
       selectedDisciplineId: material.disciplineId,
-      selectedSlideId: slideId,
+      selectedSlideId: material.slide_id,
       viewMode: 'config',
     })
     window.scrollTo({ top: 0, behavior: 'smooth' })
@@ -446,6 +446,7 @@ export default function IndependentMaterialsHub({
     setProgressByMaterial((prev) =>
       saveMaterialActiveSession(prev, selectedSlideId, nextSession, {
         ultimaOrdemQuestoesIds: newOrderIds,
+        sessaoIncompativelSubstituida: false,
       }),
     )
     window.scrollTo({ top: 0, behavior: 'smooth' })
@@ -1047,6 +1048,29 @@ export default function IndependentMaterialsHub({
               <b>{totalDisponivel} questões</b> disponíveis nesta apostila
             </div>
           </div>
+
+          {prog.sessaoIncompativelSubstituida && !hasSavedSession ? (
+            <div
+              style={{
+                background: '#1c180f',
+                border: '1px solid #8a6432',
+                borderRadius: 14,
+                padding: 16,
+                marginBottom: 16,
+                color: '#f8e6c1',
+                fontSize: 14,
+                lineHeight: 1.5,
+              }}
+              data-testid="incompatible-session-notice"
+            >
+              <div style={{ fontWeight: 800, color: '#ffd166', marginBottom: 4 }}>
+                Banco de questões atualizado nesta apostila
+              </div>
+              <div>
+                As questões desta apostila foram atualizadas com a versão completa do material. Seu histórico compatível foi preservado, mas a sessão anterior em andamento não é compatível com o novo banco — inicie uma nova sessão abaixo.
+              </div>
+            </div>
+          ) : null}
 
           {/* Se houver sessão salva, destaca "Continuar estudo" e deixa "Iniciar nova sessão" como secundária com confirmação */}
           {hasSavedSession ? (

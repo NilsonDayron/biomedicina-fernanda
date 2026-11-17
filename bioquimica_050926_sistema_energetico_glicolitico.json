@@ -1,0 +1,1287 @@
+{
+  "questoes": [
+    {
+      "id": "glicolise_q001",
+      "slide_id": "glicolise",
+      "slide_nome": "050926 - Sistema Energético Glicolítico",
+      "arquivo_origem": "050926_-_SISTEMA_ENERGÉTICO_GLICOLÍTICO_260918_204208.pdf",
+      "numero": 1,
+      "tema": "Bioenergética",
+      "subtema": "Conceito",
+      "enunciado": "Segundo a apostila, o processo químico de conversão do alimento em energia é denominado:",
+      "alternativas": {
+        "A": "Anabolismo.",
+        "B": "Bioenergética.",
+        "C": "Fermentação.",
+        "D": "Gliconeogênese."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: anabolismo é o conjunto de reações de síntese. A conversão do alimento em energia é a bioenergética.",
+        "B": "Correta: a apostila define bioenergética como o processo químico de conversão do alimento em energia.",
+        "C": "Incorreta: fermentação (como a láctica) é um caminho do piruvato, não o nome do processo geral.",
+        "D": "Incorreta: gliconeogênese é a formação de glicose, e aparece na apostila só como destino do lactato excedente."
+      },
+      "referencia": {
+        "paginas": [
+          6
+        ],
+        "fundamentacao": "Slide 6, \"BIOENERGÉTICA\".",
+        "trechos_apoio": [
+          "\"O PROCESSO QUÍMICO DE CONVERSÃO DO ALIMENTO EM ENERGIA É DENOMINADO BIOENERGÉTICA\""
+        ]
+      }
+    },
+    {
+      "id": "glicolise_q002",
+      "slide_id": "glicolise",
+      "slide_nome": "050926 - Sistema Energético Glicolítico",
+      "arquivo_origem": "050926_-_SISTEMA_ENERGÉTICO_GLICOLÍTICO_260918_204208.pdf",
+      "numero": 2,
+      "tema": "Bioenergética",
+      "subtema": "Substratos energéticos e moeda energética",
+      "enunciado": "De acordo com a apostila, os substratos energéticos (glicose, triacilglicerol e aminoácido) são transformados em uma única \"moeda energética\" aceita por todo o organismo, chamada:",
+      "alternativas": {
+        "A": "Adenosina trifosfato (ATP).",
+        "B": "Nicotinamida adenina dinucleotídeo (NAD).",
+        "C": "Acetil-coenzima A.",
+        "D": "Glicogênio."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: todos os substratos são convertidos em ATP, a moeda energética.",
+        "B": "Incorreta: o NAD é transportador de hidrogênio, não a moeda energética.",
+        "C": "Incorreta: a acetil-CoA é intermediária no metabolismo, formada a partir do piruvato.",
+        "D": "Incorreta: o glicogênio é reserva de glicose, e não uma moeda de energia aceita por todo o organismo."
+      },
+      "referencia": {
+        "paginas": [
+          7
+        ],
+        "fundamentacao": "Slide 7, \"BIOENERGÉTICA\".",
+        "trechos_apoio": [
+          "\"são transformados em uma única moeda enérgica aceita por todo nosso organismo chamada ADENOSINA TRIFOSFATO (ATP)\""
+        ]
+      }
+    },
+    {
+      "id": "glicolise_q003",
+      "slide_id": "glicolise",
+      "slide_nome": "050926 - Sistema Energético Glicolítico",
+      "arquivo_origem": "050926_-_SISTEMA_ENERGÉTICO_GLICOLÍTICO_260918_204208.pdf",
+      "numero": 3,
+      "tema": "ATP",
+      "subtema": "Função na célula",
+      "enunciado": "Sobre o ATP, a apostila afirma que:",
+      "alternativas": {
+        "A": "É um carboidrato de reserva usado só durante o jejum.",
+        "B": "É a principal moeda energética das células e fornece energia para as atividades que exigem gasto energético.",
+        "C": "É produzido exclusivamente no citoplasma e nunca na mitocôndria.",
+        "D": "É um hormônio produzido pelo pâncreas."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o ATP é a principal moeda energética, não um carboidrato de reserva. A reserva de glicose é o glicogênio.",
+        "B": "Correta: o ATP é a principal moeda energética e é usado em todas as atividades que requerem gasto energético.",
+        "C": "Incorreta: a maior parte do ATP vem da respiração celular na mitocôndria (Ciclo de Krebs e cadeia respiratória).",
+        "D": "Incorreta: o ATP não é hormônio. A insulina e o glucagon são hormônios do pâncreas."
+      },
+      "referencia": {
+        "paginas": [
+          11
+        ],
+        "fundamentacao": "Slide 11, \"ATP – ADENOSINA TRIFOSFATO\".",
+        "trechos_apoio": [
+          "\"Principal moeda energética das células.\""
+        ]
+      }
+    },
+    {
+      "id": "glicolise_q004",
+      "slide_id": "glicolise",
+      "slide_nome": "050926 - Sistema Energético Glicolítico",
+      "arquivo_origem": "050926_-_SISTEMA_ENERGÉTICO_GLICOLÍTICO_260918_204208.pdf",
+      "numero": 4,
+      "tema": "ATP",
+      "subtema": "Armazenamento da energia da respiração",
+      "enunciado": "Conforme a apostila, a energia liberada durante a respiração celular:",
+      "alternativas": {
+        "A": "Fica armazenada nas moléculas de ATP.",
+        "B": "É totalmente perdida como calor.",
+        "C": "Fica armazenada nas moléculas de piruvato.",
+        "D": "Fica armazenada somente no NADH citoplasmático."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: a energia da respiração celular fica armazenada nas moléculas de ATP.",
+        "B": "Incorreta: a apostila não diz que a energia é totalmente perdida. Ela é armazenada em ATP.",
+        "C": "Incorreta: o piruvato é produto da glicólise e ainda é oxidado depois.",
+        "D": "Incorreta: o NADH é transportador de hidrogênio, e a energia armazenada para o trabalho celular é a do ATP."
+      },
+      "referencia": {
+        "paginas": [
+          11
+        ],
+        "fundamentacao": "Slide 11, \"ATP – ADENOSINA TRIFOSFATO\".",
+        "trechos_apoio": [
+          "\"A energia liberada durante a respiração celular fica armazenada nas moléculas de ATP\""
+        ]
+      }
+    },
+    {
+      "id": "glicolise_q005",
+      "slide_id": "glicolise",
+      "slide_nome": "050926 - Sistema Energético Glicolítico",
+      "arquivo_origem": "050926_-_SISTEMA_ENERGÉTICO_GLICOLÍTICO_260918_204208.pdf",
+      "numero": 5,
+      "tema": "Conversão do ATP em ADP",
+      "subtema": "Mecanismo",
+      "enunciado": "O ATP fornece energia rapidamente para a célula por meio da:",
+      "alternativas": {
+        "A": "Hidrólise do grupo fosfato terminal.",
+        "B": "Adição de um quarto grupo fosfato.",
+        "C": "Remoção do açúcar (ribose) da molécula.",
+        "D": "Descarboxilação da adenosina."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: a energia é liberada pela hidrólise do grupo fosfato terminal.",
+        "B": "Incorreta: adicionar fosfato é o sentido inverso (formação de ATP a partir de ADP), que armazena energia.",
+        "C": "Incorreta: a apostila descreve a hidrólise do fosfato terminal, não a remoção do açúcar.",
+        "D": "Incorreta: descarboxilação é a perda de CO₂, como ocorre com o piruvato. Não é o mecanismo de liberação de energia do ATP."
+      },
+      "referencia": {
+        "paginas": [
+          15
+        ],
+        "fundamentacao": "Slide 15, \"CONVERSÃO DO ATP EM ADP\".",
+        "trechos_apoio": [
+          "\"O ATP fornece energia rapidamente para a célula através hidrólise do grupo fosfato terminal.\""
+        ]
+      }
+    },
+    {
+      "id": "glicolise_q006",
+      "slide_id": "glicolise",
+      "slide_nome": "050926 - Sistema Energético Glicolítico",
+      "arquivo_origem": "050926_-_SISTEMA_ENERGÉTICO_GLICOLÍTICO_260918_204208.pdf",
+      "numero": 6,
+      "tema": "Conversão do ATP em ADP",
+      "subtema": "Enzima e produto",
+      "enunciado": "A reação de hidrólise do ATP é catalisada pela enzima ______ e, depois de fornecer energia ao trabalho celular, o ATP é convertido em ______. Completa corretamente as lacunas:",
+      "alternativas": {
+        "A": "ATP sintase; AMP.",
+        "B": "ATPase; ADP (adenosina difosfato).",
+        "C": "Glicogênio fosforilase; glicose.",
+        "D": "Piruvato desidrogenase; acetil-CoA."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a ATP sintase forma ATP (cadeia respiratória), não o hidrolisa. O produto da hidrólise descrita é o ADP, e não o AMP.",
+        "B": "Correta: a reação é catalisada pela ATPase, e o ATP vira ADP (adenosina difosfato).",
+        "C": "Incorreta: a glicogênio fosforilase degrada glicogênio em glicose, outro processo.",
+        "D": "Incorreta: o complexo piruvato desidrogenase converte piruvato em acetil-CoA."
+      },
+      "referencia": {
+        "paginas": [
+          15
+        ],
+        "fundamentacao": "Slide 15, \"CONVERSÃO DO ATP EM ADP\".",
+        "trechos_apoio": [
+          "\"Esta reação é catalizada pela enzima ATPase\""
+        ]
+      }
+    },
+    {
+      "id": "glicolise_q007",
+      "slide_id": "glicolise",
+      "slide_nome": "050926 - Sistema Energético Glicolítico",
+      "arquivo_origem": "050926_-_SISTEMA_ENERGÉTICO_GLICOLÍTICO_260918_204208.pdf",
+      "numero": 7,
+      "tema": "NAD e FAD",
+      "subtema": "Função",
+      "enunciado": "Segundo a apostila, a função do NAD (nicotinamida adenina dinucleotídeo) e do FAD (dinucleotídeo de adenina flavina) é:",
+      "alternativas": {
+        "A": "Sintetizar ATP diretamente a partir de ADP.",
+        "B": "Armazenar glicose na forma de glicogênio.",
+        "C": "Transportar o hidrogênio liberado nas reações químicas.",
+        "D": "Transportar o oxigênio até as cristas mitocondriais."
+      },
+      "gabarito": "C",
+      "explicacoes": {
+        "A": "Incorreta: quem sintetiza ATP é a ATP sintase, usando a energia da cadeia respiratória.",
+        "B": "Incorreta: NAD e FAD não armazenam glicose. A reserva é o glicogênio, formado por outra via.",
+        "C": "Correta: NAD e FAD transportam o hidrogênio liberado nas reações, formando NADH e FADH.",
+        "D": "Incorreta: o oxigênio é o aceptor final dos hidrogênios, e não é transportado por NAD ou FAD."
+      },
+      "referencia": {
+        "paginas": [
+          18
+        ],
+        "fundamentacao": "Slide 18, \"NAD / FAD – NADH / FADH\".",
+        "trechos_apoio": [
+          "\"Transportarem o hidrogênio liberado nas reações químicas\""
+        ]
+      }
+    },
+    {
+      "id": "glicolise_q008",
+      "slide_id": "glicolise",
+      "slide_nome": "050926 - Sistema Energético Glicolítico",
+      "arquivo_origem": "050926_-_SISTEMA_ENERGÉTICO_GLICOLÍTICO_260918_204208.pdf",
+      "numero": 8,
+      "tema": "Metabolismo glicolítico",
+      "subtema": "Oxidação da glicose",
+      "enunciado": "No metabolismo glicolítico do corpo humano, a glicose é oxidada e:",
+      "alternativas": {
+        "A": "Absorve energia das ligações químicas, que é perdida no processo.",
+        "B": "Libera a energia contida em suas ligações químicas, que é armazenada na molécula de ATP.",
+        "C": "Converte-se diretamente em gordura, sem liberar energia.",
+        "D": "Converte-se em proteínas, armazenando a energia no NAD."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a oxidação da glicose libera energia, que é aproveitada e não perdida.",
+        "B": "Correta: a glicose é oxidada, libera a energia de suas ligações e ela é armazenada no ATP.",
+        "C": "Incorreta: a apostila descreve a oxidação para liberar energia, e não a conversão em gordura.",
+        "D": "Incorreta: não há conversão em proteínas. A energia é armazenada no ATP, e o NAD transporta hidrogênios."
+      },
+      "referencia": {
+        "paginas": [
+          20
+        ],
+        "fundamentacao": "Slide 20, \"METABOLISMO GLICOLÍTICO\".",
+        "trechos_apoio": [
+          "\"No corpo humano, a glicose é oxidada • Libera energia contidas em suas ligações químicas • Armazenada na molécula de ATP\""
+        ]
+      }
+    },
+    {
+      "id": "glicolise_q009",
+      "slide_id": "glicolise",
+      "slide_nome": "050926 - Sistema Energético Glicolítico",
+      "arquivo_origem": "050926_-_SISTEMA_ENERGÉTICO_GLICOLÍTICO_260918_204208.pdf",
+      "numero": 9,
+      "tema": "Mitocôndria",
+      "subtema": "Membrana interna",
+      "enunciado": "A membrana interna mitocondrial é composta por:",
+      "alternativas": {
+        "A": "80% de lipídios e 20% de proteínas.",
+        "B": "50% de lipídios e 50% de carboidratos.",
+        "C": "20% de lipídios e 80% de proteínas.",
+        "D": "100% de proteínas."
+      },
+      "gabarito": "C",
+      "explicacoes": {
+        "A": "Incorreta: inverte as proporções. Predominam as proteínas (80%).",
+        "B": "Incorreta: a apostila não cita carboidratos nessa composição. São 20% de lipídios e 80% de proteínas.",
+        "C": "Correta: a membrana interna tem 20% de lipídios e 80% de proteínas.",
+        "D": "Incorreta: há 20% de lipídios, portanto não é só proteína."
+      },
+      "referencia": {
+        "paginas": [
+          24
+        ],
+        "fundamentacao": "Slide 24, \"MEMBRANA INTERNA MITOCONDRIAL\".",
+        "trechos_apoio": [
+          "\"20% de lipídios; • 80% de proteínas com 3 tipos de funções\""
+        ]
+      }
+    },
+    {
+      "id": "glicolise_q010",
+      "slide_id": "glicolise",
+      "slide_nome": "050926 - Sistema Energético Glicolítico",
+      "arquivo_origem": "050926_-_SISTEMA_ENERGÉTICO_GLICOLÍTICO_260918_204208.pdf",
+      "numero": 10,
+      "tema": "Mitocôndria",
+      "subtema": "Funções das proteínas da membrana interna",
+      "enunciado": "Quais são as três funções das proteínas da membrana interna mitocondrial citadas na apostila?",
+      "alternativas": {
+        "A": "Cadeia respiratória, ATP-sintase (complexo enzimático) e proteínas transportadoras específicas que regulam o transporte de metabólitos.",
+        "B": "Glicólise, Ciclo de Krebs e glicogenólise.",
+        "C": "Síntese de DNA, síntese de ribossomos e β-oxidação.",
+        "D": "Fermentação láctica, gliconeogênese e digestão de carboidratos."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: são as três funções listadas: cadeia respiratória, ATP-sintase e proteínas transportadoras específicas.",
+        "B": "Incorreta: a glicólise ocorre no citoplasma, o Ciclo de Krebs na matriz e a glicogenólise é uma degradação de glicogênio, não função da membrana interna.",
+        "C": "Incorreta: o DNA mitocondrial, os ribossomos e a β-oxidação são conteúdos da matriz.",
+        "D": "Incorreta: não são funções listadas para a membrana interna."
+      },
+      "referencia": {
+        "paginas": [
+          24
+        ],
+        "fundamentacao": "Slide 24, \"MEMBRANA INTERNA MITOCONDRIAL\".",
+        "trechos_apoio": [
+          "\"1. Cadeia respiratória 2. ATP-sintase (Complexo enzimático) 3. Proteínas transportadoras específicas\""
+        ]
+      }
+    },
+    {
+      "id": "glicolise_q011",
+      "slide_id": "glicolise",
+      "slide_nome": "050926 - Sistema Energético Glicolítico",
+      "arquivo_origem": "050926_-_SISTEMA_ENERGÉTICO_GLICOLÍTICO_260918_204208.pdf",
+      "numero": 11,
+      "tema": "Mitocôndria",
+      "subtema": "Conteúdo da matriz mitocondrial",
+      "enunciado": "A matriz mitocondrial, circundada pela membrana interna, contém:",
+      "alternativas": {
+        "A": "Apenas as proteínas da cadeia respiratória.",
+        "B": "Enzimas solúveis do ciclo de Krebs, enzimas da β-oxidação dos ácidos graxos, cópias do DNA mitocondrial e ribossomos mitocondriais.",
+        "C": "Somente glicose e glicogênio.",
+        "D": "O núcleo da célula e o complexo golgiense."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: as proteínas da cadeia respiratória estão na membrana interna, e não na matriz.",
+        "B": "Correta: a apostila lista esses quatro componentes na matriz.",
+        "C": "Incorreta: glicose e glicogênio não são citados como conteúdo da matriz.",
+        "D": "Incorreta: núcleo e complexo golgiense são estruturas da célula, não da mitocôndria."
+      },
+      "referencia": {
+        "paginas": [
+          25
+        ],
+        "fundamentacao": "Slide 25, \"MATRIZ MITOCONDRIAL\".",
+        "trechos_apoio": [
+          "\"Enzimas solúveis do ciclo de Krebs • Enzimas da β-oxidação dos ácidos graxos.\""
+        ]
+      }
+    },
+    {
+      "id": "glicolise_q012",
+      "slide_id": "glicolise",
+      "slide_nome": "050926 - Sistema Energético Glicolítico",
+      "arquivo_origem": "050926_-_SISTEMA_ENERGÉTICO_GLICOLÍTICO_260918_204208.pdf",
+      "numero": 12,
+      "tema": "Mitocôndria",
+      "subtema": "Função",
+      "enunciado": "A função da mitocôndria, segundo a apostila, é:",
+      "alternativas": {
+        "A": "Sintetizar proteínas para exportação da célula.",
+        "B": "Armazenar o material genético principal da célula.",
+        "C": "Digerir macromoléculas por ação de enzimas hidrolíticas.",
+        "D": "Realizar a extração de energia dos alimentos (respiração celular), armazenada em moléculas de ATP."
+      },
+      "gabarito": "D",
+      "explicacoes": {
+        "A": "Incorreta: a apostila não atribui essa função à mitocôndria. A função dela é a respiração celular.",
+        "B": "Incorreta: a mitocôndria tem cópias do próprio DNA, mas sua função descrita é extrair energia dos alimentos.",
+        "C": "Incorreta: a digestão intracelular não é função citada para a mitocôndria.",
+        "D": "Correta: a mitocôndria realiza a extração de energia dos alimentos, armazenada em ATP."
+      },
+      "referencia": {
+        "paginas": [
+          26
+        ],
+        "fundamentacao": "Slide 26, \"FUNÇÃO DA MITOCÔNDRIA\".",
+        "trechos_apoio": [
+          "\"Realiza o processo de extração de energia dos alimentos (respiração celular)\""
+        ]
+      }
+    },
+    {
+      "id": "glicolise_q013",
+      "slide_id": "glicolise",
+      "slide_nome": "050926 - Sistema Energético Glicolítico",
+      "arquivo_origem": "050926_-_SISTEMA_ENERGÉTICO_GLICOLÍTICO_260918_204208.pdf",
+      "numero": 13,
+      "tema": "Moléculas dos alimentos",
+      "subtema": "Unidades monoméricas",
+      "enunciado": "Na apostila, as moléculas que constituem os alimentos são degradadas em moléculas pequenas (unidades monoméricas). A associação correta é:",
+      "alternativas": {
+        "A": "Proteínas: ácidos graxos; lipídeos: glicose; carboidratos: aminoácidos.",
+        "B": "Proteínas: glicose; lipídeos: aminoácidos; carboidratos: glicerol.",
+        "C": "Proteínas: aminoácidos; lipídeos: ácidos graxos e glicerol; carboidratos: glicose (monossacarídeo).",
+        "D": "Proteínas: glicerol; lipídeos: glicose; carboidratos: ácidos graxos."
+      },
+      "gabarito": "C",
+      "explicacoes": {
+        "A": "Incorreta: troca os três pares. Proteínas geram aminoácidos, lipídeos geram ácidos graxos e glicerol, e carboidratos geram glicose.",
+        "B": "Incorreta: proteínas não geram glicose nem carboidratos geram glicerol no material. A associação correta é a da alternativa C.",
+        "C": "Correta: reproduz as unidades monoméricas de cada nutriente.",
+        "D": "Incorreta: o glicerol vem dos lipídeos, a glicose dos carboidratos e os ácidos graxos dos lipídeos."
+      },
+      "referencia": {
+        "paginas": [
+          28
+        ],
+        "fundamentacao": "Slide 28, \"MOLÉCULAS QUE CONSTITUEM OS ALIMENTOS\".",
+        "trechos_apoio": [
+          "\"Proteínas -aminoácidos Lipídeos – ácidos graxos e glicerol Carboidratos - glicose (monossacarídeo)\""
+        ]
+      }
+    },
+    {
+      "id": "glicolise_q014",
+      "slide_id": "glicolise",
+      "slide_nome": "050926 - Sistema Energético Glicolítico",
+      "arquivo_origem": "050926_-_SISTEMA_ENERGÉTICO_GLICOLÍTICO_260918_204208.pdf",
+      "numero": 14,
+      "tema": "Moléculas dos alimentos",
+      "subtema": "Onde ocorre a oxidação",
+      "enunciado": "De acordo com a apostila, os monômeros resultantes da degradação dos alimentos entram:",
+      "alternativas": {
+        "A": "No núcleo das células, onde são oxidados.",
+        "B": "No citosol das células, onde ocorrerá a sua oxidação.",
+        "C": "Na membrana externa da mitocôndria, onde são sintetizados.",
+        "D": "No espaço entre as membranas, onde são armazenados."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o núcleo não é o local de oxidação descrito na apostila.",
+        "B": "Correta: os monômeros entram no citosol das células, onde ocorrerá a oxidação.",
+        "C": "Incorreta: a apostila indica o citosol, e não a membrana externa, como local de entrada dos monômeros.",
+        "D": "Incorreta: o espaço entre membranas não é citado como local de armazenamento dos monômeros."
+      },
+      "referencia": {
+        "paginas": [
+          28
+        ],
+        "fundamentacao": "Slide 28, \"MOLÉCULAS QUE CONSTITUEM OS ALIMENTOS\".",
+        "trechos_apoio": [
+          "\"Os monômeros entram no citosol das células onde ocorrera a sua oxidação.\""
+        ]
+      }
+    },
+    {
+      "id": "glicolise_q015",
+      "slide_id": "glicolise",
+      "slide_nome": "050926 - Sistema Energético Glicolítico",
+      "arquivo_origem": "050926_-_SISTEMA_ENERGÉTICO_GLICOLÍTICO_260918_204208.pdf",
+      "numero": 15,
+      "tema": "Glicólise",
+      "subtema": "Conceito e número de carbonos",
+      "enunciado": "O \"lembrete\" da apostila sobre a glicólise anaeróbica (C₆H₁₂O₆) afirma que:",
+      "alternativas": {
+        "A": "Entram duas moléculas de glicose e sai uma de piruvato.",
+        "B": "Entra uma molécula de glicose com 6 carbonos e saem 2 moléculas de piruvato de 3 carbonos.",
+        "C": "Entra uma molécula de glicose com 3 carbonos e saem 6 de piruvato.",
+        "D": "Entra uma molécula de piruvato com 6 carbonos e sai uma de glicose."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: inverte as quantidades. Entra uma glicose e saem dois piruvatos.",
+        "B": "Correta: uma glicose (6C) origina 2 piruvatos (3C).",
+        "C": "Incorreta: a glicose tem 6 carbonos, não 3, e saem 2 piruvatos, não 6.",
+        "D": "Incorreta: inverte o sentido. A glicólise parte da glicose e termina em piruvato."
+      },
+      "referencia": {
+        "paginas": [
+          38
+        ],
+        "fundamentacao": "Slide 38, \"GLICÓLISE ANAERÓBICA\".",
+        "trechos_apoio": [
+          "\"Na glicólise entra uma molécula de GLICOSE com 6 carbonos e sai 2 moléculas de piruvato de 3 carbonos\""
+        ]
+      }
+    },
+    {
+      "id": "glicolise_q016",
+      "slide_id": "glicolise",
+      "slide_nome": "050926 - Sistema Energético Glicolítico",
+      "arquivo_origem": "050926_-_SISTEMA_ENERGÉTICO_GLICOLÍTICO_260918_204208.pdf",
+      "numero": 16,
+      "tema": "Glicólise anaeróbica",
+      "subtema": "Local e organização",
+      "enunciado": "A glicólise anaeróbica ocorre no ______ das células, é constituída por ______ reações (enzimas) e é dividida em ______ fases. Completa corretamente:",
+      "alternativas": {
+        "A": "Núcleo; 8; três.",
+        "B": "Citoplasma; 10; duas.",
+        "C": "Matriz mitocondrial; 10; duas.",
+        "D": "Citoplasma; 8; quatro."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a glicólise não ocorre no núcleo, e são 10 reações, não 8, em duas fases.",
+        "B": "Correta: ocorre no citoplasma, com 10 reações (10 enzimas) em duas fases.",
+        "C": "Incorreta: o número está certo, mas o local é o citoplasma. A matriz mitocondrial abriga o Ciclo de Krebs.",
+        "D": "Incorreta: o local está certo, mas são 10 reações em duas fases (8 é o número de etapas do Ciclo de Krebs)."
+      },
+      "referencia": {
+        "paginas": [
+          35
+        ],
+        "fundamentacao": "Slide 35, \"GLICÓLISE ANAERÓBICA\".",
+        "trechos_apoio": [
+          "\"É constituída por uma sequência de 10 reações • (10 enzimas) divididas em duas fases.\""
+        ]
+      }
+    },
+    {
+      "id": "glicolise_q017",
+      "slide_id": "glicolise",
+      "slide_nome": "050926 - Sistema Energético Glicolítico",
+      "arquivo_origem": "050926_-_SISTEMA_ENERGÉTICO_GLICOLÍTICO_260918_204208.pdf",
+      "numero": 17,
+      "tema": "Glicólise anaeróbica",
+      "subtema": "Saldo energético",
+      "enunciado": "Segundo a apostila, para a glicólise acontecer a célula gasta ______ e produz ______, apresentando saldo energético positivo de ______.",
+      "alternativas": {
+        "A": "4 ATP; 2 ATP; 2 ATP negativos.",
+        "B": "2 ATP; 2 ATP; saldo zero.",
+        "C": "2 ATP; 4 ATP; 2 ATP.",
+        "D": "1 ATP; 3 ATP; 2 ATP."
+      },
+      "gabarito": "C",
+      "explicacoes": {
+        "A": "Incorreta: inverte gasto e produção. A célula gasta 2 e produz 4.",
+        "B": "Incorreta: se produzisse 2 e gastasse 2, o saldo seria zero. A produção é de 4 ATP.",
+        "C": "Correta: gasta 2 ATP, produz 4 ATP, com saldo positivo de 2 ATP.",
+        "D": "Incorreta: os valores de gasto e produção não correspondem ao material, mesmo que a diferença seja 2."
+      },
+      "referencia": {
+        "paginas": [
+          36
+        ],
+        "fundamentacao": "Slide 36, \"GLICÓLISE ANAERÓBICA\".",
+        "trechos_apoio": [
+          "\"A célula gasta 2 ATP (durante a reação) e produz 4 ATP.\""
+        ]
+      }
+    },
+    {
+      "id": "glicolise_q018",
+      "slide_id": "glicolise",
+      "slide_nome": "050926 - Sistema Energético Glicolítico",
+      "arquivo_origem": "050926_-_SISTEMA_ENERGÉTICO_GLICOLÍTICO_260918_204208.pdf",
+      "numero": 18,
+      "tema": "Glicólise anaeróbica",
+      "subtema": "Fases",
+      "enunciado": "As duas fases da via glicolítica anaeróbica, segundo a apostila, são:",
+      "alternativas": {
+        "A": "Fase preparatória (preparação, regulação e gasto de energia) e fase de pagamento (produção de ATP e oxidação).",
+        "B": "Fase aeróbica (mitocôndria) e fase anaeróbica (citoplasma).",
+        "C": "Fase de síntese de glicogênio e fase de degradação de glicogênio.",
+        "D": "Fase de descarboxilação e fase de hidratação."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: a fase preparatória gasta energia e a fase de pagamento produz ATP e oxida.",
+        "B": "Incorreta: aeróbico e anaeróbico são os dois sistemas energéticos, não as fases da glicólise.",
+        "C": "Incorreta: síntese e degradação de glicogênio são glicogênese e glicogenólise.",
+        "D": "Incorreta: descarboxilação e hidratação são tipos de reação do Ciclo de Krebs e da conversão do piruvato."
+      },
+      "referencia": {
+        "paginas": [
+          37
+        ],
+        "fundamentacao": "Slide 37, \"GLICÓLISE OU VIA GLICOLÍTICA ANAERÓBICA\".",
+        "trechos_apoio": [
+          "\"1. FASE PREPARATÓRIA: Preparação, regulação e gasto de energia / 2. FASE DE PAGAMENTO: Produção de ATP e oxidação\""
+        ]
+      }
+    },
+    {
+      "id": "glicolise_q019",
+      "slide_id": "glicolise",
+      "slide_nome": "050926 - Sistema Energético Glicolítico",
+      "arquivo_origem": "050926_-_SISTEMA_ENERGÉTICO_GLICOLÍTICO_260918_204208.pdf",
+      "numero": 19,
+      "tema": "Glicólise anaeróbica",
+      "subtema": "Produtos",
+      "enunciado": "Os produtos da glicólise anaeróbica, a partir de uma molécula de glicose, são:",
+      "alternativas": {
+        "A": "2 piruvatos, 2 NADH e saldo de 2 ATP.",
+        "B": "1 piruvato, 1 NADH e saldo de 4 ATP.",
+        "C": "2 acetil-CoA, 2 FADH₂ e saldo de 2 ATP.",
+        "D": "2 lactatos, 6 CO₂ e saldo de 36 ATP."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: são 2 piruvatos, 2 NADH e saldo de 2 ATP.",
+        "B": "Incorreta: os valores de piruvato e NADH estão pela metade, e o saldo é de 2 ATP, não 4 (4 é a produção bruta).",
+        "C": "Incorreta: a acetil-CoA e o FADH₂ não são produtos da glicólise. Ela produz piruvato e NADH.",
+        "D": "Incorreta: o CO₂ e os 36 ATP não são produtos da glicólise. O CO₂ vem da conversão do piruvato e do Ciclo de Krebs."
+      },
+      "referencia": {
+        "paginas": [
+          39
+        ],
+        "fundamentacao": "Slide 39, \"PRODUTO DA GLICÓLISE ANAERÓBICA\".",
+        "trechos_apoio": [
+          "\"2 PIRUVATOS • 2 NADH • SALDO DE 2 ATP NA REAÇÃO\""
+        ]
+      }
+    },
+    {
+      "id": "glicolise_q020",
+      "slide_id": "glicolise",
+      "slide_nome": "050926 - Sistema Energético Glicolítico",
+      "arquivo_origem": "050926_-_SISTEMA_ENERGÉTICO_GLICOLÍTICO_260918_204208.pdf",
+      "numero": 20,
+      "tema": "Glicólise",
+      "subtema": "Remoção de hidrogênios pelo NAD",
+      "enunciado": "Na conversão da glicose em piruvato, enzimas desidrogenases removem hidrogênios da glicose e os transferem para dois receptores, os NAD. Sobre esse processo, a apostila afirma que:",
+      "alternativas": {
+        "A": "Cada NAD captura 4 hidrogênios, formando 1 NADH₂.",
+        "B": "Cada NAD captura 2 hidrogênios, formando 2 NADH₂.",
+        "C": "O FAD captura os hidrogênios, formando 2 FADH₂.",
+        "D": "Os hidrogênios são liberados no meio como H₂ gasoso."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: cada NAD captura 2 hidrogênios, e são dois NAD, formando 2 NADH₂.",
+        "B": "Correta: cada NAD captura 2 hidrogênios e formam-se 2 NADH₂.",
+        "C": "Incorreta: na glicólise o receptor é o NAD. O FAD aparece no Ciclo de Krebs.",
+        "D": "Incorreta: os hidrogênios são transferidos ao NAD, não liberados como gás."
+      },
+      "referencia": {
+        "paginas": [
+          42
+        ],
+        "fundamentacao": "Slide 42, \"GLICÓLISE\".",
+        "trechos_apoio": [
+          "\"Cada NAD captura 2 hidrogênios. • Logo, formam-se 2 NADH2.\""
+        ]
+      }
+    },
+    {
+      "id": "glicolise_q021",
+      "slide_id": "glicolise",
+      "slide_nome": "050926 - Sistema Energético Glicolítico",
+      "arquivo_origem": "050926_-_SISTEMA_ENERGÉTICO_GLICOLÍTICO_260918_204208.pdf",
+      "numero": 21,
+      "tema": "Destinos do piruvato",
+      "subtema": "Primeiro destino (lactato)",
+      "enunciado": "O primeiro destino do piruvato, apresentado na apostila, é:",
+      "alternativas": {
+        "A": "A conversão em acetil-CoA dentro da mitocôndria.",
+        "B": "A conversão em lactato (fermentação láctica), regenerando o NAD necessário para continuar a glicólise.",
+        "C": "A conversão em glicogênio no fígado.",
+        "D": "A oxidação direta a CO₂ e H₂O no citosol."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a conversão em acetil-CoA é o segundo destino, no metabolismo aeróbico.",
+        "B": "Correta: o primeiro destino é o lactato (fermentação láctica), com regeneração do NAD.",
+        "C": "Incorreta: a apostila não apresenta essa conversão como destino do piruvato.",
+        "D": "Incorreta: a oxidação completa a CO₂ e H₂O ocorre na mitocôndria, após a conversão em acetil-CoA."
+      },
+      "referencia": {
+        "paginas": [
+          44
+        ],
+        "fundamentacao": "Slide 44, \"PRIMEIRO DESTINO DO PIRUVATO\".",
+        "trechos_apoio": [
+          "\"Conversão do piruvato em lactato (através da fermentação láctica). • Regeneração do NAD\""
+        ]
+      }
+    },
+    {
+      "id": "glicolise_q022",
+      "slide_id": "glicolise",
+      "slide_nome": "050926 - Sistema Energético Glicolítico",
+      "arquivo_origem": "050926_-_SISTEMA_ENERGÉTICO_GLICOLÍTICO_260918_204208.pdf",
+      "numero": 22,
+      "tema": "Glicólise anaeróbica",
+      "subtema": "Definição e velocidade",
+      "enunciado": "De acordo com a apostila, a glicólise anaeróbica é a degradação da glicose:",
+      "alternativas": {
+        "A": "Com participação do O₂, tendo como produto final a acetil-CoA, e é mais lenta que a aeróbica.",
+        "B": "Sem participação do O₂, tendo como produto final o lactato e hidrogênio livre, e é muito mais rápida que a aeróbica.",
+        "C": "Sem participação do O₂, tendo como produto final a água, e é mais lenta que a aeróbica.",
+        "D": "Com participação do O₂, tendo como produto final o CO₂, e é igual em velocidade à aeróbica."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a via anaeróbica não usa O₂ e não termina em acetil-CoA. Também não é mais lenta.",
+        "B": "Correta: é sem O₂, termina em lactato e hidrogênio livre e é muito mais rápida que a aeróbica.",
+        "C": "Incorreta: o produto final é lactato e hidrogênio livre, não água, e a via é mais rápida.",
+        "D": "Incorreta: a via anaeróbica dispensa o O₂ e é mais rápida que a aeróbica."
+      },
+      "referencia": {
+        "paginas": [
+          46
+        ],
+        "fundamentacao": "Slide 46, \"PRIMEIRO DESTINO DO PIRUVATO\".",
+        "trechos_apoio": [
+          "\"Esta via é muito mais rápida que a glicólise aeróbica.\""
+        ]
+      }
+    },
+    {
+      "id": "glicolise_q023",
+      "slide_id": "glicolise",
+      "slide_nome": "050926 - Sistema Energético Glicolítico",
+      "arquivo_origem": "050926_-_SISTEMA_ENERGÉTICO_GLICOLÍTICO_260918_204208.pdf",
+      "numero": 23,
+      "tema": "Sistema anaeróbico",
+      "subtema": "Formação de lactato",
+      "enunciado": "Segundo a apostila, o lactato é produzido no sistema anaeróbico quando:",
+      "alternativas": {
+        "A": "Há excesso de oxigênio e muitas mitocôndrias.",
+        "B": "Há excesso de glicose e falta de insulina.",
+        "C": "Não há oxigênio suficiente ou na ausência de mitocôndria.",
+        "D": "O Ciclo de Krebs está acelerado."
+      },
+      "gabarito": "C",
+      "explicacoes": {
+        "A": "Incorreta: excesso de oxigênio e mitocôndrias favorece o caminho aeróbico, e não o lactato.",
+        "B": "Incorreta: a apostila não relaciona a formação de lactato à insulina.",
+        "C": "Correta: o lactato é produzido quando não há oxigênio suficiente ou na ausência de mitocôndria.",
+        "D": "Incorreta: o Ciclo de Krebs acelerado indica metabolismo aeróbico, em que o piruvato segue para acetil-CoA."
+      },
+      "referencia": {
+        "paginas": [
+          48
+        ],
+        "fundamentacao": "Slide 48, \"FORMAÇÃO DE LACTATO NO SISTEMA ANAERÓBICO\".",
+        "trechos_apoio": [
+          "\"NÃO HÁ OXIGÊNIO SUFICIENTE • NA AUSÊNCIA DE MITOCÔNDRIA\""
+        ]
+      }
+    },
+    {
+      "id": "glicolise_q024",
+      "slide_id": "glicolise",
+      "slide_nome": "050926 - Sistema Energético Glicolítico",
+      "arquivo_origem": "050926_-_SISTEMA_ENERGÉTICO_GLICOLÍTICO_260918_204208.pdf",
+      "numero": 24,
+      "tema": "Sistema anaeróbico",
+      "subtema": "Regeneração de NAD⁺",
+      "enunciado": "Na conversão anaeróbica do piruvato a lactato, o NADH₂ formado na glicólise é reoxidado. Qual é a consequência disso, segundo a apostila?",
+      "alternativas": {
+        "A": "Permite a regeneração de NAD⁺, que fica disponível.",
+        "B": "Gera 36 ATP adicionais.",
+        "C": "Forma acetil-CoA na matriz mitocondrial.",
+        "D": "Produz glicose a partir do lactato."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: a conversão permite a regeneração de NAD⁺ e o deixa disponível para a glicólise continuar.",
+        "B": "Incorreta: os 36 a 39 ATP são do sistema aeróbico completo, não da conversão anaeróbica a lactato.",
+        "C": "Incorreta: a formação de acetil-CoA é outro destino, aeróbico, e ocorre na mitocôndria.",
+        "D": "Incorreta: a apostila só menciona o lactato excedente seguindo para o fígado para produzir glicose, e não como consequência da regeneração de NAD⁺."
+      },
+      "referencia": {
+        "paginas": [
+          47
+        ],
+        "fundamentacao": "Slides 47 e 49, \"SISTEMA ENERGÉTICO GLICOLÍTICO ANAERÓBICO\" e \"CONVERSÃO ANAERÓBICA DO PIRUVATO A LACTATO\".",
+        "trechos_apoio": [
+          "\"PERMITE A REGENERAÇÃO DE NAD+\""
+        ]
+      }
+    },
+    {
+      "id": "glicolise_q025",
+      "slide_id": "glicolise",
+      "slide_nome": "050926 - Sistema Energético Glicolítico",
+      "arquivo_origem": "050926_-_SISTEMA_ENERGÉTICO_GLICOLÍTICO_260918_204208.pdf",
+      "numero": 25,
+      "tema": "Destinos do piruvato",
+      "subtema": "Tecidos com metabolismo anaeróbico",
+      "enunciado": "O esquema dos destinos do piruvato cita tecidos e células que dependem do metabolismo anaeróbico. Qual alternativa lista apenas exemplos citados nesse esquema?",
+      "alternativas": {
+        "A": "Cristalino, córnea do olho, medula renal, testículos, leucócitos e hemácias.",
+        "B": "Fígado, coração, cérebro e rim em repouso.",
+        "C": "Hemácias, neurônios, hepatócitos e músculo cardíaco.",
+        "D": "Fígado, pâncreas, estômago e intestino."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: são exatamente os exemplos listados em \"Metabolismo Anaeróbico\" no esquema.",
+        "B": "Incorreta: fígado, coração, cérebro e rim em repouso não constam na lista do esquema.",
+        "C": "Incorreta: só as hemácias estão na lista. Neurônios, hepatócitos e músculo cardíaco não aparecem.",
+        "D": "Incorreta: nenhum desses órgãos está na lista de tecidos anaeróbicos do slide."
+      },
+      "referencia": {
+        "paginas": [
+          45
+        ],
+        "fundamentacao": "Slide 45, esquema \"PIRUVATO (2 MOLÉCULAS)\".",
+        "trechos_apoio": [
+          "\"Metabolismo Anaeróbico: cristalino, córnea do olho, medula renal, testículos, leucócitos, hemácias.\""
+        ]
+      }
+    },
+    {
+      "id": "glicolise_q026",
+      "slide_id": "glicolise",
+      "slide_nome": "050926 - Sistema Energético Glicolítico",
+      "arquivo_origem": "050926_-_SISTEMA_ENERGÉTICO_GLICOLÍTICO_260918_204208.pdf",
+      "numero": 26,
+      "tema": "Destinos do piruvato",
+      "subtema": "Lactato nos músculos e produção de etanol",
+      "enunciado": "No esquema dos destinos do piruvato, quais afirmações estão corretas?",
+      "alternativas": {
+        "A": "Músculos em exercício formam etanol e CO₂; fungos e algumas bactérias formam lactato.",
+        "B": "Hemácias formam etanol e CO₂; fungos formam acetil-CoA na matriz mitocondrial.",
+        "C": "Músculos em exercício e hemácias formam lactato (com queda do pH e cãibras no músculo); fungos e algumas bactérias formam etanol e CO₂.",
+        "D": "Tecidos anóxicos formam apenas glicose e glicogênio."
+      },
+      "gabarito": "C",
+      "explicacoes": {
+        "A": "Incorreta: troca os produtos. Músculos em exercício formam lactato, e fungos e bactérias formam etanol e CO₂.",
+        "B": "Incorreta: hemácias formam lactato, e a acetil-CoA é formada na mitocôndria, no metabolismo aeróbico.",
+        "C": "Correta: o esquema associa o lactato a hemácias e músculos em exercício (↓pH, cãibras) e etanol + CO₂ a fungos e algumas bactérias.",
+        "D": "Incorreta: o esquema cita tecidos anóxicos em situações como IAM, embolia pulmonar e hemorragia, e não a formação de glicose e glicogênio."
+      },
+      "referencia": {
+        "paginas": [
+          45
+        ],
+        "fundamentacao": "Slide 45, esquema \"PIRUVATO (2 MOLÉCULAS)\".",
+        "trechos_apoio": [
+          "\"Músculos em exercício ↓pH, cãibras … Excedente de lactato → fígado para produzir glicose.\"*"
+        ]
+      }
+    },
+    {
+      "id": "glicolise_q027",
+      "slide_id": "glicolise",
+      "slide_nome": "050926 - Sistema Energético Glicolítico",
+      "arquivo_origem": "050926_-_SISTEMA_ENERGÉTICO_GLICOLÍTICO_260918_204208.pdf",
+      "numero": 27,
+      "tema": "Destinos do piruvato",
+      "subtema": "Segundo destino (acetil-CoA)",
+      "enunciado": "Para gerar o grupo acetil-coenzima A, segundo a apostila, o piruvato tem que ser:",
+      "alternativas": {
+        "A": "Reduzido, consumindo CO₂.",
+        "B": "Oxidado, liberando CO₂, e depois o grupo acetil é totalmente oxidado no ciclo de Krebs.",
+        "C": "Fermentado, liberando etanol.",
+        "D": "Hidrolisado, liberando ATP e glicose."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o piruvato é oxidado, não reduzido, e há liberação de CO₂, não consumo.",
+        "B": "Correta: o piruvato é oxidado liberando CO₂, e o grupo acetil é oxidado totalmente no ciclo de Krebs.",
+        "C": "Incorreta: a fermentação com etanol não faz parte do caminho da acetil-CoA descrito.",
+        "D": "Incorreta: a apostila não descreve hidrólise do piruvato com liberação de ATP e glicose."
+      },
+      "referencia": {
+        "paginas": [
+          50
+        ],
+        "fundamentacao": "Slide 50, \"SEGUNDO DESTINO DO PIRUVATO\".",
+        "trechos_apoio": [
+          "\"o piruvato tem que ser oxidado, liberando CO².\""
+        ]
+      }
+    },
+    {
+      "id": "glicolise_q028",
+      "slide_id": "glicolise",
+      "slide_nome": "050926 - Sistema Energético Glicolítico",
+      "arquivo_origem": "050926_-_SISTEMA_ENERGÉTICO_GLICOLÍTICO_260918_204208.pdf",
+      "numero": 28,
+      "tema": "Glicólise aeróbica",
+      "subtema": "Destino do piruvato na mitocôndria",
+      "enunciado": "Na glicólise aeróbica, o piruvato convertido em acetil-CoA é transportado para dentro da mitocôndria para:",
+      "alternativas": {
+        "A": "Ser armazenado como glicogênio.",
+        "B": "Ser convertido em lactato.",
+        "C": "Regenerar o NAD no citoplasma.",
+        "D": "Completar sua oxidação até CO₂ e H₂O, ativando o Ciclo de Krebs e a cadeia respiratória."
+      },
+      "gabarito": "D",
+      "explicacoes": {
+        "A": "Incorreta: não há armazenamento como glicogênio nesse caminho.",
+        "B": "Incorreta: o lactato é produzido no metabolismo anaeróbico, não na mitocôndria.",
+        "C": "Incorreta: a regeneração do NAD pela formação de lactato é característica do caminho anaeróbico.",
+        "D": "Correta: a acetil-CoA vai à mitocôndria para completar a oxidação até CO₂ e H₂O, ativando o Ciclo de Krebs e a cadeia respiratória."
+      },
+      "referencia": {
+        "paginas": [
+          52
+        ],
+        "fundamentacao": "Slide 52, \"DESTINOS DO PIRUVATO\".",
+        "trechos_apoio": [
+          "\"É transportado para dentro da mitocôndria para completar sua oxidação até CO2 e H2O.\""
+        ]
+      }
+    },
+    {
+      "id": "glicolise_q029",
+      "slide_id": "glicolise",
+      "slide_nome": "050926 - Sistema Energético Glicolítico",
+      "arquivo_origem": "050926_-_SISTEMA_ENERGÉTICO_GLICOLÍTICO_260918_204208.pdf",
+      "numero": 29,
+      "tema": "Sistema glicolítico aeróbico",
+      "subtema": "Compartimentos",
+      "enunciado": "No sistema energético glicolítico aeróbico, a glicólise ocorre no ______, e o Ciclo de Krebs e a cadeia respiratória ocorrem nas ______.",
+      "alternativas": {
+        "A": "Citoplasma; mitocôndrias.",
+        "B": "Mitocôndrias; citoplasma.",
+        "C": "Núcleo; mitocôndrias.",
+        "D": "Citoplasma; no próprio citoplasma."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: glicólise no citoplasma; Ciclo de Krebs e cadeia respiratória nas mitocôndrias.",
+        "B": "Incorreta: inverte os locais. A glicólise ocorre no citoplasma.",
+        "C": "Incorreta: a glicólise não ocorre no núcleo.",
+        "D": "Incorreta: o Ciclo de Krebs e a cadeia respiratória são mitocondriais, e não citoplasmáticos."
+      },
+      "referencia": {
+        "paginas": [
+          54
+        ],
+        "fundamentacao": "Slide 54, \"SISTEMA ENERGÉTICO GLICOLÍTICO AERÓBICO\".",
+        "trechos_apoio": [
+          "\"CITOPLASMA: GLICÓLISE / MITOCÔNDRIAS: CICLO KREBS e CADEIA RESPIRATÓRIA\""
+        ]
+      }
+    },
+    {
+      "id": "glicolise_q030",
+      "slide_id": "glicolise",
+      "slide_nome": "050926 - Sistema Energético Glicolítico",
+      "arquivo_origem": "050926_-_SISTEMA_ENERGÉTICO_GLICOLÍTICO_260918_204208.pdf",
+      "numero": 30,
+      "tema": "Sistema glicolítico aeróbico",
+      "subtema": "Tipos de reação",
+      "enunciado": "Dentro da mitocôndria, cada molécula de piruvato entra em uma sequência de reações em que ocorrem desidrogenações e descarboxilações. Essas reações correspondem, respectivamente, a:",
+      "alternativas": {
+        "A": "Ganho de íons H e ganho de CO₂.",
+        "B": "Perda de íons H e perda de CO₂.",
+        "C": "Perda de íons H e ganho de CO₂.",
+        "D": "Ganho de íons H e perda de CO₂."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: ambos os termos indicam perda, não ganho.",
+        "B": "Correta: desidrogenação é perda de íons H e descarboxilação é perda de CO₂.",
+        "C": "Incorreta: a descarboxilação é perda, e não ganho, de CO₂.",
+        "D": "Incorreta: a desidrogenação é perda, e não ganho, de íons H."
+      },
+      "referencia": {
+        "paginas": [
+          56
+        ],
+        "fundamentacao": "Slide 56, \"SISTEMA GLICOLÍTICO AERÓBICO\".",
+        "trechos_apoio": [
+          "\"DESIDROGENAÇÕES (perda de íons H) DESCARBOXILAÇÕES (perda de CO2).\"*"
+        ]
+      }
+    },
+    {
+      "id": "glicolise_q031",
+      "slide_id": "glicolise",
+      "slide_nome": "050926 - Sistema Energético Glicolítico",
+      "arquivo_origem": "050926_-_SISTEMA_ENERGÉTICO_GLICOLÍTICO_260918_204208.pdf",
+      "numero": 31,
+      "tema": "Sistema glicolítico aeróbico",
+      "subtema": "Total de CO₂ formado por glicose",
+      "enunciado": "Na degradação aeróbica de uma glicose (C₆H₁₂O₆), segundo a apostila, formam-se 6 moléculas de CO₂. Como elas se distribuem por molécula de piruvato?",
+      "alternativas": {
+        "A": "1 na glicólise e 2 na cadeia respiratória.",
+        "B": "3 para cada piruvato: 1 na conversão em acetil-CoA e 2 no ciclo de Krebs.",
+        "C": "2 na conversão em acetil-CoA e 1 no ciclo de Krebs.",
+        "D": "3 no ciclo de Krebs e nenhuma na conversão em acetil-CoA."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a glicólise não libera CO₂ e a cadeia respiratória forma água, não CO₂.",
+        "B": "Correta: são 3 CO₂ por piruvato: 1 na conversão em acetil-CoA e 2 no Ciclo de Krebs (3 × 2 piruvatos = 6).",
+        "C": "Incorreta: inverte a distribuição. A conversão libera 1 CO₂, e o ciclo libera 2.",
+        "D": "Incorreta: a conversão do piruvato em acetil-CoA já libera 1 CO₂, e o ciclo libera 2 (não 3)."
+      },
+      "referencia": {
+        "paginas": [
+          57
+        ],
+        "fundamentacao": "Slide 57, \"SISTEMA GLICOLÍTICO AERÓBICO\".",
+        "trechos_apoio": [
+          "\"Formam 6 moléculas de CO2 (3 para cada molécula de piruvato)\""
+        ]
+      }
+    },
+    {
+      "id": "glicolise_q032",
+      "slide_id": "glicolise",
+      "slide_nome": "050926 - Sistema Energético Glicolítico",
+      "arquivo_origem": "050926_-_SISTEMA_ENERGÉTICO_GLICOLÍTICO_260918_204208.pdf",
+      "numero": 32,
+      "tema": "Ciclo de Krebs",
+      "subtema": "1ª etapa",
+      "enunciado": "Na 1ª etapa do Ciclo de Krebs, segundo a apostila, acetil-CoA (C2) + oxalacetato (C4) formam:",
+      "alternativas": {
+        "A": "Isocitrato (C6), pela enzima aconitase.",
+        "B": "Succinato (C4), pela enzima succinato desidrogenase.",
+        "C": "Alfa-cetoglutarato (C5), pela enzima fumarase.",
+        "D": "Citrato (C6), catalisado pela enzima citrato sintase."
+      },
+      "gabarito": "D",
+      "explicacoes": {
+        "A": "Incorreta: o isocitrato é formado na 2ª etapa, a partir do citrato, pela aconitase.",
+        "B": "Incorreta: o succinato é convertido em fumarato na 6ª etapa, e não é produto da condensação inicial.",
+        "C": "Incorreta: o alfa-cetoglutarato vem do isocitrato (3ª etapa), e a fumarase atua na 7ª etapa.",
+        "D": "Correta: C2 + C4 = C6 (citrato), catalisado pela citrato sintase (grafada \"sintato sintase\" no slide)."
+      },
+      "referencia": {
+        "paginas": [
+          60
+        ],
+        "fundamentacao": "Slide 60, \"1ª ETAPA\".",
+        "trechos_apoio": [
+          "\"ACETIL-COA (C2) + OXALACETATO (C4) = CITRATO (C6)\""
+        ]
+      }
+    },
+    {
+      "id": "glicolise_q033",
+      "slide_id": "glicolise",
+      "slide_nome": "050926 - Sistema Energético Glicolítico",
+      "arquivo_origem": "050926_-_SISTEMA_ENERGÉTICO_GLICOLÍTICO_260918_204208.pdf",
+      "numero": 33,
+      "tema": "Ciclo de Krebs",
+      "subtema": "2ª etapa",
+      "enunciado": "Na 2ª etapa do Ciclo de Krebs, o citrato:",
+      "alternativas": {
+        "A": "Sofre desidratação e forma isocitrato, catalisado pela enzima aconitase.",
+        "B": "Sofre hidratação e forma malato, pela enzima fumarase.",
+        "C": "Libera CO₂ e forma alfa-cetoglutarato.",
+        "D": "É oxidado a oxalacetato, reduzindo NAD em NADH."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: o citrato sofre desidratação e forma isocitrato, catalisado pela aconitase.",
+        "B": "Incorreta: a hidratação do fumarato gerando malato (fumarase) ocorre na 7ª etapa.",
+        "C": "Incorreta: a liberação de CO₂ com formação de alfa-cetoglutarato é da 3ª etapa, a partir do isocitrato.",
+        "D": "Incorreta: a formação de oxalacetato reduzindo NAD em NADH é a 8ª etapa, a partir do malato."
+      },
+      "referencia": {
+        "paginas": [
+          62
+        ],
+        "fundamentacao": "Slide 62, \"2ª ETAPA\".",
+        "trechos_apoio": [
+          "\"CITRATO SOFRE DESIDRATANAÇÃO E FORMA ISOCITRATO CATALIZADO PELA ENZIMA ACONITASE\""
+        ]
+      }
+    },
+    {
+      "id": "glicolise_q034",
+      "slide_id": "glicolise",
+      "slide_nome": "050926 - Sistema Energético Glicolítico",
+      "arquivo_origem": "050926_-_SISTEMA_ENERGÉTICO_GLICOLÍTICO_260918_204208.pdf",
+      "numero": 34,
+      "tema": "Ciclo de Krebs",
+      "subtema": "3ª e 4ª etapas (descarboxilações)",
+      "enunciado": "Sobre as 3ª e 4ª etapas do Ciclo de Krebs, é correto afirmar que:",
+      "alternativas": {
+        "A": "A 3ª forma alfa-cetoglutarato (C5), com saída de 1 CO₂ e redução de NAD em NADH; a 4ª converte alfa-cetoglutarato em succinil-CoA (C4), também com saída de CO₂ e formação de NADH.",
+        "B": "A 3ª forma succinil-CoA, e a 4ª forma isocitrato, ambas sem liberação de CO₂.",
+        "C": "A 3ª forma fumarato, com formação de FADH₂, e a 4ª forma malato, com ganho de CO₂.",
+        "D": "A 3ª e a 4ª etapas apenas adicionam água, sem formar NADH nem CO₂."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: a 3ª (isocitrato → alfa-cetoglutarato) e a 4ª (alfa-cetoglutarato → succinil-CoA, pela alfa-cetoglutarato desidrogenase) liberam CO₂ e formam NADH.",
+        "B": "Incorreta: o isocitrato é formado na 2ª etapa, não na 4ª, e as duas etapas liberam CO₂.",
+        "C": "Incorreta: o fumarato é formado na 6ª etapa (com FAD), e o ciclo libera, não ganha, CO₂.",
+        "D": "Incorreta: a adição de água ocorre na 7ª etapa, e as etapas 3 e 4 liberam CO₂ e formam NADH."
+      },
+      "referencia": {
+        "paginas": [
+          64
+        ],
+        "fundamentacao": "Slides 64 e 65, \"3ª ETAPA\" e \"4ª ETAPA\".",
+        "trechos_apoio": [
+          "\"NAD É OXIDADO EM NADH, SAI 1CO2\" (3ª etapa) e esquema da 4ª etapa: \"alfa-cetoglutarato → succinil-CoA, CO₂, NAD⁺ → NADH + H⁺"
+        ]
+      }
+    },
+    {
+      "id": "glicolise_q035",
+      "slide_id": "glicolise",
+      "slide_nome": "050926 - Sistema Energético Glicolítico",
+      "arquivo_origem": "050926_-_SISTEMA_ENERGÉTICO_GLICOLÍTICO_260918_204208.pdf",
+      "numero": 35,
+      "tema": "Ciclo de Krebs",
+      "subtema": "5ª etapa",
+      "enunciado": "Na 5ª etapa do Ciclo de Krebs (succinil-CoA → succinato, pela succinil-CoA sintetase), a apostila afirma que:",
+      "alternativas": {
+        "A": "Há liberação de CO₂ e formação de NADH.",
+        "B": "Há formação de FADH₂ a partir de FAD.",
+        "C": "Não há mais perda de carbono a partir dela e forma-se GTP, equivalente ao ATP.",
+        "D": "Há adição de água ao fumarato."
+      },
+      "gabarito": "C",
+      "explicacoes": {
+        "A": "Incorreta: o CO₂ foi liberado nas etapas 3 e 4. A partir da 5ª não há mais perda de carbono.",
+        "B": "Incorreta: o FADH₂ é formado na 6ª etapa (succinato → fumarato).",
+        "C": "Correta: a partir da 5ª etapa não há perda de carbono, e forma-se GTP, equivalente ao ATP.",
+        "D": "Incorreta: a adição de água ao fumarato é a 7ª etapa."
+      },
+      "referencia": {
+        "paginas": [
+          66
+        ],
+        "fundamentacao": "Slide 66, \"5ª ETAPA\".",
+        "trechos_apoio": [
+          "\"A PARTIR DE AGORA NÃO HAVERÁ MAIS PERDA DE CARBONO – FORMA O GTP = ATP\""
+        ]
+      }
+    },
+    {
+      "id": "glicolise_q036",
+      "slide_id": "glicolise",
+      "slide_nome": "050926 - Sistema Energético Glicolítico",
+      "arquivo_origem": "050926_-_SISTEMA_ENERGÉTICO_GLICOLÍTICO_260918_204208.pdf",
+      "numero": 36,
+      "tema": "Ciclo de Krebs",
+      "subtema": "6ª, 7ª e 8ª etapas",
+      "enunciado": "Qual sequência final do Ciclo de Krebs, conforme a apostila, está correta?",
+      "alternativas": {
+        "A": "Succinato → fumarato (fumarase); hidratação gera malato (succinato desidrogenase); malato → oxalacetato sem alteração de coenzimas.",
+        "B": "Succinato → fumarato (succinato desidrogenase); hidratação do fumarato gera malato (fumarase); malato → oxalacetato (malato desidrogenase), reduzindo NAD em NADH.",
+        "C": "Succinato → malato (aconitase); malato → fumarato (citrato sintase); fumarato → oxalacetato (fumarase).",
+        "D": "Succinato → fumarato (malato desidrogenase); fumarato → oxalacetato (succinato desidrogenase); malato → citrato (aconitase)."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: troca as enzimas. A succinato desidrogenase atua na 6ª etapa e a fumarase na 7ª, e na 8ª o NAD é reduzido a NADH.",
+        "B": "Correta: corresponde às etapas 6, 7 e 8 e às enzimas citadas no slide.",
+        "C": "Incorreta: embaralha substratos e enzimas. A aconitase atua na 2ª etapa e a citrato sintase na 1ª.",
+        "D": "Incorreta: associa enzimas e substratos errados. A malato desidrogenase atua na 8ª etapa, formando oxalacetato."
+      },
+      "referencia": {
+        "paginas": [
+          67,
+          68
+        ],
+        "fundamentacao": "Slides 67, 68 e 69, \"6ª\", \"7ª\" e \"8ª ETAPA\".",
+        "trechos_apoio": [
+          "\"MALATO DESIDROGENASE FORMANDO O COMPOSTO OXALACETATO REDUZINDO NAD EM NADH\""
+        ]
+      }
+    },
+    {
+      "id": "glicolise_q037",
+      "slide_id": "glicolise",
+      "slide_nome": "050926 - Sistema Energético Glicolítico",
+      "arquivo_origem": "050926_-_SISTEMA_ENERGÉTICO_GLICOLÍTICO_260918_204208.pdf",
+      "numero": 37,
+      "tema": "Ciclo de Krebs",
+      "subtema": "Função e local",
+      "enunciado": "A função principal do Ciclo de Krebs, segundo a apostila, é:",
+      "alternativas": {
+        "A": "Quebrar a glicose em duas moléculas de piruvato no citoplasma.",
+        "B": "Sintetizar ATP diretamente pela ATP sintase nas cristas mitocondriais.",
+        "C": "Degradar o glicogênio em glicose por ação de hormônios.",
+        "D": "Oxidar o acetil-CoA, oriundo de carboidratos, lipídios e aminoácidos, gerando ATP, NADH e FADH₂, na matriz mitocondrial."
+      },
+      "gabarito": "D",
+      "explicacoes": {
+        "A": "Incorreta: descreve a glicólise, que ocorre no citoplasma.",
+        "B": "Incorreta: a síntese de ATP pela ATP sintase pertence à cadeia respiratória, nas cristas mitocondriais.",
+        "C": "Incorreta: descreve a glicogenólise.",
+        "D": "Correta: o ciclo ocorre na matriz mitocondrial e oxida o acetil-CoA para gerar ATP, NADH e FADH₂."
+      },
+      "referencia": {
+        "paginas": [
+          81
+        ],
+        "fundamentacao": "Slide 81, \"FUNÇÃO DO CICLO DE KREBS\".",
+        "trechos_apoio": [
+          "\"Sua função principal é oxidar o acetil-CoA\""
+        ]
+      }
+    },
+    {
+      "id": "glicolise_q038",
+      "slide_id": "glicolise",
+      "slide_nome": "050926 - Sistema Energético Glicolítico",
+      "arquivo_origem": "050926_-_SISTEMA_ENERGÉTICO_GLICOLÍTICO_260918_204208.pdf",
+      "numero": 38,
+      "tema": "Saldo energético",
+      "subtema": "Ciclo de Krebs por ácido pirúvico",
+      "enunciado": "O slide sobre os produtos formados no Ciclo de Krebs por cada ácido pirúvico mostra 3 NADH₂, 1 FADH₂ e 1 ATP. Como são 2 moléculas de ácido pirúvico, o resultado final é de:",
+      "alternativas": {
+        "A": "3 NADH₂, 1 FADH₂ e 1 ATP.",
+        "B": "12 NADH₂, 4 FADH₂ e 4 ATP.",
+        "C": "6 NADH₂, 2 FADH₂ e 2 ATP.",
+        "D": "4 NADH₂, 2 FADH₂ e 2 ATP."
+      },
+      "gabarito": "C",
+      "explicacoes": {
+        "A": "Incorreta: são os valores para um único ácido pirúvico, e não para as duas moléculas.",
+        "B": "Incorreta: multiplica por 4, mas são só 2 moléculas de ácido pirúvico.",
+        "C": "Correta: 2 × (3 NADH₂, 1 FADH₂, 1 ATP) = 6 NADH₂, 2 FADH₂ e 2 ATP.",
+        "D": "Incorreta: o número de NADH₂ está errado. 3 × 2 = 6, e não 4."
+      },
+      "referencia": {
+        "paginas": [
+          76
+        ],
+        "fundamentacao": "Slide 76 (repetido no slide 80), \"CICLO DE KREBS\".",
+        "trechos_apoio": [
+          "\"COMO SÃO 2 MOLÉCULAS DE ÁCIDO PIRÚVICO, O RESULTADO FINAL É: 6 NADH2, 2 FADH2, 2 ATP\""
+        ]
+      }
+    },
+    {
+      "id": "glicolise_q039",
+      "slide_id": "glicolise",
+      "slide_nome": "050926 - Sistema Energético Glicolítico",
+      "arquivo_origem": "050926_-_SISTEMA_ENERGÉTICO_GLICOLÍTICO_260918_204208.pdf",
+      "numero": 39,
+      "tema": "Saldo energético",
+      "subtema": "Sistema glicolítico aeróbico e lançadeiras",
+      "enunciado": "Segundo a apostila, o saldo do sistema glicolítico aeróbico soma 24 ATP (2 voltas no Ciclo de Krebs) com 6 ATP (2 NADH do início da reação × 3), totalizando 30 ATP. Os demais valores dependem do substrato inicial (glicose = 2 ATP; glicogênio = 3 ATP) e da lançadeira (AM = 6 ATP; GP = 4 ATP). Qual combinação e total estão corretos?",
+      "alternativas": {
+        "A": "(GL) 2 ATP + (AM) 6 ATP = 36 ATP.",
+        "B": "(GG) 3 ATP + (GP) 4 ATP = 39 ATP.",
+        "C": "(GG) 3 ATP + (AM) 6 ATP = 39 ATP.",
+        "D": "(GL) 2 ATP + (GP) 4 ATP = 38 ATP."
+      },
+      "gabarito": "C",
+      "explicacoes": {
+        "A": "Incorreta: glicose com aspartato-malato rende 38 ATP. O total de 36 é de glicose com glicerol-fosfato.",
+        "B": "Incorreta: glicogênio com glicerol-fosfato rende 37 ATP. O total de 39 é de glicogênio com aspartato-malato.",
+        "C": "Correta: 3 + 6 = 9, e 30 + 9 = 39 ATP.",
+        "D": "Incorreta: glicose com glicerol-fosfato rende 36 ATP, e não 38."
+      },
+      "referencia": {
+        "paginas": [
+          85,
+          88,
+          89
+        ],
+        "fundamentacao": "Slides 85, 88, 89 e 90, \"SALDO ENERGÉTICO DO SISTEMA GLICOLÍTICO AERÓBICO\".",
+        "trechos_apoio": [
+          "\"(GG) 3 ATP + (AM) 6 ATP = 39 ATP • (GL) 2 ATP + (AM) 6 ATP = 38 ATP • (GG) 3 ATP + (GP) 4 ATP = 37 ATP • (GL) 2 ATP + (GP) 4 ATP = 36 ATP\""
+        ]
+      }
+    },
+    {
+      "id": "glicolise_q040",
+      "slide_id": "glicolise",
+      "slide_nome": "050926 - Sistema Energético Glicolítico",
+      "arquivo_origem": "050926_-_SISTEMA_ENERGÉTICO_GLICOLÍTICO_260918_204208.pdf",
+      "numero": 40,
+      "tema": "Cadeia respiratória",
+      "subtema": "Destino dos hidrogênios e papel dos citocromos",
+      "enunciado": "Sobre a cadeia respiratória, a apostila afirma que:",
+      "alternativas": {
+        "A": "Ocorre no citoplasma e os citocromos transportam o piruvato.",
+        "B": "Ocorre nas cristas mitocondriais, os hidrogênios do FADH₂ e do NADH₂ são transportados até o oxigênio, formando água, e a energia liberada gradativamente pelos elétrons nos citocromos é empregada na síntese de ATP.",
+        "C": "Ocorre na matriz mitocondrial, os hidrogênios são liberados como CO₂ e a energia é usada para formar glicose.",
+        "D": "Ocorre no núcleo, os hidrogênios são transformados em NAD e a energia é perdida."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a cadeia respiratória ocorre nas cristas mitocondriais, e os citocromos transportam elétrons dos hidrogênios, não piruvato.",
+        "B": "Correta: reúne o local (cristas), o destino dos hidrogênios (oxigênio, formando água) e o uso da energia dos elétrons (síntese de ATP).",
+        "C": "Incorreta: a matriz abriga o Ciclo de Krebs. O produto dos hidrogênios na cadeia é água, e não CO₂, e a energia forma ATP, não glicose.",
+        "D": "Incorreta: o núcleo não participa, e a energia não é perdida. É empregada na síntese de ATP."
+      },
+      "referencia": {
+        "paginas": [
+          96
+        ],
+        "fundamentacao": "Slides 96 e 97, \"CADEIA RESPIRATÓRIA\".",
+        "trechos_apoio": [
+          "\"Os hidrogênios … são transportados até o oxigênio, formando água.\""
+        ]
+      }
+    }
+  ]
+}

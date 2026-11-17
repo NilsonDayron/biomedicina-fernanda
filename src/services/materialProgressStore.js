@@ -1,4 +1,4 @@
-import { ALL_MATERIALS } from '../data/aula7Materials'
+import { ALL_MATERIALS, DEPRECATED_BIOQUIMICA_SLIDE_REDIRECTS } from '../data/aula7Materials'
 
 const STORAGE_KEY = 'biomedicina.materiais_independentes.v1'
 const UI_STATE_KEY = 'biomedicina.materiais_independentes.ui.v1'
@@ -19,6 +19,7 @@ export function createEmptyMaterialProgress(slideId) {
     ultimaOrdemQuestoesIds: [],
     ultimaSessao: null,
     sessaoAtiva: null,
+    sessaoIncompativelSubstituida: false,
   }
 }
 
@@ -41,6 +42,15 @@ function loadLegacyAnswersMap() {
   }
 }
 
+function isSavedSessionCompatible(sessaoAtiva, validIds, expectedSlideId) {
+  if (!sessaoAtiva || typeof sessaoAtiva !== 'object') return false
+  if (sessaoAtiva.slide_id !== expectedSlideId) return false
+  if (!Array.isArray(sessaoAtiva.queue) || sessaoAtiva.queue.length === 0) return false
+  return sessaoAtiva.queue.every(
+    (item) => item && typeof item.questaoId === 'string' && validIds.has(String(item.questaoId)),
+  )
+}
+
 export function loadAllMaterialsProgress() {
   const base = createInitialAllMaterialsProgress()
   try {
@@ -48,34 +58,99 @@ export function loadAllMaterialsProgress() {
     const parsed = raw ? JSON.parse(raw) : {}
     const legacyAnswers = loadLegacyAnswersMap()
 
+    const deprecatedSourcesByTarget = {}
+    for (const [oldId, targetId] of Object.entries(DEPRECATED_BIOQUIMICA_SLIDE_REDIRECTS || {})) {
+      if (!deprecatedSourcesByTarget[targetId]) {
+        deprecatedSourcesByTarget[targetId] = []
+      }
+      deprecatedSourcesByTarget[targetId].push(oldId)
+    }
+
     const merged = { ...base }
     for (const material of ALL_MATERIALS) {
       const id = material.slide_id
       const saved = parsed && typeof parsed === 'object' ? parsed[id] : null
+      const deprecatedIds = deprecatedSourcesByTarget[id] || []
+      const deprecatedSavedList = deprecatedIds
+        .map((oldId) => (parsed && typeof parsed === 'object' ? parsed[oldId] : null))
+        .filter((entry) => entry && typeof entry === 'object')
+
       const validIds = new Set(material.questoes.map((q) => q.id))
 
-      if (saved && typeof saved === 'object' && saved.slide_id === id) {
-        const respondidasIds = Array.isArray(saved.respondidasIds)
-          ? saved.respondidasIds.filter((qId) => validIds.has(String(qId)))
+      if ((saved && typeof saved === 'object') || deprecatedSavedList.length > 0) {
+        const primarySaved = saved && typeof saved === 'object' ? saved : {}
+        const respondidasIds = Array.isArray(primarySaved.respondidasIds)
+          ? primarySaved.respondidasIds.filter((qId) => validIds.has(String(qId)))
           : []
+
+        const rawPorQuestao =
+          primarySaved.porQuestao && typeof primarySaved.porQuestao === 'object'
+            ? primarySaved.porQuestao
+            : {}
+        const compatiblePorQuestao = {}
+        for (const [qId, stats] of Object.entries(rawPorQuestao)) {
+          if (validIds.has(String(qId))) {
+            compatiblePorQuestao[qId] = stats
+          }
+        }
+
+        const extraAcertos = deprecatedSavedList.reduce((acc, item) => acc + (item.acertos || 0), 0)
+        const extraErros = deprecatedSavedList.reduce((acc, item) => acc + (item.erros || 0), 0)
+        const extraTotal = deprecatedSavedList.reduce(
+          (acc, item) => acc + (item.totalRespostas || 0),
+          0,
+        )
+        const extraSessoes = deprecatedSavedList.reduce(
+          (acc, item) => acc + (item.sessoesConcluidas || 0),
+          0,
+        )
+        const extraReflexoes = deprecatedSavedList.flatMap((item) =>
+          Array.isArray(item.reflexoes) ? item.reflexoes : [],
+        )
+
+        const hadPrimaryActiveSession = Boolean(primarySaved.sessaoAtiva)
+        const hadDeprecatedActiveSession = deprecatedSavedList.some((item) =>
+          Boolean(item.sessaoAtiva),
+        )
+        const primarySessionCompatible = isSavedSessionCompatible(
+          primarySaved.sessaoAtiva,
+          validIds,
+          id,
+        )
+
+        const sessaoAtiva = primarySessionCompatible ? primarySaved.sessaoAtiva : null
+        const sessaoIncompativelSubstituida = Boolean(
+          primarySaved.sessaoIncompativelSubstituida ||
+            (hadPrimaryActiveSession && !primarySessionCompatible) ||
+            hadDeprecatedActiveSession,
+        )
+
         merged[id] = {
           ...createEmptyMaterialProgress(id),
-          ...saved,
+          ...primarySaved,
           slide_id: id,
           respondidasIds,
-          porQuestao:
-            saved.porQuestao && typeof saved.porQuestao === 'object' ? saved.porQuestao : {},
-          reflexoes: Array.isArray(saved.reflexoes) ? saved.reflexoes : [],
+          acertos: (primarySaved.acertos || 0) + extraAcertos,
+          erros: (primarySaved.erros || 0) + extraErros,
+          totalRespostas: (primarySaved.totalRespostas || 0) + extraTotal,
+          sessoesConcluidas: (primarySaved.sessoesConcluidas || 0) + extraSessoes,
+          porQuestao: compatiblePorQuestao,
+          reflexoes: [
+            ...(Array.isArray(primarySaved.reflexoes) ? primarySaved.reflexoes : []),
+            ...extraReflexoes,
+          ],
           rascunhosReflexao:
-            saved.rascunhosReflexao && typeof saved.rascunhosReflexao === 'object'
-              ? saved.rascunhosReflexao
+            primarySaved.rascunhosReflexao && typeof primarySaved.rascunhosReflexao === 'object'
+              ? primarySaved.rascunhosReflexao
               : {},
-          ultimaOrdemQuestoesIds: Array.isArray(saved.ultimaOrdemQuestoesIds)
-            ? saved.ultimaOrdemQuestoesIds
+          ultimaOrdemQuestoesIds: Array.isArray(primarySaved.ultimaOrdemQuestoesIds)
+            ? primarySaved.ultimaOrdemQuestoesIds.filter((qId) => validIds.has(String(qId)))
             : [],
+          sessaoAtiva,
+          sessaoIncompativelSubstituida,
         }
       } else {
-        // Hidrata com respostas anteriores do progresso legado se existirem para este material
+        // Hidrata com respostas anteriores do progresso legado apenas quando os IDs pertencem a este material
         const respondidasIds = []
         let acertos = 0
         let erros = 0

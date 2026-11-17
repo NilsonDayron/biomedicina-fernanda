@@ -1,0 +1,1288 @@
+{
+  "questoes": [
+    {
+      "id": "carboidratos_q001",
+      "slide_id": "carboidratos",
+      "slide_nome": "150820 - Carboidratos: Estruturas Moleculares",
+      "arquivo_origem": "150820_Carboidratos_Estruturas_Molecular__260916_151945.pdf",
+      "numero": 1,
+      "tema": "Moléculas biológicas",
+      "subtema": "Grupos principais",
+      "enunciado": "Os grupos de moléculas biológicas apresentados na apostila são:",
+      "alternativas": {
+        "A": "Água, sais minerais, vitaminas e enzimas.",
+        "B": "Glicose, frutose, ribose e galactose.",
+        "C": "Carboidratos, proteínas, lipídeos e ácidos nucleicos.",
+        "D": "ATP, NAD, FAD e acetil-CoA."
+      },
+      "gabarito": "C",
+      "explicacoes": {
+        "A": "Incorreta: água e sais minerais são moléculas inorgânicas, e vitaminas e enzimas não são os quatro grupos listados.",
+        "B": "Incorreta: são exemplos de monossacarídeos, que pertencem a apenas um dos grupos (carboidratos).",
+        "C": "Correta: os quatro grupos do slide são carboidratos, proteínas, lipídeos e ácidos nucleicos.",
+        "D": "Incorreta: são moléculas do metabolismo energético, não os grupos de moléculas biológicas."
+      },
+      "referencia": {
+        "paginas": [
+          2
+        ],
+        "fundamentacao": "Slide 2, \"MOLÉCULAS BIOLÓGICAS\".",
+        "trechos_apoio": [
+          "\"•Carboidratos •Proteínas •Lipídeos •Ácidos Nucléicos\""
+        ]
+      }
+    },
+    {
+      "id": "carboidratos_q002",
+      "slide_id": "carboidratos",
+      "slide_nome": "150820 - Carboidratos: Estruturas Moleculares",
+      "arquivo_origem": "150820_Carboidratos_Estruturas_Molecular__260916_151945.pdf",
+      "numero": 2,
+      "tema": "Moléculas biológicas",
+      "subtema": "Por que estudar cada grupo",
+      "enunciado": "Segundo a apostila, é importante entender a química e as características de cada grupo de biomoléculas porque cada grupo:",
+      "alternativas": {
+        "A": "Tem propriedades físico-químicas, funções e metabolismo diferentes, mas todos se relacionam na organização e manutenção da vida.",
+        "B": "Tem exatamente as mesmas propriedades e funções dos demais.",
+        "C": "Funciona de modo totalmente independente, sem relação com os outros.",
+        "D": "Difere dos outros apenas pelo metabolismo, tendo as mesmas funções."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: reproduz o slide: propriedades, funções e metabolismo diferentes, com inter-relação na manutenção da vida.",
+        "B": "Incorreta: o slide destaca justamente as diferenças entre os grupos.",
+        "C": "Incorreta: o slide afirma que todos se relacionam na organização e na manutenção da vida.",
+        "D": "Incorreta: os grupos diferem nas propriedades físico-químicas, nas funções e no metabolismo, e não só no metabolismo."
+      },
+      "referencia": {
+        "paginas": [
+          3
+        ],
+        "fundamentacao": "Slide 3.",
+        "trechos_apoio": [
+          "\"Mas todos se relacionam na organização e na manutenção da vida.\""
+        ]
+      }
+    },
+    {
+      "id": "carboidratos_q003",
+      "slide_id": "carboidratos",
+      "slide_nome": "150820 - Carboidratos: Estruturas Moleculares",
+      "arquivo_origem": "150820_Carboidratos_Estruturas_Molecular__260916_151945.pdf",
+      "numero": 3,
+      "tema": "Moléculas biológicas",
+      "subtema": "Elementos e origem",
+      "enunciado": "As moléculas biológicas tornaram-se abundantes no planeta por serem sintetizadas pelos seres vivos e são compostas principalmente pelos elementos:",
+      "alternativas": {
+        "A": "Sódio, potássio, cálcio e fósforo.",
+        "B": "Ferro, zinco, cobre e iodo.",
+        "C": "Carbono, hidrogênio, enxofre e fósforo.",
+        "D": "Hidrogênio, oxigênio, nitrogênio e carbono."
+      },
+      "gabarito": "D",
+      "explicacoes": {
+        "A": "Incorreta: não são os elementos principais indicados no slide.",
+        "B": "Incorreta: esses elementos não são citados como constituintes principais.",
+        "C": "Incorreta: enxofre e fósforo não estão na lista principal do slide, e o oxigênio e o nitrogênio ficam de fora.",
+        "D": "Correta: os elementos citados são H, O, N e C."
+      },
+      "referencia": {
+        "paginas": [
+          5
+        ],
+        "fundamentacao": "Slide 5, \"MOLÉCULAS BIOLÓGICAS\".",
+        "trechos_apoio": [
+          "\"São compostas principalmente pelos elementos: H, O, N e C\""
+        ]
+      }
+    },
+    {
+      "id": "carboidratos_q004",
+      "slide_id": "carboidratos",
+      "slide_nome": "150820 - Carboidratos: Estruturas Moleculares",
+      "arquivo_origem": "150820_Carboidratos_Estruturas_Molecular__260916_151945.pdf",
+      "numero": 4,
+      "tema": "Carboidratos",
+      "subtema": "Abundância na Terra",
+      "enunciado": "Sobre a abundância dos carboidratos, a apostila afirma que:",
+      "alternativas": {
+        "A": "São as biomoléculas menos abundantes da Terra.",
+        "B": "São as biomoléculas mais abundantes na Terra, pois a cada ano mais de 100 bilhões de toneladas de CO₂ e H₂O são transformados em carboidratos pela fotossíntese.",
+        "C": "São produzidos apenas pelos animais, a partir da digestão das proteínas.",
+        "D": "Resultam exclusivamente da respiração celular dos fungos."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o slide diz o contrário: são as biomoléculas mais abundantes.",
+        "B": "Correta: são as mais abundantes, e a fotossíntese transforma mais de 100 bilhões de toneladas de CO₂ e H₂O por ano em carboidratos.",
+        "C": "Incorreta: a produção em escala planetária vem da fotossíntese, não dos animais.",
+        "D": "Incorreta: a origem citada é a fotossíntese, e não a respiração dos fungos."
+      },
+      "referencia": {
+        "paginas": [
+          6
+        ],
+        "fundamentacao": "Slide 6, \"CARBOIDRATO\".",
+        "trechos_apoio": [
+          "\"Biomoléculas mais abundantes na Terra\""
+        ]
+      }
+    },
+    {
+      "id": "carboidratos_q005",
+      "slide_id": "carboidratos",
+      "slide_nome": "150820 - Carboidratos: Estruturas Moleculares",
+      "arquivo_origem": "150820_Carboidratos_Estruturas_Molecular__260916_151945.pdf",
+      "numero": 5,
+      "tema": "Fotossíntese",
+      "subtema": "Equação",
+      "enunciado": "A equação da fotossíntese apresentada na apostila é:",
+      "alternativas": {
+        "A": "CO₂ + H₂O → (luz) O₂ + (CH₂O)n",
+        "B": "O₂ + (CH₂O)n → CO₂ + H₂O + luz",
+        "C": "CO₂ + O₂ → H₂O + (CH₂O)n",
+        "D": "(CH₂O)n + H₂O → CO₂ + O₂ (sem luz)"
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: CO₂ e H₂O, na presença de luz, formam O₂ e carboidratos (CH₂O)n.",
+        "B": "Incorreta: inverte os reagentes e produtos, descrevendo a oxidação dos carboidratos, e não a fotossíntese.",
+        "C": "Incorreta: os reagentes são CO₂ e H₂O, e o O₂ é produto.",
+        "D": "Incorreta: a fotossíntese forma o carboidrato, não o consome, e depende de luz."
+      },
+      "referencia": {
+        "paginas": [
+          7
+        ],
+        "fundamentacao": "Slide 7, \"FOTOSSÍNTESE\".",
+        "trechos_apoio": [
+          "\"CO₂ + H₂O → O₂ + (CH₂O)n\" (equação do slide, com luz sobre a seta)"
+        ]
+      }
+    },
+    {
+      "id": "carboidratos_q006",
+      "slide_id": "carboidratos",
+      "slide_nome": "150820 - Carboidratos: Estruturas Moleculares",
+      "arquivo_origem": "150820_Carboidratos_Estruturas_Molecular__260916_151945.pdf",
+      "numero": 6,
+      "tema": "Carboidratos",
+      "subtema": "Fonte de energia",
+      "enunciado": "De acordo com a apostila, os carboidratos:",
+      "alternativas": {
+        "A": "São fonte exclusiva de estrutura, sem papel energético.",
+        "B": "São pouco usados na dieta, e a oxidação deles é via secundária de energia.",
+        "C": "São fonte de energia, base da dieta na maior parte dos organismos do mundo, e sua oxidação é uma das principais vias fornecedoras de energia (inclusive nas células não fotossintéticas).",
+        "D": "Só fornecem energia aos vegetais, não aos animais."
+      },
+      "gabarito": "C",
+      "explicacoes": {
+        "A": "Incorreta: os carboidratos são fonte de energia, além de terem funções estruturais.",
+        "B": "Incorreta: são a base da dieta, e a oxidação deles é uma das principais vias de energia.",
+        "C": "Correta: reúne as afirmações dos slides 8 e 25.",
+        "D": "Incorreta: o slide cita o amido e o açúcar comum como fonte nas células não fotossintéticas, como as dos animais."
+      },
+      "referencia": {
+        "paginas": [
+          8
+        ],
+        "fundamentacao": "Slides 8 e 25, \"CARBOIDRATOS\".",
+        "trechos_apoio": [
+          "\"A oxidação dos carboidratos é uma das principais vias fornecedora de energia.\""
+        ]
+      }
+    },
+    {
+      "id": "carboidratos_q007",
+      "slide_id": "carboidratos",
+      "slide_nome": "150820 - Carboidratos: Estruturas Moleculares",
+      "arquivo_origem": "150820_Carboidratos_Estruturas_Molecular__260916_151945.pdf",
+      "numero": 7,
+      "tema": "Carboidratos",
+      "subtema": "Fórmula geral",
+      "enunciado": "A fórmula geral dos carboidratos, segundo a apostila, é:",
+      "alternativas": {
+        "A": "(CHON)n, em que n é igual ou maior que 1.",
+        "B": "(CH)n, só com carbono e hidrogênio.",
+        "C": "(CH₂OP)n, em que n é igual a 3.",
+        "D": "(CH₂O)n, com apenas 3 componentes (C, O e H) e n igual ou maior que 3."
+      },
+      "gabarito": "D",
+      "explicacoes": {
+        "A": "Incorreta: os carboidratos têm apenas C, O e H, sem nitrogênio, e n é igual ou maior que 3.",
+        "B": "Incorreta: a fórmula inclui o oxigênio.",
+        "C": "Incorreta: não há fósforo na fórmula geral, e n pode ser maior que 3.",
+        "D": "Correta: (CH₂O)n, com C, O e H, e n ≥ 3."
+      },
+      "referencia": {
+        "paginas": [
+          9
+        ],
+        "fundamentacao": "Slides 9 e 12, \"CARBOIDRATOS\".",
+        "trechos_apoio": [
+          "\"Fórmula Geral ( CH2O )n Onde a quantidade de carbonos (n) é igual ou maior que 3\""
+        ]
+      }
+    },
+    {
+      "id": "carboidratos_q008",
+      "slide_id": "carboidratos",
+      "slide_nome": "150820 - Carboidratos: Estruturas Moleculares",
+      "arquivo_origem": "150820_Carboidratos_Estruturas_Molecular__260916_151945.pdf",
+      "numero": 8,
+      "tema": "Classificação dos carboidratos",
+      "subtema": "Quatro grupos",
+      "enunciado": "Na classificação dos carboidratos apresentada na apostila, os grupos são:",
+      "alternativas": {
+        "A": "Monossacarídeos, aldoses, cetoses e polissacarídeos.",
+        "B": "Monossacarídeos, dissacarídeos, oligossacarídeos e polissacarídeos.",
+        "C": "Trioses, tetroses, pentoses e hexoses.",
+        "D": "Amido, glicogênio, celulose e quitina."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: aldoses e cetoses são famílias de monossacarídeos (função orgânica), não grupos de classificação por unidades.",
+        "B": "Correta: são os quatro grupos do slide de classificação.",
+        "C": "Incorreta: trioses, tetroses etc. classificam monossacarídeos pelo número de carbonos.",
+        "D": "Incorreta: são exemplos de polissacarídeos."
+      },
+      "referencia": {
+        "paginas": [
+          10
+        ],
+        "fundamentacao": "Slide 10, \"CLASSIFICAÇÃO DOS CARBOIDRATOS\".",
+        "trechos_apoio": [
+          "\"•MONOSSACARÍDEOS •DISSACARÍDEOS •OLIGOSSACARÍDEOS •POLISSACARÍDEOS\""
+        ]
+      }
+    },
+    {
+      "id": "carboidratos_q009",
+      "slide_id": "carboidratos",
+      "slide_nome": "150820 - Carboidratos: Estruturas Moleculares",
+      "arquivo_origem": "150820_Carboidratos_Estruturas_Molecular__260916_151945.pdf",
+      "numero": 9,
+      "tema": "Monossacarídeos",
+      "subtema": "Estrutura geral",
+      "enunciado": "Os monossacarídeos são descritos na apostila como açúcares simples que:",
+      "alternativas": {
+        "A": "Têm cadeia carbônica ramificada, com 10 a 20 carbonos.",
+        "B": "Não têm grupo carbonila e possuem um grupo fosfato.",
+        "C": "Têm cadeia carbônica não ramificada de 3 a 7 carbonos, com um grupo carbonila (C=O) e vários grupos hidroxila (–OH).",
+        "D": "Têm cadeia de 3 a 7 carbonos, com grupos amino e carboxila."
+      },
+      "gabarito": "C",
+      "explicacoes": {
+        "A": "Incorreta: a cadeia é não ramificada, e o número de carbonos varia de 3 a 7.",
+        "B": "Incorreta: os monossacarídeos possuem grupo carbonila, e o fosfato não é citado.",
+        "C": "Correta: reúne cadeia não ramificada, 3 a 7 carbonos, carbonila e hidroxilas.",
+        "D": "Incorreta: grupos amino e carboxila descrevem aminoácidos, não monossacarídeos."
+      },
+      "referencia": {
+        "paginas": [
+          13
+        ],
+        "fundamentacao": "Slide 13, \"FÓRMULA GERAL DOS MONOSSACARÍDEOS\".",
+        "trechos_apoio": [
+          "\"Eles possuem um grupo carbonila (C=O) (dupla ligação com oxigênio) e vários grupos hidroxila (-OH)\""
+        ]
+      }
+    },
+    {
+      "id": "carboidratos_q010",
+      "slide_id": "carboidratos",
+      "slide_nome": "150820 - Carboidratos: Estruturas Moleculares",
+      "arquivo_origem": "150820_Carboidratos_Estruturas_Molecular__260916_151945.pdf",
+      "numero": 10,
+      "tema": "Polissacarídeos",
+      "subtema": "Macromoléculas e dois grupos funcionais",
+      "enunciado": "Segundo a apostila, os polissacarídeos são macromoléculas formadas pela união de vários monossacarídeos e dividem-se, conforme a função biológica, em:",
+      "alternativas": {
+        "A": "Polissacarídeos de reserva energética e polissacarídeos estruturais.",
+        "B": "Aldoses e cetoses.",
+        "C": "Trioses e pentoses.",
+        "D": "Dissacarídeos e trissacarídeos."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: os dois grupos são os de reserva energética (guardam combustíveis celulares) e os estruturais (dão forma e sustentação aos tecidos).",
+        "B": "Incorreta: aldoses e cetoses distinguem monossacarídeos pelo grupo funcional.",
+        "C": "Incorreta: trioses e pentoses são monossacarídeos classificados pelo número de carbonos.",
+        "D": "Incorreta: dissacarídeos e trissacarídeos são oligossacarídeos, não polissacarídeos."
+      },
+      "referencia": {
+        "paginas": [
+          14
+        ],
+        "fundamentacao": "Slide 14, \"OS POLISSACARÍDEOS SÃO MACROMOLÉCULAS\".",
+        "trechos_apoio": [
+          "\"os polissacarídeos estruturais, que dão forma e sustentação aos tecidos\""
+        ]
+      }
+    },
+    {
+      "id": "carboidratos_q011",
+      "slide_id": "carboidratos",
+      "slide_nome": "150820 - Carboidratos: Estruturas Moleculares",
+      "arquivo_origem": "150820_Carboidratos_Estruturas_Molecular__260916_151945.pdf",
+      "numero": 11,
+      "tema": "Polissacarídeos de reserva",
+      "subtema": "Amido",
+      "enunciado": "O amido, segundo a apostila, é:",
+      "alternativas": {
+        "A": "A reserva de energia dos animais, guardada no fígado.",
+        "B": "O principal componente da parede celular vegetal.",
+        "C": "O componente do exoesqueleto de insetos.",
+        "D": "A reserva de energia própria das plantas, concentrada em raízes e sementes (como batata e milho), formada por cadeias de alfa-glicose."
+      },
+      "gabarito": "D",
+      "explicacoes": {
+        "A": "Incorreta: a reserva dos animais é o glicogênio.",
+        "B": "Incorreta: o principal componente da parede celular vegetal é a celulose.",
+        "C": "Incorreta: o exoesqueleto de insetos é feito de quitina.",
+        "D": "Correta: é a reserva de energia das plantas, em raízes e sementes, formada por alfa-glicose."
+      },
+      "referencia": {
+        "paginas": [
+          15
+        ],
+        "fundamentacao": "Slide 15, \"POLISSACARÍDEOS DE RESERVA ENERGÉTICA\".",
+        "trechos_apoio": [
+          "\"AMIDO: Reserva de energia própria das plantas, concentrada em raízes e sementes\""
+        ]
+      }
+    },
+    {
+      "id": "carboidratos_q012",
+      "slide_id": "carboidratos",
+      "slide_nome": "150820 - Carboidratos: Estruturas Moleculares",
+      "arquivo_origem": "150820_Carboidratos_Estruturas_Molecular__260916_151945.pdf",
+      "numero": 12,
+      "tema": "Polissacarídeos de reserva",
+      "subtema": "Glicogênio",
+      "enunciado": "O glicogênio, segundo a apostila:",
+      "alternativas": {
+        "A": "É a reserva das plantas, guardada em raízes e sementes.",
+        "B": "É a reserva de energia dos animais e fungos, guardada no fígado e nos músculos esqueléticos, com muitas ramificações para liberar glicose rapidamente.",
+        "C": "É o componente da parede celular dos fungos.",
+        "D": "É um dissacarídeo formado por glicose e frutose."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a reserva das plantas é o amido.",
+        "B": "Correta: reúne o tipo de organismo, os locais de armazenamento e a função das ramificações.",
+        "C": "Incorreta: a parede celular dos fungos contém quitina.",
+        "D": "Incorreta: o glicogênio é um polissacarídeo. Glicose mais frutose forma a sacarose."
+      },
+      "referencia": {
+        "paginas": [
+          15
+        ],
+        "fundamentacao": "Slide 15, \"POLISSACARÍDEOS DE RESERVA ENERGÉTICA\".",
+        "trechos_apoio": [
+          "\"Possui muitas ramificações para liberar glicose rapidamente.\""
+        ]
+      }
+    },
+    {
+      "id": "carboidratos_q013",
+      "slide_id": "carboidratos",
+      "slide_nome": "150820 - Carboidratos: Estruturas Moleculares",
+      "arquivo_origem": "150820_Carboidratos_Estruturas_Molecular__260916_151945.pdf",
+      "numero": 13,
+      "tema": "Glicogênio",
+      "subtema": "Estrutura e degradação",
+      "enunciado": "No slide do glicogênio, é correto afirmar que:",
+      "alternativas": {
+        "A": "É reserva animal, mais abundante nos músculos e no fígado, parecido com a amilopectina, porém muito mais ramificado, o que facilita a rápida degradação.",
+        "B": "É reserva vegetal, linear e sem ramificações, de degradação lenta.",
+        "C": "É reserva animal, menos ramificado que a amilopectina.",
+        "D": "É exoesqueleto de invertebrados, formado por N-acetilglicosamina."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: reproduz as quatro informações do slide.",
+        "B": "Incorreta: o glicogênio é reserva animal e é muito ramificado.",
+        "C": "Incorreta: é muito mais ramificado que a amilopectina.",
+        "D": "Incorreta: a N-acetilglicosamina compõe a quitina, não o glicogênio."
+      },
+      "referencia": {
+        "paginas": [
+          42
+        ],
+        "fundamentacao": "Slide 42, \"Glicogênio\".",
+        "trechos_apoio": [
+          "\"parece amilopectina mais é muito mais ramificado\""
+        ]
+      }
+    },
+    {
+      "id": "carboidratos_q014",
+      "slide_id": "carboidratos",
+      "slide_nome": "150820 - Carboidratos: Estruturas Moleculares",
+      "arquivo_origem": "150820_Carboidratos_Estruturas_Molecular__260916_151945.pdf",
+      "numero": 14,
+      "tema": "Polissacarídeos",
+      "subtema": "Número aproximado de unidades de glicose",
+      "enunciado": "Na tabela de polissacarídeos, o número aproximado de glicoses de cada um é:",
+      "alternativas": {
+        "A": "Amido ≈ 30.000; glicogênio ≈ 1.400; celulose ≈ 1.000.",
+        "B": "Amido ≈ 1.000; glicogênio ≈ 1.400; celulose ≈ 30.000.",
+        "C": "Amido ≈ 1.400; glicogênio ≈ 30.000; celulose ≈ 1.000.",
+        "D": "Amido, glicogênio e celulose têm cerca de 1.000 glicoses cada."
+      },
+      "gabarito": "C",
+      "explicacoes": {
+        "A": "Incorreta: troca os valores de amido e glicogênio. O glicogênio é o maior.",
+        "B": "Incorreta: a celulose tem ≈ 1.000 glicoses, e o glicogênio ≈ 30.000.",
+        "C": "Correta: amido ≈ 1.400, glicogênio ≈ 30.000 e celulose ≈ 1.000.",
+        "D": "Incorreta: os valores são diferentes entre os três."
+      },
+      "referencia": {
+        "paginas": [
+          40
+        ],
+        "fundamentacao": "Slide 40, tabela dos polissacarídeos.",
+        "trechos_apoio": [
+          "\"Glicogênio ≈30.000 glicoses\" (célula da tabela)"
+        ]
+      }
+    },
+    {
+      "id": "carboidratos_q015",
+      "slide_id": "carboidratos",
+      "slide_nome": "150820 - Carboidratos: Estruturas Moleculares",
+      "arquivo_origem": "150820_Carboidratos_Estruturas_Molecular__260916_151945.pdf",
+      "numero": 15,
+      "tema": "Polissacarídeos estruturais",
+      "subtema": "Quitina",
+      "enunciado": "Sobre os polissacarídeos estruturais e a quitina, a apostila afirma que:",
+      "alternativas": {
+        "A": "A quitina é reserva energética dos animais.",
+        "B": "A quitina é o principal componente da parede celular das plantas.",
+        "C": "Os polissacarídeos estruturais são solúveis e fornecem energia imediata.",
+        "D": "Os polissacarídeos estruturais são polímeros insolúveis que participam da estrutura e da proteção, e a quitina forma o exoesqueleto de insetos e crustáceos e compõe a parede celular dos fungos."
+      },
+      "gabarito": "D",
+      "explicacoes": {
+        "A": "Incorreta: a quitina é estrutural, não reserva energética.",
+        "B": "Incorreta: a parede celular das plantas é feita principalmente de celulose.",
+        "C": "Incorreta: o slide os descreve como polímeros insolúveis com função estrutural e de proteção.",
+        "D": "Correta: reúne a definição de polissacarídeo estrutural e os locais da quitina."
+      },
+      "referencia": {
+        "paginas": [
+          17
+        ],
+        "fundamentacao": "Slide 17, \"QUITINA: POLISSACARÍDEOS ESTRUTURAL\".",
+        "trechos_apoio": [
+          "\"Quitina: Forma o exoesqueleto resistente de insetos e crustáceos, além de compor a parede celular dos fungos.\""
+        ]
+      }
+    },
+    {
+      "id": "carboidratos_q016",
+      "slide_id": "carboidratos",
+      "slide_nome": "150820 - Carboidratos: Estruturas Moleculares",
+      "arquivo_origem": "150820_Carboidratos_Estruturas_Molecular__260916_151945.pdf",
+      "numero": 16,
+      "tema": "Quitina",
+      "subtema": "Unidade e ocorrência",
+      "enunciado": "No esquema da quitina, a unidade que se repete e a ocorrência são, respectivamente:",
+      "alternativas": {
+        "A": "Glicose; reserva energética no fígado.",
+        "B": "N-acetilglicosamina; exoesqueleto de invertebrados (crustáceos, insetos e aranhas) e parede celular da maioria dos fungos e de muitas algas.",
+        "C": "Frutose; parede celular das plantas.",
+        "D": "Galactose; exoesqueleto de vertebrados."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a unidade é N-acetilglicosamina, e a função é estrutural, não de reserva no fígado.",
+        "B": "Correta: reproduz a unidade do esquema e as ocorrências da legenda.",
+        "C": "Incorreta: a unidade não é a frutose, e a parede celular das plantas é de celulose.",
+        "D": "Incorreta: a galactose não é a unidade da quitina, e o exoesqueleto citado é de invertebrados."
+      },
+      "referencia": {
+        "paginas": [
+          48
+        ],
+        "fundamentacao": "Slide 48, esquema da quitina.",
+        "trechos_apoio": [
+          "\"N-Acetilglicosamina\" e \"Exoesqueleto de invertebrados (crustáceos, insetos e aranhas) e parede celular da maioria dos fungos e de muitas algas\" (rótulo e legenda)"
+        ]
+      }
+    },
+    {
+      "id": "carboidratos_q017",
+      "slide_id": "carboidratos",
+      "slide_nome": "150820 - Carboidratos: Estruturas Moleculares",
+      "arquivo_origem": "150820_Carboidratos_Estruturas_Molecular__260916_151945.pdf",
+      "numero": 17,
+      "tema": "Polissacarídeos estruturais",
+      "subtema": "Celulose",
+      "enunciado": "A celulose, segundo a apostila, é:",
+      "alternativas": {
+        "A": "A reserva de energia dos animais, no fígado.",
+        "B": "O componente do exoesqueleto de crustáceos.",
+        "C": "O principal componente da parede celular das plantas, formando fibras resistentes que a maioria dos animais não digere.",
+        "D": "Um polissacarídeo digerido facilmente pela maioria dos animais."
+      },
+      "gabarito": "C",
+      "explicacoes": {
+        "A": "Incorreta: a reserva dos animais é o glicogênio.",
+        "B": "Incorreta: o exoesqueleto de crustáceos é de quitina.",
+        "C": "Correta: reúne o local, a forma de fibras resistentes e a baixa digestibilidade.",
+        "D": "Incorreta: o slide diz que as fibras não são digeridas pela maioria dos animais."
+      },
+      "referencia": {
+        "paginas": [
+          18
+        ],
+        "fundamentacao": "Slide 18, \"CELULOSE\".",
+        "trechos_apoio": [
+          "\"Principal componente da parede celular das plantas.\""
+        ]
+      }
+    },
+    {
+      "id": "carboidratos_q018",
+      "slide_id": "carboidratos",
+      "slide_nome": "150820 - Carboidratos: Estruturas Moleculares",
+      "arquivo_origem": "150820_Carboidratos_Estruturas_Molecular__260916_151945.pdf",
+      "numero": 18,
+      "tema": "Celulose",
+      "subtema": "Celulases e digestão",
+      "enunciado": "Quanto à digestão da celulose, a apostila afirma que:",
+      "alternativas": {
+        "A": "Os animais não possuem as enzimas celulases, que são encontradas em bactérias, inclusive as do trato digestivo de cupins e de animais de pasto, como gado e cavalos.",
+        "B": "Todos os animais produzem celulases em grande quantidade.",
+        "C": "As celulases são encontradas apenas em vegetais.",
+        "D": "A celulose é digerida pela amilase salivar humana."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: reproduz o slide sobre as celulases bacterianas.",
+        "B": "Incorreta: os animais não possuem as enzimas celulases.",
+        "C": "Incorreta: o slide cita bactérias como fonte das celulases.",
+        "D": "Incorreta: a amilase atua sobre o amido, e as fibras de celulose não são digeridas pela maioria dos animais."
+      },
+      "referencia": {
+        "paginas": [
+          47
+        ],
+        "fundamentacao": "Slide 47, \"CELULOSE\".",
+        "trechos_apoio": [
+          "\"Os animais não possuem as enzimas celulases\""
+        ]
+      }
+    },
+    {
+      "id": "carboidratos_q019",
+      "slide_id": "carboidratos",
+      "slide_nome": "150820 - Carboidratos: Estruturas Moleculares",
+      "arquivo_origem": "150820_Carboidratos_Estruturas_Molecular__260916_151945.pdf",
+      "numero": 19,
+      "tema": "Monossacarídeos",
+      "subtema": "Aldoses e cetoses",
+      "enunciado": "Os monossacarídeos formam duas famílias, as aldoses e as cetoses, que se distinguem porque:",
+      "alternativas": {
+        "A": "As aldoses têm grupo cetona e as cetoses têm grupo aldeído.",
+        "B": "As aldoses têm cadeia ramificada e as cetoses, cadeia linear.",
+        "C": "As aldoses têm 3 carbonos e as cetoses, 7 carbonos.",
+        "D": "As aldoses têm um grupo aldeído na extremidade da cadeia e as cetoses têm um grupo cetona em um carbono interno."
+      },
+      "gabarito": "D",
+      "explicacoes": {
+        "A": "Incorreta: inverte os grupos. Aldoses têm aldeído e cetoses têm cetona.",
+        "B": "Incorreta: a distinção é o grupo funcional da carbonila, não a ramificação.",
+        "C": "Incorreta: ambos podem ter de 3 a 7 carbonos, e a distinção não é o tamanho da cadeia.",
+        "D": "Correta: aldeído na extremidade (aldoses) e cetona em carbono interno (cetoses)."
+      },
+      "referencia": {
+        "paginas": [
+          22
+        ],
+        "fundamentacao": "Slides 22 a 24 e 26, \"MONOSSACARÍDEOS\".",
+        "trechos_apoio": [
+          "\"As aldoses possuem um grupo aldeído na extremidade da cadeia cetoses contêm um grupo cetona em um carbono interno\""
+        ]
+      }
+    },
+    {
+      "id": "carboidratos_q020",
+      "slide_id": "carboidratos",
+      "slide_nome": "150820 - Carboidratos: Estruturas Moleculares",
+      "arquivo_origem": "150820_Carboidratos_Estruturas_Molecular__260916_151945.pdf",
+      "numero": 20,
+      "tema": "Aldoses e cetoses",
+      "subtema": "Exemplos",
+      "enunciado": "Segundo a apostila, exemplos de aldoses e de cetoses são, respectivamente:",
+      "alternativas": {
+        "A": "Frutose, ribulose e xilulose; glicose, ribose e galactose.",
+        "B": "Glicose, ribose e galactose; frutose, ribulose e xilulose.",
+        "C": "Glicose, frutose e ribose; galactose, ribulose e xilulose.",
+        "D": "Sacarose, lactose e maltose; amido, glicogênio e celulose."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: inverte as listas. Glicose, ribose e galactose são aldoses.",
+        "B": "Correta: aldoses: glicose, ribose e galactose. Cetoses: frutose, ribulose e xilulose.",
+        "C": "Incorreta: a frutose é cetose e a galactose é aldose, então a lista mistura as duas famílias.",
+        "D": "Incorreta: são dissacarídeos e polissacarídeos, não monossacarídeos."
+      },
+      "referencia": {
+        "paginas": [
+          27
+        ],
+        "fundamentacao": "Slides 27 e 28, \"ALDOSES\" e \"Cetoses\".",
+        "trechos_apoio": [
+          "\"Exemplos de cetoses incluem frutose, ribulose e xilulose.\""
+        ]
+      }
+    },
+    {
+      "id": "carboidratos_q021",
+      "slide_id": "carboidratos",
+      "slide_nome": "150820 - Carboidratos: Estruturas Moleculares",
+      "arquivo_origem": "150820_Carboidratos_Estruturas_Molecular__260916_151945.pdf",
+      "numero": 21,
+      "tema": "Aldose e cetose",
+      "subtema": "Representação estrutural",
+      "enunciado": "No esquema comparativo do slide, a aldose e a cetose são identificadas, respectivamente, como:",
+      "alternativas": {
+        "A": "Poli-hidroxicetona e poli-hidroxialdeído.",
+        "B": "Poli-hidroxiácido e poli-hidroxiálcool.",
+        "C": "Poli-hidroxialdeído, com a carbonila no carbono terminal; e poli-hidroxicetona, com a carbonila em carbono interno.",
+        "D": "Poli-hidroxialdeído e poli-hidroxialdeído."
+      },
+      "gabarito": "C",
+      "explicacoes": {
+        "A": "Incorreta: inverte a identificação. A aldose é o poli-hidroxialdeído.",
+        "B": "Incorreta: os termos não aparecem no esquema, que destaca a carbonila (aldeído ou cetona).",
+        "C": "Correta: a aldose é poli-hidroxialdeído (carbonila no fim da cadeia) e a cetose é poli-hidroxicetona (carbonila no carbono interno).",
+        "D": "Incorreta: a cetose é poli-hidroxicetona, não aldeído."
+      },
+      "referencia": {
+        "paginas": [
+          29
+        ],
+        "fundamentacao": "Slide 29, esquema de aldose e cetose.",
+        "trechos_apoio": [
+          "\"poli-hidroxialdeído (aldose) … poli-hidroxicetona (cetose)\" (legenda do esquema)"
+        ]
+      }
+    },
+    {
+      "id": "carboidratos_q022",
+      "slide_id": "carboidratos",
+      "slide_nome": "150820 - Carboidratos: Estruturas Moleculares",
+      "arquivo_origem": "150820_Carboidratos_Estruturas_Molecular__260916_151945.pdf",
+      "numero": 22,
+      "tema": "Monossacarídeos",
+      "subtema": "Tipos e nomenclatura",
+      "enunciado": "Na nomenclatura dos monossacarídeos, o nome genérico é formado pelo número de carbonos mais a terminação \"ose\". A associação correta com a fórmula é:",
+      "alternativas": {
+        "A": "Triose: C₃H₆O₃; tetrose: C₄H₈O₄; pentose: C₅H₁₀O₅; hexose: C₆H₁₂O₆; heptose: C₇H₁₄O₇.",
+        "B": "Triose: C₆H₁₂O₆; tetrose: C₅H₁₀O₅; pentose: C₄H₈O₄; hexose: C₃H₆O₃.",
+        "C": "Triose: C₃H₈O₃; hexose: C₆H₁₄O₆.",
+        "D": "Triose: 7 carbonos; heptose: 3 carbonos."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: reproduz as cinco fórmulas do slide (3 a 7 carbonos).",
+        "B": "Incorreta: os números de carbonos estão trocados.",
+        "C": "Incorreta: o hidrogênio não corresponde à fórmula geral Cn(H₂O)n.",
+        "D": "Incorreta: a triose tem 3 carbonos e a heptose tem 7."
+      },
+      "referencia": {
+        "paginas": [
+          30
+        ],
+        "fundamentacao": "Slides 30 e 34, \"TIPOS DE MONOSSACARÍDEOS\".",
+        "trechos_apoio": [
+          "\"Hexose, monossacarídeo com seis átomos de carbono (C6 H12O6 )\""
+        ]
+      }
+    },
+    {
+      "id": "carboidratos_q023",
+      "slide_id": "carboidratos",
+      "slide_nome": "150820 - Carboidratos: Estruturas Moleculares",
+      "arquivo_origem": "150820_Carboidratos_Estruturas_Molecular__260916_151945.pdf",
+      "numero": 23,
+      "tema": "Monossacarídeos",
+      "subtema": "Não polimerizados",
+      "enunciado": "Segundo a apostila, os monossacarídeos são carboidratos que:",
+      "alternativas": {
+        "A": "Sofrem hidrólise facilmente, formando polissacarídeos.",
+        "B": "Possuem mais de 20 unidades ligadas.",
+        "C": "São sempre cetoses, com 10 carbonos.",
+        "D": "São não polimerizados, por isso não sofrem hidrólise, e têm em geral de 3 a 7 átomos de carbono, podendo ser aldoses ou cetoses."
+      },
+      "gabarito": "D",
+      "explicacoes": {
+        "A": "Incorreta: não sofrem hidrólise, por não serem polimerizados.",
+        "B": "Incorreta: mais de 20 unidades descreve os polissacarídeos.",
+        "C": "Incorreta: podem ser aldoses ou cetoses, com 3 a 7 carbonos.",
+        "D": "Correta: reproduz o slide."
+      },
+      "referencia": {
+        "paginas": [
+          33
+        ],
+        "fundamentacao": "Slides 33 e 35, \"MONOSSACARÍDEOS\".",
+        "trechos_apoio": [
+          "\"Monossacarídeos são carboidratos não polimerizados, por isso, não sofrem hidrólise.\""
+        ]
+      }
+    },
+    {
+      "id": "carboidratos_q024",
+      "slide_id": "carboidratos",
+      "slide_nome": "150820 - Carboidratos: Estruturas Moleculares",
+      "arquivo_origem": "150820_Carboidratos_Estruturas_Molecular__260916_151945.pdf",
+      "numero": 24,
+      "tema": "Polímeros",
+      "subtema": "Polimerização, monômeros e polímeros",
+      "enunciado": "Sobre polimerização, a apostila define:",
+      "alternativas": {
+        "A": "Polimerização como a quebra de polímeros em monômeros.",
+        "B": "Polimerização como o processo químico de formação de polímeros pela ligação de monômeros; monômeros como as unidades básicas que se repetem; polímeros como macromoléculas formadas pela união de muitos monômeros.",
+        "C": "Monômeros como macromoléculas e polímeros como unidades simples.",
+        "D": "Polimerização como a oxidação da glicose."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a quebra de polímeros é a hidrólise, e a polimerização é a formação.",
+        "B": "Correta: reproduz as três definições do slide.",
+        "C": "Incorreta: inverte os conceitos. Monômeros são unidades e polímeros são macromoléculas.",
+        "D": "Incorreta: a oxidação da glicose é parte do metabolismo energético, não é polimerização."
+      },
+      "referencia": {
+        "paginas": [
+          36
+        ],
+        "fundamentacao": "Slides 36 e 38, \"POLIMERIZADOS\" e \"POLÍMEROS\".",
+        "trechos_apoio": [
+          "\"Polimerização: É o processo químico que leva à formação de polímeros, através da ligação de monômeros.\""
+        ]
+      }
+    },
+    {
+      "id": "carboidratos_q025",
+      "slide_id": "carboidratos",
+      "slide_nome": "150820 - Carboidratos: Estruturas Moleculares",
+      "arquivo_origem": "150820_Carboidratos_Estruturas_Molecular__260916_151945.pdf",
+      "numero": 25,
+      "tema": "Oligossacarídeos e polissacarídeos",
+      "subtema": "Ligação glicosídica",
+      "enunciado": "De acordo com a apostila, a classificação por número de unidades e a ligação entre elas são:",
+      "alternativas": {
+        "A": "Oligossacarídeos: mais de 20 unidades; polissacarídeos: 2 unidades; ligação peptídica.",
+        "B": "Oligossacarídeos: 1 unidade; polissacarídeos: 2 unidades; ligação éster.",
+        "C": "Oligossacarídeos: cadeias pequenas de 2 a aproximadamente 20 monossacarídeos; polissacarídeos: mais de 20 unidades; ambos unidos por ligações glicosídicas.",
+        "D": "Oligossacarídeos e polissacarídeos não possuem ligações entre as unidades."
+      },
+      "gabarito": "C",
+      "explicacoes": {
+        "A": "Incorreta: inverte os números, e a ligação não é peptídica (que é das proteínas).",
+        "B": "Incorreta: os números não correspondem ao slide, e a ligação é glicosídica.",
+        "C": "Correta: oligossacarídeos de 2 a ~20 e polissacarídeos com mais de 20 unidades, com ligação glicosídica.",
+        "D": "Incorreta: as unidades são ligadas por ligações glicosídicas."
+      },
+      "referencia": {
+        "paginas": [
+          11,
+          20
+        ],
+        "fundamentacao": "Slides 11, 20 e 37, \"CLASSIFICAÇÃO DE ACORDO COM O NÚMERO DE UNIDADES\".",
+        "trechos_apoio": [
+          "\"Polissacarídeos – polímero com mais que 20 unidades ligadas por ligações glicosídicas\""
+        ]
+      }
+    },
+    {
+      "id": "carboidratos_q026",
+      "slide_id": "carboidratos",
+      "slide_nome": "150820 - Carboidratos: Estruturas Moleculares",
+      "arquivo_origem": "150820_Carboidratos_Estruturas_Molecular__260916_151945.pdf",
+      "numero": 26,
+      "tema": "Monossacarídeos",
+      "subtema": "Trioses e importância biológica",
+      "enunciado": "Na tabela de importância biológica, as trioses (C₃H₆O₃) citadas e suas funções são:",
+      "alternativas": {
+        "A": "Gliceraldeído: composto intermediário da glicólise; diidroxiacetona: participa da glicólise e do ciclo de Calvin.",
+        "B": "Gliceraldeído: matéria-prima do RNA; diidroxiacetona: matéria-prima do DNA.",
+        "C": "Gliceraldeído: molécula mais utilizada para obter energia; diidroxiacetona: constituinte da lactose.",
+        "D": "Gliceraldeído e diidroxiacetona: exoesqueleto de insetos."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: reproduz a tabela para as duas trioses.",
+        "B": "Incorreta: matérias-primas do RNA e do DNA são as pentoses ribose e desoxirribose.",
+        "C": "Incorreta: a molécula mais utilizada para obter energia é a glicose, e a lactose contém galactose.",
+        "D": "Incorreta: o exoesqueleto é de quitina, polissacarídeo."
+      },
+      "referencia": {
+        "paginas": [
+          39
+        ],
+        "fundamentacao": "Slide 39, tabela \"Importância biológica\".",
+        "trechos_apoio": [
+          "\"Composto intermediário da glicólise.\" (célula do gliceraldeído)"
+        ]
+      }
+    },
+    {
+      "id": "carboidratos_q027",
+      "slide_id": "carboidratos",
+      "slide_nome": "150820 - Carboidratos: Estruturas Moleculares",
+      "arquivo_origem": "150820_Carboidratos_Estruturas_Molecular__260916_151945.pdf",
+      "numero": 27,
+      "tema": "Monossacarídeos",
+      "subtema": "Pentoses e ácidos nucleicos",
+      "enunciado": "Segundo a tabela de importância biológica, as pentoses (C₅H₁₀O₅) ribose e desoxirribose são, respectivamente:",
+      "alternativas": {
+        "A": "Intermediária da glicólise e componente da lactose.",
+        "B": "Molécula mais usada para energia e reserva animal.",
+        "C": "Componente da parede celular e do exoesqueleto.",
+        "D": "Matéria-prima para a síntese de ácido ribonucleico (RNA) e de ácido desoxirribonucleico (DNA)."
+      },
+      "gabarito": "D",
+      "explicacoes": {
+        "A": "Incorreta: a intermediária da glicólise é uma triose (gliceraldeído), e a galactose compõe a lactose.",
+        "B": "Incorreta: a molécula mais usada para energia é a glicose, e a reserva animal é o glicogênio.",
+        "C": "Incorreta: parede celular e exoesqueleto são polissacarídeos estruturais.",
+        "D": "Correta: a ribose é matéria-prima do RNA, e a desoxirribose (C₅H₁₀O₄) é matéria-prima do DNA."
+      },
+      "referencia": {
+        "paginas": [
+          39
+        ],
+        "fundamentacao": "Slide 39, tabela \"Importância biológica\".",
+        "trechos_apoio": [
+          "\"Matéria-prima para a síntese de ácido ribonucleico (RNA).\" (célula da ribose)"
+        ]
+      }
+    },
+    {
+      "id": "carboidratos_q028",
+      "slide_id": "carboidratos",
+      "slide_nome": "150820 - Carboidratos: Estruturas Moleculares",
+      "arquivo_origem": "150820_Carboidratos_Estruturas_Molecular__260916_151945.pdf",
+      "numero": 28,
+      "tema": "Monossacarídeos",
+      "subtema": "Hexoses e importância biológica",
+      "enunciado": "Na tabela das hexoses (C₆H₁₂O₆), a importância biológica indicada é:",
+      "alternativas": {
+        "A": "Glicose: constitui a lactose; frutose: matéria-prima do DNA; galactose: reserva animal.",
+        "B": "Glicose: molécula mais utilizada pelas células para obtenção de energia; frutose: função energética; galactose: constitui a lactose do leite, com função energética.",
+        "C": "Glicose: exoesqueleto; frutose: parede celular; galactose: RNA.",
+        "D": "Glicose, frutose e galactose: sem função energética."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: troca as funções. A galactose constitui a lactose e a glicose é a molécula mais usada para energia.",
+        "B": "Correta: reproduz a tabela das hexoses.",
+        "C": "Incorreta: são funções de polissacarídeos estruturais e de ácidos nucleicos, não das hexoses.",
+        "D": "Incorreta: o slide atribui função energética às três hexoses."
+      },
+      "referencia": {
+        "paginas": [
+          39
+        ],
+        "fundamentacao": "Slide 39, tabela \"Importância biológica\".",
+        "trechos_apoio": [
+          "\"Molécula mais utilizada pelas células para a obtenção de energia.\" (célula da glicose)"
+        ]
+      }
+    },
+    {
+      "id": "carboidratos_q029",
+      "slide_id": "carboidratos",
+      "slide_nome": "150820 - Carboidratos: Estruturas Moleculares",
+      "arquivo_origem": "150820_Carboidratos_Estruturas_Molecular__260916_151945.pdf",
+      "numero": 29,
+      "tema": "Dissacarídeos",
+      "subtema": "Composição",
+      "enunciado": "A composição dos dissacarídeos citados na apostila é:",
+      "alternativas": {
+        "A": "Maltose: glicose + frutose; sacarose: glicose + galactose; lactose: glicose + glicose.",
+        "B": "Maltose: glicose + galactose; sacarose: glicose + glicose; lactose: glicose + frutose.",
+        "C": "Maltose: glicose + glicose; sacarose: glicose + frutose; lactose: glicose + galactose.",
+        "D": "Maltose, sacarose e lactose: todas formadas por duas frutoses."
+      },
+      "gabarito": "C",
+      "explicacoes": {
+        "A": "Incorreta: embaralha as composições. A maltose é formada por duas glicoses.",
+        "B": "Incorreta: a sacarose contém frutose, e a lactose contém galactose.",
+        "C": "Correta: reproduz as composições da tabela.",
+        "D": "Incorreta: nenhum desses dissacarídeos é formado por duas frutoses."
+      },
+      "referencia": {
+        "paginas": [
+          41
+        ],
+        "fundamentacao": "Slides 41 e 43, tabelas de dissacarídeos.",
+        "trechos_apoio": [
+          "\"Maltose Glicose + Glicose · Sacarose Glicose + Frutose · Lactose Glicose + Galactose\" (tabela do slide 43)"
+        ]
+      }
+    },
+    {
+      "id": "carboidratos_q030",
+      "slide_id": "carboidratos",
+      "slide_nome": "150820 - Carboidratos: Estruturas Moleculares",
+      "arquivo_origem": "150820_Carboidratos_Estruturas_Molecular__260916_151945.pdf",
+      "numero": 30,
+      "tema": "Dissacarídeos e trissacarídeo",
+      "subtema": "Fontes e importância",
+      "enunciado": "Segundo a tabela de dissacarídeos e trissacarídeos, é correto afirmar que:",
+      "alternativas": {
+        "A": "A sacarose é abundante na cana-de-açúcar e na beterraba; a lactose é encontrada no leite; a maltose provém da digestão do amido pelos animais; a rafinose (glicose + frutose + galactose) é encontrada em leguminosas e não é digerida pelos seres humanos.",
+        "B": "A sacarose é encontrada no leite e a lactose na cana-de-açúcar.",
+        "C": "A maltose é abundante na beterraba e provém da digestão da lactose.",
+        "D": "A rafinose é digerida facilmente pelos seres humanos."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: reproduz as fontes e importâncias da tabela.",
+        "B": "Incorreta: inverte as fontes. O leite contém lactose e a cana-de-açúcar contém sacarose.",
+        "C": "Incorreta: a sacarose (e não a maltose) é abundante na beterraba, e a maltose provém da digestão do amido.",
+        "D": "Incorreta: a rafinose não é digerida pelos seres humanos."
+      },
+      "referencia": {
+        "paginas": [
+          41
+        ],
+        "fundamentacao": "Slide 41, tabela \"Dissacarídeos / Trissacarídeos\".",
+        "trechos_apoio": [
+          "\"Encontrada principalmente nas leguminosas, não é digerida pelos seres humanos.\" (célula da rafinose)"
+        ]
+      }
+    },
+    {
+      "id": "carboidratos_q031",
+      "slide_id": "carboidratos",
+      "slide_nome": "150820 - Carboidratos: Estruturas Moleculares",
+      "arquivo_origem": "150820_Carboidratos_Estruturas_Molecular__260916_151945.pdf",
+      "numero": 31,
+      "tema": "Dissacarídeos",
+      "subtema": "Estrutura da sacarose",
+      "enunciado": "No esquema \"DISSACARÍDEOS\", a sacarose é representada como:",
+      "alternativas": {
+        "A": "Duas moléculas de glicose unidas por ligação peptídica.",
+        "B": "Uma molécula de galactose ligada a uma de glicose.",
+        "C": "Um polímero de mais de 20 unidades de frutose.",
+        "D": "Uma molécula de glicose unida a uma de frutose por ligação glicosídica (esquema com as posições 1(α) e 2(β))."
+      },
+      "gabarito": "D",
+      "explicacoes": {
+        "A": "Incorreta: a sacarose é glicose mais frutose, e a ligação é glicosídica.",
+        "B": "Incorreta: glicose mais galactose forma a lactose.",
+        "C": "Incorreta: a sacarose é um dissacarídeo, não um polímero de frutose.",
+        "D": "Correta: o esquema mostra glicose e frutose ligadas pelo oxigênio entre as posições 1(α) e 2(β)."
+      },
+      "referencia": {
+        "paginas": [
+          45
+        ],
+        "fundamentacao": "Slide 45, \"DISSACARÍDEOS\" (Sacarose).",
+        "trechos_apoio": [
+          "\"Glicose … Frutose … Sacarose\" (rótulos do esquema)"
+        ]
+      }
+    },
+    {
+      "id": "carboidratos_q032",
+      "slide_id": "carboidratos",
+      "slide_nome": "150820 - Carboidratos: Estruturas Moleculares",
+      "arquivo_origem": "150820_Carboidratos_Estruturas_Molecular__260916_151945.pdf",
+      "numero": 32,
+      "tema": "Questão de aula",
+      "subtema": "Dissacarídeos",
+      "enunciado": "Podemos classificar os glicídios em três grupos principais: monossacarídeos, dissacarídeos e polissacarídeos. Marque a alternativa que traz apenas glicídios formados pela união de dois monossacarídeos:",
+      "alternativas": {
+        "A": "Amido e celulose.",
+        "B": "Sacarose e lactose.",
+        "C": "Frutose e glicose.",
+        "D": "Sacarose e celulose."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: amido e celulose são polissacarídeos, com muitas unidades de glicose.",
+        "B": "Correta: sacarose (glicose + frutose) e lactose (glicose + galactose) são dissacarídeos.",
+        "C": "Incorreta: frutose e glicose são monossacarídeos.",
+        "D": "Incorreta: a sacarose é dissacarídeo, mas a celulose é polissacarídeo (≈ 1.000 glicoses)."
+      },
+      "referencia": {
+        "paginas": [
+          57
+        ],
+        "fundamentacao": "Slide 57, \"QUESTÕES\" (apoio nos slides 41 e 43).",
+        "trechos_apoio": [
+          "\"Marque a alternativa onde encontramos apenas glicídios formados pela união de dois monossacarídeos.\""
+        ]
+      }
+    },
+    {
+      "id": "carboidratos_q033",
+      "slide_id": "carboidratos",
+      "slide_nome": "150820 - Carboidratos: Estruturas Moleculares",
+      "arquivo_origem": "150820_Carboidratos_Estruturas_Molecular__260916_151945.pdf",
+      "numero": 33,
+      "tema": "Questão de aula",
+      "subtema": "Polissacarídeos em plantas e animais",
+      "enunciado": "Considere as afirmativas: I – O esqueleto externo dos insetos é composto de um polissacarídeo. II – As células vegetais possuem uma parede formada por polissacarídeos. III – O amido, o glicogênio, a quitina e a celulose são polissacarídeos. IV – O amido, o glicogênio, a quitina e a celulose são polissacarídeos de reserva energética. Estão corretas:",
+      "alternativas": {
+        "A": "Apenas I e IV.",
+        "B": "Apenas II e III.",
+        "C": "I, II e III.",
+        "D": "I, III e IV."
+      },
+      "gabarito": "C",
+      "explicacoes": {
+        "A": "Incorreta: a IV é falsa, pois quitina e celulose são estruturais, e a II e a III também estão corretas.",
+        "B": "Incorreta: deixa de fora a I, que está correta, pois o exoesqueleto dos insetos é de quitina.",
+        "C": "Correta: I (quitina), II (celulose) e III (os quatro são polissacarídeos) estão corretas, e a IV é falsa.",
+        "D": "Incorreta: inclui a IV, falsa, e deixa a II de fora. Quitina e celulose são estruturais."
+      },
+      "referencia": {
+        "paginas": [
+          58
+        ],
+        "fundamentacao": "Slide 58 (apoio nos slides 15, 17 e 18).",
+        "trechos_apoio": [
+          "\"I – O esqueleto externo dos insetos é composto de um polissacarídeo.\""
+        ]
+      }
+    },
+    {
+      "id": "carboidratos_q034",
+      "slide_id": "carboidratos",
+      "slide_nome": "150820 - Carboidratos: Estruturas Moleculares",
+      "arquivo_origem": "150820_Carboidratos_Estruturas_Molecular__260916_151945.pdf",
+      "numero": 34,
+      "tema": "Carência de carboidratos",
+      "subtema": "Carência de carboidratos",
+      "enunciado": "Segundo a apostila, a carência de carboidratos manifesta-se por:",
+      "alternativas": {
+        "A": "Fraqueza, tremores, mãos frias, nervosismo e tonturas, podendo levar ao desmaio, como no jejum prolongado; o organismo passa a usar gorduras e reservas do tecido adiposo, o que provoca emagrecimento.",
+        "B": "Ganho de peso e acúmulo de gordura nos adipócitos.",
+        "C": "Aumento dos triglicerídeos sanguíneos e aterosclerose.",
+        "D": "Excesso de energia e hiperatividade, sem alterações no uso de gorduras."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: reproduz os sintomas e a utilização das gorduras com emagrecimento.",
+        "B": "Incorreta: o acúmulo nos adipócitos refere-se ao excesso de carboidratos.",
+        "C": "Incorreta: aterosclerose e triglicerídeos altos são consequências do excesso.",
+        "D": "Incorreta: a carência traz fraqueza, e o organismo recorre às gorduras."
+      },
+      "referencia": {
+        "paginas": [
+          31
+        ],
+        "fundamentacao": "Slide 31, \"A CARÊNCIA DE CARBOIDRATOS\".",
+        "trechos_apoio": [
+          "\"A carência leva o organismo a utilizar-se das gorduras e reservas do tecido adiposo\""
+        ]
+      }
+    },
+    {
+      "id": "carboidratos_q035",
+      "slide_id": "carboidratos",
+      "slide_nome": "150820 - Carboidratos: Estruturas Moleculares",
+      "arquivo_origem": "150820_Carboidratos_Estruturas_Molecular__260916_151945.pdf",
+      "numero": 35,
+      "tema": "Excesso de carboidratos",
+      "subtema": "Excesso de carboidratos",
+      "enunciado": "Quando em excesso no organismo, os carboidratos:",
+      "alternativas": {
+        "A": "São eliminados integralmente na urina.",
+        "B": "São convertidos em proteínas nos músculos.",
+        "C": "Transformam-se em vitaminas e ficam no sangue.",
+        "D": "Transformam-se em gordura acumulada nos adipócitos, podendo causar obesidade e aterosclerose (aumento dos triglicerídeos sanguíneos)."
+      },
+      "gabarito": "D",
+      "explicacoes": {
+        "A": "Incorreta: o slide diz que se transformam em gordura, e não que são eliminados.",
+        "B": "Incorreta: a conversão citada é em gordura, não em proteínas.",
+        "C": "Incorreta: o slide não cita a conversão em vitaminas.",
+        "D": "Correta: excesso vira gordura nos adipócitos, com risco de obesidade e aterosclerose."
+      },
+      "referencia": {
+        "paginas": [
+          32
+        ],
+        "fundamentacao": "Slide 32, \"CARBOIDRATOS\".",
+        "trechos_apoio": [
+          "\"transformam-se em gordura e ficam acumulados nos adipócitos\""
+        ]
+      }
+    },
+    {
+      "id": "carboidratos_q036",
+      "slide_id": "carboidratos",
+      "slide_nome": "150820 - Carboidratos: Estruturas Moleculares",
+      "arquivo_origem": "150820_Carboidratos_Estruturas_Molecular__260916_151945.pdf",
+      "numero": 36,
+      "tema": "Funções especiais",
+      "subtema": "Poupadora de energia e anticetogênica",
+      "enunciado": "Sobre as funções especiais dos carboidratos, a apostila afirma que:",
+      "alternativas": {
+        "A": "A ação poupadora de energia faz as proteínas serem desviadas para a produção de energia.",
+        "B": "Carboidratos suficientes impedem que as proteínas sejam desviadas para energia (ação poupadora), e a quantidade de carboidrato influencia a quebra das gorduras e a formação das cetonas (efeito anticetogênico).",
+        "C": "O efeito anticetogênico aumenta a produção de cetonas.",
+        "D": "Os carboidratos não interferem no uso de proteínas nem de gorduras."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o slide diz o contrário: os carboidratos evitam o desvio das proteínas para energia.",
+        "B": "Correta: reproduz as duas funções, poupadora de energia e anticetogênica.",
+        "C": "Incorreta: o efeito anticetogênico relaciona-se à regulação da formação de cetonas, e não ao aumento delas.",
+        "D": "Incorreta: o slide descreve justamente essa interferência."
+      },
+      "referencia": {
+        "paginas": [
+          50
+        ],
+        "fundamentacao": "Slide 50, \"FUNÇÕES ESPECIAIS DOS CARBOIDRATOS\".",
+        "trechos_apoio": [
+          "\"Ação poupadora de energia\" e \"Efeito anticetogênico\" (títulos dos tópicos)"
+        ]
+      }
+    },
+    {
+      "id": "carboidratos_q037",
+      "slide_id": "carboidratos",
+      "slide_nome": "150820 - Carboidratos: Estruturas Moleculares",
+      "arquivo_origem": "150820_Carboidratos_Estruturas_Molecular__260916_151945.pdf",
+      "numero": 37,
+      "tema": "Funções especiais",
+      "subtema": "Coração e sistema nervoso central",
+      "enunciado": "Segundo a apostila, em relação ao coração e ao sistema nervoso central:",
+      "alternativas": {
+        "A": "O cérebro armazena grandes reservas de glicose e não depende da glicemia.",
+        "B": "O coração não guarda glicogênio em suas células.",
+        "C": "O coração guarda pequenas quantidades de glicogênio nos cardiomiócitos como fonte emergencial de energia contrátil; o cérebro não armazena glicose e depende minuto a minuto da glicose sanguínea.",
+        "D": "Uma interrupção prolongada da glicose sanguínea é inofensiva para o cérebro."
+      },
+      "gabarito": "C",
+      "explicacoes": {
+        "A": "Incorreta: o cérebro não armazena glicose e depende minuto a minuto do suprimento sanguíneo.",
+        "B": "Incorreta: o coração guarda pequenas quantidades de glicogênio nos cardiomiócitos.",
+        "C": "Correta: reproduz as duas afirmações do slide.",
+        "D": "Incorreta: a interrupção prolongada pode causar danos irreversíveis ao cérebro."
+      },
+      "referencia": {
+        "paginas": [
+          51
+        ],
+        "fundamentacao": "Slide 51, \"FUNÇÕES ESPECIAIS DOS CARBOIDRATOS\".",
+        "trechos_apoio": [
+          "\"O cérebro não armazena glicose e dessa maneira depende minuto a minuto de um suprimento de glicose sanguínea.\""
+        ]
+      }
+    },
+    {
+      "id": "carboidratos_q038",
+      "slide_id": "carboidratos",
+      "slide_nome": "150820 - Carboidratos: Estruturas Moleculares",
+      "arquivo_origem": "150820_Carboidratos_Estruturas_Molecular__260916_151945.pdf",
+      "numero": 38,
+      "tema": "Digestão do amido",
+      "subtema": "Digestão do amido",
+      "enunciado": "Na digestão do amido, a apostila indica que:",
+      "alternativas": {
+        "A": "Na boca atua a amilase salivar; no intestino delgado a amilase pancreática continua quebrando o amido restante em maltose; as enzimas da borda dos enterócitos (maltase, sacarase, lactase) produzem monossacarídeos, que são absorvidos e transportados pela corrente sanguínea.",
+        "B": "A digestão do amido começa no intestino grosso, pela celulase.",
+        "C": "Só a amilase pancreática atua, e a boca não participa.",
+        "D": "Os monossacarídeos são eliminados nas fezes sem absorção."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: reproduz a sequência do slide (boca → intestino delgado → borda em escova → absorção).",
+        "B": "Incorreta: a digestão começa na boca, e a celulase não atua no amido.",
+        "C": "Incorreta: a amilase salivar atua na boca, e a pancreática continua no intestino delgado.",
+        "D": "Incorreta: os monossacarídeos são absorvidos pelo intestino e transportados pelo sangue."
+      },
+      "referencia": {
+        "paginas": [
+          53
+        ],
+        "fundamentacao": "Slide 53, \"DIGESTÃO DO AMIDO\".",
+        "trechos_apoio": [
+          "\"Intestino delgado: amilase pancreática continua a quebrar o amido restante em maltose\""
+        ]
+      }
+    },
+    {
+      "id": "carboidratos_q039",
+      "slide_id": "carboidratos",
+      "slide_nome": "150820 - Carboidratos: Estruturas Moleculares",
+      "arquivo_origem": "150820_Carboidratos_Estruturas_Molecular__260916_151945.pdf",
+      "numero": 39,
+      "tema": "Metabolismo e destino da glicose",
+      "subtema": "Metabolismo e destino da glicose",
+      "enunciado": "Segundo o Lehninger citado na apostila, metabolismo é o conjunto de reações orgânicas que os organismos vivos realizam para obter energia e sintetizar as substâncias de que necessitam. Quanto ao destino da glicose, a apostila afirma que:",
+      "alternativas": {
+        "A": "A glicose é convertida em amido no citosol e fica retida ali.",
+        "B": "O piruvato é formado na mitocôndria e passa ao citosol.",
+        "C": "A glicose é convertida em lactose na mitocôndria.",
+        "D": "A glicose é convertida em piruvato e, em condições aeróbicas, o piruvato do citossol entra na mitocôndria e é transformado em acetil-CoA, conectando a glicólise ao ciclo de Krebs."
+      },
+      "gabarito": "D",
+      "explicacoes": {
+        "A": "Incorreta: o slide descreve a conversão em piruvato, e não em amido.",
+        "B": "Incorreta: o piruvato é formado no citossol e entra na mitocôndria.",
+        "C": "Incorreta: a lactose é um dissacarídeo do leite, e não produto do destino da glicose descrito.",
+        "D": "Correta: descreve o destino da glicose e a conexão entre glicólise e ciclo de Krebs."
+      },
+      "referencia": {
+        "paginas": [
+          54
+        ],
+        "fundamentacao": "Slides 54 e 55, \"METABOLISMO\" e \"DESTINO DA GLICOSE\".",
+        "trechos_apoio": [
+          "\"conectando, portanto, a glicólise e o ciclo de Krebs.\""
+        ]
+      }
+    },
+    {
+      "id": "carboidratos_q040",
+      "slide_id": "carboidratos",
+      "slide_nome": "150820 - Carboidratos: Estruturas Moleculares",
+      "arquivo_origem": "150820_Carboidratos_Estruturas_Molecular__260916_151945.pdf",
+      "numero": 40,
+      "tema": "Funções dos carboidratos",
+      "subtema": "Síntese",
+      "enunciado": "Reunindo o que a apostila diz sobre as funções dos carboidratos, qual alternativa está correta?",
+      "alternativas": {
+        "A": "Servem como catalisadores das reações do metabolismo, no lugar das enzimas.",
+        "B": "Fornecem energia (e reservas, como amido e glicogênio), poupam as proteínas e regulam a formação das cetonas, e os polissacarídeos estruturais (celulose e quitina) dão forma, sustentação e proteção.",
+        "C": "Têm apenas função estrutural, sem papel energético.",
+        "D": "Servem exclusivamente para armazenar informação genética."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o material não atribui aos carboidratos o papel de catalisadores. Enzimas são tema do bloco de proteínas.",
+        "B": "Correta: reúne energia e reserva (slides 8 e 15), ação poupadora e anticetogênica (slide 50) e função estrutural (slides 14 e 17).",
+        "C": "Incorreta: os carboidratos têm função energética importante, além da estrutural.",
+        "D": "Incorreta: a informação genética é função dos ácidos nucleicos. Os carboidratos ribose e desoxirribose são só a matéria-prima do RNA e do DNA."
+      },
+      "referencia": {
+        "paginas": [
+          8,
+          14,
+          15,
+          17
+        ],
+        "fundamentacao": "Slides 8, 14, 15, 17 e 50.",
+        "trechos_apoio": [
+          "\"A oxidação dos carboidratos é uma das principais vias fornecedora de energia.\""
+        ]
+      }
+    }
+  ]
+}

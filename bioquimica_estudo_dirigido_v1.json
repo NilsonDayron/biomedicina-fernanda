@@ -1,0 +1,454 @@
+{
+  "questoes": [
+    {
+      "id": "estudo-dirigido-v1_q001",
+      "slide_id": "estudo-dirigido-v1",
+      "slide_nome": "Estudo Dirigido V1 - Fundamentos de Bioquímica",
+      "arquivo_origem": "ESTUDO DIRIGIDO V1 FUNDAMENTOS DE BIOQUÍMICA_261008_211052.pdf",
+      "numero": 1,
+      "tema": "Fundamentos de Bioquímica",
+      "subtema": "Equivalente à discursiva 1: \"Qual a função dos carboidratos para os seres vivos?\"",
+      "enunciado": "Os carboidratos (também denominados glicídios, sacarídeos ou hidratos de carbono) desempenham papéis biológicos indispensáveis à sobrevivência dos organismos. Conforme o material didático, quais são as funções fundamentais atribuídas aos carboidratos nos seres vivos?",
+      "alternativas": {
+        "A": "Atuar unicamente como isolante térmico contra baixas temperaturas e catalisador proteico intracelular.",
+        "B": "Desempenhar papel primordial de reserva e fornecimento de energia química, além de atuarem como elementos estruturais essenciais.",
+        "C": "Constituir exclusivamente o material genético nuclear responsável pela transcrição.",
+        "D": "Transportar oxigênio molecular na corrente sanguínea de animais vertebrados."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o isolamento térmico é função de lipídeos (gorduras) e a catálise é desempenhada por enzimas.",
+        "B": "Correta: os carboidratos exercem primordialmente a função energética (fonte imediata como a glicose e reserva como amido e glicogênio) e estrutural (como a celulose na parede celular vegetal e a quitina em artrópodes e fungos).",
+        "C": "Incorreta: o material genético é formado por ácidos nucleicos (DNA/RNA).",
+        "D": "Incorreta: o transporte de oxigênio pelo sangue é realizado pela hemoglobina (uma proteína conjugada)."
+      },
+      "referencia": {
+        "paginas": [
+          "Equivalente à discursiva 1: \"Qual a função dos carboidratos para os seres vivos?\""
+        ],
+        "fundamentacao": "Equivalente à discursiva 1: \"Qual a função dos carboidratos para os seres vivos?\"",
+        "trechos_apoio": []
+      }
+    },
+    {
+      "id": "estudo-dirigido-v1_q002",
+      "slide_id": "estudo-dirigido-v1",
+      "slide_nome": "Estudo Dirigido V1 - Fundamentos de Bioquímica",
+      "arquivo_origem": "ESTUDO DIRIGIDO V1 FUNDAMENTOS DE BIOQUÍMICA_261008_211052.pdf",
+      "numero": 2,
+      "tema": "Fundamentos de Bioquímica",
+      "subtema": "Equivalente à discursiva 2: \"Como são classificados os carboidratos?\"",
+      "enunciado": "A classificação bioquímica dos carboidratos baseia-se no tamanho da cadeia e na quantidade de unidades fundamentais unidas. De acordo com a apostila, em quais grupos principais os carboidratos são divididos?",
+      "alternativas": {
+        "A": "Triglicerídeos, fosfolipídios e ceras.",
+        "B": "Monossacarídeos, dissacarídeos e polissacarídeos.",
+        "C": "Holoproteínas, heteroproteínas e aminoácidos essenciais.",
+        "D": "Bases púricas, pirimídicas e nucleosídeos."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: referem-se, respectivamente, a classes de lipídeos, proteínas e ácidos nucleicos.",
+        "B": "Correta: os carboidratos classificam-se em: monossacarídeos (como glicose, frutose e galactose), dissacarídeos (união de dois monossacarídeos, como sacarose, maltose e lactose) e polissacarídeos (união de centenas de monômeros, como amido, glicogênio, celulose e quitina).",
+        "C": "Incorreta: referem-se, respectivamente, a classes de lipídeos, proteínas e ácidos nucleicos.",
+        "D": "Incorreta: referem-se, respectivamente, a classes de lipídeos, proteínas e ácidos nucleicos."
+      },
+      "referencia": {
+        "paginas": [
+          "Equivalente à discursiva 2: \"Como são classificados os carboidratos?\""
+        ],
+        "fundamentacao": "Equivalente à discursiva 2: \"Como são classificados os carboidratos?\"",
+        "trechos_apoio": []
+      }
+    },
+    {
+      "id": "estudo-dirigido-v1_q003",
+      "slide_id": "estudo-dirigido-v1",
+      "slide_nome": "Estudo Dirigido V1 - Fundamentos de Bioquímica",
+      "arquivo_origem": "ESTUDO DIRIGIDO V1 FUNDAMENTOS DE BIOQUÍMICA_261008_211052.pdf",
+      "numero": 3,
+      "tema": "Fundamentos de Bioquímica",
+      "subtema": "Equivalente à discursiva 3: \"Descrever a ligação glicosídica.\"",
+      "enunciado": "A ligação que une dois ou mais monossacarídeos é a ligação glicosídica. Como a apostila descreve o mecanismo de formação dessa ligação?",
+      "alternativas": {
+        "A": "Pela fixação de nitrogênio gasoso sem nenhuma liberação de água.",
+        "B": "Pela saída de um átomo de hidrogênio de um monossacarídeo e de uma hidroxila do outro, liberando uma molécula de água em uma síntese por desidratação.",
+        "C": "Pela absorção contínua de moléculas de água líquida que quebram a cadeia carbonada.",
+        "D": "Por atração magnética gerada por íons ferro na cavidade bucal."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a quebra com entrada de água é hidrólise (não síntese), e carboidratos não contêm nitrogênio nem sofrem ligações magnéticas de ferro.",
+        "B": "Correta: a apostila define textualmente que a ligação é formada com a perda de um átomo de hidrogênio de um dos monossacarídeos e a saída de uma hidroxila do outro, gerando uma molécula de água, motivo pelo qual é chamada de síntese por desidratação.",
+        "C": "Incorreta: a quebra com entrada de água é hidrólise (não síntese), e carboidratos não contêm nitrogênio nem sofrem ligações magnéticas de ferro.",
+        "D": "Incorreta: a quebra com entrada de água é hidrólise (não síntese), e carboidratos não contêm nitrogênio nem sofrem ligações magnéticas de ferro."
+      },
+      "referencia": {
+        "paginas": [
+          "Equivalente à discursiva 3: \"Descrever a ligação glicosídica.\""
+        ],
+        "fundamentacao": "Equivalente à discursiva 3: \"Descrever a ligação glicosídica.\"",
+        "trechos_apoio": []
+      }
+    },
+    {
+      "id": "estudo-dirigido-v1_q004",
+      "slide_id": "estudo-dirigido-v1",
+      "slide_nome": "Estudo Dirigido V1 - Fundamentos de Bioquímica",
+      "arquivo_origem": "ESTUDO DIRIGIDO V1 FUNDAMENTOS DE BIOQUÍMICA_261008_211052.pdf",
+      "numero": 4,
+      "tema": "Fundamentos de Bioquímica",
+      "subtema": "Equivalente à discursiva 4: \"Quais são os carboidratos de reserva animal e vegetal?\"",
+      "enunciado": "Os polissacarídeos de reserva energética estocam unidades de glicose para uso metabólico oportuno. Quais são os polissacarídeos de reserva dos animais e dos vegetais, respectivamente?",
+      "alternativas": {
+        "A": "Amido nos animais e glicogênio nos vegetais.",
+        "B": "Quitina nos animais e celulose nos vegetais.",
+        "C": "Glicogênio nos animais e amido nos vegetais.",
+        "D": "Frutose nos animais e maltose nos vegetais."
+      },
+      "gabarito": "C",
+      "explicacoes": {
+        "A": "Incorreta: inverte as origens dos polissacarídeos.",
+        "B": "Incorreta: quitina e celulose são polissacarídeos estritamente estruturais.",
+        "C": "Correta: a apostila esclarece que o glicogênio é a reserva energética dos animais (presente no fígado e músculos), enquanto o amido é a reserva energética das plantas e das algas.",
+        "D": "Incorreta: frutose e maltose são açúcares simples (mono e dissacarídeo), não polímeros de reserva de grande porte."
+      },
+      "referencia": {
+        "paginas": [
+          "Equivalente à discursiva 4: \"Quais são os carboidratos de reserva animal e vegetal?\""
+        ],
+        "fundamentacao": "Equivalente à discursiva 4: \"Quais são os carboidratos de reserva animal e vegetal?\"",
+        "trechos_apoio": []
+      }
+    },
+    {
+      "id": "estudo-dirigido-v1_q005",
+      "slide_id": "estudo-dirigido-v1",
+      "slide_nome": "Estudo Dirigido V1 - Fundamentos de Bioquímica",
+      "arquivo_origem": "ESTUDO DIRIGIDO V1 FUNDAMENTOS DE BIOQUÍMICA_261008_211052.pdf",
+      "numero": 5,
+      "tema": "Fundamentos de Bioquímica",
+      "subtema": "Equivalente à discursiva 5: \"Descrever as etapas de digestão dos carboidratos.\"",
+      "enunciado": "O processo digestivo dos carboidratos envolve a atuação coordenada de diferentes órgãos e enzimas ao longo do trato gastrointestinal. De acordo com o material didático, qual é a ordem cronológica e funcional correta dessas etapas?",
+      "alternativas": {
+        "A": "Tem início na boca pela amilase salivar (ptialina), cessa temporariamente no estômago devido ao pH ácido inativador e é completada no duodeno pela amilase pancreática e pelas dissacaridases da borda em escova.",
+        "B": "Inicia-se no estômago pela pepsina ácida, passa para a boca e termina no intestino grosso por fermentação alcoólica.",
+        "C": "Ocorre exclusivamente no interior do esôfago através de enzimas secretadas pela bile.",
+        "D": "Começa no duodeno e finaliza na boca com a absorção de polissacarídeos intactos."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: a digestão inicia-se na boca (amilase salivar clivando amido em maltose e dextrinas); o bolo alimentar chega ao estômago, onde a acidez inativa a amilase; no duodeno, a amilase pancreática e as enzimas da borda em escova (maltase, sacarase, lactase) hidrolisam os compostos em monossacarídeos absorvíveis.",
+        "B": "Incorreta: a pepsina digere proteínas, a bile atua sobre lipídeos e o esôfago não secreta enzimas digestivas de amido.",
+        "C": "Incorreta: a pepsina digere proteínas, a bile atua sobre lipídeos e o esôfago não secreta enzimas digestivas de amido.",
+        "D": "Incorreta: a pepsina digere proteínas, a bile atua sobre lipídeos e o esôfago não secreta enzimas digestivas de amido."
+      },
+      "referencia": {
+        "paginas": [
+          "Equivalente à discursiva 5: \"Descrever as etapas de digestão dos carboidratos.\""
+        ],
+        "fundamentacao": "Equivalente à discursiva 5: \"Descrever as etapas de digestão dos carboidratos.\"",
+        "trechos_apoio": []
+      }
+    },
+    {
+      "id": "estudo-dirigido-v1_q006",
+      "slide_id": "estudo-dirigido-v1",
+      "slide_nome": "Estudo Dirigido V1 - Fundamentos de Bioquímica",
+      "arquivo_origem": "ESTUDO DIRIGIDO V1 FUNDAMENTOS DE BIOQUÍMICA_261008_211052.pdf",
+      "numero": 6,
+      "tema": "Fundamentos de Bioquímica",
+      "subtema": "Equivalente à discursiva 6: \"Descreva a função do glicogênio e onde podemos encontrar.\"",
+      "enunciado": "O glicogênio é um polímero de elevada massa molecular constituído por cadeias ramificadas de glicose. Onde ele é armazenado no corpo humano e qual a sua função primordial?",
+      "alternativas": {
+        "A": "É armazenado no estômago para acidificar o suco digestivo.",
+        "B": "É armazenado no tecido ósseo para conferir rigidez mineral.",
+        "C": "É armazenado no fígado e nos músculos; tem como função fornecer energia rápida para a contração muscular e manter os níveis de glicose no sangue (glicemia) estáveis durante o jejum ou exercícios.",
+        "D": "Fica estocado exclusivamente na saliva para hidrolisar lipídeos da dieta."
+      },
+      "gabarito": "C",
+      "explicacoes": {
+        "A": "Incorreta: estômago, ossos e saliva não armazenam glicogênio metabólico.",
+        "B": "Incorreta: estômago, ossos e saliva não armazenam glicogênio metabólico.",
+        "C": "Correta: a resposta oficial do material define que o glicogênio é a principal reserva de carboidratos em animais, armazenado no fígado e nos músculos, fornecendo energia rápida para o trabalho contrátil e mantendo a glicemia constante no jejum e esforço.",
+        "D": "Incorreta: estômago, ossos e saliva não armazenam glicogênio metabólico."
+      },
+      "referencia": {
+        "paginas": [
+          "Equivalente à discursiva 6: \"Descreva a função do glicogênio e onde podemos encontrar.\""
+        ],
+        "fundamentacao": "Equivalente à discursiva 6: \"Descreva a função do glicogênio e onde podemos encontrar.\"",
+        "trechos_apoio": []
+      }
+    },
+    {
+      "id": "estudo-dirigido-v1_q007",
+      "slide_id": "estudo-dirigido-v1",
+      "slide_nome": "Estudo Dirigido V1 - Fundamentos de Bioquímica",
+      "arquivo_origem": "ESTUDO DIRIGIDO V1 FUNDAMENTOS DE BIOQUÍMICA_261008_211052.pdf",
+      "numero": 7,
+      "tema": "Fundamentos de Bioquímica",
+      "subtema": "Equivalente à discursiva 7: \"Descreva a função do GLUT4.\"",
+      "enunciado": "A captação de glicose em tecidos periféricos sensíveis à insulina requer transportadores proteicos específicos de membrana. Qual é a função do transportador GLUT4 descrita na apostila?",
+      "alternativas": {
+        "A": "Destruir a glicose citoplasmática antes de sua conversão em piruvato.",
+        "B": "Atuar como receptor nuclear para síntese de RNA ribossômico.",
+        "C": "Realizar o transporte de glicose para o interior das células musculares (miócitos) e adipócitos por difusão facilitada quando estimulado pela insulina.",
+        "D": "Bombear prótons para o espaço intermembranar mitocondrial contra o gradiente elétrico."
+      },
+      "gabarito": "C",
+      "explicacoes": {
+        "A": "Incorreta: o GLUT4 não degrada substratos, não atua no núcleo e não é a bomba de prótons da cadeia respiratória.",
+        "B": "Incorreta: o GLUT4 não degrada substratos, não atua no núcleo e não é a bomba de prótons da cadeia respiratória.",
+        "C": "Correta: nos esquemas da ação hormonal da insulina, o GLUT4 é o transportador de glicose translocado para a membrana plasmática para permitir a entrada de glicose por difusão facilitada no músculo e tecido adiposo.",
+        "D": "Incorreta: o GLUT4 não degrada substratos, não atua no núcleo e não é a bomba de prótons da cadeia respiratória."
+      },
+      "referencia": {
+        "paginas": [
+          "Equivalente à discursiva 7: \"Descreva a função do GLUT4.\""
+        ],
+        "fundamentacao": "Equivalente à discursiva 7: \"Descreva a função do GLUT4.\"",
+        "trechos_apoio": []
+      }
+    },
+    {
+      "id": "estudo-dirigido-v1_q008",
+      "slide_id": "estudo-dirigido-v1",
+      "slide_nome": "Estudo Dirigido V1 - Fundamentos de Bioquímica",
+      "arquivo_origem": "ESTUDO DIRIGIDO V1 FUNDAMENTOS DE BIOQUÍMICA_261008_211052.pdf",
+      "numero": 8,
+      "tema": "Fundamentos de Bioquímica",
+      "subtema": "Equivalente à discursiva 8: \"Descreva a passagem da glicose para a célula muscular.\"",
+      "enunciado": "A entrada de glicose no miócito é rigorosamente regulada pela sinalização hormonal da insulina pós-prandial. Como ocorre a passagem da glicose para a célula muscular, segundo os esquemas didáticos?",
+      "alternativas": {
+        "A": "A glicose penetra por fagocitose celular sem mediação de proteínas de membrana.",
+        "B": "A insulina liga-se ao seu receptor específico de membrana, disparando uma cascata intracelular que sinaliza a abertura/translocação dos transportadores de glicose (GLUT4), permitindo o influxo de glicose por difusão facilitada.",
+        "C": "O glucagon destrói os canais proteicos permitindo que a glicose entre por rompimento da bicamada.",
+        "D": "A glicose se transforma em amido no sangue e penetra passivamente pelo poro nuclear."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a entrada não é fagocítica, o glucagon sinaliza mobilização hepática e amido não existe no sangue circulante.",
+        "B": "Correta: o esquema ilustra que a ligação da insulina ao seu receptor de membrana ativa uma via de sinalização intracelular que abre/posiciona os transportadores de glicose, permitindo o ingresso do monossacarídeo na célula por difusão facilitada.",
+        "C": "Incorreta: a entrada não é fagocítica, o glucagon sinaliza mobilização hepática e amido não existe no sangue circulante.",
+        "D": "Incorreta: a entrada não é fagocítica, o glucagon sinaliza mobilização hepática e amido não existe no sangue circulante."
+      },
+      "referencia": {
+        "paginas": [
+          "Equivalente à discursiva 8: \"Descreva a passagem da glicose para a célula muscular.\""
+        ],
+        "fundamentacao": "Equivalente à discursiva 8: \"Descreva a passagem da glicose para a célula muscular.\"",
+        "trechos_apoio": []
+      }
+    },
+    {
+      "id": "estudo-dirigido-v1_q009",
+      "slide_id": "estudo-dirigido-v1",
+      "slide_nome": "Estudo Dirigido V1 - Fundamentos de Bioquímica",
+      "arquivo_origem": "ESTUDO DIRIGIDO V1 FUNDAMENTOS DE BIOQUÍMICA_261008_211052.pdf",
+      "numero": 9,
+      "tema": "Fundamentos de Bioquímica",
+      "subtema": "Equivalente à discursiva 9: \"Descreva a conversão do Piruvato em Acetil CoA.\"",
+      "enunciado": "Em condições de metabolismo aeróbico, o piruvato entra na mitocôndria para alimentar o ciclo do ácido cítrico. Como se dá a conversão de piruvato em Acetil-CoA na matriz mitocondrial?",
+      "alternativas": {
+        "A": "Por condensação com frutose livre no espaço intermembranar com formação de 4 ATPs.",
+        "B": "Pela ação do complexo enzimático piruvato desidrogenase, no qual o piruvato (3C) sofre descarboxilação (liberando CO₂) e desidrogenação (reduzindo NAD⁺ a NADH), unindo-se à Coenzima A para formar Acetil-CoA (2C).",
+        "C": "Por fermentação láctica anaeróbica gerando ácido lático e oxigênio puro.",
+        "D": "Por hidrólise salivar irreversível catalisada pela amilase."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a via não envolve frutose, lactato ocorre em anaerobiose e a amilase é enzima do trato digestório.",
+        "B": "Correta: a apostila detalha que o composto piruvato desidrogenase catalisa reações consecutivas de descarboxilação (perda de CO₂) e desidrogenação (formação de NADH), acoplando o resto acila de 2 carbonos à Coenzima A para formar Acetil-CoA.",
+        "C": "Incorreta: a via não envolve frutose, lactato ocorre em anaerobiose e a amilase é enzima do trato digestório.",
+        "D": "Incorreta: a via não envolve frutose, lactato ocorre em anaerobiose e a amilase é enzima do trato digestório."
+      },
+      "referencia": {
+        "paginas": [
+          "Equivalente à discursiva 9: \"Descreva a conversão do Piruvato em Acetil CoA.\""
+        ],
+        "fundamentacao": "Equivalente à discursiva 9: \"Descreva a conversão do Piruvato em Acetil CoA.\"",
+        "trechos_apoio": []
+      }
+    },
+    {
+      "id": "estudo-dirigido-v1_q010",
+      "slide_id": "estudo-dirigido-v1",
+      "slide_nome": "Estudo Dirigido V1 - Fundamentos de Bioquímica",
+      "arquivo_origem": "ESTUDO DIRIGIDO V1 FUNDAMENTOS DE BIOQUÍMICA_261008_211052.pdf",
+      "numero": 10,
+      "tema": "Fundamentos de Bioquímica",
+      "subtema": "Equivalente à discursiva 10: \"Descreva resumidamente o Ciclo de Krebs e o rendimento energético em cada volta.\"",
+      "enunciado": "O Ciclo de Krebs (ou ciclo do ácido cítrico) é uma sequência cíclica de reações oxidativas que ocorrem na matriz mitocondrial. Qual é a composição de etapas e o rendimento energético obtido a partir de cada volta desse ciclo (para cada grupo acetil/piruvato oxidado)?",
+      "alternativas": {
+        "A": "É composto por 9 etapas, gerando em cada volta: 3 NADH₂, 1 FADH₂, 1 ATP (ou GTP) e 2 CO₂, equivalendo ao saldo de 12 ATPs por volta na cadeia respiratória.",
+        "B": "Possui 2 reações lineares, gerando 38 ATPs diretos sem nenhuma liberação de elétrons ou CO₂.",
+        "C": "Apresenta 10 etapas citoplasmáticas idênticas à glicólise, gerando apenas ácido lático residual.",
+        "D": "É constituído por 4 etapas lisossômicas sem consumo de coenzimas."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: a apostila define o Ciclo de Krebs como um conjunto de 9 etapas na matriz mitocondrial que, ao final de cada volta por grupo acetil, produz: 3 NADH (× 3 = 9 ATP), 1 FADH (× 2 = 2 ATP), 1 ATP/GTP e 2 CO₂, totalizando 12 ATPs em 1 volta.",
+        "B": "Incorreta: 38 ATPs é o balanço global da respiração completa com lançadeira malato, a glicólise é que possui 10 etapas e o ciclo não ocorre em lisossomos.",
+        "C": "Incorreta: 38 ATPs é o balanço global da respiração completa com lançadeira malato, a glicólise é que possui 10 etapas e o ciclo não ocorre em lisossomos.",
+        "D": "Incorreta: 38 ATPs é o balanço global da respiração completa com lançadeira malato, a glicólise é que possui 10 etapas e o ciclo não ocorre em lisossomos."
+      },
+      "referencia": {
+        "paginas": [
+          "Equivalente à discursiva 10: \"Descreva resumidamente o Ciclo de Krebs e o rendimento energético em cada volta.\""
+        ],
+        "fundamentacao": "Equivalente à discursiva 10: \"Descreva resumidamente o Ciclo de Krebs e o rendimento energético em cada volta.\"",
+        "trechos_apoio": []
+      }
+    },
+    {
+      "id": "estudo-dirigido-v1_q011",
+      "slide_id": "estudo-dirigido-v1",
+      "slide_nome": "Estudo Dirigido V1 - Fundamentos de Bioquímica",
+      "arquivo_origem": "ESTUDO DIRIGIDO V1 FUNDAMENTOS DE BIOQUÍMICA_261008_211052.pdf",
+      "numero": 11,
+      "tema": "Fundamentos de Bioquímica",
+      "subtema": "Equivalente à discursiva 11: \"Descreva a fórmula estrutural, e a função da molécula de Adenosina trifosfato (ATP).\"",
+      "enunciado": "O ATP é considerado a moeda energética universal das células. Quais são as partes constitutivas da molécula de ATP e qual a sua função central no organismo?",
+      "alternativas": {
+        "A": "É formado por um lipídeo simples e três glicoses; serve para impermeabilizar as membranas biológicas.",
+        "B": "É constituído pela base nitrogenada adenina, pelo açúcar ribose e por três grupos fosfato de alta energia; sua função é estocar e transportar a energia metabólica de forma prontamente utilizável para o trabalho celular.",
+        "C": "É formado por desoxirribose e quatro moléculas de oxigênio gasoso; atua destruindo aminoácidos tóxicos.",
+        "D": "É um polipeptídeo formado por 574 resíduos de aminoácidos; sua função é a coagulação sanguínea."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o ATP não é lipídeo, não contém desoxirribose e 574 aminoácidos formam a hemoglobina.",
+        "B": "Correta: a estrutura do ATP descrita na apostila compreende: Adenina + Ribose + 3 Grupos Fosfato. Ele funciona como o transportador universal de energia metabólica, liberando energia rápida ao hidrolisar seu fosfato terminal.",
+        "C": "Incorreta: o ATP não é lipídeo, não contém desoxirribose e 574 aminoácidos formam a hemoglobina.",
+        "D": "Incorreta: o ATP não é lipídeo, não contém desoxirribose e 574 aminoácidos formam a hemoglobina."
+      },
+      "referencia": {
+        "paginas": [
+          "Equivalente à discursiva 11: \"Descreva a fórmula estrutural, e a função da molécula de Adenosina trifosfato (ATP).\""
+        ],
+        "fundamentacao": "Equivalente à discursiva 11: \"Descreva a fórmula estrutural, e a função da molécula de Adenosina trifosfato (ATP).\"",
+        "trechos_apoio": []
+      }
+    },
+    {
+      "id": "estudo-dirigido-v1_q012",
+      "slide_id": "estudo-dirigido-v1",
+      "slide_nome": "Estudo Dirigido V1 - Fundamentos de Bioquímica",
+      "arquivo_origem": "ESTUDO DIRIGIDO V1 FUNDAMENTOS DE BIOQUÍMICA_261008_211052.pdf",
+      "numero": 12,
+      "tema": "Fundamentos de Bioquímica",
+      "subtema": "Equivalente à discursiva 12: \"Descreva a conversão do ADP em ATP.\"",
+      "enunciado": "A regeneração do ATP a partir de ADP e fosfato inorgânico (Pi) é o processo central de conservação energética da fosforilação oxidativa e no nível do substrato. Como ocorre essa reação de síntese?",
+      "alternativas": {
+        "A": "Ocorre pela junção de ADP com um fosfato inorgânico (Pi), consumindo energia química proveniente da oxidação dos nutrientes celulares.",
+        "B": "Pela eliminação contínua de água que decompõe irreversivelmente a adenina em ureia.",
+        "C": "Pela absorção de ácido clorídrico gástrico nas cristas mitocondriais.",
+        "D": "Por clivagem térmica do ATP em monómeros de glicose citoplasmática."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: a conversão do ADP em ATP (fosforilação) consiste no acoplamento de um grupo fosfato (Pi) ao ADP através da energia liberada pela passagem de elétrons na cadeia respiratória ou em reações glicolíticas.",
+        "B": "Incorreta: a hidrólise (quebra de ATP em ADP + Pi) é que libera energia com água; o processo de síntese regenera as ligações fosfato sem consumir ácido gástrico.",
+        "C": "Incorreta: a hidrólise (quebra de ATP em ADP + Pi) é que libera energia com água; o processo de síntese regenera as ligações fosfato sem consumir ácido gástrico.",
+        "D": "Incorreta: a hidrólise (quebra de ATP em ADP + Pi) é que libera energia com água; o processo de síntese regenera as ligações fosfato sem consumir ácido gástrico."
+      },
+      "referencia": {
+        "paginas": [
+          "Equivalente à discursiva 12: \"Descreva a conversão do ADP em ATP.\""
+        ],
+        "fundamentacao": "Equivalente à discursiva 12: \"Descreva a conversão do ADP em ATP.\"",
+        "trechos_apoio": []
+      }
+    },
+    {
+      "id": "estudo-dirigido-v1_q013",
+      "slide_id": "estudo-dirigido-v1",
+      "slide_nome": "Estudo Dirigido V1 - Fundamentos de Bioquímica",
+      "arquivo_origem": "ESTUDO DIRIGIDO V1 FUNDAMENTOS DE BIOQUÍMICA_261008_211052.pdf",
+      "numero": 13,
+      "tema": "Fundamentos de Bioquímica",
+      "subtema": "Equivalente à discursiva 13: \"Quais são as etapas da respiração celular e onde ocorre cada uma delas.\"",
+      "enunciado": "O catabolismo aeróbico da glicose é organizado em três fases metabólicas compartimentalizadas. Quais são essas três etapas e seus respectivos sítios subcelulares?",
+      "alternativas": {
+        "A": "I - Glicólise no núcleo; II - Ciclo de Krebs no retículo liso; III - Cadeia Respiratória no complexo de Golgi.",
+        "B": "I - Glicólise no citoplasma (hialoplasma/citosol); II - Ciclo de Krebs na matriz mitocondrial; III - Cadeia Respiratória nas cristas mitocondriais.",
+        "C": "I - Glicólise nos lisossomos; II - Ciclo de Krebs no vacúolo; III - Cadeia Respiratória nos ribossomos.",
+        "D": "I - Glicólise na membrana plasmática; II - Ciclo de Krebs na saliva; III - Cadeia Respiratória no estômago."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: as três etapas da respiração celular não acontecem em lisossomos, núcleo, retículo ou saliva.",
+        "B": "Correta: o slide de localização subcelular define com precisão: Citoplasma (Glicólise) → Mitocôndria (Ciclo de Krebs na matriz mitocondrial e Cadeia Respiratória nas cristas mitocondriais).",
+        "C": "Incorreta: as três etapas da respiração celular não acontecem em lisossomos, núcleo, retículo ou saliva.",
+        "D": "Incorreta: as três etapas da respiração celular não acontecem em lisossomos, núcleo, retículo ou saliva."
+      },
+      "referencia": {
+        "paginas": [
+          "Equivalente à discursiva 13: \"Quais são as etapas da respiração celular e onde ocorre cada uma delas.\""
+        ],
+        "fundamentacao": "Equivalente à discursiva 13: \"Quais são as etapas da respiração celular e onde ocorre cada uma delas.\"",
+        "trechos_apoio": []
+      }
+    },
+    {
+      "id": "estudo-dirigido-v1_q014",
+      "slide_id": "estudo-dirigido-v1",
+      "slide_nome": "Estudo Dirigido V1 - Fundamentos de Bioquímica",
+      "arquivo_origem": "ESTUDO DIRIGIDO V1 FUNDAMENTOS DE BIOQUÍMICA_261008_211052.pdf",
+      "numero": 14,
+      "tema": "Fundamentos de Bioquímica",
+      "subtema": "Equivalente à discursiva 14: \"Conceitue: glicólise, glicogenólise, glicogênese e gliconeogênese.\"",
+      "enunciado": "Na questão 14 do estudo dirigido, são abordadas quatro vias essenciais do metabolismo dos carboidratos. Assinale a alternativa que traz a correlação correta entre o nome da via e o seu conceito:",
+      "alternativas": {
+        "A": "Glicólise: síntese de glicogênio muscular a partir de gorduras puras.",
+        "B": "Glicogênese: quebra anaeróbica do piruvato em lactato na matriz mitocondrial.",
+        "C": "Glicólise: quebra da glicose em duas moléculas de piruvato; Glicogênese: síntese de glicogênio a partir de glicose; Glicogenólise: degradação do glicogênio em glicose; Gliconeogênese: formação de glicose a partir de substâncias não glicídicas (aminoácidos, glicerol, lactato).",
+        "D": "Gliconeogênese: conversão direta da celulose alimentar em amido na luz intestinal."
+      },
+      "gabarito": "C",
+      "explicacoes": {
+        "A": "Incorreta: trazem conceitos trocados e mecanismos inexistentes na bioquímica humana.",
+        "B": "Incorreta: trazem conceitos trocados e mecanismos inexistentes na bioquímica humana.",
+        "C": "Correta: define exatamente as quatro vias conforme o gabarito oficial: Glicólise = quebra da glicose em piruvato; Glicogênese = síntese de glicose em glicogênio; Glicogenólise = conversão de glicogênio em glicose; Gliconeogênese = síntese de glicose a partir de outros precursores.",
+        "D": "Incorreta: trazem conceitos trocados e mecanismos inexistentes na bioquímica humana."
+      },
+      "referencia": {
+        "paginas": [
+          "Equivalente à discursiva 14: \"Conceitue: glicólise, glicogenólise, glicogênese e gliconeogênese.\""
+        ],
+        "fundamentacao": "Equivalente à discursiva 14: \"Conceitue: glicólise, glicogenólise, glicogênese e gliconeogênese.\"",
+        "trechos_apoio": []
+      }
+    },
+    {
+      "id": "estudo-dirigido-v1_q015",
+      "slide_id": "estudo-dirigido-v1",
+      "slide_nome": "Estudo Dirigido V1 - Fundamentos de Bioquímica",
+      "arquivo_origem": "ESTUDO DIRIGIDO V1 FUNDAMENTOS DE BIOQUÍMICA_261008_211052.pdf",
+      "numero": 15,
+      "tema": "Fundamentos de Bioquímica",
+      "subtema": "Equivalente à discursiva 15: \"Descrever: As etapas da glicogenólise e As etapas da glicólise.\"",
+      "enunciado": "As vias da glicogenólise e da glicólise são coordenadas para disponibilizar e quebrar o substrato energético celular. Conforme o material didático, como se organizam as etapas dessas duas vias?",
+      "alternativas": {
+        "A": "A glicogenólise ocorre em 10 etapas na mitocôndria; a glicólise ocorre em 1 etapa rápida no suco gástrico.",
+        "B": "A glicogenólise envolve o desligamento das ligações glicosídicas pela ativação hormonal da enzima glicogênio fosforilase, liberando glicose; e a glicólise é constituída por uma sequência de 10 reações divididas em Fase Preparatória (gasto de 2 ATP) e Fase de Pagamento (produção de 4 ATP e oxidação).",
+        "C": "A glicólise sintetiza amido a partir do oxigênio e a glicogenólise converte glicose em ácidos nucleicos celulares.",
+        "D": "Ambas ocorrem exclusivamente nas hemácias através de desnaturação térmica irreversível a 70°C."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a glicólise é citosólica (não gástrica), não sintetiza amido e não depende de desnaturação a 70°C.",
+        "B": "Correta: a glicogenólise consiste na quebra do glicogênio com quebra das ligações glicosídicas, estimulada por adrenalina e glucagon via glicogênio fosforilase; a glicólise citoplasmática é composta por 10 reações enzimáticas divididas em: 1) Fase Preparatória (onde há preparação e gasto de 2 ATPs) e 2) Fase de Pagamento (produção de 4 ATPs, oxidação com geração de NADH e término em piruvato).",
+        "C": "Incorreta: a glicólise é citosólica (não gástrica), não sintetiza amido e não depende de desnaturação a 70°C.",
+        "D": "Incorreta: a glicólise é citosólica (não gástrica), não sintetiza amido e não depende de desnaturação a 70°C."
+      },
+      "referencia": {
+        "paginas": [
+          "Equivalente à discursiva 15: \"Descrever: As etapas da glicogenólise e As etapas da glicólise.\""
+        ],
+        "fundamentacao": "Equivalente à discursiva 15: \"Descrever: As etapas da glicogenólise e As etapas da glicólise.\"",
+        "trechos_apoio": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,1284 @@
+{
+  "questoes": [
+    {
+      "id": "krebs_q001",
+      "slide_id": "krebs",
+      "slide_nome": "120918 - Glicólise e Ciclo de Krebs",
+      "arquivo_origem": "120918_-_GLICÓLISE_E_CICLO_DE_KREBS_260916_152925.pdf",
+      "numero": 1,
+      "tema": "Metabolismo celular",
+      "subtema": "Conceito de metabolismo",
+      "enunciado": "Segundo a apostila, o termo \"metabolismo celular\" é usado em referência:",
+      "alternativas": {
+        "A": "Apenas às reações de degradação de nutrientes que liberam energia.",
+        "B": "Ao conjunto de todas as reações químicas que ocorrem nas células.",
+        "C": "Somente às reações que ocorrem na mitocôndria, na presença de oxigênio.",
+        "D": "Exclusivamente à síntese de macromoléculas celulares."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: restringe o conceito ao catabolismo. O metabolismo inclui também as reações de síntese (anabolismo).",
+        "B": "Correta: a apostila define metabolismo como o conjunto de todas as reações químicas das células, a somatória das transformações químicas de uma célula.",
+        "C": "Incorreta: o metabolismo ocorre em toda a célula; a mitocôndria abriga só parte das reações, como a via aeróbica.",
+        "D": "Incorreta: restringe o conceito ao anabolismo, deixando de fora a degradação (catabolismo)."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide \"UNIDADE II – METABOLISMO CELULAR\""
+        ],
+        "fundamentacao": "Slide \"UNIDADE II – METABOLISMO CELULAR\".",
+        "trechos_apoio": [
+          "\"Metabolismo é a somatória de todas as transformações químicas de uma célula\""
+        ]
+      }
+    },
+    {
+      "id": "krebs_q002",
+      "slide_id": "krebs",
+      "slide_nome": "120918 - Glicólise e Ciclo de Krebs",
+      "arquivo_origem": "120918_-_GLICÓLISE_E_CICLO_DE_KREBS_260916_152925.pdf",
+      "numero": 2,
+      "tema": "Metabolismo celular",
+      "subtema": "Anabolismo e catabolismo",
+      "enunciado": "O metabolismo celular compreende duas vias. Conforme a apostila, elas são caracterizadas, respectivamente, como:",
+      "alternativas": {
+        "A": "Anabolismo: reações de degradação; catabolismo: reações de síntese.",
+        "B": "Anabolismo e catabolismo: ambos reações de síntese, diferindo apenas pelo local da célula.",
+        "C": "Anabolismo: reações de síntese; catabolismo: reações de degradação.",
+        "D": "Anabolismo: ocorre só no citoplasma; catabolismo: ocorre só na mitocôndria."
+      },
+      "gabarito": "C",
+      "explicacoes": {
+        "A": "Incorreta: inverte os conceitos. Anabolismo é síntese e catabolismo é degradação.",
+        "B": "Incorreta: catabolismo não é síntese, é degradação. A diferença entre as vias é o tipo de reação, não o local.",
+        "C": "Correta: a apostila define anabolismo como reações de síntese e catabolismo como reações de degradação.",
+        "D": "Incorreta: a apostila não separa anabolismo e catabolismo por compartimento. A divisão citoplasma/mitocôndria aparece na via glicolítica anaeróbica/aeróbica."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide \"METABOLISMO CELULAR\" (duas vias)"
+        ],
+        "fundamentacao": "Slide \"METABOLISMO CELULAR\" (duas vias).",
+        "trechos_apoio": [
+          "\"ANABOLISMO: Reações de síntese / CATABOLISMO: Reações de degradação\""
+        ]
+      }
+    },
+    {
+      "id": "krebs_q003",
+      "slide_id": "krebs",
+      "slide_nome": "120918 - Glicólise e Ciclo de Krebs",
+      "arquivo_origem": "120918_-_GLICÓLISE_E_CICLO_DE_KREBS_260916_152925.pdf",
+      "numero": 3,
+      "tema": "Metabolismo celular",
+      "subtema": "Catabolismo: substratos e produtos finais",
+      "enunciado": "No esquema de catabolismo apresentado na apostila, os nutrientes liberadores de energia são degradados a produtos finais pobres em energia. Esses produtos são:",
+      "alternativas": {
+        "A": "CO₂, H₂O e NH₃.",
+        "B": "Proteínas, polissacarídeos e lipídios.",
+        "C": "Aminoácidos, açúcares e ácidos graxos.",
+        "D": "ATP, NADH e FADH₂."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: carboidratos, gorduras e proteínas são degradados a CO₂, H₂O e NH₃, produtos pobres em energia.",
+        "B": "Incorreta: são macromoléculas celulares, produtos do anabolismo, não do catabolismo.",
+        "C": "Incorreta: são moléculas precursoras que alimentam o anabolismo.",
+        "D": "Incorreta: ATP, NADH e FADH₂ são a energia química gerada no catabolismo, não os produtos finais pobres em energia."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide com esquema \"CATABOLISMO / ANABOLISMO\""
+        ],
+        "fundamentacao": "Slide com esquema \"CATABOLISMO / ANABOLISMO\".",
+        "trechos_apoio": [
+          "\"Produtos finais pobres em energia: CO₂, H₂O, NH₃\""
+        ]
+      }
+    },
+    {
+      "id": "krebs_q004",
+      "slide_id": "krebs",
+      "slide_nome": "120918 - Glicólise e Ciclo de Krebs",
+      "arquivo_origem": "120918_-_GLICÓLISE_E_CICLO_DE_KREBS_260916_152925.pdf",
+      "numero": 4,
+      "tema": "Metabolismo celular",
+      "subtema": "Anabolismo: precursores e produtos",
+      "enunciado": "De acordo com o esquema da apostila, no anabolismo as moléculas precursoras são convertidas em macromoléculas celulares. Qual alternativa relaciona corretamente precursores e macromoléculas?",
+      "alternativas": {
+        "A": "Proteínas, polissacarídeos e lipídios dão origem a aminoácidos, açúcares e ácidos graxos.",
+        "B": "CO₂, H₂O e NH₃ dão origem aos ácidos nucleicos por oxidação.",
+        "C": "Carboidratos, gorduras e proteínas dão origem a ATP e NADH.",
+        "D": "Aminoácidos, açúcares, ácidos graxos e bases nitrogenadas dão origem a proteínas, polissacarídeos, lipídios e ácidos nucleicos."
+      },
+      "gabarito": "D",
+      "explicacoes": {
+        "A": "Incorreta: inverte o sentido da reação. Esse é o caminho da degradação (catabolismo).",
+        "B": "Incorreta: CO₂, H₂O e NH₃ são produtos finais do catabolismo, não precursores do anabolismo no esquema.",
+        "C": "Incorreta: descreve o catabolismo, que gera energia química (ATP, NADH).",
+        "D": "Correta: o esquema mostra aminoácidos, açúcares, ácidos graxos e bases nitrogenadas como precursores de proteínas, polissacarídeos, lipídios e ácidos nucleicos."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide com esquema \"CATABOLISMO / ANABOLISMO\""
+        ],
+        "fundamentacao": "Slide com esquema \"CATABOLISMO / ANABOLISMO\".",
+        "trechos_apoio": [
+          "\"Moléculas precursoras: Aminoácidos, Açúcares, Ácidos graxos, Bases nitrogenadas\""
+        ]
+      }
+    },
+    {
+      "id": "krebs_q005",
+      "slide_id": "krebs",
+      "slide_nome": "120918 - Glicólise e Ciclo de Krebs",
+      "arquivo_origem": "120918_-_GLICÓLISE_E_CICLO_DE_KREBS_260916_152925.pdf",
+      "numero": 5,
+      "tema": "Vias do metabolismo energético",
+      "subtema": "Visão geral",
+      "enunciado": "A apostila lista as vias do metabolismo energético. Quais são elas?",
+      "alternativas": {
+        "A": "Glicogênese, gliconeogênese e glicogenólise.",
+        "B": "Glicólise, Ciclo de Krebs e fosforilação oxidativa.",
+        "C": "Anabolismo, catabolismo e lançadeiras.",
+        "D": "Digestão, absorção e excreção."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: são vias do metabolismo do glicogênio e da glicose. A apostila só desenvolve a glicogenólise, e fora da lista das vias energéticas.",
+        "B": "Correta: o slide lista glicólise, Ciclo de Krebs e fosforilação oxidativa como as vias do metabolismo energético.",
+        "C": "Incorreta: anabolismo e catabolismo são as duas grandes vias do metabolismo; lançadeiras são sistemas de transporte de hidrogênio.",
+        "D": "Incorreta: são etapas da nutrição/digestão, que não fazem parte das vias listadas no slide."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide \"VIAS DO METABOLISMO ENERGÉTICO\""
+        ],
+        "fundamentacao": "Slide \"VIAS DO METABOLISMO ENERGÉTICO\".",
+        "trechos_apoio": [
+          "\"GLICÓLISE • CICLO DE KREBS • FOSFORILAÇÃO OXIDATIVA\""
+        ]
+      }
+    },
+    {
+      "id": "krebs_q006",
+      "slide_id": "krebs",
+      "slide_nome": "120918 - Glicólise e Ciclo de Krebs",
+      "arquivo_origem": "120918_-_GLICÓLISE_E_CICLO_DE_KREBS_260916_152925.pdf",
+      "numero": 6,
+      "tema": "Vias do metabolismo energético",
+      "subtema": "Armazenamento da energia",
+      "enunciado": "Segundo a apostila, a energia libertada nos processos do metabolismo energético é armazenada na célula sob a forma de:",
+      "alternativas": {
+        "A": "Glicose.",
+        "B": "Piruvato.",
+        "C": "ATP.",
+        "D": "Acetil-CoA."
+      },
+      "gabarito": "C",
+      "explicacoes": {
+        "A": "Incorreta: a glicose é o substrato que se degrada, não a forma de armazenamento da energia liberada.",
+        "B": "Incorreta: o piruvato é produto da glicólise, um intermediário metabólico.",
+        "C": "Correta: a energia liberada é armazenada na célula na forma de ATP.",
+        "D": "Incorreta: a acetil-CoA é intermediária, formada a partir do piruvato, e entra no Ciclo de Krebs."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide \"VIAS DO METABOLISMO ENERGÉTICO\""
+        ],
+        "fundamentacao": "Slide \"VIAS DO METABOLISMO ENERGÉTICO\".",
+        "trechos_apoio": [
+          "\"A energia libertada nestes processos será armazenada na célula sob a forma de ATP.\""
+        ]
+      }
+    },
+    {
+      "id": "krebs_q007",
+      "slide_id": "krebs",
+      "slide_nome": "120918 - Glicólise e Ciclo de Krebs",
+      "arquivo_origem": "120918_-_GLICÓLISE_E_CICLO_DE_KREBS_260916_152925.pdf",
+      "numero": 7,
+      "tema": "Via glicolítica",
+      "subtema": "Via anaeróbica",
+      "enunciado": "A via glicolítica anaeróbica caracteriza-se por ocorrer:",
+      "alternativas": {
+        "A": "No citoplasma, sem participação do oxigênio na reação.",
+        "B": "Na mitocôndria, com participação do oxigênio.",
+        "C": "Nas cristas mitocondriais, com participação do oxigênio.",
+        "D": "No núcleo, sem participação de enzimas."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: a via anaeróbica ocorre no citoplasma, sem oxigênio na reação.",
+        "B": "Incorreta: descreve a via aeróbica (mitocôndria, com oxigênio).",
+        "C": "Incorreta: as cristas mitocondriais são o local da cadeia respiratória, parte da via aeróbica.",
+        "D": "Incorreta: a apostila não situa a glicólise no núcleo, e todas as suas reações são enzimáticas (10 enzimas)."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide \"VIA GLICOLÍTICA\""
+        ],
+        "fundamentacao": "Slide \"VIA GLICOLÍTICA\".",
+        "trechos_apoio": [
+          "\"VIA ANAERÓBICA – citoplasma – sem a participação do oxigênio na reação\""
+        ]
+      }
+    },
+    {
+      "id": "krebs_q008",
+      "slide_id": "krebs",
+      "slide_nome": "120918 - Glicólise e Ciclo de Krebs",
+      "arquivo_origem": "120918_-_GLICÓLISE_E_CICLO_DE_KREBS_260916_152925.pdf",
+      "numero": 8,
+      "tema": "Via glicolítica",
+      "subtema": "Via aeróbica",
+      "enunciado": "Sobre a via glicolítica aeróbica, é correto afirmar que ela:",
+      "alternativas": {
+        "A": "Ocorre no citoplasma e dispensa o oxigênio.",
+        "B": "Ocorre no núcleo e depende do oxigênio.",
+        "C": "Ocorre no retículo endoplasmático e produz apenas ácido lático.",
+        "D": "Ocorre na mitocôndria e o oxigênio participa da reação."
+      },
+      "gabarito": "D",
+      "explicacoes": {
+        "A": "Incorreta: descreve a via anaeróbica (citoplasma, sem oxigênio).",
+        "B": "Incorreta: a apostila não situa essa via no núcleo. O local é a mitocôndria.",
+        "C": "Incorreta: o ácido lático é o destino do piruvato em condições anaeróbicas, e a via aeróbica ocorre na mitocôndria.",
+        "D": "Correta: a via aeróbica ocorre na mitocôndria, com participação do oxigênio."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide \"VIA GLICOLÍTICA AERÓBICA\""
+        ],
+        "fundamentacao": "Slide \"VIA GLICOLÍTICA AERÓBICA\".",
+        "trechos_apoio": [
+          "\"Ocorre na mitocôndria • O oxigênio participa da reação\""
+        ]
+      }
+    },
+    {
+      "id": "krebs_q009",
+      "slide_id": "krebs",
+      "slide_nome": "120918 - Glicólise e Ciclo de Krebs",
+      "arquivo_origem": "120918_-_GLICÓLISE_E_CICLO_DE_KREBS_260916_152925.pdf",
+      "numero": 9,
+      "tema": "Respiração celular",
+      "subtema": "Etapas e função de cada uma",
+      "enunciado": "A apostila organiza a respiração celular em três etapas. A associação correta entre etapa e função é:",
+      "alternativas": {
+        "A": "Glicólise: produção de ATP; Ciclo de Krebs: quebra da glicose; cadeia respiratória: formação de CO₂.",
+        "B": "Glicólise: quebra da glicose; Ciclo de Krebs: conjunto de reações que formam CO₂, H₂O, NADH₂ e FADH₂; cadeia respiratória: produção de moléculas de ATP.",
+        "C": "Glicólise: formação de FADH₂; Ciclo de Krebs: produção de ATP; cadeia respiratória: quebra da glicose.",
+        "D": "Glicólise: transporte de elétrons; Ciclo de Krebs: formação de piruvato; cadeia respiratória: formação de glicogênio."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: embaralha as funções. A quebra da glicose é a glicólise, e a produção de ATP é atribuída à cadeia respiratória.",
+        "B": "Correta: corresponde às três etapas conforme o slide.",
+        "C": "Incorreta: a quebra da glicose é a glicólise, não a cadeia respiratória. O slide atribui o ATP à cadeia respiratória, e o FADH₂ ao Ciclo de Krebs.",
+        "D": "Incorreta: o transporte de elétrons é da cadeia respiratória, o piruvato é formado na glicólise, e o glicogênio não é produto de nenhuma dessas etapas."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide \"ETAPAS DA RESPIRAÇÃO CELULAR\""
+        ],
+        "fundamentacao": "Slide \"ETAPAS DA RESPIRAÇÃO CELULAR\".",
+        "trechos_apoio": [
+          "\"I- GLICÓLISE – Quebra da glicose … III- CADEIA RESPIRATÓRIA – Produção de moléculas de ATP\""
+        ]
+      }
+    },
+    {
+      "id": "krebs_q010",
+      "slide_id": "krebs",
+      "slide_nome": "120918 - Glicólise e Ciclo de Krebs",
+      "arquivo_origem": "120918_-_GLICÓLISE_E_CICLO_DE_KREBS_260916_152925.pdf",
+      "numero": 10,
+      "tema": "Glicólise",
+      "subtema": "Conceito e produto",
+      "enunciado": "Sobre a glicólise, a apostila afirma que ela consiste na quebra de uma molécula de glicose, liberando:",
+      "alternativas": {
+        "A": "Uma molécula de piruvato com 6 carbonos.",
+        "B": "Seis moléculas de piruvato com 1 carbono cada.",
+        "C": "Duas moléculas de piruvato com 3 carbonos cada.",
+        "D": "Duas moléculas de acetil-CoA com 2 carbonos cada."
+      },
+      "gabarito": "C",
+      "explicacoes": {
+        "A": "Incorreta: a glicose (6C) dá origem a duas moléculas de piruvato, não uma, e o piruvato tem 3 carbonos.",
+        "B": "Incorreta: não há formação de seis moléculas de piruvato. A glicose de 6C rende dois piruvatos de 3C.",
+        "C": "Correta: a glicose (6C) libera duas moléculas de piruvato (3C).",
+        "D": "Incorreta: a acetil-CoA é formada depois, na conversão do piruvato, e não na glicólise."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide \"GLICÓLISE\""
+        ],
+        "fundamentacao": "Slide \"GLICÓLISE\".",
+        "trechos_apoio": [
+          "\"Quebra de uma molécula de glicose (6C) • liberando duas moléculas de piruvato (3C)\""
+        ]
+      }
+    },
+    {
+      "id": "krebs_q011",
+      "slide_id": "krebs",
+      "slide_nome": "120918 - Glicólise e Ciclo de Krebs",
+      "arquivo_origem": "120918_-_GLICÓLISE_E_CICLO_DE_KREBS_260916_152925.pdf",
+      "numero": 11,
+      "tema": "Glicólise",
+      "subtema": "Organização da via",
+      "enunciado": "A glicólise ocorre no citosol e é constituída por:",
+      "alternativas": {
+        "A": "Uma sequência de 10 reações (10 enzimas) divididas em duas fases.",
+        "B": "Uma única reação catalisada por uma enzima.",
+        "C": "Quatro reações divididas em três fases.",
+        "D": "Duas reações, uma anaeróbica e outra aeróbica."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: a apostila descreve 10 reações, com 10 enzimas, divididas em duas fases.",
+        "B": "Incorreta: a glicólise é uma sequência de reações, não uma única reação.",
+        "C": "Incorreta: o número correto é 10 reações e 2 fases.",
+        "D": "Incorreta: a glicólise não se divide em uma reação anaeróbica e outra aeróbica. As vias aeróbica e anaeróbica referem-se ao destino do piruvato."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide \"GLICÓLISE\" (10 reações em duas fases)"
+        ],
+        "fundamentacao": "Slide \"GLICÓLISE\" (10 reações em duas fases).",
+        "trechos_apoio": [
+          "\"É constituída por uma sequência de 10 reações (10 enzimas) divididas em duas fases.\""
+        ]
+      }
+    },
+    {
+      "id": "krebs_q012",
+      "slide_id": "krebs",
+      "slide_nome": "120918 - Glicólise e Ciclo de Krebs",
+      "arquivo_origem": "120918_-_GLICÓLISE_E_CICLO_DE_KREBS_260916_152925.pdf",
+      "numero": 12,
+      "tema": "Glicólise",
+      "subtema": "Saldo da via",
+      "enunciado": "O esquema da glicólise mostra, a partir de uma molécula de glicose, a formação de:",
+      "alternativas": {
+        "A": "1 piruvato, 1 NADH e 1 ATP.",
+        "B": "2 piruvatos, 2 FADH₂ e 4 ATP.",
+        "C": "2 acetil-CoA, 2 NADH e 2 ATP.",
+        "D": "2 piruvatos, 2 NADH e 2 ATP."
+      },
+      "gabarito": "D",
+      "explicacoes": {
+        "A": "Incorreta: os valores estão pela metade. A glicose forma 2 piruvatos, 2 NADH e 2 ATP.",
+        "B": "Incorreta: o esquema mostra NADH (não FADH₂) e 2 ATP.",
+        "C": "Incorreta: acetil-CoA não é produto da glicólise. O produto final da via é o piruvato.",
+        "D": "Correta: o esquema mostra 2 NADH, 2 ATP e 2 piruvatos."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide esquemático da glicólise (glicose → 2 piruvato, 10 reações)"
+        ],
+        "fundamentacao": "Slide esquemático da glicólise (glicose → 2 piruvato, 10 reações).",
+        "trechos_apoio": [
+          "\"2 NADH … 2 ATP … 2 piruvato\" (rótulos do esquema)"
+        ]
+      }
+    },
+    {
+      "id": "krebs_q013",
+      "slide_id": "krebs",
+      "slide_nome": "120918 - Glicólise e Ciclo de Krebs",
+      "arquivo_origem": "120918_-_GLICÓLISE_E_CICLO_DE_KREBS_260916_152925.pdf",
+      "numero": 13,
+      "tema": "Destino do piruvato",
+      "subtema": "Condições anaeróbicas",
+      "enunciado": "No esquema que mostra o destino do piruvato, em condições anaeróbicas o piruvato é convertido em:",
+      "alternativas": {
+        "A": "Acetil-CoA.",
+        "B": "Ácido lático.",
+        "C": "Citrato.",
+        "D": "Glicogênio."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a acetil-CoA é formada em condições aeróbicas.",
+        "B": "Correta: o esquema indica ácido lático em condições anaeróbicas.",
+        "C": "Incorreta: o citrato é formado no Ciclo de Krebs, a partir de acetil-CoA e oxaloacetato.",
+        "D": "Incorreta: o glicogênio não é indicado como destino do piruvato no esquema."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide com esquema \"Glicose → 2 Piruvato → condições aeróbicas / anaeróbicas\""
+        ],
+        "fundamentacao": "Slide com esquema \"Glicose → 2 Piruvato → condições aeróbicas / anaeróbicas\".",
+        "trechos_apoio": [
+          "\"Condições anaeróbicas … Ácido Lático\" (rótulos do esquema)"
+        ]
+      }
+    },
+    {
+      "id": "krebs_q014",
+      "slide_id": "krebs",
+      "slide_nome": "120918 - Glicólise e Ciclo de Krebs",
+      "arquivo_origem": "120918_-_GLICÓLISE_E_CICLO_DE_KREBS_260916_152925.pdf",
+      "numero": 14,
+      "tema": "Destino do piruvato",
+      "subtema": "Condições aeróbicas",
+      "enunciado": "Na presença de O₂, segundo a apostila, o piruvato:",
+      "alternativas": {
+        "A": "Permanece no citosol e é convertido em ácido lático.",
+        "B": "É convertido em glicose.",
+        "C": "Entra na mitocôndria e se transforma em acetil-CoA.",
+        "D": "É eliminado da célula sem transformação."
+      },
+      "gabarito": "C",
+      "explicacoes": {
+        "A": "Incorreta: a conversão em ácido lático ocorre em condições anaeróbicas.",
+        "B": "Incorreta: a apostila não apresenta essa conversão. O piruvato segue para acetil-CoA.",
+        "C": "Correta: na presença de O₂ o piruvato entra na mitocôndria e se transforma em acetil-CoA.",
+        "D": "Incorreta: o piruvato é aproveitado, convertido em acetil-CoA, e não eliminado."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide \"Acetil COA\""
+        ],
+        "fundamentacao": "Slide \"Acetil COA\".",
+        "trechos_apoio": [
+          "\"Na presença de O₂, o piruvato entra na mitocôndria e se transforma em Acetil-CoA.\""
+        ]
+      }
+    },
+    {
+      "id": "krebs_q015",
+      "slide_id": "krebs",
+      "slide_nome": "120918 - Glicólise e Ciclo de Krebs",
+      "arquivo_origem": "120918_-_GLICÓLISE_E_CICLO_DE_KREBS_260916_152925.pdf",
+      "numero": 15,
+      "tema": "Conversão do piruvato em acetil-CoA",
+      "subtema": "Local",
+      "enunciado": "A conversão do piruvato em acetil-CoA ocorre:",
+      "alternativas": {
+        "A": "Na matriz mitocondrial.",
+        "B": "No citosol.",
+        "C": "Na membrana externa da mitocôndria.",
+        "D": "No espaço entre as membranas mitocondriais."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: a apostila indica que a conversão ocorre na matriz mitocondrial.",
+        "B": "Incorreta: o citosol é o local da glicólise, que forma o piruvato.",
+        "C": "Incorreta: a apostila não situa a conversão na membrana externa.",
+        "D": "Incorreta: o espaço entre membranas aparece na cadeia respiratória, como destino dos prótons bombeados, não como local desta reação."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide \"CONVERSÃO DO PIRUVATO EM ACETIL COA\""
+        ],
+        "fundamentacao": "Slide \"CONVERSÃO DO PIRUVATO EM ACETIL COA\".",
+        "trechos_apoio": [
+          "\"Ocorre na matriz mitocondrial\""
+        ]
+      }
+    },
+    {
+      "id": "krebs_q016",
+      "slide_id": "krebs",
+      "slide_nome": "120918 - Glicólise e Ciclo de Krebs",
+      "arquivo_origem": "120918_-_GLICÓLISE_E_CICLO_DE_KREBS_260916_152925.pdf",
+      "numero": 16,
+      "tema": "Conversão do piruvato em acetil-CoA",
+      "subtema": "Complexo piruvato desidrogenase",
+      "enunciado": "A descarboxilação do piruvato é realizada pelo complexo enzimático piruvato desidrogenase (PDH). A apostila o descreve como:",
+      "alternativas": {
+        "A": "Uma enzima única, sem cofatores.",
+        "B": "Um complexo de duas enzimas localizado no citosol.",
+        "C": "Um complexo de quatro enzimas ligado à membrana externa.",
+        "D": "Um complexo multienzimático de três enzimas."
+      },
+      "gabarito": "D",
+      "explicacoes": {
+        "A": "Incorreta: o PDH é um complexo, não uma enzima única, e o esquema mostra cofatores (TPP, lipoato, FAD, NAD⁺, CoA-SH).",
+        "B": "Incorreta: o número de enzimas é três, e a conversão ocorre na matriz mitocondrial, não no citosol.",
+        "C": "Incorreta: não são quatro enzimas, e a apostila não o liga à membrana externa.",
+        "D": "Correta: a apostila descreve o PDH como um complexo multienzimático de 3 enzimas (E₁, E₂ e E₃ no esquema)."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide \"CONVERSÃO DO PIRUVATO EM ACETIL COA\""
+        ],
+        "fundamentacao": "Slide \"CONVERSÃO DO PIRUVATO EM ACETIL COA\".",
+        "trechos_apoio": [
+          "\"COMPLEXO ENZIMÁTICO PIRUVATO DEIDROGENASE – PDH (complexo multienzimático de 3 enzimas)\""
+        ]
+      }
+    },
+    {
+      "id": "krebs_q017",
+      "slide_id": "krebs",
+      "slide_nome": "120918 - Glicólise e Ciclo de Krebs",
+      "arquivo_origem": "120918_-_GLICÓLISE_E_CICLO_DE_KREBS_260916_152925.pdf",
+      "numero": 17,
+      "tema": "Conversão do piruvato em acetil-CoA",
+      "subtema": "Descarboxilação",
+      "enunciado": "A descarboxilação do piruvato corresponde:",
+      "alternativas": {
+        "A": "À adição de um CO₂ ao piruvato, formando oxaloacetato.",
+        "B": "À remoção de um CO₂ do piruvato, gerando o grupo acetil.",
+        "C": "À remoção de dois hidrogênios do piruvato, formando ácido lático.",
+        "D": "À quebra da glicose em duas moléculas de piruvato."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: descarboxilação é remoção de CO₂, não adição. O oxaloacetato é composto do Ciclo de Krebs.",
+        "B": "Correta: corresponde à remoção de um CO₂ do piruvato, gerando o grupo acetil.",
+        "C": "Incorreta: a formação de ácido lático é o destino anaeróbico do piruvato, outro processo.",
+        "D": "Incorreta: descreve a glicólise, não a descarboxilação do piruvato."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide \"DESCARBOXILAÇÃO DO PIRUVATO\""
+        ],
+        "fundamentacao": "Slide \"DESCARBOXILAÇÃO DO PIRUVATO\".",
+        "trechos_apoio": [
+          "\"A descarboxilação corresponde a remoção de um CO₂ do piruvato, gerando o grupo acetil\""
+        ]
+      }
+    },
+    {
+      "id": "krebs_q018",
+      "slide_id": "krebs",
+      "slide_nome": "120918 - Glicólise e Ciclo de Krebs",
+      "arquivo_origem": "120918_-_GLICÓLISE_E_CICLO_DE_KREBS_260916_152925.pdf",
+      "numero": 18,
+      "tema": "Conversão do piruvato em acetil-CoA",
+      "subtema": "Formação da acetil-CoA",
+      "enunciado": "Após a descarboxilação do piruvato, o grupo acetil (com 2 carbonos):",
+      "alternativas": {
+        "A": "Liga-se ao oxigênio e forma água.",
+        "B": "É liberado como CO₂ na matriz mitocondrial.",
+        "C": "Liga-se à coenzima A (CoA) e forma a acetil-CoA.",
+        "D": "Liga-se ao NAD⁺ e forma o FADH₂."
+      },
+      "gabarito": "C",
+      "explicacoes": {
+        "A": "Incorreta: o acetil se liga à coenzima A. A água aparece no fim da cadeia respiratória, com O₂.",
+        "B": "Incorreta: o CO₂ liberado é o carbono removido do piruvato, não o grupo acetil.",
+        "C": "Correta: o acetil (2C) liga-se à coenzima A e forma a acetil-CoA.",
+        "D": "Incorreta: o NAD⁺ é reduzido a NADH nessa etapa e não se liga ao acetil. O FADH₂ é uma coenzima reduzida distinta."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide \"DESCARBOXILAÇÃO DO PIRUVATO\""
+        ],
+        "fundamentacao": "Slide \"DESCARBOXILAÇÃO DO PIRUVATO\".",
+        "trechos_apoio": [
+          "\"Acetil (com 2 carbonos) se liga a Coenzima A (CoA) e forma o Acetil-CoA.\""
+        ]
+      }
+    },
+    {
+      "id": "krebs_q019",
+      "slide_id": "krebs",
+      "slide_nome": "120918 - Glicólise e Ciclo de Krebs",
+      "arquivo_origem": "120918_-_GLICÓLISE_E_CICLO_DE_KREBS_260916_152925.pdf",
+      "numero": 19,
+      "tema": "Conversão do piruvato em acetil-CoA",
+      "subtema": "Reagentes e produtos",
+      "enunciado": "No esquema da conversão do piruvato em acetil-CoA, além da acetil-CoA, são formados:",
+      "alternativas": {
+        "A": "CO₂ e NADH.",
+        "B": "H₂O e FADH₂.",
+        "C": "ATP e ácido lático.",
+        "D": "Citrato e oxaloacetato."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: o esquema mostra CO₂ (da descarboxilação) e NADH (pela redução do NAD⁺).",
+        "B": "Incorreta: o esquema mostra NADH, não FADH₂ (o FAD aparece apenas como cofator do complexo), e não mostra água como produto.",
+        "C": "Incorreta: não há ATP no esquema, e o ácido lático é formado só em condições anaeróbicas.",
+        "D": "Incorreta: citrato e oxaloacetato pertencem ao Ciclo de Krebs."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide \"Conversão do piruvato em Acetil COA\" (esquema; ΔG'° = −33,4 kJ/mol)"
+        ],
+        "fundamentacao": "Slide \"Conversão do piruvato em Acetil COA\" (esquema; ΔG'° = −33,4 kJ/mol).",
+        "trechos_apoio": [
+          "\"Piruvato + CoA-SH + NAD⁺ → Acetil-CoA + CO₂ + NADH\" (esquema do slide, resumido)"
+        ]
+      }
+    },
+    {
+      "id": "krebs_q020",
+      "slide_id": "krebs",
+      "slide_nome": "120918 - Glicólise e Ciclo de Krebs",
+      "arquivo_origem": "120918_-_GLICÓLISE_E_CICLO_DE_KREBS_260916_152925.pdf",
+      "numero": 20,
+      "tema": "Ciclo de Krebs",
+      "subtema": "Primeira reação",
+      "enunciado": "Na primeira reação do Ciclo de Krebs, mostrada na apostila, a enzima citrato-sintase catalisa a condensação entre:",
+      "alternativas": {
+        "A": "Citrato e CO₂, formando isocitrato.",
+        "B": "Piruvato e CoA, formando acetil-CoA.",
+        "C": "Succinato e FAD, formando fumarato.",
+        "D": "Acetil-CoA e oxaloacetato, formando citrato."
+      },
+      "gabarito": "D",
+      "explicacoes": {
+        "A": "Incorreta: o isocitrato (ácido isocítrico) vem do citrato em etapa posterior, e não pela adição de CO₂ (o CO₂ é liberado depois).",
+        "B": "Incorreta: é a reação do complexo PDH, anterior ao ciclo.",
+        "C": "Incorreta: é a etapa succínico → fumárico, em que o FAD é reduzido a FADH₂.",
+        "D": "Correta: o slide mostra a condensação de Claisen entre acetil-CoA e oxaloacetato, formando citrato."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide \"CICLO DE KREBS\" (reação 1)"
+        ],
+        "fundamentacao": "Slide \"CICLO DE KREBS\" (reação 1).",
+        "trechos_apoio": [
+          "\"Condensação de Claisen: grupo metil da acetil-CoA convertido a metileno no citrato.\""
+        ]
+      }
+    },
+    {
+      "id": "krebs_q021",
+      "slide_id": "krebs",
+      "slide_nome": "120918 - Glicólise e Ciclo de Krebs",
+      "arquivo_origem": "120918_-_GLICÓLISE_E_CICLO_DE_KREBS_260916_152925.pdf",
+      "numero": 21,
+      "tema": "Ciclo de Krebs",
+      "subtema": "Liberação de CO₂",
+      "enunciado": "Nos esquemas do Ciclo de Krebs apresentados, quantas moléculas de CO₂ são liberadas em cada volta do ciclo?",
+      "alternativas": {
+        "A": "Uma.",
+        "B": "Duas.",
+        "C": "Três.",
+        "D": "Quatro."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o esquema mostra duas saídas de CO₂, não uma.",
+        "B": "Correta: há duas liberações de CO₂, nas etapas ácido isocítrico → α-cetoglutárico e α-cetoglutárico → succinil-CoA.",
+        "C": "Incorreta: não há três liberações. Há dois CO₂ por volta.",
+        "D": "Incorreta: o quatro aparece no esquema geral da glicose (4 CO₂ para duas voltas), não numa volta única."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide \"CICLO DE KREBS\" (esquema com ácido cítrico, isocítrico, α-cetoglutárico etc.)"
+        ],
+        "fundamentacao": "Slide \"CICLO DE KREBS\" (esquema com ácido cítrico, isocítrico, α-cetoglutárico etc.).",
+        "trechos_apoio": [
+          "\"A.isocítrico … CO₂ … A.a-cetoglutárico … CO₂ … succinil-CoA\" (esquema do slide)"
+        ]
+      }
+    },
+    {
+      "id": "krebs_q022",
+      "slide_id": "krebs",
+      "slide_nome": "120918 - Glicólise e Ciclo de Krebs",
+      "arquivo_origem": "120918_-_GLICÓLISE_E_CICLO_DE_KREBS_260916_152925.pdf",
+      "numero": 22,
+      "tema": "Ciclo de Krebs",
+      "subtema": "Etapa de formação do FADH₂",
+      "enunciado": "No esquema do Ciclo de Krebs, a formação de FADH₂ ocorre na etapa em que:",
+      "alternativas": {
+        "A": "O ácido oxalacético é convertido em ácido cítrico.",
+        "B": "O ácido isocítrico é convertido em α-cetoglutárico.",
+        "C": "O ácido succínico é convertido em ácido fumárico.",
+        "D": "O ácido málico é convertido em ácido oxalacético."
+      },
+      "gabarito": "C",
+      "explicacoes": {
+        "A": "Incorreta: nessa etapa o acetil-CoA entra no ciclo (condensação), sem formação de FADH₂.",
+        "B": "Incorreta: nessa etapa há formação de NADH e liberação de CO₂, não de FADH₂.",
+        "C": "Correta: no esquema, o FAD é convertido em FADH₂ na passagem de succínico para fumárico.",
+        "D": "Incorreta: nessa etapa o NAD⁺ é convertido em NADH + H, e não há FADH₂."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide \"CICLO DE KREBS\" (esquema com FAD → FADH2)"
+        ],
+        "fundamentacao": "Slide \"CICLO DE KREBS\" (esquema com FAD → FADH2).",
+        "trechos_apoio": [
+          "\"fumárico … FAD → FADH2 … succínico\" (esquema do slide)"
+        ]
+      }
+    },
+    {
+      "id": "krebs_q023",
+      "slide_id": "krebs",
+      "slide_nome": "120918 - Glicólise e Ciclo de Krebs",
+      "arquivo_origem": "120918_-_GLICÓLISE_E_CICLO_DE_KREBS_260916_152925.pdf",
+      "numero": 23,
+      "tema": "Saldo energético do Ciclo de Krebs",
+      "subtema": "Produtos por volta",
+      "enunciado": "De acordo com a apostila, em cada volta no Ciclo de Krebs são formados:",
+      "alternativas": {
+        "A": "3 NADH, 1 FADH e 1 ATP.",
+        "B": "1 NADH, 3 FADH e 3 ATP.",
+        "C": "2 NADH, 2 FADH e 2 ATP.",
+        "D": "4 NADH, 0 FADH e 1 ATP."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: são formados 3 NADH, 1 FADH e 1 ATP por volta.",
+        "B": "Incorreta: inverte as quantidades. O NADH é o mais numeroso (3), e o FADH aparece 1 vez.",
+        "C": "Incorreta: o saldo não é 2-2-2. O correto é 3 NADH, 1 FADH, 1 ATP.",
+        "D": "Incorreta: o Ciclo de Krebs produz 1 FADH por volta (etapa succínico → fumárico) e 3 NADH."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide \"SALDO ENERGÉTICO DO CICLO DE KREBS\""
+        ],
+        "fundamentacao": "Slide \"SALDO ENERGÉTICO DO CICLO DE KREBS\".",
+        "trechos_apoio": [
+          "\"CADA VOLTA NO CICLO DE KREBS SÃO FORMADOS • 3 NADH • 1 FADH • 1 ATP\""
+        ]
+      }
+    },
+    {
+      "id": "krebs_q024",
+      "slide_id": "krebs",
+      "slide_nome": "120918 - Glicólise e Ciclo de Krebs",
+      "arquivo_origem": "120918_-_GLICÓLISE_E_CICLO_DE_KREBS_260916_152925.pdf",
+      "numero": 24,
+      "tema": "Saldo energético do Ciclo de Krebs",
+      "subtema": "Equivalência em ATP",
+      "enunciado": "Na equivalência adotada pela apostila para o cálculo do rendimento energético, cada NADH e cada FADH correspondem, respectivamente, a:",
+      "alternativas": {
+        "A": "2 ATP e 3 ATP.",
+        "B": "1 ATP e 1 ATP.",
+        "C": "4 ATP e 2 ATP.",
+        "D": "3 ATP e 2 ATP."
+      },
+      "gabarito": "D",
+      "explicacoes": {
+        "A": "Incorreta: inverte os valores. O NADH vale mais que o FADH.",
+        "B": "Incorreta: os dois valem mais de 1 ATP no cálculo da apostila.",
+        "C": "Incorreta: o NADH vale 3 ATP, não 4.",
+        "D": "Correta: cada NADH = 3 ATP e cada FADH = 2 ATP."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide \"SALDO ENERGÉTICO DO CICLO DE KREBS\" (equivalências)"
+        ],
+        "fundamentacao": "Slide \"SALDO ENERGÉTICO DO CICLO DE KREBS\" (equivalências).",
+        "trechos_apoio": [
+          "\"CADA NADH = 3 ATP • CADA FADH = 2 ATP\""
+        ]
+      }
+    },
+    {
+      "id": "krebs_q025",
+      "slide_id": "krebs",
+      "slide_nome": "120918 - Glicólise e Ciclo de Krebs",
+      "arquivo_origem": "120918_-_GLICÓLISE_E_CICLO_DE_KREBS_260916_152925.pdf",
+      "numero": 25,
+      "tema": "Saldo energético do Ciclo de Krebs",
+      "subtema": "Total por volta",
+      "enunciado": "Aplicando as equivalências da apostila (3 NADH × 3, 1 FADH × 2, 1 ATP), o rendimento energético de uma volta do Ciclo de Krebs é de:",
+      "alternativas": {
+        "A": "9 ATP.",
+        "B": "12 ATP.",
+        "C": "14 ATP.",
+        "D": "24 ATP."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: 9 ATP é só a contribuição dos 3 NADH (3 × 3), faltando o FADH (2) e o ATP direto (1).",
+        "B": "Correta: 9 (NADH) + 2 (FADH) + 1 (ATP) = 12 ATP por volta.",
+        "C": "Incorreta: soma além do que a apostila calcula. O total correto por volta é 12.",
+        "D": "Incorreta: 24 ATP é o total das duas voltas do ciclo para uma glicose."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide \"SALDO ENERGÉTICO DO CICLO DE KREBS\""
+        ],
+        "fundamentacao": "Slide \"SALDO ENERGÉTICO DO CICLO DE KREBS\".",
+        "trechos_apoio": [
+          "\"3 NADH X 3 = 9 ATP • 1 FADH X 2 = 2 ATP • 1 ATP = 1 ATP • TOTAL = 12 ATP\""
+        ]
+      }
+    },
+    {
+      "id": "krebs_q026",
+      "slide_id": "krebs",
+      "slide_nome": "120918 - Glicólise e Ciclo de Krebs",
+      "arquivo_origem": "120918_-_GLICÓLISE_E_CICLO_DE_KREBS_260916_152925.pdf",
+      "numero": 26,
+      "tema": "Somatório do saldo energético da glicose aeróbica",
+      "subtema": "Duas voltas do ciclo",
+      "enunciado": "Considerando que uma glicose gera duas acetil-CoA, o Ciclo de Krebs gira duas vezes por glicose. Pelos valores da apostila, o rendimento do Ciclo de Krebs para uma molécula de glicose é de:",
+      "alternativas": {
+        "A": "12 ATP.",
+        "B": "36 ATP.",
+        "C": "24 ATP.",
+        "D": "6 ATP."
+      },
+      "gabarito": "C",
+      "explicacoes": {
+        "A": "Incorreta: é o rendimento de uma única volta, e a glicose faz duas.",
+        "B": "Incorreta: 36 está na faixa do total da cadeia respiratória citada no slide (36 a 39), não é o rendimento do ciclo.",
+        "C": "Correta: 2 voltas × 12 ATP = 24 ATP.",
+        "D": "Incorreta: 6 ATP é o valor atribuído, no slide de lançadeiras, aos 2 NADH da glicólise (2 × 3)."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide \"SOMATÓRIO DO SALDO ENERGÉTICO DA GLICOSE AERÓBICA\""
+        ],
+        "fundamentacao": "Slide \"SOMATÓRIO DO SALDO ENERGÉTICO DA GLICOSE AERÓBICA\".",
+        "trechos_apoio": [
+          "\"2 VOLTAS = 12 ATP + 12 ATP = 24 ATP\""
+        ]
+      }
+    },
+    {
+      "id": "krebs_q027",
+      "slide_id": "krebs",
+      "slide_nome": "120918 - Glicólise e Ciclo de Krebs",
+      "arquivo_origem": "120918_-_GLICÓLISE_E_CICLO_DE_KREBS_260916_152925.pdf",
+      "numero": 27,
+      "tema": "Somatório do saldo energético da glicose aeróbica",
+      "subtema": "Por que duas voltas",
+      "enunciado": "Segundo a apostila, a glicose passa duas vezes pelo Ciclo de Krebs para ser totalmente oxidada porque:",
+      "alternativas": {
+        "A": "Cada glicose origina 2 piruvatos e, portanto, 2 acetil-CoA.",
+        "B": "O ciclo só funciona com número par de carbonos na mitocôndria.",
+        "C": "Uma glicose contém dois grupos oxaloacetato.",
+        "D": "A primeira volta ocorre no citosol e a segunda, na mitocôndria."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: a sequência glicose → 2 piruvatos → 2 acetil-CoA faz o ciclo girar duas vezes.",
+        "B": "Incorreta: a apostila não apresenta essa justificativa. O motivo é a formação de duas acetil-CoA.",
+        "C": "Incorreta: o oxaloacetato é regenerado no próprio ciclo e não é componente da glicose.",
+        "D": "Incorreta: o Ciclo de Krebs ocorre na mitocôndria, nas duas voltas."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide \"SOMATÓRIO DO SALDO ENERGÉTICO DA GLICOSE AERÓBICA\""
+        ],
+        "fundamentacao": "Slide \"SOMATÓRIO DO SALDO ENERGÉTICO DA GLICOSE AERÓBICA\".",
+        "trechos_apoio": [
+          "\"A GLICOSE PASSA DUAS VEZES PELO CICLO DE KREBS PARA SER TOTALMENTE OXIDADA. GLICOSE – 2 PIRUVATOS – 2 ACETIL COA\""
+        ]
+      }
+    },
+    {
+      "id": "krebs_q028",
+      "slide_id": "krebs",
+      "slide_nome": "120918 - Glicólise e Ciclo de Krebs",
+      "arquivo_origem": "120918_-_GLICÓLISE_E_CICLO_DE_KREBS_260916_152925.pdf",
+      "numero": 28,
+      "tema": "Sistema lançadeiras",
+      "subtema": "Conceito e tipos",
+      "enunciado": "O sistema de lançadeiras apresentado na apostila inclui a aspartato-malato (AM) e a glicerol-fosfato (GP). Sua função é:",
+      "alternativas": {
+        "A": "Transportar o piruvato para a matriz mitocondrial.",
+        "B": "Transportar o ATP do citosol para o núcleo.",
+        "C": "Transportar a glicose para dentro da célula muscular.",
+        "D": "Transportar o hidrogênio do NADH citoplasmático para dentro da mitocôndria."
+      },
+      "gabarito": "D",
+      "explicacoes": {
+        "A": "Incorreta: o transporte do piruvato não é a função das lançadeiras. Elas levam hidrogênios do NADH citoplasmático.",
+        "B": "Incorreta: a apostila não atribui às lançadeiras o transporte de ATP ao núcleo.",
+        "C": "Incorreta: a entrada da glicose na célula é outro processo, não descrito neste slide.",
+        "D": "Correta: AM e GP transportam o hidrogênio do NADH citoplasmático para a mitocôndria."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide \"SISTEMA LANÇADEIRAS\""
+        ],
+        "fundamentacao": "Slide \"SISTEMA LANÇADEIRAS\".",
+        "trechos_apoio": [
+          "\"AM – TRANSPORTA O HIDROGÊNIO DO NADH CITOPLASMÁTICO PARA O NADH MITOCONDRIAL.\""
+        ]
+      }
+    },
+    {
+      "id": "krebs_q029",
+      "slide_id": "krebs",
+      "slide_nome": "120918 - Glicólise e Ciclo de Krebs",
+      "arquivo_origem": "120918_-_GLICÓLISE_E_CICLO_DE_KREBS_260916_152925.pdf",
+      "numero": 29,
+      "tema": "Sistema lançadeiras",
+      "subtema": "Aspartato-malato",
+      "enunciado": "Na lançadeira aspartato-malato (AM), os 2 NADH citoplasmáticos da glicólise são transferidos a NADH mitocondrial. Segundo os valores da apostila, o rendimento é de:",
+      "alternativas": {
+        "A": "4 ATP, pois entram como FADH.",
+        "B": "6 ATP (2 × 3).",
+        "C": "2 ATP, pois parte da energia se perde.",
+        "D": "12 ATP (2 × 6)."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o rendimento de 4 ATP (2 × 2) pertence à lançadeira glicerol-fosfato, em que o hidrogênio entra como FADH.",
+        "B": "Correta: na AM o hidrogênio chega como NADH mitocondrial, e 2 × 3 = 6 ATP.",
+        "C": "Incorreta: a apostila não prevê perda que reduza o valor a 2 ATP. O cálculo é 2 × 3.",
+        "D": "Incorreta: o cálculo correto é 2 NADH × 3 ATP, resultando em 6 e não 12."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide \"SISTEMA LANÇADEIRAS\""
+        ],
+        "fundamentacao": "Slide \"SISTEMA LANÇADEIRAS\".",
+        "trechos_apoio": [
+          "\"(AM) = 2X3= 6 ATP\""
+        ]
+      }
+    },
+    {
+      "id": "krebs_q030",
+      "slide_id": "krebs",
+      "slide_nome": "120918 - Glicólise e Ciclo de Krebs",
+      "arquivo_origem": "120918_-_GLICÓLISE_E_CICLO_DE_KREBS_260916_152925.pdf",
+      "numero": 30,
+      "tema": "Sistema lançadeiras",
+      "subtema": "Glicerol-fosfato",
+      "enunciado": "A lançadeira glicerol-fosfato (GP) transporta o hidrogênio do NADH citoplasmático para o FADH mitocondrial. Pelos valores da apostila, seu rendimento para os 2 NADH da glicólise é de:",
+      "alternativas": {
+        "A": "6 ATP.",
+        "B": "2 ATP.",
+        "C": "4 ATP (2 × 2).",
+        "D": "3 ATP."
+      },
+      "gabarito": "C",
+      "explicacoes": {
+        "A": "Incorreta: 6 ATP (2 × 3) é o valor da lançadeira aspartato-malato, em que o hidrogênio chega como NADH.",
+        "B": "Incorreta: 2 é o valor de um único FADH. Como são 2 NADH citoplasmáticos, o cálculo é 2 × 2.",
+        "C": "Correta: como o hidrogênio entra como FADH (2 ATP cada), 2 × 2 = 4 ATP.",
+        "D": "Incorreta: 3 ATP é o valor de um NADH, e o hidrogênio entra como FADH."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide \"SISTEMA LANÇADEIRAS\""
+        ],
+        "fundamentacao": "Slide \"SISTEMA LANÇADEIRAS\".",
+        "trechos_apoio": [
+          "\"(GP) = 2X2= 4 ATP\""
+        ]
+      }
+    },
+    {
+      "id": "krebs_q031",
+      "slide_id": "krebs",
+      "slide_nome": "120918 - Glicólise e Ciclo de Krebs",
+      "arquivo_origem": "120918_-_GLICÓLISE_E_CICLO_DE_KREBS_260916_152925.pdf",
+      "numero": 31,
+      "tema": "Substrato inicial",
+      "subtema": "Glicogênio versus glicose",
+      "enunciado": "De acordo com a apostila, o substrato inicial é a molécula que inicia a reação. Os valores indicados para ele são:",
+      "alternativas": {
+        "A": "Glicogênio (GG) = 3 ATP; glicose (GL) = 2 ATP.",
+        "B": "Glicogênio (GG) = 2 ATP; glicose (GL) = 3 ATP.",
+        "C": "Glicogênio (GG) = 2 ATP; glicose (GL) = 2 ATP.",
+        "D": "Glicogênio (GG) = 1 ATP; glicose (GL) = 4 ATP."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: a apostila indica GG = 3 ATP e GL = 2 ATP.",
+        "B": "Incorreta: inverte os valores. O glicogênio, como substrato inicial, corresponde a 3 ATP.",
+        "C": "Incorreta: os valores diferem. Glicogênio = 3 e glicose = 2.",
+        "D": "Incorreta: nenhum dos dois valores corresponde ao material."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide \"SUBSTRATO INICIAL\""
+        ],
+        "fundamentacao": "Slide \"SUBSTRATO INICIAL\".",
+        "trechos_apoio": [
+          "\"GLICOGÊNIO (GG) = 3 ATP • GLICOSE (GL)= 2 ATP\""
+        ]
+      }
+    },
+    {
+      "id": "krebs_q032",
+      "slide_id": "krebs",
+      "slide_nome": "120918 - Glicólise e Ciclo de Krebs",
+      "arquivo_origem": "120918_-_GLICÓLISE_E_CICLO_DE_KREBS_260916_152925.pdf",
+      "numero": 32,
+      "tema": "Glicogenólise",
+      "subtema": "Conceito",
+      "enunciado": "A glicogenólise é definida na apostila como:",
+      "alternativas": {
+        "A": "A síntese de glicogênio a partir de moléculas de glicose.",
+        "B": "A oxidação da glicose a duas moléculas de piruvato.",
+        "C": "A formação de glicose a partir de aminoácidos.",
+        "D": "O processo de degradação do glicogênio em glicose, com desligamento das ligações glicosídicas entre moléculas de glicose."
+      },
+      "gabarito": "D",
+      "explicacoes": {
+        "A": "Incorreta: descreve a síntese de glicogênio (glicogênese), processo oposto à glicogenólise.",
+        "B": "Incorreta: descreve a glicólise, que parte da glicose, não do glicogênio.",
+        "C": "Incorreta: a apostila não apresenta a síntese de glicose a partir de aminoácidos como glicogenólise. Os aminoácidos aparecem só como fonte de energia tardia.",
+        "D": "Correta: glicogenólise é a degradação do glicogênio em glicose, com desligamento das ligações glicosídicas."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide \"GLICOGENÓLISE\""
+        ],
+        "fundamentacao": "Slide \"GLICOGENÓLISE\".",
+        "trechos_apoio": [
+          "\"Processo de degradação do glicogênio em glicose\""
+        ]
+      }
+    },
+    {
+      "id": "krebs_q033",
+      "slide_id": "krebs",
+      "slide_nome": "120918 - Glicólise e Ciclo de Krebs",
+      "arquivo_origem": "120918_-_GLICÓLISE_E_CICLO_DE_KREBS_260916_152925.pdf",
+      "numero": 33,
+      "tema": "Glicogenólise",
+      "subtema": "Hormônios",
+      "enunciado": "Quais são os hormônios glicolíticos que, segundo a apostila, estimulam a glicogenólise?",
+      "alternativas": {
+        "A": "Insulina, leptina e cortisol.",
+        "B": "Adrenalina, noradrenalina e glucagon.",
+        "C": "Insulina, glucagon e tiroxina.",
+        "D": "Ocitocina, adrenalina e progesterona."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: nenhum desses hormônios é citado na apostila como estimulador da glicogenólise.",
+        "B": "Correta: a apostila cita adrenalina, noradrenalina e glucagon.",
+        "C": "Incorreta: o glucagon está correto, mas insulina e tiroxina não são citadas como estimuladoras da glicogenólise no material.",
+        "D": "Incorreta: só a adrenalina está correta. Ocitocina e progesterona não constam no material."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide \"GLICOGENÓLISE\" (hormônios)"
+        ],
+        "fundamentacao": "Slide \"GLICOGENÓLISE\" (hormônios).",
+        "trechos_apoio": [
+          "\"Os HORMÔNIOS glicolíticos: ADRENALINA, NOROADRENALINA, GLUCAGON\""
+        ]
+      }
+    },
+    {
+      "id": "krebs_q034",
+      "slide_id": "krebs",
+      "slide_nome": "120918 - Glicólise e Ciclo de Krebs",
+      "arquivo_origem": "120918_-_GLICÓLISE_E_CICLO_DE_KREBS_260916_152925.pdf",
+      "numero": 34,
+      "tema": "Glicogenólise",
+      "subtema": "Enzima ativada",
+      "enunciado": "Na glicogenólise, os hormônios estimulam a ativação de qual enzima, responsável pela degradação do glicogênio em glicose?",
+      "alternativas": {
+        "A": "Citrato-sintase.",
+        "B": "ATP sintase.",
+        "C": "Glicogênio fosforilase.",
+        "D": "Piruvato desidrogenase."
+      },
+      "gabarito": "C",
+      "explicacoes": {
+        "A": "Incorreta: a citrato-sintase atua no Ciclo de Krebs, formando citrato.",
+        "B": "Incorreta: a ATP sintase está na cadeia respiratória e sintetiza ATP.",
+        "C": "Correta: os hormônios ativam a glicogênio fosforilase, que degrada o glicogênio (o esquema mostra o uso de Pi, com n → n−1 resíduos).",
+        "D": "Incorreta: o complexo piruvato desidrogenase converte piruvato em acetil-CoA."
+      },
+      "referencia": {
+        "paginas": [
+          "Slides \"GLICOGENÓLISE\" (hormônios e esquema de degradação)"
+        ],
+        "fundamentacao": "Slides \"GLICOGENÓLISE\" (hormônios e esquema de degradação).",
+        "trechos_apoio": [
+          "\"Estimulam a ATIVAÇÃO DA ENZIMA GLICOGÊNIO FOSFORILASE\""
+        ]
+      }
+    },
+    {
+      "id": "krebs_q035",
+      "slide_id": "krebs",
+      "slide_nome": "120918 - Glicólise e Ciclo de Krebs",
+      "arquivo_origem": "120918_-_GLICÓLISE_E_CICLO_DE_KREBS_260916_152925.pdf",
+      "numero": 35,
+      "tema": "Glicogenólise",
+      "subtema": "Quando ocorre e ordem de uso das reservas",
+      "enunciado": "Segundo a apostila, em atividade física intensa ou jejum, a ordem de recrutamento das reservas energéticas é:",
+      "alternativas": {
+        "A": "Primeiro o glicogênio muscular; depois, elementos de lipídios; posteriormente, aminoácidos.",
+        "B": "Primeiro os aminoácidos; depois os lipídios; por último o glicogênio.",
+        "C": "Primeiro os lipídios; depois o glicogênio; por último os aminoácidos.",
+        "D": "Primeiro as proteínas; depois o glicogênio; por último os lipídios."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: os primeiros estoques recrutados são os de glicogênio muscular. Com a queda, entram elementos de lipídios e, depois, de aminoácidos.",
+        "B": "Incorreta: inverte a ordem. Os aminoácidos são os últimos a serem recrutados.",
+        "C": "Incorreta: o glicogênio vem antes dos lipídios.",
+        "D": "Incorreta: as proteínas (aminoácidos) vêm por último, não primeiro."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide \"GLICOGENÓLISE\" (quando ocorre)"
+        ],
+        "fundamentacao": "Slide \"GLICOGENÓLISE\" (quando ocorre).",
+        "trechos_apoio": [
+          "\"Primeiros estoques de glicogênio muscular são logo recrutados.\""
+        ]
+      }
+    },
+    {
+      "id": "krebs_q036",
+      "slide_id": "krebs",
+      "slide_nome": "120918 - Glicólise e Ciclo de Krebs",
+      "arquivo_origem": "120918_-_GLICÓLISE_E_CICLO_DE_KREBS_260916_152925.pdf",
+      "numero": 36,
+      "tema": "Cadeia respiratória",
+      "subtema": "Local de ocorrência",
+      "enunciado": "A cadeia respiratória, terceira etapa da respiração celular, ocorre:",
+      "alternativas": {
+        "A": "No citosol, junto da glicólise.",
+        "B": "Na matriz mitocondrial, junto da conversão do piruvato.",
+        "C": "No núcleo da célula.",
+        "D": "Na membrana, nas cristas mitocondriais."
+      },
+      "gabarito": "D",
+      "explicacoes": {
+        "A": "Incorreta: o citosol é o local da glicólise, não da cadeia respiratória.",
+        "B": "Incorreta: a matriz é o local da conversão do piruvato em acetil-CoA e do Ciclo de Krebs. A cadeia respiratória fica nas cristas.",
+        "C": "Incorreta: o núcleo não participa da cadeia respiratória no material.",
+        "D": "Correta: a cadeia respiratória ocorre na membrana, nas cristas mitocondriais."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide \"CADEIA RESPIRATÓRIA\""
+        ],
+        "fundamentacao": "Slide \"CADEIA RESPIRATÓRIA\".",
+        "trechos_apoio": [
+          "\"OCORRE NA MEMBRANA NAS CRISTAS MITOCONDRIAIS.\""
+        ]
+      }
+    },
+    {
+      "id": "krebs_q037",
+      "slide_id": "krebs",
+      "slide_nome": "120918 - Glicólise e Ciclo de Krebs",
+      "arquivo_origem": "120918_-_GLICÓLISE_E_CICLO_DE_KREBS_260916_152925.pdf",
+      "numero": 37,
+      "tema": "Cadeia respiratória",
+      "subtema": "Nomes e rendimento",
+      "enunciado": "Sobre a cadeia respiratória, a apostila afirma que:",
+      "alternativas": {
+        "A": "É também chamada de glicólise anaeróbica e forma apenas 2 ATP.",
+        "B": "Pode ser chamada de cadeia transportadora de elétrons, e a formação de ATP é a fosforilação oxidativa, com energia suficiente para formar de 36 a 39 ATP.",
+        "C": "É também chamada de Ciclo de Krebs e forma 12 ATP por volta.",
+        "D": "Pode ser chamada de glicogenólise e forma glicose."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a glicólise anaeróbica é outra etapa. A cadeia respiratória é transportadora de elétrons, com formação de 36 a 39 ATP.",
+        "B": "Correta: reproduz o que o slide afirma sobre nome, fosforilação oxidativa e faixa de 36 a 39 ATP.",
+        "C": "Incorreta: o Ciclo de Krebs é uma etapa distinta (matriz mitocondrial), e os 12 ATP por volta pertencem a ele.",
+        "D": "Incorreta: a glicogenólise é a degradação do glicogênio em glicose, não a cadeia respiratória."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide \"CADEIA RESPIRATÓRIA\""
+        ],
+        "fundamentacao": "Slide \"CADEIA RESPIRATÓRIA\".",
+        "trechos_apoio": [
+          "\"A quantidade de energia liberada nesse processo é suficiente para formar de 36 a 39 de moléculas de ATP.\""
+        ]
+      }
+    },
+    {
+      "id": "krebs_q038",
+      "slide_id": "krebs",
+      "slide_nome": "120918 - Glicólise e Ciclo de Krebs",
+      "arquivo_origem": "120918_-_GLICÓLISE_E_CICLO_DE_KREBS_260916_152925.pdf",
+      "numero": 38,
+      "tema": "Cadeia respiratória",
+      "subtema": "Transportadores e citocromos",
+      "enunciado": "Na cadeia respiratória, segundo a apostila, o NAD e o FAD e os citocromos desempenham, respectivamente, os papéis de:",
+      "alternativas": {
+        "A": "Enzimas de síntese de ATP e carboidratos de reserva.",
+        "B": "Aceptor final de elétrons e produtor de CO₂.",
+        "C": "Transportadores de hidrogênios; proteínas que transportam elétrons dos hidrogênios.",
+        "D": "Hormônios ativadores e enzimas de degradação do glicogênio."
+      },
+      "gabarito": "C",
+      "explicacoes": {
+        "A": "Incorreta: o NAD e o FAD transportam hidrogênios, e quem sintetiza o ATP é a ATP sintase. Citocromos não são carboidratos.",
+        "B": "Incorreta: o aceptor final de elétrons é o oxigênio (forma água). NAD/FAD não são aceptor final nem produtor de CO₂.",
+        "C": "Correta: NAD e FAD funcionam como transportadores de hidrogênios, e os citocromos são proteínas que transportam elétrons dos hidrogênios, liberando energia gradativamente.",
+        "D": "Incorreta: hormônios e enzimas da glicogenólise não fazem parte desses papéis."
+      },
+      "referencia": {
+        "paginas": [
+          "Slides \"CADEIA RESPIRATÓRIA\" (transportadores e citocromos)"
+        ],
+        "fundamentacao": "Slides \"CADEIA RESPIRATÓRIA\" (transportadores e citocromos).",
+        "trechos_apoio": [
+          "\"NAD e o FAD funcionam como transportadores de hidrogênios\""
+        ]
+      }
+    },
+    {
+      "id": "krebs_q039",
+      "slide_id": "krebs",
+      "slide_nome": "120918 - Glicólise e Ciclo de Krebs",
+      "arquivo_origem": "120918_-_GLICÓLISE_E_CICLO_DE_KREBS_260916_152925.pdf",
+      "numero": 39,
+      "tema": "Cadeia transportadora de elétrons",
+      "subtema": "Oxigênio e ATP sintase",
+      "enunciado": "No esquema da cadeia transportadora de elétrons, os elétrons e os H⁺ reagem com 1/2 O₂, e o fluxo de H⁺ pela ATP sintase leva à formação de:",
+      "alternativas": {
+        "A": "H₂O no final da cadeia, e ATP a partir de ADP + Pi pela ATP sintase.",
+        "B": "CO₂ no final da cadeia, e NADH a partir de ADP + Pi.",
+        "C": "Glicose no final da cadeia, e piruvato pela ATP sintase.",
+        "D": "Ácido lático no final da cadeia, e FADH₂ pela ATP sintase."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: o esquema mostra 2e⁻ + 2H⁺ + 1/2 O₂ formando H₂O, e a passagem de H⁺ pela ATP sintase produzindo ATP a partir de ADP + Pi.",
+        "B": "Incorreta: o CO₂ é liberado na descarboxilação do piruvato e no Ciclo de Krebs. A ATP sintase produz ATP, não NADH.",
+        "C": "Incorreta: não se forma glicose na cadeia, e a ATP sintase não forma piruvato.",
+        "D": "Incorreta: o ácido lático é o destino anaeróbico do piruvato, e a ATP sintase não forma FADH₂."
+      },
+      "referencia": {
+        "paginas": [
+          "Slides \"CADEIA RESPIRATÓRIA\" (esquema) e \"ATP SINTASE\""
+        ],
+        "fundamentacao": "Slides \"CADEIA RESPIRATÓRIA\" (esquema) e \"ATP SINTASE\".",
+        "trechos_apoio": [
+          "\"2e⁻ + 2H⁺ + 1/2 O₂ … H₂O\" e \"ADP + Pi … ATP\" (rótulos do esquema)"
+        ]
+      }
+    },
+    {
+      "id": "krebs_q040",
+      "slide_id": "krebs",
+      "slide_nome": "120918 - Glicólise e Ciclo de Krebs",
+      "arquivo_origem": "120918_-_GLICÓLISE_E_CICLO_DE_KREBS_260916_152925.pdf",
+      "numero": 40,
+      "tema": "Acetil-CoA e Ciclo de Krebs",
+      "subtema": "Destino do NADH e do FADH",
+      "enunciado": "Segundo a apostila, os hidrogênios liberados no Ciclo de Krebs formam NADH e FADH. Qual é o destino dessas moléculas?",
+      "alternativas": {
+        "A": "Voltam à glicólise para formar novamente glicose.",
+        "B": "São convertidas em glicogênio no citosol.",
+        "C": "São eliminadas da célula como CO₂ e H₂O.",
+        "D": "Vão para a cadeia respiratória, onde serão usados para restaurar ATP."
+      },
+      "gabarito": "D",
+      "explicacoes": {
+        "A": "Incorreta: a apostila não descreve retorno à glicólise. NADH e FADH vão à cadeia respiratória.",
+        "B": "Incorreta: NADH e FADH são transportadores de hidrogênios, não precursores do glicogênio.",
+        "C": "Incorreta: o CO₂ é liberado pelas descarboxilações do ciclo; NADH e FADH são encaminhados à cadeia respiratória.",
+        "D": "Correta: os hidrogênios formam NADH e FADH, que vão para a cadeia respiratória e serão usados para restaurar ATP."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide \"Acetil COA\""
+        ],
+        "fundamentacao": "Slide \"Acetil COA\".",
+        "trechos_apoio": [
+          "\"Os hidrogênios liberados formam NADH e FADH, que irão para cadeia respiratória (serão usados para restaurar ATP)\""
+        ]
+      }
+    }
+  ]
+}

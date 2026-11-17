@@ -1,0 +1,1284 @@
+{
+  "questoes": [
+    {
+      "id": "proteinas-aminoacidos-enzimas_q001",
+      "slide_id": "proteinas-aminoacidos-enzimas",
+      "slide_nome": "Proteínas, Aminoácidos e Enzimas",
+      "arquivo_origem": "PROTEÍNAS, AMINOÁCIDOS E ENZIMAS_261008_211137.pdf",
+      "numero": 1,
+      "tema": "Proteínas",
+      "subtema": "Conceito Geral e Abundância Celular",
+      "enunciado": "As proteínas desempenham papéis fundamentais na dinâmica celular de todos os seres vivos. De acordo com as características gerais apresentadas na apostila, assinale a alternativa correta sobre as proteínas:",
+      "alternativas": {
+        "A": "São as macromoléculas mais abundantes nas células e representam o produto final da informação genética (DNA-RNA-Proteína).",
+        "B": "São moléculas inorgânicas simples desprovidas de diversidade funcional no organismo.",
+        "C": "São formadas exclusivamente por cadeias lipídicas lineares sem átomos de nitrogênio.",
+        "D": "Apresentam tamanho fixo e idêntico em qualquer espécie de ser vivo."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: a apostila define textualmente que as proteínas são as macromoléculas mais abundantes nas células, produtos finais do fluxo da informação genética (DNA-RNA-Proteína) e com grande variedade de tamanho.",
+        "B": "Incorreta: as proteínas são macromoléculas orgânicas com ampla diversidade funcional (enzimas, estruturais, defesa, etc.).",
+        "C": "Incorreta: proteínas são polímeros de aminoácidos ricos em nitrogênio (grupo amina), não sendo lipídeos.",
+        "D": "Incorreta: o material didático enfatiza expressamente que as proteínas apresentam uma grande variedade de tamanho."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Proteínas (Conceito Geral)"
+        ],
+        "fundamentacao": "Slide / Proteínas (Conceito Geral).",
+        "trechos_apoio": [
+          "Macromolécula mais abundante nas células; Produto final da informação genética (DNA-RNA-Proteína); Grande variedade tamanho"
+        ]
+      }
+    },
+    {
+      "id": "proteinas-aminoacidos-enzimas_q002",
+      "slide_id": "proteinas-aminoacidos-enzimas",
+      "slide_nome": "Proteínas, Aminoácidos e Enzimas",
+      "arquivo_origem": "PROTEÍNAS, AMINOÁCIDOS E ENZIMAS_261008_211137.pdf",
+      "numero": 2,
+      "tema": "Aminoácidos",
+      "subtema": "Estrutura Química Básica do Monômero",
+      "enunciado": "Os aminoácidos são as unidades monoméricas fundamentais que constituem as proteínas. Qual é a estrutura química básica de um aminoácido ligada a um único átomo de carbono central (carbono α)?",
+      "alternativas": {
+        "A": "Três grupos carboxila idênticos e um átomo de ferro.",
+        "B": "Um grupamento amina básico, um grupo ácido carboxílico, um átomo de hidrogênio e uma cadeia lateral R.",
+        "C": "Um anel aromático esteroide ligado a duas hidroxilas livres.",
+        "D": "Exclusivamente cadeias hidrocarbonadas apolares sem grupos nitrogenados."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o aminoácido não possui três carboxilas na estrutura central padrão e não é obrigatoriamente ligado a ferro.",
+        "B": "Correta: cada aminoácido é constituído por um grupo amina (H₂N), um grupo ácido carboxílico (COOH), um átomo de hidrogênio (H) e uma cadeia lateral/radical R ligados ao carbono α.",
+        "C": "Incorreta: anéis esteroides caracterizam lipídeos (como o colesterol), e não a fórmula geral dos aminoácidos.",
+        "D": "Incorreta: todos os aminoácidos contêm obrigatoriamente um grupo amina com nitrogênio ligado ao carbono α."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Estrutura do Aminoácido / Fórmula Geral"
+        ],
+        "fundamentacao": "Slide / Estrutura do Aminoácido / Fórmula Geral.",
+        "trechos_apoio": [
+          "Moléculas constituídas por um grupamento amina, um grupo ácido carboxílico e uma cadeia lateral R unidas a um único átomo de Carbono (α)"
+        ]
+      }
+    },
+    {
+      "id": "proteinas-aminoacidos-enzimas_q003",
+      "slide_id": "proteinas-aminoacidos-enzimas",
+      "slide_nome": "Proteínas, Aminoácidos e Enzimas",
+      "arquivo_origem": "PROTEÍNAS, AMINOÁCIDOS E ENZIMAS_261008_211137.pdf",
+      "numero": 3,
+      "tema": "Aminoácidos",
+      "subtema": "Carbono Quiral (Assimétrico)",
+      "enunciado": "Na estrutura molecular da maioria dos aminoácidos, o carbono α é considerado um carbono quiral. Segundo a definição apresentada no material didático, o que caracteriza um carbono quiral ou assimétrico?",
+      "alternativas": {
+        "A": "É o átomo de carbono que realiza uma ligação tripla estável com um átomo de oxigênio.",
+        "B": "É o carbono que possui quatro ligantes diferentes entre si.",
+        "C": "É o carbono que se localiza unicamente nas extremidades ramificadas de fosfolipídios.",
+        "D": "É o carbono desprovido de qualquer ligação covalente em meio aquoso."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: carbono quiral faz quatro ligações simples com quatro grupos distintos, e não ligação tripla.",
+        "B": "Correta: a apostila define explicitamente que carbono quiral ou carbono assimétrico é o carbono que possui quatro ligantes diferentes entre si.",
+        "C": "Incorreta: a quiralidade é uma propriedade estereoquímica baseada na assimetria dos quatro ligantes, não na posição em fosfolipídios.",
+        "D": "Incorreta: o carbono quiral estabelece quatro ligações covalentes com grupamentos diferentes."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Carbono Quiral"
+        ],
+        "fundamentacao": "Slide / Carbono Quiral.",
+        "trechos_apoio": [
+          "Carbono quiral ou carbono assimétrico: É o carbono que possui quatro ligantes diferentes entre si"
+        ]
+      }
+    },
+    {
+      "id": "proteinas-aminoacidos-enzimas_q004",
+      "slide_id": "proteinas-aminoacidos-enzimas",
+      "slide_nome": "Proteínas, Aminoácidos e Enzimas",
+      "arquivo_origem": "PROTEÍNAS, AMINOÁCIDOS E ENZIMAS_261008_211137.pdf",
+      "numero": 4,
+      "tema": "Aminoácidos",
+      "subtema": "Classificação Nutricional (Essenciais vs. Não Essenciais)",
+      "enunciado": "Os 20 aminoácidos proteicos podem ser classificados quanto à capacidade de síntese pelo corpo humano. Assinale a alternativa que diferencia corretamente os aminoácidos essenciais dos não essenciais (naturais):",
+      "alternativas": {
+        "A": "Os não essenciais não podem ser obtidos pela dieta; os essenciais são sintetizados em alta quantidade pelo fígado.",
+        "B": "Os não essenciais (naturais) são produzidos pelo organismo; os essenciais não são produzidos pelo organismo e devem ser obtidos pela alimentação.",
+        "C": "Os essenciais compõem unicamente os hormônios; os não essenciais compõem as paredes celulares vegetais.",
+        "D": "Não há diferença fisiológica, sendo todos sintetizados pelo tecido muscular a partir da celulose."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: inverte as definições; os não essenciais são sintetizados pelo corpo e os essenciais devem vir da dieta.",
+        "B": "Correta: aminoácidos não essenciais ou naturais são produzidos pelo organismo, enquanto os essenciais não são sintetizados pelo corpo e são obtidos unicamente pela alimentação.",
+        "C": "Incorreta: ambos os tipos integram a síntese de proteínas corporais de forma ampla.",
+        "D": "Incorreta: o organismo animal não sintetiza os aminoácidos essenciais e não produz aminoácidos a partir de celulose."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Classificação dos Aminoácidos / Aminoácidos Essenciais e Não-Essenciais"
+        ],
+        "fundamentacao": "Slide / Classificação dos Aminoácidos / Aminoácidos Essenciais e Não-Essenciais.",
+        "trechos_apoio": [
+          "AMINOÁCIDOS NÃO ESSENCIAIS OU NATURAIS: São PRODUZIDOS pelo organismo... AMINOÁCIDOS ESSENCIAIS: São os aminoácidos que NÃO são produzidos pelo organismo. Eles são obtidos unicamente pela dieta (alimentação)"
+        ]
+      }
+    },
+    {
+      "id": "proteinas-aminoacidos-enzimas_q005",
+      "slide_id": "proteinas-aminoacidos-enzimas",
+      "slide_nome": "Proteínas, Aminoácidos e Enzimas",
+      "arquivo_origem": "PROTEÍNAS, AMINOÁCIDOS E ENZIMAS_261008_211137.pdf",
+      "numero": 5,
+      "tema": "Aminoácidos",
+      "subtema": "Aminoácidos Semi-Essenciais",
+      "enunciado": "O material didático classifica dois aminoácidos específicos como \"semi-essenciais\". Quais são esses aminoácidos e qual é a justificativa apresentada na apostila para essa classificação?",
+      "alternativas": {
+        "A": "Alanina e Glicina, porque o organismo os degrada antes de sua absorção.",
+        "B": "Arginina e Histidina, porque o organismo os sintetiza, mas em quantidade insuficiente.",
+        "C": "Valina e Leucina, porque sua síntese depende unicamente da ingestão de lipídeos.",
+        "D": "Triptofano e Fenilalanina, pois são produzidos apenas durante a respiração anaeróbica."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: alanina e glicina são classificados como não essenciais típicos.",
+        "B": "Correta: a apostila destaca expressamente a arginina e a histidina como semi-essenciais, pois o organismo é capaz de sintetizá-los, porém em quantidade insuficiente para as necessidades.",
+        "C": "Incorreta: valina e leucina constam na lista dos aminoácidos essenciais puros.",
+        "D": "Incorreta: triptofano e fenilalanina são aminoácidos essenciais aromáticos obtidos pela dieta."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Semi-Essenciais"
+        ],
+        "fundamentacao": "Slide / Semi-Essenciais.",
+        "trechos_apoio": [
+          "SEMI-ESSENCIAIS: Arginina e Histidina. semi-essenciais → organismo sintetiza mas em quantidade insuficiente"
+        ]
+      }
+    },
+    {
+      "id": "proteinas-aminoacidos-enzimas_q006",
+      "slide_id": "proteinas-aminoacidos-enzimas",
+      "slide_nome": "Proteínas, Aminoácidos e Enzimas",
+      "arquivo_origem": "PROTEÍNAS, AMINOÁCIDOS E ENZIMAS_261008_211137.pdf",
+      "numero": 6,
+      "tema": "Ligação Peptídica",
+      "subtema": "Mecanismo Químico de Formação",
+      "enunciado": "A união entre aminoácidos para a formação de peptídeos e proteínas ocorre através da ligação peptídica. Qual reação química caracteriza a formação dessa ligação?",
+      "alternativas": {
+        "A": "Ligação entre o carbono do grupo carboxílico de um aminoácido e o nitrogênio do grupo amino do outro, com liberação de uma molécula de água (condensação/desidratação).",
+        "B": "Hidrólise forçada com incorporação irreversível de duas moléculas de água na cadeia principal.",
+        "C": "Ligação iônica fraca estabelecida entre as cadeias laterais apolares dos radicais R.",
+        "D": "Oxidação do carbono central alfa catalisada por amilase salivar."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: ocorre uma união entre o carbono do grupo carboxílico e o nitrogênio do grupo amino por meio de uma reação de condensação entre dois aminoácidos com a saída de uma molécula de água.",
+        "B": "Incorreta: a síntese do peptídeo libera água (condensação/desidratação); a hidrólise é a reação de quebra.",
+        "C": "Incorreta: a ligação peptídica é uma ligação covalente entre a carboxila e o grupo amina, não uma atração iônica entre radicais.",
+        "D": "Incorreta: a amilase digere amido e não forma ligações peptídicas entre aminoácidos."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Ligação Peptídica"
+        ],
+        "fundamentacao": "Slide / Ligação Peptídica.",
+        "trechos_apoio": [
+          "OCORRE UMA UNIÃO ENTRE O CARBONO DO GRUPO CARBOXÍLICO E O NITROGÊNIO DO GRUPO AMINO... Reação de condensação entre dois aminoácidos com a saída de uma molécula de água"
+        ]
+      }
+    },
+    {
+      "id": "proteinas-aminoacidos-enzimas_q007",
+      "slide_id": "proteinas-aminoacidos-enzimas",
+      "slide_nome": "Proteínas, Aminoácidos e Enzimas",
+      "arquivo_origem": "PROTEÍNAS, AMINOÁCIDOS E ENZIMAS_261008_211137.pdf",
+      "numero": 7,
+      "tema": "Cadeia Polipeptídica",
+      "subtema": "Direcionalidade e Convenção de Extremidades",
+      "enunciado": "As cadeias peptídicas apresentam uma direcionalidade bem definida. De acordo com a convenção apresentada no material didático, qual é o sentido estabelecido para a leitura ou início da cadeia peptídica?",
+      "alternativas": {
+        "A": "Inicia-se na ponta carboxílica (carboxi-terminal) e termina na ponta amínica.",
+        "B": "Inicia-se na extremidade amínica (amino-terminal) e estende-se em direção à extremidade carboxila terminal.",
+        "C": "Não existe sentido ou polaridade química, sendo idênticas ambas as extremidades.",
+        "D": "Inicia-se obrigatoriamente no átomo de enxofre do radical da cisteína."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: inverte o sentido convencional da síntese e leitura peptídica.",
+        "B": "Correta: a apostila especifica: \"Cadeia peptídica c/ SENTIDO extremidades ≠s → convenção → ponta amínica início da cadeia peptídica\" (Amino-terminal para Carboxila-terminal).",
+        "C": "Incorreta: as extremidades são quimicamente diferentes (uma com grupo amina livre e a outra com carboxila livre).",
+        "D": "Incorreta: a convenção do sentido é estruturada pelos grupamentos amina e carboxila da cadeia principal, não pelo enxofre lateral."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Cadeia Peptídica / Extremidades"
+        ],
+        "fundamentacao": "Slide / Cadeia Peptídica / Extremidades.",
+        "trechos_apoio": [
+          "Cadeia peptídica c/ SENTIDO extremidades ≠s → convenção → ponta amínica início da cadeia peptídica... Amino-terminal end / Carboxyl-terminal end"
+        ]
+      }
+    },
+    {
+      "id": "proteinas-aminoacidos-enzimas_q008",
+      "slide_id": "proteinas-aminoacidos-enzimas",
+      "slide_nome": "Proteínas, Aminoácidos e Enzimas",
+      "arquivo_origem": "PROTEÍNAS, AMINOÁCIDOS E ENZIMAS_261008_211137.pdf",
+      "numero": 8,
+      "tema": "Classificação das Proteínas",
+      "subtema": "Proteínas Simples versus Proteínas Conjugadas",
+      "enunciado": "Quanto à composição química, as proteínas são subdivididas em simples e conjugadas. O que diferencia esses dois grupos, conforme explicado na apostila?",
+      "alternativas": {
+        "A": "As proteínas simples contêm ácidos nucleicos; as conjugadas são constituídas exclusivamente por carboidratos.",
+        "B": "As proteínas simples são formadas apenas por aminoácidos; as conjugadas contêm outros componentes além de aminoácidos, chamados grupos prostéticos.",
+        "C": "As simples são encontradas apenas em vírus; as conjugadas são exclusivas de vegetais.",
+        "D": "As simples são insolúveis em água; as conjugadas não realizam ligações peptídicas."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: proteínas simples contêm somente aminoácidos, e proteínas conjugadas não são feitas puramente de carboidratos.",
+        "B": "Correta: proteínas simples são formadas apenas por aminoácidos (ex.: ribonuclease); proteínas conjugadas contêm componentes adicionais além dos aminoácidos, denominados grupos prostéticos (ex.: lipoproteínas, glicoproteínas).",
+        "C": "Incorreta: ambas as categorias distribuem-se amplamente por todos os organismos biológicos.",
+        "D": "Incorreta: todas as proteínas possuem cadeias de aminoácidos unidas por ligações peptídicas."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Proteína Simples e Proteína Conjugada"
+        ],
+        "fundamentacao": "Slide / Proteína Simples e Proteína Conjugada.",
+        "trechos_apoio": [
+          "PROTEÍNAS SIMPLES: São formadas apenas por aminoácidos... PROTEÍNAS CONJUGADAS: Contêm outros componentes, além dos aminoácidos, que são chamados grupos prostéticos"
+        ]
+      }
+    },
+    {
+      "id": "proteinas-aminoacidos-enzimas_q009",
+      "slide_id": "proteinas-aminoacidos-enzimas",
+      "slide_nome": "Proteínas, Aminoácidos e Enzimas",
+      "arquivo_origem": "PROTEÍNAS, AMINOÁCIDOS E ENZIMAS_261008_211137.pdf",
+      "numero": 9,
+      "tema": "Estrutura das Proteínas",
+      "subtema": "Fatores Determinantes da Diversidade e Estrutura Primária",
+      "enunciado": "As proteínas apresentam conformações estruturais altamente organizadas. Segundo a apostila, por quais fatores as proteínas diferem entre si em sua estrutura básica primária?",
+      "alternativas": {
+        "A": "Pelo número, tipo e sequência dos aminoácidos em suas estruturas, arranjados linearmente como um \"colar de contas\".",
+        "B": "Pela quantidade de colesterol esterificado ao longo da membrana plasmática.",
+        "C": "Unicamente pela presença ou ausência de ligações fosfodiéster nos radicais R.",
+        "D": "Exclusivamente pelo número de moléculas de glicose ligadas à extremidade terminal."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: a apostila ensina que as proteínas diferem pelo número, tipo e sequência de aminoácidos, e a estrutura primária forma um arranjo linear semelhante a um \"colar de contas\".",
+        "B": "Incorreta: colesterol é um lipídeo e não define a sequência ou tipo dos aminoácidos da estrutura primária proteica.",
+        "C": "Incorreta: ligações fosfodiéster unem nucleotídeos em ácidos nucleicos; aminoácidos unem-se por ligações peptídicas.",
+        "D": "Incorreta: glicose é um carboidrato e não determina a sequência de aminoácidos da estrutura proteica."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Os Tipos de Proteínas e Suas Estruturas / Estrutura Primária"
+        ],
+        "fundamentacao": "Slide / Os Tipos de Proteínas e Suas Estruturas / Estrutura Primária.",
+        "trechos_apoio": [
+          "As proteínas diferem entre si pelo NÚMERO, TIPO E SEQUÊNCIA dos aminoácidos em suas estruturas... ESTRUTURA PRIMÁRIA: Sequência de aminoácidos e ligações peptídicas da molécula. Forma um arranjo linear, semelhante a um 'colar de contas'"
+        ]
+      }
+    },
+    {
+      "id": "proteinas-aminoacidos-enzimas_q010",
+      "slide_id": "proteinas-aminoacidos-enzimas",
+      "slide_nome": "Proteínas, Aminoácidos e Enzimas",
+      "arquivo_origem": "PROTEÍNAS, AMINOÁCIDOS E ENZIMAS_261008_211137.pdf",
+      "numero": 10,
+      "tema": "Estrutura das Proteínas",
+      "subtema": "Número de Aminoácidos em Proteínas Específicas",
+      "enunciado": "O número de resíduos de aminoácidos varia consideravelmente de uma proteína para outra. De acordo com os exemplos numéricos fornecidos na apostila para a insulina bovina e a hemoglobina humana, quantos aminoácidos compõem essas duas proteínas, respectivamente?",
+      "alternativas": {
+        "A": "10 aminoácidos e 100 aminoácidos.",
+        "B": "51 aminoácidos na insulina bovina e 574 aminoácidos na hemoglobina humana.",
+        "C": "574 aminoácidos na insulina bovina e 51 aminoácidos na hemoglobina humana.",
+        "D": "Ambas contêm exatamente 8.300 aminoácidos."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: os valores reais citados na apostila são 51 e 574 aminoácidos.",
+        "B": "Correta: a apostila cita textualmente como exemplos de variação do número de aminoácidos: Insulina bovina: 51 aminoácidos; Hemoglobina humana: 574 aminoácidos (e desidrogenase glutâmica com 8.300 aminoácidos).",
+        "C": "Incorreta: inverte os valores entre a insulina (que é menor) e a hemoglobina.",
+        "D": "Incorreta: 8.300 aminoácidos é o número relativo à desidrogenase glutâmica citado no mesmo slide."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Os Tipos de Proteínas e Suas Estruturas"
+        ],
+        "fundamentacao": "Slide / Os Tipos de Proteínas e Suas Estruturas.",
+        "trechos_apoio": [
+          "O número de aminoácidos é muito variável de uma proteína para outra: Insulina bovina: 51 aminoácidos; Hemoglobina humana: 574 aminoácidos; Desidrogenase glutâmica: 8 300 aminoácidos"
+        ]
+      }
+    },
+    {
+      "id": "proteinas-aminoacidos-enzimas_q011",
+      "slide_id": "proteinas-aminoacidos-enzimas",
+      "slide_nome": "Proteínas, Aminoácidos e Enzimas",
+      "arquivo_origem": "PROTEÍNAS, AMINOÁCIDOS E ENZIMAS_261008_211137.pdf",
+      "numero": 11,
+      "tema": "Estrutura das Proteínas",
+      "subtema": "Estrutura Secundária e Suas Formas",
+      "enunciado": "A organização espacial das cadeias polipeptídicas avança para o nível secundário por meio de interações locais. Conforme apresentado no material didático, quais são as configurações estruturais típicas assumidas na estrutura secundária?",
+      "alternativas": {
+        "A": "Forma helicoidal (alfa-hélice, espiralar) e folha beta pregueada.",
+        "B": "Estrutura globular quaternária e anel fechado esteroide.",
+        "C": "Filamento desordenado linear idêntico ao arranjo em \"colar de contas\".",
+        "D": "Polímero ramificado de glicoses unidas por ligações glicosídicas."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: a apostila define que na estrutura secundária a proteína passa a ter uma forma helicoidal (alfa-hélice, espiralar) ou de folha beta pregueada.",
+        "B": "Incorreta: conformações globulares complexas e associação de subunidades pertencem aos níveis terciário e quaternário, e esteroide é lipídeo.",
+        "C": "Incorreta: o arranjo linear semelhante a um \"colar de contas\" define a estrutura primária, não a secundária.",
+        "D": "Incorreta: polímeros ramificados de glicose formam o glicogênio e o amido (carboidratos), não estruturas proteicas."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Estrutura Secundária"
+        ],
+        "fundamentacao": "Slide / Estrutura Secundária.",
+        "trechos_apoio": [
+          "A PROTEÍNA PASSA A TER UMA SEGUNDA FORMA: HELICOIDAL (espiralar)... Folha Beta Pregueada / Hélice"
+        ]
+      }
+    },
+    {
+      "id": "proteinas-aminoacidos-enzimas_q012",
+      "slide_id": "proteinas-aminoacidos-enzimas",
+      "slide_nome": "Proteínas, Aminoácidos e Enzimas",
+      "arquivo_origem": "PROTEÍNAS, AMINOÁCIDOS E ENZIMAS_261008_211137.pdf",
+      "numero": 12,
+      "tema": "Estrutura das Proteínas",
+      "subtema": "Estrutura Terciária e Conformação Tridimensional",
+      "enunciado": "A conformação tridimensional de uma cadeia polipeptídica caracteriza o nível terciário de organização. Como se origina a estrutura terciária, de acordo com o material didático?",
+      "alternativas": {
+        "A": "Pela clivagem de todas as ligações peptídicas por enzimas proteolíticas salivares.",
+        "B": "Pelo enrolamento e dobramento das estruturas secundárias sobre si mesmas, adquirindo uma forma tridimensional.",
+        "C": "Pela união exclusiva de nucleotídeos de adenina e ribose no citoplasma.",
+        "D": "Pela perda total de resíduos de aminoácidos durante a digestão bucal."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a quebra de ligações peptídicas destrói a proteína, enquanto a estrutura terciária decorre do dobramento nativo da cadeia intacta.",
+        "B": "Correta: a estrutura terciária é conhecida como tridimensional e ocorre quando as estruturas secundárias começam a dobrar-se sobre si mesmas (enrolamento da hélice).",
+        "C": "Incorreta: adenina e ribose compõem nucleotídeos e ATP, não participando da formação da estrutura terciária proteica.",
+        "D": "Incorreta: aminoácidos não são perdidos ou destruídos para formar a conformação terciária."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Estrutura Terciária"
+        ],
+        "fundamentacao": "Slide / Estrutura Terciária.",
+        "trechos_apoio": [
+          "São conhecidas como estruturas tridimensionais... Elas ocorrem quando as estruturas secundárias começam a dobrar-se sobre si mesmas... Resulta do enrolamento da hélice adquirindo uma estrutura tridimensional"
+        ]
+      }
+    },
+    {
+      "id": "proteinas-aminoacidos-enzimas_q013",
+      "slide_id": "proteinas-aminoacidos-enzimas",
+      "slide_nome": "Proteínas, Aminoácidos e Enzimas",
+      "arquivo_origem": "PROTEÍNAS, AMINOÁCIDOS E ENZIMAS_261008_211137.pdf",
+      "numero": 13,
+      "tema": "Estrutura das Proteínas",
+      "subtema": "Estrutura Quaternária",
+      "enunciado": "Nem todas as proteínas possuem apenas uma cadeia polipeptídica. Como a apostila define a estrutura quaternária das proteínas?",
+      "alternativas": {
+        "A": "Como a sequência linear de aminoácidos determinada diretamente pelo RNA mensageiro.",
+        "B": "Como a presença de duas ou mais cadeias polipeptídicas organizadas em estrutura tridimensional.",
+        "C": "Como a conformação inativa resultante da ebulição térmica prolongada.",
+        "D": "Como a conversão de resíduos de aminoácidos em ácidos graxos voláteis."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a sequência linear de aminoácidos ao longo da cadeia polipeptídica é a estrutura primária.",
+        "B": "Correta: a estrutura quaternária ocorre quando algumas proteínas possuem duas ou mais cadeias polipeptídicas interagindo em uma estrutura tridimensional (como exemplificado com cadeias alfa e beta).",
+        "C": "Incorreta: a perda da conformação funcional por aquecimento excessivo é desnaturação, e não estrutura quaternária.",
+        "D": "Incorreta: a estrutura quaternária não envolve conversão de aminoácidos em ácidos graxos."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Estrutura Quaternária"
+        ],
+        "fundamentacao": "Slide / Estrutura Quaternária.",
+        "trechos_apoio": [
+          "Algumas proteínas podem ter duas ou mais cadeias polipeptídicas em estrutura tridimensional... Cadeia Alfa / Cadeia Beta"
+        ]
+      }
+    },
+    {
+      "id": "proteinas-aminoacidos-enzimas_q014",
+      "slide_id": "proteinas-aminoacidos-enzimas",
+      "slide_nome": "Proteínas, Aminoácidos e Enzimas",
+      "arquivo_origem": "PROTEÍNAS, AMINOÁCIDOS E ENZIMAS_261008_211137.pdf",
+      "numero": 14,
+      "tema": "Relação Estrutura e Função",
+      "subtema": "Níveis Estruturais Ativos da Proteína",
+      "enunciado": "O funcionamento biológico de uma proteína depende do seu arranjo conformacional no espaço. De acordo com o material didático, em quais níveis estruturais as proteínas encontram-se funcionalmente ativas?",
+      "alternativas": {
+        "A": "Exclusivamente na estrutura primária, assim que os aminoácidos saem do ribossomo.",
+        "B": "Apenas quando desnaturadas e insolubilizadas pelo ácido gástrico.",
+        "C": "Nas formas terciária e quaternária.",
+        "D": "Apenas quando ligadas irreversivelmente a moléculas de amido."
+      },
+      "gabarito": "C",
+      "explicacoes": {
+        "A": "Incorreta: a estrutura primária é apenas a sequência linear de ligação; a atividade biológica surge com o dobramento tridimensional.",
+        "B": "Incorreta: quando desnaturadas, as proteínas perdem sua forma espacial e sua função biológica.",
+        "C": "Correta: a apostila afirma expressamente que a estrutura terciária dá função à proteína e que \"as proteínas estão ativas na forma terciária e quaternária\".",
+        "D": "Incorreta: proteínas ativas não requerem ligação com amido (polissacarídeo vegetal digerido no trato gastrointestinal)."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Estrutura da Proteína"
+        ],
+        "fundamentacao": "Slide / Estrutura da Proteína.",
+        "trechos_apoio": [
+          "A estrutura terciária dá função a proteína... As proteínas estão ativas na forma terciária e quaternária... Caso ocorra alguma alteração nessa estrutura, a proteína perde toda ou parte de sua função"
+        ]
+      }
+    },
+    {
+      "id": "proteinas-aminoacidos-enzimas_q015",
+      "slide_id": "proteinas-aminoacidos-enzimas",
+      "slide_nome": "Proteínas, Aminoácidos e Enzimas",
+      "arquivo_origem": "PROTEÍNAS, AMINOÁCIDOS E ENZIMAS_261008_211137.pdf",
+      "numero": 15,
+      "tema": "Conformação Funcional e Patologia Molecular",
+      "subtema": "Alteração Estrutural na Hemoglobina Falciforme",
+      "enunciado": "A importância da conformação correta de uma proteína é evidenciada na anemia falciforme. Segundo o exemplo da apostila, qual alteração pontual na cadeia de aminoácidos da hemoglobina gera a hemácia falciforme?",
+      "alternativas": {
+        "A": "A substituição de um ácido glutâmico por uma valina.",
+        "B": "A perda completa de quatro átomos de ferro da molécula de hemo.",
+        "C": "A substituição de todas as glicinas por moléculas de frutose.",
+        "D": "A adição de cinquenta resíduos extras de lisina na extremidade C-terminal."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: a apostila ilustra a relação entre estrutura e função destacando que na hemácia falciforme ocorre uma substituição de um ácido glutâmico por uma valina na cadeia da hemoglobina.",
+        "B": "Incorreta: a alteração primária citada é a troca de um aminoácido específico, não a desincorporação generalizada de ferro da hemoglobina.",
+        "C": "Incorreta: frutose é um carboidrato e não substitui resíduos polipeptídicos na anemia falciforme.",
+        "D": "Incorreta: a mutação descrita no material não envolve inserção de cinquenta resíduos de lisina."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Estrutura X Função (Hemácia Normal vs. Falciforme)"
+        ],
+        "fundamentacao": "Slide / Estrutura X Função (Hemácia Normal vs. Falciforme).",
+        "trechos_apoio": [
+          "A- Hemácia Normal / B- Hemácia Falciforme... Há uma troca na cadeia de aminoácidos da hemoglobina (substituição de um ácido glutâmico por uma valina)"
+        ]
+      }
+    },
+    {
+      "id": "proteinas-aminoacidos-enzimas_q016",
+      "slide_id": "proteinas-aminoacidos-enzimas",
+      "slide_nome": "Proteínas, Aminoácidos e Enzimas",
+      "arquivo_origem": "PROTEÍNAS, AMINOÁCIDOS E ENZIMAS_261008_211137.pdf",
+      "numero": 16,
+      "tema": "Desnaturação Proteica",
+      "subtema": "Conceito de Desnaturação",
+      "enunciado": "Diversos fatores ambientais podem desestabilizar as interações nativas das proteínas. Conforme o texto didático, o que é o processo de desnaturação proteica?",
+      "alternativas": {
+        "A": "É a síntese acelerada de novas ligações peptídicas no interior do núcleo.",
+        "B": "É um processo no qual as proteínas perdem suas funções devido a mudanças no meio que afetam sua forma espacial.",
+        "C": "É a quebra completa dos aminoácidos em dióxido de carbono e água.",
+        "D": "É a conversão de proteínas musculares em glicogênio hepático via transcrição."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: síntese proteica é anabolismo ribossômico, não desnaturação.",
+        "B": "Correta: a desnaturação é conceituada como o processo no qual moléculas de proteínas perdem suas funções devido a alterações no meio que afetam a sua forma espacial tridimensional.",
+        "C": "Incorreta: a desnaturação altera a conformação espacial sem quebrar as ligações peptídicas covalentes primárias em gases.",
+        "D": "Incorreta: a desnaturação não transforma aminoácidos em glicogênio."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Desnaturação da Proteína"
+        ],
+        "fundamentacao": "Slide / Desnaturação da Proteína.",
+        "trechos_apoio": [
+          "A desnaturação é um processo no qual moléculas de proteínas perdem suas funções, devido a alguma mudança no meio afetando a sua forma espacial"
+        ]
+      }
+    },
+    {
+      "id": "proteinas-aminoacidos-enzimas_q017",
+      "slide_id": "proteinas-aminoacidos-enzimas",
+      "slide_nome": "Proteínas, Aminoácidos e Enzimas",
+      "arquivo_origem": "PROTEÍNAS, AMINOÁCIDOS E ENZIMAS_261008_211137.pdf",
+      "numero": 17,
+      "tema": "Desnaturação Proteica",
+      "subtema": "Agentes Desnaturantes",
+      "enunciado": "A manutenção da forma funcional da proteína depende da estabilidade do seu meio. Quais fatores são expressamente citados na apostila como agentes capazes de afetar a forma espacial da proteína e provocar desnaturação?",
+      "alternativas": {
+        "A": "Temperatura, pH, polaridade e solventes.",
+        "B": "Exclusivamente a radiação gama e a concentração de glicose.",
+        "C": "Apenas a presença de celulose e a ausência de oxigênio.",
+        "D": "Exclusivamente a mastigação rápida na cavidade bucal."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: a apostila lista explicitamente: \"A FORMA ESPACIAL da proteína pode ser afetada pela: TEMPERATURA, PH, POLARIDADE, SOLVENTES, ETC.\".",
+        "B": "Incorreta: a apostila cita temperatura, pH, polaridade e solventes, e não radiação gama exclusiva.",
+        "C": "Incorreta: celulose é fibra vegetal dietética não listada como agente desnaturante celular.",
+        "D": "Incorreta: a mastigação promove divisão mecânica do alimento, enquanto agentes físico-químicos alteram a forma tridimensional proteica."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Desnaturação da Proteína (Fatores)"
+        ],
+        "fundamentacao": "Slide / Desnaturação da Proteína (Fatores).",
+        "trechos_apoio": [
+          "A FORMA ESPACIAL da proteína pode ser afetada pela: TEMPERATURA, PH, POLARIDADE, SOLVENTES, ETC."
+        ]
+      }
+    },
+    {
+      "id": "proteinas-aminoacidos-enzimas_q018",
+      "slide_id": "proteinas-aminoacidos-enzimas",
+      "slide_nome": "Proteínas, Aminoácidos e Enzimas",
+      "arquivo_origem": "PROTEÍNAS, AMINOÁCIDOS E ENZIMAS_261008_211137.pdf",
+      "numero": 18,
+      "tema": "Desnaturação Proteica",
+      "subtema": "Exemplos Cotidianos (pH e Temperatura)",
+      "enunciado": "A apostila apresenta exemplos práticos do cotidiano para ilustrar a desnaturação proteica por variações de pH e temperatura. Quais são esses dois exemplos citados no texto?",
+      "alternativas": {
+        "A": "Adição de sal de cozinha na água e dissolução de sacarose no café.",
+        "B": "Adição de limão (ácido) no leite levando ao coalho; e o cozimento/fritura do ovo desnaturando a albumina pela alta temperatura.",
+        "C": "Congelamento da carne crua e fermentação alcoólica da glicose em leveduras.",
+        "D": "Mistura de amido de milho com água fria e oxigenação da hemoglobina."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: dissolução de sal e açúcar são processos de solubilização física, não desnaturação proteica.",
+        "B": "Correta: o material cita textualmente o limão adicionado ao leite para coalhar (pH ácido desnaturando as proteínas) e a fritura/cozimento do ovo, no qual a clara passa de transparente a branca pela desnaturação da albumina pela alta temperatura.",
+        "C": "Incorreta: congelamento não é o exemplo de desnaturação térmica citado e a fermentação é catabolismo glicídico.",
+        "D": "Incorreta: amido é carboidrato e oxigenação da hemoglobina é transporte de gás fisiológico reversível."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Desnaturação da Proteína (Exemplos)"
+        ],
+        "fundamentacao": "Slide / Desnaturação da Proteína (Exemplos).",
+        "trechos_apoio": [
+          "Quando colocamos algo ácido, como limão, no leite e ele coalha... o PH ácido leva à desnaturação das proteínas... Quando fritamos ou cozinhamos um ovo. A clara passa de transparente a branca... proteína albumina que desnatura pela alta temperatura"
+        ]
+      }
+    },
+    {
+      "id": "proteinas-aminoacidos-enzimas_q019",
+      "slide_id": "proteinas-aminoacidos-enzimas",
+      "slide_nome": "Proteínas, Aminoácidos e Enzimas",
+      "arquivo_origem": "PROTEÍNAS, AMINOÁCIDOS E ENZIMAS_261008_211137.pdf",
+      "numero": 19,
+      "tema": "Funções Biológicas das Proteínas",
+      "subtema": "Proteínas Contráteis, Transportadoras e Reguladoras",
+      "enunciado": "As proteínas apresentam grande versatilidade funcional no corpo humano. Assinale a correlação correta entre a proteína e a sua função descrita na apostila:",
+      "alternativas": {
+        "A": "Actina e miosina atuam na contração promovendo os movimentos celulares e musculares.",
+        "B": "A hemoglobina atua exclusivamente na quebra química do amido na boca.",
+        "C": "A insulina atua como proteína de defesa imunológica contra vírus.",
+        "D": "As lipoproteínas são responsáveis pela contração dos miócitos cardíacos."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: a actina e a miosina são classificadas como proteínas de função contrátil, que promovem os movimentos celulares e musculares.",
+        "B": "Incorreta: quem quebra o amido é a enzima amilase; a hemoglobina transporta oxigênio pelo sangue.",
+        "C": "Incorreta: a insulina é um hormônio/regulador químico que estimula a entrada de glicose na célula, não um anticorpo de defesa.",
+        "D": "Incorreta: lipoproteínas transportam lipídeos (como colesterol) no sangue, não atuando na contração muscular."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Função da Proteína"
+        ],
+        "fundamentacao": "Slide / Função da Proteína.",
+        "trechos_apoio": [
+          "CONTRAÇÃO: promovem os movimentos de estruturas celulares, músculos. Ex.: actina e miosina... TRANSPORTADORA... Hemoglobina (transporta O2)... REGULADORA/HORMONAL... Insulina (estimula a entrada da glicose na célula)"
+        ]
+      }
+    },
+    {
+      "id": "proteinas-aminoacidos-enzimas_q020",
+      "slide_id": "proteinas-aminoacidos-enzimas",
+      "slide_nome": "Proteínas, Aminoácidos e Enzimas",
+      "arquivo_origem": "PROTEÍNAS, AMINOÁCIDOS E ENZIMAS_261008_211137.pdf",
+      "numero": 20,
+      "tema": "Peptídeos com Atividade Biológica",
+      "subtema": "Número de Resíduos em Peptídeos Específicos",
+      "enunciado": "Cadeias curtas de aminoácidos (peptídeos) desempenham importantes papéis reguladores no organismo. Segundo a lista de funções de peptídeos presente no material, quantos resíduos de aminoácidos compõem a ocitocina e qual é o seu efeito fisiológico destacado?",
+      "alternativas": {
+        "A": "2 resíduos de aminoácidos; atua como adoçante dietético.",
+        "B": "9 resíduos de aminoácidos; atua estimulando a contração uterina.",
+        "C": "29 resíduos de aminoácidos; inibe o catabolismo do glicogênio.",
+        "D": "574 resíduos de aminoácidos; transporta gás carbônico."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o composto com 2 resíduos de aminoácidos usado como adoçante é o aspartame.",
+        "B": "Correta: a ocitocina possui 9 resíduos de aminoácidos e desempenha a função de estimular a contração uterina.",
+        "C": "Incorreta: o peptídeo com 29 aminoácidos citado no slide é o glucagon.",
+        "D": "Incorreta: 574 aminoácidos compõem a hemoglobina humana, que é uma proteína quaternária volumosa, não um pequeno peptídeo."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Peptídeos Funções"
+        ],
+        "fundamentacao": "Slide / Peptídeos Funções.",
+        "trechos_apoio": [
+          "Ocitocina: 9 resíduos de aa; estimula contração uterina... Aspartame: adoçante; 2 resíduos de aa... Bradicinina: 9 resíduos de aa; inibe inflamação... Glucagon: 29 aa"
+        ]
+      }
+    },
+    {
+      "id": "proteinas-aminoacidos-enzimas_q021",
+      "slide_id": "proteinas-aminoacidos-enzimas",
+      "slide_nome": "Proteínas, Aminoácidos e Enzimas",
+      "arquivo_origem": "PROTEÍNAS, AMINOÁCIDOS E ENZIMAS_261008_211137.pdf",
+      "numero": 21,
+      "tema": "Enzimas",
+      "subtema": "Conceito de Catalisador Biológico",
+      "enunciado": "As enzimas exercem um papel regulador essencial nas vias metabólicas celulares. De acordo com a definição apresentada no material didático, como as enzimas são conceituadas?",
+      "alternativas": {
+        "A": "São proteínas catalisadoras que aumentam a velocidade das reações químicas sem sofrerem alterações no processo global.",
+        "B": "São lipídeos insolúveis que reduzem a velocidade das reações celulares para evitar o consumo de ATP.",
+        "C": "São carboidratos fibrosos que se consomem integralmente a cada ciclo de quebra de substrato.",
+        "D": "São ácidos nucleicos sintetizados nas glândulas salivares que se transformam irreversivelmente no produto final."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: as enzimas são definidas textualmente como proteínas catalisadoras que aumentam a velocidade das reações químicas sem sofrerem alterações no processo global.",
+        "B": "Incorreta: enzimas são proteínas (e não lipídeos) e atuam acelerando reações, não reduzindo sua velocidade.",
+        "C": "Incorreta: enzimas não são carboidratos e não são consumidas na reação, permanecendo intactas ao final.",
+        "D": "Incorreta: a vasta maioria das enzimas celulares são proteínas, e a enzima não se converte em produto, apenas transforma o substrato."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Enzimas (Conceito Geral)"
+        ],
+        "fundamentacao": "Slide / Enzimas (Conceito Geral).",
+        "trechos_apoio": [
+          "São proteínas catalisadoras, ou seja, proteínas que aumentam a velocidade das reações, sem sofrerem alterações no processo global"
+        ]
+      }
+    },
+    {
+      "id": "proteinas-aminoacidos-enzimas_q022",
+      "slide_id": "proteinas-aminoacidos-enzimas",
+      "slide_nome": "Proteínas, Aminoácidos e Enzimas",
+      "arquivo_origem": "PROTEÍNAS, AMINOÁCIDOS E ENZIMAS_261008_211137.pdf",
+      "numero": 22,
+      "tema": "Enzimas",
+      "subtema": "Efeito Catalisador e Tempo de Reação",
+      "enunciado": "O efeito catalisador das enzimas pode ser demonstrado pela comparação do tempo necessário para o término de uma reação química. Qual é o exemplo comparativo apresentado no slide \"A enzima é um catalisador\"?",
+      "alternativas": {
+        "A": "Reação sem catalisador: 10 horas; reação com catalisador: 1 minuto.",
+        "B": "Reação sem catalisador: 1 segundo; reação com catalisador: 24 horas.",
+        "C": "Reação sem catalisador: tempo nulo; reação com catalisador: tempo infinito.",
+        "D": "Reação sem catalisador: 1 semana; reação com catalisador: 3 meses."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: a apostila ilustra a eficiência catalítica com o exemplo exato de uma reação sem catalisador que levaria 10 horas ocorrendo em apenas 1 minuto na presença da enzima.",
+        "B": "Incorreta: inverte o efeito; o catalisador reduz o tempo necessário para a reação acontecer, acelerando o processo.",
+        "C": "Incorreta: reações espontâneas sem catalisador costumam ser lentas, nunca de tempo nulo, e a catálise não estende o tempo para o infinito.",
+        "D": "Incorreta: os valores numéricos didáticos citados no slide são especificamente 10 horas e 1 minuto."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / A Enzima é um Catalisador"
+        ],
+        "fundamentacao": "Slide / A Enzima é um Catalisador.",
+        "trechos_apoio": [
+          "CATALIZADOR – AUMENTA A VELOCIDADE DE REAÇÃO (ACELERA A REAÇÃO). EX: REAÇÃO SEM CATALIZADOR: TEMPO: 10 HORAS / REAÇÃO COM CATALIZADOR: TEMPO: 1 MINUTO"
+        ]
+      }
+    },
+    {
+      "id": "proteinas-aminoacidos-enzimas_q023",
+      "slide_id": "proteinas-aminoacidos-enzimas",
+      "slide_nome": "Proteínas, Aminoácidos e Enzimas",
+      "arquivo_origem": "PROTEÍNAS, AMINOÁCIDOS E ENZIMAS_261008_211137.pdf",
+      "numero": 23,
+      "tema": "Cinética Enzimática",
+      "subtema": "Energia de Ativação e Equilíbrio Químico",
+      "enunciado": "O mecanismo biofísico pelo qual uma enzima acelera uma reação química envolve a alteração das barreiras termodinâmicas do processo. Conforme o material didático, qual é a ação da enzima sobre a energia de ativação e sobre o equilíbrio químico da reação?",
+      "alternativas": {
+        "A": "Eleva a energia de ativação e desloca o equilíbrio químico para a destruição irreversível dos reagentes.",
+        "B": "Diminui a energia de ativação necessária para converter substrato em produto, sem alterar o equilíbrio químico da reação.",
+        "C": "Mantém constante a energia de ativação consumindo moléculas de glicose do citosol.",
+        "D": "Aumenta o equilíbrio químico em milhões de vezes destruindo o complexo ativado."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a enzima reduz (não eleva) a energia de ativação e não altera o equilíbrio químico da reação.",
+        "B": "Correta: a velocidade aumenta pela diminuição da energia de ativação necessária para converter o substrato em produto, e as enzimas não alteram o equilíbrio químico da reação.",
+        "C": "Incorreta: a diminuição da barreira de ativação é o mecanismo essencial da catálise.",
+        "D": "Incorreta: as enzimas aumentam a velocidade da reação, mas não alteram a constante de equilíbrio químico."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Velocidade da Reação e Principais Características"
+        ],
+        "fundamentacao": "Slide / Velocidade da Reação e Principais Características.",
+        "trechos_apoio": [
+          "A velocidade de reação aumenta devido a diminuição da energia de ativação necessária para converter o substrato no produto... As enzimas não são consumidas na reação e não alteram o equilíbrio químico dela"
+        ]
+      }
+    },
+    {
+      "id": "proteinas-aminoacidos-enzimas_q024",
+      "slide_id": "proteinas-aminoacidos-enzimas",
+      "slide_nome": "Proteínas, Aminoácidos e Enzimas",
+      "arquivo_origem": "PROTEÍNAS, AMINOÁCIDOS E ENZIMAS_261008_211137.pdf",
+      "numero": 24,
+      "tema": "Especificidade Enzimática",
+      "subtema": "Substrato, Produto e Modelo Chave-Fechadura",
+      "enunciado": "A atuação enzimática baseia-se em um reconhecimento molecular de alta especificidade. Segundo o material didático, como é denominada a substância inicial transformada pela enzima e qual modelo analógico clássico descreve esse encaixe?",
+      "alternativas": {
+        "A": "É denominada produto e o modelo é o da bomba de sódio-potássio.",
+        "B": "É denominada substrato e o encaixe com a enzima forma o complexo enzima-substrato, semelhante ao sistema \"chave-fechadura\".",
+        "C": "É denominada inibidor irreversível e o modelo é o mosaico fluido.",
+        "D": "É denominada cofator inorgânico e o modelo é o colar de contas primário."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: produto é o composto resultante final da reação, e a bomba de sódio-potássio é um carreador de transporte ativo.",
+        "B": "Correta: a enzima converte uma substância chamada substrato em produto, e o encaixe estereoespecífico forma o complexo enzima-substrato pelo modelo \"chave-fechadura\".",
+        "C": "Incorreta: inibidor bloqueia a enzima; substrato é a molécula que sofre a catálise, e mosaico fluido descreve a membrana lipídica.",
+        "D": "Incorreta: \"colar de contas\" é a analogia usada para a estrutura primária das proteínas, não para o encaixe da reação enzimática."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Enzimas (Substrato) / Especificidade das Enzimas"
+        ],
+        "fundamentacao": "Slide / Enzimas (Substrato) / Especificidade das Enzimas.",
+        "trechos_apoio": [
+          "As enzimas convertem uma substância, chamada de SUBSTRATO, em outra denominada PRODUTO... forma-se o complexo enzima-substrato, que se assemelha ao sistema 'chave-fechadura'"
+        ]
+      }
+    },
+    {
+      "id": "proteinas-aminoacidos-enzimas_q025",
+      "slide_id": "proteinas-aminoacidos-enzimas",
+      "slide_nome": "Proteínas, Aminoácidos e Enzimas",
+      "arquivo_origem": "PROTEÍNAS, AMINOÁCIDOS E ENZIMAS_261008_211137.pdf",
+      "numero": 25,
+      "tema": "Sítio Ativo",
+      "subtema": "Definição e Comportamento Pós-Reacional da Enzima",
+      "enunciado": "O sítio ativo é a região funcional central de uma enzima. De acordo com a apostila, o que é o sítio ativo e o que acontece com a enzima após a liberação do produto formado?",
+      "alternativas": {
+        "A": "É uma cavidade com ambiente químico próprio onde o substrato se encaixa; após a reação, a enzima desliga-se do substrato e permanece intacta.",
+        "B": "É a extremidade carboxílica que se rompe e se decompõe em aminoácidos isolados ao término da catálise.",
+        "C": "É uma camada de fosfolipídios que se funde ao núcleo da célula para gerar energia térmica.",
+        "D": "É o local onde ocorre a ligação peptídica permanente entre a enzima e os produtos formados."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: o sítio ativo é uma cavidade na enzima onde o substrato se encaixa; após a reação, a enzima desliga-se do produto e permanece intacta e apta a novos ciclos.",
+        "B": "Incorreta: a enzima não é degradada nem perde resíduos ao catalisar a reação.",
+        "C": "Incorreta: o sítio ativo é uma estrutura proteica tridimensional da própria enzima, não uma camada fosfolipídica.",
+        "D": "Incorreta: a enzima não forma ligação covalente irreversível nem se funde ao produto; ela se desliga."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Sítio Ativo"
+        ],
+        "fundamentacao": "Slide / Sítio Ativo.",
+        "trechos_apoio": [
+          "O local da enzima onde o substrato se 'encaixa' é denominado sítio ativo... cavidade na enzima, com um ambiente químico muito próprio... Após a reação, a enzima desliga-se do substrato e permanece intacta"
+        ]
+      }
+    },
+    {
+      "id": "proteinas-aminoacidos-enzimas_q026",
+      "slide_id": "proteinas-aminoacidos-enzimas",
+      "slide_nome": "Proteínas, Aminoácidos e Enzimas",
+      "arquivo_origem": "PROTEÍNAS, AMINOÁCIDOS E ENZIMAS_261008_211137.pdf",
+      "numero": 26,
+      "tema": "Fatores que Afetam a Atividade Enzimática",
+      "subtema": "Temperatura e Temperatura Ótima em Humanos",
+      "enunciado": "A temperatura ambiente interfere de maneira direta na velocidade das reações enzimáticas. Segundo a apostila, o que ocorre com a velocidade da reação quando a temperatura ultrapassa o valor ótimo e qual é a faixa de temperatura ótima para a maioria das enzimas humanas?",
+      "alternativas": {
+        "A": "A velocidade aumenta continuamente até 100°C; a faixa ótima humana fica em torno de 15 a 20°C.",
+        "B": "A partir de uma determinada temperatura a velocidade diminui bruscamente; a temperatura ótima para a maioria das enzimas humanas situa-se entre 35 e 40°C.",
+        "C": "A velocidade permanece inalterada; a temperatura ótima em humanos é fixada em exatamente 70°C.",
+        "D": "A velocidade cai a zero imediatamente aos 30°C pela perda irreversível de ligações peptídicas."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: acima da temperatura ótima a velocidade sofre queda brusca por desnaturação térmica, e a faixa ótima humana não é de 15 a 20°C.",
+        "B": "Correta: a velocidade aumenta até a temperatura ótima, diminuindo bruscamente a partir dela por desnaturação; para a maioria das enzimas humanas a faixa ótima fica entre 35 e 40°C (temperatura corporal normal).",
+        "C": "Incorreta: 70°C é a temperatura ótima típica de bactérias termófilas de fontes termais citadas na apostila, e não de enzimas humanas.",
+        "D": "Incorreta: em 30°C as enzimas humanas continuam ativas, alcançando o pico entre 35 e 40°C."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Condições para a Atuação Enzimática - Temperatura"
+        ],
+        "fundamentacao": "Slide / Condições para a Atuação Enzimática - Temperatura.",
+        "trechos_apoio": [
+          "Entretanto, a partir de uma determinada temperatura, a velocidade da reação diminui bruscamente. A maioria das enzimas humanas, têm sua temperatura ótima entre 35 e 40°C, a faixa de temperatura normal do nosso corpo"
+        ]
+      }
+    },
+    {
+      "id": "proteinas-aminoacidos-enzimas_q027",
+      "slide_id": "proteinas-aminoacidos-enzimas",
+      "slide_nome": "Proteínas, Aminoácidos e Enzimas",
+      "arquivo_origem": "PROTEÍNAS, AMINOÁCIDOS E ENZIMAS_261008_211137.pdf",
+      "numero": 27,
+      "tema": "Fatores que Afetam a Atividade Enzimática",
+      "subtema": "Influência do pH e Faixa Ótima Geral",
+      "enunciado": "O potencial hidrogeniônico (pH) é outro fator que altera a conformação espacial e a atividade catalítica das enzimas. De acordo com o texto da apostila, qual é a faixa de pH ótimo para a maioria das enzimas do organismo?",
+      "alternativas": {
+        "A": "pH fortemente ácido entre 0 e 2.",
+        "B": "pH entre 6 e 8.",
+        "C": "pH fortemente alcalino entre 12 e 14.",
+        "D": "Exclusivamente em pH neutro absoluto 7,00, sem nenhuma exceção fisiológica."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: pH entre 0 e 2 é extremamente ácido (faixa específica da pepsina gástrica), não sendo o padrão para a maioria das enzimas.",
+        "B": "Correta: a apostila destaca expressamente que \"o pH ótimo para a maioria das enzimas fica entre 6 e 8, mas há exceções\".",
+        "C": "Incorreta: pH entre 12 e 14 é extremamente alcalino e provocaria a desnaturação da maioria das proteínas funcionais.",
+        "D": "Incorreta: a faixa normal é de 6 a 8 e a própria apostila reforça que existem exceções notáveis (como pepsina e tripsina)."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Condições para a Atuação Enzimática - (pH) Grau de Acidez"
+        ],
+        "fundamentacao": "Slide / Condições para a Atuação Enzimática - (pH) Grau de Acidez.",
+        "trechos_apoio": [
+          "Cada enzima tem um pH ótimo de atuação, no qual a sua atividade é máxima. O pH ótimo para a maioria das enzimas fica entre 6 e 8, mas há exceções"
+        ]
+      }
+    },
+    {
+      "id": "proteinas-aminoacidos-enzimas_q028",
+      "slide_id": "proteinas-aminoacidos-enzimas",
+      "slide_nome": "Proteínas, Aminoácidos e Enzimas",
+      "arquivo_origem": "PROTEÍNAS, AMINOÁCIDOS E ENZIMAS_261008_211137.pdf",
+      "numero": 28,
+      "tema": "Fatores que Afetam a Atividade Enzimática",
+      "subtema": "pH Ótimo da Pepsina e da Tripsina",
+      "enunciado": "O trato gastrointestinal humano apresenta variações acentuadas de pH entre os seus compartimentos. Conforme exemplificado no gráfico e no texto da apostila, quais são os valores aproximados de pH ótimo para a atuação da pepsina (enzima estomacal) e da tripsina (enzima intestinal), respectivamente?",
+      "alternativas": {
+        "A": "Em torno de 2 para a pepsina e em torno de 8 para a tripsina.",
+        "B": "Em torno de 8 para a pepsina e em torno de 2 para a tripsina.",
+        "C": "Exatamente 7 para ambas as enzimas digestivas.",
+        "D": "Em torno de 12 para a pepsina e em torno de 0 para a tripsina."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: a pepsina digestiva estomacal atua no ambiente ácido com pH ótimo em torno de 2; a tripsina atua no meio alcalino do intestino delgado com pH ótimo em torno de 8.",
+        "B": "Incorreta: inverte as localizações e valores de pH de ambas as enzimas digestivas.",
+        "C": "Incorreta: pepsina e tripsina operam em valores distintos e distantes do neutro (estômago ácido vs. intestino alcalino).",
+        "D": "Incorreta: os valores de pH fisiológicos citados no gráfico e texto são 2 e 8."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Condições para a Atuação Enzimática - pH Ótimo (Pepsina e Tripsina)"
+        ],
+        "fundamentacao": "Slide / Condições para a Atuação Enzimática - pH Ótimo (Pepsina e Tripsina).",
+        "trechos_apoio": [
+          "A pepsina, por exemplo, uma enzima digestiva estomacal, atua eficientemente no pH fortemente ácido de nosso estômago (em torno de 2)... A tripsina, por sua vez, é uma enzima digestiva que atua no ambiente alcalino do intestino, tendo um pH ótimo situado em torno de 8"
+        ]
+      }
+    },
+    {
+      "id": "proteinas-aminoacidos-enzimas_q029",
+      "slide_id": "proteinas-aminoacidos-enzimas",
+      "slide_nome": "Proteínas, Aminoácidos e Enzimas",
+      "arquivo_origem": "PROTEÍNAS, AMINOÁCIDOS E ENZIMAS_261008_211137.pdf",
+      "numero": 29,
+      "tema": "Enzimas Digestivas",
+      "subtema": "Amilase Salivar (Ptialina)",
+      "enunciado": "A amilase salivar (ptialina) inicia a digestão química dos alimentos na boca. Com base nas propriedades descritas na apostila, quais são as condições de maior atividade catalítica e o que ocorre com essa enzima ao atingir o estômago?",
+      "alternativas": {
+        "A": "Maior atividade em pH 2,0 a 100°C; sendo ativada intensamente pelo suco gástrico.",
+        "B": "Maior atividade em pH 6,8 (levemente ácido) e 37°C; sendo inativada pelo baixo pH do suco gástrico.",
+        "C": "Maior atividade em pH 14 a 0°C; transformando-se em tripsina no estômago.",
+        "D": "Apresenta atividade constante em qualquer temperatura, sem sofrer influência do ácido clorídrico."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: pH 2 e 100°C desnaturam a amilase salivar; o ambiente gástrico inativa a enzima.",
+        "B": "Correta: a amilase salivar possui maior atividade em pH 6,8 (levemente ácido) e temperatura de 37°C, sendo inativada pelo baixo pH ácido do suco gástrico estomacal.",
+        "C": "Incorreta: a enzima não atua em pH 14 e não é convertida quimicamente em tripsina.",
+        "D": "Incorreta: a enzima é fortemente dependente de pH e temperatura, cessando sua função no estômago ácido."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Amilase Salivar"
+        ],
+        "fundamentacao": "Slide / Amilase Salivar.",
+        "trechos_apoio": [
+          "Primeira enzima da cadeia digestiva; Maior atividade em: - pH: 6,8 (levemente ácido) / 37°C; É inativada pelo baixo pH do suco gástrico"
+        ]
+      }
+    },
+    {
+      "id": "proteinas-aminoacidos-enzimas_q030",
+      "slide_id": "proteinas-aminoacidos-enzimas",
+      "slide_nome": "Proteínas, Aminoácidos e Enzimas",
+      "arquivo_origem": "PROTEÍNAS, AMINOÁCIDOS E ENZIMAS_261008_211137.pdf",
+      "numero": 30,
+      "tema": "Inibição Enzimática",
+      "subtema": "Inibição Reversível vs. Irreversível",
+      "enunciado": "Substâncias ou condições que reduzem ou anulam a velocidade das reações catalisadas por enzimas são classificadas como inibidores. Conforme o material didático, qual é a diferença entre a inibição reversível e a inibição irreversível?",
+      "alternativas": {
+        "A": "A reversível ocorre pela presença de substâncias químicas; a irreversível pode ocorrer por aquecimento excessivo (desnaturação).",
+        "B": "A reversível ocorre apenas na ausência de água; a irreversível ocorre exclusivamente em pH neutro.",
+        "C": "A reversível destrói as ligações peptídicas da enzima; a irreversível regenera o substrato original.",
+        "D": "Não existe diferença operacional entre ambas, pois toda inibição térmica é prontamente desfeita pela tripsina."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: a apostila define que a inibição enzimática pode ser reversível (provocada pela presença de determinadas substâncias químicas) ou irreversível (provocada, por exemplo, por aquecimento excessivo com desnaturação).",
+        "B": "Incorreta: a inibição enzimática ocorre no meio aquoso biológico e varia com a natureza do agente.",
+        "C": "Incorreta: a inibição reversível envolve interações transitórias e não cliva a cadeia peptídica principal da enzima.",
+        "D": "Incorreta: a desnaturação por aquecimento excessivo é irreversível e anula a catálise de forma definitiva."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Condições para a Atuação Enzimática - Inibidores"
+        ],
+        "fundamentacao": "Slide / Condições para a Atuação Enzimática - Inibidores.",
+        "trechos_apoio": [
+          "INIBIDOR é qualquer fator que possa reduzir ou cessar (pela desnaturação) a reação enzimática. A inibição pode ser: Reversível (presença de substâncias); Irreversível (aquecimento excessivo)"
+        ]
+      }
+    },
+    {
+      "id": "proteinas-aminoacidos-enzimas_q031",
+      "slide_id": "proteinas-aminoacidos-enzimas",
+      "slide_nome": "Proteínas, Aminoácidos e Enzimas",
+      "arquivo_origem": "PROTEÍNAS, AMINOÁCIDOS E ENZIMAS_261008_211137.pdf",
+      "numero": 31,
+      "tema": "Enzimas",
+      "subtema": "Características Gerais e Toxicidade",
+      "enunciado": "As enzimas são catalisadores que operam nos sistemas biológicos com alta eficiência. De acordo com o slide que resume as principais características das enzimas, assinale a alternativa correta:",
+      "alternativas": {
+        "A": "São substâncias sintéticas artificiais e altamente tóxicas para as células humanas.",
+        "B": "São produtos naturais biológicos, não são tóxicas, apresentam alto grau de especificidade e aceleram a capacidade de reação de 1.000 a 10.000 vezes.",
+        "C": "Apresentam baixa especificidade, reagindo indiscriminadamente com qualquer tipo de lipídeo.",
+        "D": "Aceleram as reações aumentando a energia de ativação em milhões de vezes."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: as enzimas são produtos biológicos naturais e não são tóxicas.",
+        "B": "Correta: a apostila lista expressamente: \"apresentam alto grau de especificidade\", \"são produtos naturais biológicos\", \"acelera a capacidade de reação de 1.000 a 10.000 vezes\", \"reduz a energia de ativação\" e \"não são tóxicas\".",
+        "C": "Incorreta: as enzimas são caracterizadas por um alto grau de estereoespecificidade em relação ao substrato.",
+        "D": "Incorreta: a aceleração catalítica decorre da redução da energia de ativação, e não do seu aumento."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Principais Características das Enzimas"
+        ],
+        "fundamentacao": "Slide / Principais Características das Enzimas.",
+        "trechos_apoio": [
+          "Apresentam alto grau de especificidade / São produtos naturais biológicos / Acelera a capacidade de reação de 1000 a 10.000 vezes / Reduz a energia de ativação / Não são tóxicas"
+        ]
+      }
+    },
+    {
+      "id": "proteinas-aminoacidos-enzimas_q032",
+      "slide_id": "proteinas-aminoacidos-enzimas",
+      "slide_nome": "Proteínas, Aminoácidos e Enzimas",
+      "arquivo_origem": "PROTEÍNAS, AMINOÁCIDOS E ENZIMAS_261008_211137.pdf",
+      "numero": 32,
+      "tema": "Inibição Enzimática",
+      "subtema": "Mecanismo da Inibição Competitiva",
+      "enunciado": "A regulação da velocidade enzimática pode ocorrer pela presença de inibidores competitivos. Segundo a definição apresentada na apostila, como atuam esses inibidores?",
+      "alternativas": {
+        "A": "São substâncias que concorrem diretamente com o substrato específico pelo sítio ativo da enzima.",
+        "B": "São moléculas que destroem as ligações peptídicas da enzima de forma definitiva.",
+        "C": "São agentes desnaturantes físicos que agem exclusivamente alterando a temperatura para 100°C.",
+        "D": "São hormônios pancreáticos que impedem a transcrição gênica ribossômica."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: os inibidores competitivos são conceituados como substâncias que concorrem diretamente com o substrato específico da enzima pelo sítio ativo.",
+        "B": "Incorreta: o inibidor competitivo não quebra ligações covalentes da enzima; ele compete reversivelmente pelo sítio.",
+        "C": "Incorreta: aquecimento excessivo é um fator físico de inibição irreversível (desnaturação), enquanto o inibidor competitivo é uma substância química análoga ao substrato.",
+        "D": "Incorreta: a inibição competitiva ocorre por encaixe direto na enzima, não por bloqueio de transcrição."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Inibição Competitiva"
+        ],
+        "fundamentacao": "Slide / Inibição Competitiva.",
+        "trechos_apoio": [
+          "Os inibidores competitivos são substâncias que concorrem diretamente com o substrato específico da enzima... Inibidor Competitivo: Tem semelhança com o substrato e compete com o substrato pelo sítio ativo da enzima"
+        ]
+      }
+    },
+    {
+      "id": "proteinas-aminoacidos-enzimas_q033",
+      "slide_id": "proteinas-aminoacidos-enzimas",
+      "slide_nome": "Proteínas, Aminoácidos e Enzimas",
+      "arquivo_origem": "PROTEÍNAS, AMINOÁCIDOS E ENZIMAS_261008_211137.pdf",
+      "numero": 33,
+      "tema": "Inibição Enzimática",
+      "subtema": "Semelhança Estrutural e Complexo Enzima-Inibidor",
+      "enunciado": "O mecanismo de ação do inibidor competitivo baseia-se em suas propriedades conformacionais. Por que o inibidor competitivo consegue se ligar ao sítio ativo e o que decorre dessa união, conforme a apostila?",
+      "alternativas": {
+        "A": "Porque sua estrutura é idêntica à de um ácido nucleico livre, formando o complexo enzima-DNA.",
+        "B": "Porque sua molécula tem uma estrutura muito parecida com a do substrato, unindo-se reversivelmente e formando o complexo enzima-inibidor que inativa a catálise.",
+        "C": "Porque se liga à extremidade C-terminal de glicoproteínas, convertendo a enzima em amilase salivar.",
+        "D": "Porque ele hidrolisa a água do meio, impedindo qualquer reação química de condensação."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a semelhança estrutural do inibidor é com o substrato da reação, não com ácidos nucleicos livres.",
+        "B": "Correta: as moléculas desses inibidores têm uma estrutura muito parecida com a do substrato da enzima, unem-se reversivelmente e formam o complexo enzima-inibidor que inativa a catálise.",
+        "C": "Incorreta: o inibidor liga-se ao sítio ativo da própria enzima, não atuando na extremidade de glicoproteínas ou convertendo-a em amilase.",
+        "D": "Incorreta: o bloqueio não se dá por consumo de água, mas sim pela ocupação física estérica do sítio catalítico."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Inibição Competitiva (Complexo Enzima-Inibidor)"
+        ],
+        "fundamentacao": "Slide / Inibição Competitiva (Complexo Enzima-Inibidor).",
+        "trechos_apoio": [
+          "As moléculas desses inibidores têm uma estrutura muito parecida com a do substrato da enzima. Unem reversivelmente às enzimas; Formam um complexo ENZIMA-INIBIDOR muito semelhante ao complexo ENZIMA-SUBSTRATO, que inativa a catálise da enzima"
+        ]
+      }
+    },
+    {
+      "id": "proteinas-aminoacidos-enzimas_q034",
+      "slide_id": "proteinas-aminoacidos-enzimas",
+      "slide_nome": "Proteínas, Aminoácidos e Enzimas",
+      "arquivo_origem": "PROTEÍNAS, AMINOÁCIDOS E ENZIMAS_261008_211137.pdf",
+      "numero": 34,
+      "tema": "Inibição Enzimática",
+      "subtema": "Consequência da Ausência do Complexo Enzima-Substrato",
+      "enunciado": "Durante o período em que a enzima permanece associada a um inibidor competitivo, a reação biológica não atinge seu produto. De acordo com o texto da apostila, qual é o motivo da inibição catalítica nesse estado?",
+      "alternativas": {
+        "A": "A quebra do inibidor gera amônia tóxica que desnatura o citoplasma.",
+        "B": "Por não haver a formação do complexo enzima-substrato, a atividade catalítica da enzima é inibida enquanto existir o complexo enzima-inibidor.",
+        "C": "A enzima perde todos os seus grupos carboxílicos por osmose reversa.",
+        "D": "O substrato converte-se espontaneamente em glicogênio antes de entrar no sítio."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a inibição competitiva não decorre da produção de amônia, mas sim do bloqueio mecânico do sítio ativo.",
+        "B": "Correta: a apostila ensina que \"por não haver a formação do complexo enzima-substrato, a atividade catalítica da enzima é inibida enquanto existir o complexo enzima-inibidor\".",
+        "C": "Incorreta: a integridade química da cadeia da enzima é mantida na inibição reversível.",
+        "D": "Incorreta: o substrato permanece inalterado na solução à espera de sítios ativos desocupados, sem formar glicogênio."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Inibição Competitiva (Mecanismo)"
+        ],
+        "fundamentacao": "Slide / Inibição Competitiva (Mecanismo).",
+        "trechos_apoio": [
+          "Por não haver a formação do COMPLEXO-SUBSTRATO, a atividade catalítica da enzima é inibida enquanto existir o complexo ENZIMA-INIBIDOR"
+        ]
+      }
+    },
+    {
+      "id": "proteinas-aminoacidos-enzimas_q035",
+      "slide_id": "proteinas-aminoacidos-enzimas",
+      "slide_nome": "Proteínas, Aminoácidos e Enzimas",
+      "arquivo_origem": "PROTEÍNAS, AMINOÁCIDOS E ENZIMAS_261008_211137.pdf",
+      "numero": 35,
+      "tema": "Aminoácidos",
+      "subtema": "Diversidade Química das Cadeias Laterais (Radical R)",
+      "enunciado": "O radical R ligado ao carbono α confere a identidade e as propriedades exclusivas de cada um dos 20 aminoácidos proteicos. Conforme a classificação dos aminoácidos mostrada na fórmula geral da apostila, em quais grupos as cadeias laterais podem ser subdivididas?",
+      "alternativas": {
+        "A": "Lipídicas, amiláceas, celulósicas e quitinosas.",
+        "B": "Apolares, polares, ácidas e básicas.",
+        "C": "Fermentáveis, redutoras, mutagênicas e inorgânicas.",
+        "D": "Exclusivamente ácidas e neutras, sem existência de aminoácidos básicos ou apolares."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: termos como amiláceo e celulósico referem-se a carboidratos, não a classes de radicais de aminoácidos.",
+        "B": "Correta: na tabela da fórmula geral dos aminoácidos, a apostila classifica as cadeias laterais em quatro grandes grupos: apolares, polares, ácidos e básicos.",
+        "C": "Incorreta: fermentação e poder redutor são conceitos aplicados a açúcares e metabolismo energético.",
+        "D": "Incorreta: existem aminoácidos básicos (como lisina, arginina, histidina) e apolares (como leucina, valina, alanina)."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Fórmula Geral dos Aminoácidos"
+        ],
+        "fundamentacao": "Slide / Fórmula Geral dos Aminoácidos.",
+        "trechos_apoio": [
+          "Legenda das estruturas químicas dos 20 aminoácidos: “Apolares / Ácidos / Básicos / Polares"
+        ]
+      }
+    },
+    {
+      "id": "proteinas-aminoacidos-enzimas_q036",
+      "slide_id": "proteinas-aminoacidos-enzimas",
+      "slide_nome": "Proteínas, Aminoácidos e Enzimas",
+      "arquivo_origem": "PROTEÍNAS, AMINOÁCIDOS E ENZIMAS_261008_211137.pdf",
+      "numero": 36,
+      "tema": "Aminoácidos",
+      "subtema": "Aminoácidos com Cadeia Lateral Ácida",
+      "enunciado": "Dentre os aminoácidos representados no material didático com seus radicais específicos, quais apresentam cadeias laterais com grupamentos carboxila adicionais, sendo classificados como aminoácidos ácidos?",
+      "alternativas": {
+        "A": "Glicina e Alanina.",
+        "B": "Ácido aspártico (aspartato) e Ácido glutâmico (glutamato).",
+        "C": "Lisina e Arginina.",
+        "D": "Leucina e Isoleucina."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: glicina e alanina possuem cadeias laterais apolares (hidrogênio e metila, respectivamente).",
+        "B": "Correta: as estruturas químicas no slide identificam sob o grupo \"Ácidos\" o ácido aspártico e o ácido glutâmico, devido à presença do grupo carboxila em sua cadeia lateral R.",
+        "C": "Incorreta: lisina e arginina possuem grupos nitrogenados extras na cadeia lateral e são classificados como básicos.",
+        "D": "Incorreta: leucina e isoleucina possuem cadeias hidrocarbonadas alifáticas apolares."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Fórmula Geral dos Aminoácidos"
+        ],
+        "fundamentacao": "Slide / Fórmula Geral dos Aminoácidos.",
+        "trechos_apoio": [
+          "Ácido aspártico / Ácido glutâmico... [classificados sob a legenda] Ácidos"
+        ]
+      }
+    },
+    {
+      "id": "proteinas-aminoacidos-enzimas_q037",
+      "slide_id": "proteinas-aminoacidos-enzimas",
+      "slide_nome": "Proteínas, Aminoácidos e Enzimas",
+      "arquivo_origem": "PROTEÍNAS, AMINOÁCIDOS E ENZIMAS_261008_211137.pdf",
+      "numero": 37,
+      "tema": "Peptídeos com Atividade Biológica",
+      "subtema": "Estrutura e Cadeias da Insulina",
+      "enunciado": "A insulina é um clássico exemplo de peptídeo/proteína com potente ação hormonal metabólica. Segundo as especificações numéricas contidas no slide \"Peptídeos Funções\", como a molécula de insulina é constituída?",
+      "alternativas": {
+        "A": "Por uma única cadeia linear de 9 aminoácidos idêntica à ocitocina.",
+        "B": "Por 2 cadeias polipeptídicas (uma com 30 e outra com 21 aminoácidos).",
+        "C": "Por quatro subunidades contendo 574 aminoácidos cada.",
+        "D": "Por apenas 2 resíduos de aminoácidos com sabor adocicado."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o peptídeo com 9 resíduos de aminoácidos citado é a ocitocina (ou a bradicinina).",
+        "B": "Correta: o slide descreve expressamente: \"Insulina: 2 cadeias polipeptídicas (30 e 21 aa)\", totalizando 51 aminoácidos.",
+        "C": "Incorreta: 574 aminoácidos compõem a molécula de hemoglobina humana, e não a insulina.",
+        "D": "Incorreta: o peptídeo formado por 2 aminoácidos com função adoçante é o aspartame."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Peptídeos Funções"
+        ],
+        "fundamentacao": "Slide / Peptídeos Funções.",
+        "trechos_apoio": [
+          "Insulina: 2 cadeias polipeptídicas (30 e 21 aa)"
+        ]
+      }
+    },
+    {
+      "id": "proteinas-aminoacidos-enzimas_q038",
+      "slide_id": "proteinas-aminoacidos-enzimas",
+      "slide_nome": "Proteínas, Aminoácidos e Enzimas",
+      "arquivo_origem": "PROTEÍNAS, AMINOÁCIDOS E ENZIMAS_261008_211137.pdf",
+      "numero": 38,
+      "tema": "Estrutura e Conformação Proteica",
+      "subtema": "O Dogma Central e a Relação Forma-Função",
+      "enunciado": "O material didático reforça enfaticamente a conexão entre a síntese biológica, a estrutura espacial e a atividade das proteínas. Qual é a regra fundamental destacada com aviso de \"Atenção!!!\" na apostila?",
+      "alternativas": {
+        "A": "\"É o tamanho do átomo de carbono que determina o pH celular.\"",
+        "B": "\"É a forma da proteína quem determina a sua função.\"",
+        "C": "\"Toda proteína perde sua atividade quando atinge a conformação quaternária.\"",
+        "D": "\"As proteínas não dependem da sequência de aminoácidos para sua atividade.\""
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o pH mede íons hidrogênio livres, não dependendo do diâmetro atômico do carbono.",
+        "B": "Correta: a apostila coloca em destaque textual: \"ATENÇÃO!!! É A FORMA DA PROTEÍNA QUEM DETERMINA A SUA FUNÇÃO. Mudanças de temperatura e pH podem alterar a forma da proteína (desnaturação)\".",
+        "C": "Incorreta: as proteínas estão justamente ativas nas formas terciária e quaternária.",
+        "D": "Incorreta: a sequência de aminoácidos (estrutura primária) é que direciona todo o dobramento conformacional e a função da molécula."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Forma da Proteína (Atenção!!!)"
+        ],
+        "fundamentacao": "Slide / Forma da Proteína (Atenção!!!).",
+        "trechos_apoio": [
+          "ATENÇÃO!!! É A FORMA DA PROTEÍNA QUEM DETERMINA A SUA FUNÇÃO. Mudanças de temperatura e pH (acidez) podem alterar a forma da proteína (desnaturação)"
+        ]
+      }
+    },
+    {
+      "id": "proteinas-aminoacidos-enzimas_q039",
+      "slide_id": "proteinas-aminoacidos-enzimas",
+      "slide_nome": "Proteínas, Aminoácidos e Enzimas",
+      "arquivo_origem": "PROTEÍNAS, AMINOÁCIDOS E ENZIMAS_261008_211137.pdf",
+      "numero": 39,
+      "tema": "Estrutura Primária e Mutações Genéticas",
+      "subtema": "Origem da Sequência Linear de Aminoácidos",
+      "enunciado": "A estrutura primária de uma proteína consiste na ordenação linear específica de seus resíduos monoméricos. De acordo com a apostila, quem determina essa sequência na célula e como ela pode vir a ser alterada?",
+      "alternativas": {
+        "A": "É determinada exclusivamente pela quantidade de água ingerida; e pode ser alterada pela ptialina bucal.",
+        "B": "Quem determina essa sequência é o DNA; e ela pode ser alterada a partir de mutações que venham a ocorrer no DNA.",
+        "C": "É determinada pelos fosfolipídios de membrana; e não sofre alteração sob nenhuma hipótese biológica.",
+        "D": "É determinada pelas bactérias termófilas de fontes termais durante a respiração."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a hidratação celular não codifica sequências peptídicas e a ptialina digere amido na boca.",
+        "B": "Correta: a apostila ensina que \"quem determina essa sequência é o DNA\" e que a estrutura primária \"pode ser alterada a partir de mutações que venham a ocorrer no DNA\" (como no caso da anemia falciforme).",
+        "C": "Incorreta: lipídeos não determinam a informação genética primária das proteínas.",
+        "D": "Incorreta: bactérias termófilas foram citadas apenas para ilustrar enzimas com temperatura ótima a 70°C, não codificando o genoma humano."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Estrutura Primária (Sequência Linear de AA)"
+        ],
+        "fundamentacao": "Slide / Estrutura Primária (Sequência Linear de AA).",
+        "trechos_apoio": [
+          "Pode ser alterada a partir de mutações que venham a ocorrer no DNA... Quem determina essa sequência é o DNA"
+        ]
+      }
+    },
+    {
+      "id": "proteinas-aminoacidos-enzimas_q040",
+      "slide_id": "proteinas-aminoacidos-enzimas",
+      "slide_nome": "Proteínas, Aminoácidos e Enzimas",
+      "arquivo_origem": "PROTEÍNAS, AMINOÁCIDOS E ENZIMAS_261008_211137.pdf",
+      "numero": 40,
+      "tema": "Funções Biológicas das Proteínas",
+      "subtema": "Síntese Integrada das Classes Funcionais",
+      "enunciado": "As proteínas executam praticamente todas as atividades vitais do organismo. Assinale a alternativa que correlaciona corretamente a classe funcional de proteína com os exemplos e descrições fornecidos no material didático:",
+      "alternativas": {
+        "A": "Defesa: atua catalisando o amido até maltose; Contração: insulina estimulando entrada de glicose.",
+        "B": "Enzimas: aceleram as reações (ex.: amilase hidrolisando o amido); Transportadora: transporta diversos componentes (ex.: lipoproteínas transportando colesterol e hemoglobina transportando O₂).",
+        "C": "Transportadora: actina e miosina nos movimentos musculares; Hormonal: albumina coagulando na clara do ovo.",
+        "D": "Reguladora: caseína do leite coalhado por limão; Catalisadora: glucagon inibindo o oxigênio."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: catálise do amido é função enzimática e a ação da insulina é uma função reguladora hormonal.",
+        "B": "Correta: a apostila apresenta: enzimas aceleram as reações (ex.: amilase hidrolisa o amido); transportadoras transportam componentes (ex.: lipoproteínas transportam colesterol e hemoglobina transporta O₂ pelo sangue).",
+        "C": "Incorreta: actina e miosina desempenham função contrátil/motora, e a albumina é proteína de reserva/transporte do ovo, não um hormônio regulador.",
+        "D": "Incorreta: o coalho do leite ilustra a desnaturação por pH, e o glucagon é um peptídeo hormonal, não um catalisador de oxigênio."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Função da Proteína"
+        ],
+        "fundamentacao": "Slide / Função da Proteína.",
+        "trechos_apoio": [
+          "ENZIMAS: acelera as reações. Ex.: amilase (hidrolisa o amido). TRANSPORTADORA: transporta diversos componentes. Ex.: Lipoproteínas (transportam colesterol) e hemoglobina (transporta O2) pelo sangue. CONTRAÇÃO... actina e miosina. REGULADORA/HORMONAL... Insulina"
+        ]
+      }
+    }
+  ]
+}

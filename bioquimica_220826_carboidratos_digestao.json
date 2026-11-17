@@ -1,0 +1,1284 @@
+{
+  "questoes": [
+    {
+      "id": "digestao_q001",
+      "slide_id": "digestao",
+      "slide_nome": "220826 - Carboidratos: Digestão",
+      "arquivo_origem": "220826 - Carboidratos Digestão_260916_152501.pdf",
+      "numero": 1,
+      "tema": "Carboidratos",
+      "subtema": "Conceito e Composição Química Geral",
+      "enunciado": "Em relação à composição química e à fórmula elementar geral dos carboidratos apresentadas no material didático, assinale a alternativa correta:",
+      "alternativas": {
+        "A": "São formados exclusivamente por nitrogênio e carbono, sem a presença de oxigênio em suas cadeias.",
+        "B": "Apresentam uma proporção de aproximadamente um átomo de carbono para uma molécula de água, com o dobro de átomos de hidrogênio em relação ao carbono e oxigênio.",
+        "C": "Constituem moléculas inorgânicas sem grupamentos hidroxila ou carbonila.",
+        "D": "Possuem cadeias carbônicas invariavelmente restritas a apenas dois átomos de carbono em qualquer situação."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: os carboidratos são compostos por carbono, hidrogênio e oxigênio, não por nitrogênio isolado com carbono.",
+        "B": "Correta: os carboidratos contêm carbono, hidrogênio e oxigênio na proporção aproximada de um carbono para uma molécula de água, com o dobro de hidrogênio e igual número de oxigênio em relação ao carbono.",
+        "C": "Incorreta: são substâncias orgânicas caracterizadas como poliidroxialdeídos ou poliidroxicetonas, ricas em hidroxilas e com presença de carbonila.",
+        "D": "Incorreta: o número de átomos de carbono varia de 3 a 7 (ou 8 nas octoses), e não apenas dois."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Questões da Aula Anterior"
+        ],
+        "fundamentacao": "Slide / Questões da Aula Anterior.",
+        "trechos_apoio": [
+          "São moléculas biológicas formadas por carbono, hidrogênio e oxigênio em uma proporção de aproximadamente um átomo de carbono para uma molécula de água... Para cada carbono o dobro de hidrogênio e o mesmo número de oxigênio"
+        ]
+      }
+    },
+    {
+      "id": "digestao_q002",
+      "slide_id": "digestao",
+      "slide_nome": "220826 - Carboidratos: Digestão",
+      "arquivo_origem": "220826 - Carboidratos Digestão_260916_152501.pdf",
+      "numero": 2,
+      "tema": "Carboidratos",
+      "subtema": "Famílias de Monossacarídeos (Aldoses e Cetoses)",
+      "enunciado": "Os monossacarídeos são classificados nas famílias das aldoses ou das cetoses com base em critérios estruturais bem definidos. Essa diferenciação baseia-se:",
+      "alternativas": {
+        "A": "No número de átomos de nitrogênio presentes na cadeia lateral.",
+        "B": "Na posição do grupamento carbonila (C=O), classificando-se como aldose quando está na extremidade e cetose quando está em qualquer outra posição.",
+        "C": "Na quantidade de ligações peptídicas que conectam os anéis carbônicos.",
+        "D": "Na presença obrigatória do grupamento amina ligado ao carbono central."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: carboidratos simples não contêm nitrogênio e a classificação em aldose ou cetose baseia-se na carbonila.",
+        "B": "Correta: a presença da carbonila na extremidade da cadeia confere a função aldeído (aldose), enquanto a carbonila em posições internas confere a função cetona (cetose).",
+        "C": "Incorreta: ligações peptídicas são exclusivas da união entre aminoácidos em proteínas, não participando da classificação dos monossacarídeos.",
+        "D": "Incorreta: o grupamento amina é característico de aminoácidos, não fazendo parte da definição de aldoses ou cetoses."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Família de Monossacarídeos"
+        ],
+        "fundamentacao": "Slide / Família de Monossacarídeos.",
+        "trechos_apoio": [
+          "Essa classificação é baseada na POSIÇÃO DA CARBONILA (C=O)... Apresenta a carbonila na EXTREMIDADE DA CADEIA, conferindo a esse monossacarídeo uma função orgânica do tipo aldeído"
+        ]
+      }
+    },
+    {
+      "id": "digestao_q003",
+      "slide_id": "digestao",
+      "slide_nome": "220826 - Carboidratos: Digestão",
+      "arquivo_origem": "220826 - Carboidratos Digestão_260916_152501.pdf",
+      "numero": 3,
+      "tema": "Carboidratos",
+      "subtema": "Exemplos de Trioses (Gliceraldeído e Diidroxiacetona)",
+      "enunciado": "Entre as trioses (C₃H₆O₃), encontram-se duas moléculas fundamentais para o metabolismo: o gliceraldeído e a diidroxiacetona. Do ponto de vista funcional, como essas moléculas se diferenciam?",
+      "alternativas": {
+        "A": "O gliceraldeído é uma aldose e a diidroxiacetona é uma cetose.",
+        "B": "O gliceraldeído é um polissacarídeo de reserva e a diidroxiacetona é um dissacarídeo de transporte.",
+        "C": "O gliceraldeído apresenta a carbonila no interior da molécula, enquanto a diidroxiacetona possui a carbonila terminal.",
+        "D": "Ambas são cetoses constituídas por cinco átomos de carbono."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: o gliceraldeído possui a carbonila na extremidade da cadeia carbônica (aldose), enquanto a diidroxiacetona apresenta a carbonila em carbono secundário (cetose).",
+        "B": "Incorreta: ambas são monossacarídeos do tipo triose (3 carbonos), e não polissacarídeos ou dissacarídeos.",
+        "C": "Incorreta: inverte as posições funcionais; o gliceraldeído tem a carbonila na extremidade (aldeído) e a diidroxiacetona no interior (cetona).",
+        "D": "Incorreta: são trioses (3 carbonos), sendo o gliceraldeído uma aldose e apenas a diidroxiacetona uma cetose."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Família de Monossacarídeos"
+        ],
+        "fundamentacao": "Slide / Família de Monossacarídeos.",
+        "trechos_apoio": [
+          "Gliceraldeído... Apresenta a carbonila na EXTREMIDADE DA CADEIA, conferindo a esse monossacarídeo uma função orgânica do tipo aldeído... Diidroxiacetona... Como a carbonila (C=O) nesses monossacarídeos se localiza em qualquer posição que não a extremidade, é conferida assim uma função orgânica do tipo cetona"
+        ]
+      }
+    },
+    {
+      "id": "digestao_q004",
+      "slide_id": "digestao",
+      "slide_nome": "220826 - Carboidratos: Digestão",
+      "arquivo_origem": "220826 - Carboidratos Digestão_260916_152501.pdf",
+      "numero": 4,
+      "tema": "Carboidratos",
+      "subtema": "Pentoses (Ribose e Desoxirribose)",
+      "enunciado": "As pentoses são monossacarídeos formados por 5 átomos de carbono de vital importância biológica. Sobre a ocorrência e a fórmula dessas moléculas citadas na apostila, assinale a opção correta:",
+      "alternativas": {
+        "A": "A desoxirribose possui fórmula C₅H₁₀O₅ e é componente do RNA.",
+        "B": "A ribose possui fórmula C₅H₁₀O₅ e integra a estrutura do RNA e do ATP.",
+        "C": "A ribose é exclusiva dos lipídeos e não participa de nucleotídeos.",
+        "D": "A desoxirribose faz parte do ATP, enquanto a ribose participa exclusivamente do DNA."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a desoxirribose possui fórmula C₅H₁₀O₄ (com um oxigênio a menos) e está presente no DNA, não no RNA.",
+        "B": "Correta: a ribose possui a fórmula C₅H₁₀O₅ e está presente na composição do RNA e da molécula de ATP.",
+        "C": "Incorreta: a ribose é um carboidrato monossacarídeo (pentose) que compõe ácidos nucleicos e nucleotídeos energéticos, não um lipídeo.",
+        "D": "Incorreta: a ribose é que compõe o ATP e o RNA; a desoxirribose integra o DNA."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Carboidratos Monossacarídeo - Pentoses"
+        ],
+        "fundamentacao": "Slide / Carboidratos Monossacarídeo - Pentoses.",
+        "trechos_apoio": [
+          "Ribose (C₅H₁₀O₅) Presente no RNA e no ATP / Desoxirribose (C₅H₁₀O₄) Presente no DNA"
+        ]
+      }
+    },
+    {
+      "id": "digestao_q005",
+      "slide_id": "digestao",
+      "slide_nome": "220826 - Carboidratos: Digestão",
+      "arquivo_origem": "220826 - Carboidratos Digestão_260916_152501.pdf",
+      "numero": 5,
+      "tema": "Carboidratos",
+      "subtema": "Hexoses (Glicose, Frutose e Galactose)",
+      "enunciado": "As hexoses (C₆H₁₂O₆) constituem importantes fontes energéticas para os seres vivos. De acordo com a apostila, qual é o destino metabólico comum compartilhado pela frutose e pela galactose no organismo humano?",
+      "alternativas": {
+        "A": "Ambas são convertidas em glicose no fígado.",
+        "B": "Ambas são eliminadas intactas pela urina sem sofrer absorção.",
+        "C": "São transformadas diretamente em amido no interior dos enterócitos.",
+        "D": "São degradadas na cavidade bucal pela ação direta da amilase salivar."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: a frutose e a galactose são transformadas/formam glicose no fígado após a sua absorção intestinal.",
+        "B": "Incorreta: são monossacarídeos absorvidos que passam ao sangue e ao fígado, sendo metabolizados e não eliminados diretamente na urina.",
+        "C": "Incorreta: o amido é um polissacarídeo vegetal sintetizado por plantas, e não produzido a partir de hexoses no intestino humano.",
+        "D": "Incorreta: a amilase salivar atua sobre o amido (polissacarídeo), não degradando monossacarídeos na boca."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Carboidratos Monossacarídeo - Hexoses"
+        ],
+        "fundamentacao": "Slide / Carboidratos Monossacarídeo - Hexoses.",
+        "trechos_apoio": [
+          "Frutose: Promove o sabor açucarado das frutas. É transformada em glicose no fígado. Galactose: Encontrada no leite. Forma glicose no fígado"
+        ]
+      }
+    },
+    {
+      "id": "digestao_q006",
+      "slide_id": "digestao",
+      "slide_nome": "220826 - Carboidratos: Digestão",
+      "arquivo_origem": "220826 - Carboidratos Digestão_260916_152501.pdf",
+      "numero": 6,
+      "tema": "Carboidratos",
+      "subtema": "Formação de Dissacarídeos e Ligação Glicosídica",
+      "enunciado": "A união entre dois monossacarídeos para a formação de um dissacarídeo ocorre mediante um mecanismo químico específico. Esse processo caracteriza-se por:",
+      "alternativas": {
+        "A": "Uma reação de condensação/desidratação que envolve a liberação de uma molécula de água.",
+        "B": "Uma reação de hidrólise que consome duas moléculas de água para criar a ligação.",
+        "C": "Uma ligação iônica estabelecida entre grupamentos fosfato terminais.",
+        "D": "Uma ligação peptídica formada entre grupamentos carboxila e amina."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: a ligação glicosídica une os monossacarídeos por meio de uma reação de desidratação (síntese por desidratação), na qual ocorre a liberação de água.",
+        "B": "Incorreta: a síntese do dissacarídeo libera água (desidratação); é a quebra (digestão) que consome água (hidrólise).",
+        "C": "Incorreta: a ligação que une açúcares é a ligação glicosídica covalente, e não uma ligação iônica de fosfatos.",
+        "D": "Incorreta: ligações peptídicas unem aminoácidos para constituir proteínas, e não monossacarídeos."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Questões - Ligações Glicosídicas"
+        ],
+        "fundamentacao": "Slide / Questões - Ligações Glicosídicas.",
+        "trechos_apoio": [
+          "Ligações glicosídicas: Unem-se por meio de reações de desidratação que liberam água"
+        ]
+      }
+    },
+    {
+      "id": "digestao_q007",
+      "slide_id": "digestao",
+      "slide_nome": "220826 - Carboidratos: Digestão",
+      "arquivo_origem": "220826 - Carboidratos Digestão_260916_152501.pdf",
+      "numero": 7,
+      "tema": "Carboidratos",
+      "subtema": "Composição dos Dissacarídeos",
+      "enunciado": "A sacarose e a lactose são dois dissacarídeos amplamente presentes na alimentação humana. Conforme a tabela de dissacarídeos da apostila, quais monossacarídeos formam, respectivamente, a sacarose e a lactose?",
+      "alternativas": {
+        "A": "Glicose + Glicose; e Glicose + Frutose.",
+        "B": "Glicose + Frutose; e Glicose + Galactose.",
+        "C": "Galactose + Frutose; e Glicose + Glicose.",
+        "D": "Frutose + Frutose; e Galactose + Galactose."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: Glicose + Glicose forma a maltose (ou celobiose), não a sacarose.",
+        "B": "Correta: a sacarose é formada pela união de glicose + frutose, e a lactose é formada pela união de glicose + galactose.",
+        "C": "Incorreta: a sacarose contém frutose ligada à glicose, e a lactose contém galactose ligada à glicose, nunca galactose + frutose.",
+        "D": "Incorreta: nem a sacarose nem a lactose são formadas por pares idênticos de frutose ou de galactose."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Carboidratos Dissacarídeos"
+        ],
+        "fundamentacao": "Slide / Carboidratos Dissacarídeos.",
+        "trechos_apoio": [
+          "Sacarose: Glicose + Frutose (Cana de açúcar) / Lactose: Glicose + Galactose (Açúcar do leite)"
+        ]
+      }
+    },
+    {
+      "id": "digestao_q008",
+      "slide_id": "digestao",
+      "slide_nome": "220826 - Carboidratos: Digestão",
+      "arquivo_origem": "220826 - Carboidratos Digestão_260916_152501.pdf",
+      "numero": 8,
+      "tema": "Carboidratos",
+      "subtema": "Polissacarídeos (Reserva e Estruturais)",
+      "enunciado": "Os polissacarídeos desempenham papéis de reserva energética ou estruturais nos seres vivos. Com base nos exemplos abordados na apostila, assinale a correlação funcional correta:",
+      "alternativas": {
+        "A": "O amido e o glicogênio atuam como polissacarídeos de reserva energética em vegetais e animais, respectivamente.",
+        "B": "A celulose e a quitina são polissacarídeos de reserva energética encontrados no fígado humano.",
+        "C": "O glicogênio compõe a parede celular vegetal, garantindo rigidez contra a lise osmótica.",
+        "D": "A quitina é o principal carboidrato de reserva das plantas e das algas."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: o amido constitui a reserva energética vegetal, enquanto o glicogênio constitui a reserva energética animal.",
+        "B": "Incorreta: celulose e quitina desempenham papéis estruturais (parede vegetal e exoesqueleto de artrópodes), não atuando como reserva hepática.",
+        "C": "Incorreta: a parede celular vegetal é formada por celulose; o glicogênio é reserva energética animal.",
+        "D": "Incorreta: o polissacarídeo de reserva das plantas é o amido; a quitina forma o esqueleto externo de artrópodes e a parede de fungos."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Questões - Substâncias Orgânicas / Polissacarídeos"
+        ],
+        "fundamentacao": "Slide / Questões - Substâncias Orgânicas / Polissacarídeos.",
+        "trechos_apoio": [
+          "O amido, o glicogênio a quitina e a celulose são polissacarídeos... O esqueleto externo dos insetos é composto de um polissacarídeo... As células vegetais possuem uma parede formada por polissacarídeos"
+        ]
+      }
+    },
+    {
+      "id": "digestao_q009",
+      "slide_id": "digestao",
+      "slide_nome": "220826 - Carboidratos: Digestão",
+      "arquivo_origem": "220826 - Carboidratos Digestão_260916_152501.pdf",
+      "numero": 9,
+      "tema": "Digestão de Carboidratos",
+      "subtema": "Digestão na Boca e Amilase Salivar",
+      "enunciado": "A digestão química dos carboidratos inicia-se na cavidade bucal pela secreção de uma enzima específica. Sobre a digestão bucal descrita na apostila, é correto afirmar:",
+      "alternativas": {
+        "A": "A amilase salivar (ptialina) quebra completamente todo o amido consumido em moléculas livres de glicose na boca.",
+        "B": "As glândulas salivares secretam a amilase salivar, que hidrolisa o amido em maltose e oligossacarídeos, sendo um processo incompleto devido ao curto tempo de mastigação.",
+        "C": "A ptialina atua exclusivamente no estômago, onde encontra o seu pH ótimo altamente ácido.",
+        "D": "A digestão na boca independe de enzimas, ocorrendo unicamente por dissolução mecânica dos açúcares."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o processo na boca é incompleto pelo pouco tempo de contato, gerando principalmente maltose e oligossacarídeos, e não glicose livre total.",
+        "B": "Correta: a enzima ptialina (amilase salivar) é secretada pelas glândulas salivares e inicia a quebra do amido em maltose e oligossacarídeos, tratando-se de uma digestão incompleta.",
+        "C": "Incorreta: a amilase salivar atua na boca e é inibida no estômago pelo pH ácido.",
+        "D": "Incorreta: a quebra química é enzimática e catalisada pela amilase salivar."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Digestão dos Carboidratos"
+        ],
+        "fundamentacao": "Slide / Digestão dos Carboidratos.",
+        "trechos_apoio": [
+          "O início da digestão dos carboidratos acontece na BOCA. A ENZIMA PTIALINA, também chamada de AMILASE SALIVAR, é SECRETADA PELAS GLÂNDULAS SALIVARES. Esta enzima quebra as ligações entre as moléculas de glicose do amido e as hidrolisa até maltose e oligossacarídeos. Como o alimento passa pouco tempo na boca, este processo é incompleto"
+        ]
+      }
+    },
+    {
+      "id": "digestao_q010",
+      "slide_id": "digestao",
+      "slide_nome": "220826 - Carboidratos: Digestão",
+      "arquivo_origem": "220826 - Carboidratos Digestão_260916_152501.pdf",
+      "numero": 10,
+      "tema": "Digestão de Carboidratos",
+      "subtema": "Efeito do Ambiente Estomacal",
+      "enunciado": "Ao progredir pelo trato digestório, o bolo alimentar atinge o estômago. O que ocorre com a digestão dos carboidratos e com a atividade da amilase salivar nesse órgão?",
+      "alternativas": {
+        "A": "A amilase salivar é ativada pelo ácido clorídrico, acelerando a quebra dos dissacarídeos.",
+        "B": "O estômago passa a secretar lactase e sacarase para hidrolisar as hexoses remanescentes.",
+        "C": "A ação da amilase salivar é inibida/inativada pelo pH ácido do estômago.",
+        "D": "Os carboidratos são convertidos diretamente em glicogênio pelas células da mucosa gástrica."
+      },
+      "gabarito": "C",
+      "explicacoes": {
+        "A": "Incorreta: o pH ácido inativa a amilase salivar em vez de acelerar sua atividade.",
+        "B": "Incorreta: sacarase e lactase são produzidas e atuam no intestino delgado (enterócitos), não sendo secretadas pelo estômago.",
+        "C": "Correta: a amilase salivar continua atuando até o estômago, onde sua atividade enzimática é inibida pelo baixo pH ácido gástrico.",
+        "D": "Incorreta: o estômago não sintetiza glicogênio; a síntese de glicogênio (glicogênese) ocorre principalmente no fígado e no músculo."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Digestão dos Carboidratos"
+        ],
+        "fundamentacao": "Slide / Digestão dos Carboidratos.",
+        "trechos_apoio": [
+          "O pH ácido do estômago inativa a amilase salivar... A amilase salivar continua atuando até chegar no estômago, onde sua ação é inibida pelo pH ácido"
+        ]
+      }
+    },
+    {
+      "id": "digestao_q011",
+      "slide_id": "digestao",
+      "slide_nome": "220826 - Carboidratos: Digestão",
+      "arquivo_origem": "220826 - Carboidratos Digestão_260916_152501.pdf",
+      "numero": 11,
+      "tema": "Digestão de Carboidratos",
+      "subtema": "Amilase Pancreática e Digestão Intestinal",
+      "enunciado": "Ao chegar ao intestino delgado (duodeno), o quimo entra em contato com secreções pancreáticas essenciais para a continuidade da digestão do amido. De acordo com a apostila, quais são os principais produtos formados pela ação da amilase pancreática?",
+      "alternativas": {
+        "A": "Exclusivamente glicose livre em alta concentração.",
+        "B": "Maltose, oligossacarídeos (dextrinas) e determinada quantidade de isomaltose.",
+        "C": "Galactose e frutose livres diretamente absorvíveis.",
+        "D": "Glicogênio hepático e amilopectina insolúvel."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a amilase pancreática não quebra o amido diretamente em glicose livre em sua totalidade; ela gera dissacarídeos e oligossacarídeos.",
+        "B": "Correta: a ação da enzima amilase pancreática no intestino delgado forma principalmente maltose, oligossacarídeos (dextrinas) e isomaltose.",
+        "C": "Incorreta: galactose e frutose derivam da quebra de outros açúcares (lactose e sacarose) pelas dissacaridases da borda em escova, e não da ação da amilase pancreática sobre o amido.",
+        "D": "Incorreta: o glicogênio é um polissacarídeo de reserva sintetizado nos tecidos animais, e não um produto de digestão luminal gerado pela amilase."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Digestão dos Carboidratos no Intestino Delgado"
+        ],
+        "fundamentacao": "Slide / Digestão dos Carboidratos no Intestino Delgado.",
+        "trechos_apoio": [
+          "No intestino delgado, a ENZIMA AMILASE PANCREÁTICA forma principalmente: MALTOSE, OLIGOSSACARÍDEOS (dextrinas) e determinada quantidade de ISOMALTOSE"
+        ]
+      }
+    },
+    {
+      "id": "digestao_q012",
+      "slide_id": "digestao",
+      "slide_nome": "220826 - Carboidratos: Digestão",
+      "arquivo_origem": "220826 - Carboidratos Digestão_260916_152501.pdf",
+      "numero": 12,
+      "tema": "Digestão de Carboidratos",
+      "subtema": "Localização Anatômica da Digestão Intestinal",
+      "enunciado": "Conforme apontado no material didático, a maior parte do processo de digestão dos carboidratos ocorre em um segmento específico do trato gastrointestinal. Esse local corresponde:",
+      "alternativas": {
+        "A": "À cavidade gástrica (estômago).",
+        "B": "Ao intestino grosso (cólon descendente).",
+        "C": "Ao intestino delgado, especificamente no duodeno.",
+        "D": "Ao esôfago durante a fase de deglutição rápida."
+      },
+      "gabarito": "C",
+      "explicacoes": {
+        "A": "Incorreta: no estômago, o pH ácido inativa a amilase salivar e não há secreção de enzimas digestivas para carboidratos.",
+        "B": "Incorreta: a maior parte da digestão ocorre no intestino delgado; o cólon abriga microbiota, mas não é a sede da digestão enzimática primária dos carboidratos da dieta.",
+        "C": "Correta: a apostila afirma textualmente que a maior parte da digestão de carboidratos acontece no intestino delgado, mais precisamente no duodeno.",
+        "D": "Incorreta: o esôfago é apenas um canal condutor do bolo alimentar, sem digestão enzimática significativa própria."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Digestão dos Carboidratos no Intestino Delgado"
+        ],
+        "fundamentacao": "Slide / Digestão dos Carboidratos no Intestino Delgado.",
+        "trechos_apoio": [
+          "A maior parte da digestão de carboidratos acontece no INTESTINO DELGADO (DUODENO)"
+        ]
+      }
+    },
+    {
+      "id": "digestao_q013",
+      "slide_id": "digestao",
+      "slide_nome": "220826 - Carboidratos: Digestão",
+      "arquivo_origem": "220826 - Carboidratos Digestão_260916_152501.pdf",
+      "numero": 13,
+      "tema": "Digestão de Carboidratos",
+      "subtema": "Borda em Escova e Ação da Maltase",
+      "enunciado": "A etapa final da digestão dos carboidratos ocorre na superfície do epitélio intestinal. Qual é a reação enzimática catalisada especificamente pela maltase localizada na borda em escova do enterócito?",
+      "alternativas": {
+        "A": "Conversão de sacarose em glicose e frutose.",
+        "B": "Transformação da maltose em duas moléculas de glicose.",
+        "C": "Quebra da lactose em glicose e galactose.",
+        "D": "Desdobramento do glicogênio em cadeias de celulose."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a conversão de sacarose em glicose e frutose é realizada pela enzima sacarase.",
+        "B": "Correta: na borda em escova do enterócito, a enzima maltase transforma a maltose em duas moléculas de glicose.",
+        "C": "Incorreta: a quebra da lactose em glicose e galactose é responsabilidade da enzima lactase.",
+        "D": "Incorreta: a celulose não é formada na digestão humana a partir de glicogênio; trata-se de um polissacarídeo vegetal não sintetizado no lúmen."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Digestão dos Carboidratos no Intestino Delgado"
+        ],
+        "fundamentacao": "Slide / Digestão dos Carboidratos no Intestino Delgado.",
+        "trechos_apoio": [
+          "A digestão ocorre não só no lúmen, mas também na borda em escova do enterócito, onde a enzima maltase transforma a maltose em duas glicoses"
+        ]
+      }
+    },
+    {
+      "id": "digestao_q014",
+      "slide_id": "digestao",
+      "slide_nome": "220826 - Carboidratos: Digestão",
+      "arquivo_origem": "220826 - Carboidratos Digestão_260916_152501.pdf",
+      "numero": 14,
+      "tema": "Digestão de Carboidratos",
+      "subtema": "Enzimas da Borda em Escova (Dissacaridases)",
+      "enunciado": "Além da maltase, a superfície epitelial do intestino delgado apresenta outras enzimas responsáveis por quebrar oligossacarídeos e dissacarídeos em monossacarídeos. Quais são essas enzimas e seus respectivos substratos citados no material?",
+      "alternativas": {
+        "A": "Ptialina sobre amido; e pepsina sobre proteínas.",
+        "B": "Sacarase (atua sobre sacarose), lactase (atua sobre lactose) e isomaltase (atua sobre isomaltose).",
+        "C": "Celulase sobre fibras; e lipase sobre lipídeos.",
+        "D": "Glucagon sobre glicogênio; e insulina sobre glicose."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: ptialina atua na boca sobre o amido, e pepsina é uma protease gástrica, não uma dissacaridase da borda em escova.",
+        "B": "Correta: na superfície epitelial intestinal encontram-se sacarase, lactase e isomaltase, atuando na hidrólise de sacarose, lactose e isomaltose até monossacarídeos.",
+        "C": "Incorreta: humanos não produzem celulase, e a lipase atua em lipídeos, não sendo a dissacaridase descrita no tópico de carboidratos.",
+        "D": "Incorreta: insulina e glucagon são hormônios pancreáticos reguladores da glicemia, não enzimas digestivas luminais."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Digestão dos Carboidratos no Intestino Delgado"
+        ],
+        "fundamentacao": "Slide / Digestão dos Carboidratos no Intestino Delgado.",
+        "trechos_apoio": [
+          "Nessa superfície epitelial há as enzimas: SACARASE, LACTASE (FORNECE GLICOSE) E ISOMALTASE que atuam na quebra até chegar aos monossacarídeos dos seguintes substratos: SACAROSE, LACTOSE, ISOMALTOSE"
+        ]
+      }
+    },
+    {
+      "id": "digestao_q015",
+      "slide_id": "digestao",
+      "slide_nome": "220826 - Carboidratos: Digestão",
+      "arquivo_origem": "220826 - Carboidratos Digestão_260916_152501.pdf",
+      "numero": 15,
+      "tema": "Digestão e Absorção de Carboidratos",
+      "subtema": "Características e Função dos Enterócitos",
+      "enunciado": "Os enterócitos são as células epiteliais que revestem a mucosa do intestino delgado e realizam a absorção dos nutrientes digeridos. De acordo com a apostila, qual é o papel estrutural de suas microvilosidades apicais?",
+      "alternativas": {
+        "A": "Sintetizar insulina para secreção direta na luz intestinal.",
+        "B": "Aumentar a área da superfície luminal da célula de 14 a 40 vezes.",
+        "C": "Produzir ácido clorídrico para reduzir o pH duodenal a valores próximos de zero.",
+        "D": "Bloquear a entrada de qualquer monossacarídeo na circulação portal."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a insulina é sintetizada e secretada pelas células beta do pâncreas endócrino, não pelos enterócitos.",
+        "B": "Correta: as microvilosidades apicais dos enterócitos aumentam a área de superfície luminal de 14 a 40 vezes, otimizando a absorção intestinal.",
+        "C": "Incorreta: o ácido clorídrico é secretado pelas células do estômago, enquanto o duodeno recebe secreções para neutralizar a acidez.",
+        "D": "Incorreta: os enterócitos são justamente as células de absorção que captam os monossacarídeos para envio ao fígado pela veia porta hepática."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Enterócitos"
+        ],
+        "fundamentacao": "Slide / Enterócitos.",
+        "trechos_apoio": [
+          "São CÉLULAS EPITELIAIS diferenciadas com MICROVILOSIDADES apicais direcionadas para o lúmen intestinal. CÉLULAS DE ABSORÇÃO que revestem a MUCOSA INTESTINAL. Suas microvilosidades aumentam a área da superfície luminal da célula de 14 a 40 vezes"
+        ]
+      }
+    },
+    {
+      "id": "digestao_q016",
+      "slide_id": "digestao",
+      "slide_nome": "220826 - Carboidratos: Digestão",
+      "arquivo_origem": "220826 - Carboidratos Digestão_260916_152501.pdf",
+      "numero": 16,
+      "tema": "Absorção de Carboidratos",
+      "subtema": "Mecanismos de Transporte dos Monossacarídeos",
+      "enunciado": "Uma vez finalizada a hidrólise enzimática dos carboidratos no duodeno, os monossacarídeos resultantes precisam atravessar o epitélio intestinal. Conforme o resumo do trato digestório na apostila, por quais mecanismos os monossacarídeos são absorvidos pelas células intestinais?",
+      "alternativas": {
+        "A": "Por meio de transporte ativo ou difusão simples.",
+        "B": "Exclusivamente por osmose reversa através da camada muscular.",
+        "C": "Unicamente por endocitose mediada por vesículas de clatrina.",
+        "D": "Por filtração passiva impulsionada pela pressão hidrostática gástrica."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: o esquema da apostila destaca que os monossacarídeos são absorvidos pelas células intestinais por meio de transporte ativo ou difusão simples.",
+        "B": "Incorreta: a absorção não ocorre por osmose reversa muscular, mas sim através da membrana apical e basolateral dos enterócitos.",
+        "C": "Incorreta: monossacarídeos são moléculas pequenas transportadas por carreadores de membrana (transporte ativo/difusão), e não por endocitose de macromoléculas.",
+        "D": "Incorreta: o mecanismo de transporte intestinal não se baseia em filtração gástrica, mas sim em transporte transmembrana nos enterócitos."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Digestão dos Carboidratos (Infográfico anatômico)"
+        ],
+        "fundamentacao": "Slide / Digestão dos Carboidratos (Infográfico anatômico).",
+        "trechos_apoio": [
+          "Os monossacarídeos são absorvidos pelas células intestinais por meio de transporte ativo ou difusão simples"
+        ]
+      }
+    },
+    {
+      "id": "digestao_q017",
+      "slide_id": "digestao",
+      "slide_nome": "220826 - Carboidratos: Digestão",
+      "arquivo_origem": "220826 - Carboidratos Digestão_260916_152501.pdf",
+      "numero": 17,
+      "tema": "Metabolismo de Carboidratos",
+      "subtema": "Destino da Glicose Absorvida em Excesso",
+      "enunciado": "Após a refeição e a absorção intestinal, a glicose atinge a circulação e os tecidos. Segundo o esquema da apostila sobre o excesso de glicose, quais são as duas principais formas de destino/armazenamento desse nutriente no organismo?",
+      "alternativas": {
+        "A": "Conversão direta em celulose vegetal e quitina.",
+        "B": "Glicogênio (muscular ou hepático) e gordura.",
+        "C": "Eliminação fecal direta e degradação em amônia.",
+        "D": "Síntese de amido e formação de ácido clorídrico gástrico."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: celulose e quitina são polissacarídeos estruturais de plantas e artrópodes/fungos, não sendo formados no armazenamento humano.",
+        "B": "Correta: de acordo com o esquema da apostila, o excesso de glicose é armazenado na forma de glicogênio (muscular ou hepático) ou estocado como gordura.",
+        "C": "Incorreta: a glicose absorvida não é destinada à eliminação fecal nem se degrada em amônia (amônia é resíduo do metabolismo nitrogenado de aminoácidos).",
+        "D": "Incorreta: o organismo animal não sintetiza amido (reserva vegetal), estocando energia como glicogênio e gordura."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Glicose em Excesso"
+        ],
+        "fundamentacao": "Slide / Glicose em Excesso.",
+        "trechos_apoio": [
+          "Glicose em excesso → Glicogênio (muscular ou hepático) / Gordura"
+        ]
+      }
+    },
+    {
+      "id": "digestao_q018",
+      "slide_id": "digestao",
+      "slide_nome": "220826 - Carboidratos: Digestão",
+      "arquivo_origem": "220826 - Carboidratos Digestão_260916_152501.pdf",
+      "numero": 18,
+      "tema": "Metabolismo de Carboidratos",
+      "subtema": "Estimativa de Estoques de Carboidratos no Organismo",
+      "enunciado": "Na tabela da apostila sobre a \"Estimativa de estoques de carboidratos no organismo\" (para um adulto sedentário), são comparadas as reservas de glicose sanguínea, glicogênio hepático e glicogênio muscular. Qual dessas fontes apresenta a maior quantidade de energia armazenada (em gramas e calorias)?",
+      "alternativas": {
+        "A": "A glicose sanguínea (5 g; 20 calorias).",
+        "B": "O glicogênio hepático (75 a 100 g; 300 a 400 calorias).",
+        "C": "O glicogênio muscular (300 a 400 g; 1.200 a 1.600 calorias).",
+        "D": "Todas as três fontes possuem exatamente a mesma capacidade calórica (500 calorias cada)."
+      },
+      "gabarito": "C",
+      "explicacoes": {
+        "A": "Incorreta: a glicose sanguínea representa o menor compartimento livre imediato (5 g e 20 calorias).",
+        "B": "Incorreta: embora seja uma reserva fundamental para manter a glicemia, o glicogênio hepático possui entre 75 e 100 g (300 a 400 calorias), valor inferior ao muscular.",
+        "C": "Correta: a maior reserva corporal de carboidratos está no músculo, totalizando 300 a 400 gramas e correspondendo a 1.200 a 1.600 calorias.",
+        "D": "Incorreta: os estoques são quantitativamente diferentes entre sangue, fígado e músculo."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Estimativa de Estoques de Carboidratos no Organismo"
+        ],
+        "fundamentacao": "Slide / Estimativa de Estoques de Carboidratos no Organismo.",
+        "trechos_apoio": [
+          "Glicose sanguínea: 5 g (20 cal) / Glicogênio hepático: 75 a 100 g (300 a 400 cal) / Glicogênio muscular: 300 a 400 g (1.200 a 1.600 cal)"
+        ]
+      }
+    },
+    {
+      "id": "digestao_q019",
+      "slide_id": "digestao",
+      "slide_nome": "220826 - Carboidratos: Digestão",
+      "arquivo_origem": "220826 - Carboidratos Digestão_260916_152501.pdf",
+      "numero": 19,
+      "tema": "Metabolismo de Carboidratos",
+      "subtema": "Vias Metabólicas (Glicogênese, Glicogenólise e Gliconeogênese)",
+      "enunciado": "O metabolismo dos carboidratos envolve diferentes vias de síntese e degradação de acordo com as necessidades energéticas. Assinale a alternativa que define corretamente os processos de glicogênese e glicogenólise apresentados na apostila:",
+      "alternativas": {
+        "A": "Glicogênese é a quebra do glicogênio em piruvato; glicogenólise é a síntese de glicose a partir de aminoácidos.",
+        "B": "Glicogênese é a síntese de glicogênio a partir de glicose; glicogenólise é o processo que converte o glicogênio em glicose.",
+        "C": "Glicogênese é a fermentação do lactato em etanol; glicogenólise é a absorção intestinal de frutose.",
+        "D": "Glicogênese e glicogenólise são termos sinônimos que descrevem a quebra anaeróbica da glicose no citosol."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a síntese a partir de aminoácidos e compostos não glicídicos chama-se gliconeogênese, e não glicogenólise.",
+        "B": "Correta: a glicogênese é conceituada como a síntese de glicose em glicogênio, e a glicogenólise é o processo que converte o glicogênio em glicose.",
+        "C": "Incorreta: fermentação láctica/alcoólica e absorção de monossacarídeos não correspondem aos conceitos de glicogênese ou glicogenólise.",
+        "D": "Incorreta: não são sinônimos; são vias de sentidos opostos (síntese e degradação do polímero de glicogênio)."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Vias do Metabolismo dos Carboidratos"
+        ],
+        "fundamentacao": "Slide / Vias do Metabolismo dos Carboidratos.",
+        "trechos_apoio": [
+          "Glicogênese: síntese de glicose em glicogênio / Glicogenólise: processo que converte o glicogênio em glicose"
+        ]
+      }
+    },
+    {
+      "id": "digestao_q020",
+      "slide_id": "digestao",
+      "slide_nome": "220826 - Carboidratos: Digestão",
+      "arquivo_origem": "220826 - Carboidratos Digestão_260916_152501.pdf",
+      "numero": 20,
+      "tema": "Metabolismo de Carboidratos",
+      "subtema": "Conceito de Gliconeogênese e Papel do Fígado",
+      "enunciado": "Em períodos de jejum ou demanda metabólica, o organismo pode sintetizar nova glicose por meio da gliconeogênese. De acordo com as definições da apostila, a gliconeogênese caracteriza-se pela:",
+      "alternativas": {
+        "A": "Formação de glicose a partir de substâncias que não são carboidratos, tais como aminoácidos, glicerol, piruvato e lactato levados ao fígado.",
+        "B": "Quebra imediata do glicogênio muscular para liberação de glicose livre na corrente sanguínea.",
+        "C": "Conversão de glicose sanguínea em triglicerídeos no tecido adiposo sem participação do fígado.",
+        "D": "Ligação de frutose e galactose para a síntese exclusiva de amido vegetal."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: a gliconeogênese consiste na formação de glicose a partir de outras substâncias (aminoácidos, glicerol, piruvato, lactato), processo no qual o fígado pode reconverter produtos da decomposição em glicose.",
+        "B": "Incorreta: a quebra de glicogênio é a glicogenólise, e o glicogênio muscular não libera glicose para o sangue (essa função cabe ao fígado).",
+        "C": "Incorreta: a conversão em lipídeos constitui lipogênese a partir do excesso, e não a rota de gliconeogênese.",
+        "D": "Incorreta: a síntese de amido é vegetal e não faz parte da gliconeogênese humana."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Vias do Metabolismo dos Carboidratos - Fígado"
+        ],
+        "fundamentacao": "Slide / Vias do Metabolismo dos Carboidratos - Fígado.",
+        "trechos_apoio": [
+          "Gliconeogênese: formação de glicose a partir de outras substâncias (aminoácidos, glicerol, piruvato, lactato)... Os produtos da decomposição de gorduras, proteínas e outras substâncias podem ser levados ao fígado pelo sangue para a reconversão em glicose"
+        ]
+      }
+    },
+    {
+      "id": "digestao_q021",
+      "slide_id": "digestao",
+      "slide_nome": "220826 - Carboidratos: Digestão",
+      "arquivo_origem": "220826 - Carboidratos Digestão_260916_152501.pdf",
+      "numero": 21,
+      "tema": "Controle Hormonal da Glicemia",
+      "subtema": "Origem e Função da Insulina",
+      "enunciado": "A insulina é o principal hormônio hipoglicemiante do organismo. De acordo com o material didático, onde ela é sintetizada e qual estímulo desencadeia sua liberação na circulação?",
+      "alternativas": {
+        "A": "Sintetizada pela medula adrenal durante episódios agudos de estresse físico.",
+        "B": "Produzida pelas células alfa do pâncreas quando os níveis de glicose no sangue diminuem drasticamente.",
+        "C": "Sintetizada no pâncreas pelas células beta, sendo liberada quando a concentração de glicose sanguínea se encontra elevada.",
+        "D": "Produzida pelos enterócitos intestinais em resposta exclusiva à ingestão de celulose e fibras insolúveis."
+      },
+      "gabarito": "C",
+      "explicacoes": {
+        "A": "Incorreta: o hormônio produzido pela medula adrenal em situações de estresse é a adrenalina, e não a insulina.",
+        "B": "Incorreta: as células alfa pancreáticas produzem glucagon em resposta ao jejum/hipoglicemia; a insulina é sintetizada pelas células beta.",
+        "C": "Correta: a insulina é sintetizada pelas células beta do pâncreas e sua liberação ocorre quando a concentração de glicose no sangue se eleva.",
+        "D": "Incorreta: enterócitos realizam digestão final e absorção de nutrientes, não secretando insulina."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Controle Hormonal das Vias Glicolíticas - Insulina"
+        ],
+        "fundamentacao": "Slide / Controle Hormonal das Vias Glicolíticas - Insulina.",
+        "trechos_apoio": [
+          "Sintetizado pelo pâncreas (células betas)... A insulina é libertada pelo pâncreas quando a concentração de glicose no sangue é elevada. A insulina estimula a entrada de glicose no músculo"
+        ]
+      }
+    },
+    {
+      "id": "digestao_q022",
+      "slide_id": "digestao",
+      "slide_nome": "220826 - Carboidratos: Digestão",
+      "arquivo_origem": "220826 - Carboidratos Digestão_260916_152501.pdf",
+      "numero": 22,
+      "tema": "Controle Hormonal da Glicemia",
+      "subtema": "Efeito do Glucagon no Fígado",
+      "enunciado": "Em contraposição à insulina, o glucagon atua na manutenção dos níveis de glicose durante períodos de carência energética. Conforme a tabela sobre o controle da glicemia apresentada na apostila, qual é o efeito primário do glucagon no fígado?",
+      "alternativas": {
+        "A": "Estimular o transporte de glicose para o interior das células adiposas.",
+        "B": "Estimular a glicogenólise e a gliconeogênese no fígado.",
+        "C": "Inibir a quebra do glicogênio e acelerar a síntese de amido.",
+        "D": "Reduzir a concentração de glicose plasmática por excreção biliar direta."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: quem facilita a captação de glicose para os tecidos periféricos (como o adiposo) é a insulina, não o glucagon.",
+        "B": "Correta: o glucagon atua no fígado estimulando a quebra de glicogênio (glicogenólise) e a produção de nova glicose (gliconeogênese).",
+        "C": "Incorreta: o glucagon ativa a quebra do glicogênio (glicogenólise), e o organismo animal não produz amido.",
+        "D": "Incorreta: o papel do glucagon é hiperglicemiante (elevar a glicose no sangue), e não excretar glicose pela bile."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Função dos Hormônios no Controle da Glicemia"
+        ],
+        "fundamentacao": "Slide / Função dos Hormônios no Controle da Glicemia.",
+        "trechos_apoio": [
+          "Glucagon: Estimula a glicogenólise e gliconeogênese no fígado"
+        ]
+      }
+    },
+    {
+      "id": "digestao_q023",
+      "slide_id": "digestao",
+      "slide_nome": "220826 - Carboidratos: Digestão",
+      "arquivo_origem": "220826 - Carboidratos Digestão_260916_152501.pdf",
+      "numero": 23,
+      "tema": "Controle Hormonal da Glicemia",
+      "subtema": "Ação da Adrenalina no Metabolismo dos Carboidratos",
+      "enunciado": "Em condições de alerta ou exercício físico vigoroso, a adrenalina é secretada pelo organismo. Qual é a sua ação específica no metabolismo de carboidratos, conforme destacado no material didático?",
+      "alternativas": {
+        "A": "Provocar a quebra do glicogênio (glicogenólise) e a liberação de glicose pelo fígado.",
+        "B": "Bloquear de maneira irreversível todos os receptores celulares de insulina.",
+        "C": "Estimular os enterócitos a sintetizar dissacarídeos no duodeno.",
+        "D": "Reduzir o metabolismo basal e induzir a formação de glicogênio muscular."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: a adrenalina promove a degradação de glicogênio (glicogenólise) com liberação de glicose pelo fígado para circulação.",
+        "B": "Incorreta: a adrenalina não destrói nem bloqueia de forma irreversível os receptores insulínicos.",
+        "C": "Incorreta: enterócitos hidrolisam dissacarídeos e não sintetizam açúcares sob comando da adrenalina.",
+        "D": "Incorreta: a adrenalina mobiliza fontes energéticas para ação imediata, ativando a glicogenólise em vez de estocar glicogênio."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Função dos Hormônios no Controle da Glicemia"
+        ],
+        "fundamentacao": "Slide / Função dos Hormônios no Controle da Glicemia.",
+        "trechos_apoio": [
+          "Adrenalina: Quebra do glicogênio (glicogenólise) e liberação da glicose pelo fígado"
+        ]
+      }
+    },
+    {
+      "id": "digestao_q024",
+      "slide_id": "digestao",
+      "slide_nome": "220826 - Carboidratos: Digestão",
+      "arquivo_origem": "220826 - Carboidratos Digestão_260916_152501.pdf",
+      "numero": 24,
+      "tema": "Controle Hormonal da Glicemia",
+      "subtema": "Função do Cortisol",
+      "enunciado": "O cortisol é outro hormônio envolvido no equilíbrio metabólico intermediário. Segundo o material didático, qual efeito metabólico direto é atribuído ao cortisol no controle da glicemia?",
+      "alternativas": {
+        "A": "Estímulo para a gliconeogênese a partir de proteínas.",
+        "B": "Aumento imediato da excreção renal de glicose.",
+        "C": "Degradação direta de amido na corrente sanguínea.",
+        "D": "Conversão exclusiva de glicose em frutose no miocárdio."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: o cortisol atua no controle da glicemia promovendo o estímulo para a gliconeogênese a partir de substratos proteicos (aminoácidos).",
+        "B": "Incorreta: a presença de glicose na urina (glicosúria) é manifestação de hiperglicemia acentuada que ultrapassa o limiar de reabsorção renal, e não efeito fisiológico programado do cortisol.",
+        "C": "Incorreta: não há amido circulando no sangue, pois ele é hidrolisado no trato gastrointestinal.",
+        "D": "Incorreta: o cortisol não atua catalisando a isomerização de glicose em frutose nas fibras miocárdicas."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Função dos Hormônios no Controle da Glicemia"
+        ],
+        "fundamentacao": "Slide / Função dos Hormônios no Controle da Glicemia.",
+        "trechos_apoio": [
+          "Cortisol: Estímulo para gliconeogênese a partir das proteínas"
+        ]
+      }
+    },
+    {
+      "id": "digestao_q025",
+      "slide_id": "digestao",
+      "slide_nome": "220826 - Carboidratos: Digestão",
+      "arquivo_origem": "220826 - Carboidratos Digestão_260916_152501.pdf",
+      "numero": 25,
+      "tema": "Mecanismo de Ação da Insulina",
+      "subtema": "Sinalização Celular e Translocação do GLUT4",
+      "enunciado": "O mecanismo pelo qual a insulina facilita o influxo de glicose para o interior de miócitos (células musculares) envolve uma cascata intracelular de sinalização. Com base nos esquemas da apostila, qual transportador é translocado para a membrana plasmática após a ligação da insulina ao seu receptor?",
+      "alternativas": {
+        "A": "GLUT1 apical enterocítico.",
+        "B": "GLUT4.",
+        "C": "ATPase bomba de sódio-potássio.",
+        "D": "Citocromo c mitocondrial."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o transportador dependente de insulina no músculo e no tecido adiposo esquematizado no material é o GLUT4, e não o GLUT1.",
+        "B": "Correta: a ligação da insulina ao seu receptor de membrana ativa uma cascata de eventos de sinalização que culmina na inserção/abertura dos transportadores de glicose GLUT4 na membrana celular.",
+        "C": "Incorreta: a bomba Na⁺/K⁺ ATPase é responsável pelo equilíbrio iônico de sódio e potássio, não pelo transporte facilitado de glicose estimulado por insulina.",
+        "D": "Incorreta: o citocromo c é um carreador de elétrons da cadeia respiratória mitocondrial, não participando da captação de glicose na membrana externa da célula."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Fisiologia Normal da Insulina / Atuação da Insulina na Célula"
+        ],
+        "fundamentacao": "Slide / Fisiologia Normal da Insulina / Atuação da Insulina na Célula.",
+        "trechos_apoio": [
+          "insulin receptors... inactive → active... GLUT4... signal transduction... glicose / receptor de insulina / GLUT 4 / Cascata de Eventos"
+        ]
+      }
+    },
+    {
+      "id": "digestao_q026",
+      "slide_id": "digestao",
+      "slide_nome": "220826 - Carboidratos: Digestão",
+      "arquivo_origem": "220826 - Carboidratos Digestão_260916_152501.pdf",
+      "numero": 26,
+      "tema": "Mecanismo de Ação da Insulina",
+      "subtema": "Tipo de Transporte da Glicose Mediado pela Insulina",
+      "enunciado": "Conforme ilustrado no esquema didático sobre a atuação da insulina na célula, após a ativação dos receptores e abertura dos transportadores de glicose, a entrada de glicose ocorre por qual processo biofísico de transporte de membrana?",
+      "alternativas": {
+        "A": "Transporte ativo primário acoplado diretamente à hidrólise de ATP celular.",
+        "B": "Difusão facilitada.",
+        "C": "Fagocitose por invaginação de vesículas lipídicas.",
+        "D": "Diapedese paracelular entre junções oclusivas."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o influxo ilustrado é mediado por carreadores específicos sem gasto direto de ATP por molécula carreada, caracterizando transporte passivo mediado.",
+        "B": "Correta: o infográfico da apostila indica textualmente que a passagem da glicose pelas proteínas transportadoras abertas para o interior da célula se dá por difusão facilitada.",
+        "C": "Incorreta: a captação de pequenas moléculas solúveis como a glicose não ocorre por fagocitose (que engloba partículas sólidas volumosas).",
+        "D": "Incorreta: diapedese é a passagem de leucócitos através das paredes capilares, não tendo relação com a captação intracelular de glicose."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Atuação da Insulina na Célula"
+        ],
+        "fundamentacao": "Slide / Atuação da Insulina na Célula.",
+        "trechos_apoio": [
+          "Transportador de glicose aberto... Insulina ligada ao receptor... Glicoses → Difusão Facilitada → Célula / Membrana Plasmática"
+        ]
+      }
+    },
+    {
+      "id": "digestao_q027",
+      "slide_id": "digestao",
+      "slide_nome": "220826 - Carboidratos: Digestão",
+      "arquivo_origem": "220826 - Carboidratos Digestão_260916_152501.pdf",
+      "numero": 27,
+      "tema": "Patologia do Metabolismo de Carboidratos",
+      "subtema": "Etiologia do Diabetes Tipo 1",
+      "enunciado": "O diabetes mellitus tipo 1 apresenta características fisiopatológicas e epidemiológicas bem estabelecidas. Conforme descrito na apostila, qual é a alteração primária causadora do Diabetes Tipo 1 e qual é o tratamento mandatório?",
+      "alternativas": {
+        "A": "Resistência periférica à insulina decorrente do sedentarismo, tratada exclusivamente com modificação dietética.",
+        "B": "Destruição das células que fabricam a insulina, de modo que o paciente sempre precisará utilizar insulina exógena.",
+        "C": "Hiperprodução descontrolada de glucagon estomacal, tratada com antibióticos específicos.",
+        "D": "Perda do transportador GLUT2 renal, tratada apenas com restrição hídrica rigorosa."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a resistência periférica à insulina associada a hábitos e sobrepeso caracteriza tipicamente o Diabetes Tipo 2.",
+        "B": "Correta: a apostila afirma que o Tipo 1 é causado pela destruição das células que produzem a insulina (antigamente chamado de infanto-juvenil), fazendo com que o paciente sempre necessite do uso de insulina.",
+        "C": "Incorreta: o estômago não produz glucagon e a patologia é endócrina pancreática, não sendo tratável por antibióticos.",
+        "D": "Incorreta: a causa basilar não é um defeito renal isolado de GLUT2, mas sim a destruição das células beta pancreáticas."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Diabetes Tipo 1"
+        ],
+        "fundamentacao": "Slide / Diabetes Tipo 1.",
+        "trechos_apoio": [
+          "Diabetes Tipo 1: antigamente chamado de infanto-juvenil... É causada por um defeito: destruição das células que fabricam a insulina... O paciente sempre usará a insulina"
+        ]
+      }
+    },
+    {
+      "id": "digestao_q028",
+      "slide_id": "digestao",
+      "slide_nome": "220826 - Carboidratos: Digestão",
+      "arquivo_origem": "220826 - Carboidratos Digestão_260916_152501.pdf",
+      "numero": 28,
+      "tema": "Patologia do Metabolismo de Carboidratos",
+      "subtema": "Fisiopatologia e Tratamento do Diabetes Tipo 2",
+      "enunciado": "Ao contrário do Tipo 1, o Diabetes Tipo 2 decorre de uma interação complexa entre fatores celulares e pancreáticos. Quais são os \"dois defeitos\" causadores do Diabetes Tipo 2 destacados na apostila?",
+      "alternativas": {
+        "A": "As células não dão muita permissão para o açúcar entrar (resistência) e o pâncreas se cansa de fabricar insulina.",
+        "B": "Destruição autoimune de todas as glândulas salivares e inativação congênita da amilase pancreática.",
+        "C": "Ausência congênita de receptores gustativos na boca e atrofia dos enterócitos duodenais.",
+        "D": "Excesso primário de lactase intestinal associado à hipoprodução de cortisol adrenal."
+      },
+      "gabarito": "A",
+      "explicacoes": {
+        "A": "Correta: a apostila define textualmente que o Diabetes Tipo 2 é causado por dois defeitos: as células periféricas diminuem a permissão de entrada do açúcar e o pâncreas sofre sobrecarga/cansaço na produção de insulina.",
+        "B": "Incorreta: a patologia não decorre da destruição de glândulas salivares nem da ausência congênita de amilase pancreática.",
+        "C": "Incorreta: receptores gustativos e atrofia de enterócitos não são os fatores determinantes do diabetes tipo 2.",
+        "D": "Incorreta: lactase e cortisol não representam a dupla de defeitos fisiopatológicos do diabetes descrita no texto."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Diabetes Tipo 2"
+        ],
+        "fundamentacao": "Slide / Diabetes Tipo 2.",
+        "trechos_apoio": [
+          "Diabetes Tipo 2: É causada por dois defeitos: as células não dão muita permissão para o açúcar entrar; o pâncreas se cansa de fabricar insulina. O paciente usará medicamento oral e/ou insulina"
+        ]
+      }
+    },
+    {
+      "id": "digestao_q029",
+      "slide_id": "digestao",
+      "slide_nome": "220826 - Carboidratos: Digestão",
+      "arquivo_origem": "220826 - Carboidratos Digestão_260916_152501.pdf",
+      "numero": 29,
+      "tema": "Patologia do Metabolismo de Carboidratos",
+      "subtema": "Fatores de Risco para Diabetes",
+      "enunciado": "O desenvolvimento do diabetes mellitus encontra-se correlacionado a condições clínicas e comportamentais específicas. Quais dos seguintes grupos e condições são apontados na apostila como fatores predisponentes ao aparecimento da doença?",
+      "alternativas": {
+        "A": "Atletas de alto rendimento, indivíduos com hipofosfatemia severa e crianças com intolerância transitória à frutose.",
+        "B": "Indivíduos acima do peso, sedentários (que não realizam atividade física) e pessoas que não têm alimentação adequada.",
+        "C": "Exclusivamente recém-nascidos sem histórico prévio materno e praticantes regulares de jejum intermitente.",
+        "D": "Pessoas que mantêm consumo elevado de alimentos ricos em celulose e fibras vegetais sem mastigação."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a prática regular de atividade física reduz o risco e atua de maneira protetora contra o diabetes tipo 2.",
+        "B": "Correta: a apostila lista explicitamente como fatores de risco: indivíduos acima do peso, falta de atividade física e alimentação inadequada (além de hipertensão, histórico de diabetes gestacional e idade superior a 40 anos).",
+        "C": "Incorreta: a doença atinge predominantemente crianças e adultos com perfis clínicos e ambientais específicos, e não exclusivamente recém-nascidos sem histórico materno.",
+        "D": "Incorreta: fibras e celulose não são fatores indutores de diabetes, auxiliando a regulação e o trânsito intestinal."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Fatores de Risco do Diabetes"
+        ],
+        "fundamentacao": "Slide / Fatores de Risco do Diabetes.",
+        "trechos_apoio": [
+          "O diabetes pode aparecer em crianças e em adultos que: estão acima do peso, não fazem atividade física, não têm uma alimentação adequada... pode aparecer também em: quem tem pressão alta, quem teve diabetes na gravidez, maiores de 40 anos"
+        ]
+      }
+    },
+    {
+      "id": "digestao_q030",
+      "slide_id": "digestao",
+      "slide_nome": "220826 - Carboidratos: Digestão",
+      "arquivo_origem": "220826 - Carboidratos Digestão_260916_152501.pdf",
+      "numero": 30,
+      "tema": "Patologia do Metabolismo de Carboidratos",
+      "subtema": "Manifestações Clínicas e Sintomas Clássicos do Diabetes",
+      "enunciado": "O quadro de hiperglicemia persistente no diabetes produz sintomas metabólicos e urinários característicos. Dentre os sintomas listados no material didático, como são designados, respectivamente, o aumento da frequência urinária, a sede excessiva e a fome excessiva?",
+      "alternativas": {
+        "A": "Anúria, oligodipsia e disfagia.",
+        "B": "Poliúria, polidipsia e polifagia.",
+        "C": "Hematúria, cianose e apnéia.",
+        "D": "Glicosúria, sonolência e hipotensão ortostática."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: anúria é a ausência de urina, oligodipsia é pouca sede e disfagia é dificuldade para deglutir.",
+        "B": "Correta: a tríade sintomática clássica listada no material corresponde a: poliúria (aumento da frequência urinária), polidipsia (sede excessiva) e polifagia (fome excessiva).",
+        "C": "Incorreta: hematúria é sangue na urina, e cianose/apnéia são sinais cardiorrespiratórios não pertencentes à tríade de ingestão/excreção do diabetes.",
+        "D": "Incorreta: embora a glicosúria e a sonolência ocorram no diabetes, os termos técnicos para micção frequente, sede aumentada e fome excessiva são poliúria, polidipsia e polifagia."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Sintomas do Diabetes"
+        ],
+        "fundamentacao": "Slide / Sintomas do Diabetes.",
+        "trechos_apoio": [
+          "SINTOMAS DO DIABETES: Poliúria (aumento da frequência urinária), Polidipsia (sede excessiva), Polifagia (fome excessiva), Hiperglicemia (elevação da glicose no sangue), Glicosúria (presença de glicose na urina)"
+        ]
+      }
+    },
+    {
+      "id": "digestao_q031",
+      "slide_id": "digestao",
+      "slide_nome": "220826 - Carboidratos: Digestão",
+      "arquivo_origem": "220826 - Carboidratos Digestão_260916_152501.pdf",
+      "numero": 31,
+      "tema": "Metabolismo Energético",
+      "subtema": "Estrutura e Função da Molécula de ATP",
+      "enunciado": "O trifosfato de adenosina (ATP) é considerado o transportador universal de energia metabólica celular. Em relação à constituição estrutural do ATP descrita na apostila, quais componentes formam essa molécula?",
+      "alternativas": {
+        "A": "Três anéis de glicose unidos a um grupamento amina terminal.",
+        "B": "Uma base nitrogenada adenina, um açúcar ribose e três grupos fosfato.",
+        "C": "Uma base nitrogenada uracila ligada a desoxirribose e dois fosfatos inorgânicos.",
+        "D": "Um ácido graxo de cadeia longa esterificado a uma molécula de colesterol."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o ATP não é composto por polímeros de glicose, mas sim por nucleotídeo contendo base nitrogenada, pentose e fosfatos.",
+        "B": "Correta: a apostila esquematiza a molécula de ATP como constituída pela base adenina, pelo monossacarídeo ribose e por três grupos fosfato.",
+        "C": "Incorreta: o ATP contém adenina (e não uracila) e o açúcar presente é a ribose, e não a desoxirribose.",
+        "D": "Incorreta: ácidos graxos e colesterol integram a classe dos lipídeos, não compondo a molécula de ATP."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / ATP – Adenosina Trifosfato"
+        ],
+        "fundamentacao": "Slide / ATP – Adenosina Trifosfato.",
+        "trechos_apoio": [
+          "ATP TRANSPORTADOR UNIVERSAL DE ENERGIA METABÓLICA... Adenina, Ribose, Grupos fosfato"
+        ]
+      }
+    },
+    {
+      "id": "digestao_q032",
+      "slide_id": "digestao",
+      "slide_nome": "220826 - Carboidratos: Digestão",
+      "arquivo_origem": "220826 - Carboidratos Digestão_260916_152501.pdf",
+      "numero": 32,
+      "tema": "Metabolismo Energético",
+      "subtema": "Conversão de ATP em ADP e Catálise pela ATPase",
+      "enunciado": "Para a realização imediata de trabalho biológico celular, o ATP precisa disponibilizar sua energia química armazenada. Como ocorre esse fornecimento energético e qual enzima catalisa essa reação, de acordo com o material didático?",
+      "alternativas": {
+        "A": "Por condensação de fosfatos catalisada pela amilase salivar.",
+        "B": "Pela hidrólise do grupo fosfato terminal, reação catalisada pela enzima ATPase que converte ATP em ADP e fosfato inorgânico.",
+        "C": "Pela oxidação mitocondrial direta da ribose sem alteração do número de fosfatos.",
+        "D": "Pela clivagem exclusiva do anel de adenina pela enzima maltase intestinal."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a liberação de energia ocorre por hidrólise (quebra com água) e a amilase atua sobre o amido, não sobre o ATP.",
+        "B": "Correta: o ATP fornece energia rapidamente através da hidrólise do grupo fosfato terminal catalisada pela enzima ATPase, gerando ADP, fosfato inorgânico (Pi) e energia livre.",
+        "C": "Incorreta: a remoção do fosfato terminal é o mecanismo de liberação de energia, e não a destruição do açúcar ribose.",
+        "D": "Incorreta: a maltase hidrolisa maltose no intestino delgado e não atua sobre nucleotídeos de adenina."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Conversão do ATP em ADP"
+        ],
+        "fundamentacao": "Slide / Conversão do ATP em ADP.",
+        "trechos_apoio": [
+          "O ATP fornece energia rapidamente para a célula através hidrólise do grupo fosfato terminal. Esta reação é catalizada pela enzima ATPase. Fornecido a energia para o trabalho celular, o ATP será convertido em ADP (Adenosina difosfato)"
+        ]
+      }
+    },
+    {
+      "id": "digestao_q033",
+      "slide_id": "digestao",
+      "slide_nome": "220826 - Carboidratos: Digestão",
+      "arquivo_origem": "220826 - Carboidratos Digestão_260916_152501.pdf",
+      "numero": 33,
+      "tema": "Metabolismo Energético / Respiração Celular",
+      "subtema": "Etapas da Degradação e Formação de ATP",
+      "enunciado": "O catabolismo aeróbico dos carboidratos compreende vias integradas para a completa oxidação da matéria orgânica. Quais são as três etapas fundamentais do metabolismo energético citadas no resumo da apostila?",
+      "alternativas": {
+        "A": "Glicogênese, fermentação alcoólica e ciclo da ureia.",
+        "B": "Glicólise, Ciclo de Krebs e Fosforilação Oxidativa (Cadeia Respiratória).",
+        "C": "Digestão bucal, emulsificação biliar e absorção enterocítica.",
+        "D": "Lipogênese, gliconeogênese e proteólise muscular."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: glicogênese é via anabólica de reserva e o ciclo da ureia elimina amônia, não constituindo a tríade da respiração celular.",
+        "B": "Correta: a apostila lista expressamente como vias do metabolismo energético: Glicólise, Ciclo de Krebs e Fosforilação Oxidativa (Cadeia Respiratória).",
+        "C": "Incorreta: digestão e emulsificação são processos gastrointestinais preparatórios de quebra e absorção, e não as vias metabólicas intracelulares de geração de ATP.",
+        "D": "Incorreta: lipogênese e gliconeogênese são vias sintéticas, e não as fases sequenciais clássicas da respiração aeróbica."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Vias do Metabolismo Energético / Etapas da Respiração Celular"
+        ],
+        "fundamentacao": "Slide / Vias do Metabolismo Energético / Etapas da Respiração Celular.",
+        "trechos_apoio": [
+          "VIAS DO METABOLISMO ENERGÉTICO: GLICÓLISE, CICLO DE KREBS, FOSFORILAÇÃO OXIDATIVA. A energia libertada nestes processos será armazenada na célula sob a forma de ATP"
+        ]
+      }
+    },
+    {
+      "id": "digestao_q034",
+      "slide_id": "digestao",
+      "slide_nome": "220826 - Carboidratos: Digestão",
+      "arquivo_origem": "220826 - Carboidratos Digestão_260916_152501.pdf",
+      "numero": 34,
+      "tema": "Glicólise",
+      "subtema": "Localização Celular e Saldo Energético Líquido",
+      "enunciado": "A glicólise é a via citosólica na qual a molécula de glicose (6 carbonos) é convertida em duas moléculas de piruvato (3 carbonos). Qual é o gasto de ATP, a produção bruta e o saldo energético líquido de ATP dessa via?",
+      "alternativas": {
+        "A": "Gasta 4 ATP, produz 2 ATP e apresenta saldo negativo de 2 ATP.",
+        "B": "Gasta 2 ATP, produz 4 ATP e apresenta um saldo energético positivo de 2 ATP.",
+        "C": "Não consome nenhum ATP e produz diretamente 38 ATP no citosol.",
+        "D": "Consome 10 ATP e produz apenas 1 ATP na presença obrigatória de oxigênio."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: inverte o gasto e a produção; a célula consome 2 ATP na fase preparatória e gera 4 ATP na fase de pagamento.",
+        "B": "Correta: para a glicólise acontecer a célula gasta 2 ATP (durante a reação) e produz 4 ATP, resultando em um saldo energético positivo de 2 ATP.",
+        "C": "Incorreta: a fase de investimento/preparatória requer o consumo de 2 ATP, e o rendimento total de 36 a 38 ATP depende da mitocôndria.",
+        "D": "Incorreta: a via glicolítica consome 2 ATP e ocorre no citosol independentemente da presença direta de oxigênio."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Glicólise Anaeróbica"
+        ],
+        "fundamentacao": "Slide / Glicólise Anaeróbica.",
+        "trechos_apoio": [
+          "A célula gasta 2 ATP (durante a reação) e produz 4 ATP. Portanto, a glicólise apresenta um saldo energético positivo de 2 ATP... Na glicólise entra uma molécula de GLICOSE com 6 carbonos e sai 2 moléculas de piruvato de 3 carbonos"
+        ]
+      }
+    },
+    {
+      "id": "digestao_q035",
+      "slide_id": "digestao",
+      "slide_nome": "220826 - Carboidratos: Digestão",
+      "arquivo_origem": "220826 - Carboidratos Digestão_260916_152501.pdf",
+      "numero": 35,
+      "tema": "Regulação da Glicólise",
+      "subtema": "Papel Regulador da Enzima Fosfofrutoquinase (PFK)",
+      "enunciado": "O fluxo de metabólitos ao longo da via glicolítica é estritamente regulado por enzimas-chave. Segundo o material didático, qual é a principal enzima no controle da via glicolítica e como os níveis de ATP influenciam sua atividade?",
+      "alternativas": {
+        "A": "A amilase salivar, que é ativada por excesso de glicose fecal.",
+        "B": "A fosfofrutoquinase, cuja atividade é inibida por altos níveis de ATP celular.",
+        "C": "A lactase, que é bloqueada de forma irreversível por frutose-6-fosfato.",
+        "D": "A glicogênio sintase, ativada exclusivamente por pH ácido gástrico."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a amilase salivar atua na digestão alimentar na boca, e não na regulação da glicólise citosólica.",
+        "B": "Correta: a fosfofrutoquinase é a principal enzima no controle da via glicolítica e altos níveis de ATP exercem inibição sobre ela (enquanto AMP, ADP e frutose-6-fosfato a estimulam).",
+        "C": "Incorreta: a lactase atua na digestão intestinal de lactose na borda em escova, não participando da via glicolítica intracelular.",
+        "D": "Incorreta: a glicogênio sintase participa da via de glicogênese, não sendo a enzima marcapasso da via glicolítica descrita."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Fosfofrutoquinase"
+        ],
+        "fundamentacao": "Slide / Fosfofrutoquinase.",
+        "trechos_apoio": [
+          "Fosfofrutoquinase - Principal enzima no controle da via glicolítica. Altos níveis de ATP exercem inibição desta enzima. É estimulada por frutose-6-fosfato, AMP e ADP"
+        ]
+      }
+    },
+    {
+      "id": "digestao_q036",
+      "slide_id": "digestao",
+      "slide_nome": "220826 - Carboidratos: Digestão",
+      "arquivo_origem": "220826 - Carboidratos Digestão_260916_152501.pdf",
+      "numero": 36,
+      "tema": "Destinos do Piruvato",
+      "subtema": "Fermentação Láctica e Regeneração do NAD⁺",
+      "enunciado": "Em condições anaeróbicas (ausência de oxigênio suficiente ou em células desprovidas de mitocôndrias, como as hemácias), o piruvato é reduzido a lactato. Qual é a principal finalidade metabólica dessa conversão para a célula?",
+      "alternativas": {
+        "A": "Gerar oxigênio molecular livre para a respiração peroxissômica.",
+        "B": "Permitir a regeneração de NAD⁺, possibilitando que a glicólise continue funcionando.",
+        "C": "Sintetizar sacarose para armazenamento na membrana plasmática.",
+        "D": "Inibir permanentemente a enzima lactato desidrogenase para evitar acidez."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a fermentação não sintetiza oxigênio molecular livre; ela consome NADH e regenera NAD⁺.",
+        "B": "Correta: a conversão anaeróbica do piruvato a lactato tem como função crucial a regeneração do NAD⁺, que é necessário para manter a continuidade das etapas oxidativas da glicólise.",
+        "C": "Incorreta: sacarose é dissacarídeo vegetal e não é produto do metabolismo anaeróbico animal.",
+        "D": "Incorreta: a enzima atua catalisando a redução do piruvato, e não inibindo a via para reter o substrato."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Primeiro Destino do Piruvato / Conversão Anaeróbica do Piruvato a Lactato"
+        ],
+        "fundamentacao": "Slide / Primeiro Destino do Piruvato / Conversão Anaeróbica do Piruvato a Lactato.",
+        "trechos_apoio": [
+          "Conversão do piruvato em lactato (através da fermentação láctica). Regeneração do NAD (que é necessário para continuar a glicólise... PERMITE A REGENERAÇÃO DE NAD+"
+        ]
+      }
+    },
+    {
+      "id": "digestao_q037",
+      "slide_id": "digestao",
+      "slide_nome": "220826 - Carboidratos: Digestão",
+      "arquivo_origem": "220826 - Carboidratos Digestão_260916_152501.pdf",
+      "numero": 37,
+      "tema": "Destinos do Piruvato / Transição Mitocondrial",
+      "subtema": "Descarboxilação Oxidativa e Formação de Acetil-CoA",
+      "enunciado": "Em condições aeróbicas, as moléculas de piruvato entram na mitocôndria para prosseguir com a oxidação. Essa etapa preparatória envolve a conversão do piruvato em qual composto e com liberação de qual gás?",
+      "alternativas": {
+        "A": "Conversão em glicogênio, com liberação de monóxido de carbono.",
+        "B": "Conversão em Acetil-CoA pelo complexo piruvato desidrogenase, com liberação de CO₂ e formação de NADH.",
+        "C": "Conversão direta em maltose livre, consumindo gás nitrogênio atmosférico.",
+        "D": "Redução irreversível a oxaloacetato sem perda de átomos de carbono."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a mitocôndria não converte piruvato em glicogênio e o gás eliminado na respiração é o dióxido de carbono (CO₂).",
+        "B": "Correta: o complexo enzimático piruvato desidrogenase oxida e descarboxila o piruvato até Acetil-CoA, liberando CO₂ e formando NADH.",
+        "C": "Incorreta: maltose é um dissacarídeo alimentar hidrolisado no trato digestório e o metabolismo mitocondrial não consome nitrogênio molecular gasoso.",
+        "D": "Incorreta: a conversão em Acetil-CoA é uma descarboxilação (perde 1 carbono de 3C para 2C na forma de CO₂)."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Conversão do Piruvato em Acetil CoA"
+        ],
+        "fundamentacao": "Slide / Conversão do Piruvato em Acetil CoA.",
+        "trechos_apoio": [
+          "Complexo enzimático piruvato deidrogenase... Reações consecutivas de descarboxilação e desidrogenação do piruvato até Acetil CoA... Piruvato (3C) + Coenzima A + NAD⁺ → Acetil-Coenzima A (2C) + CO₂ + NADH"
+        ]
+      }
+    },
+    {
+      "id": "digestao_q038",
+      "slide_id": "digestao",
+      "slide_nome": "220826 - Carboidratos: Digestão",
+      "arquivo_origem": "220826 - Carboidratos Digestão_260916_152501.pdf",
+      "numero": 38,
+      "tema": "Ciclo de Krebs",
+      "subtema": "Localização e Produtos Formados por Molécula de Piruvato",
+      "enunciado": "O Ciclo de Krebs (ou ciclo do ácido cítrico) ocorre no interior da matriz mitocondrial. Conforme indicado no resumo da apostila, quais produtos energéticos e carreadores reduzidos são formados no Ciclo de Krebs a partir de cada molécula de ácido pirúvico?",
+      "alternativas": {
+        "A": "10 ATP, 5 FADH₂ e 0 NADH.",
+        "B": "3 NADH₂, 1 FADH₂ e 1 ATP (ou GTP).",
+        "C": "1 glicose, 2 lactatos e 4 oxigênios livres.",
+        "D": "Exclusivamente 38 moléculas de ATP sem formação de cofatores."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: os valores de rendimento por piruvato no ciclo são menores e geram predominantemente NADH.",
+        "B": "Correta: a apostila destaca que os produtos formados no ciclo de Krebs por cada ácido pirúvico são: 3 NADH₂, 1 FADH₂ e 1 ATP (que duplicam ao considerar as duas moléculas de piruvato por glicose).",
+        "C": "Incorreta: o ciclo oxida carbonos a CO₂, não gerando glicose nem lactato na matriz mitocondrial.",
+        "D": "Incorreta: a síntese direta de ATP no ciclo de Krebs ao nível do substrato é de apenas 1 por volta (2 por glicose); os 36–38 dependem da cadeia respiratória."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Produtos Formados no Ciclo de Krebs por cada Ácido Pirúvico"
+        ],
+        "fundamentacao": "Slide / Produtos Formados no Ciclo de Krebs por cada Ácido Pirúvico.",
+        "trechos_apoio": [
+          "PRODUTOS FORMADOS NO CICLO DE KREBS POR CADA ÁCIDO PIRÚVICO: 3 NADH₂, 1 FADH₂, 1 ATP. COMO SÃO 2 MOLÉCULAS DE ÁCIDO PIRÚVICO, O RESULTADO FINAL É: 6 NADH₂, 2 FADH₂, 2 ATP"
+        ]
+      }
+    },
+    {
+      "id": "digestao_q039",
+      "slide_id": "digestao",
+      "slide_nome": "220826 - Carboidratos: Digestão",
+      "arquivo_origem": "220826 - Carboidratos Digestão_260916_152501.pdf",
+      "numero": 39,
+      "tema": "Cadeia Respiratória e Fosforilação Oxidativa",
+      "subtema": "Localização e Função dos Citocromos",
+      "enunciado": "A etapa final da respiração celular corresponde à fosforilação oxidativa. De acordo com o material didático, onde ocorre a cadeia respiratória e qual é a função das proteínas conhecidas como citocromos?",
+      "alternativas": {
+        "A": "Ocorre no hialoplasma e os citocromos sintetizam ribose a partir de aminoácidos.",
+        "B": "Ocorre nas cristas mitocondriais e os citocromos têm a função de transportar os elétrons, liberando energia gradativamente para a síntese de ATP.",
+        "C": "Ocorre no lúmen do retículo endoplasmático rugoso e os citocromos quebram a frutose em amido.",
+        "D": "Ocorre nos lisossomos e os citocromos neutralizam o pH ácido celular."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: a cadeia respiratória localiza-se na membrana interna mitocondrial (cristas), não dispersa no citosol/hialoplasma.",
+        "B": "Correta: essa fase ocorre nas cristas mitocondriais, onde os citocromos transportam os elétrons dos hidrogênios, liberando energia gradativamente para a formação de ATP até a redução do oxigênio em água.",
+        "C": "Incorreta: o retículo endoplasmático não é a sede da cadeia transportadora de elétrons oxidativa.",
+        "D": "Incorreta: os lisossomos realizam digestão intracelular autofágica/heterofágica, não sendo o compartimento da fosforilação oxidativa."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Cadeia Respiratória"
+        ],
+        "fundamentacao": "Slide / Cadeia Respiratória.",
+        "trechos_apoio": [
+          "Essa fase ocorre nas cristas mitocondriais... Citocromos (são proteínas presentes na cadeia transportadora), que tem a função de transportar elétrons dos hidrogênios. À medida que os elétrons passam pela cadeia de citocromos, liberam energia gradativamente. Essa energia é empregada na síntese de ATP"
+        ]
+      }
+    },
+    {
+      "id": "digestao_q040",
+      "slide_id": "digestao",
+      "slide_nome": "220826 - Carboidratos: Digestão",
+      "arquivo_origem": "220826 - Carboidratos Digestão_260916_152501.pdf",
+      "numero": 40,
+      "tema": "Cadeia Respiratória e Bioenergética",
+      "subtema": "Sistemas de Lançadeiras e Rendimento Energético Total",
+      "enunciado": "O NADH gerado no citoplasma durante a glicólise precisa transferir seus equivalentes redutores para o interior mitocondrial através de sistemas de lançadeiras. Quais são as duas lançadeiras citadas na apostila e qual é o rendimento total teórico de ATP na oxidação aeróbica completa da glicose?",
+      "alternativas": {
+        "A": "Lançadeira de Citocromo P450 e Lançadeira de Insulina; gerando 100 ATPs.",
+        "B": "Lançadeiras Aspartato-Malato e Glicerol-Fosfato; gerando uma quantidade de energia liberada suficiente para formar entre 36 e 39 moléculas de ATP.",
+        "C": "Lançadeira de Amilase e Lançadeira de Ptialina; formando apenas 2 ATPs totais.",
+        "D": "Lançadeira de Galactose e Lançadeira de Frutose; sem capacidade de gerar ATP."
+      },
+      "gabarito": "B",
+      "explicacoes": {
+        "A": "Incorreta: o citocromo P450 atua no metabolismo de xenobióticos e a insulina é um hormônio, não sendo lançadeiras de elétrons mitocondriais.",
+        "B": "Correta: a apostila descreve os dois sistemas de lançadeira: Aspartato-Malato (AM) e Glicerol-Fosfato (GP), destacando que o processo completo da respiração celular forma entre 36 e 39 moléculas de ATP (dependendo da lançadeira utilizada e se o substrato inicial foi glicose ou glicogênio).",
+        "C": "Incorreta: amilase e ptialina são enzimas digestivas luminais de carboidratos, não sistemas de transporte eletrônico mitocondrial.",
+        "D": "Incorreta: frutose e galactose são hexoses da dieta, não vias carreadoras de elétrons para a cadeia respiratória."
+      },
+      "referencia": {
+        "paginas": [
+          "Slide / Sistema Lançadeiras / Saldo Energético do Sistema Glicolítico Aeróbico / Cadeia Respiratória"
+        ],
+        "fundamentacao": "Slide / Sistema Lançadeiras / Saldo Energético do Sistema Glicolítico Aeróbico / Cadeia Respiratória.",
+        "trechos_apoio": [
+          "SISTEMA LANÇADEIRA: ASPARTATO MALATO (AM) / GLICEROL FOSFATO (GP)... A quantidade de energia liberada nesse processo é suficiente para formar de 36 a 39 de moléculas de ATP"
+        ]
+      }
+    }
+  ]
+}
